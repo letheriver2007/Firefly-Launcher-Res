@@ -229,6 +229,14 @@
     "UseMultipleMax": 1,
     "IsAutoUse": true
   },
+  "300021": {
+    "UseDataID": 300021,
+    "UseParam": [
+      130000
+    ],
+    "UseMultipleMax": 1,
+    "IsAutoUse": true
+  },
   "300031": {
     "UseDataID": 300031,
     "UseParam": [
@@ -332,6 +340,13 @@
     ],
     "UseMultipleMax": 1
   },
+  "300202": {
+    "UseDataID": 300202,
+    "UseParam": [
+      1400000
+    ],
+    "UseMultipleMax": 1
+  },
   "310007": {
     "UseDataID": 310007,
     "UseParam": [
@@ -415,6 +430,21 @@
       1300011,
       1300012,
       1300013
+    ],
+    "UseMultipleMax": 1,
+    "IsAutoUse": true
+  },
+  "309003": {
+    "UseDataID": 309003,
+    "UseParam": [
+      1300028,
+      1300021,
+      1300022,
+      1300023,
+      1300024,
+      1300025,
+      1300026,
+      1300027
     ],
     "UseMultipleMax": 1,
     "IsAutoUse": true

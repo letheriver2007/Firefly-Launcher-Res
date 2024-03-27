@@ -123,7 +123,8 @@
           "CharacterUniqueName": {
             "Value": "Bird"
           },
-          "AnimStateName": "FlyBack"
+          "AnimStateName": "FlyBack",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.WaitSecond",

@@ -14,26 +14,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -96,
-      -75
-    ],
-    "LowerUpperBounds": {
-      "x": 11,
-      "y": 12
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -96,
-      -75
-    ],
-    "LowerUpperBounds": {
-      "x": 11,
-      "y": 12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -43,8 +23,7 @@
       "PosY": 22.077,
       "PosZ": -149.622,
       "Name": "Anchor1",
-      "RotY": 270.0,
-      "MapLayerID": 3
+      "RotY": 270.0
     }
   ],
   "MonsterList": [
@@ -69,7 +48,6 @@
       "EventID": 101215,
       "PurposeType": "FarmElement",
       "FarmElementID": 1115,
-      "MapLayerID": 3,
       "BoardShowList": [
         4
       ],
@@ -109,7 +87,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 3,
       "CustomTriggerMap": {
         "CustomTrigger_DetectPlayer": {
           "Radius": 18.0,

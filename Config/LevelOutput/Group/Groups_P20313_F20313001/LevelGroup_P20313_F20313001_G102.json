@@ -9,26 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      16,
-      210
-    ],
-    "LowerUpperBounds": {
-      "x": 94,
-      "y": 95
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      16,
-      210
-    ],
-    "LowerUpperBounds": {
-      "x": 94,
-      "y": 95
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -52,7 +32,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313025,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

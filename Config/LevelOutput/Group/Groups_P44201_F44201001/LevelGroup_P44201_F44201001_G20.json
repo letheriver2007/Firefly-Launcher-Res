@@ -33,7 +33,6 @@
       "Name": "Anchor1",
       "RotY": 110.0,
       "RotX": 15.0,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -44,7 +43,6 @@
       "Name": "Anchor2",
       "RotY": 60.0,
       "RotX": 15.00001,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -53,8 +51,7 @@
       "PosY": 3.29358,
       "PosZ": 40.09549,
       "Name": "Anchor3",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 4,
@@ -62,8 +59,7 @@
       "PosY": 4.290185,
       "PosZ": -37.04901,
       "Name": "Anchor4",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 5,
@@ -71,8 +67,7 @@
       "PosY": 8.357327,
       "PosZ": 4.47,
       "Name": "Anchor5",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -104,7 +99,6 @@
         "DimZ": 10.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

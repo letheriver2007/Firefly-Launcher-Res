@@ -9,20 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -54,
-      -7
-    ],
-    "LowerUpperBounds": {
-      "x": 206,
-      "y": 207
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -57,7 +43,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "TriggerDisappear": {

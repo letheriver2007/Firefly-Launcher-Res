@@ -15,7 +15,6 @@
       "PosZ": -5.2,
       "Name": "Anchor1",
       "RotY": 13.64434,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     }
@@ -75,7 +74,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -92,7 +90,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

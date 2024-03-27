@@ -60,7 +60,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 41221001,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -85,7 +84,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 41221002,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -109,7 +107,6 @@
         "ID": 1
       },
       "EventID": 41221003,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -185,7 +182,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -217,7 +213,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -244,7 +239,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

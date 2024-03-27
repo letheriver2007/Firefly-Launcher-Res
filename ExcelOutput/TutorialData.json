@@ -913,6 +913,81 @@
     ],
     "FinishTriggerParams": []
   },
+  "4027": {
+    "TutorialID": 4027,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_4027.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "4027"
+      }
+    ],
+    "FinishTriggerParams": [
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "4028"
+      }
+    ]
+  },
+  "4028": {
+    "TutorialID": 4028,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_4028.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "LightConeSellPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "4030": {
+    "TutorialID": 4030,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_4030.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "103110103"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "4031": {
+    "TutorialID": 4031,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_4031.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "4031"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "4032": {
+    "TutorialID": 4032,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_4032.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "4032"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
   "5001": {
     "TutorialID": 5001,
     "Priority": 10,
@@ -2512,8 +2587,12 @@
     "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5134.json",
     "TriggerParams": [
       {
-        "TriggerType": "TaskUnlock",
-        "TriggerParam": "5134"
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802030501"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityTelevisionDetailPage"
       }
     ],
     "FinishTriggerParams": []
@@ -2584,6 +2663,648 @@
     "CanInterrupt": true,
     "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5143.json",
     "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5144": {
+    "TutorialID": 5144,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5144.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5144"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5145": {
+    "TutorialID": 5145,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5145.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5145"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5150": {
+    "TutorialID": 5150,
+    "Priority": 10,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5150.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802110001"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerBartendMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5151": {
+    "TutorialID": 5151,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5151.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerMainEntrancePage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5152": {
+    "TutorialID": 5152,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5152.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5152"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5153": {
+    "TutorialID": 5153,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5153.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5153"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5154": {
+    "TutorialID": 5154,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5154.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerWorkBookPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5155": {
+    "TutorialID": 5155,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5155.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802110202"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerMenuSelectPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5156": {
+    "TutorialID": 5156,
+    "Priority": 10,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5156.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802110209"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerBartendMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5157": {
+    "TutorialID": 5157,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5157.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5157"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerWorkBookPage"
+      },
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "5153"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5158": {
+    "TutorialID": 5158,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5158.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5158"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5159": {
+    "TutorialID": 5159,
+    "Priority": 10,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5159.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802110102"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerBartendMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5160": {
+    "TutorialID": 5160,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5160.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TakeSubMission",
+        "TriggerParam": "802110202"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerMainEntrancePage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5161": {
+    "TutorialID": 5161,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5161.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5161"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5162": {
+    "TutorialID": 5162,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5162.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "FinishMainMission",
+        "TriggerParam": "8021106"
+      },
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "DrinkMakerMainEntrancePage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5172": {
+    "TutorialID": 5172,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5172.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyJackpotMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5173": {
+    "TutorialID": 5173,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5173.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5174": {
+    "TutorialID": 5174,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5174.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyMiniGameGachaAPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5175": {
+    "TutorialID": 5175,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5175.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5175"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5176": {
+    "TutorialID": 5176,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5176.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5176"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5177": {
+    "TutorialID": 5177,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5177.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5177"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5178": {
+    "TutorialID": 5178,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5178.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5178"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5179": {
+    "TutorialID": 5179,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5179.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyMiniGameGachaBPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5180": {
+    "TutorialID": 5180,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5180.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5180"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5181": {
+    "TutorialID": 5181,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5181.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5181"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5182": {
+    "TutorialID": 5182,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5182.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyMainPage"
+      },
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "5185"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5183": {
+    "TutorialID": 5183,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5183.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityMonopolyMainPage"
+      },
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "5181"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5184": {
+    "TutorialID": 5184,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5184.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5184"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5185": {
+    "TutorialID": 5185,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5185.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5185"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5186": {
+    "TutorialID": 5186,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5186.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5186"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5187": {
+    "TutorialID": 5187,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5187.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5188": {
+    "TutorialID": 5188,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5188.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5188"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5189": {
+    "TutorialID": 5189,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5189.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5189"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5190": {
+    "TutorialID": 5190,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5190.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "ShowUIContext",
+        "TriggerParam": "ActivityFeverTimeMainPage"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5191": {
+    "TutorialID": 5191,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5191.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattleByStageType",
+        "TriggerParam": "26"
+      },
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "5193"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5192": {
+    "TutorialID": 5192,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5192.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattleByStageType",
+        "TriggerParam": "26"
+      },
+      {
+        "TriggerType": "TutorialFinish",
+        "TriggerParam": "5191"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5193": {
+    "TutorialID": 5193,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5193.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "EnterBattleByStageType",
+        "TriggerParam": "26"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5194": {
+    "TutorialID": 5194,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5194.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5195": {
+    "TutorialID": 5195,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5195.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5196": {
+    "TutorialID": 5196,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5196.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5197": {
+    "TutorialID": 5197,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5197.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5198": {
+    "TutorialID": 5198,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5198.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5199": {
+    "TutorialID": 5199,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5199.json",
+    "TriggerParams": [],
+    "FinishTriggerParams": []
+  },
+  "5200": {
+    "TutorialID": 5200,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5200.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5200"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5201": {
+    "TutorialID": 5201,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5201.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5201"
+      }
+    ],
+    "FinishTriggerParams": []
+  },
+  "5202": {
+    "TutorialID": 5202,
+    "Priority": 10,
+    "RestoreType": "AutoFinish",
+    "CanInterrupt": true,
+    "TutorialJsonPath": "Config/Level/Tutorial/Tutorial_5202.json",
+    "TriggerParams": [
+      {
+        "TriggerType": "TaskUnlock",
+        "TriggerParam": "5202"
+      }
+    ],
     "FinishTriggerParams": []
   },
   "7001": {

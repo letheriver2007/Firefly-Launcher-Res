@@ -8,30 +8,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      2,
-      -5,
-      3,
-      -4,
-      3,
-      -11,
-      4,
-      -7,
-      6,
-      -6,
-      6
-    ],
-    "LowerUpperBounds": {
-      "x": 5,
-      "y": 6
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +16,7 @@
       "PosY": 1.876387,
       "PosZ": 9.36,
       "Name": "Anchor1",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -65,7 +40,6 @@
       },
       "CampID": 4,
       "State": "CustomState01",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -87,7 +61,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -106,7 +79,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -125,7 +97,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -144,7 +115,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -163,7 +133,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -182,7 +151,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

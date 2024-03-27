@@ -9,30 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      19,
-      106,
-      18,
-      107
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      19,
-      106,
-      18,
-      107
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -51,7 +27,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020210,
@@ -79,7 +54,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010295,
@@ -103,7 +77,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,
@@ -127,7 +100,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,

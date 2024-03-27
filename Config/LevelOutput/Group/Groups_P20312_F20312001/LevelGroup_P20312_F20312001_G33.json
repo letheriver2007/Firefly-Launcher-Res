@@ -11,24 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -94,
-      -79,
-      -83,
-      -70,
-      -94,
-      -67
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 3
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -44,7 +26,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -67,7 +48,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -91,7 +71,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_Out.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

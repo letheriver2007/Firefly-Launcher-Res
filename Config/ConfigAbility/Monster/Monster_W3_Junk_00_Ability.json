@@ -16,7 +16,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Junk_00/Eff_Monster_W3_Junk_00_BeingHit.prefab"
                 },
                 {
@@ -26,6 +25,10 @@
                     "PredicateList": [
                       {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "Normal",
                           "BPSkill",
@@ -1230,29 +1233,26 @@
           },
           "TaskList": [
             {
-              "$type": "RPG.GameCore.DamageByAttackProperty",
+              "$type": "RPG.GameCore.ResetStance",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "AttackProperty": {
-                "DamageType": "Quantum",
-                "FormulaType": "ByMaxHP",
-                "StanceValue": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": 1000
-                  }
-                },
-                "StanceDamageType": "AllType",
-                "AttackType": "Level"
-              },
-              "TriggerHitSound": true
+              "ConstantValue": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.TriggerBreak",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ParamEntity"
+              }
             }
           ]
-        },
-        {
-          "$type": "RPG.GameCore.DamagePerformFinish"
         },
         {
           "$type": "RPG.GameCore.WaitSecond",
@@ -1423,6 +1423,10 @@
                 "PredicateList": [
                   {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
                     "AttackTypes": [
                       "Normal",
                       "BPSkill",

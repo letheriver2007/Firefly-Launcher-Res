@@ -23,7 +23,9 @@
     "DelayToLevelReload": true
   },
   "OwnerMainMissionID": 4040242,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -34,8 +36,10 @@
       "RotY": 47.22231,
       "RotX": 32.87497,
       "RotZ": 325.7185,
-      "MapLayerID": 2,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 2,
@@ -43,8 +47,7 @@
       "PosY": 45.7426,
       "PosZ": -41.881,
       "Name": "Anchor2",
-      "RotY": 359.1359,
-      "MapLayerID": 2
+      "RotY": 359.1359
     },
     {
       "ID": 3,
@@ -52,8 +55,10 @@
       "PosY": 45.548,
       "PosZ": -41.905,
       "Name": "Anchor3",
-      "MapLayerID": 2,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -69,11 +74,11 @@
       "NPCID": 1209,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312110000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400002,
@@ -85,11 +90,11 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010237,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     }
   ]
 }

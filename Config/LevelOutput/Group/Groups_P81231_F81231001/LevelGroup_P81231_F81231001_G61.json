@@ -9,30 +9,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -25,
-      30,
-      -24,
-      30,
-      -23,
-      33,
-      -20,
-      37,
-      -16,
-      38,
-      -16,
-      41
-    ],
-    "LowerUpperBounds": {
-      "x": 195,
-      "y": 196
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +16,7 @@
       "PosX": -46.808,
       "PosY": 18.03093,
       "PosZ": 56.259,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -64,7 +39,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -93,7 +67,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -116,7 +89,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -136,7 +108,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -156,7 +127,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -176,7 +146,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -196,7 +165,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -216,7 +184,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -13,6 +13,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_Ball1_M.prefab"
                 },
                 {
@@ -21,6 +22,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_L.prefab"
                 },
                 {
@@ -29,6 +31,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_R.prefab"
                 }
               ]
@@ -81,6 +84,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_Ball1_M.prefab"
                 },
                 {
@@ -89,6 +93,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_L.prefab"
                 },
                 {
@@ -97,6 +102,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_R.prefab"
                 }
               ]

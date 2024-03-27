@@ -20,26 +20,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      16,
-      234,
-      12,
-      236,
-      14,
-      250,
-      13,
-      257
-    ],
-    "LowerUpperBounds": {
-      "x": 83,
-      "y": 98
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -52,7 +32,6 @@
       "RotY": 39.38977,
       "RotX": 49.65667,
       "RotZ": 1.8E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -68,7 +47,6 @@
       "RotY": 39.38977,
       "RotX": 49.65667,
       "RotZ": 1.8E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -80,8 +58,7 @@
       "PosX": 53.9,
       "PosY": 155.4,
       "PosZ": 420.8,
-      "Name": "quickstart",
-      "MapLayerID": 1
+      "Name": "quickstart"
     },
     {
       "ID": 4,
@@ -92,7 +69,6 @@
       "RotY": 39.38977,
       "RotX": 49.65667,
       "RotZ": 1.8E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -103,7 +79,6 @@
       "ID": 5,
       "PosZ": 20.0,
       "Name": "Case3_SwipeCam",
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -114,8 +89,7 @@
       "PosX": 32.96579,
       "PosY": 180.5089,
       "PosZ": 513.7433,
-      "Name": "Case3_StreamingSource1",
-      "MapLayerID": 1
+      "Name": "Case3_StreamingSource1"
     }
   ],
   "MonsterList": [],
@@ -160,7 +134,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -213,7 +186,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -240,7 +212,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -303,7 +274,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -436,7 +406,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -464,7 +433,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -489,7 +457,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20313001/LG_Prop_F20313001_G16_300007.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -515,7 +482,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

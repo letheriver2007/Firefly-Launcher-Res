@@ -13,8 +13,7 @@
       "PosY": 77.01636,
       "PosZ": 96.05997,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [
@@ -35,7 +34,6 @@
         "ID": 1
       },
       "EventID": 40003206,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -58,7 +56,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -81,7 +78,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

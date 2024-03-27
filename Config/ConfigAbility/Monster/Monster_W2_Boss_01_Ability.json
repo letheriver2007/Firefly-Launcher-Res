@@ -1203,7 +1203,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Svarog_00/Eff_W1_Svarog_00_Skill03_Teleport01.prefab"
         },
         {
@@ -2689,7 +2688,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Svarog_00/Eff_W1_Svarog_00_Skill03_Teleport01.prefab"
         },
         {
@@ -3990,7 +3988,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Skill04_01.prefab"
             }
           ]
@@ -4110,7 +4107,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
             },
             {
@@ -4280,7 +4276,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "AliveOnly": true,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab"
             },

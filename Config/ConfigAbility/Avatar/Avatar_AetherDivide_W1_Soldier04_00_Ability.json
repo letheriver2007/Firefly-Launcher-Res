@@ -512,7 +512,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_03/Eff_Monster_W1_Soldier01_03_Skill03_01.prefab",
           "MinMutexTime": -1
         },
@@ -738,7 +737,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier04_00/Eff_Monster_W1_Soldier04_00_Skill02_Loop02_Start.prefab"
                 },
                 {
@@ -854,7 +852,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
             },
             {

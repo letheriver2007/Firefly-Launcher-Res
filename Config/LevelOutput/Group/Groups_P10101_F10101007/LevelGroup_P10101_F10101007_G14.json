@@ -31,16 +31,14 @@
       "PosY": -2.0E-6,
       "PosZ": 8.86,
       "Name": "Anchor1",
-      "RotY": 284.3454,
-      "MapLayerID": 1
+      "RotY": 284.3454
     },
     {
       "ID": 2,
       "PosX": -0.313,
       "PosY": 1.04,
       "PosZ": 10.499,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -60,7 +58,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

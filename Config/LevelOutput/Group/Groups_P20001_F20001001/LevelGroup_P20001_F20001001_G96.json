@@ -46,8 +46,7 @@
       "PosX": -3.72,
       "PosY": 0.147002,
       "PosZ": 122.65,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -68,7 +67,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -93,7 +91,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -116,7 +113,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -140,7 +136,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -163,7 +158,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -188,7 +182,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -209,7 +202,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Talk03",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -229,7 +221,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo02Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -249,7 +240,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Distress01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -267,7 +257,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

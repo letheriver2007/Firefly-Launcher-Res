@@ -342,6 +342,21 @@
                       "ModifierName": "Modifier_Servant_AllGeneration"
                     }
                   ]
+                },
+                {
+                  "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
+                  "ReadTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ValueType": "LifeTime",
+                  "Multiplier": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 1
+                    }
+                  },
+                  "DynamicKey": "LifeTimeCheck"
                 }
               ]
             },
@@ -434,12 +449,60 @@
                   }
                 }
               ]
+            },
+            {
+              "Event": "OnAfterSkillUse",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.SetDynamicValue",
+                  "DynamicKey": "LifeTimeCheck",
+                  "Value": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAAAAMK",
+                      "FixedValues": [
+                        {
+                          "Value": 1
+                        }
+                      ],
+                      "DynamicHashes": [
+                        -1721207295
+                      ]
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "LifeTimeCheck",
+                    "CompareType": "Equal",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
+                    }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "Modifier_Avatar_HeliobusActionAbilityFormChange_Enemy"
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "DynamicValues": {
             "Values": {
               "-179396060": {},
-              "57470051": {}
+              "57470051": {},
+              "-1721207295": {}
             }
           }
         },
@@ -507,7 +570,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Air_Debuff.prefab",
           "PositionOffset": {
             "X": 0,
@@ -536,7 +598,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Ground_Debuff.prefab"
         },
         {
@@ -694,7 +755,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_00/Eff_Monster_XP_Minion04_00_Common_Maze_SpecialAppear.prefab",
                   "AudioSwitchGroup": "Battle_Buff",
                   "AudioSwitchName": "QuXieShu"
@@ -1041,7 +1101,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetSummoner"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_00/Eff_Monster_XP_Minion04_00_Common_Maze_SpecialAppear.prefab"
             },
             {

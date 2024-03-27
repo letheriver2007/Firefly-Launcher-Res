@@ -13,7 +13,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "Flags": [
                     "Resident"
                   ],
@@ -26,7 +25,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion03_00/Eff_Monster_XP_Minion03_00_StandBy_Loop_02.prefab",
                   "AttachPoint": "Body"
                 }
@@ -101,7 +99,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion03_00/Eff_Monster_XP_Minion03_00_StandBy_Loop_02.prefab",
                   "AttachPoint": "Body"
                 }
@@ -513,7 +510,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Svarog_00/Eff_W1_Svarog_00_Skill03_Teleport01.prefab"
         },
         {
@@ -718,7 +714,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab"
         },
@@ -765,7 +760,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                 },
                 {

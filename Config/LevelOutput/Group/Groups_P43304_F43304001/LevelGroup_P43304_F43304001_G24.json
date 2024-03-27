@@ -10,27 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -57,
-      21
-    ],
-    "LowerUpperBounds": {
-      "x": -29,
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -46,7 +25,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -86,7 +64,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -104,12 +81,12 @@
   "NPCList": [
     {
       "ID": 400001,
+      "IsDelete": true,
       "Name": "ClockKid",
       "NPCID": 3102,
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900160000,

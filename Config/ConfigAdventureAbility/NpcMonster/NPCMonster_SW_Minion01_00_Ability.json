@@ -141,6 +141,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_00/Eff_Monster_SW_Minion01_00_Idle_MazeStandBy.prefab"
         }
       ]

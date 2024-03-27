@@ -1,29 +1,18 @@
 {
   "GroupGUID": "0b70dc25-266b-4848-a4ed-d0f8e2b03e01",
   "GroupName": "MainMission9020401_03",
-  "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G225",
+  "SavedValueCondition": {
+    "Conditions": [],
+    "Operation": "And"
+  },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 9020401,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      4
-    ],
-    "LowerUpperBounds": {
-      "x": 2045,
-      "y": 2046
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -35,7 +24,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -43,6 +31,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

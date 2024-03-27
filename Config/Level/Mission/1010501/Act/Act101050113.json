@@ -313,7 +313,8 @@
           "CharacterUniqueName": {
             "Value": "StoryPlayer"
           },
-          "AnimStateName": "UseProp1"
+          "AnimStateName": "UseProp1",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.WaitSecond",

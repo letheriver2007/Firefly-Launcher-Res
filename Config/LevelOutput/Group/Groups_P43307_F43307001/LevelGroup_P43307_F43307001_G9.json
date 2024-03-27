@@ -42,28 +42,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      128,
-      -184,
-      133,
-      -183,
-      131,
-      -180,
-      126,
-      -178,
-      131,
-      -178
-    ],
-    "LowerUpperBounds": {
-      "x": 16,
-      "y": 17
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -97,8 +75,7 @@
     },
     {
       "ID": 3,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],

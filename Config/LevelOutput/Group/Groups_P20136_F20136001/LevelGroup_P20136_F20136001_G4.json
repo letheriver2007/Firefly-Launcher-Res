@@ -13,16 +13,14 @@
       "PosX": -14.76,
       "PosY": 5.574,
       "PosZ": 88.992,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -14.76,
       "PosY": -24.6,
       "PosZ": 88.992,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -30,8 +28,7 @@
       "PosY": 10.79595,
       "PosZ": 58.60694,
       "Name": "Anchor3",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -104,7 +101,6 @@
         "PointList": []
       },
       "State": "Elevator2",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -131,7 +127,6 @@
           }
         ]
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -158,7 +153,6 @@
           }
         ]
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -175,7 +169,6 @@
       "PropID": 301005,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -205,7 +198,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -233,7 +225,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -258,7 +249,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -349,7 +339,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Radius": 20.0,
@@ -401,7 +390,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

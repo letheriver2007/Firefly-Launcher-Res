@@ -406,7 +406,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_Start01.prefab"
         },
         {
@@ -425,7 +424,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_begin2.prefab"
         },
         {
@@ -482,7 +480,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_burst.prefab"
         },
         {
@@ -491,7 +488,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetAndAdjoinEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
         },
         {
@@ -895,7 +891,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill03_Buff.prefab"
         },
         {
@@ -904,7 +899,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill03_Buff02.prefab"
         },
         {
@@ -913,7 +907,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
         },
         {
@@ -1941,7 +1934,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab"
                 },
                 {
@@ -2428,7 +2420,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
             },
             {
@@ -2463,7 +2454,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                 }
               ]
@@ -2604,7 +2594,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
                 },
                 {
@@ -2639,7 +2628,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]
@@ -2762,7 +2750,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
                 },
                 {
@@ -2797,7 +2784,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]
@@ -2938,7 +2924,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
                     },
                     {
@@ -2973,7 +2958,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "Caster"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                         }
                       ]
@@ -3471,6 +3455,7 @@
                   "OwnerAliveState": "Mask_AliveOrLimbo",
                   "TargetAliveState": "Mask_AliveOrLimbo",
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": true,

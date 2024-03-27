@@ -9,21 +9,8 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      79,
-      -70
-    ],
-    "LowerUpperBounds": {
-      "x": 14,
-      "y": 15
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -44,13 +31,45 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 51.5,
+      "PosY": -19.50999,
+      "PosZ": -546.07,
+      "Name": "Prop2",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {
+        "MissionTrigger": {
+          "Radius": 35.0,
+          "PointList": []
+        }
+      },
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
     }
   ],
   "NPCList": []

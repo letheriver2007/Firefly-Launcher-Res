@@ -25,8 +25,7 @@
       "PosX": -0.406,
       "PosY": 0.672002,
       "PosZ": -16.386,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -37,7 +36,6 @@
       "RotY": 4.319096,
       "RotX": 24.61816,
       "RotZ": 0.068451,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -59,7 +57,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

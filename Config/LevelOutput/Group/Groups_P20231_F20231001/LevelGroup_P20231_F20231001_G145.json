@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P20231_F20231001_G145",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -27,13 +29,14 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231611,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -54,13 +57,14 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231612,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -81,13 +85,14 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231613,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300008,
@@ -108,13 +113,14 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231614,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

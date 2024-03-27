@@ -477,7 +477,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Boss_00/Eff_Monster_SW_Boss_Skill04_Ball_LoopSmall.prefab",
               "UniqueEffectName": "SummonBall00",
               "PositionOffset": {
@@ -567,7 +566,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_00/Eff_Monster_SW_Minion01_00_Body.prefab"
             },
             {
@@ -576,7 +574,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Boss_00/Eff_Monster_SW_Boss_Skill04_Ball_Appear.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -625,7 +622,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_00/Eff_Monster_SW_Minion01_00_Body.prefab"
             },
             {
@@ -634,7 +630,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Boss_00/Eff_Monster_SW_Boss_Skill04_Ball_Appear.prefab",
               "PositionOffset": {
                 "X": 0,

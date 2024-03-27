@@ -587,7 +587,7 @@
                         "$type": "RPG.GameCore.ByAttackType",
                         "TargetType": {
                           "$type": "RPG.GameCore.TargetAlias",
-                          "Alias": "ModifierOwnerEntity"
+                          "Alias": "ParamEntity"
                         },
                         "AttackTypes": [
                           "Insert"
@@ -657,7 +657,7 @@
                         "$type": "RPG.GameCore.ByAttackType",
                         "TargetType": {
                           "$type": "RPG.GameCore.TargetAlias",
-                          "Alias": "ModifierOwnerEntity"
+                          "Alias": "ParamEntity"
                         },
                         "AttackTypes": [
                           "Insert"
@@ -3101,7 +3101,7 @@
                         "$type": "RPG.GameCore.ByAttackType",
                         "TargetType": {
                           "$type": "RPG.GameCore.TargetAlias",
-                          "Alias": "ModifierOwnerEntity"
+                          "Alias": "ParamEntity"
                         },
                         "AttackTypes": [
                           "DOT"
@@ -3171,7 +3171,7 @@
                         "$type": "RPG.GameCore.ByAttackType",
                         "TargetType": {
                           "$type": "RPG.GameCore.TargetAlias",
-                          "Alias": "ModifierOwnerEntity"
+                          "Alias": "ParamEntity"
                         },
                         "AttackTypes": [
                           "DOT"

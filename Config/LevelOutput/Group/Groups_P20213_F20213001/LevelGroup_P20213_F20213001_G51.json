@@ -12,8 +12,7 @@
       "PosY": 0.820667,
       "PosZ": 72.6,
       "Name": "Anchor1",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -168,7 +167,6 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
@@ -272,7 +270,6 @@
       "NPCID": 12244,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,

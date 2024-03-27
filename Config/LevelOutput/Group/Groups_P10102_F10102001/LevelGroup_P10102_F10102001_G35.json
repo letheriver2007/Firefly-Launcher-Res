@@ -38,8 +38,7 @@
       "PosY": 4.663049,
       "PosZ": -17.77,
       "Name": "Anchor1",
-      "RotY": 292.6888,
-      "MapLayerID": 1
+      "RotY": 292.6888
     },
     {
       "ID": 2,
@@ -47,8 +46,7 @@
       "PosY": 4.570308,
       "PosZ": -16.92,
       "Name": "Anchor2",
-      "RotY": 262.5124,
-      "MapLayerID": 1
+      "RotY": 262.5124
     },
     {
       "ID": 3,
@@ -56,16 +54,14 @@
       "PosY": 4.48274,
       "PosZ": 49.89,
       "Name": "Anchor3",
-      "RotY": 268.2609,
-      "MapLayerID": 1
+      "RotY": 268.2609
     },
     {
       "ID": 4,
       "PosX": -59.95,
       "PosY": 5.743,
       "PosZ": -16.89,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -87,7 +83,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -110,7 +105,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -133,7 +127,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -156,7 +149,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -187,7 +179,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -206,7 +197,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -227,7 +217,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         1,
@@ -260,7 +249,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -282,7 +270,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

@@ -12,16 +12,14 @@
       "PosY": 4.824,
       "PosZ": -155.84,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 2
+      "RotY": 90.0
     },
     {
       "ID": 2,
       "PosX": 0.4,
       "PosY": 12.79,
       "PosZ": 2.11,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -29,8 +27,7 @@
       "PosY": 13.76,
       "PosZ": -59.12,
       "Name": "Anchor3",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -38,8 +35,7 @@
       "PosY": 0.684959,
       "PosZ": 93.95,
       "Name": "Anchor4",
-      "RotY": 45.0,
-      "MapLayerID": 1
+      "RotY": 45.0
     }
   ],
   "MonsterList": [],
@@ -56,7 +52,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -87,7 +82,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",
@@ -123,7 +117,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",
@@ -160,7 +153,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",

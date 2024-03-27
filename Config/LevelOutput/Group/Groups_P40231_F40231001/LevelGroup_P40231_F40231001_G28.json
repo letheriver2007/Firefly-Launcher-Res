@@ -20,8 +20,7 @@
       "PosY": 44.01012,
       "PosZ": -1.01,
       "Name": "Anchor1",
-      "RotY": 313.6,
-      "MapLayerID": 2
+      "RotY": 313.6
     },
     {
       "ID": 2,
@@ -29,8 +28,7 @@
       "PosY": 43.96332,
       "PosZ": 13.23,
       "Name": "Anchor2",
-      "RotY": 223.4,
-      "MapLayerID": 2
+      "RotY": 223.4
     }
   ],
   "MonsterList": [],
@@ -54,7 +52,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -80,7 +77,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

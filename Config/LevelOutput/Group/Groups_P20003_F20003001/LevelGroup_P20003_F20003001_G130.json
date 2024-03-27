@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      144,
-      32,
-      138,
-      36,
-      137,
-      37,
-      138,
-      37,
-      138,
-      38,
-      128,
-      50
-    ],
-    "LowerUpperBounds": {
-      "x": 289,
-      "y": 301
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +16,7 @@
       "PosX": 270.07,
       "PosY": 79.92752,
       "PosZ": 80.59,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -120,7 +95,6 @@
       "PropID": 100057,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -141,7 +115,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -162,7 +135,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -190,7 +162,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -39,7 +39,6 @@
       "RotY": 195.57,
       "RotX": 13.99704,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -49,7 +48,6 @@
       "PosZ": -31.083,
       "Name": "Anchor2",
       "RotY": 212.8179,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -64,7 +62,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -80,7 +77,6 @@
       "PropID": 102051,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -98,7 +94,6 @@
       "NPCID": 12218,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -125,7 +120,6 @@
       "NPCID": 12270,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
@@ -145,7 +139,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -174,7 +167,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312110000,
@@ -194,7 +186,6 @@
       "NPCID": 1203,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312060000,

@@ -12,8 +12,7 @@
       "PosY": 46.56,
       "PosZ": -26.48,
       "Name": "ShipPos2",
-      "RotY": 270.0001,
-      "MapLayerID": 1
+      "RotY": 270.0001
     },
     {
       "ID": 2,
@@ -32,7 +31,6 @@
       "RotY": 145.0,
       "RotX": 9.999994,
       "RotZ": -1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -43,7 +41,6 @@
       "Name": "Cam2",
       "RotY": 90.0,
       "RotX": 355.0,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -52,8 +49,7 @@
       "PosY": 48.006,
       "PosZ": -23.082,
       "Name": "Anchor5",
-      "RotY": 270.0001,
-      "MapLayerID": 1
+      "RotY": 270.0001
     }
   ],
   "MonsterList": [],
@@ -91,7 +87,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -179,7 +174,6 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "ChestID": 20222651,
@@ -213,7 +207,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
@@ -269,7 +262,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

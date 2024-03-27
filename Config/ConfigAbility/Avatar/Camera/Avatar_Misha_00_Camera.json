@@ -328,7 +328,6 @@
           "CameraConfig": {
             "CloseupShotConfig": {
               "CameraTimelineAssetName": "Character_Misha_00_Skill03_TimeLine",
-              "CloseupShotPath": "true",
               "TransTypeFollow": {
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"

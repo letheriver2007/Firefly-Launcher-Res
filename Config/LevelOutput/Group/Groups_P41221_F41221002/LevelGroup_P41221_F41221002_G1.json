@@ -11,8 +11,7 @@
       "PosX": 7.9,
       "PosY": 4.876645,
       "PosZ": -137.43,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     },
     {
       "ID": 2,
@@ -20,8 +19,7 @@
       "PosY": 8.53,
       "PosZ": -106.93,
       "Name": "Anchor2",
-      "RotY": 120.0,
-      "MapLayerID": 1
+      "RotY": 120.0
     }
   ],
   "MonsterList": [],
@@ -42,7 +40,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -73,7 +70,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -108,7 +104,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -630,7 +630,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Boss_00/Eff_Monster_AML_Boss_00_Hit.prefab"
                 },
                 {
@@ -734,7 +733,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "PartEntity0"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Boss_00/Eff_Monster_AML_Boss_00_Hit01_Break.prefab"
                 },
                 {
@@ -743,7 +741,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "PartEntity0"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Boss_00/Eff_Monster_AML_Boss_00_Hit_Part_Crack_2_black.prefab",
                   "MinMutexType": "Entity"
                 },
@@ -831,7 +828,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Boss_00/Eff_Monster_AML_Boss_00_Hit_Part_Crack_2.prefab",
           "UniqueEffectName": "_Crack1",
           "MinMutexType": "Entity"

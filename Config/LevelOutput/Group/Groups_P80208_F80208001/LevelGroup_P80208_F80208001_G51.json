@@ -7,20 +7,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -3,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 77,
-      "y": 78
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -29,8 +15,7 @@
       "PosY": -31.21295,
       "PosZ": -30.55,
       "Name": "Anchor1",
-      "RotY": 3.8E-5,
-      "MapLayerID": 1
+      "RotY": 3.8E-5
     }
   ],
   "MonsterList": [],
@@ -57,7 +42,6 @@
       },
       "CampID": 4,
       "State": "CustomState01",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

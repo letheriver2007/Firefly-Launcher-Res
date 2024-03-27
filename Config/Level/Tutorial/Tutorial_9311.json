@@ -4,9 +4,16 @@
     {
       "TaskList": [
         {
+          "$type": "RPG.GameCore.TutorialLockPlayerAction",
+          "Lock": true
+        },
+        {
           "$type": "RPG.GameCore.WaitTutorial",
           "Event": "ShowUIContext",
           "Param": "ChessRogueDiceEffectToastDialog"
+        },
+        {
+          "$type": "RPG.GameCore.TutorialLockPlayerAction"
         },
         {
           "$type": "RPG.GameCore.WaitUIControllerClose",
@@ -107,10 +114,6 @@
             "UseCustomConfig": true,
             "OffsetY": -100
           }
-        },
-        {
-          "$type": "RPG.GameCore.WaitUIPageOpen",
-          "PageName": "ChessRogueNewLevelDialog"
         },
         {
           "$type": "RPG.GameCore.ShowGuideHintWithText",

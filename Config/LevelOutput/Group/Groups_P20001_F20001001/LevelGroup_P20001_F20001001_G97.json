@@ -46,8 +46,7 @@
       "PosX": -0.93,
       "PosY": 0.147002,
       "PosZ": 110.68,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -68,7 +67,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -93,7 +91,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -116,7 +113,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -141,7 +137,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -164,7 +159,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -189,7 +183,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -209,7 +202,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sick01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -229,7 +221,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -249,7 +240,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Praying01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

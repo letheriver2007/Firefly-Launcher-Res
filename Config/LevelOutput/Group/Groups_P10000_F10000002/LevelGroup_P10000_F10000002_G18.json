@@ -32,7 +32,6 @@
       "PosZ": -23.899,
       "Name": "Anchor1",
       "RotY": 47.43,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -43,7 +42,6 @@
       "Name": "Anchor2",
       "RotY": 23.22898,
       "RotX": 18.53345,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -65,7 +63,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -82,7 +79,6 @@
       "PropID": 100018,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -101,7 +97,6 @@
       "NPCID": 1003,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310030900,
@@ -124,7 +119,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010215,

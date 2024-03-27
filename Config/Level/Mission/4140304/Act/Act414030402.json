@@ -84,17 +84,37 @@
           ]
         },
         {
-          "$type": "RPG.GameCore.PlayOptionTalk",
-          "OptionList": [
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareStoryLineID"
+          },
+          "SuccessTaskList": [
             {
-              "TalkSentenceID": 414030406,
-              "OptionIconType": "ChatContinueIcon",
-              "TriggerCustomString": "TalkSentence_414030408"
-            },
+              "$type": "RPG.GameCore.PlayOptionTalk",
+              "OptionList": [
+                {
+                  "TalkSentenceID": 414030406,
+                  "OptionIconType": "ChatContinueIcon",
+                  "TriggerCustomString": "TalkSentence_414030408"
+                },
+                {
+                  "TalkSentenceID": 414030407,
+                  "OptionIconType": "ChatContinueIcon",
+                  "TriggerCustomString": "TalkSentence_414030408"
+                }
+              ]
+            }
+          ],
+          "FailedTaskList": [
             {
-              "TalkSentenceID": 414030407,
-              "OptionIconType": "ChatContinueIcon",
-              "TriggerCustomString": "TalkSentence_414030408"
+              "$type": "RPG.GameCore.PlayOptionTalk",
+              "OptionList": [
+                {
+                  "TalkSentenceID": 414030596,
+                  "OptionIconType": "ChatContinueIcon",
+                  "TriggerCustomString": "TalkSentence_414030408"
+                }
+              ]
             }
           ]
         }

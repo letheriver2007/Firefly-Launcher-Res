@@ -6,34 +6,6 @@
   "LoadSide": "Server",
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      115,
-      -38
-    ],
-    "LowerUpperBounds": {
-      "x": 199,
-      "y": 200
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      115,
-      -38,
-      125,
-      -37,
-      119,
-      -33,
-      109,
-      -31,
-      114,
-      -26
-    ],
-    "LowerUpperBounds": {
-      "x": 199,
-      "y": 200
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -55,7 +27,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -79,7 +50,6 @@
         "ID": 1
       },
       "EventID": 81312013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -103,7 +73,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -127,7 +96,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -151,7 +119,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -175,7 +142,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -199,7 +165,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -223,7 +188,6 @@
         "ID": 1
       },
       "EventID": 81312013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -247,7 +211,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -271,7 +234,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -295,7 +257,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -319,7 +280,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -343,7 +303,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -367,7 +326,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -391,7 +349,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -415,7 +372,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -439,7 +395,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -463,7 +418,6 @@
         "ID": 1
       },
       "EventID": 81312012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -487,7 +441,6 @@
         "ID": 1
       },
       "EventID": 81312013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -511,7 +464,6 @@
         "ID": 1
       },
       "EventID": 81312013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -538,7 +490,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -569,7 +520,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -587,7 +537,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -605,7 +554,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

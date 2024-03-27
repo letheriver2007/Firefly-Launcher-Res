@@ -39,8 +39,7 @@
       "PosY": -28.56957,
       "PosZ": -153.21,
       "Name": "Anchor1",
-      "RotY": 276.1416,
-      "MapLayerID": 1
+      "RotY": 276.1416
     },
     {
       "ID": 2,
@@ -51,7 +50,6 @@
       "RotY": 275.3275,
       "RotX": 3.872531,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -73,7 +71,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -113,7 +110,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -136,7 +132,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -156,7 +151,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -172,7 +166,6 @@
       "NPCID": 12303,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040210,

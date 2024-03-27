@@ -11,8 +11,7 @@
       "PosY": -31.159,
       "PosZ": -91.377,
       "Name": "DoorController",
-      "RotY": 176.1175,
-      "MapLayerID": 1
+      "RotY": 176.1175
     }
   ],
   "MonsterList": [],
@@ -37,7 +36,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -75,7 +73,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -98,7 +95,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -130,7 +126,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

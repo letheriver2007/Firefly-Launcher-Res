@@ -12,8 +12,7 @@
       "PosY": -28.13074,
       "PosZ": -154.45,
       "Name": "PlayerStart",
-      "RotY": 45.41911,
-      "MapLayerID": 1
+      "RotY": 45.41911
     }
   ],
   "MonsterList": [],
@@ -34,7 +33,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

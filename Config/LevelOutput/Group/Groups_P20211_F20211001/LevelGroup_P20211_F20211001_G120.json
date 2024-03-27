@@ -41,7 +41,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20211251,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -65,7 +64,6 @@
         "ID": 1
       },
       "EventID": 20211252,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -90,7 +88,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20211253,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -128,7 +125,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -191,7 +187,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -226,7 +221,6 @@
       },
       "CampID": 4,
       "State": "Hidden",
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -245,7 +239,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -283,7 +276,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

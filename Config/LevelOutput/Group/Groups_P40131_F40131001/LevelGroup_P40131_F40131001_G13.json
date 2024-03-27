@@ -12,8 +12,7 @@
       "PosY": -2.119,
       "PosZ": -93.896,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -66,7 +65,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

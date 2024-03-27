@@ -85,8 +85,11 @@
       "GroupGUID": "510c96c5-9d6d-454f-a9a9-ba85f238f527",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20312_F20312001/LevelGroup_P20312_F20312001_G211.json",
       "DimensionFilter": {
-        "List": []
-      }
+        "Type": "All",
+        "List": [],
+        "FilterType": "All"
+      },
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 208,
@@ -400,8 +403,11 @@
       "GroupGUID": "44c61897-3f51-4e14-9e34-52568788110a",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20312_F20312001/LevelGroup_P20312_F20312001_G214.json",
       "DimensionFilter": {
-        "List": []
-      }
+        "Type": "All",
+        "List": [],
+        "FilterType": "All"
+      },
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 92,

@@ -80,7 +80,7 @@
                   "MaxMoveDistance": {
                     "IsDynamic": false,
                     "FixedValue": {
-                      "Value": 1.5
+                      "Value": 1.75
                     }
                   },
                   "MaxSpeed": {
@@ -123,12 +123,13 @@
               "TriggerBattleDelay": 0.1,
               "AttackDetectConfig": {
                 "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                "MaxRadius": 2.5,
+                "MaxRadius": 2.6,
                 "FanAngle": 180
               },
               "HitConfig": {
                 "HitAnimation": "Hit",
-                "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab"
+                "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab",
+                "HitEffectHeight": 1.277
               }
             },
             {
@@ -186,7 +187,7 @@
                       "DefaultMoveDistance": {
                         "IsDynamic": false,
                         "FixedValue": {
-                          "Value": 1
+                          "Value": 1.25
                         }
                       }
                     }
@@ -242,7 +243,7 @@
                   "TriggerBattleDelay": 0.1,
                   "AttackDetectConfig": {
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                    "MaxRadius": 2.5,
+                    "MaxRadius": 2.6,
                     "FanAngle": 180,
                     "Offset": {
                       "X": 0,
@@ -252,7 +253,8 @@
                   },
                   "HitConfig": {
                     "HitAnimation": "Hit",
-                    "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab"
+                    "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab",
+                    "HitEffectHeight": 1.277
                   }
                 },
                 {
@@ -304,7 +306,7 @@
                           "DefaultMoveDistance": {
                             "IsDynamic": false,
                             "FixedValue": {
-                              "Value": 0.8
+                              "Value": 1.05
                             }
                           }
                         }
@@ -360,12 +362,13 @@
                       "TriggerBattleDelay": 0.1,
                       "AttackDetectConfig": {
                         "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                        "MaxRadius": 2.5,
+                        "MaxRadius": 2.6,
                         "FanAngle": 180
                       },
                       "HitConfig": {
                         "HitAnimation": "Hit",
-                        "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab"
+                        "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab",
+                        "HitEffectHeight": 1.277
                       }
                     },
                     {
@@ -410,7 +413,7 @@
                           "DefaultMoveDistance": {
                             "IsDynamic": false,
                             "FixedValue": {
-                              "Value": 0.8
+                              "Value": 1.05
                             }
                           }
                         }
@@ -466,12 +469,13 @@
                       "TriggerBattleDelay": 0.1,
                       "AttackDetectConfig": {
                         "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                        "MaxRadius": 2.5,
+                        "MaxRadius": 2.6,
                         "FanAngle": 180
                       },
                       "HitConfig": {
                         "HitAnimation": "Hit",
-                        "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab"
+                        "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeAttack01_Hit.prefab",
+                        "HitEffectHeight": 1.277
                       }
                     },
                     {
@@ -659,7 +663,7 @@
               "HitConfig": {
                 "HitAnimation": "Hit",
                 "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeSkill01_Hit.prefab",
-                "HitEffectHeight": 1
+                "HitEffectHeight": 0.929
               },
               "OnBattle": [
                 {
@@ -796,7 +800,7 @@
                   "HitConfig": {
                     "HitAnimation": "Hit",
                     "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeSkill01_Hit.prefab",
-                    "HitEffectHeight": 1
+                    "HitEffectHeight": 0.929
                   },
                   "OnBattle": [
                     {
@@ -934,7 +938,7 @@
                       "HitConfig": {
                         "HitAnimation": "Hit",
                         "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeSkill01_Hit.prefab",
-                        "HitEffectHeight": 1
+                        "HitEffectHeight": 0.929
                       },
                       "OnBattle": [
                         {
@@ -1065,7 +1069,7 @@
                       "HitConfig": {
                         "HitAnimation": "Hit",
                         "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_MazeSkill01_Hit.prefab",
-                        "HitEffectHeight": 1
+                        "HitEffectHeight": 0.929
                       },
                       "OnBattle": [
                         {

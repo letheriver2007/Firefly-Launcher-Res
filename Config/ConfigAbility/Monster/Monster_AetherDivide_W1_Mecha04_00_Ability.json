@@ -202,7 +202,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha04_00/Eff_Monster_W1_Mecha04_00_Skill02_Hit01.prefab"
         },
         {
@@ -358,7 +357,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha04_00/Eff_Monster_W1_Mecha04_00_Skill02_Hit02.prefab"
         },
         {

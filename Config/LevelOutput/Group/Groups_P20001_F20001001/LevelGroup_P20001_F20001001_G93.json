@@ -19,8 +19,7 @@
       "PosY": 0.146794,
       "PosZ": 6.71,
       "Name": "Anchor1",
-      "RotY": 210.0,
-      "MapLayerID": 1
+      "RotY": 210.0
     }
   ],
   "MonsterList": [
@@ -44,7 +43,6 @@
       "EventID": 101201,
       "PurposeType": "FarmElement",
       "FarmElementID": 1101,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -77,7 +75,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 10.5,

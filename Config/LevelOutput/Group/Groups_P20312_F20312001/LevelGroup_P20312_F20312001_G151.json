@@ -12,22 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -58,
-      -95,
-      -64,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 5,
-      "y": 6
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -48,7 +32,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "ExitTrigger": {
@@ -81,7 +64,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "ExitTrigger": {

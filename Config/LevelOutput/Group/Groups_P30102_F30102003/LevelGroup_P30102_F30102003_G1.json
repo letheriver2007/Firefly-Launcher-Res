@@ -12,22 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -15,
-      -5,
-      15,
-      -1
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 409
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -35,8 +19,7 @@
       "PosX": -0.029867,
       "PosY": -9.076821,
       "PosZ": -28.58057,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     }
   ],
   "MonsterList": [],
@@ -58,7 +41,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -83,7 +65,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

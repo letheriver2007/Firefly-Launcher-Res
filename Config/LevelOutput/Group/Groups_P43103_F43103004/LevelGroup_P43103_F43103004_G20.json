@@ -80,42 +80,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      62,
-      -31,
-      64,
-      -31
-    ],
-    "LowerUpperBounds": {
-      "x": 200,
-      "y": 201
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      62,
-      -37,
-      68,
-      -35,
-      62,
-      -34,
-      62,
-      -31,
-      64,
-      -31,
-      63,
-      -30,
-      8,
-      -9,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 177,
-      "y": 234
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -124,8 +88,7 @@
       "PosY": 46.38544,
       "PosZ": -72.36666,
       "Name": "StartPoint",
-      "RotY": 291.2366,
-      "MapLayerID": 1
+      "RotY": 291.2366
     },
     {
       "ID": 8,
@@ -133,8 +96,7 @@
       "PosY": 46.30164,
       "PosZ": -70.06339,
       "Name": "EndPoint",
-      "RotY": 277.4305,
-      "MapLayerID": 1
+      "RotY": 277.4305
     },
     {
       "ID": 1,
@@ -142,8 +104,7 @@
       "PosY": 46.35689,
       "PosZ": -69.71376,
       "Name": "ExitPoint",
-      "RotY": 285.2989,
-      "MapLayerID": 1
+      "RotY": 285.2989
     }
   ],
   "MonsterList": [
@@ -167,7 +128,6 @@
         "ID": 1
       },
       "EventID": 43101000,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -200,7 +160,6 @@
         "ID": 1
       },
       "EventID": 43101000,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -238,7 +197,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -262,7 +220,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -293,7 +250,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -312,7 +268,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -340,7 +295,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -389,7 +343,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -406,7 +359,6 @@
       "InitLevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_MissionWayPoint03.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -424,7 +376,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

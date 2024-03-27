@@ -38,7 +38,6 @@
       "PosZ": -101.566,
       "Name": "Anchor1",
       "RotY": 90.8,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -48,7 +47,6 @@
       "PosZ": -103.39,
       "Name": "Anchor2",
       "RotY": 345.49,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -58,7 +56,6 @@
       "PosZ": -113.256,
       "Name": "Anchor3",
       "RotY": 248.7,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -73,7 +70,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -96,7 +92,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1359611066
@@ -142,7 +137,6 @@
       "NPCID": 12217,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 882129140
@@ -169,7 +163,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 882129140
@@ -198,7 +191,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010221,
@@ -219,7 +211,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010221,
@@ -237,7 +228,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010227,
@@ -255,7 +245,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

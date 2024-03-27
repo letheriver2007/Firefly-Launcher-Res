@@ -9,33 +9,8 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      22,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": 84,
-      "y": 85
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      22,
-      32,
-      23,
-      32,
-      24,
-      33,
-      28,
-      33
-    ],
-    "LowerUpperBounds": {
-      "x": 84,
-      "y": 87
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -49,7 +24,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -62,6 +36,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -84,7 +59,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -92,20 +66,20 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
     },
     {
       "ID": 300003,
-      "PosX": 48.61,
+      "PosX": 48.623,
       "PosY": 169.8063,
       "PosZ": 66.71,
       "Name": "Prop3",
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -118,6 +92,8 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -131,7 +107,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -139,6 +114,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -156,7 +132,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1065141349
@@ -164,6 +139,7 @@
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900130000,
       "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

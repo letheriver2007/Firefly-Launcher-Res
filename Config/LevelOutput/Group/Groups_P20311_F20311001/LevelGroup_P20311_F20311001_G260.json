@@ -12,20 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      59,
-      -60
-    ],
-    "LowerUpperBounds": {
-      "x": 12,
-      "y": 13
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -33,8 +19,7 @@
       "PosX": 146.4435,
       "PosY": 28.1,
       "PosZ": -122.69,
-      "Name": "Anchor_Back",
-      "MapLayerID": 3
+      "Name": "Anchor_Back"
     }
   ],
   "MonsterList": [],
@@ -74,7 +59,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

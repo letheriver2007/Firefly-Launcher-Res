@@ -11,34 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      12,
-      -16,
-      13,
-      -15,
-      12,
-      -11,
-      -2,
-      -4,
-      9,
-      -3,
-      14,
-      0,
-      -3,
-      2,
-      3,
-      2
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 6
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -47,8 +19,7 @@
       "PosY": 1.0E-6,
       "PosZ": -22.91245,
       "IsDelete": true,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -65,7 +36,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -91,7 +61,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -112,7 +81,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -131,7 +99,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -153,7 +120,6 @@
       "PropID": 102098,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -178,7 +144,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -211,7 +176,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -244,7 +208,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -273,7 +236,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -312,7 +274,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -351,7 +312,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -391,7 +351,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -430,7 +389,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},

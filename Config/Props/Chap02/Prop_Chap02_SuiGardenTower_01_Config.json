@@ -3,11 +3,13 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiGardenTower_01_Idle_Lod0.prefab",
       "AttachPoint": "Root"
     },
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiGardenTower_01_Activing_Lod0.prefab",
       "AttachPoint": "Root",
       "SyncPropState": true

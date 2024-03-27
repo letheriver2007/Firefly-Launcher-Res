@@ -11,20 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -90,
-      -40
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -34,8 +20,7 @@
       "PosY": -4.909988,
       "PosZ": -80.13,
       "Name": "HardSide_Back",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 3,
@@ -44,7 +29,6 @@
       "PosZ": -79.662,
       "Name": "H_Go_E",
       "RotY": 269.9999,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -58,7 +42,6 @@
       "Name": "H_Go_S",
       "RotY": 259.0898,
       "RotX": 14.65004,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -108,7 +91,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {

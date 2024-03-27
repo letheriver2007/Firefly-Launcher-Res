@@ -32,7 +32,6 @@
       "RotY": 328.1804,
       "RotX": 5.191641,
       "RotZ": 359.9276,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -41,8 +40,7 @@
       "PosY": -0.258115,
       "PosZ": 36.745,
       "IsDelete": true,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -64,7 +62,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -92,7 +89,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,

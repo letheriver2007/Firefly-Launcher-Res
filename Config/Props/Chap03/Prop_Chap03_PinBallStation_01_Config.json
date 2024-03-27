@@ -11,6 +11,9 @@
       "States": [
         {
           "Name": "Installed"
+        },
+        {
+          "Name": "Installed_P"
         }
       ],
       "OnEnter": [
@@ -97,6 +100,37 @@
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap03_Prop_PinballStation_01_PreRecieve_Lod0.prefab"
+        }
+      ]
+    },
+    {
+      "States": [
+        {
+          "Name": "Installed_P"
+        }
+      ],
+      "OnEnter": [
+        {
+          "$type": "RPG.GameCore.TriggerEffectList",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvPropEx"
+          },
+          "EffectList": [
+            {
+              "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap03_Prop_PinballStation_01_PreLaunch_Lod0.prefab",
+              "IsAttachToTargetEntity": true,
+              "AttachPoint": "RotateRoot"
+            }
+          ]
+        }
+      ],
+      "OnExit": [
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetFetchAdvPropEx"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap03_Prop_PinballStation_01_PreLaunch_Lod0.prefab"
         }
       ]
     }

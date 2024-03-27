@@ -469,6 +469,86 @@
     "MultiTarget": [],
     "IconType": "Round"
   },
+  "5000800": {
+    "ID": 5000800,
+    "Type": "ChallengeTarget",
+    "AbilityName": "BattleTarget_FeverTime_Fever",
+    "ParamType": "GreaterEqual",
+    "TargetParam": 1,
+    "HintStep": [
+      0,
+      1
+    ],
+    "IsFixableHeight": false,
+    "TargetName": {
+      "Hash": -293001030
+    },
+    "TargetNameSimple": {
+      "Hash": -1164450652
+    },
+    "MultiTarget": [],
+    "IconType": "Round"
+  },
+  "5000801": {
+    "ID": 5000801,
+    "Type": "ChallengeTarget",
+    "AbilityName": "BattleTarget_FeverTime_Wave1",
+    "ParamType": "GreaterEqual",
+    "TargetParam": 1,
+    "HintStep": [
+      0,
+      1
+    ],
+    "IsFixableHeight": false,
+    "TargetName": {
+      "Hash": -293001029
+    },
+    "TargetNameSimple": {
+      "Hash": -1164450651
+    },
+    "MultiTarget": [],
+    "IconType": "Round"
+  },
+  "5000802": {
+    "ID": 5000802,
+    "Type": "ChallengeTarget",
+    "AbilityName": "BattleTarget_FeverTime_Wave2",
+    "ParamType": "GreaterEqual",
+    "TargetParam": 1,
+    "HintStep": [
+      0,
+      1
+    ],
+    "IsFixableHeight": false,
+    "TargetName": {
+      "Hash": -293001028
+    },
+    "TargetNameSimple": {
+      "Hash": -1164450650
+    },
+    "MultiTarget": [],
+    "IconType": "Round"
+  },
+  "5000803": {
+    "ID": 5000803,
+    "Type": "ChallengeTarget",
+    "AbilityName": "BattleTarget_FeverTime_Wave3",
+    "ParamType": "GreaterEqual",
+    "TargetParam": 1,
+    "HintStep": [
+      0,
+      1
+    ],
+    "IsFixableHeight": false,
+    "TargetName": {
+      "Hash": -293001027
+    },
+    "TargetNameSimple": {
+      "Hash": -1164450649
+    },
+    "MultiTarget": [],
+    "IconType": "Round"
+  },
   "9000101": {
     "ID": 9000101,
     "Type": "ChallengeTarget",

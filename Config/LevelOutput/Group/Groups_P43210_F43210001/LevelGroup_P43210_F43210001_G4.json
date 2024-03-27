@@ -25,56 +25,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -24,
-      -155,
-      -21,
-      -155,
-      85,
-      -134,
-      85,
-      -131,
-      -200,
-      -76,
-      -202,
-      -71,
-      -209,
-      -67,
-      -186,
-      -43,
-      -183,
-      -42,
-      162,
-      -35,
-      156,
-      -33,
-      159,
-      -30,
-      152,
-      -28,
-      -44,
-      17,
-      -159,
-      63,
-      -153,
-      63,
-      -148,
-      68,
-      126,
-      69,
-      128,
-      71
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 428
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -83,8 +33,7 @@
       "PosY": 11.79992,
       "PosZ": -309.97,
       "Name": "WrongAnchor1",
-      "RotY": 282.8857,
-      "MapLayerID": 1
+      "RotY": 282.8857
     },
     {
       "ID": 2,
@@ -92,8 +41,7 @@
       "PosY": 27.59546,
       "PosZ": -149.82,
       "Name": "CorrectAnchor1",
-      "RotY": 52.11666,
-      "MapLayerID": 1
+      "RotY": 52.11666
     },
     {
       "ID": 3,
@@ -101,8 +49,7 @@
       "PosY": 27.82409,
       "PosZ": -142.68,
       "Name": "Island1_b",
-      "RotY": 179.2678,
-      "MapLayerID": 1
+      "RotY": 179.2678
     },
     {
       "ID": 4,
@@ -110,8 +57,7 @@
       "PosY": 28.09708,
       "PosZ": -150.22,
       "Name": "Island1_c",
-      "RotY": 179.2678,
-      "MapLayerID": 1
+      "RotY": 179.2678
     },
     {
       "ID": 5,
@@ -119,8 +65,7 @@
       "PosY": 17.44368,
       "PosZ": -82.37993,
       "Name": "WrongAnchor2",
-      "RotY": 251.6472,
-      "MapLayerID": 1
+      "RotY": 251.6472
     },
     {
       "ID": 6,
@@ -128,8 +73,7 @@
       "PosY": 13.2,
       "PosZ": 128.4,
       "Name": "Island6_a",
-      "RotY": 322.8636,
-      "MapLayerID": 1
+      "RotY": 322.8636
     },
     {
       "ID": 7,
@@ -137,8 +81,7 @@
       "PosY": 13.63303,
       "PosZ": 138.13,
       "Name": "CorrectAnchor2",
-      "RotY": 140.9126,
-      "MapLayerID": 1
+      "RotY": 140.9126
     },
     {
       "ID": 8,
@@ -146,8 +89,7 @@
       "PosY": 14.786,
       "PosZ": 137.78,
       "Name": "Island6_c",
-      "RotY": 322.8636,
-      "MapLayerID": 1
+      "RotY": 322.8636
     },
     {
       "ID": 9,
@@ -155,8 +97,7 @@
       "PosY": 12.73741,
       "PosZ": 142.33,
       "Name": "WrongAnchor3",
-      "RotY": 237.8528,
-      "MapLayerID": 1
+      "RotY": 237.8528
     },
     {
       "ID": 10,
@@ -164,8 +105,7 @@
       "PosY": 28.43094,
       "PosZ": -267.91,
       "Name": "WrongAnchor4",
-      "RotY": 0.610047,
-      "MapLayerID": 1
+      "RotY": 0.610047
     },
     {
       "ID": 11,
@@ -173,8 +113,7 @@
       "PosY": 13.253,
       "PosZ": -112.111,
       "Name": "Island4_a",
-      "RotY": 80.48914,
-      "MapLayerID": 1
+      "RotY": 80.48914
     },
     {
       "ID": 12,
@@ -182,8 +121,7 @@
       "PosY": 13.46511,
       "PosZ": -69.03999,
       "Name": "CorrectAnchor3",
-      "RotY": 23.77596,
-      "MapLayerID": 1
+      "RotY": 23.77596
     },
     {
       "ID": 13,
@@ -191,8 +129,7 @@
       "PosY": 13.71516,
       "PosZ": -61.5,
       "Name": "Island4_c",
-      "RotY": 205.2206,
-      "MapLayerID": 1
+      "RotY": 205.2206
     },
     {
       "ID": 14,
@@ -200,8 +137,7 @@
       "PosY": 14.63601,
       "PosZ": -58.1,
       "Name": "Island4_b",
-      "RotY": 167.6219,
-      "MapLayerID": 1
+      "RotY": 167.6219
     }
   ],
   "MonsterList": [],
@@ -217,7 +153,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -240,7 +175,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -266,7 +200,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -308,7 +241,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -350,7 +282,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -389,7 +320,6 @@
       "PropID": 102177,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -412,7 +342,6 @@
       "PropID": 102177,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -438,7 +367,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -472,7 +400,6 @@
         "Radius": 2.5,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -506,7 +433,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -536,7 +462,6 @@
       "PropID": 102177,
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -562,7 +487,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -596,7 +520,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -630,7 +553,6 @@
         "Radius": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -667,7 +589,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTalkTrigger": {
@@ -697,7 +618,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTalk_Wrong01": {
@@ -727,7 +647,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTalk_Wrong01": {
@@ -757,7 +676,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTalk_Wrong01": {
@@ -787,7 +705,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTalk_Wrong01": {

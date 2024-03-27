@@ -12,26 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      100,
-      224,
-      15,
-      265,
-      161,
-      313,
-      54,
-      366
-    ],
-    "LowerUpperBounds": {
-      "x": 61,
-      "y": 92
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -41,8 +21,7 @@
       "PosY": 182.4292,
       "PosZ": 732.87,
       "Name": "Anchor1",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 2,
@@ -50,8 +29,7 @@
       "PosY": 123.7,
       "PosZ": 622.869,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -59,8 +37,7 @@
       "PosY": 143.006,
       "PosZ": 442.6746,
       "Name": "Anchor3",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 4,
@@ -68,8 +45,7 @@
       "PosY": 180.5,
       "PosZ": 529.2441,
       "Name": "Anchor4",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -87,7 +63,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 15.0,
@@ -127,7 +102,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 12.0,
@@ -168,7 +142,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -208,7 +181,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,

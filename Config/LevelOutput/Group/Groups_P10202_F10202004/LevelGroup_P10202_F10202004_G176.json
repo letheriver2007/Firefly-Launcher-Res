@@ -9,32 +9,6 @@
   "OwnerMainMissionID": 8003264,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -18,
-      -20,
-      -19,
-      -19
-    ],
-    "LowerUpperBounds": {
-      "x": 21,
-      "y": 22
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -17,
-      -21,
-      -18,
-      -20,
-      -19,
-      -19
-    ],
-    "LowerUpperBounds": {
-      "x": 21,
-      "y": 22
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -43,8 +17,7 @@
       "PosY": 0.563776,
       "PosZ": -38.11,
       "Name": "Anchor1",
-      "RotY": 221.8747,
-      "MapLayerID": 1
+      "RotY": 221.8747
     },
     {
       "ID": 2,
@@ -52,8 +25,7 @@
       "PosY": 0.483022,
       "PosZ": -39.765,
       "Name": "Anchor2",
-      "RotY": 253.3716,
-      "MapLayerID": 1
+      "RotY": 253.3716
     },
     {
       "ID": 3,
@@ -64,7 +36,6 @@
       "RotY": 235.7509,
       "RotX": 352.9427,
       "RotZ": 359.1312,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -76,7 +47,6 @@
       "PosY": 2.088,
       "PosZ": -39.808,
       "Name": "Anchor4",
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     },
@@ -89,7 +59,6 @@
       "RotY": 213.727,
       "RotX": 1.020304,
       "RotZ": 359.1644,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -114,7 +83,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -140,7 +108,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -160,7 +127,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -181,7 +147,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 2330,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -212,7 +177,6 @@
       "NPCID": 12248,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,

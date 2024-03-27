@@ -134,7 +134,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill01_Fire01.prefab",
           "AttachPoint": "Weapon"
         },
@@ -353,7 +352,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill02_Start02.prefab"
         },
         {
@@ -376,7 +374,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill02_Start01.prefab",
           "AttachPoint": "Weapon_Skill02"
         },
@@ -452,7 +449,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill02_Hit01.prefab",
           "AttachPoint": "Origin"
         },
@@ -590,7 +586,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill02_Hit01.prefab",
                       "AttachPoint": "Origin"
                     },
@@ -729,7 +724,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill02_Hit01.prefab",
                       "AttachPoint": "Origin"
                     },
@@ -1066,7 +1060,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamMember"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Asta/Eff_Avatar_Asta_00_Skill03_Buff.prefab"
         },
         {

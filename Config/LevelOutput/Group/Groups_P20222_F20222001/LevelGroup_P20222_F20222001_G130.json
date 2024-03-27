@@ -32,7 +32,6 @@
       "PosZ": 134.819,
       "Name": "Anchor1",
       "RotY": 256.6906,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -50,7 +49,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sob01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040289,
@@ -72,7 +70,6 @@
         "GroupID": 130,
         "InstanceID": 400001
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020231,
@@ -89,7 +86,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

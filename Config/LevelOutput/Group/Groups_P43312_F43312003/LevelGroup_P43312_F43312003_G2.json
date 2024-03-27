@@ -12,20 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      36,
-      -284
-    ],
-    "LowerUpperBounds": {
-      "x": -10,
-      "y": -9
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -35,8 +21,7 @@
       "PosY": -8.913793,
       "PosZ": -77.239,
       "Name": "Anchor1_des",
-      "RotY": 270.0,
-      "MapLayerID": 3
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -47,7 +32,6 @@
       "RotY": 178.9343,
       "RotX": 16.60361,
       "RotZ": 5.44E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -63,7 +47,6 @@
       "RotY": 177.3873,
       "RotX": 12.65062,
       "RotZ": 5.38E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -111,7 +94,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {

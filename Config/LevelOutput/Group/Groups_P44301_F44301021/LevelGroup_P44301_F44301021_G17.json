@@ -12,27 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      -141,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -68,7 +47,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -86,6 +64,7 @@
   "NPCList": [
     {
       "ID": 400001,
+      "IsDelete": true,
       "Name": "ClockKid",
       "NPCID": 3102,
       "ValueSource": {},

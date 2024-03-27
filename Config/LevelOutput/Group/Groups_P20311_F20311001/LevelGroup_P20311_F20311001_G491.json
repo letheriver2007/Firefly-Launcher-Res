@@ -9,14 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -27,7 +19,6 @@
       "PosZ": -79.71,
       "Name": "Anchor1",
       "RotY": 245.0473,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -37,7 +28,6 @@
       "PosZ": -80.68711,
       "Name": "Anchor2",
       "RotY": 292.3154,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -47,7 +37,6 @@
       "PosZ": -82.306,
       "Name": "Anchor3",
       "RotY": 318.8205,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",

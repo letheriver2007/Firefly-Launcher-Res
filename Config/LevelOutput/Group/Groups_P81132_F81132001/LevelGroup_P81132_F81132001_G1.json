@@ -11,8 +11,7 @@
       "PosX": 35.36114,
       "PosY": 21.01484,
       "PosZ": 83.33411,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     }
   ],
   "MonsterList": [],
@@ -83,7 +82,6 @@
       },
       "CampID": 4,
       "State": "BridgeState2",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [

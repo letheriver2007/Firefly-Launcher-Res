@@ -11,8 +11,7 @@
       "PosY": 8.007725,
       "PosZ": 2.962,
       "Name": "Anchor1",
-      "RotY": 72.61101,
-      "MapLayerID": 2
+      "RotY": 72.61101
     },
     {
       "ID": 2,
@@ -20,8 +19,7 @@
       "PosY": 8.007725,
       "PosZ": 2.336,
       "Name": "Anchor2",
-      "RotY": 118.2648,
-      "MapLayerID": 2
+      "RotY": 118.2648
     }
   ],
   "MonsterList": [],
@@ -42,7 +40,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -71,7 +68,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64
@@ -98,7 +94,6 @@
       "DefaultIdleStateName": "Exciting01Loop",
       "DefaultLookAtMode": "LookTarget",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040328,
@@ -118,7 +113,6 @@
       "DefaultIdleStateName": "Exciting02Loop",
       "DefaultLookAtMode": "LookTarget",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040329,
@@ -136,7 +130,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -153,7 +146,6 @@
       "NPCID": 12308,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,
@@ -170,7 +162,6 @@
       "NPCID": 12309,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,
@@ -187,7 +178,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -205,7 +195,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -223,7 +212,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040210,
@@ -241,7 +229,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Shy01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040327,

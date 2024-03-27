@@ -12,24 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      178,
-      -155,
-      184,
-      -155,
-      188,
-      -151
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 4
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -47,7 +29,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -79,7 +60,6 @@
       "PropID": 103017,
       "ValueSource": {},
       "EventID": 10000,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -102,7 +82,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

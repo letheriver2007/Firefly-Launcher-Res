@@ -26,7 +26,6 @@
       "RotY": 43.1515,
       "RotX": 21.87011,
       "RotZ": -1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -37,16 +36,14 @@
       "PosX": 221.6232,
       "PosY": 52.45493,
       "PosZ": -177.0053,
-      "Name": "Monster1To",
-      "MapLayerID": 1
+      "Name": "Monster1To"
     },
     {
       "ID": 3,
       "PosX": 221.1403,
       "PosY": 52.38601,
       "PosZ": -173.5843,
-      "Name": "Monster2To",
-      "MapLayerID": 1
+      "Name": "Monster2To"
     },
     {
       "ID": 4,
@@ -54,8 +51,7 @@
       "PosY": 54.79373,
       "PosZ": -181.73,
       "Name": "Anchor4",
-      "RotY": 101.5593,
-      "MapLayerID": 1
+      "RotY": 101.5593
     }
   ],
   "MonsterList": [],
@@ -79,7 +75,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -97,7 +92,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -115,7 +109,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -136,7 +129,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -170,7 +162,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -191,7 +182,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200070000,

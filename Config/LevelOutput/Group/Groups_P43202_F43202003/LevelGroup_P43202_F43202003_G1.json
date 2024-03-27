@@ -12,8 +12,7 @@
       "PosY": -31.15879,
       "PosZ": -143.088,
       "Name": "PlayerStart",
-      "RotY": 172.1617,
-      "MapLayerID": 1
+      "RotY": 172.1617
     }
   ],
   "MonsterList": [],
@@ -28,7 +27,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/43202_MissionRaid/Maze_Raid_43202_HideShip.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -12,26 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -34,
-      -125,
-      35,
-      -125,
-      -37,
-      -124,
-      36,
-      -122
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 6
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -41,8 +21,7 @@
       "PosY": 10.129,
       "PosZ": -245.5644,
       "Name": "Teleporter_L_Top",
-      "RotY": 158.1093,
-      "MapLayerID": 2
+      "RotY": 158.1093
     },
     {
       "ID": 2,
@@ -50,8 +29,7 @@
       "PosY": -16.91823,
       "PosZ": -251.9867,
       "Name": "Teleporter_L_Down",
-      "RotY": 148.9381,
-      "MapLayerID": 1
+      "RotY": 148.9381
     },
     {
       "ID": 3,
@@ -59,8 +37,7 @@
       "PosY": 10.08097,
       "PosZ": -245.675,
       "Name": "Teleporter_R_Top",
-      "RotY": 212.2053,
-      "MapLayerID": 2
+      "RotY": 212.2053
     },
     {
       "ID": 4,
@@ -68,8 +45,7 @@
       "PosY": -16.91823,
       "PosZ": -252.22,
       "Name": "Teleporter_R_Down",
-      "RotY": 225.0,
-      "MapLayerID": 1
+      "RotY": 225.0
     }
   ],
   "MonsterList": [],
@@ -99,7 +75,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -117,6 +92,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -147,7 +123,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -165,6 +140,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -194,7 +170,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -212,6 +187,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -242,7 +218,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -260,6 +235,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

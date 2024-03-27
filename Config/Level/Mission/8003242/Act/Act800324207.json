@@ -321,137 +321,35 @@
           ]
         },
         {
-          "$type": "RPG.GameCore.PerformanceTransition",
-          "SwitchKeepTime": 0.25,
-          "SwitchOutTime": -1,
-          "TextEnabled": true,
-          "TalkSentenceID": 800324395,
-          "CreateNpcList": [],
-          "CaptureNpcList": [],
-          "DestroyNpcList": [],
-          "CreateProp": {
-            "GroupID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
+          "$type": "RPG.GameCore.PlayFullScreenTransfer",
+          "PostDuration": -1,
+          "TextInfo": {
+            "TextList": [
+              {
+                "TalkSentenceID": 800324395
               }
-            },
-            "GroupPropID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "TaskEnabled": false
+            ]
           },
-          "DestroyProp": {
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetFetchAdvPropEx"
-            },
-            "ID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "GroupID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "TaskEnabled": false
-          },
-          "AdvCreateGroupEntity": {
-            "InstanceIDList": [],
-            "TaskEnabled": false
-          },
-          "AdvDestroyGroupEntity": {
-            "TaskEnabled": false
-          },
-          "ActiveVirtualCamera": {
-            "AreaName": "LevelArea_P10202_F10202004_G118",
-            "AnchorName": "Anchor2",
-            "IsActive": false
-          },
-          "ActiveTemplateVirtualCamera": {
-            "TaskEnabled": false
-          },
-          "SwitchCharacterAnchor": {
-            "TaskEnabled": false
-          },
-          "AdvNpcFaceToPlayer": {
-            "TaskEnabled": false
-          }
-        },
-        {
-          "$type": "RPG.GameCore.TriggerCustomString",
-          "CustomString": {
-            "Value": "8003243_HideNpc"
-          }
-        },
-        {
-          "$type": "RPG.GameCore.PerformanceTransition",
-          "SwitchInTime": 0,
-          "SwitchKeepTime": 0.25,
-          "SwitchOutTime": -1,
-          "TextEnabled": true,
-          "TalkSentenceID": 800324395,
-          "CreateNpcList": [],
-          "CaptureNpcList": [],
-          "DestroyNpcList": [],
-          "CreateProp": {
-            "GroupID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "GroupPropID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "TaskEnabled": false
-          },
-          "DestroyProp": {
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetFetchAdvPropEx"
-            },
-            "ID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "GroupID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 0
-              }
-            },
-            "TaskEnabled": false
-          },
-          "AdvCreateGroupEntity": {
-            "InstanceIDList": [],
-            "TaskEnabled": false
-          },
-          "AdvDestroyGroupEntity": {
-            "TaskEnabled": false
-          },
-          "ActiveVirtualCamera": {
-            "TaskEnabled": false
-          },
-          "ActiveTemplateVirtualCamera": {
-            "TaskEnabled": false
-          },
-          "SwitchCharacterAnchor": {
-            "TaskEnabled": false
-          },
-          "AdvNpcFaceToPlayer": {
-            "TaskEnabled": false
-          }
+          "Action": [
+            {
+              "$type": "RPG.GameCore.ScrTrfActTaskList",
+              "TaskList": [
+                {
+                  "$type": "RPG.GameCore.TriggerCustomString",
+                  "CustomString": {
+                    "Value": "8003243_HideNpc"
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.ActiveVirtualCamera",
+                  "AreaName": "LevelArea_P10202_F10202004_G118",
+                  "AnchorName": "Anchor2",
+                  "IsActive": false,
+                  "DynamicParams": {}
+                }
+              ]
+            }
+          ]
         },
         {
           "$type": "RPG.GameCore.EndPerformance"

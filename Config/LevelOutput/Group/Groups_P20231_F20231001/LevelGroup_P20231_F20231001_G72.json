@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P20231_F20231001_G72",
   "SaveType": "Reset",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -19,7 +21,6 @@
       "NPCID": 12159,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8,
         1,
@@ -39,6 +40,7 @@
           }
         ]
       },
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

@@ -235,5 +235,71 @@
     "PasterAchievementPic": "SpriteOutput/TravelBrochure/TBSceneIcon/TBSceneIcon10.png",
     "ShowInDirectory": true,
     "ShowUnlockToast": true
+  },
+  "10": {
+    "ID": 10,
+    "DiaryGroupID": 11,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "103210103"
+      }
+    ],
+    "FinishQuestID": 1003009,
+    "Type": "Main",
+    "DirectoryName": {
+      "Hash": -1542502621
+    },
+    "Sort": 12,
+    "BackgroundPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerBg_11.prefab",
+    "FrontPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerFrontEffect_11.prefab",
+    "PicPath": "",
+    "PasterAchievementPic": "SpriteOutput/TravelBrochure/TBSceneIcon/TBSceneIcon11.png",
+    "ShowInDirectory": true,
+    "ShowUnlockToast": true
+  },
+  "11": {
+    "ID": 11,
+    "DiaryGroupID": 12,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "404033501"
+      }
+    ],
+    "FinishQuestID": 1003010,
+    "Type": "Main",
+    "DirectoryName": {
+      "Hash": -1542502622
+    },
+    "Sort": 13,
+    "BackgroundPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerBg_12.prefab",
+    "FrontPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerFrontEffect_12.prefab",
+    "PicPath": "",
+    "PasterAchievementPic": "SpriteOutput/TravelBrochure/TBSceneIcon/TBSceneIcon12.png",
+    "ShowInDirectory": true,
+    "ShowUnlockToast": true
+  },
+  "12": {
+    "ID": 12,
+    "DiaryGroupID": 13,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "103210103"
+      }
+    ],
+    "FinishQuestID": 1003011,
+    "Type": "Main",
+    "DirectoryName": {
+      "Hash": -1542502623
+    },
+    "Sort": 14,
+    "BackgroundPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerBg_13.prefab",
+    "FrontPrefab": "UI/TravelBrochure/Widget/TBStickerBg/TBStickerFrontEffect_13.prefab",
+    "PicPath": "",
+    "PasterAchievementPic": "SpriteOutput/TravelBrochure/TBSceneIcon/TBSceneIcon13.png",
+    "ShowInDirectory": true,
+    "ShowUnlockToast": true
   }
 }

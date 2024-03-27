@@ -128,7 +128,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/CrowdBubble/20003001/Crowd_20003001.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -183,7 +182,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -221,7 +219,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -275,7 +272,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -313,7 +309,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -367,7 +362,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -426,7 +420,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -464,7 +457,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -523,7 +515,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -561,7 +552,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -620,7 +610,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -679,7 +668,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -738,7 +726,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -764,7 +751,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -785,7 +771,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -806,7 +791,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -827,7 +811,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -848,7 +831,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitChatting02Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -869,7 +851,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitChatting01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -889,7 +870,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -909,7 +889,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -929,7 +908,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -949,7 +927,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -970,7 +947,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -991,7 +967,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

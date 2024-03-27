@@ -24,16 +24,14 @@
       "ID": 1,
       "PosX": 0.509,
       "PosZ": 8.284,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -0.08,
       "PosY": 2.206222,
       "PosZ": 0.07,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -55,7 +53,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -76,7 +73,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8
@@ -99,7 +95,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -119,7 +114,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8
@@ -139,7 +133,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -159,7 +152,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8
@@ -179,7 +171,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -198,7 +189,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

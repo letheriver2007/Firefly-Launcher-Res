@@ -14,8 +14,7 @@
       "PosY": -2.167227,
       "PosZ": -8.49,
       "Name": "CHeckPoint01",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -23,8 +22,7 @@
       "PosY": -2.134002,
       "PosZ": -72.956,
       "Name": "CHeckPoint02",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -32,8 +30,7 @@
       "PosY": -2.033928,
       "PosZ": -170.0,
       "Name": "CHeckPoint03",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -56,7 +53,6 @@
         "PointList": []
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -94,7 +90,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",
@@ -137,7 +132,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -169,7 +163,6 @@
       "PropID": 103,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_MazeDoor_01.json",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -192,7 +185,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

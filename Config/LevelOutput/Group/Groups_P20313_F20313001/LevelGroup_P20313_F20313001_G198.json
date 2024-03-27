@@ -10,30 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      53,
-      355,
-      53,
-      356
-    ],
-    "LowerUpperBounds": {
-      "x": 91,
-      "y": 92
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      53,
-      355,
-      53,
-      356
-    ],
-    "LowerUpperBounds": {
-      "x": 91,
-      "y": 92
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -43,7 +19,6 @@
       "PosY": 182.5999,
       "PosZ": 738.3619,
       "Name": "Anchor1",
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -58,7 +33,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -95,7 +69,6 @@
         "GroupID": 198,
         "InstanceID": 400002
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         8
@@ -126,7 +99,6 @@
         "GroupID": 198,
         "InstanceID": 400001
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8,
         1

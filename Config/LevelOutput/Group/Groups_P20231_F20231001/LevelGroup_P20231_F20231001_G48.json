@@ -7,6 +7,7 @@
   "GroupRefreshID": 1002,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -22,7 +23,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -30,6 +30,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -45,7 +46,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -53,6 +53,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -68,7 +69,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -76,6 +76,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -92,7 +93,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -100,6 +100,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -115,7 +116,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -123,6 +123,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -138,7 +139,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -146,6 +146,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -161,13 +162,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300007,
@@ -180,13 +181,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300008,
@@ -199,13 +200,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300009,
@@ -218,13 +219,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300010,
@@ -238,7 +239,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -246,6 +246,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -261,13 +262,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300012,
@@ -280,13 +281,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300013,
@@ -299,13 +300,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300014,
@@ -318,13 +319,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300015,
@@ -336,13 +337,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300016,
@@ -354,13 +355,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300017,
@@ -373,13 +374,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300018,
@@ -392,13 +393,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300019,
@@ -411,13 +412,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300020,
@@ -430,13 +431,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300021,
@@ -449,13 +450,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300022,
@@ -467,13 +468,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300023,
@@ -485,13 +486,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300024,
@@ -503,13 +504,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300025,
@@ -521,13 +522,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300004,
@@ -540,13 +541,13 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 20231401,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300005,
@@ -560,7 +561,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -568,6 +568,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

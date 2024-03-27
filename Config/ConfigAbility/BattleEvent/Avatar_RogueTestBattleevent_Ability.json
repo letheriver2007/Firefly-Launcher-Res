@@ -203,7 +203,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_01.prefab"
         },
         {
@@ -221,7 +220,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_02.prefab"
         },
         {
@@ -239,7 +237,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_04Cameras.prefab"
         },
         {
@@ -257,7 +254,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_03Cameras.prefab"
         },
         {
@@ -266,7 +262,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_03Yanhua.prefab"
         },
         {
@@ -275,7 +270,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Elation/Eff_BattleEvent_Rogue_Elation_Scene.prefab"
         },
         {
@@ -387,7 +381,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Burst.prefab",
                   "Delay": 0.5
                 }
@@ -498,7 +491,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Burst.prefab",
               "Delay": 0.5
             }

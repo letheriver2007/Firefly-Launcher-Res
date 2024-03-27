@@ -3,6 +3,9 @@
   "GroupName": "ClockToyPlace",
   "LevelGraph": "Config/Level/GroupGraph/F20311001/Group_F20311001_G420.json",
   "AreaAnchorName": "LevelArea_P20311_F20311001_G420",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [
       {
@@ -19,28 +22,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -74,
-      -18
-    ],
-    "LowerUpperBounds": {
-      "x": -2,
-      "y": -1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -74,
-      -18,
-      -73,
-      -16
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -53,7 +34,6 @@
       "RotY": 298.9,
       "RotX": 14.73001,
       "RotZ": -2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -75,7 +55,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -84,6 +63,18 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "OverrideMapIconType": 114,
+      "OverrideMapStateIcons": [
+        {
+          "State": "Locked",
+          "IconID": 114
+        },
+        {
+          "IconID": 114
+        },
+        {
+          "State": "Open"
+        }
+      ],
       "TriggerValidGuest": {},
       "TagContainer": {},
       "CameraCenterEntityList": [],
@@ -101,7 +92,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -128,7 +118,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -976013465

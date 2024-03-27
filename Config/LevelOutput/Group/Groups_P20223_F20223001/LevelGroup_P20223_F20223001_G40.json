@@ -30,8 +30,7 @@
       "PosX": -0.147772,
       "PosY": -9.076819,
       "PosZ": -10.345,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -40,7 +39,6 @@
       "PosZ": -11.57,
       "Name": "Anchor2",
       "RotY": 299.5468,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -53,7 +51,6 @@
       "PosZ": -9.71,
       "Name": "Anchor3",
       "RotY": 49.47607,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -61,8 +58,7 @@
       "PosX": -8.735,
       "PosY": -9.076818,
       "PosZ": -5.34,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -78,7 +74,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312040000,

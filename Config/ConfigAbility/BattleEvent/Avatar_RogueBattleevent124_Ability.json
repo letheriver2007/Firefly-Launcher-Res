@@ -192,7 +192,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab",
                   "MinMutexTime": 0.85,
                   "MinMutexType": "Entity"
@@ -426,7 +425,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Hunting/Eff_BattleEvent_Rogue_Hunting_01.prefab"
         },
         {
@@ -496,7 +494,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Hunting/Eff_BattleEvent_Rogue_Hunting_02.prefab"
         },
         {

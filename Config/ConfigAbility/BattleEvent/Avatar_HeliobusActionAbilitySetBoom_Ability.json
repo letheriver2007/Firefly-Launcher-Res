@@ -768,7 +768,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Air_Debuff.prefab",
           "PositionOffset": {
             "X": 0,
@@ -797,7 +796,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Ground_Debuff.prefab"
         },
         {
@@ -841,7 +839,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllDarkTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Debuff_Other.prefab",
           "AudioSwitchGroup": "Battle_Buff",
           "AudioSwitchName": "QuXieShu"
@@ -887,7 +884,7 @@
           },
           "-142085853": {
             "ReadInfo": {
-              "Type": 8,
+              "Type": "FloorCustomData",
               "Str": "#BattleEvent"
             }
           }
@@ -1428,7 +1425,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Explosion.prefab",
               "AudioSwitchGroup": "Battle_Buff",
               "AudioSwitchName": "QuXieShu"

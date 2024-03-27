@@ -15,7 +15,6 @@
       "PosZ": -7.99,
       "Name": "Anchor1",
       "RotY": 133.2796,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     },
@@ -26,7 +25,6 @@
       "PosZ": -7.34,
       "Name": "Anchor2",
       "RotY": 160.5837,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     }
@@ -87,7 +85,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -106,7 +103,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -125,7 +121,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -143,7 +138,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_TutorialUnlock_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Shape": "Box",

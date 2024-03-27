@@ -8,13 +8,15 @@
       "ID": 7,
       "Name": "Default",
       "GroupGUID": "8135ef8c-4f07-4194-a59c-7fc43cc9d831",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G7.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G7.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 19,
       "Name": "Book",
       "GroupGUID": "16eff44c-5fba-4ada-8a72-09e30d5576cb",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G19.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G19.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 8,
@@ -27,7 +29,8 @@
       "IsDelete": true,
       "Name": "MainMission102030106",
       "GroupGUID": "94378598-f5b3-4ad8-a415-cb5b4c8fddc5",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G9.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G9.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 10,
@@ -45,25 +48,29 @@
       "ID": 13,
       "Name": "Town_Npc",
       "GroupGUID": "3b39a7f4-25d5-4618-9e1b-a4b92ed2240d",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G13.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G13.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 14,
       "Name": "Town_Npc",
       "GroupGUID": "b5612217-ba4a-43ec-bb2f-9f6e929cd59a",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G14.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G14.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 15,
       "Name": "Sound",
       "GroupGUID": "66054756-4f47-4779-8cfa-679ec4f1c31a",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G15.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G15.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 16,
       "Name": "Town_Avatar",
       "GroupGUID": "d0127d1c-ebcc-4a72-bba6-4d492d988e4f",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G16.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G16.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 17,
@@ -87,7 +94,8 @@
       "ID": 21,
       "Name": "New Group",
       "GroupGUID": "472363d4-6dfc-42e5-af8b-d73d31031baa",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G21.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G21.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 27,
@@ -129,7 +137,8 @@
       "ID": 28,
       "Name": "PropDialogue",
       "GroupGUID": "85f2533d-317b-430c-8eff-dea309e56748",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G28.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G28.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 29,
@@ -166,7 +175,8 @@
       "ID": 35,
       "Name": "New Group",
       "GroupGUID": "815b2a6d-5308-47a4-8dcc-5d43805921bb",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G35.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G35.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 39,
@@ -216,13 +226,15 @@
       "ID": 44,
       "Name": "Book",
       "GroupGUID": "f4a32d04-2e1b-4ada-83b6-79a9ea4d7408",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G44.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G44.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 45,
       "Name": "Book",
       "GroupGUID": "c70d9a3b-26b9-4ec3-8d3c-d6c423bf8964",
-      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G45.json"
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10201_F10201002/LevelGroup_P10201_F10201002_G45.json",
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 46,

@@ -105,6 +105,11 @@
     },
     {
       "$type": "RPG.GameCore.AIVariableString",
+      "Value": "DamageNeedNoCrit",
+      "Name": "AITagKeyForLockType_DamageNeedNoCrit"
+    },
+    {
+      "$type": "RPG.GameCore.AIVariableString",
       "Value": "DamageCarry",
       "Name": "AITagKeyForLockType_DamageCarry"
     },

@@ -910,7 +910,7 @@
                       "Value": {
                         "IsDynamic": false,
                         "FixedValue": {
-                          "Value": 500
+                          "Value": 1000
                         }
                       }
                     },
@@ -1153,7 +1153,7 @@
                                   "Value": {
                                     "IsDynamic": false,
                                     "FixedValue": {
-                                      "Value": 2500
+                                      "Value": 2000
                                     }
                                   }
                                 },
@@ -1185,7 +1185,7 @@
                                   "Value": {
                                     "IsDynamic": false,
                                     "FixedValue": {
-                                      "Value": 1500
+                                      "Value": 1000
                                     }
                                   }
                                 }
@@ -1213,7 +1213,7 @@
                                       "Value": {
                                         "IsDynamic": false,
                                         "FixedValue": {
-                                          "Value": 5000
+                                          "Value": 3500
                                         }
                                       }
                                     },
@@ -1245,7 +1245,7 @@
                                       "Value": {
                                         "IsDynamic": false,
                                         "FixedValue": {
-                                          "Value": 3000
+                                          "Value": 1500
                                         }
                                       }
                                     }
@@ -1615,6 +1615,17 @@
             "Alias": "Caster"
           },
           "ModifierName": "BattleTarget_FantasticStoryBattleScore2_Modifier"
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByIsFirstChallengeBattle"
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.SetBattleTargetMultiTargetSwitch"
+            }
+          ]
         }
       ]
     },

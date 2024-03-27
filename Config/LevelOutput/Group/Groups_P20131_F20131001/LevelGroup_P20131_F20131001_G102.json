@@ -22,8 +22,7 @@
       "PosY": 1.019,
       "PosZ": -235.869,
       "Name": "Checkpoint1",
-      "RotY": 246.5151,
-      "MapLayerID": 1
+      "RotY": 246.5151
     },
     {
       "ID": 2,
@@ -34,7 +33,6 @@
       "RotY": 205.8515,
       "RotX": 1.549981,
       "RotZ": 359.7772,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -43,8 +41,7 @@
       "PosY": -0.111,
       "PosZ": -93.5,
       "Name": "Checkpoint2",
-      "RotY": 330.0,
-      "MapLayerID": 1
+      "RotY": 330.0
     }
   ],
   "MonsterList": [],

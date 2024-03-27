@@ -2,6 +2,9 @@
   "GroupGUID": "2fa211fc-a1cd-4da7-a0b0-5bea83716512",
   "GroupName": "Anchor",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G15",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
@@ -12,30 +15,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      3,
-      18,
-      -53,
-      71,
-      57,
-      71,
-      35,
-      76,
-      2,
-      98,
-      -44,
-      114
-    ],
-    "LowerUpperBounds": {
-      "x": -15,
-      "y": -3
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -43,16 +22,14 @@
       "ID": 1,
       "PosY": -14.38271,
       "PosZ": 44.219,
-      "Name": "CheckPoint01",
-      "MapLayerID": 2
+      "Name": "CheckPoint01"
     },
     {
       "ID": 2,
       "PosX": 0.06,
       "PosY": -22.21284,
       "PosZ": 195.26,
-      "Name": "CheckPoint02",
-      "MapLayerID": 1
+      "Name": "CheckPoint02"
     },
     {
       "ID": 3,
@@ -60,8 +37,7 @@
       "PosY": -13.75998,
       "PosZ": 233.21,
       "Name": "CheckPoint03",
-      "RotY": 240.0,
-      "MapLayerID": 2
+      "RotY": 240.0
     },
     {
       "ID": 4,
@@ -69,8 +45,7 @@
       "PosY": -6.686601,
       "PosZ": 137.09,
       "Name": "CheckPoint04",
-      "RotY": 74.99997,
-      "MapLayerID": 2
+      "RotY": 74.99997
     },
     {
       "ID": 5,
@@ -78,8 +53,7 @@
       "PosY": -14.72614,
       "PosZ": 146.48,
       "Name": "CheckPoint05",
-      "RotY": 315.0,
-      "MapLayerID": 2
+      "RotY": 315.0
     },
     {
       "ID": 6,
@@ -87,15 +61,13 @@
       "PosY": -28.33511,
       "PosZ": 151.42,
       "Name": "CheckPoint06",
-      "RotY": 113.5241,
-      "MapLayerID": 1
+      "RotY": 113.5241
     },
     {
       "ID": 7,
       "PosY": -14.38271,
       "PosZ": 44.219,
-      "Name": "Anchor7",
-      "MapLayerID": 2
+      "Name": "Anchor7"
     },
     {
       "ID": 8,
@@ -103,8 +75,7 @@
       "PosY": -1.198474,
       "PosZ": 100.5933,
       "Name": "Anchor8",
-      "RotY": 329.651,
-      "MapLayerID": 3
+      "RotY": 329.651
     },
     {
       "ID": 9,
@@ -112,8 +83,7 @@
       "PosY": -4.903738,
       "PosZ": 147.45,
       "Name": "Anchor9",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -130,7 +100,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 12.0,
@@ -168,7 +137,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 10.0,
@@ -206,7 +174,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 15.0,
@@ -244,7 +211,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 14.0,
@@ -282,7 +248,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 16.0,
@@ -323,7 +288,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",

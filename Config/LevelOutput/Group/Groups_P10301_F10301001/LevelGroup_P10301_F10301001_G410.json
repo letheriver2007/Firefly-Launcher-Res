@@ -9,20 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      8,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -33,7 +19,6 @@
       "PosZ": 66.765,
       "Name": "Anchor1",
       "RotY": 146.9083,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -45,7 +30,6 @@
       "RotY": 117.4791,
       "RotX": 10.83584,
       "RotZ": -1.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -58,7 +42,6 @@
       "PosZ": 65.81,
       "Name": "Anchor3",
       "RotY": 2.22206,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -76,7 +59,6 @@
       "PropID": 120,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {

@@ -8,26 +8,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -32,
-      30
-    ],
-    "LowerUpperBounds": {
-      "x": 266,
-      "y": 267
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -32,
-      30
-    ],
-    "LowerUpperBounds": {
-      "x": 266,
-      "y": 267
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -48,7 +28,6 @@
         "GroupID": 2,
         "ID": 1
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -75,7 +54,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -96,7 +74,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

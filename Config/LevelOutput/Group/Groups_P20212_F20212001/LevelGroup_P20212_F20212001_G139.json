@@ -7,26 +7,6 @@
   "OwnerMainMissionID": 8003242,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      72,
-      -73
-    ],
-    "LowerUpperBounds": {
-      "x": 78,
-      "y": 79
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      72,
-      -73
-    ],
-    "LowerUpperBounds": {
-      "x": 78,
-      "y": 79
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -48,7 +28,6 @@
         "ID": 1
       },
       "EventID": 20212106,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

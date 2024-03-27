@@ -2,9 +2,7 @@
   "AnimEventConfigList": [
     "Config/ConfigAnimEvents/Prop/Audio/Prop_Chap03_ClockToyBox_01_Audio_AnimEvent.json"
   ],
-  "DisableAnimEventLayers": [
-    "Dissolve Layer"
-  ],
+  "DisableAnimEventLayers": [],
   "AnimatorStateGroupEvents": [
     {
       "States": [

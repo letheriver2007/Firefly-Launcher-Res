@@ -685,7 +685,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeammate"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_01_disappear.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -775,7 +774,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                           "UniqueEffectName": "SummonBall_Left",
                           "PositionOffset": {
@@ -810,7 +808,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                           "UniqueEffectName": "SummonBall_Left02",
                           "PositionOffset": {
@@ -843,7 +840,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                           "UniqueEffectName": "SummonBall_Right",
                           "PositionOffset": {
@@ -878,7 +874,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                           "UniqueEffectName": "SummonBall_Right02",
                           "PositionOffset": {
@@ -1139,7 +1134,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_01.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -1169,7 +1163,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_02.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -1199,7 +1192,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "Caster"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_03.prefab",
                           "PositionOffset": {
                             "X": 0,
@@ -1664,6 +1656,7 @@
               },
               "ModifierName": "MCommon_DOT_Electric",
               "LifeStepImmediately": true,
+              "StackingFlag": "CharacterSkill",
               "Chance": {
                 "IsDynamic": false,
                 "FixedValue": {
@@ -2134,7 +2127,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Kafka_00/Eff_Monster_W2_Kafka_00_Skill05_Start02.prefab"
             }
           ]
@@ -2219,7 +2211,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                   "UniqueEffectName": "SummonBall_Left",
                   "PositionOffset": {
@@ -2236,7 +2227,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Skill04_Attack Bullet_01.prefab",
                   "UniqueEffectName": "SummonBall_Right",
                   "PositionOffset": {
@@ -2477,7 +2467,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_01.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -2493,7 +2482,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_LogoBuff_02.prefab",
               "PositionOffset": {
                 "X": 0,

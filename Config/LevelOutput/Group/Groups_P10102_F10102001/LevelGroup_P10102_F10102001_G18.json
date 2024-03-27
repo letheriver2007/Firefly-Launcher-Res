@@ -31,8 +31,7 @@
       "PosY": -0.37366,
       "PosZ": 53.41,
       "Name": "Anchor1",
-      "RotY": 315.0,
-      "MapLayerID": 1
+      "RotY": 315.0
     },
     {
       "ID": 2,
@@ -40,8 +39,7 @@
       "PosY": 1.162,
       "PosZ": 53.63,
       "Name": "Anchor2",
-      "RotY": 92.58,
-      "MapLayerID": 1
+      "RotY": 92.58
     }
   ],
   "MonsterList": [],
@@ -60,7 +58,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -91,7 +88,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -110,7 +106,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

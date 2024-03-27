@@ -507,6 +507,23 @@
     "TabID": 1002,
     "RelatedID": 1012
   },
+  "10028": {
+    "ID": 10028,
+    "Name": {
+      "Hash": 1737422885
+    },
+    "IconPath": "SpriteOutput/ChallengeTheme/ThemeIcon/AbyssIcon02.png",
+    "TabIconPath": "",
+    "MapEntranceID": 801120102,
+    "UnlockConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010105"
+      }
+    ],
+    "TabID": 1002,
+    "RelatedID": 1013
+  },
   "20001": {
     "ID": 20001,
     "Name": {
@@ -557,5 +574,39 @@
     ],
     "TabID": 1003,
     "RelatedID": 2003
+  },
+  "20004": {
+    "ID": 20004,
+    "Name": {
+      "Hash": -1394743978
+    },
+    "IconPath": "SpriteOutput/ChallengeTheme/ThemeIcon/ChallengeThemeIcon_2001.png",
+    "TabIconPath": "",
+    "MapEntranceID": 801120102,
+    "UnlockConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1021501"
+      }
+    ],
+    "TabID": 1003,
+    "RelatedID": 2004
+  },
+  "20005": {
+    "ID": 20005,
+    "Name": {
+      "Hash": -1394743979
+    },
+    "IconPath": "SpriteOutput/ChallengeTheme/ThemeIcon/ChallengeThemeIcon_2004.png",
+    "TabIconPath": "",
+    "MapEntranceID": 801120102,
+    "UnlockConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1021501"
+      }
+    ],
+    "TabID": 1003,
+    "RelatedID": 2005
   }
 }

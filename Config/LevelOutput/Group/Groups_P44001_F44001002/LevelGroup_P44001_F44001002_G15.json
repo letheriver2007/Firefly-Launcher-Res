@@ -12,36 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      4,
-      42,
-      4,
-      43,
-      33,
-      44,
-      19,
-      49,
-      33,
-      55,
-      45,
-      61,
-      62,
-      63,
-      94,
-      72,
-      4,
-      78
-    ],
-    "LowerUpperBounds": {
-      "x": 38,
-      "y": 42
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -65,7 +35,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -102,7 +71,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -126,7 +94,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -161,7 +128,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -184,7 +150,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -219,7 +184,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -248,7 +212,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -277,7 +240,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_DetectNPC": {
           "Shape": "Box",
@@ -318,7 +280,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -342,7 +303,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

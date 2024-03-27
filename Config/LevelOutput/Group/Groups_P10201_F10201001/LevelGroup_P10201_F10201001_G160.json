@@ -39,7 +39,6 @@
       "RotY": 12.71967,
       "RotX": 10.48517,
       "RotZ": -1.5E-5,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -48,8 +47,7 @@
       "PosY": 8.0E-6,
       "PosZ": -3.45,
       "Name": "Anchor2",
-      "RotY": 281.0886,
-      "MapLayerID": 1
+      "RotY": 281.0886
     }
   ],
   "MonsterList": [],
@@ -63,7 +61,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -82,7 +79,6 @@
       "NPCID": 12312,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1388188723
@@ -113,7 +109,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,

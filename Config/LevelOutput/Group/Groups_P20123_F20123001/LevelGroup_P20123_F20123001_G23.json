@@ -42,16 +42,6 @@
           300006
         ],
         "CrowdIDList": []
-      },
-      {
-        "ControlID": 2,
-        "Weight": 1.0,
-        "NPCIDList": [],
-        "PropIDList": [
-          300007,
-          300008
-        ],
-        "CrowdIDList": []
       }
     ]
   },
@@ -113,7 +103,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -122,6 +111,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -152,7 +142,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -161,6 +150,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -212,7 +202,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -221,6 +210,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -251,7 +241,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -260,6 +249,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -311,7 +301,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -320,6 +309,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -350,7 +340,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -359,100 +348,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
-      "SpawnConfig": {
-        "EntitySpawnConfig": {}
-      }
-    },
-    {
-      "ID": 300007,
-      "PosX": 5.396,
-      "PosY": 22.98,
-      "PosZ": 50.131,
-      "Name": "Prop7",
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Play_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "SharedString",
-            "Key": "PlayMunicipalChatPath",
-            "Value": "Config/Level/MunicipalChatConfig/F20123001/MunicipalChatConfig_F20123001_0004.json"
-          },
-          {
-            "$type": "SharedString",
-            "Key": "PlayMunicipalChatName",
-            "Value": "MunicipalChatConfig_F20123001_0004"
-          },
-          {
-            "$type": "SharedJsonConfigList",
-            "Key": "PlayMunicipalChatCharacterList",
-            "Value": [
-              {
-                "$type": "MunicipalChatEntityInfo",
-                "UniqueName": "1",
-                "GroupInstanceID": 400038
-              }
-            ]
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "MapLayerID": 2,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
-      "TagContainer": {},
-      "SpawnConfig": {
-        "EntitySpawnConfig": {}
-      }
-    },
-    {
-      "ID": 300008,
-      "PosX": 6.054178,
-      "PosY": 22.98113,
-      "PosZ": 50.53711,
-      "Name": "Prop8",
-      "PropID": 100,
-      "IsOverrideInitLevelGraph": true,
-      "InitLevelGraph": "Config/Level/CrowdBubble/MunicipalChat_Stop_Template.json",
-      "ValueSource": {
-        "Values": [
-          {
-            "$type": "SharedString",
-            "Key": "StopMunicipalChatName",
-            "Value": "MunicipalChatConfig_F20123001_0004"
-          }
-        ]
-      },
-      "Trigger": {
-        "Radius": 3.0,
-        "DimX": 1.0,
-        "DimY": 1.0,
-        "DimZ": 1.0,
-        "PointList": []
-      },
-      "CampID": 4,
-      "MapLayerID": 2,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
-      "BridgeStateRotations": [],
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
-      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -471,7 +367,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -481,6 +376,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -497,7 +393,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -505,7 +400,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400003,
@@ -518,7 +414,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -526,7 +421,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400004,
@@ -539,7 +435,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -547,7 +442,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400005,
@@ -561,7 +457,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -573,6 +468,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -590,7 +486,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -602,6 +497,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -619,7 +515,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -631,6 +526,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -648,7 +544,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -658,6 +553,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -674,7 +570,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -682,7 +577,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400010,
@@ -695,7 +591,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -703,7 +598,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400011,
@@ -717,7 +613,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -729,6 +624,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -746,7 +642,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -758,6 +653,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -774,7 +670,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -782,7 +677,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400014,
@@ -796,7 +692,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -808,6 +703,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -825,7 +721,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -837,6 +732,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -854,7 +750,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -866,6 +761,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -883,7 +779,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -895,6 +790,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -912,7 +808,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -924,6 +819,7 @@
       "BornType": "Permanent",
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },
@@ -940,7 +836,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -948,7 +843,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400020,
@@ -961,7 +857,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -270385606
@@ -969,7 +864,8 @@
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "BornType": "Permanent",
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     }
   ]
 }

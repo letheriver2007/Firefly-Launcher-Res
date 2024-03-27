@@ -22,8 +22,7 @@
       "PosY": 45.64352,
       "PosZ": -102.6926,
       "Name": "Anchor1",
-      "RotY": 2.772557,
-      "MapLayerID": 1
+      "RotY": 2.772557
     },
     {
       "ID": 2,
@@ -31,8 +30,7 @@
       "PosY": 45.53924,
       "PosZ": -61.7532,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [
@@ -52,7 +50,6 @@
       "CampID": 3,
       "BattleArea": {},
       "EventID": 20131001,
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TagList": []
     },
@@ -75,7 +72,6 @@
         "ID": 1
       },
       "EventID": 20131001,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -101,7 +97,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20131001,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -126,7 +121,6 @@
         "ID": 1
       },
       "EventID": 43101003,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -151,7 +145,6 @@
         "ID": 1
       },
       "EventID": 43101003,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

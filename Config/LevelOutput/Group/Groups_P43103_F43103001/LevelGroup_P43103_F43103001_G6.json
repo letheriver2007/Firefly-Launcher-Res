@@ -16,7 +16,6 @@
       "RotY": 66.12372,
       "RotX": 9.199959,
       "RotZ": 1.3E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -31,7 +30,6 @@
       "RotY": 36.7738,
       "RotX": 19.53358,
       "RotZ": -5.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -45,7 +43,6 @@
       "Name": "Anchor3",
       "RotY": 150.1951,
       "RotX": 20.59726,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -59,7 +56,6 @@
       "Name": "Anchor4",
       "RotY": 184.5953,
       "RotX": 22.16828,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -74,7 +70,6 @@
       "RotY": 45.0432,
       "RotX": 13.38757,
       "RotZ": 359.1425,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -88,7 +83,6 @@
       "Name": "Anchor6",
       "RotY": 185.377,
       "RotX": 9.150943,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -103,7 +97,6 @@
       "RotY": 283.5781,
       "RotX": 15.65895,
       "RotZ": 4.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -115,8 +108,7 @@
       "PosY": -5.09516,
       "PosZ": 337.1902,
       "Name": "Anchor8",
-      "RotY": 208.8421,
-      "MapLayerID": 1
+      "RotY": 208.8421
     },
     {
       "ID": 9,
@@ -126,7 +118,6 @@
       "Name": "Anchor9",
       "RotY": 16.08578,
       "RotX": 22.48396,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -141,7 +132,6 @@
       "RotY": 1.0E-5,
       "RotX": 13.92869,
       "RotZ": -2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -154,7 +144,6 @@
       "PosZ": 308.46,
       "Name": "Anchor11",
       "RotX": 43.63944,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -169,7 +158,6 @@
       "RotY": 271.0881,
       "RotX": 356.7913,
       "RotZ": 359.8611,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -183,7 +171,6 @@
       "Name": "Anchor13",
       "RotY": 272.0314,
       "RotX": 358.0305,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -196,7 +183,6 @@
       "PosZ": 323.4596,
       "Name": "Anchor14",
       "RotY": 295.9934,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -207,7 +193,6 @@
       "Name": "Anchor15",
       "RotY": 277.259,
       "RotX": 5.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -265,7 +250,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 6.0,
@@ -329,7 +313,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -393,7 +376,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -464,7 +446,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Shape": "Box",
@@ -525,7 +506,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 10.0,
@@ -584,7 +564,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -637,7 +616,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -698,7 +676,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -753,7 +730,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -820,7 +796,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -875,7 +850,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -932,7 +906,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Shape": "Box",
@@ -1007,7 +980,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -1070,7 +1042,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -1133,7 +1104,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 15.0,
@@ -1206,7 +1176,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,
@@ -1270,7 +1239,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -1325,7 +1293,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 13.0,
@@ -1389,7 +1356,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -1439,7 +1405,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -1485,7 +1450,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 9.0,

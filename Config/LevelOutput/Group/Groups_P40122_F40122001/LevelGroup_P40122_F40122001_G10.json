@@ -30,8 +30,7 @@
       "PosY": 1.11351,
       "PosZ": 156.2783,
       "Name": "Startpoint",
-      "RotY": 342.15,
-      "MapLayerID": 1
+      "RotY": 342.15
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": -2.590106,
       "PosZ": 148.0,
       "Name": "Anchor2",
-      "RotY": 342.15,
-      "MapLayerID": 1
+      "RotY": 342.15
     },
     {
       "ID": 3,
@@ -48,7 +46,6 @@
       "PosY": 9.074661,
       "PosZ": 165.9959,
       "Name": "Anchor3",
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab"
     }
@@ -75,7 +72,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311110000,

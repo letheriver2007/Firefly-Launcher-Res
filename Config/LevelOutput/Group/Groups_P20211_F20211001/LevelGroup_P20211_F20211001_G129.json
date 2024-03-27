@@ -39,8 +39,7 @@
       "PosY": 0.820667,
       "PosZ": 72.6,
       "Name": "ResetPos",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -54,8 +53,7 @@
       "PosX": -77.8,
       "PosY": -0.59,
       "PosZ": 52.98,
-      "Name": "ShipPoseTargetPos",
-      "MapLayerID": 1
+      "Name": "ShipPoseTargetPos"
     },
     {
       "ID": 4,
@@ -66,7 +64,6 @@
       "RotY": 202.4,
       "RotX": 18.10001,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -81,7 +78,6 @@
       "RotY": 202.4,
       "RotX": 18.10001,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -93,8 +89,7 @@
       "PosY": 0.89,
       "PosZ": 52.91,
       "Name": "ChestPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 7,
@@ -105,7 +100,6 @@
       "RotY": 22.40001,
       "RotX": 6.5,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -162,7 +156,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
           "Shape": "Box",
@@ -310,7 +303,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -374,7 +366,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -399,7 +390,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -426,7 +416,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

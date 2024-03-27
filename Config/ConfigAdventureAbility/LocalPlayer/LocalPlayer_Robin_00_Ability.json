@@ -54,32 +54,6 @@
               "AnimStateName": "Attack_1"
             },
             {
-              "$type": "RPG.GameCore.WaitAnimState",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "Caster"
-              },
-              "AnimStateName": "Attack_1",
-              "NormalizedTimeEnd": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 0.1
-                }
-              }
-            },
-            {
-              "$type": "RPG.GameCore.RadialBlurEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "Caster"
-              },
-              "Duration": 0.02,
-              "BlurY": 0.4,
-              "Iteration": 4,
-              "BlurStart": 0.005,
-              "BlurFeather": 0.01
-            },
-            {
               "$type": "RPG.GameCore.AdventureFireProjectile",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -87,10 +61,9 @@
               },
               "Projectile": {
                 "ColliderTemplate": "CapsuleZ_MazeCommonBullet",
-                "Behavior": "LinearWithHitDetect",
+                "Behavior": "TraceWithDetect",
                 "FlySpeed": 20,
                 "EnableRayCast": true,
-                "Gravity": 0,
                 "MaxLifeTime": 0.7,
                 "AttachPoint": "Origin",
                 "AttachOffset": {
@@ -101,13 +74,7 @@
                 "TargetAttachPoint": "Root",
                 "FlyEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Robin/Eff_Avatar_Robin_00_MazeAttack_Bird.prefab",
                 "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Robin/Eff_Avatar_Robin_00_MazeAttack_Hit.prefab",
-                "FlyEffectFadeOut": true,
-                "LinearPitchAngle": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": 0.1
-                  }
-                }
+                "FlyEffectFadeOut": true
               },
               "OnProjectileHit": [
                 {
@@ -165,6 +132,32 @@
                   }
                 }
               ]
+            },
+            {
+              "$type": "RPG.GameCore.WaitAnimState",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "AnimStateName": "Attack_1",
+              "NormalizedTimeEnd": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0.065
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.RadialBlurEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "Duration": 0.02,
+              "BlurY": 0.4,
+              "Iteration": 4,
+              "BlurStart": 0.005,
+              "BlurFeather": 0.01
             }
           ],
           "FailedTaskList": [
@@ -187,7 +180,7 @@
               "NormalizedTimeEnd": {
                 "IsDynamic": false,
                 "FixedValue": {
-                  "Value": 0.138
+                  "Value": 0.065
                 }
               }
             },
@@ -211,10 +204,9 @@
               },
               "Projectile": {
                 "ColliderTemplate": "CapsuleZ_MazeCommonBullet",
-                "Behavior": "LinearWithHitDetect",
+                "Behavior": "TraceWithDetect",
                 "FlySpeed": 20,
                 "EnableRayCast": true,
-                "Gravity": 0,
                 "MaxLifeTime": 0.7,
                 "AttachPoint": "Origin",
                 "AttachOffset": {
@@ -225,13 +217,7 @@
                 "TargetAttachPoint": "Root",
                 "FlyEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Robin/Eff_Avatar_Robin_00_MazeAttack_Bird.prefab",
                 "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Robin/Eff_Avatar_Robin_00_MazeAttack_Hit.prefab",
-                "FlyEffectFadeOut": true,
-                "LinearPitchAngle": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": -1
-                  }
-                }
+                "FlyEffectFadeOut": true
               },
               "OnProjectileHit": [
                 {

@@ -13,8 +13,7 @@
       "PosY": 5.04,
       "PosZ": -120.22,
       "Name": "PlayerStart",
-      "RotY": 288.9306,
-      "MapLayerID": 2
+      "RotY": 288.9306
     },
     {
       "ID": 2,
@@ -25,7 +24,6 @@
       "RotY": 4.836176,
       "RotX": 7.784742,
       "RotZ": 0.315397,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -64,24 +62,21 @@
       "PosX": -155.164,
       "PosY": 1.565,
       "PosZ": -72.85,
-      "Name": "Anchor5",
-      "MapLayerID": 2
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
       "PosX": -133.61,
       "PosY": 2.75,
       "PosZ": -84.88,
-      "Name": "Anchor6",
-      "MapLayerID": 2
+      "Name": "Anchor6"
     },
     {
       "ID": 7,
       "PosX": -147.631,
       "PosY": -0.162677,
       "PosZ": -70.209,
-      "Name": "Anchor7",
-      "MapLayerID": 2
+      "Name": "Anchor7"
     },
     {
       "ID": 8,
@@ -92,7 +87,6 @@
       "RotY": 15.8716,
       "RotX": 7.728303,
       "RotZ": 2.229884,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -105,7 +99,6 @@
       "PosZ": -72.92,
       "Name": "C1",
       "RotX": 15.82235,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -116,16 +109,14 @@
       "PosX": -134.4688,
       "PosY": 2.752875,
       "PosZ": -62.08986,
-      "Name": "TP1",
-      "MapLayerID": 2
+      "Name": "TP1"
     },
     {
       "ID": 11,
       "PosX": -148.0674,
-      "PosY": 1.90828,
+      "PosY": -0.162685,
       "PosZ": -74.65739,
-      "Name": "TP2",
-      "MapLayerID": 2
+      "Name": "TP2"
     }
   ],
   "MonsterList": [],
@@ -139,13 +130,13 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -157,13 +148,13 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -175,13 +166,13 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300004,
@@ -192,13 +183,13 @@
       "PropID": 100070,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

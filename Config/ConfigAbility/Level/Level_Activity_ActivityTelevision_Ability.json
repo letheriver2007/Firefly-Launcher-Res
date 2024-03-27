@@ -4653,7 +4653,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "AliveOnly": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                 },
@@ -4822,7 +4821,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Fire_Add.prefab",
                       "AttachPoint": "SelectRoot"
                     }
@@ -4847,7 +4845,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Fire_Trigger.prefab",
               "AttachPoint": "SelectRoot"
             },
@@ -5376,7 +5373,12 @@
                             "AttackType": "Pursued",
                             "HitEffectHeight": 1.1
                           },
-                          "PerformanceDelay": 0.5
+                          "PerformanceDelay": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 0.5
+                            }
+                          }
                         },
                         {
                           "$type": "RPG.GameCore.TriggerEffect",
@@ -5384,7 +5386,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                           "Delay": 0.5,
                           "MinMutexTime": 0.5,
@@ -5509,7 +5510,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                       "Delay": 0.5,
                       "MinMutexTime": 0.5,
@@ -7074,7 +7074,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Physical.prefab"
                     }
                   ]
@@ -7188,7 +7187,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Ice.prefab"
                     }
                   ]
@@ -7299,7 +7297,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Fire.prefab"
                     }
                   ]
@@ -7463,7 +7460,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Wind.prefab"
                     }
                   ]
@@ -7577,7 +7573,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Thunder.prefab"
                     }
                   ]
@@ -7697,7 +7692,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Imaginary.prefab"
                     }
                   ]
@@ -7832,7 +7826,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_OuterSkin_Common_Quantum.prefab"
                     }
                   ]

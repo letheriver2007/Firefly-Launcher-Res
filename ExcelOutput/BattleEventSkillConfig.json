@@ -6130,5 +6130,61 @@
     "SimpleParamList": [],
     "SkillEffect": "AoEAttack",
     "SkillButtonEffType": ""
+  },
+  "9609004": {
+    "SkillID": 9609004,
+    "SkillName": {
+      "Hash": -69995418
+    },
+    "SkillTag": {
+      "Hash": 1560729279
+    },
+    "SkillTypeDesc": {
+      "Hash": 1977943265
+    },
+    "SkillTriggerKey": "Skill03",
+    "SkillIcon": "SpriteOutput/ItemIcon/Activity/TreasureDungeon/Treasure_Buff.png",
+    "UltraSkillIcon": "SpriteOutput/ItemIcon/Activity/TreasureDungeon/Treasure_Buff.png",
+    "CutinPath": "",
+    "SkillDesc": {
+      "Hash": -1337963800
+    },
+    "SimpleSkillDesc": {
+      "Hash": 2047963453
+    },
+    "ShowStanceList": [
+      {
+        "Value": 0
+      },
+      {
+        "Value": 0
+      },
+      {
+        "Value": 0
+      }
+    ],
+    "SPBase": {
+      "Value": 30
+    },
+    "SPNeed": {
+      "Value": 100
+    },
+    "SPMultipleRatio": {
+      "Value": 0.5
+    },
+    "BPNeed": {
+      "Value": -1
+    },
+    "SkillNeed": {
+      "Hash": 371857150
+    },
+    "DelayRatio": {
+      "Value": 1
+    },
+    "ParamList": [],
+    "SimpleParamList": [],
+    "AttackType": "Ultra",
+    "SkillEffect": "Support",
+    "SkillButtonEffType": ""
   }
 }

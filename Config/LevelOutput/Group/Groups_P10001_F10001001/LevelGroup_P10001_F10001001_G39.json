@@ -19,8 +19,7 @@
       "PosX": -31.60855,
       "PosY": -0.087949,
       "PosZ": -8.636953,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -42,7 +41,6 @@
         "DimZ": 10.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -65,7 +63,6 @@
         "DimY": 1.0,
         "DimZ": 10.0
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -87,7 +84,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -108,7 +104,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -129,7 +124,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -151,7 +145,6 @@
       "DefaultIdleStateName": "Talk01",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 717773611
@@ -172,7 +165,6 @@
       "DefaultIdleStateName": "LeanLoop",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469551
@@ -193,7 +185,6 @@
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 717773611
@@ -214,7 +205,6 @@
       "DefaultIdleStateName": "Sit01",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 717773611
@@ -235,7 +225,6 @@
       "DefaultIdleStateName": "Talk01",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010200
@@ -253,7 +242,6 @@
       "DefaultIdleStateName": "Akimbo01Loop",
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020210
@@ -271,7 +259,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310030000,

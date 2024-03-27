@@ -30,7 +30,6 @@
       "NPCID": 12163,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -60,8 +59,11 @@
       },
       "ConnectWithSubMissionIDList": [
         404025001,
-        404025102
+        404025102,
+        404025202,
+        404025303
       ],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

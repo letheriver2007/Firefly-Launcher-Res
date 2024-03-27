@@ -354,13 +354,13 @@
               "NormalizedTimeStart": {
                 "IsDynamic": false,
                 "FixedValue": {
-                  "Value": 0.741
+                  "Value": 0.691
                 }
               },
               "NormalizedTimeEnd": {
                 "IsDynamic": false,
                 "FixedValue": {
-                  "Value": 0.791
+                  "Value": 0.767
                 }
               }
             }
@@ -839,7 +839,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Ren/Eff_Avatar_Ren_00_Skill02_Weapon_JNT.prefab"
         },
         {
@@ -2200,16 +2199,19 @@
                       },
                       "SuccessTaskList": [
                         {
+                          "$type": "RPG.GameCore.SetDynamicValueByChangeValue",
+                          "DynamicKey": "CasterLostHP2"
+                        },
+                        {
                           "$type": "RPG.GameCore.SetDynamicValue",
                           "DynamicKey": "CasterLostHP",
                           "Value": {
                             "IsDynamic": true,
                             "PostfixExpr": {
-                              "OpCodes": "AQABAQMBAgIK",
+                              "OpCodes": "AQAHAQECCg==",
                               "FixedValues": [],
                               "DynamicHashes": [
-                                -1404811505,
-                                871454677,
+                                -242750622,
                                 -1640901996
                               ]
                             }
@@ -2321,6 +2323,7 @@
                                   "InsertAbilityPriority": "AvatarInsertAttackSelf",
                                   "ShowInActionBar": true,
                                   "PreCheck": {
+                                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                     "Type": "AbilityOwnerInsertCount",
                                     "Count": {
                                       "IsDynamic": false,
@@ -2678,6 +2681,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertCount",
                         "Count": {
                           "IsDynamic": false,
@@ -2796,6 +2800,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertCount",
                         "Count": {
                           "IsDynamic": false,
@@ -2900,6 +2905,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertCount",
                         "Count": {
                           "IsDynamic": false,
@@ -4240,7 +4246,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Ren/Eff_Avatar_Ren_00_PassiveSkill_Buff_01.prefab"
                 }
               ],
@@ -4291,7 +4296,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Ren/Eff_Avatar_Ren_00_PassiveSkill_Buff_02.prefab"
                     }
                   ],
@@ -4321,7 +4325,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "Caster"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Ren/Eff_Avatar_Ren_00_PassiveSkill_Buff_03.prefab"
                         }
                       ]

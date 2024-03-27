@@ -32,7 +32,9 @@
     "DelayToLevelReload": true
   },
   "OwnerMainMissionID": 2020901,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -40,8 +42,7 @@
       "PosY": 11.13025,
       "PosZ": -49.87,
       "Name": "Anchor1",
-      "RotY": 290.1849,
-      "MapLayerID": 1
+      "RotY": 290.1849
     },
     {
       "ID": 2,
@@ -50,8 +51,7 @@
       "PosZ": -31.688,
       "IsDelete": true,
       "Name": "Anchor2",
-      "RotY": 89.67042,
-      "MapLayerID": 1
+      "RotY": 89.67042
     },
     {
       "ID": 3,
@@ -62,8 +62,10 @@
       "RotY": 288.0864,
       "RotX": 350.0637,
       "RotZ": 0.526858,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 4,
@@ -72,8 +74,7 @@
       "PosZ": -31.38,
       "IsDelete": true,
       "Name": "Anchor4",
-      "RotY": 282.4222,
-      "MapLayerID": 1
+      "RotY": 282.4222
     },
     {
       "ID": 5,
@@ -84,8 +85,10 @@
       "Name": "Anchor5",
       "RotY": 82.23,
       "RotX": 11.48501,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -101,7 +104,6 @@
       "NPCID": 2203,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -116,7 +118,8 @@
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20231/F20231001_G90/DialogueMain_F20231001_G90_N400001.json",
         "PackList": []
-      }
+      },
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400002,
@@ -129,12 +132,12 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400004,
@@ -146,7 +149,6 @@
       "NPCID": 2203,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -161,7 +163,8 @@
       "Dialog": {
         "LevelGraph": "Config/Level/NPCDialogue/P20231/F20231001_G90/DialogueMain_F20231001_G90_N400001.json",
         "PackList": []
-      }
+      },
+      "CameraCenterEntityList": []
     }
   ]
 }

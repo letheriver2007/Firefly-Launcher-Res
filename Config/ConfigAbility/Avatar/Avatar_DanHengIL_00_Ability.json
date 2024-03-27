@@ -51,7 +51,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill01_Attack_02.prefab",
           "AttachPoint": "Origin"
         },
@@ -1650,7 +1649,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill02_B2_Hit_02.prefab"
                 },
                 {
@@ -1775,7 +1773,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill02_B2_Hit_03.prefab"
         },
         {
@@ -1944,7 +1941,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill02_B2_Hit_04.prefab"
             },
             {
@@ -2067,7 +2063,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill02_B2_Hit_04.prefab"
             },
             {
@@ -2315,7 +2310,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Skill02_B3_06_End.prefab",
           "AttachPoint": "Origin"
         },
@@ -4624,7 +4618,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_DanHengIL/Eff_Avatar_DanHengIL_00_Common_SkillEnd.prefab",
           "AttachPoint": "Origin"
         }
@@ -5927,7 +5920,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]

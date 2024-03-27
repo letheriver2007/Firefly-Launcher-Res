@@ -32,7 +32,6 @@
       "PosZ": -118.18,
       "Name": "Anchor1",
       "RotY": 128.5909,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -45,7 +44,6 @@
       "PosZ": -116.06,
       "Name": "Anchor2",
       "RotY": 104.4181,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -58,7 +56,6 @@
       "PosZ": -114.022,
       "Name": "Anchor3",
       "RotY": 152.0643,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -69,7 +66,6 @@
       "Name": "Anchor4",
       "RotY": 150.2075,
       "RotX": 7.431885,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -83,7 +79,6 @@
       "PosZ": -114.654,
       "Name": "Anchor5",
       "RotX": 7.437273,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -94,8 +89,7 @@
       "PosX": 131.079,
       "PosY": -26.72,
       "PosZ": -116.76,
-      "Name": "Anchor6",
-      "MapLayerID": 1
+      "Name": "Anchor6"
     }
   ],
   "MonsterList": [],
@@ -111,7 +105,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -136,7 +129,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -161,7 +153,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -182,7 +173,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312120000,
@@ -203,7 +193,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312090000,
@@ -224,7 +213,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312120000,
@@ -245,7 +233,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312090000,

@@ -926,7 +926,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Dr_Ratio/Eff_Avatar_Dr_Ratio_00_Skill02_Buff02.prefab"
                 },
                 {
@@ -959,7 +958,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Dr_Ratio/Eff_Avatar_Dr_Ratio_00_Skill02_Passive.prefab"
             }
           ]
@@ -984,7 +982,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Dr_Ratio/Eff_Avatar_Dr_Ratio_00_Skill02_Hit.prefab"
         },
         {
@@ -1464,7 +1461,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Dr_Ratio/Eff_Avatar_Dr_Ratio_00_Ani_Skill03.prefab",
           "AttachPoint": "EffectScale"
         },
@@ -2318,6 +2314,14 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "Event": "OnListenInsertAbilityStart",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.ToggleSpecialSkillMark"
                 }
               ]
             },
@@ -4343,6 +4347,14 @@
           ]
         },
         {
+          "Event": "OnListenInsertAbilityStart",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.ToggleSpecialSkillMark"
+            }
+          ]
+        },
+        {
           "Event": "OnListenAimAtTargetsRefresh_CL",
           "CallbackConfig": [
             {
@@ -5154,6 +5166,7 @@
               "InsertAbilityPriority": "AvatarInsertAttackSelf",
               "ShowInActionBar": true,
               "PreCheck": {
+                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                 "Type": "AbilityOwnerInsertUnusedCount",
                 "Count": {
                   "IsDynamic": false,
@@ -5217,6 +5230,7 @@
                   "InsertAbilityPriority": "AvatarInsertAttackSelf",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": false,
@@ -5259,6 +5273,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertUnusedCount",
                         "Count": {
                           "IsDynamic": false,

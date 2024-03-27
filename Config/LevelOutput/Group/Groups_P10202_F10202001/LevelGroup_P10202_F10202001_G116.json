@@ -30,8 +30,7 @@
       "PosY": 0.602118,
       "PosZ": 53.348,
       "Name": "Anchor1",
-      "RotY": 228.39,
-      "MapLayerID": 1
+      "RotY": 228.39
     },
     {
       "ID": 2,
@@ -42,7 +41,6 @@
       "RotY": 187.0858,
       "RotX": 0.037433,
       "RotZ": 359.3945,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -59,7 +57,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -76,7 +73,6 @@
       "NPCID": 12141,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010298,
@@ -96,7 +92,6 @@
       "NPCID": 12141,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

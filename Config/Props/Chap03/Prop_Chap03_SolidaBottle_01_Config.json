@@ -1,4 +1,16 @@
 {
+  "OnDestruction": [
+    {
+      "$type": "RPG.GameCore.AdvEnableButtons",
+      "TargetType": {
+        "$type": "RPG.GameCore.TargetFetchAdvPropEx"
+      },
+      "TriggerName": "InteractTrigger01",
+      "ButtonsByName": [
+        "Interact"
+      ]
+    }
+  ],
   "DisableAnimEventLayers": [
     "Dissolve Layer"
   ],

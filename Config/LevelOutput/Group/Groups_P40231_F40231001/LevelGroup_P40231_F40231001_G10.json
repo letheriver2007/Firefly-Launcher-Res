@@ -45,8 +45,7 @@
       "PosY": 3.834893,
       "PosZ": -12.88159,
       "Name": "Anchor2",
-      "RotY": 251.2,
-      "MapLayerID": 1
+      "RotY": 251.2
     },
     {
       "ID": 3,
@@ -54,8 +53,7 @@
       "PosY": 13.94114,
       "PosZ": -42.72,
       "Name": "Anchor3",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -63,16 +61,14 @@
       "PosY": 13.94114,
       "PosZ": -50.36,
       "Name": "Anchor4",
-      "RotY": 273.3,
-      "MapLayerID": 1
+      "RotY": 273.3
     },
     {
       "ID": 5,
       "PosX": -47.9073,
       "PosY": 7.356669,
       "PosZ": -34.20321,
-      "Name": "Anchor5",
-      "MapLayerID": 1
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
@@ -80,24 +76,21 @@
       "PosY": 7.403316,
       "PosZ": -30.64824,
       "Name": "Anchor6",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 7,
       "PosX": -61.97485,
       "PosY": 3.032777,
       "PosZ": -30.4422,
-      "Name": "Anchor7",
-      "MapLayerID": 1
+      "Name": "Anchor7"
     },
     {
       "ID": 8,
       "PosX": -103.605,
       "PosY": 5.256,
       "PosZ": -13.43,
-      "Name": "Anchor8",
-      "MapLayerID": 1
+      "Name": "Anchor8"
     }
   ],
   "MonsterList": [],
@@ -119,7 +112,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -143,7 +135,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -167,7 +158,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -185,7 +175,6 @@
       "PropID": 101035,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -203,7 +192,6 @@
       "PropID": 101033,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -228,7 +216,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -253,7 +240,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -278,7 +264,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -303,7 +288,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -349,7 +333,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -369,7 +352,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -421,7 +403,6 @@
       "NPCID": 3018,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -436,7 +417,6 @@
       "NPCID": 3017,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -455,7 +435,6 @@
       "NPCID": 3017,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -470,7 +449,6 @@
       "NPCID": 3018,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -489,7 +467,6 @@
       "NPCID": 3017,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,
@@ -504,7 +481,6 @@
       "NPCID": 3019,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "IsNeedFade": true,

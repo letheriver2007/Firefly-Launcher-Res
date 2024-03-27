@@ -12,20 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -3,
-      -6
-    ],
-    "LowerUpperBounds": {
-      "x": 210,
-      "y": 211
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -42,7 +28,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F43312001/LG_Prop_F43312001_G10_300001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

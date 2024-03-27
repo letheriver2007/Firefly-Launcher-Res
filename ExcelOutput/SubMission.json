@@ -8405,15 +8405,6 @@
       "Hash": -519572767
     }
   },
-  "103010111": {
-    "SubMissionID": 103010111,
-    "TargetText": {
-      "Hash": 371857150
-    },
-    "DescrptionText": {
-      "Hash": 371857150
-    }
-  },
   "103010115": {
     "SubMissionID": 103010115,
     "TargetText": {
@@ -8421,6 +8412,15 @@
     },
     "DescrptionText": {
       "Hash": -519572766
+    }
+  },
+  "103010111": {
+    "SubMissionID": 103010111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
     }
   },
   "103010201": {
@@ -9815,7 +9815,7 @@
       "Hash": -73528638
     },
     "DescrptionText": {
-      "Hash": 371857150
+      "Hash": -519580158
     }
   },
   "103040214": {
@@ -11121,6 +11121,852 @@
     },
     "DescrptionText": {
       "Hash": 371857150
+    }
+  },
+  "103090101": {
+    "SubMissionID": 103090101,
+    "TargetText": {
+      "Hash": 1492547779
+    },
+    "DescrptionText": {
+      "Hash": -2085665415
+    }
+  },
+  "103090102": {
+    "SubMissionID": 103090102,
+    "TargetText": {
+      "Hash": 1492547778
+    },
+    "DescrptionText": {
+      "Hash": -2085665414
+    }
+  },
+  "103090103": {
+    "SubMissionID": 103090103,
+    "TargetText": {
+      "Hash": 1492547777
+    },
+    "DescrptionText": {
+      "Hash": -2085665413
+    }
+  },
+  "103090104": {
+    "SubMissionID": 103090104,
+    "TargetText": {
+      "Hash": 1492547776
+    },
+    "DescrptionText": {
+      "Hash": -2085665420
+    }
+  },
+  "103090105": {
+    "SubMissionID": 103090105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103090107": {
+    "SubMissionID": 103090107,
+    "TargetText": {
+      "Hash": 1492547773
+    },
+    "DescrptionText": {
+      "Hash": -2085665417
+    }
+  },
+  "103090108": {
+    "SubMissionID": 103090108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103090109": {
+    "SubMissionID": 103090109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103090111": {
+    "SubMissionID": 103090111,
+    "TargetText": {
+      "Hash": -73536162
+    },
+    "DescrptionText": {
+      "Hash": -519581474
+    }
+  },
+  "103090122": {
+    "SubMissionID": 103090122,
+    "TargetText": {
+      "Hash": 329748364
+    },
+    "DescrptionText": {
+      "Hash": 1046502468
+    }
+  },
+  "103090123": {
+    "SubMissionID": 103090123,
+    "TargetText": {
+      "Hash": 329748363
+    },
+    "DescrptionText": {
+      "Hash": 1046502469
+    }
+  },
+  "103090124": {
+    "SubMissionID": 103090124,
+    "TargetText": {
+      "Hash": 329748362
+    },
+    "DescrptionText": {
+      "Hash": 1046502462
+    }
+  },
+  "103090125": {
+    "SubMissionID": 103090125,
+    "TargetText": {
+      "Hash": 329748361
+    },
+    "DescrptionText": {
+      "Hash": 1046502463
+    }
+  },
+  "103090126": {
+    "SubMissionID": 103090126,
+    "TargetText": {
+      "Hash": 329748360
+    },
+    "DescrptionText": {
+      "Hash": 1046502464
+    }
+  },
+  "103100101": {
+    "SubMissionID": 103100101,
+    "TargetText": {
+      "Hash": 684698919
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100102": {
+    "SubMissionID": 103100102,
+    "TargetText": {
+      "Hash": 684698916
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100103": {
+    "SubMissionID": 103100103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100111": {
+    "SubMissionID": 103100111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100121": {
+    "SubMissionID": 103100121,
+    "TargetText": {
+      "Hash": -478100495
+    },
+    "DescrptionText": {
+      "Hash": 1854368751
+    }
+  },
+  "103100122": {
+    "SubMissionID": 103100122,
+    "TargetText": {
+      "Hash": -478100498
+    },
+    "DescrptionText": {
+      "Hash": 1854368754
+    }
+  },
+  "103100123": {
+    "SubMissionID": 103100123,
+    "TargetText": {
+      "Hash": -478100497
+    },
+    "DescrptionText": {
+      "Hash": 1854368753
+    }
+  },
+  "103100124": {
+    "SubMissionID": 103100124,
+    "TargetText": {
+      "Hash": -478100500
+    },
+    "DescrptionText": {
+      "Hash": 1854368748
+    }
+  },
+  "103100125": {
+    "SubMissionID": 103100125,
+    "TargetText": {
+      "Hash": -478100499
+    },
+    "DescrptionText": {
+      "Hash": 1854368747
+    }
+  },
+  "103100127": {
+    "SubMissionID": 103100127,
+    "TargetText": {
+      "Hash": -478100501
+    },
+    "DescrptionText": {
+      "Hash": 1854368749
+    }
+  },
+  "103100201": {
+    "SubMissionID": 103100201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100202": {
+    "SubMissionID": 103100202,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100203": {
+    "SubMissionID": 103100203,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100204": {
+    "SubMissionID": 103100204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103100205": {
+    "SubMissionID": 103100205,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110101": {
+    "SubMissionID": 103110101,
+    "TargetText": {
+      "Hash": 684695782
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110102": {
+    "SubMissionID": 103110102,
+    "TargetText": {
+      "Hash": 684695781
+    },
+    "DescrptionText": {
+      "Hash": -1277795993
+    }
+  },
+  "103110103": {
+    "SubMissionID": 103110103,
+    "TargetText": {
+      "Hash": 684695780
+    },
+    "DescrptionText": {
+      "Hash": -1277795992
+    }
+  },
+  "103110104": {
+    "SubMissionID": 103110104,
+    "TargetText": {
+      "Hash": 684695779
+    },
+    "DescrptionText": {
+      "Hash": -1277795999
+    }
+  },
+  "103110105": {
+    "SubMissionID": 103110105,
+    "TargetText": {
+      "Hash": 684695778
+    },
+    "DescrptionText": {
+      "Hash": -1277795998
+    }
+  },
+  "103110106": {
+    "SubMissionID": 103110106,
+    "TargetText": {
+      "Hash": 684695777
+    },
+    "DescrptionText": {
+      "Hash": -1277795997
+    }
+  },
+  "103110107": {
+    "SubMissionID": 103110107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110108": {
+    "SubMissionID": 103110108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110111": {
+    "SubMissionID": 103110111,
+    "TargetText": {
+      "Hash": -2044187573
+    },
+    "DescrptionText": {
+      "Hash": 1451087361
+    }
+  },
+  "103110112": {
+    "SubMissionID": 103110112,
+    "TargetText": {
+      "Hash": -2044187574
+    },
+    "DescrptionText": {
+      "Hash": 1451087362
+    }
+  },
+  "103110113": {
+    "SubMissionID": 103110113,
+    "TargetText": {
+      "Hash": -2044187575
+    },
+    "DescrptionText": {
+      "Hash": 1451087363
+    }
+  },
+  "103110114": {
+    "SubMissionID": 103110114,
+    "TargetText": {
+      "Hash": -2044187576
+    },
+    "DescrptionText": {
+      "Hash": 1451087356
+    }
+  },
+  "103110115": {
+    "SubMissionID": 103110115,
+    "TargetText": {
+      "Hash": -2044187577
+    },
+    "DescrptionText": {
+      "Hash": 1451087357
+    }
+  },
+  "103110116": {
+    "SubMissionID": 103110116,
+    "TargetText": {
+      "Hash": -2044187578
+    },
+    "DescrptionText": {
+      "Hash": 1451087358
+    }
+  },
+  "103110117": {
+    "SubMissionID": 103110117,
+    "TargetText": {
+      "Hash": -2044187579
+    },
+    "DescrptionText": {
+      "Hash": 1451087359
+    }
+  },
+  "103110121": {
+    "SubMissionID": 103110121,
+    "TargetText": {
+      "Hash": -478103632
+    },
+    "DescrptionText": {
+      "Hash": 1854371888
+    }
+  },
+  "103110122": {
+    "SubMissionID": 103110122,
+    "TargetText": {
+      "Hash": -478103633
+    },
+    "DescrptionText": {
+      "Hash": 1854371889
+    }
+  },
+  "103110123": {
+    "SubMissionID": 103110123,
+    "TargetText": {
+      "Hash": -478103634
+    },
+    "DescrptionText": {
+      "Hash": 1854371890
+    }
+  },
+  "103110124": {
+    "SubMissionID": 103110124,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110132": {
+    "SubMissionID": 103110132,
+    "TargetText": {
+      "Hash": 1087980308
+    },
+    "DescrptionText": {
+      "Hash": 288287948
+    }
+  },
+  "103110141": {
+    "SubMissionID": 103110141,
+    "TargetText": {
+      "Hash": -1640903046
+    },
+    "DescrptionText": {
+      "Hash": 1047802834
+    }
+  },
+  "103110142": {
+    "SubMissionID": 103110142,
+    "TargetText": {
+      "Hash": -1640903047
+    },
+    "DescrptionText": {
+      "Hash": 1047802835
+    }
+  },
+  "103110151": {
+    "SubMissionID": 103110151,
+    "TargetText": {
+      "Hash": -74819105
+    },
+    "DescrptionText": {
+      "Hash": -518281107
+    }
+  },
+  "103110152": {
+    "SubMissionID": 103110152,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110153": {
+    "SubMissionID": 103110153,
+    "TargetText": {
+      "Hash": -74819107
+    },
+    "DescrptionText": {
+      "Hash": -518281105
+    }
+  },
+  "103110154": {
+    "SubMissionID": 103110154,
+    "TargetText": {
+      "Hash": -74819108
+    },
+    "DescrptionText": {
+      "Hash": -518281112
+    }
+  },
+  "103110155": {
+    "SubMissionID": 103110155,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110156": {
+    "SubMissionID": 103110156,
+    "TargetText": {
+      "Hash": -74819110
+    },
+    "DescrptionText": {
+      "Hash": -518281110
+    }
+  },
+  "103110157": {
+    "SubMissionID": 103110157,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110161": {
+    "SubMissionID": 103110161,
+    "TargetText": {
+      "Hash": 1491264836
+    },
+    "DescrptionText": {
+      "Hash": -114996580
+    }
+  },
+  "103110162": {
+    "SubMissionID": 103110162,
+    "TargetText": {
+      "Hash": 1491264835
+    },
+    "DescrptionText": {
+      "Hash": -114996579
+    }
+  },
+  "103110163": {
+    "SubMissionID": 103110163,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103110164": {
+    "SubMissionID": 103110164,
+    "TargetText": {
+      "Hash": 1491264833
+    },
+    "DescrptionText": {
+      "Hash": -114996585
+    }
+  },
+  "103110171": {
+    "SubMissionID": 103110171,
+    "TargetText": {
+      "Hash": -1237618519
+    },
+    "DescrptionText": {
+      "Hash": -1681080521
+    }
+  },
+  "103110172": {
+    "SubMissionID": 103110172,
+    "TargetText": {
+      "Hash": -1237618520
+    },
+    "DescrptionText": {
+      "Hash": -1681080520
+    }
+  },
+  "103110173": {
+    "SubMissionID": 103110173,
+    "TargetText": {
+      "Hash": -1237618521
+    },
+    "DescrptionText": {
+      "Hash": -1681080519
+    }
+  },
+  "103110174": {
+    "SubMissionID": 103110174,
+    "TargetText": {
+      "Hash": -1237618522
+    },
+    "DescrptionText": {
+      "Hash": -1681080526
+    }
+  },
+  "103110131": {
+    "SubMissionID": 103110131,
+    "TargetText": {
+      "Hash": 1087980309
+    },
+    "DescrptionText": {
+      "Hash": 288287947
+    }
+  },
+  "103120101": {
+    "SubMissionID": 103120101,
+    "TargetText": {
+      "Hash": 684696741
+    },
+    "DescrptionText": {
+      "Hash": -1277796953
+    }
+  },
+  "103120102": {
+    "SubMissionID": 103120102,
+    "TargetText": {
+      "Hash": 684696742
+    },
+    "DescrptionText": {
+      "Hash": -1277796954
+    }
+  },
+  "103120103": {
+    "SubMissionID": 103120103,
+    "TargetText": {
+      "Hash": 684696743
+    },
+    "DescrptionText": {
+      "Hash": -1277796955
+    }
+  },
+  "103120104": {
+    "SubMissionID": 103120104,
+    "TargetText": {
+      "Hash": 684696736
+    },
+    "DescrptionText": {
+      "Hash": -1277796956
+    }
+  },
+  "103120105": {
+    "SubMissionID": 103120105,
+    "TargetText": {
+      "Hash": 684696737
+    },
+    "DescrptionText": {
+      "Hash": -1277796957
+    }
+  },
+  "103120106": {
+    "SubMissionID": 103120106,
+    "TargetText": {
+      "Hash": 684696738
+    },
+    "DescrptionText": {
+      "Hash": -1277796958
+    }
+  },
+  "103120107": {
+    "SubMissionID": 103120107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103120108": {
+    "SubMissionID": 103120108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103120109": {
+    "SubMissionID": 103120109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103120110": {
+    "SubMissionID": 103120110,
+    "TargetText": {
+      "Hash": -2044186615
+    },
+    "DescrptionText": {
+      "Hash": 1451086403
+    }
+  },
+  "103130101": {
+    "SubMissionID": 103130101,
+    "TargetText": {
+      "Hash": 684693604
+    },
+    "DescrptionText": {
+      "Hash": -1277793816
+    }
+  },
+  "103130103": {
+    "SubMissionID": 103130103,
+    "TargetText": {
+      "Hash": 684693606
+    },
+    "DescrptionText": {
+      "Hash": -1277793818
+    }
+  },
+  "103130104": {
+    "SubMissionID": 103130104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103130105": {
+    "SubMissionID": 103130105,
+    "TargetText": {
+      "Hash": 684693600
+    },
+    "DescrptionText": {
+      "Hash": -1277793820
+    }
+  },
+  "103130106": {
+    "SubMissionID": 103130106,
+    "TargetText": {
+      "Hash": 684693603
+    },
+    "DescrptionText": {
+      "Hash": -1277793823
+    }
+  },
+  "103130107": {
+    "SubMissionID": 103130107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140101": {
+    "SubMissionID": 103140101,
+    "TargetText": {
+      "Hash": 684694563
+    },
+    "DescrptionText": {
+      "Hash": -1277803487
+    }
+  },
+  "103140102": {
+    "SubMissionID": 103140102,
+    "TargetText": {
+      "Hash": 684694560
+    },
+    "DescrptionText": {
+      "Hash": -1277803484
+    }
+  },
+  "103140103": {
+    "SubMissionID": 103140103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140104": {
+    "SubMissionID": 103140104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140105": {
+    "SubMissionID": 103140105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140106": {
+    "SubMissionID": 103140106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140107": {
+    "SubMissionID": 103140107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140108": {
+    "SubMissionID": 103140108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140109": {
+    "SubMissionID": 103140109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140110": {
+    "SubMissionID": 103140110,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103140111": {
+    "SubMissionID": 103140111,
+    "TargetText": {
+      "Hash": -2044188792
+    },
+    "DescrptionText": {
+      "Hash": 1451079868
     }
   },
   "200000101": {
@@ -48497,7 +49343,7 @@
       "Hash": 371857150
     },
     "DescrptionText": {
-      "Hash": 420140391
+      "Hash": 371857150
     }
   },
   "424030704": {
@@ -49076,6 +49922,222 @@
       "Hash": 371857150
     }
   },
+  "424032001": {
+    "SubMissionID": 424032001,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032002": {
+    "SubMissionID": 424032002,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032003": {
+    "SubMissionID": 424032003,
+    "TargetText": {
+      "Hash": -581373878
+    },
+    "DescrptionText": {
+      "Hash": 137815426
+    }
+  },
+  "424032004": {
+    "SubMissionID": 424032004,
+    "TargetText": {
+      "Hash": -581373881
+    },
+    "DescrptionText": {
+      "Hash": 137815421
+    }
+  },
+  "424032101": {
+    "SubMissionID": 424032101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032102": {
+    "SubMissionID": 424032102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032103": {
+    "SubMissionID": 424032103,
+    "TargetText": {
+      "Hash": -581373783
+    },
+    "DescrptionText": {
+      "Hash": 137815459
+    }
+  },
+  "424032104": {
+    "SubMissionID": 424032104,
+    "TargetText": {
+      "Hash": -581373784
+    },
+    "DescrptionText": {
+      "Hash": 137815452
+    }
+  },
+  "424032105": {
+    "SubMissionID": 424032105,
+    "TargetText": {
+      "Hash": -581373785
+    },
+    "DescrptionText": {
+      "Hash": 137815453
+    }
+  },
+  "424032106": {
+    "SubMissionID": 424032106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032201": {
+    "SubMissionID": 424032201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032202": {
+    "SubMissionID": 424032202,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032203": {
+    "SubMissionID": 424032203,
+    "TargetText": {
+      "Hash": -581373940
+    },
+    "DescrptionText": {
+      "Hash": 137815488
+    }
+  },
+  "424032204": {
+    "SubMissionID": 424032204,
+    "TargetText": {
+      "Hash": -581373947
+    },
+    "DescrptionText": {
+      "Hash": 137815487
+    }
+  },
+  "424032205": {
+    "SubMissionID": 424032205,
+    "TargetText": {
+      "Hash": -581373946
+    },
+    "DescrptionText": {
+      "Hash": 137815486
+    }
+  },
+  "424032206": {
+    "SubMissionID": 424032206,
+    "TargetText": {
+      "Hash": -581373945
+    },
+    "DescrptionText": {
+      "Hash": 137815485
+    }
+  },
+  "424032207": {
+    "SubMissionID": 424032207,
+    "TargetText": {
+      "Hash": -581373944
+    },
+    "DescrptionText": {
+      "Hash": 137815484
+    }
+  },
+  "424032208": {
+    "SubMissionID": 424032208,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032209": {
+    "SubMissionID": 424032209,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032210": {
+    "SubMissionID": 424032210,
+    "TargetText": {
+      "Hash": -2147457884
+    },
+    "DescrptionText": {
+      "Hash": 1703899432
+    }
+  },
+  "424032211": {
+    "SubMissionID": 424032211,
+    "TargetText": {
+      "Hash": -2147457883
+    },
+    "DescrptionText": {
+      "Hash": 1703899431
+    }
+  },
+  "424032212": {
+    "SubMissionID": 424032212,
+    "TargetText": {
+      "Hash": -2147457882
+    },
+    "DescrptionText": {
+      "Hash": 1703899430
+    }
+  },
+  "424032213": {
+    "SubMissionID": 424032213,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424032214": {
+    "SubMissionID": 424032214,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
   "424040101": {
     "SubMissionID": 424040101,
     "TargetText": {
@@ -49618,6 +50680,123 @@
   },
   "424040205": {
     "SubMissionID": 424040205,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040301": {
+    "SubMissionID": 424040301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040302": {
+    "SubMissionID": 424040302,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040303": {
+    "SubMissionID": 424040303,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040304": {
+    "SubMissionID": 424040304,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040305": {
+    "SubMissionID": 424040305,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040306": {
+    "SubMissionID": 424040306,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040307": {
+    "SubMissionID": 424040307,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040308": {
+    "SubMissionID": 424040308,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040309": {
+    "SubMissionID": 424040309,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040310": {
+    "SubMissionID": 424040310,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040311": {
+    "SubMissionID": 424040311,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040312": {
+    "SubMissionID": 424040312,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "424040313": {
+    "SubMissionID": 424040313,
     "TargetText": {
       "Hash": 371857150
     },
@@ -50237,6 +51416,402 @@
       "Hash": 371857150
     }
   },
+  "434010901": {
+    "SubMissionID": 434010901,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434010902": {
+    "SubMissionID": 434010902,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434010903": {
+    "SubMissionID": 434010903,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011001": {
+    "SubMissionID": 434011001,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011002": {
+    "SubMissionID": 434011002,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011003": {
+    "SubMissionID": 434011003,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011004": {
+    "SubMissionID": 434011004,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011005": {
+    "SubMissionID": 434011005,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011006": {
+    "SubMissionID": 434011006,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011007": {
+    "SubMissionID": 434011007,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011008": {
+    "SubMissionID": 434011008,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011009": {
+    "SubMissionID": 434011009,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011101": {
+    "SubMissionID": 434011101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011102": {
+    "SubMissionID": 434011102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011103": {
+    "SubMissionID": 434011103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011104": {
+    "SubMissionID": 434011104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011105": {
+    "SubMissionID": 434011105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011106": {
+    "SubMissionID": 434011106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011107": {
+    "SubMissionID": 434011107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011108": {
+    "SubMissionID": 434011108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011109": {
+    "SubMissionID": 434011109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011110": {
+    "SubMissionID": 434011110,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011111": {
+    "SubMissionID": 434011111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011112": {
+    "SubMissionID": 434011112,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011113": {
+    "SubMissionID": 434011113,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011114": {
+    "SubMissionID": 434011114,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011201": {
+    "SubMissionID": 434011201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011202": {
+    "SubMissionID": 434011202,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011203": {
+    "SubMissionID": 434011203,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011301": {
+    "SubMissionID": 434011301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011302": {
+    "SubMissionID": 434011302,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011303": {
+    "SubMissionID": 434011303,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011304": {
+    "SubMissionID": 434011304,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011305": {
+    "SubMissionID": 434011305,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011306": {
+    "SubMissionID": 434011306,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011307": {
+    "SubMissionID": 434011307,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011308": {
+    "SubMissionID": 434011308,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011309": {
+    "SubMissionID": 434011309,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011310": {
+    "SubMissionID": 434011310,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011311": {
+    "SubMissionID": 434011311,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011312": {
+    "SubMissionID": 434011312,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011401": {
+    "SubMissionID": 434011401,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011402": {
+    "SubMissionID": 434011402,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434011403": {
+    "SubMissionID": 434011403,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
   "434015002": {
     "SubMissionID": 434015002,
     "TargetText": {
@@ -50428,6 +52003,114 @@
   },
   "434015703": {
     "SubMissionID": 434015703,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015801": {
+    "SubMissionID": 434015801,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015802": {
+    "SubMissionID": 434015802,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015803": {
+    "SubMissionID": 434015803,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015901": {
+    "SubMissionID": 434015901,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015902": {
+    "SubMissionID": 434015902,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434015903": {
+    "SubMissionID": 434015903,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016001": {
+    "SubMissionID": 434016001,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016002": {
+    "SubMissionID": 434016002,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016003": {
+    "SubMissionID": 434016003,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016101": {
+    "SubMissionID": 434016101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016102": {
+    "SubMissionID": 434016102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "434016103": {
+    "SubMissionID": 434016103,
     "TargetText": {
       "Hash": 371857150
     },
@@ -51128,6 +52811,213 @@
       "Hash": 371857150
     }
   },
+  "454050101": {
+    "SubMissionID": 454050101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050102": {
+    "SubMissionID": 454050102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050103": {
+    "SubMissionID": 454050103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050104": {
+    "SubMissionID": 454050104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050105": {
+    "SubMissionID": 454050105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050106": {
+    "SubMissionID": 454050106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050107": {
+    "SubMissionID": 454050107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050108": {
+    "SubMissionID": 454050108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050109": {
+    "SubMissionID": 454050109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050110": {
+    "SubMissionID": 454050110,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050111": {
+    "SubMissionID": 454050111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050112": {
+    "SubMissionID": 454050112,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050113": {
+    "SubMissionID": 454050113,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050114": {
+    "SubMissionID": 454050114,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050115": {
+    "SubMissionID": 454050115,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050116": {
+    "SubMissionID": 454050116,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050117": {
+    "SubMissionID": 454050117,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050118": {
+    "SubMissionID": 454050118,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050119": {
+    "SubMissionID": 454050119,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050120": {
+    "SubMissionID": 454050120,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050121": {
+    "SubMissionID": 454050121,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050122": {
+    "SubMissionID": 454050122,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "454050123": {
+    "SubMissionID": 454050123,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
   "404030001": {
     "SubMissionID": 404030001,
     "TargetText": {
@@ -51247,15 +53137,6 @@
   },
   "404030501": {
     "SubMissionID": 404030501,
-    "TargetText": {
-      "Hash": 371857150
-    },
-    "DescrptionText": {
-      "Hash": 371857150
-    }
-  },
-  "404034101": {
-    "SubMissionID": 404034101,
     "TargetText": {
       "Hash": 371857150
     },
@@ -51859,6 +53740,195 @@
   },
   "404033103": {
     "SubMissionID": 404033103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033201": {
+    "SubMissionID": 404033201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033202": {
+    "SubMissionID": 404033202,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033203": {
+    "SubMissionID": 404033203,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033301": {
+    "SubMissionID": 404033301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033302": {
+    "SubMissionID": 404033302,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033303": {
+    "SubMissionID": 404033303,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033304": {
+    "SubMissionID": 404033304,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033401": {
+    "SubMissionID": 404033401,
+    "TargetText": {
+      "Hash": 182707213
+    },
+    "DescrptionText": {
+      "Hash": 1184221515
+    }
+  },
+  "404033501": {
+    "SubMissionID": 404033501,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033901": {
+    "SubMissionID": 404033901,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033902": {
+    "SubMissionID": 404033902,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033903": {
+    "SubMissionID": 404033903,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033904": {
+    "SubMissionID": 404033904,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033905": {
+    "SubMissionID": 404033905,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033906": {
+    "SubMissionID": 404033906,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033907": {
+    "SubMissionID": 404033907,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033908": {
+    "SubMissionID": 404033908,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033909": {
+    "SubMissionID": 404033909,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033910": {
+    "SubMissionID": 404033910,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404033911": {
+    "SubMissionID": 404033911,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "404034101": {
+    "SubMissionID": 404034101,
     "TargetText": {
       "Hash": 371857150
     },
@@ -54609,6 +56679,69 @@
     },
     "DescrptionText": {
       "Hash": 1540876873
+    }
+  },
+  "503050001": {
+    "SubMissionID": 503050001,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050002": {
+    "SubMissionID": 503050002,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050003": {
+    "SubMissionID": 503050003,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050004": {
+    "SubMissionID": 503050004,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050005": {
+    "SubMissionID": 503050005,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050006": {
+    "SubMissionID": 503050006,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "503050007": {
+    "SubMissionID": 503050007,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
     }
   },
   "800000101": {
@@ -70532,6 +72665,1401 @@
       "Hash": 371857150
     }
   },
+  "802110001": {
+    "SubMissionID": 802110001,
+    "TargetText": {
+      "Hash": 673990815
+    },
+    "DescrptionText": {
+      "Hash": -1286205155
+    }
+  },
+  "802110101": {
+    "SubMissionID": 802110101,
+    "TargetText": {
+      "Hash": 673990910
+    },
+    "DescrptionText": {
+      "Hash": -1286205122
+    }
+  },
+  "802110102": {
+    "SubMissionID": 802110102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110201": {
+    "SubMissionID": 802110201,
+    "TargetText": {
+      "Hash": 673990749
+    },
+    "DescrptionText": {
+      "Hash": -1286205089
+    }
+  },
+  "802110202": {
+    "SubMissionID": 802110202,
+    "TargetText": {
+      "Hash": 673990750
+    },
+    "DescrptionText": {
+      "Hash": -1286205090
+    }
+  },
+  "802110203": {
+    "SubMissionID": 802110203,
+    "TargetText": {
+      "Hash": 673990751
+    },
+    "DescrptionText": {
+      "Hash": -1286205091
+    }
+  },
+  "802110204": {
+    "SubMissionID": 802110204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110205": {
+    "SubMissionID": 802110205,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110206": {
+    "SubMissionID": 802110206,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110208": {
+    "SubMissionID": 802110208,
+    "TargetText": {
+      "Hash": 673990756
+    },
+    "DescrptionText": {
+      "Hash": -1286205080
+    }
+  },
+  "802110209": {
+    "SubMissionID": 802110209,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110301": {
+    "SubMissionID": 802110301,
+    "TargetText": {
+      "Hash": 673990844
+    },
+    "DescrptionText": {
+      "Hash": -1286205056
+    }
+  },
+  "802110302": {
+    "SubMissionID": 802110302,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110303": {
+    "SubMissionID": 802110303,
+    "TargetText": {
+      "Hash": 673990846
+    },
+    "DescrptionText": {
+      "Hash": -1286205058
+    }
+  },
+  "802110304": {
+    "SubMissionID": 802110304,
+    "TargetText": {
+      "Hash": 673990841
+    },
+    "DescrptionText": {
+      "Hash": -1286205061
+    }
+  },
+  "802110305": {
+    "SubMissionID": 802110305,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110306": {
+    "SubMissionID": 802110306,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110413": {
+    "SubMissionID": 802110413,
+    "TargetText": {
+      "Hash": -2054892674
+    },
+    "DescrptionText": {
+      "Hash": 1442678070
+    }
+  },
+  "802110401": {
+    "SubMissionID": 802110401,
+    "TargetText": {
+      "Hash": 673990683
+    },
+    "DescrptionText": {
+      "Hash": -1286205287
+    }
+  },
+  "802110402": {
+    "SubMissionID": 802110402,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110403": {
+    "SubMissionID": 802110403,
+    "TargetText": {
+      "Hash": 673990681
+    },
+    "DescrptionText": {
+      "Hash": -1286205285
+    }
+  },
+  "802110404": {
+    "SubMissionID": 802110404,
+    "TargetText": {
+      "Hash": 673990686
+    },
+    "DescrptionText": {
+      "Hash": -1286205282
+    }
+  },
+  "802110406": {
+    "SubMissionID": 802110406,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110407": {
+    "SubMissionID": 802110407,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110408": {
+    "SubMissionID": 802110408,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110409": {
+    "SubMissionID": 802110409,
+    "TargetText": {
+      "Hash": 673990691
+    },
+    "DescrptionText": {
+      "Hash": -1286205279
+    }
+  },
+  "802110410": {
+    "SubMissionID": 802110410,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110405": {
+    "SubMissionID": 802110405,
+    "TargetText": {
+      "Hash": 673990687
+    },
+    "DescrptionText": {
+      "Hash": -1286205283
+    }
+  },
+  "802110411": {
+    "SubMissionID": 802110411,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110412": {
+    "SubMissionID": 802110412,
+    "TargetText": {
+      "Hash": -2054892675
+    },
+    "DescrptionText": {
+      "Hash": 1442678071
+    }
+  },
+  "802110502": {
+    "SubMissionID": 802110502,
+    "TargetText": {
+      "Hash": 673990777
+    },
+    "DescrptionText": {
+      "Hash": -1286205253
+    }
+  },
+  "802110506": {
+    "SubMissionID": 802110506,
+    "TargetText": {
+      "Hash": 673990781
+    },
+    "DescrptionText": {
+      "Hash": -1286205249
+    }
+  },
+  "802110503": {
+    "SubMissionID": 802110503,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110504": {
+    "SubMissionID": 802110504,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110501": {
+    "SubMissionID": 802110501,
+    "TargetText": {
+      "Hash": 673990778
+    },
+    "DescrptionText": {
+      "Hash": -1286205254
+    }
+  },
+  "802110505": {
+    "SubMissionID": 802110505,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110602": {
+    "SubMissionID": 802110602,
+    "TargetText": {
+      "Hash": 673990618
+    },
+    "DescrptionText": {
+      "Hash": -1286205222
+    }
+  },
+  "802110603": {
+    "SubMissionID": 802110603,
+    "TargetText": {
+      "Hash": 673990619
+    },
+    "DescrptionText": {
+      "Hash": -1286205223
+    }
+  },
+  "802110604": {
+    "SubMissionID": 802110604,
+    "TargetText": {
+      "Hash": 673990620
+    },
+    "DescrptionText": {
+      "Hash": -1286205216
+    }
+  },
+  "802110605": {
+    "SubMissionID": 802110605,
+    "TargetText": {
+      "Hash": 673990621
+    },
+    "DescrptionText": {
+      "Hash": -1286205217
+    }
+  },
+  "802110606": {
+    "SubMissionID": 802110606,
+    "TargetText": {
+      "Hash": 673990622
+    },
+    "DescrptionText": {
+      "Hash": -1286205218
+    }
+  },
+  "802110607": {
+    "SubMissionID": 802110607,
+    "TargetText": {
+      "Hash": 673990623
+    },
+    "DescrptionText": {
+      "Hash": -1286205219
+    }
+  },
+  "802110608": {
+    "SubMissionID": 802110608,
+    "TargetText": {
+      "Hash": 673990624
+    },
+    "DescrptionText": {
+      "Hash": -1286205212
+    }
+  },
+  "802110609": {
+    "SubMissionID": 802110609,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110610": {
+    "SubMissionID": 802110610,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110601": {
+    "SubMissionID": 802110601,
+    "TargetText": {
+      "Hash": 673990617
+    },
+    "DescrptionText": {
+      "Hash": -1286205221
+    }
+  },
+  "802110611": {
+    "SubMissionID": 802110611,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802110612": {
+    "SubMissionID": 802110612,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802112101": {
+    "SubMissionID": 802112101,
+    "TargetText": {
+      "Hash": 956315912
+    },
+    "DescrptionText": {
+      "Hash": -1003880120
+    }
+  },
+  "802112102": {
+    "SubMissionID": 802112102,
+    "TargetText": {
+      "Hash": 956315911
+    },
+    "DescrptionText": {
+      "Hash": -1003880119
+    }
+  },
+  "802112103": {
+    "SubMissionID": 802112103,
+    "TargetText": {
+      "Hash": 956315910
+    },
+    "DescrptionText": {
+      "Hash": -1003880118
+    }
+  },
+  "802112104": {
+    "SubMissionID": 802112104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802112201": {
+    "SubMissionID": 802112201,
+    "TargetText": {
+      "Hash": 956315751
+    },
+    "DescrptionText": {
+      "Hash": -1003880087
+    }
+  },
+  "802112202": {
+    "SubMissionID": 802112202,
+    "TargetText": {
+      "Hash": 956315752
+    },
+    "DescrptionText": {
+      "Hash": -1003880088
+    }
+  },
+  "802112203": {
+    "SubMissionID": 802112203,
+    "TargetText": {
+      "Hash": 956315753
+    },
+    "DescrptionText": {
+      "Hash": -1003880089
+    }
+  },
+  "802112204": {
+    "SubMissionID": 802112204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802112301": {
+    "SubMissionID": 802112301,
+    "TargetText": {
+      "Hash": 956315846
+    },
+    "DescrptionText": {
+      "Hash": -1003880054
+    }
+  },
+  "802112302": {
+    "SubMissionID": 802112302,
+    "TargetText": {
+      "Hash": 956315849
+    },
+    "DescrptionText": {
+      "Hash": -1003880057
+    }
+  },
+  "802112303": {
+    "SubMissionID": 802112303,
+    "TargetText": {
+      "Hash": 956315848
+    },
+    "DescrptionText": {
+      "Hash": -1003880056
+    }
+  },
+  "802112304": {
+    "SubMissionID": 802112304,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802112401": {
+    "SubMissionID": 802112401,
+    "TargetText": {
+      "Hash": 956315685
+    },
+    "DescrptionText": {
+      "Hash": -1003880285
+    }
+  },
+  "802112402": {
+    "SubMissionID": 802112402,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113001": {
+    "SubMissionID": 802113001,
+    "TargetText": {
+      "Hash": -347646098
+    },
+    "DescrptionText": {
+      "Hash": 1704800226
+    }
+  },
+  "802113002": {
+    "SubMissionID": 802113002,
+    "TargetText": {
+      "Hash": -347646101
+    },
+    "DescrptionText": {
+      "Hash": 1704800229
+    }
+  },
+  "802113003": {
+    "SubMissionID": 802113003,
+    "TargetText": {
+      "Hash": -347646100
+    },
+    "DescrptionText": {
+      "Hash": 1704800228
+    }
+  },
+  "802113004": {
+    "SubMissionID": 802113004,
+    "TargetText": {
+      "Hash": -347646103
+    },
+    "DescrptionText": {
+      "Hash": 1704800223
+    }
+  },
+  "802113005": {
+    "SubMissionID": 802113005,
+    "TargetText": {
+      "Hash": -347646102
+    },
+    "DescrptionText": {
+      "Hash": 1704800222
+    }
+  },
+  "802113006": {
+    "SubMissionID": 802113006,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113101": {
+    "SubMissionID": 802113101,
+    "TargetText": {
+      "Hash": -347646003
+    },
+    "DescrptionText": {
+      "Hash": 1704800259
+    }
+  },
+  "802113102": {
+    "SubMissionID": 802113102,
+    "TargetText": {
+      "Hash": -347646004
+    },
+    "DescrptionText": {
+      "Hash": 1704800260
+    }
+  },
+  "802113103": {
+    "SubMissionID": 802113103,
+    "TargetText": {
+      "Hash": -347646005
+    },
+    "DescrptionText": {
+      "Hash": 1704800261
+    }
+  },
+  "802113104": {
+    "SubMissionID": 802113104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113105": {
+    "SubMissionID": 802113105,
+    "TargetText": {
+      "Hash": -347646007
+    },
+    "DescrptionText": {
+      "Hash": 1704800255
+    }
+  },
+  "802113106": {
+    "SubMissionID": 802113106,
+    "TargetText": {
+      "Hash": -347646008
+    },
+    "DescrptionText": {
+      "Hash": 1704800256
+    }
+  },
+  "802113107": {
+    "SubMissionID": 802113107,
+    "TargetText": {
+      "Hash": -347646009
+    },
+    "DescrptionText": {
+      "Hash": 1704800257
+    }
+  },
+  "802113108": {
+    "SubMissionID": 802113108,
+    "TargetText": {
+      "Hash": -347645994
+    },
+    "DescrptionText": {
+      "Hash": 1704800266
+    }
+  },
+  "802113109": {
+    "SubMissionID": 802113109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113110": {
+    "SubMissionID": 802113110,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113111": {
+    "SubMissionID": 802113111,
+    "TargetText": {
+      "Hash": -1913729944
+    },
+    "DescrptionText": {
+      "Hash": -1024083096
+    }
+  },
+  "802113112": {
+    "SubMissionID": 802113112,
+    "TargetText": {
+      "Hash": -1913729945
+    },
+    "DescrptionText": {
+      "Hash": -1024083095
+    }
+  },
+  "802113113": {
+    "SubMissionID": 802113113,
+    "TargetText": {
+      "Hash": -1913729946
+    },
+    "DescrptionText": {
+      "Hash": -1024083094
+    }
+  },
+  "802113114": {
+    "SubMissionID": 802113114,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113115": {
+    "SubMissionID": 802113115,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113116": {
+    "SubMissionID": 802113116,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113117": {
+    "SubMissionID": 802113117,
+    "TargetText": {
+      "Hash": -1913729950
+    },
+    "DescrptionText": {
+      "Hash": -1024083098
+    }
+  },
+  "802113118": {
+    "SubMissionID": 802113118,
+    "TargetText": {
+      "Hash": -1913729935
+    },
+    "DescrptionText": {
+      "Hash": -1024083089
+    }
+  },
+  "802113119": {
+    "SubMissionID": 802113119,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113201": {
+    "SubMissionID": 802113201,
+    "TargetText": {
+      "Hash": -347646164
+    },
+    "DescrptionText": {
+      "Hash": 1704800292
+    }
+  },
+  "802113202": {
+    "SubMissionID": 802113202,
+    "TargetText": {
+      "Hash": -347646163
+    },
+    "DescrptionText": {
+      "Hash": 1704800291
+    }
+  },
+  "802113203": {
+    "SubMissionID": 802113203,
+    "TargetText": {
+      "Hash": -347646162
+    },
+    "DescrptionText": {
+      "Hash": 1704800290
+    }
+  },
+  "802113204": {
+    "SubMissionID": 802113204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113205": {
+    "SubMissionID": 802113205,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113206": {
+    "SubMissionID": 802113206,
+    "TargetText": {
+      "Hash": -347646167
+    },
+    "DescrptionText": {
+      "Hash": 1704800287
+    }
+  },
+  "802113207": {
+    "SubMissionID": 802113207,
+    "TargetText": {
+      "Hash": -347646166
+    },
+    "DescrptionText": {
+      "Hash": 1704800286
+    }
+  },
+  "802113208": {
+    "SubMissionID": 802113208,
+    "TargetText": {
+      "Hash": -347646157
+    },
+    "DescrptionText": {
+      "Hash": 1704800301
+    }
+  },
+  "802113209": {
+    "SubMissionID": 802113209,
+    "TargetText": {
+      "Hash": -347646156
+    },
+    "DescrptionText": {
+      "Hash": 1704800300
+    }
+  },
+  "802113210": {
+    "SubMissionID": 802113210,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113211": {
+    "SubMissionID": 802113211,
+    "TargetText": {
+      "Hash": -1913730105
+    },
+    "DescrptionText": {
+      "Hash": -1024083063
+    }
+  },
+  "802113212": {
+    "SubMissionID": 802113212,
+    "TargetText": {
+      "Hash": -1913730104
+    },
+    "DescrptionText": {
+      "Hash": -1024083064
+    }
+  },
+  "802113213": {
+    "SubMissionID": 802113213,
+    "TargetText": {
+      "Hash": -1913730103
+    },
+    "DescrptionText": {
+      "Hash": -1024083065
+    }
+  },
+  "802113214": {
+    "SubMissionID": 802113214,
+    "TargetText": {
+      "Hash": -1913730110
+    },
+    "DescrptionText": {
+      "Hash": -1024083066
+    }
+  },
+  "802113215": {
+    "SubMissionID": 802113215,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802113216": {
+    "SubMissionID": 802113216,
+    "TargetText": {
+      "Hash": -1913730108
+    },
+    "DescrptionText": {
+      "Hash": -1024083068
+    }
+  },
+  "802113217": {
+    "SubMissionID": 802113217,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802120101": {
+    "SubMissionID": 802120101,
+    "TargetText": {
+      "Hash": 673987645
+    },
+    "DescrptionText": {
+      "Hash": -1286201857
+    }
+  },
+  "802120102": {
+    "SubMissionID": 802120102,
+    "TargetText": {
+      "Hash": 673987646
+    },
+    "DescrptionText": {
+      "Hash": -1286201858
+    }
+  },
+  "802120201": {
+    "SubMissionID": 802120201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802120301": {
+    "SubMissionID": 802120301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130101": {
+    "SubMissionID": 802130101,
+    "TargetText": {
+      "Hash": 673988732
+    },
+    "DescrptionText": {
+      "Hash": -1286202944
+    }
+  },
+  "802130102": {
+    "SubMissionID": 802130102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130103": {
+    "SubMissionID": 802130103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130201": {
+    "SubMissionID": 802130201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130202": {
+    "SubMissionID": 802130202,
+    "TargetText": {
+      "Hash": 673988700
+    },
+    "DescrptionText": {
+      "Hash": -1286203040
+    }
+  },
+  "802130203": {
+    "SubMissionID": 802130203,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130204": {
+    "SubMissionID": 802130204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140101": {
+    "SubMissionID": 802140101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140102": {
+    "SubMissionID": 802140102,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140103": {
+    "SubMissionID": 802140103,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140201": {
+    "SubMissionID": 802140201,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140202": {
+    "SubMissionID": 802140202,
+    "TargetText": {
+      "Hash": 673985371
+    },
+    "DescrptionText": {
+      "Hash": -1286208423
+    }
+  },
+  "802140203": {
+    "SubMissionID": 802140203,
+    "TargetText": {
+      "Hash": 673985370
+    },
+    "DescrptionText": {
+      "Hash": -1286208422
+    }
+  },
+  "802140204": {
+    "SubMissionID": 802140204,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140205": {
+    "SubMissionID": 802140205,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140206": {
+    "SubMissionID": 802140206,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140207": {
+    "SubMissionID": 802140207,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140208": {
+    "SubMissionID": 802140208,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140209": {
+    "SubMissionID": 802140209,
+    "TargetText": {
+      "Hash": 673985376
+    },
+    "DescrptionText": {
+      "Hash": -1286208412
+    }
+  },
+  "802140210": {
+    "SubMissionID": 802140210,
+    "TargetText": {
+      "Hash": -2054897986
+    },
+    "DescrptionText": {
+      "Hash": 1442674934
+    }
+  },
+  "802140211": {
+    "SubMissionID": 802140211,
+    "TargetText": {
+      "Hash": -2054897987
+    },
+    "DescrptionText": {
+      "Hash": 1442674935
+    }
+  },
+  "802140212": {
+    "SubMissionID": 802140212,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140213": {
+    "SubMissionID": 802140213,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140214": {
+    "SubMissionID": 802140214,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140215": {
+    "SubMissionID": 802140215,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140216": {
+    "SubMissionID": 802140216,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140217": {
+    "SubMissionID": 802140217,
+    "TargetText": {
+      "Hash": -2054897981
+    },
+    "DescrptionText": {
+      "Hash": 1442674937
+    }
+  },
+  "802140218": {
+    "SubMissionID": 802140218,
+    "TargetText": {
+      "Hash": -2054897978
+    },
+    "DescrptionText": {
+      "Hash": 1442674942
+    }
+  },
+  "802140219": {
+    "SubMissionID": 802140219,
+    "TargetText": {
+      "Hash": -2054897979
+    },
+    "DescrptionText": {
+      "Hash": 1442674943
+    }
+  },
+  "802140220": {
+    "SubMissionID": 802140220,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140221": {
+    "SubMissionID": 802140221,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140222": {
+    "SubMissionID": 802140222,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140223": {
+    "SubMissionID": 802140223,
+    "TargetText": {
+      "Hash": -488814044
+    },
+    "DescrptionText": {
+      "Hash": 1845959460
+    }
+  },
+  "802140224": {
+    "SubMissionID": 802140224,
+    "TargetText": {
+      "Hash": -488814041
+    },
+    "DescrptionText": {
+      "Hash": 1845959465
+    }
+  },
+  "802140225": {
+    "SubMissionID": 802140225,
+    "TargetText": {
+      "Hash": -488814042
+    },
+    "DescrptionText": {
+      "Hash": 1845959466
+    }
+  },
+  "802140226": {
+    "SubMissionID": 802140226,
+    "TargetText": {
+      "Hash": -488814039
+    },
+    "DescrptionText": {
+      "Hash": 1845959463
+    }
+  },
+  "802140227": {
+    "SubMissionID": 802140227,
+    "TargetText": {
+      "Hash": -488814040
+    },
+    "DescrptionText": {
+      "Hash": 1845959464
+    }
+  },
+  "802140301": {
+    "SubMissionID": 802140301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140302": {
+    "SubMissionID": 802140302,
+    "TargetText": {
+      "Hash": 673985402
+    },
+    "DescrptionText": {
+      "Hash": -1286208326
+    }
+  },
+  "802140303": {
+    "SubMissionID": 802140303,
+    "TargetText": {
+      "Hash": 673985403
+    },
+    "DescrptionText": {
+      "Hash": -1286208327
+    }
+  },
+  "802140304": {
+    "SubMissionID": 802140304,
+    "TargetText": {
+      "Hash": 673985404
+    },
+    "DescrptionText": {
+      "Hash": -1286208320
+    }
+  },
+  "802140305": {
+    "SubMissionID": 802140305,
+    "TargetText": {
+      "Hash": 673985405
+    },
+    "DescrptionText": {
+      "Hash": -1286208321
+    }
+  },
+  "802140306": {
+    "SubMissionID": 802140306,
+    "TargetText": {
+      "Hash": 673985406
+    },
+    "DescrptionText": {
+      "Hash": -1286208322
+    }
+  },
+  "802140307": {
+    "SubMissionID": 802140307,
+    "TargetText": {
+      "Hash": 673985407
+    },
+    "DescrptionText": {
+      "Hash": -1286208323
+    }
+  },
+  "802140401": {
+    "SubMissionID": 802140401,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802140402": {
+    "SubMissionID": 802140402,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "802130301": {
+    "SubMissionID": 802130301,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
   "993001001": {
     "SubMissionID": 993001001,
     "TargetText": {
@@ -70669,6 +74197,906 @@
   },
   "993002107": {
     "SubMissionID": 993002107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150101": {
+    "SubMissionID": 103150101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150102": {
+    "SubMissionID": 103150102,
+    "TargetText": {
+      "Hash": 684691425
+    },
+    "DescrptionText": {
+      "Hash": -1277800349
+    }
+  },
+  "103150103": {
+    "SubMissionID": 103150103,
+    "TargetText": {
+      "Hash": 684691424
+    },
+    "DescrptionText": {
+      "Hash": -1277800348
+    }
+  },
+  "103150104": {
+    "SubMissionID": 103150104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150105": {
+    "SubMissionID": 103150105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150106": {
+    "SubMissionID": 103150106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150107": {
+    "SubMissionID": 103150107,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150108": {
+    "SubMissionID": 103150108,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150109": {
+    "SubMissionID": 103150109,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150111": {
+    "SubMissionID": 103150111,
+    "TargetText": {
+      "Hash": -2044191929
+    },
+    "DescrptionText": {
+      "Hash": 1451083005
+    }
+  },
+  "103150112": {
+    "SubMissionID": 103150112,
+    "TargetText": {
+      "Hash": -2044191930
+    },
+    "DescrptionText": {
+      "Hash": 1451083006
+    }
+  },
+  "103150113": {
+    "SubMissionID": 103150113,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150114": {
+    "SubMissionID": 103150114,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150115": {
+    "SubMissionID": 103150115,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150116": {
+    "SubMissionID": 103150116,
+    "TargetText": {
+      "Hash": -2044191926
+    },
+    "DescrptionText": {
+      "Hash": 1451083010
+    }
+  },
+  "103150117": {
+    "SubMissionID": 103150117,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150118": {
+    "SubMissionID": 103150118,
+    "TargetText": {
+      "Hash": -2044191936
+    },
+    "DescrptionText": {
+      "Hash": 1451082996
+    }
+  },
+  "103150120": {
+    "SubMissionID": 103150120,
+    "TargetText": {
+      "Hash": -478107987
+    },
+    "DescrptionText": {
+      "Hash": 1854367531
+    }
+  },
+  "103150124": {
+    "SubMissionID": 103150124,
+    "TargetText": {
+      "Hash": -478107983
+    },
+    "DescrptionText": {
+      "Hash": 1854367535
+    }
+  },
+  "103150126": {
+    "SubMissionID": 103150126,
+    "TargetText": {
+      "Hash": -478107985
+    },
+    "DescrptionText": {
+      "Hash": 1854367537
+    }
+  },
+  "103150128": {
+    "SubMissionID": 103150128,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150131": {
+    "SubMissionID": 103150131,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150132": {
+    "SubMissionID": 103150132,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103150133": {
+    "SubMissionID": 103150133,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160101": {
+    "SubMissionID": 103160101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160102": {
+    "SubMissionID": 103160102,
+    "TargetText": {
+      "Hash": 684692386
+    },
+    "DescrptionText": {
+      "Hash": -1277801310
+    }
+  },
+  "103160103": {
+    "SubMissionID": 103160103,
+    "TargetText": {
+      "Hash": 684692387
+    },
+    "DescrptionText": {
+      "Hash": -1277801311
+    }
+  },
+  "103160104": {
+    "SubMissionID": 103160104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160105": {
+    "SubMissionID": 103160105,
+    "TargetText": {
+      "Hash": 684692389
+    },
+    "DescrptionText": {
+      "Hash": -1277801305
+    }
+  },
+  "103160106": {
+    "SubMissionID": 103160106,
+    "TargetText": {
+      "Hash": 684692390
+    },
+    "DescrptionText": {
+      "Hash": -1277801306
+    }
+  },
+  "103160107": {
+    "SubMissionID": 103160107,
+    "TargetText": {
+      "Hash": 684692391
+    },
+    "DescrptionText": {
+      "Hash": -1277801307
+    }
+  },
+  "103160109": {
+    "SubMissionID": 103160109,
+    "TargetText": {
+      "Hash": 684692377
+    },
+    "DescrptionText": {
+      "Hash": -1277801317
+    }
+  },
+  "103160110": {
+    "SubMissionID": 103160110,
+    "TargetText": {
+      "Hash": -2044190971
+    },
+    "DescrptionText": {
+      "Hash": 1451082047
+    }
+  },
+  "103160111": {
+    "SubMissionID": 103160111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160112": {
+    "SubMissionID": 103160112,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160113": {
+    "SubMissionID": 103160113,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160114": {
+    "SubMissionID": 103160114,
+    "TargetText": {
+      "Hash": -2044190967
+    },
+    "DescrptionText": {
+      "Hash": 1451082051
+    }
+  },
+  "103160115": {
+    "SubMissionID": 103160115,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160116": {
+    "SubMissionID": 103160116,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103160120": {
+    "SubMissionID": 103160120,
+    "TargetText": {
+      "Hash": -478107030
+    },
+    "DescrptionText": {
+      "Hash": 1854366574
+    }
+  },
+  "103170101": {
+    "SubMissionID": 103170101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170102": {
+    "SubMissionID": 103170102,
+    "TargetText": {
+      "Hash": 684689251
+    },
+    "DescrptionText": {
+      "Hash": -1277798175
+    }
+  },
+  "103170103": {
+    "SubMissionID": 103170103,
+    "TargetText": {
+      "Hash": 684689250
+    },
+    "DescrptionText": {
+      "Hash": -1277798174
+    }
+  },
+  "103170104": {
+    "SubMissionID": 103170104,
+    "TargetText": {
+      "Hash": 684689253
+    },
+    "DescrptionText": {
+      "Hash": -1277798169
+    }
+  },
+  "103170106": {
+    "SubMissionID": 103170106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170107": {
+    "SubMissionID": 103170107,
+    "TargetText": {
+      "Hash": 684689254
+    },
+    "DescrptionText": {
+      "Hash": -1277798170
+    }
+  },
+  "103170110": {
+    "SubMissionID": 103170110,
+    "TargetText": {
+      "Hash": -2044194106
+    },
+    "DescrptionText": {
+      "Hash": 1451085182
+    }
+  },
+  "103170111": {
+    "SubMissionID": 103170111,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170115": {
+    "SubMissionID": 103170115,
+    "TargetText": {
+      "Hash": -2044194103
+    },
+    "DescrptionText": {
+      "Hash": 1451085187
+    }
+  },
+  "103170117": {
+    "SubMissionID": 103170117,
+    "TargetText": {
+      "Hash": -2044194101
+    },
+    "DescrptionText": {
+      "Hash": 1451085185
+    }
+  },
+  "103170120": {
+    "SubMissionID": 103170120,
+    "TargetText": {
+      "Hash": -478110165
+    },
+    "DescrptionText": {
+      "Hash": 1854369709
+    }
+  },
+  "103170122": {
+    "SubMissionID": 103170122,
+    "TargetText": {
+      "Hash": -478110163
+    },
+    "DescrptionText": {
+      "Hash": 1854369707
+    }
+  },
+  "103170124": {
+    "SubMissionID": 103170124,
+    "TargetText": {
+      "Hash": -478110161
+    },
+    "DescrptionText": {
+      "Hash": 1854369713
+    }
+  },
+  "103170125": {
+    "SubMissionID": 103170125,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170126": {
+    "SubMissionID": 103170126,
+    "TargetText": {
+      "Hash": -478110159
+    },
+    "DescrptionText": {
+      "Hash": 1854369711
+    }
+  },
+  "103170127": {
+    "SubMissionID": 103170127,
+    "TargetText": {
+      "Hash": -478110160
+    },
+    "DescrptionText": {
+      "Hash": 1854369712
+    }
+  },
+  "103170128": {
+    "SubMissionID": 103170128,
+    "TargetText": {
+      "Hash": -478110173
+    },
+    "DescrptionText": {
+      "Hash": 1854369701
+    }
+  },
+  "103170131": {
+    "SubMissionID": 103170131,
+    "TargetText": {
+      "Hash": 1087973775
+    },
+    "DescrptionText": {
+      "Hash": 288285769
+    }
+  },
+  "103170132": {
+    "SubMissionID": 103170132,
+    "TargetText": {
+      "Hash": 1087973778
+    },
+    "DescrptionText": {
+      "Hash": 288285766
+    }
+  },
+  "103170135": {
+    "SubMissionID": 103170135,
+    "TargetText": {
+      "Hash": 1087973779
+    },
+    "DescrptionText": {
+      "Hash": 288285773
+    }
+  },
+  "103170136": {
+    "SubMissionID": 103170136,
+    "TargetText": {
+      "Hash": 1087973782
+    },
+    "DescrptionText": {
+      "Hash": 288285770
+    }
+  },
+  "103170140": {
+    "SubMissionID": 103170140,
+    "TargetText": {
+      "Hash": -1640909579
+    },
+    "DescrptionText": {
+      "Hash": 1047800655
+    }
+  },
+  "103170142": {
+    "SubMissionID": 103170142,
+    "TargetText": {
+      "Hash": -1640909577
+    },
+    "DescrptionText": {
+      "Hash": 1047800653
+    }
+  },
+  "103170143": {
+    "SubMissionID": 103170143,
+    "TargetText": {
+      "Hash": -1640909578
+    },
+    "DescrptionText": {
+      "Hash": 1047800654
+    }
+  },
+  "103170145": {
+    "SubMissionID": 103170145,
+    "TargetText": {
+      "Hash": -1640909576
+    },
+    "DescrptionText": {
+      "Hash": 1047800660
+    }
+  },
+  "103170146": {
+    "SubMissionID": 103170146,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170147": {
+    "SubMissionID": 103170147,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170148": {
+    "SubMissionID": 103170148,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103170150": {
+    "SubMissionID": 103170150,
+    "TargetText": {
+      "Hash": -74825638
+    },
+    "DescrptionText": {
+      "Hash": -518283286
+    }
+  },
+  "103170152": {
+    "SubMissionID": 103170152,
+    "TargetText": {
+      "Hash": -74825636
+    },
+    "DescrptionText": {
+      "Hash": -518283288
+    }
+  },
+  "103170154": {
+    "SubMissionID": 103170154,
+    "TargetText": {
+      "Hash": -74825634
+    },
+    "DescrptionText": {
+      "Hash": -518283282
+    }
+  },
+  "103170155": {
+    "SubMissionID": 103170155,
+    "TargetText": {
+      "Hash": -74825635
+    },
+    "DescrptionText": {
+      "Hash": -518283281
+    }
+  },
+  "103170156": {
+    "SubMissionID": 103170156,
+    "TargetText": {
+      "Hash": -74825632
+    },
+    "DescrptionText": {
+      "Hash": -518283284
+    }
+  },
+  "103170157": {
+    "SubMissionID": 103170157,
+    "TargetText": {
+      "Hash": -74825633
+    },
+    "DescrptionText": {
+      "Hash": -518283283
+    }
+  },
+  "103170158": {
+    "SubMissionID": 103170158,
+    "TargetText": {
+      "Hash": -74825646
+    },
+    "DescrptionText": {
+      "Hash": -518283294
+    }
+  },
+  "103170160": {
+    "SubMissionID": 103170160,
+    "TargetText": {
+      "Hash": 1491258303
+    },
+    "DescrptionText": {
+      "Hash": -114998759
+    }
+  },
+  "103180101": {
+    "SubMissionID": 103180101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103180102": {
+    "SubMissionID": 103180102,
+    "TargetText": {
+      "Hash": 684690204
+    },
+    "DescrptionText": {
+      "Hash": -1277807840
+    }
+  },
+  "103180103": {
+    "SubMissionID": 103180103,
+    "TargetText": {
+      "Hash": 684690205
+    },
+    "DescrptionText": {
+      "Hash": -1277807841
+    }
+  },
+  "103190101": {
+    "SubMissionID": 103190101,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103190102": {
+    "SubMissionID": 103190102,
+    "TargetText": {
+      "Hash": 684687069
+    },
+    "DescrptionText": {
+      "Hash": -1277804705
+    }
+  },
+  "103190103": {
+    "SubMissionID": 103190103,
+    "TargetText": {
+      "Hash": 684687068
+    },
+    "DescrptionText": {
+      "Hash": -1277804704
+    }
+  },
+  "103190104": {
+    "SubMissionID": 103190104,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103190105": {
+    "SubMissionID": 103190105,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103190106": {
+    "SubMissionID": 103190106,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103190107": {
+    "SubMissionID": 103190107,
+    "TargetText": {
+      "Hash": 684687064
+    },
+    "DescrptionText": {
+      "Hash": -1277804708
+    }
+  },
+  "103190108": {
+    "SubMissionID": 103190108,
+    "TargetText": {
+      "Hash": 684687079
+    },
+    "DescrptionText": {
+      "Hash": -1277804699
+    }
+  },
+  "103190109": {
+    "SubMissionID": 103190109,
+    "TargetText": {
+      "Hash": 684687078
+    },
+    "DescrptionText": {
+      "Hash": -1277804698
+    }
+  },
+  "103190110": {
+    "SubMissionID": 103190110,
+    "TargetText": {
+      "Hash": -2044196284
+    },
+    "DescrptionText": {
+      "Hash": 1451078648
+    }
+  },
+  "103190111": {
+    "SubMissionID": 103190111,
+    "TargetText": {
+      "Hash": -2044196285
+    },
+    "DescrptionText": {
+      "Hash": 1451078649
+    }
+  },
+  "103190112": {
+    "SubMissionID": 103190112,
+    "TargetText": {
+      "Hash": 371857150
+    },
+    "DescrptionText": {
+      "Hash": 371857150
+    }
+  },
+  "103200102": {
+    "SubMissionID": 103200102,
+    "TargetText": {
+      "Hash": -2075617197
+    },
+    "DescrptionText": {
+      "Hash": -1358869363
+    }
+  },
+  "103200103": {
+    "SubMissionID": 103200103,
+    "TargetText": {
+      "Hash": -2075617196
+    },
+    "DescrptionText": {
+      "Hash": -1358869364
+    }
+  },
+  "103210102": {
+    "SubMissionID": 103210102,
+    "TargetText": {
+      "Hash": -2075620332
+    },
+    "DescrptionText": {
+      "Hash": -1358866228
+    }
+  },
+  "103210103": {
+    "SubMissionID": 103210103,
+    "TargetText": {
+      "Hash": -2075620333
+    },
+    "DescrptionText": {
+      "Hash": -1358866227
+    }
+  },
+  "103220101": {
+    "SubMissionID": 103220101,
+    "TargetText": {
+      "Hash": -2075619372
+    },
+    "DescrptionText": {
+      "Hash": -1358867188
+    }
+  },
+  "103220102": {
+    "SubMissionID": 103220102,
+    "TargetText": {
+      "Hash": -2075619371
+    },
+    "DescrptionText": {
+      "Hash": -1358867189
+    }
+  },
+  "103220103": {
+    "SubMissionID": 103220103,
+    "TargetText": {
+      "Hash": -2075619370
+    },
+    "DescrptionText": {
+      "Hash": -1358867190
+    }
+  },
+  "103220104": {
+    "SubMissionID": 103220104,
+    "TargetText": {
+      "Hash": -2075619377
+    },
+    "DescrptionText": {
+      "Hash": -1358867191
+    }
+  },
+  "103220105": {
+    "SubMissionID": 103220105,
     "TargetText": {
       "Hash": 371857150
     },

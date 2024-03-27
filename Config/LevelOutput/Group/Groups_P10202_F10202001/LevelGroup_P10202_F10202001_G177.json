@@ -8,20 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      14,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": -2,
-      "y": -1
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -38,7 +24,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X2/Chapter02_X2_FantasticStory_Tansfer172.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

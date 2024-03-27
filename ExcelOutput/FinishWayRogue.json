@@ -1841,6 +1841,18 @@
     "Progress": 1,
     "IsBackTrack": true
   },
+  "13012": {
+    "ID": 13012,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1030501
+    ],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
   "13101": {
     "ID": 13101,
     "FinishType": "RogueFinishUnlock",
@@ -1925,11 +1937,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      4,
+      3,
+      11009,
       11011
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13108": {
@@ -1938,11 +1951,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      4,
+      3,
+      11009,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13109": {
@@ -1951,11 +1965,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      4,
+      3,
+      11009,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13110": {
@@ -1964,11 +1979,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      4,
+      3,
+      11009,
       11014
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13111": {
@@ -1977,11 +1993,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      5,
+      4,
+      11009,
       11011
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13112": {
@@ -1990,11 +2007,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      5,
+      4,
+      11009,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13113": {
@@ -2003,11 +2021,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      5,
+      4,
+      11009,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13114": {
@@ -2016,11 +2035,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      5,
+      4,
+      11009,
       11014
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13115": {
@@ -2029,11 +2049,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      6,
+      5,
+      11010,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13116": {
@@ -2042,11 +2063,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      6,
+      5,
+      11010,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13117": {
@@ -2055,11 +2077,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      6,
+      5,
+      11010,
       11014
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13118": {
@@ -2068,11 +2091,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      7,
+      6,
+      11010,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13119": {
@@ -2081,11 +2105,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      7,
+      6,
+      11010,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13120": {
@@ -2094,11 +2119,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      7,
+      6,
+      11010,
       11014
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13121": {
@@ -2120,11 +2146,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      8,
+      7,
+      11015,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13123": {
@@ -2133,11 +2160,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      8,
+      7,
+      11015,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13124": {
@@ -2146,11 +2174,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      8,
+      7,
+      11015,
       11014
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13125": {
@@ -2172,11 +2201,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      9,
+      8,
+      11017,
       11012
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13127": {
@@ -2185,11 +2215,12 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      9,
+      8,
+      11017,
       11013
     ],
     "ParamItemList": [],
-    "Progress": 2,
+    "Progress": 3,
     "IsBackTrack": true
   },
   "13128": {
@@ -2198,11 +2229,67 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      9,
+      8,
+      11017,
       11014
     ],
     "ParamItemList": [],
+    "Progress": 3,
+    "IsBackTrack": true
+  },
+  "13129": {
+    "ID": 13129,
+    "FinishType": "RogueFinishUnlock",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      9,
+      11018
+    ],
+    "ParamItemList": [],
     "Progress": 2,
+    "IsBackTrack": true
+  },
+  "13130": {
+    "ID": 13130,
+    "FinishType": "RogueFinishUnlock",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      9,
+      11018,
+      11012
+    ],
+    "ParamItemList": [],
+    "Progress": 3,
+    "IsBackTrack": true
+  },
+  "13131": {
+    "ID": 13131,
+    "FinishType": "RogueFinishUnlock",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      9,
+      11018,
+      11013
+    ],
+    "ParamItemList": [],
+    "Progress": 3,
+    "IsBackTrack": true
+  },
+  "13132": {
+    "ID": 13132,
+    "FinishType": "RogueFinishUnlock",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      9,
+      11018,
+      11014
+    ],
+    "ParamItemList": [],
+    "Progress": 3,
     "IsBackTrack": true
   },
   "14001": {

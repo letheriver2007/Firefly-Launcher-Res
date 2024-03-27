@@ -27,16 +27,14 @@
       "PosX": -14.76,
       "PosY": 5.574,
       "PosZ": 88.992,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -14.76,
       "PosY": -24.6,
       "PosZ": 88.992,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -53,7 +51,6 @@
       "PropID": 301076,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -151,7 +148,6 @@
       "PropID": 301076,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -190,7 +186,6 @@
       "PropID": 301076,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

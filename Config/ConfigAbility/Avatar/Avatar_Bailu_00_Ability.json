@@ -290,7 +290,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Bailu/Eff_Avatar_Bailu_00_Skill02_Trail.prefab"
         },
         {
@@ -1022,7 +1021,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Bailu/Eff_Avatar_Bailu_00_Skill03_Buff.prefab"
         },
         {
@@ -1733,7 +1731,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Bailu/Eff_Avatar_Bailu_00_PassiveSkill_Buff_01.prefab"
             },
             {
@@ -2422,7 +2419,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                 }
               ]
@@ -3015,6 +3011,7 @@
                   "TargetAliveState": "Mask_AliveOrLimbo",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": true,

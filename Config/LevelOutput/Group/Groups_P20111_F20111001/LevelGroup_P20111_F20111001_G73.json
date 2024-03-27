@@ -12,8 +12,7 @@
       "PosY": -0.140222,
       "PosZ": -186.28,
       "Name": "Anchor1",
-      "RotY": 230.0,
-      "MapLayerID": 1
+      "RotY": 230.0
     }
   ],
   "MonsterList": [],
@@ -30,7 +29,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_01.json",
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "ChestID": 20111608,

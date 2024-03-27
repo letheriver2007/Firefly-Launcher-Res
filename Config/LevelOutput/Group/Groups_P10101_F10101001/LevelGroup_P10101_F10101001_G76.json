@@ -31,7 +31,6 @@
       "PosZ": -33.24,
       "Name": "Anchor1",
       "RotY": 225.0,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -40,8 +39,7 @@
       "PosY": 1.123051,
       "PosZ": -35.12,
       "Name": "Anchor2",
-      "RotY": 257.2001,
-      "MapLayerID": 2
+      "RotY": 257.2001
     }
   ],
   "MonsterList": [],
@@ -60,7 +58,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -93,7 +90,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

@@ -2655,7 +2655,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Qingque_Common_MajiangLayoutBp.prefab"
         },
         {
@@ -4732,7 +4731,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Qingque_Common_MajiangLayout.prefab",
           "UniqueEffectName": "MajiangLayout",
           "AttachPoint": "Majiang"
@@ -4743,7 +4741,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Qingque_Common_MajiangLayoutBpReady.prefab",
           "UniqueEffectName": "MajiangLayoutBpReady",
           "AttachPoint": "Majiang"

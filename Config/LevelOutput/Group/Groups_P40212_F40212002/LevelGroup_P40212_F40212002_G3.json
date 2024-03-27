@@ -10,8 +10,7 @@
       "PosX": 22.844,
       "PosY": -30.044,
       "PosZ": -92.901,
-      "Name": "EffectAnchor1",
-      "MapLayerID": 1
+      "Name": "EffectAnchor1"
     }
   ],
   "MonsterList": [],
@@ -35,7 +34,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -72,7 +70,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

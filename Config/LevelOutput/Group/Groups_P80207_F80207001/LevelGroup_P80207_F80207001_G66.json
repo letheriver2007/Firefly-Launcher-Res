@@ -7,32 +7,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -30,
-      22
-    ],
-    "LowerUpperBounds": {
-      "x": 2039,
-      "y": 2040
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -30,
-      22,
-      -35,
-      23,
-      -54,
-      26
-    ],
-    "LowerUpperBounds": {
-      "x": 2039,
-      "y": 2046
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -41,8 +15,7 @@
       "PosY": 0.820667,
       "PosZ": 72.6,
       "Name": "ResetPos01",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -56,8 +29,7 @@
       "PosX": -77.8,
       "PosY": -0.59,
       "PosZ": 52.98,
-      "Name": "ShipPoseTargetPos",
-      "MapLayerID": 1
+      "Name": "ShipPoseTargetPos"
     },
     {
       "ID": 4,
@@ -68,7 +40,6 @@
       "RotY": 202.4,
       "RotX": 18.10001,
       "RotZ": 5.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -83,7 +54,6 @@
       "RotY": 202.4,
       "RotX": 18.10001,
       "RotZ": 5.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -95,8 +65,7 @@
       "PosY": 0.89,
       "PosZ": 52.91,
       "Name": "ChestPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 7,
@@ -107,7 +76,6 @@
       "RotY": 22.40001,
       "RotX": 6.5,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -118,8 +86,7 @@
       "PosX": -69.48,
       "PosY": 0.820667,
       "PosZ": 44.94,
-      "Name": "ResetPos",
-      "MapLayerID": 1
+      "Name": "ResetPos"
     },
     {
       "ID": 9,
@@ -133,8 +100,7 @@
       "PosX": -77.8,
       "PosY": -0.59,
       "PosZ": 52.819,
-      "Name": "SideRight_ShipPoseTargetPos",
-      "MapLayerID": 1
+      "Name": "SideRight_ShipPoseTargetPos"
     },
     {
       "ID": 11,
@@ -145,7 +111,6 @@
       "RotY": 295.5,
       "RotX": 6.300009,
       "RotZ": 2.4E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -159,7 +124,6 @@
       "Name": "SideRight_LookAtShip_Cam02",
       "RotY": 359.4,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -171,8 +135,7 @@
       "PosY": 0.78,
       "PosZ": 52.611,
       "Name": "SideRight_MonsterOriginPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 14,
@@ -180,8 +143,7 @@
       "PosY": 0.78,
       "PosZ": 52.611,
       "Name": "SideRight_MonsterTargetPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     }
   ],
   "MonsterList": [
@@ -258,7 +220,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
           "Shape": "Box",
@@ -374,7 +335,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -31,7 +31,9 @@
     ]
   },
   "OwnerMainMissionID": 8002211,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -39,8 +41,7 @@
       "PosY": 13.97584,
       "PosZ": 16.16,
       "Name": "Anchor1",
-      "RotY": 304.5736,
-      "MapLayerID": 1
+      "RotY": 304.5736
     },
     {
       "ID": 2,
@@ -49,8 +50,10 @@
       "PosZ": 14.323,
       "Name": "Anchor2",
       "RotY": 328.9233,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 3,
@@ -61,8 +64,10 @@
       "Name": "Anchor3",
       "RotY": 181.3633,
       "RotX": 353.6919,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 4,
@@ -70,8 +75,7 @@
       "PosY": 16.06,
       "PosZ": 16.98,
       "IsDelete": true,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -92,12 +96,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -115,12 +120,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": [
@@ -134,11 +140,11 @@
       "NPCID": 12102,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400002,
@@ -151,11 +157,11 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     }
   ]
 }

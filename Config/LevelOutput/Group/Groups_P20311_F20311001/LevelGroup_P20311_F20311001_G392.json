@@ -10,28 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -53,
-      -75,
-      -53,
-      -74,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -42,7 +20,6 @@
       "PosZ": -148.52,
       "Name": "Anchor1",
       "RotY": 74.16082,
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -50,8 +27,7 @@
       "PosX": -104.454,
       "PosY": 23.136,
       "PosZ": -148.395,
-      "Name": "Anchor2",
-      "MapLayerID": 3
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -82,7 +58,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -110,7 +85,6 @@
       "PropID": 103103,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -138,7 +112,6 @@
       "PropID": 103104,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -166,7 +139,6 @@
       "PropID": 103105,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -194,7 +166,6 @@
       "PropID": 103104,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -221,7 +192,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -241,12 +211,12 @@
   "NPCList": [
     {
       "ID": 400001,
+      "IsDelete": true,
       "Name": "ClockKid",
       "NPCID": 3102,
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900160000,

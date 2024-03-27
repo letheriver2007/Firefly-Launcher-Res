@@ -9,20 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      63,
-      77
-    ],
-    "LowerUpperBounds": {
-      "x": -16,
-      "y": -15
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -33,7 +19,6 @@
       "PosZ": 155.7554,
       "Name": "Anchor1",
       "RotY": 322.9338,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -48,7 +33,6 @@
       "PropID": 111,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -290,7 +290,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Skill02_CameraVFX.prefab"
         },
         {
@@ -356,7 +355,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Skill02_CameraVFX_02.prefab"
             }
           ],
@@ -393,7 +391,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Skill02_CameraVFX_02.prefab"
             }
           ]
@@ -3061,7 +3058,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_End_02.prefab"
                     },
                     {
@@ -3070,7 +3066,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_End.prefab",
                       "AttachPoint": "EffPoint"
                     }
@@ -3306,7 +3301,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_Camera.prefab"
             },
             {
@@ -3315,7 +3309,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_01.prefab"
             },
             {
@@ -3338,7 +3331,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_02.prefab"
             },
             {
@@ -3361,7 +3353,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_03.prefab"
             },
             {
@@ -3392,7 +3383,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_04.prefab"
             },
             {
@@ -3486,7 +3476,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_Hit.prefab"
             },
             {
@@ -3598,7 +3587,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Camera.prefab"
             },
             {
@@ -3607,7 +3595,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_01.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -3635,7 +3622,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_02.prefab"
             },
             {
@@ -3677,7 +3663,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Hit.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -3909,7 +3894,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02.prefab",
           "PositionOffset": {
             "X": 0.45,
@@ -3962,7 +3946,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_Camera.prefab"
             },
             {
@@ -3971,7 +3954,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_01_01.prefab"
             },
             {
@@ -3994,7 +3976,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_02_01.prefab"
             },
             {
@@ -4017,7 +3998,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_03.prefab"
             },
             {
@@ -4048,7 +4028,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_04.prefab"
             },
             {
@@ -4140,7 +4119,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Enhance_Hit.prefab"
             },
             {
@@ -4231,7 +4209,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_01_01.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -4253,7 +4230,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Camera_01.prefab"
             },
             {
@@ -4276,7 +4252,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_02.prefab"
             },
             {
@@ -4318,7 +4293,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_BE_Skill02_Hit.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -5159,7 +5133,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Buff_02.prefab"
             },
             {
@@ -6174,7 +6147,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Topaz_BattleEventEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Common_Pig_Buff.prefab"
             }
           ]

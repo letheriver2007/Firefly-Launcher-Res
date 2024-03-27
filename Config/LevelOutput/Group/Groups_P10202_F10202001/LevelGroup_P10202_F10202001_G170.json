@@ -18,20 +18,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      14,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": -2,
-      "y": -1
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +26,7 @@
       "PosY": -4.932668,
       "PosZ": 1.08,
       "Name": "Anchor1",
-      "RotY": 45.0,
-      "MapLayerID": 1
+      "RotY": 45.0
     }
   ],
   "MonsterList": [],
@@ -58,7 +43,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X2/Chapter02_X2_FantasticStory_Tansfer.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -95,7 +79,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

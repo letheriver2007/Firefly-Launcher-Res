@@ -13,8 +13,7 @@
       "PosY": -0.617042,
       "PosZ": 57.32,
       "Name": "Anchor1",
-      "RotY": 150.0,
-      "MapLayerID": 1
+      "RotY": 150.0
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": 4.695788,
       "PosZ": 2.01,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": 4.407959,
       "PosZ": 56.6,
       "Name": "Anchor3",
-      "RotY": 206.0,
-      "MapLayerID": 1
+      "RotY": 206.0
     }
   ],
   "MonsterList": [],
@@ -70,7 +67,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -123,7 +119,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -175,7 +170,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -209,7 +203,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -231,7 +224,6 @@
       "PropID": 119,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -254,7 +246,6 @@
       "PropID": 119,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -281,7 +272,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

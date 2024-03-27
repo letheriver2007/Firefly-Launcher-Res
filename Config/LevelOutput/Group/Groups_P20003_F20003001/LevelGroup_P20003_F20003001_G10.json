@@ -32,64 +32,56 @@
       "PosX": 31.83,
       "PosY": 80.29,
       "PosZ": 99.38,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": 37.395,
       "PosY": 80.363,
       "PosZ": 97.085,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": 91.2,
       "PosY": 75.79,
       "PosZ": 117.73,
-      "Name": "Anchor3",
-      "MapLayerID": 2
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
       "PosX": 91.56,
       "PosY": 78.125,
       "PosZ": 134.991,
-      "Name": "Anchor4",
-      "MapLayerID": 2
+      "Name": "Anchor4"
     },
     {
       "ID": 5,
       "PosX": 120.22,
       "PosY": 79.66,
       "PosZ": 139.77,
-      "Name": "Anchor5",
-      "MapLayerID": 2
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
       "PosX": 170.23,
       "PosY": 82.82,
       "PosZ": 156.07,
-      "Name": "Anchor6",
-      "MapLayerID": 2
+      "Name": "Anchor6"
     },
     {
       "ID": 7,
       "PosX": 187.266,
       "PosY": 82.937,
       "PosZ": 144.375,
-      "Name": "Anchor7",
-      "MapLayerID": 2
+      "Name": "Anchor7"
     },
     {
       "ID": 8,
       "PosX": 255.8,
       "PosY": 80.09,
       "PosZ": 57.38,
-      "Name": "Anchor8",
-      "MapLayerID": 2
+      "Name": "Anchor8"
     },
     {
       "ID": 9,
@@ -97,8 +89,7 @@
       "PosY": 80.22298,
       "PosZ": 81.57,
       "Name": "Anchor9",
-      "RotY": 44.65869,
-      "MapLayerID": 2
+      "RotY": 44.65869
     }
   ],
   "MonsterList": [],
@@ -120,7 +111,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -145,7 +135,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -170,7 +159,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -195,7 +183,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -220,7 +207,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -245,7 +231,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -262,7 +247,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Town_Chap01_Pickups_Normal_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -278,7 +262,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -305,7 +288,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -328,7 +310,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -344,7 +325,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -360,7 +340,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -376,7 +355,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -399,7 +377,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -422,7 +399,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -8,28 +8,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -40,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 2045,
-      "y": 2046
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -40,
-      37,
-      -38,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 2045,
-      "y": 2046
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -46,7 +24,6 @@
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_ReviveMachine_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -69,7 +46,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

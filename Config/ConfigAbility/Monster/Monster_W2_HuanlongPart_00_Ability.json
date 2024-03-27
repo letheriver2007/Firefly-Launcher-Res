@@ -343,7 +343,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_HuanlongPart_00/Eff_Monster_W2_HuanlongPart_00_Skill01_05.prefab"
         },
         {
@@ -423,7 +422,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_HuanlongPart_00/Eff_Monster_W2_HuanlongPart_00_Skill01_Hit01.prefab"
         },
@@ -571,7 +569,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllLightTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "AliveOnly": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_RecoverBP.prefab"
                 },

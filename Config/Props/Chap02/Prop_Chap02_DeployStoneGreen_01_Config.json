@@ -3,6 +3,7 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_MAZ_Prop_DeployPuzzle_Stone_02a_Lod0.prefab",
       "AttachPoint": "EffectRoot",
       "Scale": {

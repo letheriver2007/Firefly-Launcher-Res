@@ -36,8 +36,7 @@
       "PosX": 0.559,
       "PosY": 16.11,
       "PosZ": 53.911,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -52,7 +51,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -82,7 +80,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -113,7 +110,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -144,7 +140,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -175,7 +170,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -206,7 +200,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -237,7 +230,6 @@
         "InstanceID": 300001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

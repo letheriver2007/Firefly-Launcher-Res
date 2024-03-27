@@ -39,8 +39,7 @@
       "PosY": 1.009842,
       "PosZ": -39.52,
       "Name": "Anchor1",
-      "RotY": 299.0503,
-      "MapLayerID": 2
+      "RotY": 299.0503
     }
   ],
   "MonsterList": [],
@@ -61,7 +60,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -86,7 +84,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -119,7 +116,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -143,7 +139,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311060000,
@@ -176,7 +171,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311090222,
@@ -196,7 +190,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Shy01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -218,7 +211,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Praying01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -243,7 +235,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

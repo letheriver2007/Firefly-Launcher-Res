@@ -8,52 +8,6 @@
   "OwnerMainMissionID": 4072012,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -58,
-      -64,
-      -57,
-      -64,
-      -61,
-      -63,
-      -60,
-      -63,
-      -58,
-      -63,
-      -57,
-      -63,
-      12,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 185,
-      "y": 209
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -58,
-      -64,
-      -57,
-      -64,
-      -61,
-      -63,
-      -60,
-      -63,
-      -58,
-      -63,
-      -57,
-      -63,
-      12,
-      -6,
-      12,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 185,
-      "y": 209
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -62,8 +16,7 @@
       "PosY": 43.95827,
       "PosZ": -13.66827,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 2
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -85,7 +38,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -116,7 +68,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": []

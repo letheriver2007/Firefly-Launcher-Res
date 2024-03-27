@@ -12,8 +12,7 @@
       "PosY": 50.362,
       "PosZ": 42.69,
       "Name": "Elevator01_1F",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 1,
@@ -21,8 +20,7 @@
       "PosY": 59.938,
       "PosZ": 42.69,
       "Name": "Elevator01_2F",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -73,7 +71,6 @@
       },
       "CampID": 4,
       "State": "Elevator2",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -100,7 +97,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -127,7 +123,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

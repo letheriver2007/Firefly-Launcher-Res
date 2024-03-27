@@ -31,7 +31,9 @@
     "DelayToLevelReload": true
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -56,12 +58,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -117,8 +120,8 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -129,7 +132,8 @@
           "IconID": 30,
           "Color": "#b74a4a"
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -179,8 +183,8 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -191,7 +195,8 @@
           "IconID": 30,
           "Color": "#b74a4a"
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300004,
@@ -242,8 +247,8 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -254,7 +259,8 @@
           "IconID": 30,
           "Color": "#b74a4a"
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

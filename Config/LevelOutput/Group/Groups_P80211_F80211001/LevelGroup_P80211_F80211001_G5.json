@@ -9,28 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -12,
-      11
-    ],
-    "LowerUpperBounds": {
-      "x": 10389,
-      "y": 10390
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -12,
-      11,
-      -16,
-      19
-    ],
-    "LowerUpperBounds": {
-      "x": 10389,
-      "y": 10390
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -39,8 +17,7 @@
       "PosY": 0.034147,
       "PosZ": 5.89,
       "Name": "Anchor1",
-      "RotY": 305.0,
-      "MapLayerID": 1
+      "RotY": 305.0
     }
   ],
   "MonsterList": [],
@@ -66,7 +43,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -91,7 +67,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1620935861

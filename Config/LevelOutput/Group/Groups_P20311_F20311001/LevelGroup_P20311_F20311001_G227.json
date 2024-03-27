@@ -20,29 +20,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -78,
-      -75,
-      -71,
-      -74,
-      -63,
-      -70,
-      -63,
-      -69,
-      -64,
-      -68,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 10
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -51,8 +28,7 @@
       "PosX": -125.711,
       "PosY": 19.34251,
       "PosZ": -137.328,
-      "Name": "Anchor1",
-      "MapLayerID": 3
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -60,8 +36,7 @@
       "PosY": 16.077,
       "PosZ": -138.817,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -85,8 +60,7 @@
       "PosY": 16.077,
       "PosZ": -150.339,
       "Name": "Born01",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 6,
@@ -100,8 +74,7 @@
       "PosX": -133.7913,
       "PosY": 16.077,
       "PosZ": -149.2789,
-      "Name": "ReBorn1",
-      "MapLayerID": 2
+      "Name": "ReBorn1"
     },
     {
       "ID": 8,
@@ -116,8 +89,7 @@
       "PosY": 16.077,
       "PosZ": -150.6552,
       "Name": "Anchor9",
-      "RotY": 209.2919,
-      "MapLayerID": 2
+      "RotY": 209.2919
     },
     {
       "ID": 10,
@@ -125,8 +97,7 @@
       "PosY": 16.077,
       "PosZ": -149.87,
       "Name": "Anchor10",
-      "RotY": 209.2919,
-      "MapLayerID": 2
+      "RotY": 209.2919
     },
     {
       "ID": 11,
@@ -137,7 +108,6 @@
       "RotY": 63.20608,
       "RotX": 16.71,
       "RotZ": 1.0E-6,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -150,7 +120,6 @@
       "PosZ": -137.4696,
       "Name": "MoveCamera01",
       "RotY": 63.20608,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -165,7 +134,6 @@
       "Name": "TVCam01",
       "RotY": 180.0,
       "RotX": 10.58606,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -205,7 +173,6 @@
       },
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "DetectTrigger": {
@@ -256,7 +223,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -314,7 +280,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -366,7 +331,6 @@
           }
         ]
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -407,7 +371,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -443,7 +406,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

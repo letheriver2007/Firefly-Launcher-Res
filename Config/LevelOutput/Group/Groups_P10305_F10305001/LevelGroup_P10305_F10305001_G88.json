@@ -10,30 +10,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -15,
-      -228,
-      -13,
-      -220
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -15,
-      -228,
-      -13,
-      -220
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -51,7 +27,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [
         8
       ],
@@ -88,7 +63,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -352251670

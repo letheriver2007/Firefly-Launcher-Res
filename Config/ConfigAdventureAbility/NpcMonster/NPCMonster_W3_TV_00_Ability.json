@@ -304,6 +304,40 @@
                 "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_MazeAttack_Attack01_Hit.prefab",
                 "HitEffectHeight": 1
               },
+              "IncludeProps": false,
+              "AttackDetectCollision": false
+            },
+            {
+              "$type": "RPG.GameCore.WolfBroMonsterHitBoomProp",
+              "AttackTargetType": {
+                "$type": "RPG.GameCore.TargetSequence",
+                "Sequence": [
+                  {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AdvLocalPlayer"
+                  },
+                  {
+                    "$type": "RPG.GameCore.TargetMapEnemyTeamEntity"
+                  },
+                  {
+                    "$type": "RPG.GameCore.TargetMapAllTeamMember"
+                  }
+                ]
+              },
+              "AttackRootTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ProjectileHitEntity"
+              },
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 1.5,
+                "FanAngle": 360
+              },
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_MazeAttack_Attack01_Hit.prefab",
+                "HitEffectHeight": 1
+              },
               "AttackDetectCollision": false
             },
             {

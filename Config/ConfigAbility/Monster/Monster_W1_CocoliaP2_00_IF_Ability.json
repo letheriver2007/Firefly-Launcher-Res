@@ -1915,7 +1915,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_ConfineOut.prefab"
                 }
               ]
@@ -2329,7 +2328,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_ConfineOut.prefab"
                 }
               ]
@@ -3028,7 +3026,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_PassiveSkill_Weapon_Mat.prefab"
                 }
               ]
@@ -3477,7 +3474,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeammate"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die.prefab"
             },
             {
@@ -3486,7 +3482,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeammate"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die_Horizon.prefab"
             }
           ]
@@ -4415,7 +4410,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeamCenter"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -4658,7 +4652,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
             },
             {

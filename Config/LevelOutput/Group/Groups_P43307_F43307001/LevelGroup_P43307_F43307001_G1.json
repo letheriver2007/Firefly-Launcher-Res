@@ -12,20 +12,11 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
       "ID": 1,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     }
   ],
   "MonsterList": [],

@@ -26,7 +26,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20222114,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -54,7 +53,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
           "Radius": 30.0,

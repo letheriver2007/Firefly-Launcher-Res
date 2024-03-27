@@ -8,26 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      43,
-      -26
-    ],
-    "LowerUpperBounds": {
-      "x": 429,
-      "y": 430
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      43,
-      -26
-    ],
-    "LowerUpperBounds": {
-      "x": 429,
-      "y": 430
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -45,7 +25,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 217922367

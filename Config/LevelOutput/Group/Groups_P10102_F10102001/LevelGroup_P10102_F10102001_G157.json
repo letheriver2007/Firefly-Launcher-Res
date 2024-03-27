@@ -27,16 +27,14 @@
       "PosX": -77.75,
       "PosY": 4.411139,
       "PosZ": 50.3,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -5.33,
       "PosY": -0.942326,
       "PosZ": 42.49,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -75,7 +73,6 @@
       "PropID": 121,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

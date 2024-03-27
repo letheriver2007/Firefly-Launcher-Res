@@ -977,7 +977,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamMember"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gepard/Eff_Avatar_Gepard_00_Skill03_Defence.prefab"
         },
         {
@@ -1642,7 +1641,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
             }
           ]

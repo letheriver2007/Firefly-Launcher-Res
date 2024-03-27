@@ -1747,5 +1747,149 @@
     "isVideo": true,
     "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act170_m.png",
     "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act170_f.png"
+  },
+  "5015": {
+    "ID": 5015,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1030901"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act190.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act190.png"
+  },
+  "5016": {
+    "ID": 5016,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1030901"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act191.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act191.png"
+  },
+  "5017": {
+    "ID": 5017,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031101"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act200.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act200.png"
+  },
+  "5018": {
+    "ID": 5018,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031801"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act210_m.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act210_f.png"
+  },
+  "5019": {
+    "ID": 5019,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031801"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act220.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act220.png"
+  },
+  "5020": {
+    "ID": 5020,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031801"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act230.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act230.png"
+  },
+  "5021": {
+    "ID": 5021,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031901"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act240.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act240.png"
+  },
+  "5022": {
+    "ID": 5022,
+    "Name": {
+      "Hash": 371857150
+    },
+    "CategoryID": 5000,
+    "ImgPath": "",
+    "ImgPath_F": "",
+    "UnlockCondition": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1032001"
+      }
+    ],
+    "isVideo": true,
+    "ImgPathWall": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act250.png",
+    "ImgPathWall_F": "Stages/OriginalResPos/Chapter00/_dependencies/Texture/EffectTexture/DigiitalAlbumTex/CS_Chap03_Act250.png"
   }
 }

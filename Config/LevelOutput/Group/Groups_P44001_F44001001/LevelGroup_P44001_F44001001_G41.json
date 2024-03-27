@@ -17,28 +17,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      2,
-      -47
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      2,
-      -47,
-      -15,
-      -37
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -48,7 +26,6 @@
       "PosZ": -74.03,
       "Name": "Anchor1",
       "RotY": 273.0509,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -60,7 +37,6 @@
       "RotY": 272.9922,
       "RotX": 19.37472,
       "RotZ": 0.158012,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -76,7 +52,6 @@
       "RotY": 63.97612,
       "RotX": 3.677808,
       "RotZ": 359.1609,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -88,16 +63,14 @@
       "PosX": -0.394339,
       "PosY": 2.843766,
       "PosZ": -101.34,
-      "Name": "Anchor4",
-      "MapLayerID": 2
+      "Name": "Anchor4"
     },
     {
       "ID": 5,
       "PosX": 4.778,
       "PosY": 2.843766,
       "PosZ": -95.18,
-      "Name": "Anchor5",
-      "MapLayerID": 2
+      "Name": "Anchor5"
     }
   ],
   "MonsterList": [],
@@ -120,7 +93,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -155,7 +127,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

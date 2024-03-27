@@ -255,6 +255,38 @@
               "HitConfig": {
                 "HitAnimation": "Hit",
                 "HitSoundEvent": "Ev_sfx_monster_skill_01_hit_aml_minion01_white"
+              },
+              "IncludeProps": false
+            },
+            {
+              "$type": "RPG.GameCore.WolfBroMonsterHitBoomProp",
+              "AttackTargetType": {
+                "$type": "RPG.GameCore.TargetSequence",
+                "Sequence": [
+                  {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AdvLocalPlayer"
+                  },
+                  {
+                    "$type": "RPG.GameCore.TargetMapEnemyTeamEntity"
+                  },
+                  {
+                    "$type": "RPG.GameCore.TargetMapAllTeamMember"
+                  }
+                ]
+              },
+              "AttackRootTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ProjectileHitEntity"
+              },
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 0.5,
+                "FanAngle": 360
+              },
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitSoundEvent": "Ev_sfx_monster_skill_01_hit_aml_minion01_white"
               }
             },
             {

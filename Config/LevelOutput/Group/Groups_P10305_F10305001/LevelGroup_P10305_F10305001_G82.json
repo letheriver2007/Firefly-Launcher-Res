@@ -9,28 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      -205
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      -206,
-      -9,
-      -205
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 5
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -41,7 +19,6 @@
       "PosZ": -411.552,
       "Name": "Anchor1",
       "RotY": 9.70626,
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -49,16 +26,14 @@
       "PosX": -17.986,
       "PosY": 8.56,
       "PosZ": -410.106,
-      "Name": "Anchor2",
-      "MapLayerID": 3
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": -17.96,
       "PosY": 7.912,
       "PosZ": -409.976,
-      "Name": "Anchor3",
-      "MapLayerID": 3
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],
@@ -74,7 +49,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -97,7 +71,6 @@
       "PropID": 120,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -132,7 +105,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,

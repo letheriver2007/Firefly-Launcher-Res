@@ -11,28 +11,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      1,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      36,
-      1,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -48,7 +26,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F44001003/LG_Prop_F44001003_G3_300001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -73,7 +50,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

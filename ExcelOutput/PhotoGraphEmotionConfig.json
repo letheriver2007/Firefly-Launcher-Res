@@ -3035,116 +3035,6 @@
     "EyeClipName": "",
     "MouthClipName": ""
   },
-  "13100": {
-    "EmotionID": 13100,
-    "EmotionName": {
-      "Hash": -1743829802
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0002.png",
-    "EmotionClipPath": "Characters/EmotionClip/Firefly_00/Emo_Firefly_00_Ani_PhotoGraph_Angry.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13101": {
-    "EmotionID": 13101,
-    "EmotionName": {
-      "Hash": 1178501872
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0003.png",
-    "EmotionClipPath": "Characters/EmotionClip/Firefly_00/Emo_Firefly_00_Ani_PhotoGraph_Gentle.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13102": {
-    "EmotionID": 13102,
-    "EmotionName": {
-      "Hash": -1536623175
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0004.png",
-    "EmotionClipPath": "Characters/EmotionClip/Firefly_00/Emo_Firefly_00_Ani_PhotoGraph_Shy.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13103": {
-    "EmotionID": 13103,
-    "EmotionName": {
-      "Hash": 542514602
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0005.png",
-    "EmotionClipPath": "Characters/EmotionClip/Firefly_00/Emo_Firefly_00_Ani_PhotoGraph_Surprise.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13104": {
-    "EmotionID": 13104,
-    "EmotionName": {
-      "Hash": 1023566600
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0006.png",
-    "EmotionClipPath": "Characters/EmotionClip/Firefly_00/Emo_Firefly_00_Ani_PhotoGraph_Trouble.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13110": {
-    "EmotionID": 13110,
-    "EmotionName": {
-      "Hash": -1743829802
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0002.png",
-    "EmotionClipPath": "Characters/EmotionClip/Screwllum_00/Emo_Screwllum_00_Ani_PhotoGraph_Angry.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13111": {
-    "EmotionID": 13111,
-    "EmotionName": {
-      "Hash": 1178501872
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0003.png",
-    "EmotionClipPath": "Characters/EmotionClip/Screwllum_00/Emo_Screwllum_00_Ani_PhotoGraph_Gentle.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13112": {
-    "EmotionID": 13112,
-    "EmotionName": {
-      "Hash": -1536623175
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0004.png",
-    "EmotionClipPath": "Characters/EmotionClip/Screwllum_00/Emo_Screwllum_00_Ani_PhotoGraph_Shy.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13113": {
-    "EmotionID": 13113,
-    "EmotionName": {
-      "Hash": 542514602
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0005.png",
-    "EmotionClipPath": "Characters/EmotionClip/Screwllum_00/Emo_Screwllum_00_Ani_PhotoGraph_Surprise.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
-  "13114": {
-    "EmotionID": 13114,
-    "EmotionName": {
-      "Hash": 1023566600
-    },
-    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0006.png",
-    "EmotionClipPath": "Characters/EmotionClip/Screwllum_00/Emo_Screwllum_00_Ani_PhotoGraph_Trouble.anim",
-    "BrowClipName": "",
-    "EyeClipName": "",
-    "MouthClipName": ""
-  },
   "13120": {
     "EmotionID": 13120,
     "EmotionName": {
@@ -3251,6 +3141,61 @@
     },
     "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0006.png",
     "EmotionClipPath": "Characters/EmotionClip/BlackSwan_00/Emo_BlackSwan_00_Ani_PhotoGraph_Trouble.anim",
+    "BrowClipName": "",
+    "EyeClipName": "",
+    "MouthClipName": ""
+  },
+  "13080": {
+    "EmotionID": 13080,
+    "EmotionName": {
+      "Hash": -1743829802
+    },
+    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0002.png",
+    "EmotionClipPath": "Characters/EmotionClip/Acheron_00/Emo_Acheron_00_Ani_PhotoGraph_Angry.anim",
+    "BrowClipName": "",
+    "EyeClipName": "",
+    "MouthClipName": ""
+  },
+  "13081": {
+    "EmotionID": 13081,
+    "EmotionName": {
+      "Hash": 1178501872
+    },
+    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0003.png",
+    "EmotionClipPath": "Characters/EmotionClip/Acheron_00/Emo_Acheron_00_Ani_PhotoGraph_Gentle.anim",
+    "BrowClipName": "",
+    "EyeClipName": "",
+    "MouthClipName": ""
+  },
+  "13082": {
+    "EmotionID": 13082,
+    "EmotionName": {
+      "Hash": -1536623175
+    },
+    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0004.png",
+    "EmotionClipPath": "Characters/EmotionClip/Acheron_00/Emo_Acheron_00_Ani_PhotoGraph_Shy.anim",
+    "BrowClipName": "",
+    "EyeClipName": "",
+    "MouthClipName": ""
+  },
+  "13083": {
+    "EmotionID": 13083,
+    "EmotionName": {
+      "Hash": 542514602
+    },
+    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0005.png",
+    "EmotionClipPath": "Characters/EmotionClip/Acheron_00/Emo_Acheron_00_Ani_PhotoGraph_Surprise.anim",
+    "BrowClipName": "",
+    "EyeClipName": "",
+    "MouthClipName": ""
+  },
+  "13084": {
+    "EmotionID": 13084,
+    "EmotionName": {
+      "Hash": 1023566600
+    },
+    "EmotionIconPath": "SpriteOutput/CameraIcon/CameraPic/CameraEmoji0006.png",
+    "EmotionClipPath": "Characters/EmotionClip/Acheron_00/Emo_Acheron_00_Ani_PhotoGraph_Trouble.anim",
     "BrowClipName": "",
     "EyeClipName": "",
     "MouthClipName": ""

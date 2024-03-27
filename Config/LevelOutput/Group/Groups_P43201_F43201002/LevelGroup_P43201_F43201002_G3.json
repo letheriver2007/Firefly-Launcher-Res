@@ -32,7 +32,6 @@
       "Name": "Anchor1",
       "RotY": 159.79,
       "RotX": 355.91,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -40,8 +39,7 @@
       "PosX": 0.5,
       "PosY": -6.999995,
       "PosZ": -19.266,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     }
   ],
   "MonsterList": [],
@@ -55,7 +53,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -71,7 +68,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -91,7 +87,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312080000,

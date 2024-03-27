@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -8,
-      -4
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -8,
-      -4,
-      -8,
-      0,
-      -8,
-      4,
-      -8,
-      7
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -41,24 +17,21 @@
       "PosX": -15.28194,
       "PosY": 0.25642,
       "PosZ": -1.046485,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -14.8,
       "PosY": 0.233784,
       "PosZ": 7.504,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": -14.95,
       "PosY": 0.233784,
       "PosZ": 15.25,
-      "Name": "Anchor3",
-      "MapLayerID": 2
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],
@@ -72,7 +45,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -100,7 +72,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -128,7 +99,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -159,7 +129,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,

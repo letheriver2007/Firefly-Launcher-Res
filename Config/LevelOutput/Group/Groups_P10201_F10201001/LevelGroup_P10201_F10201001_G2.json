@@ -12,8 +12,7 @@
       "PosY": 1.97,
       "PosZ": -123.851,
       "Name": "Anchor1",
-      "RotY": 89.99987,
-      "MapLayerID": 1
+      "RotY": 89.99987
     }
   ],
   "MonsterList": [],
@@ -52,7 +51,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Radius": 20.0,
@@ -98,7 +96,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Radius": 20.0,

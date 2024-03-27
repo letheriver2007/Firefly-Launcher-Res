@@ -550,6 +550,48 @@
       20313001
     ]
   },
+  "20321": {
+    "PlaneID": 20321,
+    "PlaneType": "Maze",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 2016788354
+    },
+    "StartFloorID": 20321001,
+    "FloorIDList": [
+      20321001
+    ]
+  },
+  "20322": {
+    "PlaneID": 20322,
+    "PlaneType": "Maze",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 2016788355
+    },
+    "StartFloorID": 20322001,
+    "FloorIDList": [
+      20322001
+    ]
+  },
+  "20323": {
+    "PlaneID": 20323,
+    "PlaneType": "Maze",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 2016788356
+    },
+    "StartFloorID": 20323001,
+    "FloorIDList": [
+      20323001
+    ]
+  },
   "30101": {
     "PlaneID": 30101,
     "PlaneType": "Challenge",
@@ -654,6 +696,20 @@
       30121002
     ]
   },
+  "30122": {
+    "PlaneID": 30122,
+    "PlaneType": "Challenge",
+    "SubType": 1,
+    "MazePoolType": 2,
+    "WorldID": 999,
+    "PlaneName": {
+      "Hash": 1354018532
+    },
+    "StartFloorID": 30122001,
+    "FloorIDList": [
+      30122001
+    ]
+  },
   "30201": {
     "PlaneID": 30201,
     "PlaneType": "Raid",
@@ -751,6 +807,20 @@
     "StartFloorID": 30502001,
     "FloorIDList": [
       30502001
+    ]
+  },
+  "30521": {
+    "PlaneID": 30521,
+    "PlaneType": "TrialActivity",
+    "SubType": 1,
+    "MazePoolType": 15,
+    "WorldID": 999,
+    "PlaneName": {
+      "Hash": 1354018532
+    },
+    "StartFloorID": 30521001,
+    "FloorIDList": [
+      30521001
     ]
   },
   "40000": {
@@ -1615,6 +1685,21 @@
       43305002
     ]
   },
+  "43306": {
+    "PlaneID": 43306,
+    "PlaneType": "Raid",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 1354018532
+    },
+    "StartFloorID": 43306001,
+    "FloorIDList": [
+      43306001,
+      43306002
+    ]
+  },
   "43307": {
     "PlaneID": 43307,
     "PlaneType": "Raid",
@@ -1760,6 +1845,39 @@
       44301022
     ]
   },
+  "44302": {
+    "PlaneID": 44302,
+    "PlaneType": "Raid",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 1354018532
+    },
+    "StartFloorID": 44302001,
+    "FloorIDList": [
+      44302001,
+      44302002,
+      44302003,
+      44302004
+    ]
+  },
+  "44303": {
+    "PlaneID": 44303,
+    "PlaneType": "Raid",
+    "SubType": 1,
+    "MazePoolType": 1,
+    "WorldID": 401,
+    "PlaneName": {
+      "Hash": 1354018532
+    },
+    "StartFloorID": 44303001,
+    "FloorIDList": [
+      44303001,
+      44303002,
+      44303003
+    ]
+  },
   "80000": {
     "PlaneID": 80000,
     "PlaneType": "Rogue",
@@ -1830,6 +1948,20 @@
     "StartFloorID": 81003001,
     "FloorIDList": [
       81003001
+    ]
+  },
+  "81004": {
+    "PlaneID": 81004,
+    "PlaneType": "Rogue",
+    "SubType": 1,
+    "MazePoolType": 3,
+    "WorldID": 101,
+    "PlaneName": {
+      "Hash": -732291285
+    },
+    "StartFloorID": 81004001,
+    "FloorIDList": [
+      81004001
     ]
   },
   "81111": {
@@ -1972,6 +2104,20 @@
       81222001
     ]
   },
+  "81223": {
+    "PlaneID": 81223,
+    "PlaneType": "Rogue",
+    "SubType": 1,
+    "MazePoolType": 3,
+    "WorldID": 101,
+    "PlaneName": {
+      "Hash": 430508196
+    },
+    "StartFloorID": 81223001,
+    "FloorIDList": [
+      81223001
+    ]
+  },
   "81231": {
     "PlaneID": 81231,
     "PlaneType": "Rogue",
@@ -1998,6 +2144,48 @@
     "StartFloorID": 81232001,
     "FloorIDList": [
       81232001
+    ]
+  },
+  "81311": {
+    "PlaneID": 81311,
+    "PlaneType": "Rogue",
+    "SubType": 1,
+    "MazePoolType": 3,
+    "WorldID": 101,
+    "PlaneName": {
+      "Hash": 833792630
+    },
+    "StartFloorID": 81311001,
+    "FloorIDList": [
+      81311001
+    ]
+  },
+  "81312": {
+    "PlaneID": 81312,
+    "PlaneType": "Rogue",
+    "SubType": 1,
+    "MazePoolType": 3,
+    "WorldID": 101,
+    "PlaneName": {
+      "Hash": 833792627
+    },
+    "StartFloorID": 81312001,
+    "FloorIDList": [
+      81312001
+    ]
+  },
+  "81313": {
+    "PlaneID": 81313,
+    "PlaneType": "Rogue",
+    "SubType": 1,
+    "MazePoolType": 3,
+    "WorldID": 101,
+    "PlaneName": {
+      "Hash": 833792628
+    },
+    "StartFloorID": 81313001,
+    "FloorIDList": [
+      81313001
     ]
   },
   "80200": {

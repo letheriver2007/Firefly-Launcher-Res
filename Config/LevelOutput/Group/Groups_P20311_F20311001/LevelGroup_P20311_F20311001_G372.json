@@ -39,26 +39,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      128,
-      -184,
-      135,
-      -183,
-      126,
-      -179,
-      133,
-      -179
-    ],
-    "LowerUpperBounds": {
-      "x": 16,
-      "y": 17
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -94,14 +74,13 @@
     },
     {
       "ID": 3,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
-      "PosX": 266.7774,
+      "PosX": 267.0934,
       "PosY": 33.99441,
-      "PosZ": -354.3874,
+      "PosZ": -354.4822,
       "Name": "GameplayCamera2",
       "RotY": 196.7063,
       "RotX": 355.0,
@@ -109,7 +88,7 @@
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
-        "fov": 40.0
+        "fov": 50.0
       }
     }
   ],

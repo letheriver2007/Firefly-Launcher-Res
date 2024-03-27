@@ -966,7 +966,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luka/Eff_Avatar_Luka_00_Skill01_V2_Hit_Loop.prefab",
               "AttachPoint": "Origin"
             },
@@ -1476,7 +1475,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luka/Eff_Avatar_Luka_00_Skill01_V2_Dot_Hit.prefab"
             },
             {
@@ -1578,7 +1576,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luka/Eff_Avatar_Luka_00_Skill01_V2_Dot_Hit.prefab"
                 },
                 {
@@ -1629,7 +1626,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luka/Eff_Avatar_Luka_00_Skill01_V2_Dot_Hit.prefab"
             },
             {
@@ -3685,7 +3681,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Add.prefab",
                   "AttachPoint": "SelectRoot"
                 }
@@ -3780,7 +3775,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
               "AttachPoint": "SelectRoot"
             },

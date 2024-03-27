@@ -311,5 +311,70 @@
       }
     ],
     "GuideConditions": []
+  },
+  "50010": {
+    "PanelID": 50010,
+    "PreConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1011503"
+      }
+    ],
+    "GuideConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "8021201"
+      }
+    ]
+  },
+  "50009": {
+    "PanelID": 50009,
+    "PreConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1032101"
+      }
+    ],
+    "GuideTakeMission": 8021100,
+    "GuideGoto": 6200,
+    "GuideConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "8021100"
+      }
+    ],
+    "ActivityGoto": 27001,
+    "ActivityGotoStoryLineRestore": true
+  },
+  "150009": {
+    "PanelID": 150009,
+    "PreConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1032101"
+      }
+    ],
+    "GuideTakeMission": 8021100,
+    "GuideGoto": 6200,
+    "GuideConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "8021100"
+      }
+    ],
+    "ActivityGoto": 27001,
+    "ActivityGotoStoryLineRestore": true
+  },
+  "50008": {
+    "PanelID": 50008,
+    "PreConditions": [],
+    "GuideGoto": 6203,
+    "GuideConditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "8021301"
+      }
+    ],
+    "ActivityGotoStoryLineRestore": true
   }
 }

@@ -324,7 +324,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "ModifierOwnerEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Ice_Trigger.prefab",
           "AttachPoint": "SelectRoot"
         },
@@ -979,7 +978,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_02/Eff_Monster_W1_Soldier01_02_Common_Remove.prefab"
             }
           ]

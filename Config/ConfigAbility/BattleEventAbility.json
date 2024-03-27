@@ -400,7 +400,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Abomi01_00/Eff_Monster_W2_Abomi01_00_Skill02.prefab"
         },
         {
@@ -418,7 +417,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit.prefab"
         },
         {
@@ -444,7 +442,12 @@
             "HitEffect": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit2.prefab"
           },
           "CanTriggerLastKill": true,
-          "PerformanceDelay": 0.3
+          "PerformanceDelay": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 0.3
+            }
+          }
         },
         {
           "$type": "RPG.GameCore.DamagePerformFinish"
@@ -547,7 +550,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -570,7 +572,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllDarkTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                 },
                 {
@@ -1046,6 +1047,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT"
                     ]
@@ -1481,7 +1486,12 @@
                             "HitEffect": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit2.prefab"
                           },
                           "CanTriggerLastKill": true,
-                          "PerformanceDelay": 0.3
+                          "PerformanceDelay": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 0.3
+                            }
+                          }
                         }
                       ]
                     }
@@ -2631,7 +2641,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -2654,7 +2663,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -2792,7 +2800,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -2833,7 +2840,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -2953,7 +2959,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -2994,7 +2999,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -3114,7 +3118,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -3155,7 +3158,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -3275,7 +3277,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -3316,7 +3317,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -3423,7 +3423,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -3501,7 +3500,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -3604,7 +3602,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -3682,7 +3679,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DefenceUp.prefab"
                 },
                 {
@@ -3785,7 +3781,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -3863,7 +3858,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DefenceUp.prefab"
                 },
                 {
@@ -3966,7 +3960,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -4044,7 +4037,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -4147,7 +4139,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -4225,7 +4216,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -4330,6 +4320,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Insert"
                     ]
@@ -4405,6 +4399,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "BPSkill"
                     ]
@@ -4480,6 +4478,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Normal"
                     ]
@@ -4555,6 +4557,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Ultra"
                     ]
@@ -4630,6 +4636,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT",
                       "Pursued"
@@ -5117,7 +5127,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -5167,7 +5176,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllLightTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                 },
                 {
@@ -5284,7 +5292,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -5307,7 +5314,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff_02.prefab"
                 },
                 {
@@ -5325,7 +5331,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllLightTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_RecoverBP.prefab"
                 },
                 {
@@ -5469,7 +5474,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -5530,7 +5534,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -5618,7 +5621,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -5685,7 +5687,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                     }
                   ]
@@ -5752,7 +5753,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -5896,7 +5896,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -6010,7 +6009,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -6127,7 +6125,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -6265,7 +6262,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -6344,7 +6340,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 }
               ]
@@ -6440,7 +6435,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -6483,7 +6477,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllDarkTeam"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -6591,7 +6584,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -6735,7 +6727,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -6821,7 +6812,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -6942,7 +6932,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -7098,7 +7087,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -7141,7 +7129,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -7162,12 +7149,16 @@
         "MLevel_BattleEventAbility_Challenge_Month_03": {
           "_CallbackList": [
             {
-              "Event": "OnBeforeBeingHit",
+              "Event": "OnBeforeBeingHitAll",
               "CallbackConfig": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Insert",
                       "Ultra"
@@ -7248,7 +7239,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -7338,7 +7328,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                     }
                   ]
@@ -7419,7 +7408,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -7606,7 +7594,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -7649,7 +7636,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllDarkTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                 },
                 {
@@ -7768,7 +7754,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -7876,7 +7861,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllDarkTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                 },
                 {
@@ -8022,7 +8006,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -8130,7 +8113,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllDarkTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                 },
                 {
@@ -8263,7 +8245,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -8367,7 +8348,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
                 },
                 {
@@ -8540,7 +8520,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -8563,7 +8542,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit.prefab"
                     },
                     {
@@ -8606,7 +8584,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllDarkTeam"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit2.prefab"
                     },
                     {
@@ -9103,7 +9080,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -9153,7 +9129,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllDarkTeam"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -9397,6 +9372,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Normal",
                       "DOT"
@@ -9636,7 +9615,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Common_Die.prefab"
         },
         {
@@ -9659,7 +9637,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Die.prefab"
         },
         {
@@ -9668,7 +9645,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_RecoverBP.prefab"
         },
         {
@@ -9925,12 +9901,16 @@
               ]
             },
             {
-              "Event": "OnBeforeBeingHit",
+              "Event": "OnBeforeBeingHitAll",
               "CallbackConfig": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Normal",
                       "Ultra"
@@ -10175,7 +10155,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Common_Die.prefab"
         },
         {
@@ -10198,7 +10177,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Die.prefab"
         },
         {
@@ -10221,7 +10199,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Damage_hit.prefab",
           "AttachPoint": "Origin"
         },
@@ -10546,12 +10523,16 @@
               ]
             },
             {
-              "Event": "OnBeforeBeingHit",
+              "Event": "OnBeforeBeingHitAll",
               "CallbackConfig": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Ultra",
                       "BPSkill"
@@ -10882,7 +10863,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Common_Die.prefab"
         },
         {
@@ -10905,7 +10885,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_01/Eff_Monster_XP_Minion04_01_Die.prefab"
         },
         {
@@ -10928,7 +10907,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllDarkTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
         },
         {
@@ -11070,7 +11048,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -11093,7 +11070,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                     },
                     {
@@ -11186,7 +11162,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
                       "PositionOffset": {
                         "X": 0,
@@ -11246,7 +11221,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_03.prefab"
                     },
                     {
@@ -11499,7 +11473,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff_02.prefab",
           "PositionOffset": {
             "X": 0,
@@ -11783,7 +11756,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_02.prefab",
           "PositionOffset": {
             "X": 0,
@@ -12074,7 +12046,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff_02.prefab"
         },
         {
@@ -12473,7 +12444,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff_02.prefab"
         }
       ]
@@ -14678,7 +14648,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Hunting/Eff_BattleEvent_Rogue_Hunting_01.prefab"
         },
         {
@@ -14773,7 +14742,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Hunting/Eff_BattleEvent_Rogue_Hunting_02.prefab"
         },
         {
@@ -15701,7 +15669,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Ruin/Eff_BattleEvent_Rogue_Ruin_Start01.prefab"
         },
         {
@@ -16486,7 +16453,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Start01.prefab"
         },
         {
@@ -16537,7 +16503,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Start02.prefab"
         },
         {
@@ -17106,7 +17071,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Camera.prefab"
         },
         {
@@ -17534,6 +17498,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT"
                     ]
@@ -18037,7 +18005,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start01.prefab"
         },
         {
@@ -18067,7 +18034,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start03.prefab"
         },
         {
@@ -18085,7 +18051,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start02.prefab"
         },
         {
@@ -18178,7 +18143,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllDarkTeam"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Heal_Hit.prefab"
         },
@@ -18197,7 +18161,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Camera.prefab"
         },
         {

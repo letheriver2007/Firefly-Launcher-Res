@@ -9,28 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      15,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 1762,
-      "y": 1763
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      14,
-      -3,
-      15,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 1762,
-      "y": 1763
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -52,7 +30,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -73,7 +50,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

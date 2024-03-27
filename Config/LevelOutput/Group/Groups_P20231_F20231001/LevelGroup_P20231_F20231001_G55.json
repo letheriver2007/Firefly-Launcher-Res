@@ -11,7 +11,9 @@
     ]
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -19,8 +21,7 @@
       "PosY": 65.3931,
       "PosZ": -234.112,
       "Name": "Anchor1",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -61,7 +62,6 @@
         "Server": true
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -72,6 +72,7 @@
           "Server": true
         }
       },
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 55,
       "AnchorID": 1,
@@ -93,7 +94,8 @@
           "State": "CheckPointEnable",
           "IconID": 83
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -109,12 +111,13 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

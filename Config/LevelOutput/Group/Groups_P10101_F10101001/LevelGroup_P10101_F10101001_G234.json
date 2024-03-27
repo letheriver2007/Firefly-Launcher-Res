@@ -8,36 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -6,
-      -5,
-      -6,
-      -4,
-      -7,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 167,
-      "y": 168
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -6,
-      -5,
-      -8,
-      -4,
-      -6,
-      -4,
-      -7,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 167,
-      "y": 168
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -47,7 +17,6 @@
       "PosZ": -6.42,
       "Name": "Anchor1",
       "RotY": 78.7079,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -59,7 +28,6 @@
       "RotY": 82.03809,
       "RotX": 8.5,
       "RotZ": -1.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -86,7 +54,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -112,7 +79,6 @@
         "GroupID": 15,
         "InstanceID": 400007
       },
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100030222,
@@ -140,7 +106,6 @@
         "GroupID": 15,
         "InstanceID": 400007
       },
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040329,
@@ -168,7 +133,6 @@
         "GroupID": 15,
         "InstanceID": 400007
       },
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,

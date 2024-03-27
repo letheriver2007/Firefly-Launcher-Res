@@ -33,7 +33,6 @@
       "RotY": 254.5,
       "RotX": 10.7,
       "RotZ": 5.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -45,7 +44,6 @@
       "RotY": 263.1,
       "RotX": 3.500001,
       "RotZ": 0.0647,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -54,8 +52,7 @@
       "PosY": 13.59499,
       "PosZ": -12.97,
       "Name": "Anchor3",
-      "RotY": 244.36,
-      "MapLayerID": 1
+      "RotY": 244.36
     }
   ],
   "MonsterList": [],
@@ -78,7 +75,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -94,7 +90,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -113,7 +108,6 @@
       "NPCID": 3017,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": []
@@ -128,7 +122,6 @@
       "NPCID": 3019,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": []

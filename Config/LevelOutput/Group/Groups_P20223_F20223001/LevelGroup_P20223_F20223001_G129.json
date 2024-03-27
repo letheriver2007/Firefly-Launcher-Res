@@ -10,32 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -30,
-      -20
-    ],
-    "LowerUpperBounds": {
-      "x": 409,
-      "y": 410
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -29,
-      -22,
-      -29,
-      -21,
-      -28,
-      -21,
-      -30,
-      -20
-    ],
-    "LowerUpperBounds": {
-      "x": 409,
-      "y": 411
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -43,8 +17,7 @@
       "PosX": -55.864,
       "PosY": -5.14,
       "PosZ": -42.277,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -53,7 +26,6 @@
       "PosZ": -40.31,
       "Name": "Anchor2",
       "RotY": 126.6795,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -65,7 +37,6 @@
       "RotY": 157.2265,
       "RotX": 4.456141,
       "RotZ": 358.8612,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -81,7 +52,6 @@
       "RotY": 303.3439,
       "RotX": 20.2665,
       "RotZ": 358.7903,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -101,7 +71,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -120,7 +89,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -139,7 +107,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -158,7 +125,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -176,7 +142,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "4040259_Trigger02": {
@@ -202,7 +167,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -227,7 +191,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200270201,
@@ -247,7 +210,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200270000,

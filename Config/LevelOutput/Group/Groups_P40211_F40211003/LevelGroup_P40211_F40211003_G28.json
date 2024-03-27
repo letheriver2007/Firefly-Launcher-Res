@@ -12,16 +12,14 @@
       "PosX": -128.2344,
       "PosY": 47.88573,
       "PosZ": 20.27384,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -128.31,
       "PosY": 47.88573,
       "PosZ": 20.62,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -29,16 +27,14 @@
       "PosY": 53.25401,
       "PosZ": -19.8,
       "Name": "Anchor3",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 4,
       "PosX": 35.23,
       "PosY": 53.85181,
       "PosZ": 90.22,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     },
     {
       "ID": 5,
@@ -46,8 +42,7 @@
       "PosY": 49.94773,
       "PosZ": 130.49,
       "Name": "Anchor5",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 6,
@@ -55,8 +50,7 @@
       "PosY": 63.24,
       "PosZ": 41.81,
       "Name": "Anchor6",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 7,
@@ -65,7 +59,6 @@
       "PosZ": 139.36,
       "Name": "Anchor7",
       "RotY": 270.0,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     },
@@ -75,8 +68,7 @@
       "PosY": 43.6491,
       "PosZ": 138.95,
       "Name": "Anchor8",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -99,7 +91,6 @@
       },
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -138,7 +129,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -177,7 +167,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -216,7 +205,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,

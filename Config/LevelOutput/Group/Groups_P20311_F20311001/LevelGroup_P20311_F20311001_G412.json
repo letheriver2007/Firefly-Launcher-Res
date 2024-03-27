@@ -17,24 +17,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      35,
-      -286,
-      17,
-      -266,
-      55,
-      -132
-    ],
-    "LowerUpperBounds": {
-      "x": -10,
-      "y": 9
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -44,8 +26,7 @@
       "PosY": 16.08503,
       "PosZ": -257.586,
       "Name": "Side_Back",
-      "RotY": -2.0E-5,
-      "MapLayerID": 3
+      "RotY": -2.0E-5
     },
     {
       "ID": 11,
@@ -53,8 +34,7 @@
       "PosY": -19.42,
       "PosZ": -563.18,
       "Name": "Side_YKJ",
-      "RotY": 5.8E-5,
-      "MapLayerID": 1
+      "RotY": 5.8E-5
     },
     {
       "ID": 5,
@@ -63,7 +43,6 @@
       "PosZ": -263.179,
       "Name": "Go_E",
       "RotY": 180.0001,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -77,7 +56,6 @@
       "Name": "Go_S",
       "RotY": 169.09,
       "RotX": 14.65003,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -90,7 +68,6 @@
       "PosZ": -569.51,
       "Name": "YKJS_E",
       "RotY": 180.0001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -104,7 +81,6 @@
       "Name": "YKJS_S",
       "RotY": 169.09,
       "RotX": 14.65003,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -130,7 +106,6 @@
       "PosZ": -530.966,
       "Name": "YKJE_E",
       "RotY": 270.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -179,7 +154,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -241,7 +215,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -302,7 +275,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -331,7 +303,6 @@
       "PropID": 138,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

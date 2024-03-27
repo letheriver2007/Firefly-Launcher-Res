@@ -30,8 +30,7 @@
       "PosY": -0.974496,
       "PosZ": -57.04,
       "Name": "Anchor1",
-      "RotY": 125.8743,
-      "MapLayerID": 1
+      "RotY": 125.8743
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": -0.974495,
       "PosZ": -55.823,
       "Name": "Anchor2",
-      "RotY": 215.2489,
-      "MapLayerID": 1
+      "RotY": 215.2489
     },
     {
       "ID": 3,
@@ -48,16 +46,14 @@
       "PosY": -0.974496,
       "PosZ": -58.39799,
       "Name": "Anchor3",
-      "RotY": 68.96723,
-      "MapLayerID": 1
+      "RotY": 68.96723
     },
     {
       "ID": 4,
       "PosX": -14.582,
       "PosY": -0.045,
       "PosZ": -58.014,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -75,7 +71,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 501821995
@@ -102,7 +97,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -124,7 +118,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -146,7 +139,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -167,7 +159,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -199,7 +190,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64

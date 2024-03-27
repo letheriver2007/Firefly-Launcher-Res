@@ -9,28 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      35,
-      -280
-    ],
-    "LowerUpperBounds": {
-      "x": -10,
-      "y": -9
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      35,
-      -280,
-      36,
-      -280
-    ],
-    "LowerUpperBounds": {
-      "x": -10,
-      "y": -9
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -41,7 +19,6 @@
       "PosZ": -560.9099,
       "Name": "Anchor1",
       "RotY": 346.88,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -56,7 +33,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -74,6 +50,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -91,15 +68,12 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 313120261,
       "InitialHiddenNodeList": [],
-      "Dialog": {
-        "LevelGraph": "Config/Level/NPCDialogue/P43302/F43302001_G6/DialogueMain_F43302001_G6_N400001.json",
-        "PackList": []
-      },
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

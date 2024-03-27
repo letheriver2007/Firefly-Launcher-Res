@@ -32,7 +32,6 @@
       "PosZ": 0.885,
       "Name": "Anchor1",
       "RotY": 78.19508,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -44,7 +43,6 @@
       "RotY": 123.7938,
       "RotX": 16.70846,
       "RotZ": 2.81E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -56,8 +54,7 @@
       "PosY": 1.0,
       "PosZ": 0.225,
       "Name": "Anchor3",
-      "RotY": 78.19508,
-      "MapLayerID": 1
+      "RotY": 78.19508
     }
   ],
   "MonsterList": [],
@@ -79,7 +76,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -104,7 +100,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -126,7 +121,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310030900,
@@ -148,7 +142,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310020000,
@@ -170,7 +163,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,
@@ -192,7 +184,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 990101026,

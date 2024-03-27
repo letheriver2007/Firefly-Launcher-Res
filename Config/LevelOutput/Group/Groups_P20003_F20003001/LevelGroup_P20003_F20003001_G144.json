@@ -9,54 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      125,
-      42,
-      131,
-      43,
-      123,
-      45,
-      120,
-      50,
-      127,
-      51,
-      128,
-      51,
-      122,
-      52,
-      133,
-      52
-    ],
-    "LowerUpperBounds": {
-      "x": 39,
-      "y": 40
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      125,
-      42,
-      131,
-      43,
-      123,
-      45,
-      120,
-      50,
-      127,
-      51,
-      128,
-      51,
-      122,
-      52,
-      133,
-      52
-    ],
-    "LowerUpperBounds": {
-      "x": 39,
-      "y": 40
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -64,8 +16,7 @@
       "PosX": 238.7177,
       "PosY": 80.555,
       "PosZ": 101.51,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -83,7 +34,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -107,7 +57,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -131,7 +80,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -155,7 +103,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -179,7 +126,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -203,7 +149,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -227,7 +172,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -251,7 +195,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -280,7 +223,6 @@
         "InstanceID": 400012,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -309,7 +251,6 @@
         "InstanceID": 400011,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

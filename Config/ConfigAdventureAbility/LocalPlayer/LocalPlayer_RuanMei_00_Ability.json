@@ -97,7 +97,7 @@
                 "Behavior": "Static",
                 "EnableRayCast": true,
                 "MaxLifeTime": 0.07,
-                "TargetOffset": {
+                "AttachOffset": {
                   "X": 0,
                   "Y": 1.5,
                   "Z": 0
@@ -119,11 +119,7 @@
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
                     "MaxRadius": 2,
                     "FanAngle": 360,
-                    "Offset": {
-                      "X": 0,
-                      "Y": -1.5,
-                      "Z": 0
-                    }
+                    "Hight": 2
                   },
                   "HitConfig": {
                     "HitAnimation": "Hit"
@@ -239,6 +235,7 @@
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
                     "MaxRadius": 2,
                     "FanAngle": 360,
+                    "Hight": 2,
                     "Offset": {
                       "X": 0,
                       "Y": -1.5,

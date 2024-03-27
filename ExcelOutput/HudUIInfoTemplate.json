@@ -472,5 +472,38 @@
       "ShortCutWheel"
     ],
     "LockInputActionName": []
+  },
+  "1016": {
+    "ID": 1016,
+    "HideHudUINodeList": [],
+    "LockGotoTypeList": [
+      "AreaSwitch",
+      "TeamEdit",
+      "Avatar",
+      "Inventory",
+      "Shop",
+      "Mission",
+      "Activity",
+      "Mail",
+      "Notice",
+      "DailyMission",
+      "LevelReward",
+      "BigMap",
+      "MobilePhone",
+      "Gacha",
+      "PhoneMessage",
+      "Friend",
+      "BattlePass",
+      "PhoneNotice",
+      "Archive",
+      "Chat",
+      "AetherArchive",
+      "AetherInventory",
+      "AetherTeamEdit",
+      "AetherSpirit",
+      "ShortCutWheel",
+      "RaidMap"
+    ],
+    "LockInputActionName": []
   }
 }

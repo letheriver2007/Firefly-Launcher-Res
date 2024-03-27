@@ -9,32 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      3,
-      -10,
-      5,
-      -10
-    ],
-    "LowerUpperBounds": {
-      "x": 408,
-      "y": 409
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      3,
-      -10,
-      4,
-      -10,
-      5,
-      -10
-    ],
-    "LowerUpperBounds": {
-      "x": 408,
-      "y": 409
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -46,7 +20,6 @@
       "RotY": 271.56,
       "RotX": 19.3,
       "RotZ": -5.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -64,7 +37,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -91,7 +63,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8,
         1
@@ -122,7 +93,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],

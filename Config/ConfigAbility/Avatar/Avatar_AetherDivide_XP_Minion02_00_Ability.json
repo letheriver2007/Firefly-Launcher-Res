@@ -117,7 +117,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion02_00/Eff_Monster_XP_Minion02_00_Skill01_02_Weak.prefab",
           "AttachPoint": "Aim1",
           "Scale": {
@@ -354,7 +353,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion02_00/Eff_Monster_XP_Minion02_00_Skill02_Hit.prefab"
         },
         {
@@ -363,7 +361,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetAdjoinEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion02_00/Eff_Monster_XP_Minion02_00_Skill02_Hit.prefab"
         },
         {
@@ -797,7 +794,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion02_00/Eff_Monster_XP_Minion02_00_Skill01_02.prefab",
           "AttachPoint": "Aim",
           "Scale": {

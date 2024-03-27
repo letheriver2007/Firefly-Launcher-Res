@@ -14,7 +14,6 @@
       "RotY": 213.8736,
       "RotX": 22.00001,
       "RotZ": 1.8E-5,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -25,7 +24,6 @@
       "Name": "Anchor2",
       "RotY": 225.0,
       "RotX": 20.00001,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -63,7 +61,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

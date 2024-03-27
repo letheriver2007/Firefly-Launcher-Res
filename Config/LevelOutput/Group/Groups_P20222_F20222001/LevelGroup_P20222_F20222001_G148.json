@@ -36,7 +36,6 @@
       "PosZ": 138.14,
       "Name": "Anchor1",
       "RotY": 270.0,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     }
@@ -73,7 +72,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_03": {
           "Shape": "Box",

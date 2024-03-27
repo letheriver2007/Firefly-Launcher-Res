@@ -12,16 +12,14 @@
       "PosX": 0.074,
       "PosY": 0.151,
       "PosZ": -47.339,
-      "Name": "PlayerStart",
-      "MapLayerID": 1
+      "Name": "PlayerStart"
     },
     {
       "ID": 2,
       "PosX": 0.482,
       "PosY": 0.672002,
       "PosZ": -16.581,
-      "Name": "Reception",
-      "MapLayerID": 1
+      "Name": "Reception"
     }
   ],
   "MonsterList": [],
@@ -57,7 +55,6 @@
         "DimZ": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -102,7 +99,6 @@
         "DimZ": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},

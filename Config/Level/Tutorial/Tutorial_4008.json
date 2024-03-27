@@ -1133,6 +1133,10 @@
           ]
         },
         {
+          "$type": "RPG.GameCore.TutorialLockPlayerAction",
+          "Lock": true
+        },
+        {
           "$type": "RPG.GameCore.MoveUINodeToMask",
           "NodeID": "InventoryPage.BtnUse",
           "Reset": true
@@ -1230,6 +1234,9 @@
               "$type": "RPG.GameCore.MoveUINodeToMask",
               "NodeID": "ConsumablesUse.Confirm",
               "Follow": true
+            },
+            {
+              "$type": "RPG.GameCore.TutorialLockPlayerAction"
             },
             {
               "$type": "RPG.GameCore.WaitTutorial",
@@ -1337,6 +1344,9 @@
               "$type": "RPG.GameCore.MoveUINodeToMask",
               "NodeID": "ConsumablesUse.Confirm",
               "Follow": true
+            },
+            {
+              "$type": "RPG.GameCore.TutorialLockPlayerAction"
             },
             {
               "$type": "RPG.GameCore.WaitTutorial",

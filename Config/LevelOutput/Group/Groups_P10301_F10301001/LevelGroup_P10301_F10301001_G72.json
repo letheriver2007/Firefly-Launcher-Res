@@ -9,28 +9,7 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      89,
-      76
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      66,
-      73,
-      89,
-      76
-    ],
-    "LowerUpperBounds": {
-      "x": -4,
-      "y": -2
-    }
-  },
+  "StreamingTemplateType": "None",
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -39,8 +18,7 @@
       "PosX": 132.88,
       "PosY": -7.13428,
       "PosZ": 148.32,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -62,7 +40,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -85,7 +62,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 313100000,

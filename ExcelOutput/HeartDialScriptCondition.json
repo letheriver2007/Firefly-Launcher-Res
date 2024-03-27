@@ -321,12 +321,26 @@
     "LockConditionID": 10001001,
     "UnLockConditionID": 10001001
   },
+  "20005": {
+    "ScriptID": 20005,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
   "20006": {
     "ScriptID": 20006,
     "MissingConditionID": 10001017,
     "FullConditionID": 10001001,
     "LockConditionID": 10001026,
     "UnLockConditionID": 10001027
+  },
+  "20007": {
+    "ScriptID": 20007,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
   },
   "13113": {
     "ScriptID": 13113,
@@ -379,6 +393,153 @@
   },
   "131991": {
     "ScriptID": 131991,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "20010": {
+    "ScriptID": 20010,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001037
+  },
+  "13248": {
+    "ScriptID": 13248,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13249": {
+    "ScriptID": 13249,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13216": {
+    "ScriptID": 13216,
+    "MissingConditionID": 10001017,
+    "FullConditionID": 10001038,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13146": {
+    "ScriptID": 13146,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13325": {
+    "ScriptID": 13325,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13145": {
+    "ScriptID": 13145,
+    "MissingConditionID": 10001004,
+    "FullConditionID": 10001039,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "20016": {
+    "ScriptID": 20016,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001040
+  },
+  "20017": {
+    "ScriptID": 20017,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001046,
+    "UnLockConditionID": 10001041
+  },
+  "20018": {
+    "ScriptID": 20018,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001042
+  },
+  "20019": {
+    "ScriptID": 20019,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001042
+  },
+  "20020": {
+    "ScriptID": 20020,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001043
+  },
+  "20021": {
+    "ScriptID": 20021,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001036,
+    "UnLockConditionID": 10001043
+  },
+  "13243": {
+    "ScriptID": 13243,
+    "MissingConditionID": 10001035,
+    "FullConditionID": 10001045,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13323": {
+    "ScriptID": 13323,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13245": {
+    "ScriptID": 13245,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13143": {
+    "ScriptID": 13143,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13142": {
+    "ScriptID": 13142,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13140": {
+    "ScriptID": 13140,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13244": {
+    "ScriptID": 13244,
+    "MissingConditionID": 10001001,
+    "FullConditionID": 10001001,
+    "LockConditionID": 10001001,
+    "UnLockConditionID": 10001001
+  },
+  "13324": {
+    "ScriptID": 13324,
     "MissingConditionID": 10001001,
     "FullConditionID": 10001001,
     "LockConditionID": 10001001,

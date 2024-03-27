@@ -8,26 +8,6 @@
   "OwnerMainMissionID": 8003241,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      27,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 22,
-      "y": 23
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      27,
-      -3
-    ],
-    "LowerUpperBounds": {
-      "x": 22,
-      "y": 23
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -38,7 +18,6 @@
       "Name": "Anchor1",
       "RotY": 133.89,
       "RotX": 2.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -50,8 +29,7 @@
       "PosY": 2.630778,
       "PosZ": -3.37,
       "Name": "Anchor2",
-      "RotY": 186.8,
-      "MapLayerID": 1
+      "RotY": 186.8
     }
   ],
   "MonsterList": [],
@@ -67,7 +45,6 @@
       "NPCID": 12173,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -94,7 +71,6 @@
       "NPCID": 12270,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64

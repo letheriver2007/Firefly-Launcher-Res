@@ -11,8 +11,7 @@
       "PosY": -2.133928,
       "PosZ": -169.83,
       "Name": "Anchor1",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [
@@ -34,7 +33,6 @@
         "GroupID": 1,
         "ID": 1
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -55,7 +53,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -79,7 +76,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_DoorOpen": {
           "Radius": 3.5
@@ -108,7 +104,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -128,7 +123,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeRogueV3/Maze_Rogue_Prop_ElitHint02.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -150,7 +144,6 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

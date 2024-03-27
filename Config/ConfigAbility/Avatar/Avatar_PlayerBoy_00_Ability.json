@@ -1461,7 +1461,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy/Eff_Avatar_PlayerBoy_00_Skill03_Weapon_JNT_2.prefab"
         },
         {
@@ -1470,7 +1469,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy/Eff_Avatar_PlayerBoy_00_Skill03_Strong.prefab"
         },
         {
@@ -1479,7 +1477,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy/Eff_Avatar_PlayerBoy_00_Skill03_Weapon_Mat_E_1.prefab"
         },
         {
@@ -1629,7 +1626,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                     }
                   ]
@@ -2145,7 +2141,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]

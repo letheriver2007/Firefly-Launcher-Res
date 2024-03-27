@@ -36,8 +36,7 @@
       "PosY": 4.994836,
       "PosZ": 13.83,
       "Name": "Anchor1",
-      "RotY": 3.254577,
-      "MapLayerID": 1
+      "RotY": 3.254577
     },
     {
       "ID": 2,
@@ -46,8 +45,7 @@
       "PosZ": 15.266,
       "IsDelete": true,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -56,7 +54,6 @@
       "PosZ": 12.837,
       "Name": "Anchor3",
       "RotY": 42.78823,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -66,8 +63,7 @@
       "PosZ": 15.266,
       "IsDelete": true,
       "Name": "Anchor4",
-      "RotY": 359.4882,
-      "MapLayerID": 1
+      "RotY": 359.4882
     }
   ],
   "MonsterList": [],
@@ -83,7 +79,6 @@
       "NPCID": 2206,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -114,7 +109,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -131,7 +125,6 @@
       "NPCID": 2206,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

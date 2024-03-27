@@ -36,8 +36,7 @@
       "PosX": 2.55,
       "PosY": -1.0E-6,
       "PosZ": -5.31,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -47,8 +46,7 @@
       "Name": "Anchor2",
       "RotY": 61.54832,
       "RotX": 47.46853,
-      "RotZ": 344.349,
-      "MapLayerID": 1
+      "RotZ": 344.349
     }
   ],
   "MonsterList": [],
@@ -70,7 +68,6 @@
         3,
         4
       ],
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8

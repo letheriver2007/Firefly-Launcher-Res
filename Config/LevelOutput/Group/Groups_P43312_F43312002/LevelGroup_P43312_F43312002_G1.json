@@ -12,14 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -30,7 +22,6 @@
       "PosZ": -21.6981,
       "Name": "PlayerStart",
       "RotY": 91.5079,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],

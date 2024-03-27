@@ -35,8 +35,7 @@
       "PosX": 13.49,
       "PosY": 44.54244,
       "PosZ": -114.94,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -45,7 +44,6 @@
       "PosZ": -115.15,
       "Name": "Anchor2",
       "RotY": 11.42751,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -54,7 +52,6 @@
       "PosY": 48.75,
       "PosZ": -107.51,
       "Name": "Anchor3",
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -63,7 +60,6 @@
       "PosY": 47.801,
       "PosZ": -109.56,
       "Name": "Anchor4",
-      "MapLayerID": 2,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     }
@@ -82,7 +78,6 @@
       "PropID": 102012,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -102,7 +97,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -125,7 +119,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -144,7 +137,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -161,7 +153,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

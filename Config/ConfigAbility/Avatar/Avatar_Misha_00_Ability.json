@@ -211,7 +211,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Misha/Eff_Avatar_Misha_00_Skill01_Hit02.prefab"
         },
         {
@@ -636,7 +635,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Misha/Eff_Avatar_Misha_00_Skill03.prefab",
           "AttachPoint": "EffectScale"
         },
@@ -918,7 +916,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Misha/Eff_Avatar_Misha_00_Skill03_Boom_end.prefab"
         },
         {
@@ -1631,7 +1628,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Misha/Eff_Avatar_Misha_00_Skill03_Hit.prefab"
             },
             {

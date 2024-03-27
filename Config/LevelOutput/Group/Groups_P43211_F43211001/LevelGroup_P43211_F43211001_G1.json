@@ -11,20 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -1,
-      -10
-    ],
-    "LowerUpperBounds": {
-      "x": -5,
-      "y": -4
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -33,8 +19,7 @@
       "PosY": 23.80909,
       "PosZ": -33.97001,
       "Name": "PlayerStart",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -50,7 +35,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_Chessboard_02.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

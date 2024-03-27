@@ -176,9 +176,59 @@
     "FinishType": "ConsumeSingleItem",
     "ParamUint1": 140407
   },
+  "10001036": {
+    "ID": 10001036,
+    "FinishType": "ConsumeSingleItem",
+    "ParamUint1": 150034
+  },
+  "10001037": {
+    "ID": 10001037,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 8021103
+  },
+  "10001038": {
+    "ID": 10001038,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 4240320
+  },
+  "10001039": {
+    "ID": 10001039,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 4240321
+  },
+  "10001040": {
+    "ID": 10001040,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 8021105
+  },
+  "10001041": {
+    "ID": 10001041,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 8021106
+  },
+  "10001042": {
+    "ID": 10001042,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 8021102
+  },
+  "10001043": {
+    "ID": 10001043,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 8021104
+  },
   "10001044": {
     "ID": 10001044,
     "FinishType": "ConsumeSingleItem",
     "ParamUint1": 140469
+  },
+  "10001045": {
+    "ID": 10001045,
+    "FinishType": "FinishMainMission",
+    "ParamUint1": 4240322
+  },
+  "10001046": {
+    "ID": 10001046,
+    "FinishType": "ConsumeSingleItem",
+    "ParamUint1": 150039
   }
 }

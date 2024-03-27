@@ -31,8 +31,7 @@
       "PosY": 4.518555,
       "PosZ": 37.71,
       "Name": "Anchor1",
-      "RotY": 253.2224,
-      "MapLayerID": 1
+      "RotY": 253.2224
     },
     {
       "ID": 2,
@@ -42,7 +41,6 @@
       "Name": "Anchor2",
       "RotY": 333.583,
       "RotX": 5.000001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -55,7 +53,6 @@
       "PosZ": 27.03,
       "Name": "Anchor3",
       "RotY": 48.58298,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -66,7 +63,6 @@
       "Name": "Anchor4",
       "RotY": 33.6375,
       "RotX": 5.000001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -79,7 +75,6 @@
       "PosZ": 28.26115,
       "Name": "Anchor5",
       "RotY": 3.583055,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -91,7 +86,6 @@
       "RotY": 48.58298,
       "RotX": 1.0E-6,
       "RotZ": -3.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -106,7 +100,6 @@
       "RotY": 213.5829,
       "RotX": 4.895042,
       "RotZ": 4.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -119,7 +112,6 @@
       "PosZ": 29.19,
       "Name": "Anchor8",
       "RotY": 70.55367,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -131,7 +123,6 @@
       "RotY": 48.58298,
       "RotX": 9.999996,
       "RotZ": -7.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -156,7 +147,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -180,7 +170,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -201,7 +190,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -227,7 +215,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -247,7 +234,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -851007396
@@ -273,7 +259,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -294,7 +279,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -316,7 +300,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

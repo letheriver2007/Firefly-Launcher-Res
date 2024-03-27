@@ -18,7 +18,7 @@
             {
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AdvLocalPlayer"
+                "Alias": "AbilityTargetEntity"
               },
               "SteerNormalizedTimeStart": {
                 "IsDynamic": false,
@@ -61,7 +61,47 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_00/Eff_Monster_W3_Dinosaur_00_Maze_Attack_01.prefab"
+          "IsAttachToTargetEntity": true,
+          "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_01/Eff_Monster_W3_Dinosaur_01_MazeAttack_Attack.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.WaitAnimState",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "AnimStateName": "Attack",
+          "NormalizedTimeEnd": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 0.254
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdventureTriggerAttack",
+          "AttackTargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AllEnemy"
+          },
+          "TriggerBattleDelay": 0.1,
+          "AttackDetectConfig": {
+            "$type": "RPG.GameCore.AdventureAttackDetectBoxConfig",
+            "Size": {
+              "X": 0.3,
+              "Y": 0.4,
+              "Z": 1.8
+            },
+            "Offset": {
+              "X": 0,
+              "Y": 0.7,
+              "Z": 1
+            }
+          },
+          "HitConfig": {
+            "HitAnimation": "Hit",
+            "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_01/Eff_Monster_W3_Dinosaur_01_MazeAttack_Hit.prefab"
+          }
         },
         {
           "$type": "RPG.GameCore.WaitAnimState",
@@ -83,52 +123,13 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_00/Eff_Monster_W3_Dinosaur_00_Maze_Attack_Ground.prefab"
-        },
-        {
-          "$type": "RPG.GameCore.WaitAnimState",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "Caster"
-          },
-          "AnimStateName": "Attack",
-          "NormalizedTimeEnd": {
-            "IsDynamic": false,
-            "FixedValue": {
-              "Value": 0.274
-            }
-          }
-        },
-        {
-          "$type": "RPG.GameCore.AdventureTriggerAttack",
-          "AttackTargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllEnemy"
-          },
-          "TriggerBattleDelay": 0.1,
-          "AttackDetectConfig": {
-            "$type": "RPG.GameCore.AdventureAttackDetectBoxConfig",
-            "Size": {
-              "X": 0.3,
-              "Y": 0.4,
-              "Z": 2.8
-            },
-            "Offset": {
-              "X": 0,
-              "Y": 0.7,
-              "Z": 1.5
-            }
-          },
-          "HitConfig": {
-            "HitAnimation": "Hit",
-            "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_00/Eff_Monster_W3_Dinosaur_00_Maze_Attack_Hit.prefab",
-            "HitSoundEvent": "Ev_sfx_monster_skill_01_hit_mechabear"
-          }
+          "IsAttachToTargetEntity": true,
+          "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_01/Eff_Monster_W3_Dinosaur_01_MazeAttack_Ground.prefab"
         },
         {
           "$type": "RPG.GameCore.VCameraConfigChange",
           "CameraConfig": {
-            "ShakeTemplateName": "Impact_Middle"
+            "ShakeTemplateName": "Impact_Heavy"
           }
         },
         {

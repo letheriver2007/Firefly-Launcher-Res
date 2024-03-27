@@ -50,7 +50,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_0.prefab",
           "AttachPoint": "Origin"
         },
@@ -60,7 +59,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Target.prefab",
           "AttachPoint": "Origin"
         },
@@ -75,7 +73,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_1.prefab",
           "AttachPoint": "Origin"
         },
@@ -99,7 +96,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_2_1.prefab",
           "AttachPoint": "Origin"
         }
@@ -565,7 +561,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Physical.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -575,7 +570,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Physical.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -610,7 +604,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Fire.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -620,7 +613,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Fire.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -655,7 +647,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Ice.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -665,7 +656,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Ice.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -700,7 +690,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Thunder.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -710,7 +699,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Thunder.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -745,7 +733,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Wind.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -755,7 +742,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Wind.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -790,7 +776,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Quantum.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -800,7 +785,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Quantum.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -835,7 +819,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Imaginry.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -845,7 +828,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Imaginry.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1408,7 +1390,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Failed.prefab",
               "AttachPoint": "Origin"
             },
@@ -1418,7 +1399,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Failed.prefab",
               "AttachPoint": "Origin"
             },

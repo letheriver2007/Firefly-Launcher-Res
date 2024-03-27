@@ -17,30 +17,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      32,
-      -126,
-      -62,
-      -80
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 12
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      32,
-      -126,
-      -62,
-      -80
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -72,7 +48,6 @@
         "ID": 1
       },
       "EventID": 20311170,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -102,7 +77,6 @@
         "ID": 1
       },
       "EventID": 20311169,
-      "MapLayerID": 3,
       "BoardShowList": [
         4
       ],

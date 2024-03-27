@@ -3,6 +3,7 @@
   "GroupName": "Book4",
   "AreaAnchorName": "LevelArea_P20231_F20231001_G157",
   "SavedValueCondition": {
+    "Conditions": [],
     "Operation": "And"
   },
   "LoadSide": "Server",
@@ -11,21 +12,8 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      59,
-      -15
-    ],
-    "LowerUpperBounds": {
-      "x": 209,
-      "y": 210
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -36,18 +24,17 @@
       "PosZ": -28.52997,
       "Name": "Prop1",
       "PropID": 102009,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_PickupReadings.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20221515,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

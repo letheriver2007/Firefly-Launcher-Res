@@ -9,26 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -37,
-      -9
-    ],
-    "LowerUpperBounds": {
-      "x": 170,
-      "y": 171
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -37,
-      -9
-    ],
-    "LowerUpperBounds": {
-      "x": 170,
-      "y": 171
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -60,7 +40,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Shy01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         1,

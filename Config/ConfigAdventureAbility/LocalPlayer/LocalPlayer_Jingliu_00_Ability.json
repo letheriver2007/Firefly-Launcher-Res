@@ -520,37 +520,6 @@
           }
         },
         {
-          "$type": "RPG.GameCore.WaitAnimState",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "Caster"
-          },
-          "AnimStateName": "MazeSkill",
-          "NormalizedTimeEnd": {
-            "IsDynamic": false,
-            "FixedValue": {
-              "Value": 0.118
-            }
-          }
-        },
-        {
-          "$type": "RPG.GameCore.SetAttachmentScale",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "Caster"
-          },
-          "AttachPoints": [
-            {
-              "Name": "EyeMask"
-            }
-          ],
-          "Scale": {
-            "X": 0,
-            "Y": 0,
-            "Z": 0
-          }
-        },
-        {
           "$type": "RPG.GameCore.AdventureSubmitSkill"
         }
       ]

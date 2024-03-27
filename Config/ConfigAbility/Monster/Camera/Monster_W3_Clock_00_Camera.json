@@ -52,7 +52,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.56544495
+              "Value": 0.4790128
             }
           }
         },
@@ -197,57 +197,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.23282441
-            }
-          }
-        },
-        {
-          "$type": "RPG.GameCore.VCameraConfigChange",
-          "CameraConfig": {
-            "NormalConfig": {
-              "CameraState": "UseSkillPerform",
-              "IsLocalOffset": true,
-              "AnchorOffset": {
-                "X": -0.4,
-                "Y": -0.26,
-                "Z": 4.3
-              },
-              "AimTargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "Caster"
-              },
-              "AimOffset": {
-                "X": -0.001,
-                "Y": -0.26,
-                "Z": 0
-              },
-              "FollowPoleAngle": 90,
-              "FollowRadius": 0.88,
-              "ForbidChangeOffset": true
-            },
-            "BlendConfig": {
-              "BlendType": "Custom",
-              "CustomCurveName": "BlendCutSlowtoFast",
-              "BlendTime": 0.2
-            },
-            "ShowEntityConfig": {
-              "ShowTargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllDarkTeam"
-              }
-            }
-          }
-        },
-        {
-          "$type": "RPG.GameCore.WaitAnimState",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetFetchCaster"
-          },
-          "AnimStateName": "Skill02",
-          "NormalizedTimeEnd": {
-            "IsDynamic": false,
-            "FixedValue": {
-              "Value": 0.27862597
+              "Value": 0.23045267
             }
           }
         },
@@ -264,7 +214,7 @@
               "AnchorOffset": {
                 "X": -0.01,
                 "Y": 0.01,
-                "Z": 6.5
+                "Z": 4.3
               },
               "AimTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -299,7 +249,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.27862597
+              "Value": 0.23209876
             }
           }
         },
@@ -334,7 +284,7 @@
             "BlendConfig": {
               "BlendType": "Custom",
               "CustomCurveName": "BlendCut_00to1_FastToSlow",
-              "BlendTime": 0.5
+              "BlendTime": 0.7
             },
             "ShowEntityConfig": {
               "ShowTargetType": {
@@ -448,7 +398,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.23282441
+              "Value": 0.23045267
             }
           }
         },
@@ -523,7 +473,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.371
+              "Value": 0.37
             }
           }
         },

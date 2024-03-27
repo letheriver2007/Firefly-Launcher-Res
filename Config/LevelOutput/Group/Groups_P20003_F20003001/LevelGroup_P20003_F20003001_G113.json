@@ -35,8 +35,7 @@
       "PosY": 79.92648,
       "PosZ": 119.17,
       "Name": "Anchor1",
-      "RotY": 129.1,
-      "MapLayerID": 2
+      "RotY": 129.1
     },
     {
       "ID": 2,
@@ -44,8 +43,7 @@
       "PosY": 79.92635,
       "PosZ": 119.75,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -66,7 +64,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Mission/4040018/Prop/Prop_404001804.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -82,7 +79,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -101,7 +97,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010900,

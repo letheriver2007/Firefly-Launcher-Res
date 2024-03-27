@@ -58,12 +58,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": [
@@ -78,7 +79,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 1413,
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -103,6 +103,7 @@
         }
       },
       "RaidID": 4420101,
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

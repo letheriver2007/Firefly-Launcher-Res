@@ -2,11 +2,12 @@
   "ConfigList": {
     "EnterBattlePriority": {
       "PriorityKeys": {
-        "LevelBuff": 1,
-        "CharacterBuff": 2,
-        "StanceBreak": 3,
-        "AvatarInsertAbility": 4,
-        "MonsterInsertAbility": 5,
+        "LevelBuff": 10,
+        "CharacterBuff": 20,
+        "CharacterLateBuff": 21,
+        "StanceBreak": 30,
+        "AvatarInsertAbility": 40,
+        "MonsterInsertAbility": 50,
         "PROG_Default": 10000,
         "AvatarLateExcute": 10001,
         "AfterAllEnterBattle": 999999

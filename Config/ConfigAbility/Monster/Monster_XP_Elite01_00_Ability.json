@@ -435,7 +435,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill01_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "Attack1",
           "AttachPoint": "Origin",
@@ -956,7 +955,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill03_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "FireBall1",
           "AttachPoint": "Origin",
@@ -972,7 +970,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill03_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "FireBall4",
           "AttachPoint": "Origin",
@@ -1002,7 +999,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill03_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "FireBall3",
           "AttachPoint": "Origin",
@@ -1018,7 +1014,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill03_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "FireBall2",
           "AttachPoint": "Origin",
@@ -1048,7 +1043,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill03_Attack_Fire_Loop.prefab",
           "UniqueEffectName": "FireBall5",
           "AttachPoint": "Origin",
@@ -2095,7 +2089,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill04_Fire_HeadM_Add.prefab",
               "AttachPoint": "Head"
             }
@@ -2270,7 +2263,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill08_Attack_Fire.prefab",
                   "UniqueEffectName": "AvatarEnergy00"
                 },
@@ -2350,7 +2342,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill08_Attack_Fire.prefab",
                       "UniqueEffectName": "AvatarEnergy01"
                     },
@@ -2430,7 +2421,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill08_Attack_Fire.prefab",
                           "UniqueEffectName": "AvatarEnergy02"
                         },
@@ -2510,7 +2500,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill08_Attack_Fire.prefab",
                               "UniqueEffectName": "AvatarEnergy03"
                             },
@@ -2961,7 +2950,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "LightTeamCenter"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_00/Eff_XP_Elite01_00_01_Skill09_Attack_Hit01.prefab"
             },
             {
@@ -3093,7 +3081,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Resident"
               ],

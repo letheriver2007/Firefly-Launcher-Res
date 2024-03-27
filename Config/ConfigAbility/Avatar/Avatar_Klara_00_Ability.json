@@ -768,7 +768,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Klara/Eff_Avatar_Klara_00_Skill03_Buff01.prefab"
                 },
                 {
@@ -1704,7 +1703,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Klara/Eff_Avatar_Klara_00_Passive01_V2.prefab"
             }
           ],
@@ -1715,7 +1713,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Klara/Eff_Avatar_Klara_00_Passive01.prefab"
             }
           ]

@@ -1418,6 +1418,30 @@
       201290000
     ]
   },
+  "2013000": {
+    "ID": 2013000,
+    "StartMessageItemIDList": [
+      201300000
+    ]
+  },
+  "2013100": {
+    "ID": 2013100,
+    "StartMessageItemIDList": [
+      201310000
+    ]
+  },
+  "2013200": {
+    "ID": 2013200,
+    "StartMessageItemIDList": [
+      201320000
+    ]
+  },
+  "2013300": {
+    "ID": 2013300,
+    "StartMessageItemIDList": [
+      201330000
+    ]
+  },
   "2099900": {
     "ID": 2099900,
     "StartMessageItemIDList": [
@@ -2560,7 +2584,8 @@
     "ID": 1300100,
     "StartMessageItemIDList": [
       130010000
-    ]
+    ],
+    "MainMissionLink": 1030101
   },
   "1300200": {
     "ID": 1300200,
@@ -2681,6 +2706,20 @@
     "StartMessageItemIDList": [
       130200401
     ]
+  },
+  "1302100": {
+    "ID": 1302100,
+    "StartMessageItemIDList": [
+      130210000
+    ],
+    "IsPerformMessage": true
+  },
+  "1302200": {
+    "ID": 1302200,
+    "StartMessageItemIDList": [
+      130220000
+    ],
+    "IsPerformMessage": true
   },
   "1302400": {
     "ID": 1302400,
@@ -2844,5 +2883,76 @@
     "StartMessageItemIDList": [
       130570000
     ]
+  },
+  "1305800": {
+    "ID": 1305800,
+    "StartMessageItemIDList": [
+      130580000
+    ],
+    "IsPerformMessage": true
+  },
+  "1306000": {
+    "ID": 1306000,
+    "StartMessageItemIDList": [
+      130600000
+    ]
+  },
+  "1306100": {
+    "ID": 1306100,
+    "StartMessageItemIDList": [
+      130610000
+    ]
+  },
+  "1306200": {
+    "ID": 1306200,
+    "StartMessageItemIDList": [
+      130620000
+    ]
+  },
+  "1306300": {
+    "ID": 1306300,
+    "StartMessageItemIDList": [
+      130630000
+    ]
+  },
+  "1306400": {
+    "ID": 1306400,
+    "StartMessageItemIDList": [
+      130640000
+    ],
+    "MainMissionLink": 8021301
+  },
+  "1307200": {
+    "ID": 1307200,
+    "StartMessageItemIDList": [
+      130720000
+    ],
+    "MainMissionLink": 8021402
+  },
+  "1307300": {
+    "ID": 1307300,
+    "StartMessageItemIDList": [
+      130730000
+    ]
+  },
+  "1307400": {
+    "ID": 1307400,
+    "StartMessageItemIDList": [
+      130740000
+    ],
+    "MainMissionLink": 8021403
+  },
+  "1307500": {
+    "ID": 1307500,
+    "StartMessageItemIDList": [
+      130750000
+    ]
+  },
+  "1307600": {
+    "ID": 1307600,
+    "StartMessageItemIDList": [
+      130760000
+    ],
+    "IsPerformMessage": true
   }
 }

@@ -461,7 +461,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_0.prefab",
           "AttachPoint": "Origin"
         },
@@ -471,7 +470,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Target.prefab",
           "AttachPoint": "Origin"
         },
@@ -486,7 +484,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_1.prefab",
           "AttachPoint": "Origin"
         },
@@ -510,7 +507,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_2_1.prefab",
           "AttachPoint": "Origin"
         }
@@ -897,21 +893,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Physical"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Physical.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -921,7 +907,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Physical.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -942,21 +927,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Fire"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Fire.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -966,7 +941,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Fire.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -987,21 +961,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Ice"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Ice.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -1011,7 +975,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Ice.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1032,21 +995,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Thunder"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Thunder.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -1056,7 +1009,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Thunder.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1077,21 +1029,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Wind"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Wind.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -1101,7 +1043,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Wind.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1122,21 +1063,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Quantum"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Quantum.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -1146,7 +1077,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Quantum.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1167,21 +1097,11 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
-                  "ModifierOwner": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Silwolf_00_BPSkill_WeakType",
-                  "ModifierNameForStatus": "MAvatar_Silwolf_00_BPSkill_WeakType_Imaginary"
-                },
-                {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Imaginry.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -1191,7 +1111,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Imaginry.prefab",
                   "AttachPoint": "Origin"
                 }
@@ -1754,7 +1673,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_Failed.prefab",
               "AttachPoint": "Origin"
             },
@@ -1764,7 +1682,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill02_3_Failed.prefab",
               "AttachPoint": "Origin"
             },
@@ -3677,7 +3594,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "DarkTeamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill_Activities_02.prefab"
                     },
                     {
@@ -3695,7 +3611,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "DarkTeamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Silwolf/Eff_Avatar_Silwolf_00_Skill_Activities.prefab"
                     },
                     {
@@ -4228,6 +4143,22 @@
                   "$type": "RPG.GameCore.RemoveSelfModifier"
                 }
               ]
+            },
+            {
+              "$type": "RPG.GameCore.IncludeTaskListTemplate",
+              "Name": "Avatar_Silwolf_00_Skill02_OverrideNameForStatus",
+              "DynamicValues": {
+                "DF_WeakType": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -788155732
+                    ]
+                  }
+                }
+              }
             }
           ]
         }

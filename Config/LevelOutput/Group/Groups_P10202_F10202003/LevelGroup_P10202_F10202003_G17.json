@@ -31,8 +31,7 @@
       "PosY": -1.153757,
       "PosZ": -14.645,
       "Name": "Anchor1",
-      "RotY": 338.2299,
-      "MapLayerID": 1
+      "RotY": 338.2299
     },
     {
       "ID": 2,
@@ -40,16 +39,14 @@
       "PosY": -1.153757,
       "PosZ": -21.54,
       "Name": "Anchor2",
-      "RotY": 349.1491,
-      "MapLayerID": 1
+      "RotY": 349.1491
     },
     {
       "ID": 3,
       "PosY": -0.153755,
       "PosZ": -20.93,
       "Name": "Anchor3",
-      "RotY": 338.2299,
-      "MapLayerID": 1
+      "RotY": 338.2299
     },
     {
       "ID": 4,
@@ -57,8 +54,7 @@
       "PosY": 1.629132,
       "PosZ": 18.657,
       "Name": "Anchor4",
-      "RotY": 25.94869,
-      "MapLayerID": 1
+      "RotY": 25.94869
     }
   ],
   "MonsterList": [],
@@ -78,7 +74,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -97,7 +92,6 @@
       "NPCID": 12244,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -116,7 +110,6 @@
       "NPCID": 2202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,
@@ -133,7 +126,6 @@
       "NPCID": 2202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,
@@ -150,7 +142,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -166,7 +157,6 @@
       "NPCID": 2202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200040227,
@@ -182,7 +172,6 @@
       "NPCID": 12244,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -205,7 +194,6 @@
       "NPCID": 2201,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,
@@ -221,7 +209,6 @@
       "NPCID": 2201,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,

@@ -212,7 +212,8 @@
           "CharacterUniqueName": {
             "Value": "LocalPlayer"
           },
-          "AnimStateName": "StandBy"
+          "AnimStateName": "StandBy",
+          "NormalizedTransitionDuration": 0.25
         }
       ]
     },

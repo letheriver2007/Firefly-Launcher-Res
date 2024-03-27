@@ -56,7 +56,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20003221,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -74,7 +73,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_Wubwub_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -7,20 +7,6 @@
   "OwnerMainMissionID": 8002102,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      13,
-      -52
-    ],
-    "LowerUpperBounds": {
-      "x": 94,
-      "y": 95
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -29,8 +15,7 @@
       "PosY": 6.038,
       "PosZ": -102.485,
       "Name": "Anchor1",
-      "RotY": 18.19,
-      "MapLayerID": 2
+      "RotY": 18.19
     }
   ],
   "MonsterList": [],
@@ -58,7 +43,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

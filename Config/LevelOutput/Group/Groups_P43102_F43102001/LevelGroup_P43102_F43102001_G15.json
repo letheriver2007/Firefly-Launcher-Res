@@ -95,40 +95,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -4,
-      71,
-      -2,
-      71
-    ],
-    "LowerUpperBounds": {
-      "x": 262,
-      "y": 263
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -2,
-      60,
-      -4,
-      65,
-      -6,
-      66,
-      -3,
-      70,
-      -4,
-      71,
-      -2,
-      71
-    ],
-    "LowerUpperBounds": {
-      "x": 252,
-      "y": 265
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -136,8 +102,7 @@
       "PosX": -3.985328,
       "PosY": -0.240706,
       "PosZ": 118.9037,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -148,7 +113,6 @@
       "RotY": 86.6552,
       "RotX": 22.07405,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -235,7 +199,6 @@
         "ID": 1
       },
       "EventID": 43101000,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -263,7 +226,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 43101006,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -307,7 +269,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -368,7 +329,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -408,7 +368,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -424,7 +383,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_MissionWayPoint05.json",
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

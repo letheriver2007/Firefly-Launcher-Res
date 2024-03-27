@@ -58,34 +58,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -1,
-      -22
-    ],
-    "LowerUpperBounds": {
-      "x": 404,
-      "y": 405
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      86,
-      -38,
-      -1,
-      -22,
-      5,
-      -9,
-      4,
-      -3,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 404,
-      "y": 424
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -98,7 +70,6 @@
       "RotY": 180.0,
       "RotX": 59.99984,
       "RotZ": 3.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -112,7 +83,6 @@
       "Name": "PuzzleCameraAnchor_Test",
       "RotY": 90.0,
       "RotX": 59.99981,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -173,7 +143,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -205,7 +174,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -266,7 +234,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -289,7 +256,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Hidden",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -321,7 +287,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -354,7 +319,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -379,7 +343,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "OverrideSeriesID": 2,

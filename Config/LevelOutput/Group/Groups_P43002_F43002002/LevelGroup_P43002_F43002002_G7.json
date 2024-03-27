@@ -12,44 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -10,
-      51,
-      -9,
-      51,
-      -18,
-      54,
-      2,
-      60,
-      8,
-      63,
-      8,
-      64
-    ],
-    "LowerUpperBounds": {
-      "y": 4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -10,
-      51,
-      -9,
-      51,
-      -18,
-      54,
-      2,
-      60,
-      8,
-      63,
-      8,
-      64
-    ],
-    "LowerUpperBounds": {
-      "y": 4
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -70,7 +32,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100030326,
@@ -96,7 +57,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020209,
@@ -123,7 +83,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020209,
@@ -150,7 +109,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010227,
@@ -178,7 +136,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020227,
@@ -203,7 +160,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitReading01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "PossessionConfig": {
         "Name": "Possession_Book_A_03"
       },
@@ -230,7 +186,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitReading01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "PossessionConfig": {
         "Name": "Possession_Book_A_03"
       },
@@ -258,7 +213,6 @@
       "DefaultIdleStateName": "Think01Loop",
       "DefaultBlendShapeConfigName": "Close01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010202,
@@ -282,7 +236,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020230,
@@ -305,7 +258,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,

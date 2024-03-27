@@ -441,7 +441,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_01/Eff_Monster_W1_Mecha03_01_Skill06_01.prefab"
         },
         {
@@ -522,7 +521,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Skill01_Hit.prefab"
                 },
                 {

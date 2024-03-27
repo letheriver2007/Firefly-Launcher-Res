@@ -30,8 +30,7 @@
       "PosY": 53.25381,
       "PosZ": 119.188,
       "Name": "Anchor1",
-      "RotY": 181.2359,
-      "MapLayerID": 1
+      "RotY": 181.2359
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": 53.25376,
       "PosZ": 112.09,
       "Name": "Anchor2",
-      "RotY": 142.0735,
-      "MapLayerID": 1
+      "RotY": 142.0735
     },
     {
       "ID": 3,
@@ -48,8 +46,7 @@
       "PosY": 53.25381,
       "PosZ": 117.44,
       "Name": "Anchor3",
-      "RotY": 171.6675,
-      "MapLayerID": 1
+      "RotY": 171.6675
     }
   ],
   "MonsterList": [],
@@ -71,7 +68,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -90,7 +86,6 @@
       "NPCID": 12118,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

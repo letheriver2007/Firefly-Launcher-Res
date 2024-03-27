@@ -11,22 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      27,
-      27,
-      12,
-      41
-    ],
-    "LowerUpperBounds": {
-      "x": 6,
-      "y": 7
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -43,7 +27,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -63,7 +46,6 @@
       "ValueSource": {},
       "CampID": 4,
       "EventID": 10001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

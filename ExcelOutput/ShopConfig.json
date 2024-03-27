@@ -961,6 +961,52 @@
     "ScheduleDataID": 300338,
     "HideRemainTime": true
   },
+  "339": {
+    "ShopID": 339,
+    "ShopMainType": "Npc",
+    "ShopType": 51,
+    "ShopName": {
+      "Hash": -436857868
+    },
+    "ShopDesc": {
+      "Hash": 1052540570
+    },
+    "ShopIconPath": "SpriteOutput/TabIcon/Shop/ShopMaterialsIcon.png",
+    "ShopBar": "Shop339Page",
+    "ShopSortID": 1,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      1
+    ],
+    "LimitValue2List": [],
+    "IsOpen": true,
+    "ServerVerification": true,
+    "ScheduleDataID": 300339,
+    "HideRemainTime": true
+  },
+  "340": {
+    "ShopID": 340,
+    "ShopMainType": "Npc",
+    "ShopType": 52,
+    "ShopName": {
+      "Hash": 1935795136
+    },
+    "ShopDesc": {
+      "Hash": -513543362
+    },
+    "ShopIconPath": "SpriteOutput/TabIcon/Shop/ShopMaterialsIcon.png",
+    "ShopBar": "Shop340Page",
+    "ShopSortID": 1,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      1
+    ],
+    "LimitValue2List": [],
+    "IsOpen": true,
+    "ServerVerification": true,
+    "ScheduleDataID": 300340,
+    "HideRemainTime": true
+  },
   "401": {
     "ShopID": 401,
     "ShopMainType": "Npc",

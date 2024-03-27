@@ -1342,7 +1342,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Abomi04_00/Eff_Monster_W2_Abomi04_00_SkillP01_Spear_Loop.prefab"
             }
           ],
@@ -2590,7 +2589,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Abomi04_00/Eff_Monster_W2_Abomi04_00_SkillP01_Spear_Loop.prefab"
             },
             {
@@ -2624,7 +2622,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Abomi04_00/Eff_Monster_W2_Abomi04_00_SkillP01_Spear_Disappear.prefab"
                 }
               ]
@@ -2696,7 +2693,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Skill04_01.prefab"
             }
           ]

@@ -36,8 +36,7 @@
       "PosY": 0.034145,
       "PosZ": 51.59,
       "Name": "Anchor1",
-      "RotY": 335.7,
-      "MapLayerID": 1
+      "RotY": 335.7
     }
   ],
   "MonsterList": [],
@@ -59,7 +58,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -84,7 +82,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -105,7 +102,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,

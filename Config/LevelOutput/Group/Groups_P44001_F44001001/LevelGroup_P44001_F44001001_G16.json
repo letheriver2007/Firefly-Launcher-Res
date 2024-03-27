@@ -9,76 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      -48,
-      -68,
-      -37,
-      -67,
-      -37,
-      -65,
-      -24,
-      -65,
-      -23,
-      -76,
-      -19,
-      -75,
-      -19,
-      -76,
-      -18,
-      -75,
-      -18
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 3
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -2,
-      -51,
-      -6,
-      -50,
-      -3,
-      -50,
-      -9,
-      -48,
-      -73,
-      -37,
-      -68,
-      -37,
-      -67,
-      -37,
-      -56,
-      -37,
-      -56,
-      -34,
-      -56,
-      -33,
-      -56,
-      -32,
-      -55,
-      -32,
-      -65,
-      -24,
-      -65,
-      -23,
-      -76,
-      -19,
-      -75,
-      -19,
-      -76,
-      -18,
-      -75,
-      -18
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 3
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -86,32 +16,28 @@
       "PosX": -104.39,
       "PosY": -1.5254,
       "PosZ": -92.9,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -110.15,
       "PosY": -0.060617,
       "PosZ": -81.73,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": -110.15,
       "PosY": -0.060617,
       "PosZ": -64.62,
-      "Name": "Anchor3",
-      "MapLayerID": 2
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
       "PosX": -105.2,
       "PosY": -1.542605,
       "PosZ": -53.8,
-      "Name": "Anchor4",
-      "MapLayerID": 2
+      "Name": "Anchor4"
     },
     {
       "ID": 5,
@@ -122,7 +48,6 @@
       "RotY": 252.96,
       "RotX": 357.76,
       "RotZ": 2.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -152,7 +77,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -180,7 +104,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -237,7 +160,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -270,7 +192,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -294,7 +215,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -334,7 +254,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -370,7 +289,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -406,7 +324,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -437,7 +354,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -473,7 +389,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -500,7 +415,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

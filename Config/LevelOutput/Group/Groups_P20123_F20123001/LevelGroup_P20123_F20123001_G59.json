@@ -47,8 +47,7 @@
       "PosY": 19.97395,
       "PosZ": -54.76451,
       "Name": "Anchor1",
-      "RotY": 88.92077,
-      "MapLayerID": 2
+      "RotY": 88.92077
     },
     {
       "ID": 2,
@@ -56,8 +55,7 @@
       "PosY": 14.01229,
       "PosZ": 28.02,
       "Name": "Anchor2",
-      "RotY": 348.6485,
-      "MapLayerID": 1
+      "RotY": 348.6485
     },
     {
       "ID": 3,
@@ -66,7 +64,6 @@
       "PosZ": 31.41,
       "Name": "Anchor3",
       "RotY": 9.615324,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -75,8 +72,7 @@
       "PosY": 19.9992,
       "PosZ": 33.944,
       "Name": "Anchor4",
-      "RotY": 110.0,
-      "MapLayerID": 2
+      "RotY": 110.0
     },
     {
       "ID": 5,
@@ -84,8 +80,7 @@
       "PosY": 12.05616,
       "PosZ": 0.39,
       "Name": "Anchor5",
-      "RotY": 309.23,
-      "MapLayerID": 1
+      "RotY": 309.23
     },
     {
       "ID": 6,
@@ -93,8 +88,7 @@
       "PosY": 13.27401,
       "PosZ": 12.774,
       "Name": "Anchor6",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 7,
@@ -102,8 +96,7 @@
       "PosY": 14.7,
       "PosZ": 15.289,
       "Name": "Anchor7",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -125,7 +118,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -151,7 +143,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -178,7 +169,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -206,7 +196,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -222,7 +211,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -239,7 +227,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -270,7 +257,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311070000,
@@ -287,7 +273,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1295698335
@@ -318,7 +303,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311070000,
@@ -346,7 +330,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311070000,
@@ -374,7 +357,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311070000,
@@ -391,7 +373,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1295698335

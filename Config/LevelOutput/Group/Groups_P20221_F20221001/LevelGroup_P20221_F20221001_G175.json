@@ -31,8 +31,7 @@
       "PosY": 21.59315,
       "PosZ": -72.75,
       "Name": "Anchor1",
-      "RotY": 158.257,
-      "MapLayerID": 2
+      "RotY": 158.257
     },
     {
       "ID": 2,
@@ -41,7 +40,6 @@
       "PosZ": -72.34,
       "Name": "Anchor2",
       "RotY": 126.4097,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -63,7 +61,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010237,
@@ -85,7 +82,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -105,7 +101,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64

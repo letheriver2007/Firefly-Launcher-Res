@@ -9,28 +9,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      -92,
-      -24,
-      -91,
-      -59,
-      -48,
-      0,
-      -47,
-      -1,
-      -28
-    ],
-    "LowerUpperBounds": {
-      "x": 57,
-      "y": 60
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -38,8 +16,7 @@
       "PosX": 3.5E-4,
       "PosY": -2.7,
       "PosZ": -94.00024,
-      "Name": "North",
-      "MapLayerID": 1
+      "Name": "North"
     },
     {
       "ID": 2,
@@ -47,8 +24,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "East",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 3,
@@ -56,8 +32,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "South",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -65,8 +40,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "West",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     }
   ],
   "MonsterList": [],
@@ -89,7 +63,6 @@
         },
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -114,7 +87,6 @@
         "PointList": []
       },
       "State": "BridgeState1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [
@@ -139,7 +111,6 @@
       "Name": "Prop8",
       "PropID": 101004,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -156,7 +127,6 @@
       "RotY": 180.0,
       "PropID": 101005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -173,7 +143,6 @@
       "RotY": 90.0,
       "PropID": 101005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

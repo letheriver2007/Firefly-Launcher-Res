@@ -124,7 +124,6 @@
       "InitLevelGraph": "Config/Level/CrowdBubble/20001001/Crowd_20001001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -183,7 +182,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -221,7 +219,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -259,7 +256,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -319,7 +315,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -358,7 +353,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -418,7 +412,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -457,7 +450,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -496,7 +488,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -551,7 +542,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -590,7 +580,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -650,7 +639,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -689,7 +677,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -728,7 +715,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -788,7 +774,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -827,7 +812,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -866,7 +850,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -921,7 +904,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -960,7 +942,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -999,7 +980,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -1027,7 +1007,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1049,7 +1028,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1072,7 +1050,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1095,7 +1072,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1119,7 +1095,6 @@
       "DefaultLookAtTargetInfo": {
         "GroupID": 80
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1140,7 +1115,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitReading01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "PossessionConfig": {
         "Name": "Possession_Book_A_03"
       },
@@ -1164,7 +1138,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitReading01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "PossessionConfig": {
         "Name": "Possession_Book_A_03"
       },
@@ -1189,7 +1162,6 @@
       "DefaultIdleStateName": "Think01Loop",
       "DefaultBlendShapeConfigName": "Happy01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1214,7 +1186,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1236,7 +1207,6 @@
       "DefaultIdleStateName": "Think01Loop",
       "DefaultBlendShapeConfigName": "Happy01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1262,7 +1232,6 @@
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultBlendShapeConfigName": "Happy02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -1286,7 +1255,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

@@ -31,8 +31,7 @@
       "PosY": 4.876643,
       "PosZ": -131.12,
       "Name": "Checkpoint1",
-      "RotY": 119.9999,
-      "MapLayerID": 1
+      "RotY": 119.9999
     },
     {
       "ID": 2,
@@ -54,8 +53,7 @@
       "PosY": 4.876643,
       "PosZ": -131.12,
       "Name": "Checkpoint2",
-      "RotY": 119.9999,
-      "MapLayerID": 1
+      "RotY": 119.9999
     }
   ],
   "MonsterList": [],
@@ -97,7 +95,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -113,7 +110,10 @@
       "TriggerValidGuest": {},
       "TagContainer": {},
       "CameraCenterEntityList": [
-        {}
+        {
+          "GroupID": 105,
+          "EntityID": 400005
+        }
       ],
       "SpawnConfig": {
         "EntitySpawnConfig": {}

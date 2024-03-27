@@ -47,7 +47,6 @@
       "RotY": 124.7,
       "RotX": 14.54152,
       "RotZ": -1.42E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -59,7 +58,6 @@
       "RotY": 196.6028,
       "RotX": 18.15114,
       "RotZ": -9.5E-5,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -71,7 +69,6 @@
       "RotY": 294.8,
       "RotX": 15.22906,
       "RotZ": -2.15E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -80,8 +77,7 @@
       "PosY": -0.974496,
       "PosZ": -59.556,
       "Name": "Anchor4",
-      "RotY": 37.09592,
-      "MapLayerID": 1
+      "RotY": 37.09592
     },
     {
       "ID": 5,
@@ -89,8 +85,7 @@
       "PosY": -1.032372,
       "PosZ": -131.85,
       "Name": "Anchor5",
-      "RotY": 163.7224,
-      "MapLayerID": 1
+      "RotY": 163.7224
     },
     {
       "ID": 6,
@@ -98,8 +93,7 @@
       "PosY": -1.032427,
       "PosZ": -44.155,
       "Name": "Anchor6",
-      "RotY": 273.4575,
-      "MapLayerID": 1
+      "RotY": 273.4575
     }
   ],
   "MonsterList": [],
@@ -115,7 +109,6 @@
       "NPCID": 12141,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
@@ -131,7 +124,6 @@
       "NPCID": 12141,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
@@ -147,7 +139,6 @@
       "NPCID": 12141,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
@@ -163,7 +154,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -180,7 +170,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -197,7 +186,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

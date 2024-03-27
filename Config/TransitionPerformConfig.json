@@ -455,7 +455,7 @@
           "$type": "RPG.GameCore.SetEntityVisible",
           "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AdvLocalPlayer"
+            "Alias": "AdvTeamLeader"
           },
           "MuteColliderWhenInvisible": false
         },
@@ -776,7 +776,7 @@
           "$type": "RPG.GameCore.AdventureTriggerAnimStateWithMove",
           "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AdvLocalPlayer"
+            "Alias": "AdvTeamLeader"
           },
           "AnimLogicState": "Idle",
           "AnimStateName": "StandBy"
@@ -797,7 +797,7 @@
           "$type": "RPG.GameCore.SetEntityVisible",
           "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AdvLocalPlayer"
+            "Alias": "AdvTeamLeader"
           },
           "Visible": true,
           "MuteColliderWhenInvisible": false

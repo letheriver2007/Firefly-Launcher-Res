@@ -33,6 +33,7 @@
           "HideNPC": true,
           "EntityVisiableList": [],
           "HideProp": true,
+          "PropVisiableList": [],
           "HideLocalPlayer": true,
           "StreamingSourcesInBlackMask": [],
           "StreamingSourcesAfterBlackMask": [],
@@ -250,10 +251,8 @@
           "Parameters": []
         },
         {
-          "$type": "RPG.GameCore.TriggerCustomString",
-          "CustomString": {
-            "Value": "Talk_203020101"
-          }
+          "$type": "RPG.GameCore.SetPerformanceResult",
+          "Value": 1
         },
         {
           "$type": "RPG.GameCore.EndPerformance"

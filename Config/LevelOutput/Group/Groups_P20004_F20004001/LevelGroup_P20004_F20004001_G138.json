@@ -10,28 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 73
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -9,
-      0,
-      -9,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 73
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -46,7 +24,6 @@
       "PropID": 100086,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -72,7 +49,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -31810989

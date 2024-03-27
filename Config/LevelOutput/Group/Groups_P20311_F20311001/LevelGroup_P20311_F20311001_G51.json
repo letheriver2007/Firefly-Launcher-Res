@@ -2,6 +2,9 @@
   "GroupGUID": "a8da76a9-23cf-48c2-8c6b-f2d100286e9e",
   "GroupName": "Default_CheckPoint",
   "AreaAnchorName": "LevelArea_P20311_F20311001_G51",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
@@ -12,28 +15,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      39,
-      -126,
-      -56,
-      -74,
-      83,
-      -69,
-      -77,
-      -44,
-      -64,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 15
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -43,8 +24,7 @@
       "PosY": 28.08371,
       "PosZ": -130.8126,
       "Name": "Anchor1",
-      "RotY": 270.0,
-      "MapLayerID": 3
+      "RotY": 270.0
     },
     {
       "ID": 2,
@@ -52,8 +32,7 @@
       "PosY": -16.9182,
       "PosZ": -259.2304,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -61,8 +40,7 @@
       "PosY": -16.91823,
       "PosZ": -258.2078,
       "Name": "Anchor3",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 4,
@@ -70,8 +48,7 @@
       "PosY": 22.077,
       "PosZ": -148.7242,
       "Name": "Anchor4",
-      "RotY": 270.0,
-      "MapLayerID": 3
+      "RotY": 270.0
     },
     {
       "ID": 5,
@@ -79,8 +56,7 @@
       "PosY": -4.909991,
       "PosZ": -79.74,
       "Name": "Anchor5",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 6,
@@ -88,8 +64,7 @@
       "PosY": 28.06748,
       "PosZ": -3.320485,
       "Name": "Anchor6",
-      "RotY": 180.0,
-      "MapLayerID": 3
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -102,11 +77,9 @@
       "Name": "Prop1",
       "RotY": 314.789,
       "PropID": 101,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 3,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -126,6 +99,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -137,11 +111,9 @@
       "PosZ": -250.2142,
       "Name": "Prop2",
       "PropID": 101,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",
@@ -165,6 +137,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -176,11 +149,9 @@
       "PosZ": -147.02,
       "Name": "Prop4",
       "PropID": 101,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 3,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 13.0,
@@ -200,6 +171,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -211,11 +183,9 @@
       "PosZ": -87.72491,
       "Name": "Prop5",
       "PropID": 101,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Shape": "Box",
@@ -239,6 +209,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -250,16 +221,20 @@
       "PosZ": 2.77,
       "Name": "Prop6",
       "PropID": 101,
-      "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_CheckPoint_ActiveHint.json",
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 3,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
+          "Shape": "Box",
           "Radius": 11.0,
-          "DimX": 18.0,
-          "DimZ": 12.0,
+          "DimX": 36.0,
+          "DimY": 3.0,
+          "DimZ": 65.0,
+          "Offset": {
+            "x": -17.0,
+            "z": -20.0
+          },
           "PointList": [],
           "Server": true
         }
@@ -273,6 +248,8 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

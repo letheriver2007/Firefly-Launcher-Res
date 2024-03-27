@@ -36,7 +36,6 @@
       "PosZ": 7.379934,
       "Name": "Anchor1",
       "RotY": 35.2,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -58,7 +57,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -78,7 +76,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 390010221,

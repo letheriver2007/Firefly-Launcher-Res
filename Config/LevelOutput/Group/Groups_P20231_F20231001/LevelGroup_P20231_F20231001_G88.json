@@ -4,7 +4,9 @@
   "AreaAnchorName": "LevelArea_P20231_F20231001_G88",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -12,8 +14,7 @@
       "PosY": 2.57,
       "PosZ": -5.19,
       "Name": "ShipPos2",
-      "RotY": -7.7E-5,
-      "MapLayerID": 1
+      "RotY": -7.7E-5
     },
     {
       "ID": 2,
@@ -21,8 +22,7 @@
       "PosY": 2.57,
       "PosZ": -5.19,
       "Name": "ShipPos1",
-      "RotY": -7.7E-5,
-      "MapLayerID": 1
+      "RotY": -7.7E-5
     },
     {
       "ID": 3,
@@ -33,8 +33,10 @@
       "RotY": 299.9054,
       "RotX": 355.0,
       "RotZ": -7.0E-6,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 4,
@@ -45,8 +47,10 @@
       "RotY": -3.9E-5,
       "RotX": 355.0,
       "RotZ": -4.0E-6,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     },
     {
       "ID": 5,
@@ -54,8 +58,7 @@
       "PosY": 3.99,
       "PosZ": -5.268,
       "Name": "Anchor5",
-      "RotY": 1.67E-4,
-      "MapLayerID": 1
+      "RotY": 1.67E-4
     }
   ],
   "MonsterList": [],
@@ -93,14 +96,15 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [
         16
-      ]
+      ],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -151,15 +155,16 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "HideInCutScene": true,
       "HideInStory": true,
-      "PerformanceHideFlags": -2
+      "PerformanceHideFlags": -2,
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300004,
@@ -183,6 +188,7 @@
       "CampID": 4,
       "State": "ChestClosed",
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231656,
       "MappingInfoID": 10046,
@@ -193,7 +199,8 @@
         {
           "IconID": 89
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300005,
@@ -215,13 +222,14 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300006,
@@ -245,12 +253,13 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300007,
@@ -273,12 +282,13 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300008,
@@ -336,12 +346,13 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300001,
@@ -359,12 +370,13 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

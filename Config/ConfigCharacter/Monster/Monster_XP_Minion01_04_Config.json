@@ -12,10 +12,11 @@
     "Z": 0
   },
   "HitBoxWidth": 0.3,
-  "HitBoxHeight": 0.4,
+  "HitBoxHeight": 1.5,
   "Location": {
     "Width": 1.1
   },
+  "VisualRadius": 0.8,
   "AnimEventConfigList": [
     "Config/ConfigAnimEvents/Monster/Designer/Monster_XP_Minion01_04_Designer_AnimEvent.json",
     "Config/ConfigAnimEvents/Monster/Effect/Monster_XP_Minion01_04_Effect_AnimEvent.json",

@@ -22,7 +22,12 @@
             }
           ],
           "CaptureNPCList": [],
-          "EntityVisiableList": [],
+          "EntityVisiableList": [
+            {
+              "GroupID": 76,
+              "GroupNPCID": 400001
+            }
+          ],
           "HideProp": true,
           "PropVisiableList": [],
           "HideLocalPlayer": true,

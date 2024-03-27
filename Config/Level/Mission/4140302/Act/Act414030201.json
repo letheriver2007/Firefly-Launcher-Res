@@ -30,56 +30,22 @@
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300001
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300001
+                      ]
                     },
                     "State": "EventClose"
                   },
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300002
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300002
+                      ]
                     }
                   }
                 ]
@@ -97,55 +63,21 @@
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300001
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300001
+                      ]
                     }
                   },
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300002
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300002
+                      ]
                     },
                     "State": "EventClose"
                   }
@@ -164,55 +96,21 @@
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300001
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300001
+                      ]
                     }
                   },
                   {
                     "$type": "RPG.GameCore.ByComparePropState",
                     "TargetType": {
-                      "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-                      "FetchType": "SinglePropByPropID",
-                      "SinglePropID": {
-                        "GroupID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 153
-                          }
-                        },
-                        "ID": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 300002
-                          }
-                        }
-                      },
-                      "PropIDInOwnerGroup": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 300001
-                        }
-                      }
+                      "$type": "RPG.GameCore.GroupFetchLocalTarget",
+                      "TargetType": "Prop",
+                      "Targets": [
+                        300002
+                      ]
                     }
                   }
                 ]
@@ -234,28 +132,11 @@
         {
           "$type": "RPG.GameCore.AnimSetParameter",
           "TargetType": {
-            "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-            "FetchType": "SinglePropByPropID",
-            "SinglePropID": {
-              "GroupID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 153
-                }
-              },
-              "ID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 300001
-                }
-              }
-            },
-            "PropIDInOwnerGroup": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 300001
-              }
-            }
+            "$type": "RPG.GameCore.GroupFetchLocalTarget",
+            "TargetType": "Prop",
+            "Targets": [
+              300001
+            ]
           },
           "ParameterName": "TriggerPullFail02",
           "ParameterType": "Trigger"
@@ -272,28 +153,11 @@
         {
           "$type": "RPG.GameCore.TriggerEffectList",
           "TargetType": {
-            "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-            "FetchType": "SinglePropByPropID",
-            "SinglePropID": {
-              "GroupID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 153
-                }
-              },
-              "ID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 300001
-                }
-              }
-            },
-            "PropIDInOwnerGroup": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 300001
-              }
-            }
+            "$type": "RPG.GameCore.GroupFetchLocalTarget",
+            "TargetType": "Prop",
+            "Targets": [
+              300001
+            ]
           },
           "EffectList": [
             {
@@ -347,28 +211,11 @@
         {
           "$type": "RPG.GameCore.AnimSetParameter",
           "TargetType": {
-            "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-            "FetchType": "SinglePropByPropID",
-            "SinglePropID": {
-              "GroupID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 153
-                }
-              },
-              "ID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 300002
-                }
-              }
-            },
-            "PropIDInOwnerGroup": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 300001
-              }
-            }
+            "$type": "RPG.GameCore.GroupFetchLocalTarget",
+            "TargetType": "Prop",
+            "Targets": [
+              300002
+            ]
           },
           "ParameterName": "TriggerPullFail02",
           "ParameterType": "Trigger"
@@ -385,28 +232,11 @@
         {
           "$type": "RPG.GameCore.TriggerEffectList",
           "TargetType": {
-            "$type": "RPG.GameCore.TargetFetchAdvPropEx",
-            "FetchType": "SinglePropByPropID",
-            "SinglePropID": {
-              "GroupID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 153
-                }
-              },
-              "ID": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 300002
-                }
-              }
-            },
-            "PropIDInOwnerGroup": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 300001
-              }
-            }
+            "$type": "RPG.GameCore.GroupFetchLocalTarget",
+            "TargetType": "Prop",
+            "Targets": [
+              300002
+            ]
           },
           "EffectList": [
             {

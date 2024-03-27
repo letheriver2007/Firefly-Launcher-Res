@@ -538,7 +538,23 @@
         "ApiLevel": -1
       },
       {
+        "GraphicDeviceName": "Samsung Xclipse 920",
+        "ApiLevel": -1
+      },
+      {
         "GraphicDeviceName": "ANGLE (Samsung Xclipse 940) on Vulkan 1.3.231",
+        "ApiLevel": -1
+      },
+      {
+        "GraphicDeviceName": "Samsung Xclipse 940",
+        "ApiLevel": -1
+      },
+      {
+        "GraphicDeviceName": "ANGLE (Samsung Xclipse 530) on Vulkan 1.3.231",
+        "ApiLevel": -1
+      },
+      {
+        "GraphicDeviceName": "Samsung Xclipse 530",
         "ApiLevel": -1
       }
     ]
@@ -548,7 +564,7 @@
       {
         "GraphicDeviceName": "PowerVR B-Series",
         "GraphicsDeviceType": -1,
-        "DisableType": 2
+        "DisableType": 258
       },
       {
         "GraphicDeviceName": "Mali-G76",
@@ -584,6 +600,16 @@
         "GraphicDeviceName": "Adreno (TM) 630",
         "GraphicsDeviceType": -1,
         "DisableType": 32
+      },
+      {
+        "GraphicDeviceName": "Mali-G76",
+        "GraphicsDeviceType": -1,
+        "DisableType": 128
+      },
+      {
+        "GraphicDeviceName": "PowerVR Rogue",
+        "GraphicsDeviceType": -1,
+        "DisableType": 256
       }
     ]
   }

@@ -77,7 +77,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Hanya/Eff_Avatar_Hanya_00_Skill01_Hit_Start01.prefab",
           "AttachPoint": "Origin"
         },
@@ -436,6 +435,7 @@
               "$type": "RPG.GameCore.SetEnergyBarState",
               "Active": "True",
               "BarType": 3,
+              "CurrentState": "Active",
               "CD": {
                 "IsDynamic": false,
                 "FixedValue": {
@@ -736,7 +736,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Hanya/Eff_Avatar_Hanya_00_Skill03_AttackBuff.prefab"
         },
         {
@@ -1211,6 +1210,7 @@
                               "$type": "RPG.GameCore.SetEnergyBarState",
                               "Active": "True",
                               "BarType": 3,
+                              "CurrentState": "Active",
                               "CD": {
                                 "IsDynamic": false,
                                 "FixedValue": {
@@ -1245,7 +1245,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Hanya/Eff_Avatar_Hanya_00_MazeSkill01_Hit.prefab"
                             },
                             {
@@ -1359,16 +1358,25 @@
               "$type": "RPG.GameCore.ModifyTeamBoostPoint",
               "ModifyFunction": "Add",
               "ModifyValue": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 1
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    1172605269
+                  ]
                 }
               }
             }
           ]
         }
       ],
-      "Stacking": "ReplaceByCaster"
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "1172605269": {}
+        }
+      }
     },
     "WMAvatar_Hanya_Skill03Buff": {
       "BehaviorFlagList": [
@@ -1788,16 +1796,22 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.ModifyTeamBoostPoint",
-                  "ModifyFunction": "Add",
-                  "ModifyValue": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -1376066
-                      ]
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "WMAvatar_Hanya_BPRecover",
+                  "DynamicValues": {
+                    "MDF_RecoverValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1376066
+                        ]
+                      }
                     }
                   }
                 }
@@ -2134,6 +2148,7 @@
                       "$type": "RPG.GameCore.SetEnergyBarState",
                       "Active": "True",
                       "BarType": 3,
+                      "CurrentState": "Active",
                       "CD": {
                         "IsDynamic": false,
                         "FixedValue": {
@@ -2168,7 +2183,15 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "ModifierName": "WMAvatar_Hanya_BPRecover"
+                      "ModifierName": "WMAvatar_Hanya_BPRecover",
+                      "DynamicValues": {
+                        "MDF_RecoverValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 1
+                          }
+                        }
+                      }
                     },
                     {
                       "$type": "RPG.GameCore.PredicateTaskList",
@@ -2462,6 +2485,7 @@
               "$type": "RPG.GameCore.SetEnergyBarState",
               "Active": "True",
               "BarType": 3,
+              "CurrentState": "Normal",
               "CD": {
                 "IsDynamic": false,
                 "FixedValue": {
@@ -2600,6 +2624,7 @@
                   "$type": "RPG.GameCore.SetEnergyBarState",
                   "Active": "True",
                   "BarType": 3,
+                  "CurrentState": "Active",
                   "CD": {
                     "IsDynamic": false,
                     "FixedValue": {
@@ -2695,6 +2720,7 @@
                   "$type": "RPG.GameCore.SetEnergyBarState",
                   "Active": "True",
                   "BarType": 3,
+                  "CurrentState": "Active",
                   "CD": {
                     "IsDynamic": false,
                     "FixedValue": {

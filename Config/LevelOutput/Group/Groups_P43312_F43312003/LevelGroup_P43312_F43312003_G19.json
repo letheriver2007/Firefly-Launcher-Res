@@ -52,30 +52,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -180,
-      -39
-    ],
-    "LowerUpperBounds": {
-      "x": -5,
-      "y": -4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -180,
-      -39,
-      -179,
-      -39,
-      -158,
-      -31
-    ],
-    "LowerUpperBounds": {
-      "x": -13,
-      "y": -4
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -111,14 +87,13 @@
     },
     {
       "ID": 3,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
       "PosX": -353.4688,
       "PosY": -6.440416,
-      "PosZ": -76.87692,
+      "PosZ": -77.20692,
       "Name": "GameplayCamera2",
       "RotY": 270.0,
       "RotX": 10.00002,
@@ -126,7 +101,7 @@
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
-        "fov": 40.0
+        "fov": 50.0
       }
     }
   ],
@@ -284,7 +259,6 @@
       },
       "CampID": 4,
       "State": "TriggerDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -324,7 +298,6 @@
       },
       "CampID": 4,
       "State": "TriggerDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

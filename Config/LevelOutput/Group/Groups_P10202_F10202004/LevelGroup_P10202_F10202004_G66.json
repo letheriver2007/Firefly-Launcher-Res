@@ -35,16 +35,14 @@
       "PosY": -0.395228,
       "PosZ": -16.49,
       "Name": "Anchor1",
-      "RotY": 97.24436,
-      "MapLayerID": 1
+      "RotY": 97.24436
     },
     {
       "ID": 2,
       "PosX": -2.677,
       "PosY": 1.393,
       "PosZ": -16.969,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -52,8 +50,7 @@
       "PosY": -0.395228,
       "PosZ": -20.166,
       "Name": "Anchor3",
-      "RotY": 89.47993,
-      "MapLayerID": 1
+      "RotY": 89.47993
     },
     {
       "ID": 4,
@@ -63,7 +60,6 @@
       "Name": "Anchor4",
       "RotY": 82.34,
       "RotX": 7.999998,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -72,8 +68,7 @@
       "PosY": -0.395228,
       "PosZ": -19.24,
       "Name": "Anchor5",
-      "RotY": 228.4981,
-      "MapLayerID": 1
+      "RotY": 228.4981
     }
   ],
   "MonsterList": [],
@@ -88,7 +83,6 @@
       "PropID": 102101,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -111,7 +105,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -143,7 +136,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -172,7 +164,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312110000,
@@ -192,7 +183,6 @@
       "NPCID": 1203,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312060000,
@@ -222,7 +212,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

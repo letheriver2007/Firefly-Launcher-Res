@@ -31,7 +31,6 @@
       "RotY": 90.91848,
       "RotX": 10.64664,
       "RotZ": -1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -40,8 +39,7 @@
       "PosY": 1.8E-5,
       "PosZ": -0.61,
       "Name": "Anchor2",
-      "RotY": 124.1631,
-      "MapLayerID": 1
+      "RotY": 124.1631
     }
   ],
   "MonsterList": [],
@@ -57,7 +55,6 @@
       "NPCID": 1992,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020000,

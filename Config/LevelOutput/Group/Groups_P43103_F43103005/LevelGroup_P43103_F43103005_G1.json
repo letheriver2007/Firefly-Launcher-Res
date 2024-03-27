@@ -12,8 +12,7 @@
       "PosY": -7.9,
       "PosZ": -51.63,
       "Name": "Anchor1",
-      "RotY": 89.69999,
-      "MapLayerID": 1
+      "RotY": 89.69999
     },
     {
       "ID": 2,
@@ -21,8 +20,7 @@
       "PosY": 15.43,
       "PosZ": 25.52,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -44,7 +42,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_M303_Poi01_SetEnable.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -71,7 +68,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

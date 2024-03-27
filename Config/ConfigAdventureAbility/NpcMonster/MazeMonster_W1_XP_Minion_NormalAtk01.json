@@ -512,6 +512,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_00/Eff_Monster_XP_Minion01_00_Common_Ball_M.prefab"
         },
         {
@@ -520,6 +521,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_00/Eff_Monster_XP_Minion01_00_Common_flameB_02_JNT.prefab"
         },
         {
@@ -528,6 +530,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_00/Eff_Monster_XP_Minion01_00_Common_flameD_02_JNT.prefab"
         }
       ]
@@ -576,6 +579,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_Ball1_M.prefab"
         },
         {
@@ -584,6 +588,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_L.prefab"
         },
         {
@@ -592,6 +597,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_01/Eff_Monster_XP_Minion01_01_Common_wing2_R.prefab"
         }
       ]
@@ -640,6 +646,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_03/Eff_Monster_XP_Minion01_03_Common_Ball_M.prefab"
         },
         {
@@ -648,6 +655,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_03/Eff_Monster_XP_Minion01_03_Common_wing2_L.prefab"
         },
         {
@@ -656,6 +664,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_03/Eff_Monster_XP_Minion01_03_Common_wing2_R.prefab"
         }
       ]
@@ -704,6 +713,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_02/Eff_Monster_XP_Minion01_02_Common_wing2_L.prefab"
         },
         {
@@ -712,6 +722,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_02/Eff_Monster_XP_Minion01_02_Common_wing2_R.prefab"
         },
         {
@@ -720,6 +731,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_02/Eff_Monster_XP_Minion01_02_Common_Front_L.prefab",
           "AttachPoint": "Front_L"
         },
@@ -729,6 +741,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion01_02/Eff_Monster_XP_Minion01_02_Common_Front_R.prefab",
           "AttachPoint": "Front_R"
         }

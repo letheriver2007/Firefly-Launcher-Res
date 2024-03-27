@@ -122,18 +122,6 @@
       "Hash": -279352689
     }
   },
-  "9": {
-    "ID": 9,
-    "ChoiceIDList": [
-      900,
-      901,
-      902
-    ],
-    "TextIDList": [],
-    "DiaryDescription": {
-      "Hash": -279352690
-    }
-  },
   "10": {
     "ID": 10,
     "ChoiceIDList": [
@@ -144,6 +132,42 @@
     "TextIDList": [],
     "DiaryDescription": {
       "Hash": -1684850714
+    }
+  },
+  "11": {
+    "ID": 11,
+    "ChoiceIDList": [
+      1100,
+      1101,
+      1102
+    ],
+    "TextIDList": [],
+    "DiaryDescription": {
+      "Hash": -118766773
+    }
+  },
+  "12": {
+    "ID": 12,
+    "ChoiceIDList": [
+      1200,
+      1201,
+      1202
+    ],
+    "TextIDList": [],
+    "DiaryDescription": {
+      "Hash": 1447317168
+    }
+  },
+  "13": {
+    "ID": 13,
+    "ChoiceIDList": [
+      1300,
+      1301,
+      1302
+    ],
+    "TextIDList": [],
+    "DiaryDescription": {
+      "Hash": -1281566187
     }
   }
 }

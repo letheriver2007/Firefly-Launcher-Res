@@ -1061,31 +1061,30 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
-  "999": {
-    "ID": 999,
+  "802": {
+    "ID": 802,
     "ItemMainType": "Material",
     "ItemSubType": "Material",
-    "InventoryDisplayTag": 2,
-    "Rarity": "Rare",
+    "InventoryDisplayTag": 3,
+    "Rarity": "SuperRare",
+    "PurposeType": 14,
     "isVisible": true,
     "ItemName": {
-      "Hash": 1815443958
+      "Hash": 605590463
     },
     "ItemDesc": {
-      "Hash": 322475896
+      "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": 1733596875
+      "Hash": 523743188
     },
-    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
-    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
-    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemIconPath": "SpriteOutput/ItemIcon/802.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/802.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/802.png",
     "ItemAvatarIconPath": "",
     "PileLimit": 99999,
     "CustomDataList": [],
-    "ReturnItemIDList": [],
-    "ItemGroup": 9999,
-    "SellType": "Destroy"
+    "ReturnItemIDList": []
   },
   "71000": {
     "ID": 71000,
@@ -4627,6 +4626,206 @@
     ],
     "ReturnItemIDList": []
   },
+  "83131": {
+    "ID": 83131,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "NotNormal",
+    "ItemName": {
+      "Hash": 2071952417
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71030.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      313
+    ],
+    "ReturnItemIDList": []
+  },
+  "83132": {
+    "ID": 83132,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": 2071952414
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71030.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      313
+    ],
+    "ReturnItemIDList": []
+  },
+  "83133": {
+    "ID": 83133,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "ItemName": {
+      "Hash": 2071952415
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71030.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      313
+    ],
+    "ReturnItemIDList": []
+  },
+  "83134": {
+    "ID": 83134,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "SuperRare",
+    "ItemName": {
+      "Hash": 2071952412
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71030.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      313
+    ],
+    "ReturnItemIDList": []
+  },
+  "83141": {
+    "ID": 83141,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "NotNormal",
+    "ItemName": {
+      "Hash": -1819730352
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71031.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      314
+    ],
+    "ReturnItemIDList": []
+  },
+  "83142": {
+    "ID": 83142,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": -1819730355
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71031.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      314
+    ],
+    "ReturnItemIDList": []
+  },
+  "83143": {
+    "ID": 83143,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "ItemName": {
+      "Hash": -1819730354
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71031.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      314
+    ],
+    "ReturnItemIDList": []
+  },
+  "83144": {
+    "ID": 83144,
+    "ItemMainType": "Display",
+    "ItemSubType": "RelicSetShowOnly",
+    "InventoryDisplayTag": 1,
+    "Rarity": "SuperRare",
+    "ItemName": {
+      "Hash": -1819730357
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/71031.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [
+      314
+    ],
+    "ReturnItemIDList": []
+  },
   "89001": {
     "ID": 89001,
     "ItemMainType": "Display",
@@ -5431,6 +5630,86 @@
     "ReturnItemIDList": [],
     "ItemGroup": 1211
   },
+  "110211": {
+    "ID": 110211,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "NotNormal",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -515988785
+    },
+    "ItemDesc": {
+      "Hash": -1358314223
+    },
+    "ItemBGDesc": {
+      "Hash": 413089240
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110211.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110211.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110211.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1214,
+    "SellType": "Destroy"
+  },
+  "110212": {
+    "ID": 110212,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -112704258
+    },
+    "ItemDesc": {
+      "Hash": -955029696
+    },
+    "ItemBGDesc": {
+      "Hash": -1152994701
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110212.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110212.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110212.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1214,
+    "SellType": "Destroy"
+  },
+  "110213": {
+    "ID": 110213,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1678788199
+    },
+    "ItemDesc": {
+      "Hash": 1773853659
+    },
+    "ItemBGDesc": {
+      "Hash": 1575888654
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110213.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110213.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110213.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1214
+  },
   "110221": {
     "ID": 110221,
     "ItemMainType": "Material",
@@ -5590,6 +5869,86 @@
     "CustomDataList": [],
     "ReturnItemIDList": [],
     "ItemGroup": 1216
+  },
+  "110241": {
+    "ID": 110241,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "NotNormal",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -515988790
+    },
+    "ItemDesc": {
+      "Hash": -1358314228
+    },
+    "ItemBGDesc": {
+      "Hash": 413089245
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110241.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110241.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110241.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1217,
+    "SellType": "Destroy"
+  },
+  "110242": {
+    "ID": 110242,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -112704263
+    },
+    "ItemDesc": {
+      "Hash": -955029701
+    },
+    "ItemBGDesc": {
+      "Hash": -1152994696
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110242.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110242.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110242.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1217,
+    "SellType": "Destroy"
+  },
+  "110243": {
+    "ID": 110243,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "PurposeType": 3,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1678788204
+    },
+    "ItemDesc": {
+      "Hash": 1773853654
+    },
+    "ItemBGDesc": {
+      "Hash": 1575888659
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110243.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110243.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110243.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1217
   },
   "110400": {
     "ID": 110400,
@@ -5975,6 +6334,32 @@
     "ItemIconPath": "SpriteOutput/ItemIcon/110417.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/110417.png",
     "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110417.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 1100
+  },
+  "110422": {
+    "ID": 110422,
+    "ItemMainType": "Material",
+    "ItemSubType": "Material",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "PurposeType": 2,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1235097723
+    },
+    "ItemDesc": {
+      "Hash": 1088244131
+    },
+    "ItemBGDesc": {
+      "Hash": -30601240
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/110422.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/110422.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/110422.png",
     "ItemAvatarIconPath": "",
     "PileLimit": 99999,
     "CustomDataList": [],
@@ -6641,7 +7026,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1405,
+    "ItemGroup": 1407,
     "SellType": "Destroy"
   },
   "114002": {
@@ -6668,7 +7053,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1405,
+    "ItemGroup": 1407,
     "SellType": "Destroy"
   },
   "114003": {
@@ -6695,7 +7080,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1405
+    "ItemGroup": 1407
   },
   "114011": {
     "ID": 114011,
@@ -6721,7 +7106,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1406,
+    "ItemGroup": 1408,
     "SellType": "Destroy"
   },
   "114012": {
@@ -6748,7 +7133,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1406,
+    "ItemGroup": 1408,
     "SellType": "Destroy"
   },
   "114013": {
@@ -6775,7 +7160,7 @@
     "PileLimit": 99999,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 1406
+    "ItemGroup": 1408
   },
   "120000": {
     "ID": 120000,
@@ -13580,7 +13965,7 @@
     "ItemAvatarIconPath": "",
     "PileLimit": 1,
     "UseMethod": "TreasureMap",
-    "UseDataID": 140322,
+    "UseDataID": 140332,
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
@@ -14046,13 +14431,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": 1442149897
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": 1789664862
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/270000.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/270000.png",
@@ -15118,7 +15503,6 @@
     "InventoryDisplayTag": 1,
     "Rarity": "VeryRare",
     "PurposeType": 16,
-    "isVisible": true,
     "ItemName": {
       "Hash": -426462019
     },
@@ -15366,13 +15750,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": -426462018
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": -1839895885
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/140105.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/140105.png",
@@ -16057,6 +16441,656 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "140440": {
+    "ID": 140440,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1992545964
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 888987475
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140440.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140440.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140440.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140441": {
+    "ID": 140441,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -426462023
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140441.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140441.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140441.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140442": {
+    "ID": 140442,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -829746550
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -273811939
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140442.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140442.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140442.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140443": {
+    "ID": 140443,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 736337391
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1292272002
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140443.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140443.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140443.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140444": {
+    "ID": 140444,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -23177496
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1080380993
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140444.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140444.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140444.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140445": {
+    "ID": 140445,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1542906445
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140445.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140445.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140445.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140446": {
+    "ID": 140446,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1139621918
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140446.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140446.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140446.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140447": {
+    "ID": 140447,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1589261437
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -677096466
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140447.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140447.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140447.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140448": {
+    "ID": 140448,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1946190972
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140448.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140448.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140448.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140449": {
+    "ID": 140449,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -782692383
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 2098841056
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140449.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140449.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140449.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140450": {
+    "ID": 140450,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1992545963
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 888987474
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140099.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140451": {
+    "ID": 140451,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -426462022
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1839895881
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140451.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140451.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140451.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140452": {
+    "ID": 140452,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -829746549
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -273811940
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140452.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140452.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140452.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140453": {
+    "ID": 140453,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 736337392
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1292272001
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140453.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140453.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140453.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140454": {
+    "ID": 140454,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -23177495
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1080380994
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140454.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140454.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140454.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140455": {
+    "ID": 140455,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1542906446
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 485702947
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140455.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140455.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140455.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140456": {
+    "ID": 140456,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1139621919
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 2051786888
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140456.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140456.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140456.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140457": {
+    "ID": 140457,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1589261436
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -677096467
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140457.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140457.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140457.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140458": {
+    "ID": 140458,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1946190973
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 532757114
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140458.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140458.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140458.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140459": {
+    "ID": 140459,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -782692382
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 2098841055
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140459.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140459.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140459.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140460": {
+    "ID": 140460,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1992545966
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140099.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140461": {
+    "ID": 140461,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -426462025
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140461.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140461.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140461.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140462": {
+    "ID": 140462,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -829746552
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140462.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140462.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140462.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140463": {
+    "ID": 140463,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 736337389
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140463.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140463.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140463.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140464": {
+    "ID": 140464,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -23177498
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140464.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140464.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140464.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140465": {
+    "ID": 140465,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1542906443
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 485702946
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140465.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140465.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140465.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "140466": {
     "ID": 140466,
     "ItemMainType": "Mission",
@@ -16091,13 +17125,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": -1589261439
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": -677096468
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/140437.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/140437.png",
@@ -16154,6 +17188,181 @@
     "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140407.png",
     "ItemAvatarIconPath": "",
     "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140470": {
+    "ID": 140470,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1992545965
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 888987472
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/300052.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/300052.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/300052.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140471": {
+    "ID": 140471,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -426462024
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1839895883
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140472": {
+    "ID": 140472,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -829746551
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -273811942
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140473": {
+    "ID": 140473,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 736337390
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1292271999
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140474": {
+    "ID": 140474,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -23177497
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1080380996
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140475": {
+    "ID": 140475,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1542906444
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 485702945
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "140476": {
+    "ID": 140476,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1139621917
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 2051786886
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140400.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140400.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
@@ -16835,13 +18044,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": -1084962314
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": -2014558143
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/420001.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/420001.png",
@@ -16860,13 +18069,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": 1643921041
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": -898812896
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/420001.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/420001.png",
@@ -16885,13 +18094,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": 77837100
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": 1830070459
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/420001.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/420001.png",
@@ -16910,13 +18119,13 @@
     "PurposeType": 16,
     "isVisible": true,
     "ItemName": {
-      "Hash": 1287690681
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 371857150
     },
     "ItemBGDesc": {
-      "Hash": -1255043256
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/420001.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/420001.png",
@@ -17048,6 +18257,681 @@
     "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/420001.png",
     "ItemAvatarIconPath": "",
     "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150010": {
+    "ID": 150010,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1508966190
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 243267231
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408418.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408418.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408418.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150011": {
+    "ID": 150011,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1219917165
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1322816710
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/401025.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/401025.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/401025.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150012": {
+    "ID": 150012,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -346166776
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -919532183
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408417.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408417.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408417.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150013": {
+    "ID": 150013,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1912250717
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1809351172
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408802.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408802.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408802.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150014": {
+    "ID": 150014,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 816632638
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -2082331597
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408613.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408613.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408613.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150015": {
+    "ID": 150015,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -749451303
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 646551758
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408616.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408616.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408616.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150016": {
+    "ID": 150016,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1979432052
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1049836285
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150017": {
+    "ID": 150017,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 413348111
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -516247656
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150017.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150017.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150017.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150018": {
+    "ID": 150018,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1865196550
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -112963129
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150018.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150018.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150018.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150019": {
+    "ID": 150019,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 863686805
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1679047070
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150019.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150019.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150019.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150020": {
+    "ID": 150020,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1508966193
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 243267230
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150020.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150020.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150020.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150021": {
+    "ID": 150021,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1219917162
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1322816711
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150021.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150021.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150021.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150022": {
+    "ID": 150022,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -346166779
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -919532184
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150022.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150022.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150022.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150023": {
+    "ID": 150023,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1912250720
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1809351171
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150023.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150023.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150023.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150024": {
+    "ID": 150024,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 816632635
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -2082331598
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150024.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150024.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150024.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150025": {
+    "ID": 150025,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -749451306
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 646551757
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150025.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150025.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150025.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150026": {
+    "ID": 150026,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1979432049
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1049836284
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150026.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150026.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150026.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150027": {
+    "ID": 150027,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 413348108
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -516247657
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150027.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150027.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150027.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150028": {
+    "ID": 150028,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1865196553
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -112963130
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150028.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150028.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150028.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150029": {
+    "ID": 150029,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 863686802
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1679047071
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150029.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150029.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150029.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150030": {
+    "ID": 150030,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1508966192
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 243267229
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150030.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150030.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150030.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150031": {
+    "ID": 150031,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1219917163
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1322816712
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150031.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150031.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150031.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150032": {
+    "ID": 150032,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -346166778
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -919532185
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150032.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150032.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150032.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150033": {
+    "ID": 150033,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1912250719
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 1809351170
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150033.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150033.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150033.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150034": {
+    "ID": 150034,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 816632636
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -2082331599
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/150034.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/150034.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/150034.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150035": {
+    "ID": 150035,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -749451305
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 646551756
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/140099.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/140099.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "150039": {
+    "ID": 150039,
+    "ItemMainType": "Mission",
+    "ItemSubType": "Mission",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 16,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 863686803
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": -1679047072
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/149975.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/149975.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/149975.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
@@ -27526,6 +29410,31 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "220004": {
+    "ID": 220004,
+    "ItemMainType": "Usable",
+    "ItemSubType": "ChatBubble",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1638897887
+    },
+    "ItemDesc": {
+      "Hash": -2124988609
+    },
+    "ItemBGDesc": {
+      "Hash": 535335042
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/ChatBubble/220004.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/ChatBubble/220004.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "221000": {
     "ID": 221000,
     "ItemMainType": "Usable",
@@ -27644,6 +29553,31 @@
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/221004.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/221004.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "221005": {
+    "ID": 221005,
+    "ItemMainType": "Usable",
+    "ItemSubType": "PhoneTheme",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -72814043
+    },
+    "ItemDesc": {
+      "Hash": -558904765
+    },
+    "ItemBGDesc": {
+      "Hash": 2101418952
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/221005.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/221005.png",
     "ItemCurrencyIconPath": "",
     "ItemAvatarIconPath": "",
     "PileLimit": 999,
@@ -30751,6 +32685,31 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "223410": {
+    "ID": 223410,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1251350915
+    },
+    "ItemDesc": {
+      "Hash": -720270307
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223410.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223410.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "223407": {
     "ID": 223407,
     "ItemMainType": "Usable",
@@ -30759,13 +32718,38 @@
     "Rarity": "VeryRare",
     "isVisible": true,
     "ItemName": {
-      "Hash": -314733027
+      "Hash": 371857150
     },
     "ItemDesc": {
       "Hash": 1652382687
     },
     "ItemBGDesc": {
-      "Hash": -1951629228
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223411": {
+    "ID": 223411,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": 845813634
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
@@ -30891,6 +32875,1281 @@
     },
     "ItemBGDesc": {
       "Hash": -385545290
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223450": {
+    "ID": 223450,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": -720270311
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223451": {
+    "ID": 223451,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": 845813630
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223452": {
+    "ID": 223452,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": -1883069725
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223453": {
+    "ID": 223453,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": -316985784
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223454": {
+    "ID": 223454,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": 1249098157
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223455": {
+    "ID": 223455,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": -1479785198
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223456": {
+    "ID": 223456,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": 86298743
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223457": {
+    "ID": 223457,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 371857150
+    },
+    "ItemDesc": {
+      "Hash": 1652382684
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/Icon_Testmaterial01.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/Figure_Testmaterial01.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223500": {
+    "ID": 223500,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1457329465
+    },
+    "ItemDesc": {
+      "Hash": 866016609
+    },
+    "ItemBGDesc": {
+      "Hash": -768626838
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223500.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223500.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223501": {
+    "ID": 223501,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1271553890
+    },
+    "ItemDesc": {
+      "Hash": -700067332
+    },
+    "ItemBGDesc": {
+      "Hash": 1960256517
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223501.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223501.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223502": {
+    "ID": 223502,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1674838417
+    },
+    "ItemDesc": {
+      "Hash": -296782805
+    },
+    "ItemBGDesc": {
+      "Hash": 394172576
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223502.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223502.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223503": {
+    "ID": 223503,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 108754476
+    },
+    "ItemDesc": {
+      "Hash": -1862866746
+    },
+    "ItemBGDesc": {
+      "Hash": -1171911365
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223503.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223503.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223504": {
+    "ID": 223504,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 868269363
+    },
+    "ItemDesc": {
+      "Hash": -1459582219
+    },
+    "ItemBGDesc": {
+      "Hash": 1200741630
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223504.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223504.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223505": {
+    "ID": 223505,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -697814578
+    },
+    "ItemDesc": {
+      "Hash": 1269301136
+    },
+    "ItemBGDesc": {
+      "Hash": -365342311
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223505.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223505.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223506": {
+    "ID": 223506,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -294530051
+    },
+    "ItemDesc": {
+      "Hash": 1672585663
+    },
+    "ItemBGDesc": {
+      "Hash": -1931426252
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223506.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223506.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223507": {
+    "ID": 223507,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1860613992
+    },
+    "ItemDesc": {
+      "Hash": 106501722
+    },
+    "ItemBGDesc": {
+      "Hash": 797457103
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223507.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223507.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223508": {
+    "ID": 223508,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1813559825
+    },
+    "ItemDesc": {
+      "Hash": 509786249
+    },
+    "ItemBGDesc": {
+      "Hash": -1124857198
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223508.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223508.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223509": {
+    "ID": 223509,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 915323530
+    },
+    "ItemDesc": {
+      "Hash": -1056297692
+    },
+    "ItemBGDesc": {
+      "Hash": 1604026157
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223509.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223509.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223531": {
+    "ID": 223531,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1271553889
+    },
+    "ItemDesc": {
+      "Hash": -700067329
+    },
+    "ItemBGDesc": {
+      "Hash": 1960256514
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223532": {
+    "ID": 223532,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1674838416
+    },
+    "ItemDesc": {
+      "Hash": -296782802
+    },
+    "ItemBGDesc": {
+      "Hash": 394172573
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223533": {
+    "ID": 223533,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 108754475
+    },
+    "ItemDesc": {
+      "Hash": -1862866743
+    },
+    "ItemBGDesc": {
+      "Hash": -1171911368
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223534": {
+    "ID": 223534,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 868269362
+    },
+    "ItemDesc": {
+      "Hash": -1459582216
+    },
+    "ItemBGDesc": {
+      "Hash": 1200741627
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223600": {
+    "ID": 223600,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1533675916
+    },
+    "ItemDesc": {
+      "Hash": -437945306
+    },
+    "ItemBGDesc": {
+      "Hash": 1657728539
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223600.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223600.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223601": {
+    "ID": 223601,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1195207439
+    },
+    "ItemDesc": {
+      "Hash": 1128138635
+    },
+    "ItemBGDesc": {
+      "Hash": -1071154816
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223601.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223601.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223602": {
+    "ID": 223602,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1598491966
+    },
+    "ItemDesc": {
+      "Hash": 724854108
+    },
+    "ItemBGDesc": {
+      "Hash": 494929125
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223602.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223602.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223603": {
+    "ID": 223603,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -32408025
+    },
+    "ItemDesc": {
+      "Hash": -2004029247
+    },
+    "ItemBGDesc": {
+      "Hash": 2061013066
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223603.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223603.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223604": {
+    "ID": 223604,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -435692552
+    },
+    "ItemDesc": {
+      "Hash": 1531423162
+    },
+    "ItemBGDesc": {
+      "Hash": -667870289
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223604.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223604.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223605": {
+    "ID": 223605,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1130391389
+    },
+    "ItemDesc": {
+      "Hash": -1197460193
+    },
+    "ItemBGDesc": {
+      "Hash": 898213652
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223605.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223605.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223606": {
+    "ID": 223606,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 727106862
+    },
+    "ItemDesc": {
+      "Hash": -1600744720
+    },
+    "ItemBGDesc": {
+      "Hash": -1830669703
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223606.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223606.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223607": {
+    "ID": 223607,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -2001776493
+    },
+    "ItemDesc": {
+      "Hash": -34660779
+    },
+    "ItemBGDesc": {
+      "Hash": -264585762
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223607.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223607.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223631": {
+    "ID": 223631,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1195207440
+    },
+    "ItemDesc": {
+      "Hash": 1128138638
+    },
+    "ItemBGDesc": {
+      "Hash": -1071154819
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223632": {
+    "ID": 223632,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1598491967
+    },
+    "ItemDesc": {
+      "Hash": 724854111
+    },
+    "ItemBGDesc": {
+      "Hash": 494929122
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223633": {
+    "ID": 223633,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -32408026
+    },
+    "ItemDesc": {
+      "Hash": -2004029244
+    },
+    "ItemBGDesc": {
+      "Hash": 2061013063
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223634": {
+    "ID": 223634,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -435692553
+    },
+    "ItemDesc": {
+      "Hash": 1531423165
+    },
+    "ItemBGDesc": {
+      "Hash": -667870292
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223700": {
+    "ID": 223700,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1175004463
+    },
+    "ItemDesc": {
+      "Hash": 1148341611
+    },
+    "ItemBGDesc": {
+      "Hash": -1050951840
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223700.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223700.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223701": {
+    "ID": 223701,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1553878892
+    },
+    "ItemDesc": {
+      "Hash": -417742330
+    },
+    "ItemBGDesc": {
+      "Hash": 1677931515
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223701.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223701.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223702": {
+    "ID": 223702,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -12205049
+    },
+    "ItemDesc": {
+      "Hash": -1983826271
+    },
+    "ItemBGDesc": {
+      "Hash": 2081216042
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223702.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223702.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223703": {
+    "ID": 223703,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1578288990
+    },
+    "ItemDesc": {
+      "Hash": 745057084
+    },
+    "ItemBGDesc": {
+      "Hash": 515132101
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223703.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223703.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223704": {
+    "ID": 223704,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1150594365
+    },
+    "ItemDesc": {
+      "Hash": -1177257217
+    },
+    "ItemBGDesc": {
+      "Hash": 918416628
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223704.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223704.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223705": {
+    "ID": 223705,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -415489576
+    },
+    "ItemDesc": {
+      "Hash": 1551626138
+    },
+    "ItemBGDesc": {
+      "Hash": -647667313
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223705.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223705.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223706": {
+    "ID": 223706,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1981573517
+    },
+    "ItemDesc": {
+      "Hash": -14457803
+    },
+    "ItemBGDesc": {
+      "Hash": -244382786
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223706.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223706.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223708": {
+    "ID": 223708,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1531234823
+    },
+    "ItemDesc": {
+      "Hash": 792111251
+    },
+    "ItemBGDesc": {
+      "Hash": -1407182200
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223708.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223708.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223710": {
+    "ID": 223710,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1175004462
+    },
+    "ItemDesc": {
+      "Hash": 1148341612
+    },
+    "ItemBGDesc": {
+      "Hash": -1050951841
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223710.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223710.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223712": {
+    "ID": 223712,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -12205048
+    },
+    "ItemDesc": {
+      "Hash": -1983826270
+    },
+    "ItemBGDesc": {
+      "Hash": 2081216041
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223712.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223712.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223713": {
+    "ID": 223713,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1578288989
+    },
+    "ItemDesc": {
+      "Hash": 745057085
+    },
+    "ItemBGDesc": {
+      "Hash": 515132100
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223713.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223713.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223714": {
+    "ID": 223714,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1150594366
+    },
+    "ItemDesc": {
+      "Hash": -1177257216
+    },
+    "ItemBGDesc": {
+      "Hash": 918416627
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/223714.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/223714.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223731": {
+    "ID": 223731,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1553878891
+    },
+    "ItemDesc": {
+      "Hash": -417742327
+    },
+    "ItemBGDesc": {
+      "Hash": 1677931512
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223732": {
+    "ID": 223732,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -12205050
+    },
+    "ItemDesc": {
+      "Hash": -1983826268
+    },
+    "ItemBGDesc": {
+      "Hash": 2081216039
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223733": {
+    "ID": 223733,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1578288991
+    },
+    "ItemDesc": {
+      "Hash": 745057087
+    },
+    "ItemBGDesc": {
+      "Hash": 515132098
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223734": {
+    "ID": 223734,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1150594364
+    },
+    "ItemDesc": {
+      "Hash": -1177257214
+    },
+    "ItemBGDesc": {
+      "Hash": 918416625
+    },
+    "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
+    "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "TravelBrochurePasterUse",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "223735": {
+    "ID": 223735,
+    "ItemMainType": "Usable",
+    "ItemSubType": "TravelBrochurePaster",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -415489577
+    },
+    "ItemDesc": {
+      "Hash": 1551626141
+    },
+    "ItemBGDesc": {
+      "Hash": -647667316
     },
     "ItemIconPath": "SpriteOutput/TravelBrochure/StickIcons/TBComStickIcon.png",
     "ItemFigureIconPath": "SpriteOutput/TravelBrochure/StickFigures/TBComStickIcon.png",
@@ -36153,6 +39412,30 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "281005": {
+    "ID": 281005,
+    "ItemMainType": "Virtual",
+    "ItemSubType": "Virtual",
+    "InventoryDisplayTag": 2,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -733828969
+    },
+    "ItemDesc": {
+      "Hash": -1219919691
+    },
+    "ItemBGDesc": {
+      "Hash": -13176922
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/281005.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemIcon/281005.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/281005.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "281012": {
     "ID": 281012,
     "ItemMainType": "Virtual",
@@ -36194,6 +39477,98 @@
     "ItemIconPath": "SpriteOutput/ItemIcon/281013.png",
     "ItemFigureIconPath": "SpriteOutput/ItemFigures/281013.png",
     "ItemCurrencyIconPath": "SpriteOutput/ItemCurrency/281013.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999999999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "281014": {
+    "ID": 281014,
+    "ItemMainType": "Virtual",
+    "ItemSubType": "Virtual",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": 1995054387
+    },
+    "ItemDesc": {
+      "Hash": 1508963665
+    },
+    "ItemBGDesc": {
+      "Hash": -1579260864
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/281014.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/281014.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/281014.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999999999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "281015": {
+    "ID": 281015,
+    "ItemMainType": "Virtual",
+    "ItemSubType": "Virtual",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": -733828968
+    },
+    "ItemDesc": {
+      "Hash": -1219919690
+    },
+    "ItemBGDesc": {
+      "Hash": -13176923
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/281015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/281015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemCurrency/281015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999999999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "281016": {
+    "ID": 281016,
+    "ItemMainType": "Virtual",
+    "ItemSubType": "Virtual",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": -1137113495
+    },
+    "ItemDesc": {
+      "Hash": -1623204217
+    },
+    "ItemBGDesc": {
+      "Hash": 1552907018
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/281016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/281016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/281016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 999999999,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "281017": {
+    "ID": 281017,
+    "ItemMainType": "Virtual",
+    "ItemSubType": "Virtual",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "ItemName": {
+      "Hash": 428970446
+    },
+    "ItemDesc": {
+      "Hash": -57120276
+    },
+    "ItemBGDesc": {
+      "Hash": -1175976337
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/281017.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/281017.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemCurrency/281017.png",
     "ItemAvatarIconPath": "",
     "PileLimit": 999999999,
     "CustomDataList": [],
@@ -36300,6 +39675,33 @@
     "PileLimit": 99999,
     "UseMethod": "PlayerSelectedReward",
     "UseDataID": 300020,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "300021": {
+    "ID": 300021,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Gift",
+    "InventoryDisplayTag": 3,
+    "Rarity": "VeryRare",
+    "PurposeType": 14,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1315395139
+    },
+    "ItemDesc": {
+      "Hash": 2137251071
+    },
+    "ItemBGDesc": {
+      "Hash": -950967116
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/300021.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/300021.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/300021.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "RandomRewardGift",
+    "UseDataID": 300021,
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
@@ -36594,6 +39996,32 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "300202": {
+    "ID": 300202,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Gift",
+    "InventoryDisplayTag": 3,
+    "Rarity": "Rare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -31636202
+    },
+    "ItemDesc": {
+      "Hash": -873957284
+    },
+    "ItemBGDesc": {
+      "Hash": -1071926643
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/2.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/2.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemCurrency/2.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "FixedRewardGift",
+    "UseDataID": 300202,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "309001": {
     "ID": 309001,
     "ItemMainType": "Usable",
@@ -36643,6 +40071,32 @@
     "PileLimit": 99999,
     "UseMethod": "PlayerSelectedReward",
     "UseDataID": 309002,
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "309003": {
+    "ID": 309003,
+    "ItemMainType": "Usable",
+    "ItemSubType": "ForceOpitonalGift",
+    "InventoryDisplayTag": 3,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -152596022
+    },
+    "ItemDesc": {
+      "Hash": -994917104
+    },
+    "ItemBGDesc": {
+      "Hash": -2113766893
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/309001.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/309001.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/309001.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "PlayerSelectedReward",
+    "UseDataID": 309003,
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
@@ -37630,7 +41084,7 @@
     "UseDataID": 401022,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2003
+    "ItemGroup": 2001
   },
   "401023": {
     "ID": 401023,
@@ -37686,7 +41140,7 @@
     "UseDataID": 401024,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2003
+    "ItemGroup": 2006
   },
   "401025": {
     "ID": 401025,
@@ -37742,7 +41196,7 @@
     "UseDataID": 401026,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2006
+    "ItemGroup": 2000
   },
   "401027": {
     "ID": 401027,
@@ -37770,7 +41224,7 @@
     "UseDataID": 401027,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2001
+    "ItemGroup": 2006
   },
   "401028": {
     "ID": 401028,
@@ -37798,7 +41252,7 @@
     "UseDataID": 401028,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2003
+    "ItemGroup": 2006
   },
   "402001": {
     "ID": 402001,
@@ -38526,7 +41980,7 @@
     "UseDataID": 402026,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2006
+    "ItemGroup": 2003
   },
   "402027": {
     "ID": 402027,
@@ -38554,7 +42008,7 @@
     "UseDataID": 402027,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2001
+    "ItemGroup": 2000
   },
   "402028": {
     "ID": 402028,
@@ -38582,7 +42036,7 @@
     "UseDataID": 402028,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2003
+    "ItemGroup": 2006
   },
   "403001": {
     "ID": 403001,
@@ -38834,7 +42288,7 @@
     "UseDataID": 403009,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2001
+    "ItemGroup": 2006
   },
   "403010": {
     "ID": 403010,
@@ -41440,7 +44894,7 @@
     "UseDataID": 408415,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408416": {
     "ID": 408416,
@@ -41496,7 +44950,7 @@
     "UseDataID": 408417,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2006
   },
   "408418": {
     "ID": 408418,
@@ -41524,7 +44978,7 @@
     "UseDataID": 408418,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2001
   },
   "408601": {
     "ID": 408601,
@@ -41720,7 +45174,7 @@
     "UseDataID": 408607,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2003
+    "ItemGroup": 2006
   },
   "408608": {
     "ID": 408608,
@@ -41776,7 +45230,7 @@
     "UseDataID": 408609,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2006
   },
   "408610": {
     "ID": 408610,
@@ -41804,7 +45258,7 @@
     "UseDataID": 408610,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408611": {
     "ID": 408611,
@@ -41832,7 +45286,7 @@
     "UseDataID": 408611,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408612": {
     "ID": 408612,
@@ -41860,7 +45314,7 @@
     "UseDataID": 408612,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408613": {
     "ID": 408613,
@@ -41888,7 +45342,7 @@
     "UseDataID": 408613,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2006
   },
   "408614": {
     "ID": 408614,
@@ -41916,7 +45370,7 @@
     "UseDataID": 408614,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408615": {
     "ID": 408615,
@@ -41944,7 +45398,7 @@
     "UseDataID": 408615,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408616": {
     "ID": 408616,
@@ -41972,7 +45426,7 @@
     "UseDataID": 408616,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2006
   },
   "408617": {
     "ID": 408617,
@@ -42000,7 +45454,7 @@
     "UseDataID": 408617,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408618": {
     "ID": 408618,
@@ -42028,7 +45482,7 @@
     "UseDataID": 408618,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408619": {
     "ID": 408619,
@@ -42056,7 +45510,119 @@
     "UseDataID": 408619,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
+  },
+  "408620": {
+    "ID": 408620,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Food",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 10,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1695813973
+    },
+    "ItemDesc": {
+      "Hash": -275811469
+    },
+    "ItemBGDesc": {
+      "Hash": 1495594302
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408620.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408620.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408620.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "ExternalSystemFoodBenefit",
+    "UseDataID": 408620,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 2003
+  },
+  "408621": {
+    "ID": 408621,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Food",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 10,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1033069382
+    },
+    "ItemDesc": {
+      "Hash": 1290272472
+    },
+    "ItemBGDesc": {
+      "Hash": -1233289053
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408622.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408622.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408622.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "ExternalSystemFoodBenefit",
+    "UseDataID": 408621,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 2006
+  },
+  "408622": {
+    "ID": 408622,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Food",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 10,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 533014559
+    },
+    "ItemDesc": {
+      "Hash": -1438610883
+    },
+    "ItemBGDesc": {
+      "Hash": -1636573580
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408621.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408621.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408621.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "ExternalSystemFoodBenefit",
+    "UseDataID": 408622,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 2003
+  },
+  "408623": {
+    "ID": 408623,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Food",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Rare",
+    "PurposeType": 10,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 2099098500
+    },
+    "ItemDesc": {
+      "Hash": 127473058
+    },
+    "ItemBGDesc": {
+      "Hash": -70489639
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/408623.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/408623.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/408623.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "ExternalSystemFoodBenefit",
+    "UseDataID": 408623,
+    "CustomDataList": [],
+    "ReturnItemIDList": [],
+    "ItemGroup": 2003
   },
   "408801": {
     "ID": 408801,
@@ -42084,7 +45650,7 @@
     "UseDataID": 408801,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2003
   },
   "408802": {
     "ID": 408802,
@@ -42112,6 +45678,6 @@
     "UseDataID": 408802,
     "CustomDataList": [],
     "ReturnItemIDList": [],
-    "ItemGroup": 2000
+    "ItemGroup": 2009
   }
 }

@@ -2,10 +2,14 @@
   "GroupGUID": "2c3a7d8c-23e8-490d-b829-a29fb2013656",
   "GroupName": "MainMissionMonster",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G228",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -34,7 +38,6 @@
         "ID": 1
       },
       "EventID": 20213001,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -65,7 +68,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20213002,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -89,7 +91,6 @@
         "ID": 1
       },
       "EventID": 20213004,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -114,7 +115,6 @@
         "ID": 1
       },
       "EventID": 20213003,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

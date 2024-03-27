@@ -356,7 +356,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill01_v1_SparckUp.prefab"
         },
         {
@@ -365,7 +364,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill01_v1_SparckUp_01.prefab"
         },
         {
@@ -480,7 +478,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill01_v1_FireUp.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -496,7 +493,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill01_v1_FireUp_02.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -533,7 +529,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill01_v1_FireUp_02.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -1114,7 +1109,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
             }
           ]
@@ -1539,7 +1533,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Skill02_03_1.prefab"
         },
         {
@@ -2139,7 +2132,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_V3RD_Light.prefab"
         },
         {
@@ -2881,7 +2873,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     },
                     {
@@ -3488,7 +3479,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V1.prefab"
             },
             {
@@ -3497,7 +3487,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V2.prefab"
             },
             {
@@ -3909,7 +3898,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V0.prefab"
             }
           ]
@@ -3960,7 +3948,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_DefenceHit.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -3974,7 +3961,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_BeAttack_02.prefab"
             },
             {
@@ -3983,7 +3969,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_BeAttack.prefab"
             }
           ]
@@ -4360,7 +4345,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V0.prefab"
                 },
                 {
@@ -4369,7 +4353,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V1.prefab"
                 },
                 {
@@ -4378,7 +4361,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V2.prefab"
                 },
                 {
@@ -4387,7 +4369,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V3.prefab"
                 },
                 {
@@ -4396,7 +4377,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_V3_Light.prefab"
                 }
               ],
@@ -4421,7 +4401,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V1.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -4448,7 +4427,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V2.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -4475,7 +4453,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_WeaponEffect_V3.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -4486,7 +4463,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_PlayerBoy_10/Eff_Avatar_PlayerBoy_10_Common_V3_Light.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"

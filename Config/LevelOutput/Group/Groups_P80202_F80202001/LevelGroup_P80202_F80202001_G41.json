@@ -8,26 +8,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      50,
-      49
-    ],
-    "LowerUpperBounds": {
-      "x": 296,
-      "y": 297
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      50,
-      49
-    ],
-    "LowerUpperBounds": {
-      "x": 296,
-      "y": 297
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -44,7 +24,6 @@
       "LevelGraph": "Config/Level/Maze/MazeRogue/Maze_Rogue_NPC_EventPainting.json",
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

@@ -9,34 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      7,
-      49,
-      6,
-      50,
-      7,
-      50
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      7,
-      49,
-      6,
-      50,
-      7,
-      50
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -45,8 +17,7 @@
       "PosY": 172.372,
       "PosZ": 96.12,
       "Name": "Anchor1",
-      "RotY": 185.258,
-      "MapLayerID": 2
+      "RotY": 185.258
     }
   ],
   "MonsterList": [],
@@ -63,7 +34,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310070000,
@@ -89,7 +59,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310090000,
@@ -115,7 +84,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],

@@ -17,26 +17,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      149,
-      203,
-      34,
-      328,
-      135,
-      342,
-      48,
-      360
-    ],
-    "LowerUpperBounds": {
-      "x": 61,
-      "y": 93
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -63,7 +43,6 @@
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20132555,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -98,7 +77,6 @@
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20132556,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -133,7 +111,6 @@
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20132553,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -168,7 +145,6 @@
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20132554,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

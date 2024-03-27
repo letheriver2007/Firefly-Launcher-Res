@@ -43,8 +43,7 @@
       "ID": 1,
       "PosY": 1.5,
       "PosZ": 3.554296,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -65,7 +64,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -91,7 +89,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -113,7 +110,6 @@
       "PropID": 101050,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -136,7 +132,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],

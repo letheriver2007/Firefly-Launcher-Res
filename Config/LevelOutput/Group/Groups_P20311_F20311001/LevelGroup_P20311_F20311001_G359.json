@@ -17,26 +17,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -74,
-      -28
-    ],
-    "LowerUpperBounds": {
-      "x": 19,
-      "y": 20
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -74,
-      -28
-    ],
-    "LowerUpperBounds": {
-      "x": 19,
-      "y": 20
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -67,7 +47,6 @@
         "ID": 1
       },
       "EventID": 20311134,
-      "MapLayerID": 3,
       "BoardShowList": [
         4
       ],

@@ -1121,5 +1121,133 @@
     "MusicSwitchName": "BGM_Jukebox_Penocony_MAZ_P102_Study",
     "BPM": 126,
     "RhythmColour": "TYPE_EASY"
+  },
+  "210316": {
+    "ID": 210316,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": -284962532
+    },
+    "UnlockDesc": {
+      "Hash": -2114258103
+    },
+    "BGMDesc": {
+      "Hash": -842893367
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_P01_NearOpera",
+    "BPM": 110,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210317": {
+    "ID": 210317,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": -1851046473
+    },
+    "UnlockDesc": {
+      "Hash": -2114258104
+    },
+    "BGMDesc": {
+      "Hash": 723190574
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_P01_Prop_DreamShop",
+    "BPM": 216,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210318": {
+    "ID": 210318,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": -1091531586
+    },
+    "UnlockDesc": {
+      "Hash": -2114258105
+    },
+    "BGMDesc": {
+      "Hash": -36324313
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_Prop_JazzBand1",
+    "BPM": 160,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210319": {
+    "ID": 210319,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": 1637351769
+    },
+    "UnlockDesc": {
+      "Hash": -2114258106
+    },
+    "BGMDesc": {
+      "Hash": 1529759628
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_Prop_JazzBand2",
+    "BPM": 125,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210320": {
+    "ID": 210320,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": -1447761945
+    },
+    "UnlockDesc": {
+      "Hash": -1710973570
+    },
+    "BGMDesc": {
+      "Hash": 319906048
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_Prop_JazzBand3",
+    "BPM": 84,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210321": {
+    "ID": 210321,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": 1281121410
+    },
+    "UnlockDesc": {
+      "Hash": -1710973571
+    },
+    "BGMDesc": {
+      "Hash": 1885989989
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_ADV_Prop_JazzBand4",
+    "BPM": 82,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210322": {
+    "ID": 210322,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": 1684405937
+    },
+    "UnlockDesc": {
+      "Hash": -1710973572
+    },
+    "BGMDesc": {
+      "Hash": 1482705462
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_Gameplay_ClockBoy",
+    "BPM": 80,
+    "RhythmColour": "TYPE_EASY"
+  },
+  "210323": {
+    "ID": 210323,
+    "GroupID": 4,
+    "MusicName": {
+      "Hash": 118321996
+    },
+    "UnlockDesc": {
+      "Hash": -1710973573
+    },
+    "BGMDesc": {
+      "Hash": -1246177893
+    },
+    "MusicSwitchName": "BGM_Jukebox_Penocony_Gameplay_WolfBro",
+    "BPM": 150,
+    "RhythmColour": "TYPE_EASY"
   }
 }

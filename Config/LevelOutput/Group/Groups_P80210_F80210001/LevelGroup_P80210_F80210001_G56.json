@@ -7,26 +7,6 @@
   "LoadSide": "Server",
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -205,
-      44
-    ],
-    "LowerUpperBounds": {
-      "x": 115,
-      "y": 116
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -205,
-      44
-    ],
-    "LowerUpperBounds": {
-      "x": 115,
-      "y": 116
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -53,7 +33,6 @@
         "GroupID": 2,
         "ID": 1
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -80,7 +59,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -856,6 +856,16 @@
       "Name": "MainMission8002103_1",
       "GroupGUID": "c2f9cb1f-d436-4ffd-959b-9fe32e99e6ec",
       "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G235.json"
+    },
+    {
+      "ID": 238,
+      "Name": "Book",
+      "GroupGUID": "09f18880-3d4b-470f-8f9e-ea54e850f703",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P10101_F10101001/LevelGroup_P10101_F10101001_G238.json",
+      "DimensionFilter": {
+        "List": []
+      },
+      "IsOverrideDimensionFilter": true
     }
   ]
 }

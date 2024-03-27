@@ -7,28 +7,6 @@
   "OwnerMainMissionID": 4140107,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      5,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": 126,
-      "y": 127
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      4,
-      32,
-      5,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": 126,
-      "y": 127
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -36,8 +14,7 @@
       "PosX": 11.648,
       "PosY": 12.156,
       "PosZ": 65.194,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -59,7 +36,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -83,7 +59,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -104,7 +79,6 @@
       "LevelGraph": "Config/Level/LevelInstanceGraph/F20136001/LG_NPC_F20136001_G46_400001.json",
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

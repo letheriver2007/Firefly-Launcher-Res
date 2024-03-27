@@ -17,59 +17,11 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      69,
-      78
-    ],
-    "LowerUpperBounds": {
-      "x": -16,
-      "y": -15
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      69,
-      78
-    ],
-    "LowerUpperBounds": {
-      "x": -16,
-      "y": -15
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
-    {
-      "ID": 300001,
-      "PosX": 138.798,
-      "PosY": -30.48233,
-      "PosZ": 157.823,
-      "Name": "Prop1",
-      "PropID": 100,
-      "ValueSource": {},
-      "CampID": 4,
-      "MapLayerID": 1,
-      "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {
-        "MissionTrigger": {
-          "Radius": 7.0,
-          "PointList": []
-        }
-      },
-      "BridgeStateRotations": [],
-      "DialogueGroups": [],
-      "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {},
-      "TagContainer": {},
-      "CameraCenterEntityList": [],
-      "SpawnConfig": {
-        "EntitySpawnConfig": {}
-      }
-    },
     {
       "ID": 300002,
       "PosX": 138.794,
@@ -79,7 +31,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -111,7 +62,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

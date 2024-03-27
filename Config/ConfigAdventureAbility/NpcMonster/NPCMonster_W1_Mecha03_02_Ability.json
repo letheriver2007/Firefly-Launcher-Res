@@ -145,6 +145,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Weapon_R_Loop.prefab"
         },
         {
@@ -153,6 +154,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_02/Eff_Monster_W1_Mecha03_02_Weapon_L_Loop.prefab"
         }
       ]

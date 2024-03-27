@@ -105,107 +105,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000111,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000111,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000111,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000111,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -224,107 +272,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000112,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000112,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000112,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000112,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -343,107 +439,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000113,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000113,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000113,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000113,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -462,107 +606,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000114,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000114,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000114,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000114,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -581,107 +773,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000115,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000115,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000115,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000115,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -712,7 +952,7 @@
                   "$type": "RPG.GameCore.TargetAlias",
                   "Alias": "Caster"
                 },
-                "ModifierName": "ADV_StageAbility_Maze_Silwolf_MazeSkillMark"
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
               },
               {
                 "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
@@ -867,107 +1107,155 @@
             "PredicateList": [
               {
                 "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
-                "PostureType": "Excellent"
+                "PostureType": "Bad",
+                "Inverse": true
               },
               {
                 "$type": "RPG.GameCore.ByIsTeamLeader"
+              },
+              {
+                "$type": "RPG.GameCore.ByIsContainAdventureModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
+              },
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
               }
             ]
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 1000119,
+              "DynamicValues": {
+                "SkillIndex": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 2
+                  }
+                }
+              }
+            }
+          ],
+          "FailedTaskList": [
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AdvLineup"
-                }
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.AdventureByIsBattlePostureType",
+                    "PostureType": "Excellent"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsTeamLeader"
+                  }
+                ]
               },
               "SuccessTaskList": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
+                    "$type": "RPG.GameCore.AdvByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AdvLineup"
+                    }
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000119,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
                       },
-                      "ID": 1000119,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000117,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType"
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000117,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 1
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddMazeBuff",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ID": 1000117,
+                          "DynamicValues": {
+                            "SkillIndex": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddMazeBuff",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ID": 1000117,
-                      "DynamicValues": {
-                        "SkillIndex": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
-                        }
-                      }
+                      ]
                     }
                   ]
                 }
@@ -1242,6 +1530,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "ModifierOwnerEntity"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap01_MAZ_Mecha_01_ATKArea.prefab"
         }
       ],
@@ -1453,13 +1742,13 @@
         {
           "$type": "RPG.GameCore.SetAdvLockDistance",
           "IsPushValue": true,
-          "LockDistance": 10
+          "LockDistance": 15
         },
         {
           "$type": "RPG.GameCore.SetAdvLockDistance",
           "SkillType": "MazeSkill",
           "IsPushValue": true,
-          "LockDistance": 10
+          "LockDistance": 15
         }
       ],
       "Stacking": "Replace"

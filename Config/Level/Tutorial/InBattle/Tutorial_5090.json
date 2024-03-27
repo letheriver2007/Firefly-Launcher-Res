@@ -109,6 +109,20 @@
           }
         },
         {
+          "$type": "RPG.GameCore.ModifySpecialSP",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "LightTeamLeft"
+          },
+          "FixedAddValue": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 9
+            }
+          },
+          "IgnoreBlock": true
+        },
+        {
           "$type": "RPG.GameCore.ShowGuideTalk",
           "ID": 903,
           "Show": true,

@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      -16
-    ],
-    "LowerUpperBounds": {
-      "x": 2044,
-      "y": 2045
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      -16,
-      -3,
-      -15,
-      0,
-      -15
-    ],
-    "LowerUpperBounds": {
-      "x": 2044,
-      "y": 2045
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -41,8 +17,7 @@
       "PosY": -1.117755,
       "PosZ": -29.28,
       "Name": "Anchor1",
-      "RotY": 80.78679,
-      "MapLayerID": 1
+      "RotY": 80.78679
     },
     {
       "ID": 2,
@@ -52,7 +27,6 @@
       "Name": "Anchor2",
       "RotY": 273.97,
       "RotX": 2.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -66,7 +40,6 @@
       "Name": "Anchor3",
       "RotY": 86.43,
       "RotX": 5.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -79,7 +52,6 @@
       "PosZ": -29.2,
       "Name": "Anchor4",
       "RotY": 269.2143,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -89,7 +61,6 @@
       "PosZ": -28.14,
       "Name": "Anchor5",
       "RotY": 180.3429,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -100,7 +71,6 @@
       "Name": "Anchor6",
       "RotY": 60.94691,
       "RotX": 5.0,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -112,8 +82,7 @@
       "PosY": -1.147368,
       "PosZ": -29.9,
       "Name": "Anchor7",
-      "RotY": 22.29981,
-      "MapLayerID": 1
+      "RotY": 22.29981
     },
     {
       "ID": 8,
@@ -122,7 +91,6 @@
       "PosZ": -32.09,
       "Name": "Anchor8",
       "RotY": 1.532646,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -134,8 +102,7 @@
       "PosY": -1.14729,
       "PosZ": -28.14,
       "Name": "Anchor9",
-      "RotY": 223.6909,
-      "MapLayerID": 1
+      "RotY": 223.6909
     },
     {
       "ID": 10,
@@ -144,7 +111,6 @@
       "PosZ": -28.8,
       "Name": "Anchor10",
       "RotY": 88.15001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -169,7 +135,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -186,7 +151,6 @@
       "PropID": 102051,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -206,7 +170,6 @@
       "NPCID": 2201,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,

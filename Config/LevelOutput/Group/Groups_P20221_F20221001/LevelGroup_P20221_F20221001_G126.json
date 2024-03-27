@@ -100,7 +100,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -134,7 +133,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -189,7 +187,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -223,7 +220,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -278,7 +274,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -312,7 +307,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -346,7 +340,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -367,7 +360,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -388,7 +380,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -411,7 +402,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo02Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -431,7 +421,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -452,7 +441,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo02Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -480,7 +468,6 @@
         "GroupID": 126,
         "InstanceID": 400009
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -507,7 +494,6 @@
         "GroupID": 126,
         "InstanceID": 400008
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -527,7 +513,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -550,7 +535,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -573,7 +557,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -597,7 +580,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Praying01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -621,7 +603,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "LeanLoop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -645,7 +626,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Distress01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -669,7 +649,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SpeechLoop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -692,7 +671,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -716,7 +694,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -739,7 +716,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -763,7 +739,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -786,7 +761,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -810,7 +784,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -839,7 +812,6 @@
         "GroupID": 126,
         "InstanceID": 400027
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -868,7 +840,6 @@
         "GroupID": 126,
         "InstanceID": 400026
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -896,7 +867,6 @@
         "GroupID": 126,
         "InstanceID": 400029
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -924,7 +894,6 @@
         "GroupID": 126,
         "InstanceID": 400028
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -947,7 +916,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
@@ -967,7 +935,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
@@ -987,7 +954,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,

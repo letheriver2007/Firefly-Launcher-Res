@@ -262,13 +262,13 @@
                   }
                 },
                 {
-                  "$type": "RPG.GameCore.SetDynamicValueByProperty",
-                  "DynamicKey": "_Shield",
-                  "ReadTargetType": {
+                  "$type": "RPG.GameCore.SetDynamicValueByShield",
+                  "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "Value": "Shield"
+                  "DynamicKey": "_Shield",
+                  "ValueType": "Total"
                 },
                 {
                   "$type": "RPG.GameCore.SetDynamicValue",
@@ -428,9 +428,15 @@
                               }
                             },
                             "AttackType": "Pursued",
+                            "DamageTag": "Quake",
                             "HitEffectHeight": 1.1
                           },
-                          "PerformanceDelay": 0.5
+                          "PerformanceDelay": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 0.5
+                            }
+                          }
                         },
                         {
                           "$type": "RPG.GameCore.StackProperty",
@@ -557,9 +563,15 @@
                                   }
                                 },
                                 "AttackType": "Pursued",
+                                "DamageTag": "Quake",
                                 "HitEffectHeight": 1.1
                               },
-                              "PerformanceDelay": 0.5
+                              "PerformanceDelay": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 0.5
+                                }
+                              }
                             },
                             {
                               "$type": "RPG.GameCore.StackProperty",
@@ -589,7 +601,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntityAdjoinEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                               "Delay": 0.5,
                               "MinMutexTime": 0.5,
@@ -601,7 +612,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                               "Delay": 0.5,
                               "MinMutexTime": 0.5,
@@ -679,7 +689,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v1_Hit.prefab",
                               "Delay": 0.5,
                               "MinMutexTime": 0.5,
@@ -739,9 +748,15 @@
                                   }
                                 },
                                 "AttackType": "Pursued",
+                                "DamageTag": "Quake",
                                 "HitEffectHeight": 1.1
                               },
-                              "PerformanceDelay": 0.5
+                              "PerformanceDelay": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 0.5
+                                }
+                              }
                             },
                             {
                               "$type": "RPG.GameCore.StackProperty",
@@ -771,7 +786,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntityTeammate"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                               "Delay": 0.5,
                               "MinMutexTime": 0.5,
@@ -783,7 +797,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                               "Delay": 0.5,
                               "MinMutexTime": 0.5,
@@ -1170,13 +1183,13 @@
                       }
                     },
                     {
-                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
-                      "DynamicKey": "_Shield",
-                      "ReadTargetType": {
+                      "$type": "RPG.GameCore.SetDynamicValueByShield",
+                      "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "Value": "Shield"
+                      "DynamicKey": "_Shield",
+                      "ValueType": "Total"
                     }
                   ]
                 }
@@ -1345,6 +1358,7 @@
                           }
                         },
                         "AttackType": "Pursued",
+                        "DamageTag": "Quake",
                         "HitEffectHeight": 1.1
                       }
                     },
@@ -1473,6 +1487,7 @@
                               }
                             },
                             "AttackType": "Pursued",
+                            "DamageTag": "Quake",
                             "HitEffectHeight": 1.1
                           }
                         },
@@ -1504,7 +1519,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntityAdjoinEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                           "Delay": 0.5,
                           "MinMutexTime": 0.5,
@@ -1516,7 +1530,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                           "Delay": 0.5,
                           "MinMutexTime": 0.5,
@@ -1594,7 +1607,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v1_Hit.prefab",
                           "MinMutexTime": 0.5,
                           "MinMutexType": "Entity"
@@ -1653,6 +1665,7 @@
                               }
                             },
                             "AttackType": "Pursued",
+                            "DamageTag": "Quake",
                             "HitEffectHeight": 1.1
                           }
                         },
@@ -1684,7 +1697,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntityTeammate"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                           "MinMutexTime": 0.5,
                           "MinMutexType": "Entity"
@@ -1695,7 +1707,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                           "MinMutexTime": 0.5,
                           "MinMutexType": "Entity"
@@ -2439,13 +2450,13 @@
               "Event": "OnStack",
               "CallbackConfig": [
                 {
-                  "$type": "RPG.GameCore.SetDynamicValueByProperty",
-                  "DynamicKey": "_Shield",
-                  "ReadTargetType": {
+                  "$type": "RPG.GameCore.SetDynamicValueByShield",
+                  "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "Value": "Shield"
+                  "DynamicKey": "_Shield",
+                  "ValueType": "Total"
                 },
                 {
                   "$type": "RPG.GameCore.SetDynamicValueByProperty",
@@ -7160,7 +7171,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Burst.prefab",
                           "Delay": 0.5
                         },
@@ -7318,7 +7328,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7326,7 +7341,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Fire.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -7441,7 +7455,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7449,7 +7468,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Wind.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -7564,7 +7582,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7572,7 +7595,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_ice.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -7686,7 +7708,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7694,7 +7721,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Physical.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -7809,7 +7835,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7817,7 +7848,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Lightning.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -7932,7 +7962,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -7940,7 +7975,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Quantum.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -8055,7 +8089,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -8063,7 +8102,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Imaginary.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -8695,7 +8733,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -8703,7 +8746,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Fire.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -8818,7 +8860,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -8826,7 +8873,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Wind.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -8941,7 +8987,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -8949,7 +9000,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_ice.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -9063,7 +9113,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -9071,7 +9126,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Physical.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -9186,7 +9240,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -9194,7 +9253,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Lightning.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -9309,7 +9367,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -9317,7 +9380,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Quantum.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -9432,7 +9494,12 @@
                                     },
                                     "AttackType": "Insert"
                                   },
-                                  "PerformanceDelay": 0.5
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  }
                                 },
                                 {
                                   "$type": "RPG.GameCore.TriggerEffect",
@@ -9440,7 +9507,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Elation_Imaginary.prefab",
                                   "Delay": 0.5,
                                   "MinMutexTime": -1,
@@ -12321,7 +12387,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Ice_Add.prefab",
                   "AttachPoint": "SelectRoot"
                 }
@@ -12424,6 +12489,14 @@
                   },
                   "SuccessTaskList": [
                     {
+                      "$type": "RPG.GameCore.TriggerSound",
+                      "SoundName": "Ev_monster_combat_resume",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      }
+                    },
+                    {
                       "$type": "RPG.GameCore.WaitSecond",
                       "WaitTime": {
                         "IsDynamic": false,
@@ -12469,7 +12542,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Ice_Trigger.prefab"
             },
             {
@@ -12499,6 +12571,14 @@
                 }
               },
               "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "Modifier_StageAbility_670140_Sub"
+                },
                 {
                   "$type": "RPG.GameCore.SetDynamicValueByProperty",
                   "DynamicKey": "_MaxHP",
@@ -12577,6 +12657,14 @@
         {
           "Event": "OnStack",
           "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.TriggerSound",
+              "SoundName": "Ev_monster_combat_pause",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              }
+            },
             {
               "$type": "RPG.GameCore.AttachSkillTypeDisable",
               "TargetType": {
@@ -12827,6 +12915,14 @@
                       "Value": "MaxHP"
                     },
                     {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "Modifier_StageAbility_670140_Sub"
+                    },
+                    {
                       "$type": "RPG.GameCore.DamageByAttackProperty",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
@@ -12856,8 +12952,86 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_IceCage_Broken.prefab"
+                    },
+                    {
+                      "$type": "RPG.GameCore.RemoveSelfModifier"
+                    }
+                  ]
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "670140_Flag",
+                    "CompareType": "Equal",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1
+                      }
+                    }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
+                      "DynamicKey": "_MaxHP",
+                      "ReadTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "Value": "MaxHP"
+                    },
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "Modifier_StageAbility_670140_Sub"
+                    },
+                    {
+                      "$type": "RPG.GameCore.DamageByAttackProperty",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "AttackProperty": {
+                        "DamageType": "Ice",
+                        "DamageValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQABAQQK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              -230151301,
+                              -1309867853
+                            ]
+                          }
+                        },
+                        "AttackType": "Pursued",
+                        "FinalFormulaType": "ByPureDamage"
+                      }
+                    },
+                    {
+                      "$type": "RPG.GameCore.TriggerEffect",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_IceCage_Broken.prefab"
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValue",
+                      "DynamicKey": "670140_Flag",
+                      "Value": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 0
+                        }
+                      }
                     },
                     {
                       "$type": "RPG.GameCore.RemoveSelfModifier"
@@ -12874,6 +13048,7 @@
         "Values": {
           "1924044832": {},
           "1924006907": {},
+          "401253959": {},
           "-1309867853": {},
           "-230151301": {}
         }
@@ -13068,7 +13243,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_Buff.prefab"
             }
           ]

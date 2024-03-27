@@ -700,6 +700,19 @@
     "SubType": "Avatar",
     "SeriesID": 131501
   },
+  "1399": {
+    "ID": 1399,
+    "DefaultNPCName": {
+      "Hash": 1099408695
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Avatar/NPC_Avatar_Lady_Acheron_01_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Avatar/NPC_Avatar_Acheron_01_Config.json",
+    "SubType": "Avatar",
+    "SeriesID": 139901
+  },
   "1990": {
     "ID": 1990,
     "DefaultNPCName": {
@@ -1167,7 +1180,7 @@
     "DefaultNPCTitle": {
       "Hash": 371857150
     },
-    "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W1_Mecha01_01_Config.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W1_Mecha01_00_Config.json",
     "SubType": "Monster"
   },
   "2218": {
@@ -1397,6 +1410,42 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W2_Beast02_01_Config.json",
+    "SubType": "Monster"
+  },
+  "2314": {
+    "ID": 2314,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Monster/NPC_Monster_W3_Dinosaur_01_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W3_Dinosaur_01_Config.json",
+    "SubType": "Monster"
+  },
+  "2315": {
+    "ID": 2315,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Monster/NPC_Monster_W3_Clock_01_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W3_Clock_01_Config.json",
+    "SubType": "Monster"
+  },
+  "2316": {
+    "ID": 2316,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Monster/NPC_Monster_W3_TV_01_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Monster/NPC_Monster_W3_TV_01_Config.json",
     "SubType": "Monster"
   },
   "2901": {
@@ -2071,7 +2120,8 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_00_Big_Config.json",
-    "SubType": "Special"
+    "SubType": "Special",
+    "SeriesID": 306301
   },
   "3064": {
     "ID": 3064,
@@ -2083,7 +2133,8 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_01_Big_Config.json",
-    "SubType": "Special"
+    "SubType": "Special",
+    "SeriesID": 306401
   },
   "3065": {
     "ID": 3065,
@@ -2095,7 +2146,8 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_02_Big_Config.json",
-    "SubType": "Special"
+    "SubType": "Special",
+    "SeriesID": 306501
   },
   "3066": {
     "ID": 3066,
@@ -2107,7 +2159,8 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_03_Big_Config.json",
-    "SubType": "Special"
+    "SubType": "Special",
+    "SeriesID": 306601
   },
   "3067": {
     "ID": 3067,
@@ -2119,7 +2172,8 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_04_Big_Config.json",
-    "SubType": "Special"
+    "SubType": "Special",
+    "SeriesID": 306701
   },
   "3068": {
     "ID": 3068,
@@ -2361,6 +2415,18 @@
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_AdvertBoard_00_08_Config.json",
     "SubType": "Special"
   },
+  "3097": {
+    "ID": 3097,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_WolfBro_00_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_WolfBro_00_Small_Config.json",
+    "SubType": "Special"
+  },
   "3098": {
     "ID": 3098,
     "DefaultNPCName": {
@@ -2517,6 +2583,52 @@
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_RuanMadeCake_00_16_Config.json",
     "SubType": "Special"
   },
+  "3111": {
+    "ID": 3111,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W3_Child_ShaJinYoung_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_Child_ShaJinYoung_Config.json"
+  },
+  "3112": {
+    "ID": 3112,
+    "DefaultNPCName": {
+      "Hash": -1533020653
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W3_Lady_Siobhan_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_Lady_Siobhan_Config.json"
+  },
+  "3113": {
+    "ID": 3113,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_SundaysServant_00_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_SundaysServant_00_Config.json",
+    "SubType": "Special"
+  },
+  "3115": {
+    "ID": 3115,
+    "DefaultNPCName": {
+      "Hash": 1964510138
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_OrigamiBird_00_SuperBig_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_01_SuperBig_Config.json",
+    "SubType": "Special"
+  },
   "3116": {
     "ID": 3116,
     "DefaultNPCName": {
@@ -2552,6 +2664,17 @@
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W1_Male_CompanyC_Config.json",
     "SubType": "Special"
+  },
+  "3124": {
+    "ID": 3124,
+    "DefaultNPCName": {
+      "Hash": -1480548663
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_37_Small_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
   },
   "10101": {
     "ID": 10101,
@@ -4244,7 +4367,7 @@
     "DefaultNPCTitle": {
       "Hash": -868153489
     },
-    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W1_Male_Config.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W1_Old_Config.json",
     "SeriesID": 1141001
   },
   "11411": {
@@ -6884,7 +7007,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_39_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1111807391
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13139
@@ -6896,7 +7019,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_40_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091925
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13140
@@ -6908,7 +7031,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_41_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091926
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13141
@@ -6920,7 +7043,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_42_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091927
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13142
@@ -6932,7 +7055,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_43_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091928
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13143
@@ -6944,7 +7067,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_44_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091921
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13144
@@ -6956,7 +7079,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_45_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091922
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13145
@@ -6968,7 +7091,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_46_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091923
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13146
@@ -6980,7 +7103,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_47_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515091924
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
     "SeriesID": 13147
@@ -7039,6 +7162,138 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json"
+  },
+  "13153": {
+    "ID": 13153,
+    "DefaultNPCName": {
+      "Hash": 1689346828
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_53_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992013
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13153
+  },
+  "13154": {
+    "ID": 13154,
+    "DefaultNPCName": {
+      "Hash": 123262887
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_54_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992020
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13154
+  },
+  "13155": {
+    "ID": 13155,
+    "DefaultNPCName": {
+      "Hash": -1442821054
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_55_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992019
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13155
+  },
+  "13156": {
+    "ID": 13156,
+    "DefaultNPCName": {
+      "Hash": 1286062301
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_56_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992018
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13156
+  },
+  "13157": {
+    "ID": 13157,
+    "DefaultNPCName": {
+      "Hash": -280021640
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_57_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992017
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13157
+  },
+  "13158": {
+    "ID": 13158,
+    "DefaultNPCName": {
+      "Hash": 1736400995
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_58_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992024
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13158
+  },
+  "13159": {
+    "ID": 13159,
+    "DefaultNPCName": {
+      "Hash": 170317054
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_59_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50992023
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13159
+  },
+  "13160": {
+    "ID": 13160,
+    "DefaultNPCName": {
+      "Hash": 2092631358
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_60_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 352292511
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13160
+  },
+  "13161": {
+    "ID": 13161,
+    "DefaultNPCName": {
+      "Hash": 526547417
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_61_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 352292512
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13161
+  },
+  "13162": {
+    "ID": 13162,
+    "DefaultNPCName": {
+      "Hash": -1039536524
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_62_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 352292513
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13162
+  },
+  "13163": {
+    "ID": 13163,
+    "DefaultNPCName": {
+      "Hash": 1689346831
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_63_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 352292514
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json",
+    "SeriesID": 13163
   },
   "13201": {
     "ID": 13201,
@@ -7532,7 +7787,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_43_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092085
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13243
@@ -7544,7 +7799,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_44_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092084
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13244
@@ -7556,7 +7811,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_45_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092083
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13245
@@ -7568,7 +7823,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_46_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092082
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13246
@@ -7580,7 +7835,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_47_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092081
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13247
@@ -7592,7 +7847,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_48_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092080
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13248
@@ -7604,7 +7859,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_49_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": 1515092079
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13249
@@ -7616,10 +7871,130 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_50_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -50991853
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
     "SeriesID": 13250
+  },
+  "13251": {
+    "ID": 13251,
+    "DefaultNPCName": {
+      "Hash": 385384913
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_57_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991854
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13251
+  },
+  "13252": {
+    "ID": 13252,
+    "DefaultNPCName": {
+      "Hash": 1951468854
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_54_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991855
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13252
+  },
+  "13253": {
+    "ID": 13253,
+    "DefaultNPCName": {
+      "Hash": -777414501
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_51_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991856
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13253
+  },
+  "13254": {
+    "ID": 13254,
+    "DefaultNPCName": {
+      "Hash": 1144899800
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_52_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991857
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13254
+  },
+  "13255": {
+    "ID": 13255,
+    "DefaultNPCName": {
+      "Hash": -1583983555
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_53_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991858
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13255
+  },
+  "13256": {
+    "ID": 13256,
+    "DefaultNPCName": {
+      "Hash": -17899614
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_55_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991859
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13256
+  },
+  "13257": {
+    "ID": 13257,
+    "DefaultNPCName": {
+      "Hash": 1548184327
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_56_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991860
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13257
+  },
+  "13258": {
+    "ID": 13258,
+    "DefaultNPCName": {
+      "Hash": -1536929388
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_58_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991861
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13258
+  },
+  "13259": {
+    "ID": 13259,
+    "DefaultNPCName": {
+      "Hash": 29154553
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_59_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -50991862
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13259
+  },
+  "13260": {
+    "ID": 13260,
+    "DefaultNPCName": {
+      "Hash": -1180699025
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_60_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 352292674
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json",
+    "SeriesID": 13260
   },
   "13301": {
     "ID": 13301,
@@ -7862,7 +8237,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_21_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -1617075890
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
     "SeriesID": 13321
@@ -7874,7 +8249,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_22_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -1617075893
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
     "SeriesID": 13322
@@ -7886,7 +8261,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_23_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -1617075892
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
     "SeriesID": 13323
@@ -7898,7 +8273,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_24_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -1617075895
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
     "SeriesID": 13324
@@ -7910,7 +8285,7 @@
     },
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_25_Entity.json",
     "DefaultNPCTitle": {
-      "Hash": 371857150
+      "Hash": -1617075894
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
     "SeriesID": 13325
@@ -7947,6 +8322,54 @@
       "Hash": 371857150
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json"
+  },
+  "13329": {
+    "ID": 13329,
+    "DefaultNPCName": {
+      "Hash": -112007941
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_29_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -1617075898
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
+    "SeriesID": 13329
+  },
+  "13330": {
+    "ID": 13330,
+    "DefaultNPCName": {
+      "Hash": 1810306359
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_30_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 1111807464
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
+    "SeriesID": 13330
+  },
+  "13331": {
+    "ID": 13331,
+    "DefaultNPCName": {
+      "Hash": 244222418
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_31_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 1111807465
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
+    "SeriesID": 13331
+  },
+  "13332": {
+    "ID": 13332,
+    "DefaultNPCName": {
+      "Hash": 647506945
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Child_32_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 1111807462
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Child_Config.json",
+    "SeriesID": 13332
   },
   "13401": {
     "ID": 13401,
@@ -8108,6 +8531,66 @@
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json"
   },
+  "13415": {
+    "ID": 13415,
+    "DefaultNPCName": {
+      "Hash": 2072428383
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Old_19_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -2020360516
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json",
+    "SeriesID": 13415
+  },
+  "13416": {
+    "ID": 13416,
+    "DefaultNPCName": {
+      "Hash": 1669143856
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Old_15_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -2020360513
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json",
+    "SeriesID": 13416
+  },
+  "13417": {
+    "ID": 13417,
+    "DefaultNPCName": {
+      "Hash": -1059739499
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Old_16_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -2020360514
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json",
+    "SeriesID": 13417
+  },
+  "13418": {
+    "ID": 13418,
+    "DefaultNPCName": {
+      "Hash": -1819254386
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Old_17_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -2020360527
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json",
+    "SeriesID": 13418
+  },
+  "13419": {
+    "ID": 13419,
+    "DefaultNPCName": {
+      "Hash": -253170445
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Old_18_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": -2020360528
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Old_Config.json",
+    "SeriesID": 13419
+  },
   "13501": {
     "ID": 13501,
     "DefaultNPCName": {
@@ -8203,5 +8686,38 @@
     },
     "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_MuscleMan_Woolsey_Config.json",
     "SeriesID": 13199
+  },
+  "13190": {
+    "ID": 13190,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_64_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json"
+  },
+  "13191": {
+    "ID": 13191,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_65_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json"
+  },
+  "13192": {
+    "ID": 13192,
+    "DefaultNPCName": {
+      "Hash": 1690540168
+    },
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_61_Entity.json",
+    "DefaultNPCTitle": {
+      "Hash": 371857150
+    },
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
   }
 }

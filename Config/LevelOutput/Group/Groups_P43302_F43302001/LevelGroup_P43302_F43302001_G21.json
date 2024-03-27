@@ -12,20 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      18,
-      -266
-    ],
-    "LowerUpperBounds": {
-      "x": -5,
-      "y": -4
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -42,7 +28,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F43302001/LG_Prop_F43302001_G21_300001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideSoundRange": 35.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},

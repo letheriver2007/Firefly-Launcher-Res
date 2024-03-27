@@ -33,8 +33,7 @@
       "PosY": 5.2E-4,
       "PosZ": 5.397,
       "Name": "Anchor1",
-      "RotY": 193.8477,
-      "MapLayerID": 1
+      "RotY": 193.8477
     },
     {
       "ID": 2,
@@ -42,8 +41,7 @@
       "PosY": 5.2E-4,
       "PosZ": 5.202,
       "Name": "Anchor2",
-      "RotY": 167.0171,
-      "MapLayerID": 1
+      "RotY": 167.0171
     }
   ],
   "MonsterList": [],
@@ -66,7 +64,6 @@
         201071401
       ],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -142,7 +139,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,

@@ -8,34 +8,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      49,
-      -54
-    ],
-    "LowerUpperBounds": {
-      "x": 78,
-      "y": 79
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      49,
-      -54,
-      49,
-      -52,
-      53,
-      -52,
-      49,
-      -49,
-      50,
-      -49
-    ],
-    "LowerUpperBounds": {
-      "x": 78,
-      "y": 79
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -59,7 +31,6 @@
       },
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -81,7 +52,6 @@
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_ReviveMachine_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -102,7 +72,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18001,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -121,7 +90,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -140,7 +108,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 18002,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -162,7 +129,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

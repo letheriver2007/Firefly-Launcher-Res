@@ -8,26 +8,6 @@
   "OwnerMainMissionID": 8003263,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      12,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": 23,
-      "y": 24
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      12,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": 23,
-      "y": 24
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -45,7 +25,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -69,7 +48,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -89,7 +67,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 2329,
-      "MapLayerID": 1,
       "BoardShowList": [
         8,
         4

@@ -15,7 +15,6 @@
       "RotY": 191.105,
       "RotX": 27.25306,
       "RotZ": 2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -44,16 +43,14 @@
       "PosX": 36.53,
       "PosY": 2.0,
       "PosZ": -94.11,
-      "Name": "Move01",
-      "MapLayerID": 1
+      "Name": "Move01"
     },
     {
       "ID": 5,
       "PosX": 83.45,
       "PosY": 2.0,
       "PosZ": -94.11,
-      "Name": "Move02",
-      "MapLayerID": 1
+      "Name": "Move02"
     },
     {
       "ID": 6,
@@ -63,7 +60,6 @@
       "Name": "Camera_4",
       "RotY": 36.18111,
       "RotX": 22.65107,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -121,7 +117,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -152,7 +147,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -212,7 +206,6 @@
       },
       "CampID": 4,
       "State": "TriggerEnable",
-      "MapLayerID": 1,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -239,7 +232,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -308,7 +300,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10045,
@@ -333,7 +324,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -349,7 +339,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

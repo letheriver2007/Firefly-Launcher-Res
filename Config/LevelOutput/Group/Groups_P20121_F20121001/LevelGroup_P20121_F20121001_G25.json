@@ -42,8 +42,7 @@
       "PosY": 52.79,
       "PosZ": -172.525,
       "Name": "Mission_101050125",
-      "RotY": 244.4,
-      "MapLayerID": 1
+      "RotY": 244.4
     },
     {
       "ID": 3,
@@ -51,8 +50,7 @@
       "PosY": 52.39321,
       "PosZ": -173.4582,
       "Name": "M101050125_RestPoint",
-      "RotY": 255.1,
-      "MapLayerID": 1
+      "RotY": 255.1
     }
   ],
   "MonsterList": [],
@@ -133,7 +131,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

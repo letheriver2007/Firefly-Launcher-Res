@@ -9,8 +9,7 @@
       "PosX": -18.36,
       "PosY": 4.95,
       "PosZ": 2.28,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -30,7 +29,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -53,7 +51,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -76,7 +73,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 100.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],

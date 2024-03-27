@@ -3345,7 +3345,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "AllLightTeam"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                         }
                       ]
@@ -5666,7 +5665,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab",
                   "MinMutexTime": 0.85,
                   "MinMutexType": "Entity"
@@ -5922,7 +5920,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab",
                   "MinMutexTime": 0.85,
                   "MinMutexType": "Entity"
@@ -6255,7 +6252,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_Low.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -6287,7 +6283,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_Mid.prefab",
                           "MinMutexTime": -1,
                           "MinMutexType": "Entity"
@@ -6300,7 +6295,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_High.prefab",
                           "MinMutexTime": -1,
                           "MinMutexType": "Entity"
@@ -6356,7 +6350,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_Low.prefab",
                   "MinMutexTime": -1,
                   "MinMutexType": "Entity"
@@ -6388,7 +6381,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_Mid.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -6401,7 +6393,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Poison_High.prefab",
                       "MinMutexTime": -1,
                       "MinMutexType": "Entity"
@@ -6966,6 +6957,14 @@
                   ]
                 }
               ]
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ModifierName": "MLevel_Rogue_Bubble_Sub"
             }
           ]
         },
@@ -7225,6 +7224,14 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MLevel_Rogue_Bubble_Sub"
                 }
               ]
             }
@@ -7341,11 +7348,17 @@
                               }
                             },
                             "AttackType": "Pursued",
+                            "DamageTag": "Dewdrop",
                             "HitAnimation": "Hit",
                             "HitEffect": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Abundance_Water_Low_Burst.prefab",
                             "HitEffectHeight": 1.2
                           },
-                          "PerformanceDelay": 0.5
+                          "PerformanceDelay": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 0.5
+                            }
+                          }
                         }
                       ],
                       "FailedTaskList": [
@@ -7406,11 +7419,17 @@
                                   }
                                 },
                                 "AttackType": "Pursued",
+                                "DamageTag": "Dewdrop",
                                 "HitAnimation": "Hit",
                                 "HitEffect": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Abundance_Water_Mid_Burst.prefab",
                                 "HitEffectHeight": 1.2
                               },
-                              "PerformanceDelay": 0.5
+                              "PerformanceDelay": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 0.5
+                                }
+                              }
                             }
                           ],
                           "FailedTaskList": [
@@ -7448,11 +7467,17 @@
                                   }
                                 },
                                 "AttackType": "Pursued",
+                                "DamageTag": "Dewdrop",
                                 "HitAnimation": "Hit",
                                 "HitEffect": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Abundance_Water_High_Burst.prefab",
                                 "HitEffectHeight": 1.2
                               },
-                              "PerformanceDelay": 0.5
+                              "PerformanceDelay": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 0.5
+                                }
+                              }
                             }
                           ]
                         }
@@ -7677,6 +7702,9 @@
           "909827953": {}
         }
       }
+    },
+    "MLevel_Rogue_Bubble_Sub": {
+      "Stacking": "Replace"
     }
   }
 }

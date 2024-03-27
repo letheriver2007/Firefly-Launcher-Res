@@ -43,16 +43,14 @@
       "PosY": 0.24469,
       "PosZ": -68.2,
       "Name": "Anchor1",
-      "RotY": 126.4663,
-      "MapLayerID": 2
+      "RotY": 126.4663
     },
     {
       "ID": 2,
       "PosX": -11.08,
       "PosY": 5.02775,
       "PosZ": -133.67,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -60,8 +58,7 @@
       "PosY": 0.244667,
       "PosZ": -19.2,
       "Name": "Anchor3",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     },
     {
       "ID": 4,
@@ -69,8 +66,7 @@
       "PosY": -0.340027,
       "PosZ": -131.88,
       "Name": "Anchor4",
-      "RotY": 330.0,
-      "MapLayerID": 2
+      "RotY": 330.0
     },
     {
       "ID": 5,
@@ -78,8 +74,7 @@
       "PosY": 0.009727,
       "PosZ": -128.84,
       "Name": "Anchor5",
-      "RotY": 276.2012,
-      "MapLayerID": 2
+      "RotY": 276.2012
     }
   ],
   "MonsterList": [],
@@ -101,7 +96,6 @@
         "DimZ": 15.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -124,7 +118,6 @@
         "DimZ": 6.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -147,7 +140,6 @@
         "DimZ": 5.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -169,7 +161,6 @@
         "DimZ": 17.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -190,7 +181,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -214,7 +204,6 @@
         "DimZ": 35.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

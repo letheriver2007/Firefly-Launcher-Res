@@ -35,8 +35,7 @@
       "PosY": 8.285107,
       "PosZ": 7.48,
       "Name": "Anchor1",
-      "RotY": 130.1766,
-      "MapLayerID": 1
+      "RotY": 130.1766
     },
     {
       "ID": 2,
@@ -45,7 +44,6 @@
       "PosZ": 0.9,
       "Name": "Anchor2",
       "RotY": 342.7516,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -55,7 +53,6 @@
       "PosZ": -9.439,
       "Name": "Anchor3",
       "RotY": 349.7369,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -65,7 +62,6 @@
       "PosZ": 0.026,
       "Name": "Anchor4",
       "RotY": 308.7137,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -75,7 +71,6 @@
       "PosZ": -10.447,
       "Name": "Anchor5",
       "RotY": 328.8763,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -97,7 +92,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -121,7 +115,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -140,7 +133,6 @@
       "NPCID": 1202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312070000,
@@ -156,7 +148,6 @@
       "NPCID": 12119,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
@@ -176,7 +167,6 @@
       "NPCID": 12221,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
@@ -192,7 +182,6 @@
       "NPCID": 2201,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -210,7 +199,6 @@
       "NPCID": 2201,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -229,7 +217,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020230,
@@ -249,7 +236,6 @@
       "NPCID": 1004,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,
@@ -265,7 +251,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -285,7 +270,6 @@
       "NPCID": 1202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312070000,
@@ -305,7 +289,6 @@
       "NPCID": 1004,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,
@@ -321,7 +304,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -336,7 +318,6 @@
       "NPCID": 100,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "OverrideSeriesID": 120201,

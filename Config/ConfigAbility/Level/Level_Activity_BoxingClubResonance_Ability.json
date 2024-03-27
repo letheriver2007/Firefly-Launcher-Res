@@ -1546,6 +1546,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "ElementDamage"
                     ]
@@ -1590,6 +1594,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "ElementDamage"
                     ]
@@ -3018,7 +3026,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Hit_Frie.prefab"
                 }
               ]
@@ -5298,7 +5305,12 @@
                         "AttachPoint": "SelectRoot",
                         "Scale": 1.5
                       },
-                      "PerformanceDelay": 0.5
+                      "PerformanceDelay": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 0.5
+                        }
+                      }
                     },
                     {
                       "$type": "RPG.GameCore.TriggerEffect",
@@ -5306,7 +5318,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum_Explosion_02.prefab",
                       "Delay": 0.5
                     },
@@ -6395,6 +6406,10 @@
                     "PredicateList": [
                       {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "Pursued"
                         ]
@@ -6498,7 +6513,6 @@
                           }
                         ]
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum_Explosion_01.prefab"
                     }
                   ]
@@ -6663,7 +6677,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Hit.prefab"
                     }
                   ]
@@ -7489,7 +7502,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Hit.prefab",
                       "AttachPoint": "SelectRoot"
                     },
@@ -7499,7 +7511,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
                       "AttachPoint": "SelectRoot"
                     }
@@ -7632,6 +7643,10 @@
                     "PredicateList": [
                       {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "DOT"
                         ]
@@ -7783,7 +7798,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Hit.prefab",
                       "AttachPoint": "SelectRoot"
                     },
@@ -7793,7 +7807,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
                       "AttachPoint": "SelectRoot"
                     }
@@ -7960,6 +7973,10 @@
                     "PredicateList": [
                       {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "DOT"
                         ]
@@ -9623,6 +9640,10 @@
                     "PredicateList": [
                       {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "ElementDamage"
                         ]
@@ -9905,7 +9926,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind_Add.prefab",
                   "AttachPoint": "SelectRoot",
                   "Delay": 0.6
@@ -9929,7 +9949,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind_Triger.prefab",
               "AttachPoint": "SelectRoot"
             },
@@ -10085,7 +10104,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Fire_Add.prefab",
                       "AttachPoint": "SelectRoot"
                     }
@@ -10110,7 +10128,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Hit_Frie.prefab",
               "AttachPoint": "SelectRoot"
             },
@@ -10162,7 +10179,8 @@
                     ]
                   }
                 },
-                "AttackType": "DOT"
+                "AttackType": "DOT",
+                "DamageTag": "Burn"
               },
               "DisplayData": {
                 "AttachPoint": "SelectRoot"
@@ -10235,7 +10253,8 @@
                     ]
                   }
                 },
-                "AttackType": "DOT"
+                "AttackType": "DOT",
+                "DamageTag": "Burn"
               },
               "DisplayData": {
                 "AttachPoint": "SelectRoot"
@@ -10453,6 +10472,10 @@
                 "PredicateList": [
                   {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT"
                     ]
@@ -10555,7 +10578,6 @@
                       }
                     ]
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
                   "AttachPoint": "SelectRoot"
                 }

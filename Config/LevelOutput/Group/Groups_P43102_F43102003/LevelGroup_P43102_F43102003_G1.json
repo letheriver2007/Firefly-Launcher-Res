@@ -12,16 +12,14 @@
       "PosX": -1.3,
       "PosY": 1.91,
       "PosZ": 5.44,
-      "Name": "PlayerStart",
-      "MapLayerID": 2
+      "Name": "PlayerStart"
     },
     {
       "ID": 2,
       "PosX": -4.47,
       "PosY": -24.7935,
       "PosZ": 115.3426,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -46,7 +44,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -83,7 +80,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

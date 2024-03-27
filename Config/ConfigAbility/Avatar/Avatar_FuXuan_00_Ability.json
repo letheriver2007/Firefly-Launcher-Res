@@ -51,7 +51,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillPointEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_Skill01.prefab"
         },
         {
@@ -218,7 +217,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_Skill02_buff.prefab"
         },
         {
@@ -336,7 +334,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeamCenter"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Field"
               ],
@@ -1116,6 +1113,7 @@
                   "InsertAbilityPriority": "AvatarHealSelf",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": false,
@@ -1597,7 +1595,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeamCenter"
                       },
-                      "IsAttachToTargetEntity": false,
                       "Flags": [
                         "Field"
                       ],
@@ -1852,7 +1849,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab"
         },
         {
@@ -1910,6 +1906,17 @@
       ],
       "_CallbackList": [
         {
+          "Event": "OnCreate",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.ModifierOverrideOnHitEffect",
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_Skill02_02.prefab",
+              "ModifierOverrideOnHitEffectPriority": "ModifySelf",
+              "HitEffectStacking": "Multiple"
+            }
+          ]
+        },
+        {
           "Event": "OnBeforeBeingHitAll",
           "CallbackConfig": [
             {
@@ -1963,19 +1970,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_Skill02_Shield.prefab"
-                },
-                {
-                  "$type": "RPG.GameCore.TriggerEffect",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "IsAttachToTargetEntity": false,
-                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_Skill02_02.prefab",
-                  "MinMutexTime": 1.2,
-                  "MinMutexType": "Entity"
                 }
               ]
             }
@@ -2410,6 +2405,7 @@
                       "InsertAbilityPriority": "AvatarHealSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertUnusedCount",
                         "Count": {
                           "IsDynamic": false,
@@ -2513,6 +2509,7 @@
                       "InsertAbilityPriority": "AvatarHealSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertUnusedCount",
                         "Count": {
                           "IsDynamic": false,
@@ -2707,6 +2704,7 @@
                               "InsertAbilityPriority": "AvatarHealSelf",
                               "ShowInActionBar": true,
                               "PreCheck": {
+                                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                 "Type": "AbilityOwnerInsertUnusedCount",
                                 "Count": {
                                   "IsDynamic": false,
@@ -3386,7 +3384,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DispelDebuff.prefab"
                 },
                 {

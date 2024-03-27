@@ -1880,6 +1880,111 @@
     "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
     "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
   },
+  "20321001": {
+    "FloorID": 20321001,
+    "FloorName": "FloorName_20321001",
+    "BaseFloorID": 20321001,
+    "FloorTag": [
+      "Dream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P201",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_1"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "Config/ConfigMunicipal/Chap03_Town_MunicipalConfig.json",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
+  "20322001": {
+    "FloorID": 20322001,
+    "FloorName": "FloorName_20322001",
+    "BaseFloorID": 20322001,
+    "FloorTag": [
+      "Dream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P202",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p2_2"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "Config/ConfigMunicipal/Chap03_Town_MunicipalConfig.json",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "20323001": {
+    "FloorID": 20323001,
+    "FloorName": "FloorName_20323001",
+    "BaseFloorID": 20323001,
+    "FloorTag": [
+      "Dream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P203",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_3"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "Config/ConfigMunicipal/Chap03_Town_MunicipalConfig.json",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
   "30101001": {
     "FloorID": 30101001,
     "FloorName": "MazeText_Empty",
@@ -2314,6 +2419,40 @@
     ],
     "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
     "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "30122001": {
+    "FloorID": 30122001,
+    "FloorName": "MazeText_Empty",
+    "BaseFloorID": 10102001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P201",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_1"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
   },
   "30201001": {
     "FloorID": 30201001,
@@ -2926,14 +3065,14 @@
     "FloorName": "MazeText_Empty",
     "BaseFloorID": 20111001,
     "FloorTag": [],
-    "BGMWorldState": "State_City_MBelobog",
-    "FloorBGMGroupName": "StateGroup_MCity_Belobog",
-    "FloorBGMNormalStateName": "State_Maze_M1",
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P201",
     "FloorDefaultEmotion": "State_Hollowing_D",
     "FloorBGMBusyStateName": "State_Maze_Busy",
     "EnterAudioEvent": [
       "Ev_sfx_amb_wind",
-      "Ev_amb_maze_belobog_m1_1"
+      "Ev_amb_maze_penocony_p2_1"
     ],
     "ExitAudioEvent": [
       "Ev_sfx_amb_wind_stop"
@@ -2952,8 +3091,8 @@
         "Hash": 1279275400
       }
     ],
-    "CombatBGMLow": "State_Belobog_Overworld_Combat_Low",
-    "CombatBGMHigh": "State_Belobog_Overworld_Combat_High"
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
   },
   "30501001": {
     "FloorID": 30501001,
@@ -3022,6 +3161,40 @@
     ],
     "CombatBGMLow": "State_Belobog_Overworld_Combat_Low",
     "CombatBGMHigh": "State_Belobog_Overworld_Combat_High"
+  },
+  "30521001": {
+    "FloorID": 30521001,
+    "FloorName": "MazeText_Empty",
+    "BaseFloorID": 20111001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P201",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_1"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
   },
   "40000001": {
     "FloorID": 40000001,
@@ -7081,6 +7254,78 @@
     "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
     "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
   },
+  "43306001": {
+    "FloorID": 43306001,
+    "FloorName": "FloorName_43306001",
+    "BaseFloorID": 43306001,
+    "FloorTag": [
+      "Dream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P201",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_1"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
+  "43306002": {
+    "FloorID": 43306002,
+    "FloorName": "FloorName_43306002",
+    "BaseFloorID": 43306002,
+    "FloorTag": [
+      "Dream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P203",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p2_3"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
   "43307001": {
     "FloorID": 43307001,
     "FloorName": "FloorName_43307001",
@@ -8488,9 +8733,246 @@
     "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
     "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
   },
+  "44302001": {
+    "FloorID": 44302001,
+    "FloorName": "FloorName_44302001",
+    "BaseFloorID": 44302001,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P202",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p2_2"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "44302002": {
+    "FloorID": 44302002,
+    "FloorName": "FloorName_44302002",
+    "BaseFloorID": 44302002,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P202",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p2_2"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "44302003": {
+    "FloorID": 44302003,
+    "FloorName": "FloorName_44302003",
+    "BaseFloorID": 44302003,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P103",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p1_3"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
+  "44302004": {
+    "FloorID": 44302004,
+    "FloorName": "FloorName_44302004",
+    "BaseFloorID": 44302004,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P103",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p1_3"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
+  "44303001": {
+    "FloorID": 44303001,
+    "FloorName": "FloorName_44303001",
+    "BaseFloorID": 44303001,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P101",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p1_1"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "44303002": {
+    "FloorID": 44303002,
+    "FloorName": "FloorName_44303002",
+    "BaseFloorID": 44303002,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P101",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p1_1"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "44303003": {
+    "FloorID": 44303003,
+    "FloorName": "FloorName_44303003",
+    "BaseFloorID": 44303003,
+    "FloorTag": [
+      "DeepDream"
+    ],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P101",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p1_1"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
   "80000001": {
     "FloorID": 80000001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80000001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8521,7 +9003,7 @@
   },
   "80001001": {
     "FloorID": 80001001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80001001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8552,7 +9034,7 @@
   },
   "80001002": {
     "FloorID": 80001002,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80001002",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8583,7 +9065,7 @@
   },
   "80001003": {
     "FloorID": 80001003,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80001003",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8614,7 +9096,7 @@
   },
   "81001001": {
     "FloorID": 81001001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81001001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8645,7 +9127,7 @@
   },
   "81002001": {
     "FloorID": 81002001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81002001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8676,7 +9158,7 @@
   },
   "81003001": {
     "FloorID": 81003001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81003001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -8705,9 +9187,40 @@
     "CombatBGMLow": "State_Herta_Space_Station_Suppy_Zone_Combat_Low",
     "CombatBGMHigh": "State_Herta_Space_Station_Suppy_Zone_Combat_High"
   },
+  "81004001": {
+    "FloorID": 81004001,
+    "FloorName": "FloorName_81004001",
+    "BaseFloorID": 10001001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Herta_Space_Station",
+    "FloorBGMGroupName": "StateGroup_Herta_Space_Station",
+    "FloorBGMNormalStateName": "State_N4",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_spacestation_n4"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Herta_Space_Station_Suppy_Zone_Combat_Low",
+    "CombatBGMHigh": "State_Herta_Space_Station_Suppy_Zone_Combat_High"
+  },
   "81111001": {
     "FloorID": 81111001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81111001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8741,7 +9254,7 @@
   },
   "81131001": {
     "FloorID": 81131001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81131001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8775,7 +9288,7 @@
   },
   "81132001": {
     "FloorID": 81132001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81132001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8809,7 +9322,7 @@
   },
   "81121001": {
     "FloorID": 81121001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81121001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8843,7 +9356,7 @@
   },
   "81122001": {
     "FloorID": 81122001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81122001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8877,7 +9390,7 @@
   },
   "81123001": {
     "FloorID": 81123001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81123001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -8911,7 +9424,7 @@
   },
   "81211001": {
     "FloorID": 81211001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81211001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -8945,7 +9458,7 @@
   },
   "81212001": {
     "FloorID": 81212001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81212001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -8979,7 +9492,7 @@
   },
   "81221001": {
     "FloorID": 81221001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81221001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9013,7 +9526,7 @@
   },
   "81222001": {
     "FloorID": 81222001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81222001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9045,9 +9558,45 @@
     "CombatBGMLow": "State_Xianzhou_Maze_X2_1_Combat_Low",
     "CombatBGMHigh": "State_Xianzhou_Maze_X2_1_Combat_High"
   },
+  "81223001": {
+    "FloorID": 81223001,
+    "FloorName": "FloorName_81223001",
+    "BaseFloorID": 10001001,
+    "FloorTag": [],
+    "BGMWorldState": "State_City_MXianzhou_Alliance",
+    "FloorBGMGroupName": "StateGroup_MCity_Xianzhou_Alliance",
+    "FloorBGMNormalStateName": "State_Xianzhou_Maze_SuiGarden",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_xianzhou_x3_4",
+      "Ev_sfx_setlevel_suigarden"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop",
+      "Ev_sfx_setlevel_default"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Xianzhou_SuiGarden_Combat",
+    "CombatBGMHigh": "State_Xianzhou_SuiGarden_Combat"
+  },
   "81231001": {
     "FloorID": 81231001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81231001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9081,7 +9630,7 @@
   },
   "81232001": {
     "FloorID": 81232001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_81232001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9113,9 +9662,105 @@
     "CombatBGMLow": "State_Xianzhou_Maze_X3_Combat_Low",
     "CombatBGMHigh": "State_Xianzhou_Maze_X3_Combat_High"
   },
+  "81311001": {
+    "FloorID": 81311001,
+    "FloorName": "FloorName_81311001",
+    "BaseFloorID": 10001001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P101",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p1_1"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "81312001": {
+    "FloorID": 81312001,
+    "FloorName": "FloorName_81312001",
+    "BaseFloorID": 10001001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P102",
+    "FloorDefaultEmotion": "State_Gravity_FloorA",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_amb_maze_penocony_p1_2"
+    ],
+    "ExitAudioEvent": [],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_InDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_InDoor_High"
+  },
+  "81313001": {
+    "FloorID": 81313001,
+    "FloorName": "FloorName_81313001",
+    "BaseFloorID": 10001001,
+    "FloorTag": [],
+    "BGMWorldState": "State_Penacony",
+    "FloorBGMGroupName": "StateGroup_Penocony",
+    "FloorBGMNormalStateName": "State_Penocony_MAZ_P103",
+    "FloorDefaultEmotion": "State_Hollowing_D",
+    "FloorBGMBusyStateName": "State_Maze_Busy",
+    "EnterAudioEvent": [
+      "Ev_sfx_amb_wind",
+      "Ev_amb_maze_penocony_p1_3"
+    ],
+    "ExitAudioEvent": [
+      "Ev_sfx_amb_wind_stop"
+    ],
+    "FloorType": "Default",
+    "OptionalLoadBlocksConfig": "",
+    "MunicipalConfigPath": "",
+    "MapLayerNameList": [
+      {
+        "Hash": 1279275398
+      },
+      {
+        "Hash": 1279275401
+      },
+      {
+        "Hash": 1279275400
+      }
+    ],
+    "CombatBGMLow": "State_Penocony_Combat_P01_OutDoor_Low",
+    "CombatBGMHigh": "State_Penocony_Combat_P01_OutDoor_High"
+  },
   "80200001": {
     "FloorID": 80200001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9149,7 +9794,7 @@
   },
   "80200002": {
     "FloorID": 80200002,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200002",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9180,7 +9825,7 @@
   },
   "80200003": {
     "FloorID": 80200003,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200003",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9214,7 +9859,7 @@
   },
   "80200004": {
     "FloorID": 80200004,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200004",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9248,7 +9893,7 @@
   },
   "80200005": {
     "FloorID": 80200005,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200005",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9279,7 +9924,7 @@
   },
   "80200006": {
     "FloorID": 80200006,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200006",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9313,7 +9958,7 @@
   },
   "80200007": {
     "FloorID": 80200007,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200007",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9347,7 +9992,7 @@
   },
   "80200008": {
     "FloorID": 80200008,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80200008",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9381,7 +10026,7 @@
   },
   "80201001": {
     "FloorID": 80201001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80201001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9412,7 +10057,7 @@
   },
   "80202001": {
     "FloorID": 80202001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80202001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9443,7 +10088,7 @@
   },
   "80203001": {
     "FloorID": 80203001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80203001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9477,7 +10122,7 @@
   },
   "80204001": {
     "FloorID": 80204001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80204001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9511,7 +10156,7 @@
   },
   "80205001": {
     "FloorID": 80205001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80205001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9545,7 +10190,7 @@
   },
   "80206001": {
     "FloorID": 80206001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80206001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9579,7 +10224,7 @@
   },
   "80207001": {
     "FloorID": 80207001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80207001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9613,7 +10258,7 @@
   },
   "80208001": {
     "FloorID": 80208001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80208001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9647,7 +10292,7 @@
   },
   "80209001": {
     "FloorID": 80209001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80209001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9681,7 +10326,7 @@
   },
   "80210001": {
     "FloorID": 80210001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80210001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9715,7 +10360,7 @@
   },
   "80211001": {
     "FloorID": 80211001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80211001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9746,7 +10391,7 @@
   },
   "80301001": {
     "FloorID": 80301001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80301001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9777,7 +10422,7 @@
   },
   "80301002": {
     "FloorID": 80301002,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80301002",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_Herta_Space_Station",
@@ -9808,7 +10453,7 @@
   },
   "80302001": {
     "FloorID": 80302001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80302001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9842,7 +10487,7 @@
   },
   "80302002": {
     "FloorID": 80302002,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80302002",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9876,7 +10521,7 @@
   },
   "80303001": {
     "FloorID": 80303001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80303001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MBelobog",
@@ -9910,7 +10555,7 @@
   },
   "80304001": {
     "FloorID": 80304001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80304001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",
@@ -9944,7 +10589,7 @@
   },
   "80305001": {
     "FloorID": 80305001,
-    "FloorName": "MazeText_Empty",
+    "FloorName": "FloorName_80305001",
     "BaseFloorID": 10001001,
     "FloorTag": [],
     "BGMWorldState": "State_City_MXianzhou_Alliance",

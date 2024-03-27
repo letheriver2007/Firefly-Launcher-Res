@@ -2,6 +2,9 @@
   "GroupGUID": "66189ad6-0296-429a-9e87-96b45e7e4466",
   "GroupName": "NPCs",
   "AreaAnchorName": "LevelArea_P10000_F10000000_G3",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "LoadCondition": {
     "Conditions": [
       {
@@ -65,8 +68,7 @@
       "PosX": -1.49,
       "PosY": -1.0E-6,
       "PosZ": 2.14,
-      "Name": "TalktoPam",
-      "MapLayerID": 1
+      "Name": "TalktoPam"
     }
   ],
   "MonsterList": [],
@@ -86,13 +88,13 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -108,13 +110,13 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": [
@@ -151,7 +153,6 @@
         3,
         4
       ],
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8
@@ -179,9 +180,10 @@
         ]
       },
       "ConnectWithSubMissionIDList": [
-        4040325
+        404032502
       ],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "OverrideSpawn": true,
         "EntitySpawnConfig": {}
@@ -195,6 +197,7 @@
       "Name": "NPC2",
       "RotY": 240.1102,
       "NPCID": 1003,
+      "ValueSource": {},
       "DialogueGroups": [
         101150223,
         200020101,
@@ -203,7 +206,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sit01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -241,7 +243,13 @@
         200020101,
         101150223,
         100050406
-      ]
+      ],
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TriggerValidGuest": {}
     },
     {
       "ID": 400003,
@@ -259,7 +267,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sit01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -292,7 +299,8 @@
       "ConnectWithSubMissionIDList": [
         100050407,
         100050408
-      ]
+      ],
+      "CameraCenterEntityList": []
     }
   ]
 }

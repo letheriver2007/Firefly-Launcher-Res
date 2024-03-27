@@ -9,26 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -201,
-      -34
-    ],
-    "LowerUpperBounds": {
-      "x": -20,
-      "y": -19
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -201,
-      -34
-    ],
-    "LowerUpperBounds": {
-      "x": -20,
-      "y": -19
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -46,7 +26,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1
       ],

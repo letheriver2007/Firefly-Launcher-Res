@@ -25,28 +25,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      84,
-      223
-    ],
-    "LowerUpperBounds": {
-      "x": 70,
-      "y": 71
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      86,
-      221,
-      84,
-      223
-    ],
-    "LowerUpperBounds": {
-      "x": 70,
-      "y": 71
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -87,7 +65,6 @@
       "CampID": 4,
       "State": "EventClose",
       "EventID": 20313707,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -128,7 +105,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -178,7 +154,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -213,7 +188,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         2,
         4,

@@ -9,38 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -67,
-      91,
-      -66,
-      91,
-      -67,
-      92,
-      -66,
-      92
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -67,
-      91,
-      -66,
-      91,
-      -67,
-      92,
-      -66,
-      92
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -51,7 +19,6 @@
       "PosZ": 183.943,
       "Name": "Anchor1",
       "RotY": 141.3167,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -59,8 +26,7 @@
       "PosX": -131.23,
       "PosY": -13.199,
       "PosZ": 182.954,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -69,7 +35,6 @@
       "PosZ": 183.318,
       "Name": "Anchor3",
       "RotY": 255.4308,
-      "MapLayerID": 2,
       "Usage": "Actor"
     }
   ],
@@ -84,7 +49,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -118,7 +82,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64
@@ -156,7 +119,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -187,7 +149,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -218,7 +179,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -249,7 +209,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -280,7 +239,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -311,7 +269,6 @@
         "GroupID": 336,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

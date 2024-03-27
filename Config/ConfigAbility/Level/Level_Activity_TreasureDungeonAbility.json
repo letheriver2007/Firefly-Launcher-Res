@@ -454,6 +454,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Insert"
                     ]
@@ -586,6 +590,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "Normal"
                     ]
@@ -718,6 +726,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT"
                     ]
@@ -1550,7 +1562,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_Attack.prefab"
         },
         {
@@ -2001,7 +2012,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_OtherRise.prefab"
         },
         {
@@ -2050,7 +2060,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillTargetEntityList"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Speedup.prefab"
         },
         {
@@ -2059,7 +2068,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillTargetEntityList"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
         },
         {
@@ -2191,6 +2199,10 @@
                       "$type": "RPG.GameCore.PredicateTaskList",
                       "Predicate": {
                         "$type": "RPG.GameCore.ByAttackType",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
                         "AttackTypes": [
                           "ElementDamage"
                         ]
@@ -2287,7 +2299,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
           "PositionOffset": {
             "X": 0,
@@ -2516,7 +2527,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_Attack.prefab"
         },
         {
@@ -2842,7 +2852,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_OtherRise.prefab"
         },
         {
@@ -2860,7 +2869,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
         },
         {
@@ -2943,7 +2951,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
         },
         {
@@ -3371,7 +3378,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_OtherRise.prefab"
         },
         {
@@ -3389,7 +3395,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
         },
         {
@@ -3457,6 +3462,10 @@
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "ElementDamage"
                     ]
@@ -3624,7 +3633,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActivityTreasureDungeon_Treasure_Debuff.prefab"
         },
         {
@@ -3642,7 +3650,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillTargetEntityList"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Debuff_Other.prefab"
         },
         {

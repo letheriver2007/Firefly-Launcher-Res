@@ -225,7 +225,7 @@
             },
             "HitAnimation": "Hit",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_Hit.prefab",
-            "HitEffectHeight": 0,
+            "HitEffectHeight": 1.078,
             "HitPosHeight": 1.1,
             "HitAngleHorizontal": 90
           },
@@ -300,6 +300,7 @@
             },
             "HitAnimation": "Hit_H",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_Hit2.prefab",
+            "HitEffectHeight": 1.255802,
             "HitTimeSlowType": "Impact",
             "HitPosHeight": 1.2,
             "HitAngleVertical": 90
@@ -547,7 +548,7 @@
                 "OpCodes": "AQAK",
                 "FixedValues": [],
                 "DynamicHashes": [
-                  -1126825319
+                  -1999440872
                 ]
               }
             },
@@ -575,7 +576,7 @@
             },
             "HitAnimation": "Hit",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_v2_Hit.prefab",
-            "HitEffectHeight": 0,
+            "HitEffectHeight": 1.369001,
             "HitPosHeight": 1.1,
             "HitAngleHorizontal": 30
           },
@@ -609,7 +610,7 @@
                 "OpCodes": "AQAK",
                 "FixedValues": [],
                 "DynamicHashes": [
-                  -1126825319
+                  -1999440872
                 ]
               }
             },
@@ -637,7 +638,7 @@
             },
             "HitAnimation": "Hit",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_v2_Hit2.prefab",
-            "HitEffectHeight": 0,
+            "HitEffectHeight": 1.1,
             "HitPosHeight": 1.1
           },
           "CanTriggerLastKill": true
@@ -692,7 +693,7 @@
                 "OpCodes": "AQAK",
                 "FixedValues": [],
                 "DynamicHashes": [
-                  -1126825319
+                  -1999440872
                 ]
               }
             },
@@ -720,7 +721,7 @@
             },
             "HitAnimation": "Hit_H",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_v2_Hit3.prefab",
-            "HitEffectHeight": 0,
+            "HitEffectHeight": 1.216,
             "HitPosHeight": 1.2
           },
           "CanTriggerLastKill": true
@@ -757,15 +758,7 @@
               "Value": 0
             }
           },
-          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1109BP.png"
-        },
-        {
-          "$type": "RPG.GameCore.RemoveModifier",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "Caster"
-          },
-          "ModifierName": "MAvatar_Gallagher_00_NormalAttckAlter_Enable"
+          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1301Normal02.png"
         },
         {
           "$type": "RPG.GameCore.SkillPerformFinish"
@@ -906,20 +899,69 @@
           }
         },
         {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByRankActivated",
+            "TriggerKey": {
+              "Hash": 523552506
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.DispelStatus",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              },
+              "Numbers": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -623095161
+                  ]
+                }
+              },
+              "Order": "LastAdded"
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              },
+              "ModifierName": "MWAvatar_Gallagher_00_Skill02_StatusResModifier",
+              "LifeTime": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    329378919
+                  ]
+                }
+              },
+              "DynamicValues": {
+                "MDF_PropertyValue": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      96615886
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
           "$type": "RPG.GameCore.HealHP",
           "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
-          },
-          "HealPercentage": {
-            "IsDynamic": true,
-            "PostfixExpr": {
-              "OpCodes": "AQAK",
-              "FixedValues": [],
-              "DynamicHashes": [
-                -1820862454
-              ]
-            }
           },
           "SPHitRatio": {
             "IsDynamic": false,
@@ -933,13 +975,34 @@
               "OpCodes": "AQAK",
               "FixedValues": [],
               "DynamicHashes": [
-                1960834604
+                2082775117
               ]
             }
           },
           "DisplayData": {
             "UIMessageHeight": 1
           }
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByIsTurnActionEntity",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "AbilityTargetEntity"
+            }
+          },
+          "SuccessTaskList": [],
+          "FailedTaskList": [
+            {
+              "$type": "RPG.GameCore.CharacterPlayVO",
+              "VOType": "ReceiveHealing",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              }
+            }
+          ]
         },
         {
           "$type": "RPG.GameCore.SkillPerformFinish"
@@ -1301,6 +1364,18 @@
                 1114430935
               ]
             }
+          },
+          "DynamicValues": {
+            "PointB3_Active": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  350839046
+                ]
+              }
+            }
           }
         },
         {
@@ -1374,14 +1449,14 @@
               "Value": 0
             }
           },
-          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1109BP.png"
+          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1301Normal02.png"
         },
         {
           "$type": "RPG.GameCore.PredicateTaskList",
           "Predicate": {
-            "$type": "RPG.GameCore.ByRankActivated",
-            "TriggerKey": {
-              "Hash": 2089636447
+            "$type": "RPG.GameCore.BySkillPointActivated",
+            "PointTriggerKey": {
+              "Hash": 1455742904
             }
           },
           "SuccessTaskList": [
@@ -1415,7 +1490,13 @@
     },
     {
       "Modifiers": {
-        "Avatar_Gallagher_00_Rank01_PreshowModifier": {
+        "Avatar_Gallagher_00_PointB3_Modifier": {
+          "Stacking": "ReplaceByCaster"
+        },
+        "Avatar_Gallagher_00_Rank02_Modifier": {
+          "Stacking": "ReplaceByCaster"
+        },
+        "Avatar_Gallagher_00_PointB2_PreshowModifier": {
           "ModifierAffectedPreshowConfig": {
             "SkillTypes": [
               "Ultra"
@@ -1479,7 +1560,7 @@
             }
           ]
         },
-        "Avatar_Gallagher_00_PointB2_Modifier": {
+        "Avatar_Gallagher_00_Rank01_Modifier": {
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -1498,6 +1579,14 @@
                   },
                   "SuccessTaskList": [
                     {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "Avatar_Gallagher_00_Rank01_AddStatusModifier"
+                    },
+                    {
                       "$type": "RPG.GameCore.ModifySPNew",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
@@ -1509,7 +1598,7 @@
                           "OpCodes": "AQAK",
                           "FixedValues": [],
                           "DynamicHashes": [
-                            -1681853425
+                            2075414464
                           ]
                         }
                       }
@@ -1523,6 +1612,33 @@
             {
               "PriorityName": "EnterBattlePriority",
               "Key": "CharacterBuff"
+            }
+          ]
+        },
+        "Avatar_Gallagher_00_Rank01_AddStatusModifier": {
+          "_CallbackList": [
+            {
+              "Event": "OnStack",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.StackProperty",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "Property": "StatusResistanceBase",
+                  "PropertyValue": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        1446991894
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -1543,26 +1659,7 @@
               "Value": 0
             }
           },
-          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1109BP.png"
-        },
-        {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.BySkillPointActivated",
-            "PointTriggerKey": {
-              "Hash": 1455742904
-            }
-          },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.AddModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "Caster"
-              },
-              "ModifierName": "Avatar_Gallagher_00_PointB2_Modifier"
-            }
-          ]
+          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1301Normal02.png"
         },
         {
           "$type": "RPG.GameCore.PredicateTaskList",
@@ -1579,7 +1676,86 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "ModifierName": "Avatar_Gallagher_00_Rank01_PreshowModifier"
+              "ModifierName": "Avatar_Gallagher_00_Rank01_Modifier"
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.BySkillPointActivated",
+            "PointTriggerKey": {
+              "Hash": 1455742905
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "PointB3_Active",
+              "Value": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 1
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifierName": "Avatar_Gallagher_00_PointB3_Modifier"
+            }
+          ],
+          "FailedTaskList": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "PointB3_Active",
+              "Value": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0
+                }
+              }
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByRankActivated",
+            "TriggerKey": {
+              "Hash": 523552506
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifierName": "Avatar_Gallagher_00_Rank02_Modifier"
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.BySkillPointActivated",
+            "PointTriggerKey": {
+              "Hash": 1455742904
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifierName": "Avatar_Gallagher_00_PointB2_PreshowModifier"
             }
           ]
         },
@@ -1625,7 +1801,7 @@
     },
     {
       "Modifiers": {
-        "MAvatar_Gallagher_00_MazeSkill": {
+        "MAvatar_Gallagher_00_PreMazeSkill": {
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -1667,8 +1843,59 @@
                             -422443133
                           ]
                         }
+                      },
+                      "DynamicValues": {
+                        "PointB3_Active": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              350839046
+                            ]
+                          }
+                        }
                       }
-                    },
+                    }
+                  ],
+                  "FailedTaskList": []
+                }
+              ]
+            }
+          ],
+          "_PriorityList": [
+            {
+              "PriorityName": "EnterBattlePriority",
+              "Key": "CharacterBuff"
+            }
+          ]
+        },
+        "MAvatar_Gallagher_00_MazeSkill": {
+          "_CallbackList": [
+            {
+              "Event": "OnEnterBattle",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByIsMazeSkillAffectCurrentWave"
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByCompareWaveCount",
+                        "CompareType": "Equal",
+                        "CompareValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 1
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "SuccessTaskList": [
                     {
                       "$type": "RPG.GameCore.Retarget",
                       "TargetType": {
@@ -1923,6 +2150,14 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "ModifierName": "MAvatar_Gallagher_00_PreMazeSkill"
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
           "ModifierName": "MAvatar_Gallagher_00_MazeSkill"
         }
       ],
@@ -1967,6 +2202,39 @@
         }
       }
     },
+    "MWAvatar_Gallagher_00_Skill02_StatusResModifier": {
+      "_CallbackList": [
+        {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.StackProperty",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "Property": "StatusResistanceBase",
+              "PropertyValue": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    2128130574
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
+    },
     "MWAvatar_Gallagher_00_Skill03_DeBuffModifier": {
       "BehaviorFlagList": [
         "RemoveWhenCasterDead"
@@ -1978,60 +2246,11 @@
             {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.ByRankActivated",
-                "TriggerKey": {
-                  "Hash": 523552506
-                }
-              },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.SetDynamicValueByStatusCount",
-                  "DynamicKey": "Rank02_DebuffCount",
-                  "ReadTargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  }
-                },
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.ByCompareDynamicValue",
-                    "DynamicKey": "Rank02_DebuffCount",
-                    "CompareType": "Greater",
-                    "CompareValue": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          1877459919
-                        ]
-                      }
-                    }
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "Rank02_DebuffCount",
-                      "Value": {
-                        "IsDynamic": true,
-                        "PostfixExpr": {
-                          "OpCodes": "AQAK",
-                          "FixedValues": [],
-                          "DynamicHashes": [
-                            1877459919
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
                 "$type": "RPG.GameCore.ByAttackType",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
                 "AttackTypes": [
                   "ElementDamage"
                 ]
@@ -2042,12 +2261,10 @@
                   "Defender_AllDamageTypeTakenRatio": {
                     "IsDynamic": true,
                     "PostfixExpr": {
-                      "OpCodes": "AQABAQECBAIK",
+                      "OpCodes": "AQAK",
                       "FixedValues": [],
                       "DynamicHashes": [
-                        1995290744,
-                        1349184604,
-                        -743125184
+                        -341233290
                       ]
                     }
                   }
@@ -2057,52 +2274,105 @@
           ]
         },
         {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_BreakDamagTaken",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    1995290744
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
           "Event": "OnAfterBeingAttacked",
           "CallbackConfig": [
             {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.ByAnd",
-                "PredicateList": [
-                  {
-                    "$type": "RPG.GameCore.BySkillPointActivated",
-                    "PointTriggerKey": {
-                      "Hash": 1455742905
-                    }
-                  },
-                  {
-                    "$type": "RPG.GameCore.ByIsContainModifier",
-                    "TargetType": {
-                      "$type": "RPG.GameCore.TargetAlias",
-                      "Alias": "ParamEntity"
-                    },
-                    "ModifierName": "MAvatar_Gallagher_00_NormalAttckAlter_Enable"
-                  }
-                ]
+                "$type": "RPG.GameCore.ByTargetTeam",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "Team": "TeamLight"
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.Retarget",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllLightTeam"
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "DynamicKey": "PointB3_Active",
+                        "CompareType": "Equal",
+                        "CompareValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 1
+                          }
+                        }
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "ModifierName": "MAvatar_Gallagher_00_NormalAttckAlter_Enable"
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByCurrentSkillName",
+                        "SkillName": "Skill11"
+                      }
+                    ]
                   },
-                  "TaskList": [
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.Retarget",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "AllLightTeam"
+                      },
+                      "TaskList": [
+                        {
+                          "$type": "RPG.GameCore.HealHP",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ParamEntity"
+                          },
+                          "ModifyValue": {
+                            "IsDynamic": true,
+                            "PostfixExpr": {
+                              "OpCodes": "AQAK",
+                              "FixedValues": [],
+                              "DynamicHashes": [
+                                420961485
+                              ]
+                            }
+                          },
+                          "DisplayData": {
+                            "UIMessageHeight": 1
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "FailedTaskList": [
                     {
                       "$type": "RPG.GameCore.HealHP",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
-                      },
-                      "HealPercentage": {
-                        "IsDynamic": true,
-                        "PostfixExpr": {
-                          "OpCodes": "AQAK",
-                          "FixedValues": [],
-                          "DynamicHashes": [
-                            1688698836
-                          ]
-                        }
                       },
                       "ModifyValue": {
                         "IsDynamic": true,
@@ -2110,7 +2380,7 @@
                           "OpCodes": "AQAK",
                           "FixedValues": [],
                           "DynamicHashes": [
-                            334331080
+                            420961485
                           ]
                         }
                       },
@@ -2120,47 +2390,15 @@
                     }
                   ]
                 }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.HealHP",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ParamEntity"
-                  },
-                  "HealPercentage": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        1688698836
-                      ]
-                    }
-                  },
-                  "ModifyValue": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        334331080
-                      ]
-                    }
-                  },
-                  "DisplayData": {
-                    "UIMessageHeight": 1
-                  }
-                }
               ]
             }
           ]
         }
       ],
-      "Stacking": "Refresh",
+      "Stacking": "ReplaceByCaster",
       "DynamicValues": {
         "Values": {
-          "1349184604": {}
+          "-341233290": {}
         }
       }
     },
@@ -2227,7 +2465,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_v2_Ready.prefab"
             },
             {
@@ -2236,8 +2473,29 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Gallagher/Eff_Avatar_Gallagher_00_Skill01_v2_Ready2.prefab"
+            }
+          ]
+        },
+        {
+          "Event": "OnAfterSkillUse",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCurrentSkillName",
+                "SkillName": "Skill11"
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Gallagher_00_NormalAttckAlter_Enable"
+                }
+              ]
             }
           ]
         }
@@ -2270,7 +2528,7 @@
           ]
         }
       ],
-      "Stacking": "Refresh"
+      "Stacking": "ReplaceByCaster"
     },
     "MAvatar_Gallagher_00_Passive_SkillTree01": {
       "OnAbilityPropertyChange": [
@@ -2412,7 +2670,7 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "Property": "HealRatioBase",
+              "Property": "HealRatioConvert",
               "PropertyValue": {
                 "IsDynamic": true,
                 "PostfixExpr": {

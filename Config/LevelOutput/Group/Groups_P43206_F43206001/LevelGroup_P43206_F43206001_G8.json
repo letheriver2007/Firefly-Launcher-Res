@@ -40,7 +40,6 @@
       "RotY": 269.4566,
       "RotX": 3.380002,
       "RotZ": 0.040494,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -58,7 +57,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X302/Maze_Chap02_X302_BrokenBridge_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

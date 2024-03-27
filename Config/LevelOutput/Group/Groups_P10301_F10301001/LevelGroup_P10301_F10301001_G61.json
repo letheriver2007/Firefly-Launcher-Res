@@ -11,30 +11,6 @@
     59
   ],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -84,
-      107,
-      -84,
-      108
-    ],
-    "LowerUpperBounds": {
-      "x": -7,
-      "y": -6
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -84,
-      107,
-      -84,
-      108
-    ],
-    "LowerUpperBounds": {
-      "x": -7,
-      "y": -6
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -45,7 +21,6 @@
       "PosZ": 215.291,
       "Name": "Anchor1",
       "RotY": 1.627534,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -57,7 +32,6 @@
       "RotY": 331.5696,
       "RotX": 3.437773,
       "RotZ": 1.0E-5,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -79,7 +53,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         128,
@@ -116,7 +89,6 @@
         "GroupID": 61,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -146,7 +118,6 @@
         "GroupID": 61,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -176,7 +147,6 @@
         "GroupID": 61,
         "InstanceID": 400001
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

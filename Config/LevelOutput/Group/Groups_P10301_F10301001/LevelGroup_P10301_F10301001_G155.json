@@ -3,6 +3,9 @@
   "GroupName": "SlotMachine",
   "LevelGraph": "Config/Level/GroupGraph/F10301001/Group_F10301001_G155.json",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G155",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
@@ -12,22 +15,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -67,
-      90,
-      -67,
-      91
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -40,7 +27,6 @@
       "RotY": 117.3428,
       "RotX": 14.98175,
       "RotZ": 357.8882,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -59,7 +45,6 @@
       "PropID": 103021,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -72,6 +57,7 @@
       },
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -86,7 +72,6 @@
       "PropID": 103021,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -99,6 +84,7 @@
       },
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

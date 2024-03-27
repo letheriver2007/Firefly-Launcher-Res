@@ -9,36 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -25,
-      -224
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -24,
-      -229,
-      -15,
-      -227,
-      -23,
-      -226,
-      -25,
-      -224,
-      -22,
-      -224,
-      -25,
-      -222
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 5
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -49,7 +19,6 @@
       "PosZ": -440.2939,
       "Name": "Anchor1",
       "RotY": 173.0823,
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -59,7 +28,6 @@
       "PosZ": -452.94,
       "Name": "Anchor2",
       "RotY": 179.6875,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -72,7 +40,6 @@
       "PosZ": -455.553,
       "Name": "Anchor3",
       "RotY": 209.8184,
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -82,9 +49,8 @@
       "PosZ": -457.5087,
       "Name": "Anchor4",
       "RotY": 342.2966,
-      "RotX": 8.422423,
+      "RotX": 8.422424,
       "RotZ": -2.44E-4,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -96,7 +62,6 @@
       "PosY": 7.604002,
       "PosZ": -455.566,
       "Name": "Anchor5",
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -106,7 +71,6 @@
       "PosZ": -438.77,
       "Name": "Anchor6",
       "RotY": 178.6599,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -117,8 +81,7 @@
       "PosX": -47.393,
       "PosY": 8.56,
       "PosZ": -456.437,
-      "Name": "Anchor7",
-      "MapLayerID": 3
+      "Name": "Anchor7"
     }
   ],
   "MonsterList": [],
@@ -140,7 +103,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -149,6 +111,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -170,7 +133,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -180,6 +142,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -201,7 +164,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -210,6 +172,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -231,7 +194,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -240,6 +202,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -261,13 +224,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300006,
@@ -286,7 +249,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -294,6 +256,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -317,7 +280,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -330,6 +292,7 @@
       "TagContainer": {
         "List": []
       },
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -351,7 +314,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -361,6 +323,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -382,7 +345,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -392,6 +354,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -409,11 +372,11 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
       "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

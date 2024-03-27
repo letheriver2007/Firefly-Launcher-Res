@@ -40,7 +40,6 @@
       "PosZ": 57.271,
       "Name": "Anchor1",
       "RotY": 140.7976,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -51,7 +50,6 @@
       "Name": "Anchor2",
       "RotY": 124.0342,
       "RotX": 5.000002,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -59,8 +57,7 @@
       "PosX": -30.09,
       "PosY": 8.0,
       "PosZ": 63.6,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],

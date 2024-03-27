@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -44,
-      37,
-      -45,
-      38
-    ],
-    "LowerUpperBounds": {
-      "x": 172,
-      "y": 173
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -44,
-      37,
-      -45,
-      38
-    ],
-    "LowerUpperBounds": {
-      "x": 172,
-      "y": 174
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -42,7 +18,6 @@
       "PosZ": 74.379,
       "Name": "Anchor01",
       "RotY": 316.972,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -52,7 +27,6 @@
       "PosZ": 73.802,
       "Name": "Anchor2",
       "RotY": 299.215,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -88,7 +62,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -114,7 +87,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -140,7 +112,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -174,7 +145,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -195,7 +165,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -220,7 +189,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -244,7 +212,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

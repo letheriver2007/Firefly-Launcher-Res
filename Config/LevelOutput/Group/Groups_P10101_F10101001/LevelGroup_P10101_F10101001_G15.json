@@ -22,7 +22,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -68,7 +67,6 @@
       "NPCID": 11110,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -115,7 +113,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -162,7 +159,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo02Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -220,7 +216,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -273,7 +268,6 @@
       "NPCID": 11211,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -329,7 +323,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -389,7 +382,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -432,7 +424,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -475,7 +466,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sing01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -535,7 +525,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo02Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -580,7 +569,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -626,7 +614,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "GuitarLoop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "PossessionConfig": {
         "Name": "Possession_ClassicalGuitar_A_01"
       },

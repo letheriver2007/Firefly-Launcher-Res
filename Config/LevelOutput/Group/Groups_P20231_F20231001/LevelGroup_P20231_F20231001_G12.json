@@ -22,7 +22,9 @@
     ]
   },
   "OwnerMainMissionID": 1021201,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -43,15 +45,16 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "HideInCutScene": true,
       "HideInStory": true,
-      "PerformanceHideFlags": -2
+      "PerformanceHideFlags": -2,
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": [
@@ -65,11 +68,11 @@
       "NPCID": 2202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200040000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400002,
@@ -81,11 +84,11 @@
       "NPCID": 2202,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200040000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 400003,
@@ -97,11 +100,11 @@
       "NPCID": 2209,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200330000,
-      "InitialHiddenNodeList": []
+      "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": []
     }
   ]
 }

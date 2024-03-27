@@ -189,6 +189,20 @@
     ],
     "ShowCondition": []
   },
+  "614": {
+    "UnlockID": 614,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1000301"
+      },
+      {
+        "Type": "PlayerLevel",
+        "Param": "40"
+      }
+    ],
+    "ShowCondition": []
+  },
   "700": {
     "UnlockID": 700,
     "Conditions": [
@@ -237,6 +251,48 @@
       {
         "Type": "FinishMainMission",
         "Param": "1000113"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "1512": {
+    "UnlockID": 1512,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "101000205"
+      },
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010121"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "1513": {
+    "UnlockID": 1513,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "102010112"
+      },
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010121"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "1514": {
+    "UnlockID": 1514,
+    "Conditions": [
+      {
+        "Type": "FinishSubMission",
+        "Param": "103040110"
+      },
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010121"
       }
     ],
     "ShowCondition": []
@@ -879,6 +935,46 @@
     ],
     "ShowCondition": []
   },
+  "3628": {
+    "UnlockID": 3628,
+    "Conditions": [
+      {
+        "Type": "PlayerLevel",
+        "Param": "21"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "3629": {
+    "UnlockID": 3629,
+    "Conditions": [
+      {
+        "Type": "PlayerLevel",
+        "Param": "21"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "3630": {
+    "UnlockID": 3630,
+    "Conditions": [
+      {
+        "Type": "PlayerLevel",
+        "Param": "21"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "3631": {
+    "UnlockID": 3631,
+    "Conditions": [
+      {
+        "Type": "PlayerLevel",
+        "Param": "21"
+      }
+    ],
+    "ShowCondition": []
+  },
   "3700": {
     "UnlockID": 3700,
     "Conditions": [
@@ -913,6 +1009,16 @@
     ],
     "ShowCondition": []
   },
+  "4101": {
+    "UnlockID": 4101,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4020104"
+      }
+    ],
+    "ShowCondition": []
+  },
   "4300": {
     "UnlockID": 4300,
     "Conditions": [
@@ -939,6 +1045,16 @@
       {
         "Type": "FinishMainMission",
         "Param": "1000301"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "6000": {
+    "UnlockID": 6000,
+    "Conditions": [
+      {
+        "Type": "InStoryLine",
+        "Param": "0"
       }
     ],
     "ShowCondition": []
@@ -1395,6 +1511,16 @@
       {
         "Type": "FinishMainMission",
         "Param": "4040302"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "9939": {
+    "UnlockID": 9939,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4040334"
       }
     ],
     "ShowCondition": []
@@ -1963,6 +2089,20 @@
     ],
     "ShowCondition": []
   },
+  "23417": {
+    "UnlockID": 23417,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010127"
+      },
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031101"
+      }
+    ],
+    "ShowCondition": []
+  },
   "23511": {
     "UnlockID": 23511,
     "Conditions": [
@@ -2045,6 +2185,30 @@
   },
   "23519": {
     "UnlockID": 23519,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010123"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "23520": {
+    "UnlockID": 23520,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "4010123"
+      },
+      {
+        "Type": "FinishMainMission",
+        "Param": "1031801"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "23521": {
+    "UnlockID": 23521,
     "Conditions": [
       {
         "Type": "FinishMainMission",
@@ -2857,6 +3021,16 @@
       {
         "Type": "FinishSubMission",
         "Param": "103060129"
+      }
+    ],
+    "ShowCondition": []
+  },
+  "104001": {
+    "UnlockID": 104001,
+    "Conditions": [
+      {
+        "Type": "FinishMainMission",
+        "Param": "1032101"
       }
     ],
     "ShowCondition": []

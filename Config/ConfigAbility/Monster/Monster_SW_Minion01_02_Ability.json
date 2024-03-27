@@ -49,7 +49,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_02/Eff_Monster_SW_Minion01_02_Idle_StandBy.prefab"
                 }
               ]
@@ -76,7 +75,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_02/Eff_Monster_SW_Minion01_02_Idle_StandBy.prefab"
                 }
               ]
@@ -103,7 +101,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_SW_Minion01_02/Eff_Monster_SW_Minion01_02_Idle_StandBy.prefab"
                 }
               ]

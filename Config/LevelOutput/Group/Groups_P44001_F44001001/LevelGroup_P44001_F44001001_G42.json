@@ -9,29 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -16,
-      -37
-    ],
-    "LowerUpperBounds": {
-      "x": -1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -70,
-      -53,
-      -16,
-      -37,
-      -56,
-      -35
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -39,8 +16,7 @@
       "PosX": -110.9,
       "PosY": -0.101087,
       "PosZ": -67.727,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -51,7 +27,6 @@
       "RotY": 210.4176,
       "RotX": 6.099,
       "RotZ": 1.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -63,8 +38,7 @@
       "PosY": -1.024033,
       "PosZ": -75.034,
       "Name": "Anchor3",
-      "RotY": 300.7842,
-      "MapLayerID": 2
+      "RotY": 300.7842
     }
   ],
   "MonsterList": [],
@@ -78,7 +52,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -99,7 +72,6 @@
       "PropID": 111,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -128,7 +100,6 @@
       "CampID": 2,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900030000,

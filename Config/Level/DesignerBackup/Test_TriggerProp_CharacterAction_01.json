@@ -21,7 +21,8 @@
           "CharacterUniqueName": {
             "Value": "LocalPlayer"
           },
-          "AnimStateName": "UsePropBS"
+          "AnimStateName": "UsePropBS",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.WaitSecond",
@@ -37,7 +38,8 @@
           "CharacterUniqueName": {
             "Value": "LocalPlayer"
           },
-          "AnimStateName": "UsePropAS"
+          "AnimStateName": "UsePropAS",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.ReleaseCharacter",

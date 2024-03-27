@@ -117,6 +117,23 @@
     "ControlGroupID": 17,
     "StartState": 1
   },
+  "11": {
+    "WolfBroID": 11,
+    "PlaneID": 20321,
+    "FloorID": 20321001,
+    "GroupIDList": [
+      20,
+      42,
+      22,
+      44
+    ],
+    "MonsterGroupIDList": [
+      22,
+      44
+    ],
+    "ControlGroupID": 21,
+    "StartState": 1
+  },
   "12": {
     "WolfBroID": 12,
     "PlaneID": 44301,
@@ -130,6 +147,34 @@
       5
     ],
     "ControlGroupID": 4,
+    "StartState": 1
+  },
+  "14": {
+    "WolfBroID": 14,
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "GroupIDList": [
+      97,
+      98
+    ],
+    "MonsterGroupIDList": [
+      97
+    ],
+    "ControlGroupID": 99,
+    "StartState": 1
+  },
+  "15": {
+    "WolfBroID": 15,
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "GroupIDList": [
+      102,
+      103
+    ],
+    "MonsterGroupIDList": [
+      103
+    ],
+    "ControlGroupID": 101,
     "StartState": 1
   }
 }

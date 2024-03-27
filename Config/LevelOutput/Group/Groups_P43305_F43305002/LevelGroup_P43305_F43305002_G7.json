@@ -9,32 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      65,
-      -103,
-      64,
-      -101
-    ],
-    "LowerUpperBounds": {
-      "x": 10,
-      "y": 12
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      64,
-      -103,
-      65,
-      -103,
-      64,
-      -101
-    ],
-    "LowerUpperBounds": {
-      "x": 10,
-      "y": 12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -47,7 +21,6 @@
       "RotY": 122.26,
       "RotX": 10.0,
       "RotZ": 3.0E-6,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -60,7 +33,6 @@
       "PosZ": -201.361,
       "Name": "Anchor2",
       "RotY": 145.7518,
-      "MapLayerID": 3,
       "Usage": "Actor"
     },
     {
@@ -72,7 +44,6 @@
       "RotY": 108.4,
       "RotX": 8.422508,
       "RotZ": 0.002769,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -166,7 +137,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

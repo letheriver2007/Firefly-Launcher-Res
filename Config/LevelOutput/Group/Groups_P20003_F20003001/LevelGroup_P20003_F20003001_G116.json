@@ -11,8 +11,7 @@
       "PosX": 171.712,
       "PosY": 82.82224,
       "PosZ": 158.303,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -20,8 +19,7 @@
       "PosY": 82.82224,
       "PosZ": 156.95,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -29,8 +27,7 @@
       "PosY": 79.92677,
       "PosZ": 117.88,
       "Name": "Anchor3",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -38,24 +35,21 @@
       "PosY": 79.92677,
       "PosZ": 116.336,
       "Name": "Anchor4",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 5,
       "PosX": 8.819,
       "PosY": 76.71814,
       "PosZ": 48.908,
-      "Name": "Anchor5",
-      "MapLayerID": 2
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
       "PosX": 9.83,
       "PosY": 76.67679,
       "PosZ": 47.345,
-      "Name": "Anchor6",
-      "MapLayerID": 2
+      "Name": "Anchor6"
     }
   ],
   "MonsterList": [],
@@ -74,7 +68,6 @@
       "PropID": 100047,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -96,7 +89,6 @@
       "PropID": 100047,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -117,7 +109,6 @@
       "PropID": 100047,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -135,7 +126,6 @@
       "NPCID": 1992,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020900,

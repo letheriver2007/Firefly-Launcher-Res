@@ -9,20 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      73,
-      62
-    ],
-    "LowerUpperBounds": {
-      "x": -4,
-      "y": -3
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -31,16 +17,14 @@
       "PosX": 147.9147,
       "PosY": -5.992,
       "PosZ": 126.008,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": 147.9147,
       "PosY": -6.686637,
       "PosZ": 125.9935,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     }
   ],
   "MonsterList": [],
@@ -55,7 +39,6 @@
       "PropID": 103094,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

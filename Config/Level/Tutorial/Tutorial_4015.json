@@ -35,7 +35,8 @@
             {
               "$type": "RPG.GameCore.WaitPlayerAction",
               "ActionType": "ClickBtn",
-              "Param": "InventoryPage.408401"
+              "Param": "InventoryPage.408401",
+              "ForceSetNavigation": true
             }
           ],
           "NodeIDList": [

@@ -348,7 +348,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Buff02_2.prefab"
         },
         {
@@ -452,7 +451,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "CasterLeftEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Skill02_Hit.prefab"
         },
         {
@@ -496,7 +494,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "CasterRightEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Skill02_Hit1.prefab"
         },
         {
@@ -646,7 +643,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Speedup.prefab"
             },
             {
@@ -721,6 +717,10 @@
                 "PredicateList": [
                   {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT"
                     ]
@@ -852,7 +852,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Buff01.prefab"
                 }
               ]
@@ -910,7 +909,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Buff02.prefab"
                 },
                 {
@@ -919,7 +917,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast01_03/Eff_Monster_W2_Beast01_03_Buff02_1.prefab"
                 },
                 {
@@ -980,7 +977,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Add.prefab",
                   "AttachPoint": "SelectRoot"
                 }
@@ -1115,7 +1111,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
               "AttachPoint": "SelectRoot"
             },
@@ -1168,7 +1163,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Add.prefab",
               "AttachPoint": "SelectRoot"
             }

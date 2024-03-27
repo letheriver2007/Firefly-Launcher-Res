@@ -51,7 +51,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Skill01_Hit.prefab"
         },
         {
@@ -575,7 +574,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Skill02_01.prefab"
         },
         {
@@ -631,7 +629,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Skill02.prefab"
         },
         {
@@ -2515,12 +2512,14 @@
                             }
                           },
                           {
-                            "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                            "$type": "RPG.GameCore.ByIsContainModifier",
                             "TargetType": {
                               "$type": "RPG.GameCore.TargetAlias",
                               "Alias": "ParamEntity"
                             },
-                            "Flag": "Backup4"
+                            "ModifierName": "MAvatar_BlackSwan_00_DOT_Enhance",
+                            "AddedOrAlive": true,
+                            "IncludeRecordBeforeDeathrattle": true
                           },
                           {
                             "$type": "RPG.GameCore.ByIsContainModifier",
@@ -2889,7 +2888,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_SkillMazeInLevel_Shield_Loop.prefab"
         },
         {
@@ -3239,7 +3237,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_SkillMazeInLevel_Prompt.prefab"
                     }
                   ],
@@ -6432,7 +6429,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Lv1.prefab"
                         },
                         {
@@ -6441,7 +6437,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Hit_Lv1_Card.prefab"
                         }
                       ],
@@ -6452,7 +6447,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Lv1.prefab"
                         },
                         {
@@ -6461,7 +6455,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1_Card.prefab"
                         }
                       ]
@@ -6627,7 +6620,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Lv2.prefab"
                             },
                             {
@@ -6636,7 +6628,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Hit_Lv2_Card.prefab"
                             }
                           ],
@@ -6647,7 +6638,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Lv2.prefab"
                             },
                             {
@@ -6656,7 +6646,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv2_Card.prefab"
                             }
                           ]
@@ -6680,7 +6669,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Lv3.prefab"
                             },
                             {
@@ -6689,7 +6677,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Hit_Lv3_Card.prefab"
                             }
                           ],
@@ -6700,7 +6687,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Lv3.prefab"
                             },
                             {
@@ -6709,7 +6695,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv3_Card.prefab"
                             }
                           ]
@@ -6793,14 +6778,6 @@
                   ]
                 },
                 {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "ModifierName": "M_BlackSwan_DOTDamageFlag"
-                },
-                {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByCompareDynamicValue",
@@ -6824,34 +6801,80 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.DamageByAttackProperty",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ModifierOwnerEntity"
-                      },
-                      "AttackProperty": {
-                        "DamageType": "Wind",
-                        "DamagePercentage": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQABAQECBAIK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              -949914540,
-                              -692968543,
-                              -1865831589
-                            ]
-                          }
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
                         },
-                        "AttackType": "DOT",
-                        "HitAnimation": "Hit_H",
-                        "HitTimeSlowType": "Impact",
-                        "HitTimeSlowIntensity": "Middle",
-                        "HitPosHeight": 0.8
+                        "ModifierName": "MAvatar_BlackSwan_00_DOT_Enhance"
                       },
-                      "DisplayData": {
-                        "AttachPoint": "SelectRoot"
-                      }
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.DamageByAttackProperty",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "AttackProperty": {
+                            "DamageType": "Wind",
+                            "DamagePercentage": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQABAQECBAIK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -949914540,
+                                  -692968543,
+                                  -1865831589
+                                ]
+                              }
+                            },
+                            "AttackType": "DOT",
+                            "DamageTag": "Burn",
+                            "HitAnimation": "Hit_H",
+                            "HitTimeSlowType": "Impact",
+                            "HitTimeSlowIntensity": "Middle",
+                            "HitPosHeight": 0.8
+                          },
+                          "DisplayData": {
+                            "AttachPoint": "SelectRoot"
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.DamageByAttackProperty",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "AttackProperty": {
+                            "DamageType": "Wind",
+                            "DamagePercentage": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQABAQECBAIK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -949914540,
+                                  -692968543,
+                                  -1865831589
+                                ]
+                              }
+                            },
+                            "AttackType": "DOT",
+                            "HitAnimation": "Hit_H",
+                            "HitTimeSlowType": "Impact",
+                            "HitTimeSlowIntensity": "Middle",
+                            "HitPosHeight": 0.8
+                          },
+                          "DisplayData": {
+                            "AttachPoint": "SelectRoot"
+                          }
+                        }
+                      ]
                     },
                     {
                       "$type": "RPG.GameCore.PredicateTaskList",
@@ -6870,7 +6893,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv3_01_Advanced.prefab"
                         }
                       ],
@@ -6881,7 +6903,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv3_01.prefab"
                         }
                       ]
@@ -6921,32 +6942,76 @@
                       },
                       "SuccessTaskList": [
                         {
-                          "$type": "RPG.GameCore.DamageByAttackProperty",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
-                          },
-                          "AttackProperty": {
-                            "DamageType": "Wind",
-                            "DamagePercentage": {
-                              "IsDynamic": true,
-                              "PostfixExpr": {
-                                "OpCodes": "AQABAQECBAIK",
-                                "FixedValues": [],
-                                "DynamicHashes": [
-                                  -949914540,
-                                  -692968543,
-                                  -1865831589
-                                ]
-                              }
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByIsContainModifier",
+                            "TargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "ModifierOwnerEntity"
                             },
-                            "AttackType": "DOT",
-                            "HitAnimation": "Hit",
-                            "HitTimeSlowType": "Impact"
+                            "ModifierName": "MAvatar_BlackSwan_00_DOT_Enhance"
                           },
-                          "DisplayData": {
-                            "AttachPoint": "SelectRoot"
-                          }
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.DamageByAttackProperty",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "AttackProperty": {
+                                "DamageType": "Wind",
+                                "DamagePercentage": {
+                                  "IsDynamic": true,
+                                  "PostfixExpr": {
+                                    "OpCodes": "AQABAQECBAIK",
+                                    "FixedValues": [],
+                                    "DynamicHashes": [
+                                      -949914540,
+                                      -692968543,
+                                      -1865831589
+                                    ]
+                                  }
+                                },
+                                "AttackType": "DOT",
+                                "DamageTag": "Burn",
+                                "HitAnimation": "Hit",
+                                "HitTimeSlowType": "Impact"
+                              },
+                              "DisplayData": {
+                                "AttachPoint": "SelectRoot"
+                              }
+                            }
+                          ],
+                          "FailedTaskList": [
+                            {
+                              "$type": "RPG.GameCore.DamageByAttackProperty",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "AttackProperty": {
+                                "DamageType": "Wind",
+                                "DamagePercentage": {
+                                  "IsDynamic": true,
+                                  "PostfixExpr": {
+                                    "OpCodes": "AQABAQECBAIK",
+                                    "FixedValues": [],
+                                    "DynamicHashes": [
+                                      -949914540,
+                                      -692968543,
+                                      -1865831589
+                                    ]
+                                  }
+                                },
+                                "AttackType": "DOT",
+                                "HitAnimation": "Hit",
+                                "HitTimeSlowType": "Impact"
+                              },
+                              "DisplayData": {
+                                "AttachPoint": "SelectRoot"
+                              }
+                            }
+                          ]
                         },
                         {
                           "$type": "RPG.GameCore.PredicateTaskList",
@@ -6965,7 +7030,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv2_01_Advanced.prefab"
                             }
                           ],
@@ -6976,7 +7040,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv2_01.prefab"
                             }
                           ]
@@ -6993,31 +7056,74 @@
                       ],
                       "FailedTaskList": [
                         {
-                          "$type": "RPG.GameCore.DamageByAttackProperty",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
-                          },
-                          "AttackProperty": {
-                            "DamageType": "Wind",
-                            "DamagePercentage": {
-                              "IsDynamic": true,
-                              "PostfixExpr": {
-                                "OpCodes": "AQABAQECBAIK",
-                                "FixedValues": [],
-                                "DynamicHashes": [
-                                  -949914540,
-                                  -692968543,
-                                  -1865831589
-                                ]
-                              }
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByIsContainModifier",
+                            "TargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "ModifierOwnerEntity"
                             },
-                            "AttackType": "DOT",
-                            "HitAnimation": "Hit"
+                            "ModifierName": "MAvatar_BlackSwan_00_DOT_Enhance"
                           },
-                          "DisplayData": {
-                            "AttachPoint": "SelectRoot"
-                          }
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.DamageByAttackProperty",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "AttackProperty": {
+                                "DamageType": "Wind",
+                                "DamagePercentage": {
+                                  "IsDynamic": true,
+                                  "PostfixExpr": {
+                                    "OpCodes": "AQABAQECBAIK",
+                                    "FixedValues": [],
+                                    "DynamicHashes": [
+                                      -949914540,
+                                      -692968543,
+                                      -1865831589
+                                    ]
+                                  }
+                                },
+                                "AttackType": "DOT",
+                                "DamageTag": "Burn",
+                                "HitAnimation": "Hit"
+                              },
+                              "DisplayData": {
+                                "AttachPoint": "SelectRoot"
+                              }
+                            }
+                          ],
+                          "FailedTaskList": [
+                            {
+                              "$type": "RPG.GameCore.DamageByAttackProperty",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "AttackProperty": {
+                                "DamageType": "Wind",
+                                "DamagePercentage": {
+                                  "IsDynamic": true,
+                                  "PostfixExpr": {
+                                    "OpCodes": "AQABAQECBAIK",
+                                    "FixedValues": [],
+                                    "DynamicHashes": [
+                                      -949914540,
+                                      -692968543,
+                                      -1865831589
+                                    ]
+                                  }
+                                },
+                                "AttackType": "DOT",
+                                "HitAnimation": "Hit"
+                              },
+                              "DisplayData": {
+                                "AttachPoint": "SelectRoot"
+                              }
+                            }
+                          ]
                         },
                         {
                           "$type": "RPG.GameCore.PredicateTaskList",
@@ -7036,7 +7142,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1_Advanced.prefab"
                             }
                           ],
@@ -7047,7 +7152,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1.prefab"
                             }
                           ]
@@ -7098,29 +7202,69 @@
                       }
                     },
                     {
-                      "$type": "RPG.GameCore.DamageByAttackProperty",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ModifierOwnerAdjoinEntity"
-                      },
-                      "AttackProperty": {
-                        "DamageType": "Wind",
-                        "DamagePercentage": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              -131755943
-                            ]
-                          }
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
                         },
-                        "AttackType": "DOT",
-                        "HitAnimation": "Hit"
+                        "ModifierName": "MAvatar_BlackSwan_00_DOT_Enhance"
                       },
-                      "DisplayData": {
-                        "AttachPoint": "SelectRoot"
-                      }
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.DamageByAttackProperty",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerAdjoinEntity"
+                          },
+                          "AttackProperty": {
+                            "DamageType": "Wind",
+                            "DamagePercentage": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -131755943
+                                ]
+                              }
+                            },
+                            "AttackType": "DOT",
+                            "HitAnimation": "Hit"
+                          },
+                          "DisplayData": {
+                            "AttachPoint": "SelectRoot"
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.DamageByAttackProperty",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerAdjoinEntity"
+                          },
+                          "AttackProperty": {
+                            "DamageType": "Wind",
+                            "DamagePercentage": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -131755943
+                                ]
+                              }
+                            },
+                            "AttackType": "DOT",
+                            "HitAnimation": "Hit"
+                          },
+                          "DisplayData": {
+                            "AttachPoint": "SelectRoot"
+                          }
+                        }
+                      ]
                     },
                     {
                       "$type": "RPG.GameCore.VCameraConfigChange",
@@ -7193,7 +7337,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv3_Advanced.prefab"
                                 }
                               ],
@@ -7204,7 +7347,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv3.prefab"
                                 }
                               ]
@@ -7228,7 +7370,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv2_Advanced.prefab"
                                 }
                               ],
@@ -7239,7 +7380,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv2.prefab"
                                 }
                               ]
@@ -7342,7 +7482,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1_Advanced.prefab"
                     }
                   ],
@@ -7353,7 +7492,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1.prefab"
                     }
                   ]
@@ -7530,19 +7668,6 @@
           ]
         },
         {
-          "Event": "OnAfterBeingHitAll",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "M_BlackSwan_DOTDamageFlag"
-            }
-          ]
-        },
-        {
           "Event": "OnStack",
           "CallbackConfig": [
             {
@@ -7708,7 +7833,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Stack_03.prefab",
                           "MinMutexTime": -1,
                           "MinMutexType": "Entity"
@@ -7743,7 +7867,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Stack_02.prefab",
                               "MinMutexTime": -1,
                               "MinMutexType": "Entity"
@@ -7756,7 +7879,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_UltraDOT_Stack_01.prefab",
                               "MinMutexTime": -1,
                               "MinMutexType": "Entity"
@@ -7819,7 +7941,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Stack_03.prefab",
                           "MinMutexTime": -1,
                           "MinMutexType": "Entity"
@@ -7854,7 +7975,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Stack_02.prefab",
                               "MinMutexTime": -1,
                               "MinMutexType": "Entity"
@@ -7867,7 +7987,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Stack.prefab",
                               "MinMutexTime": -1,
                               "MinMutexType": "Entity"
@@ -7902,41 +8021,6 @@
               "ContextScope": "ContextModifier"
             },
             {
-              "$type": "RPG.GameCore.AddModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "M_BlackSwan_DOTDamageFlag"
-            },
-            {
-              "$type": "RPG.GameCore.DamageByAttackProperty",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "AttackProperty": {
-                "DamageType": "Wind",
-                "DamagePercentage": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQABAQECAQMEAgQK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      375103313,
-                      -949914540,
-                      -692968543,
-                      -1865831589
-                    ]
-                  }
-                },
-                "AttackType": "DOT"
-              },
-              "DisplayData": {
-                "AttachPoint": "SelectRoot"
-              }
-            },
-            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
                 "$type": "RPG.GameCore.ByIsContainModifier",
@@ -7948,23 +8032,76 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.TriggerEffect",
+                  "$type": "RPG.GameCore.DamageByAttackProperty",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
-                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1_Advanced.prefab"
-                }
-              ],
-              "FailedTaskList": [
+                  "AttackProperty": {
+                    "DamageType": "Wind",
+                    "DamagePercentage": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQECAQMEAgQK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          375103313,
+                          -949914540,
+                          -692968543,
+                          -1865831589
+                        ]
+                      }
+                    },
+                    "AttackType": "DOT",
+                    "DamageTag": "Burn"
+                  },
+                  "DisplayData": {
+                    "AttachPoint": "SelectRoot"
+                  }
+                },
                 {
                   "$type": "RPG.GameCore.TriggerEffect",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1_Advanced.prefab"
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.DamageByAttackProperty",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "AttackProperty": {
+                    "DamageType": "Wind",
+                    "DamagePercentage": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQECAQMEAgQK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          375103313,
+                          -949914540,
+                          -692968543,
+                          -1865831589
+                        ]
+                      }
+                    },
+                    "AttackType": "DOT"
+                  },
+                  "DisplayData": {
+                    "AttachPoint": "SelectRoot"
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_BlackSwan/Eff_Avatar_BlackSwan_00_Card_DOT_Hit_Lv1.prefab"
                 }
               ]
@@ -8118,8 +8255,7 @@
         "FixedPerformTime",
         "RetainCountZero",
         "ModifyDotDamageData",
-        "KeepOnDeathrattle",
-        "Backup4"
+        "KeepOnDeathrattle"
       ],
       "UIConfig": {
         "ModifierUIPriority": "Debuff"
@@ -8459,23 +8595,6 @@
         "KeepOnDeathrattle"
       ],
       "Stacking": "ReplaceByCaster"
-    },
-    "M_BlackSwan_DOTDamageFlag": {
-      "BehaviorFlagList": [
-        "RemoveWhenCasterDead",
-        "KeepOnDeathrattle"
-      ],
-      "_CallbackList": [
-        {
-          "Event": "OnPhase2",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveSelfModifier"
-            }
-          ]
-        }
-      ],
-      "Stacking": "Replace"
     }
   }
 }

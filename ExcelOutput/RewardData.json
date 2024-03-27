@@ -35,6 +35,12 @@
     "ItemID_1": 801,
     "Count_1": 1
   },
+  "802": {
+    "RewardID": 802,
+    "Hcoin": 100,
+    "ItemID_1": 802,
+    "Count_1": 1
+  },
   "1001": {
     "RewardID": 1001,
     "ItemID_1": 2,
@@ -54,6 +60,11 @@
     "RewardID": 1004,
     "ItemID_1": 2,
     "Count_1": 1000
+  },
+  "1100": {
+    "RewardID": 1100,
+    "ItemID_1": 2,
+    "Count_1": 5000
   },
   "21001711": {
     "RewardID": 21001711,
@@ -606,6 +617,166 @@
     "Count_1": 10000,
     "ItemID_2": 213,
     "Count_2": 2
+  },
+  "27000101": {
+    "RewardID": 27000101,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000102": {
+    "RewardID": 27000102,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000103": {
+    "RewardID": 27000103,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000104": {
+    "RewardID": 27000104,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000105": {
+    "RewardID": 27000105,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000106": {
+    "RewardID": 27000106,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000107": {
+    "RewardID": 27000107,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000108": {
+    "RewardID": 27000108,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000109": {
+    "RewardID": 27000109,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000110": {
+    "RewardID": 27000110,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000,
+    "ItemID_2": 202015,
+    "Count_2": 1
+  },
+  "27000201": {
+    "RewardID": 27000201,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000202": {
+    "RewardID": 27000202,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000203": {
+    "RewardID": 27000203,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000204": {
+    "RewardID": 27000204,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000205": {
+    "RewardID": 27000205,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000206": {
+    "RewardID": 27000206,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000207": {
+    "RewardID": 27000207,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000208": {
+    "RewardID": 27000208,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000209": {
+    "RewardID": 27000209,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000210": {
+    "RewardID": 27000210,
+    "Hcoin": 10,
+    "ItemID_1": 101,
+    "Count_1": 1,
+    "ItemID_2": 212,
+    "Count_2": 4
+  },
+  "27000301": {
+    "RewardID": 27000301,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000302": {
+    "RewardID": 27000302,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000303": {
+    "RewardID": 27000303,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "27000401": {
+    "RewardID": 27000401,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000402": {
+    "RewardID": 27000402,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
+  },
+  "27000403": {
+    "RewardID": 27000403,
+    "Hcoin": 10,
+    "ItemID_1": 212,
+    "Count_1": 4
   },
   "11000101": {
     "RewardID": 11000101,
@@ -1386,6 +1557,144 @@
     "ItemID_5": 210305,
     "Count_5": 1,
     "ItemID_6": 21039,
+    "Count_6": 1,
+    "Level_6": 1,
+    "Rank_6": 1
+  },
+  "11030901": {
+    "RewardID": 11030901,
+    "Hcoin": 80,
+    "ItemID_1": 22,
+    "Count_1": 600,
+    "ItemID_2": 2,
+    "Count_2": 50000,
+    "ItemID_3": 213,
+    "Count_3": 8,
+    "ItemID_4": 120003,
+    "Count_4": 300
+  },
+  "11031001": {
+    "RewardID": 11031001,
+    "Hcoin": 50,
+    "ItemID_1": 22,
+    "Count_1": 400,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 4,
+    "ItemID_4": 120003,
+    "Count_4": 300,
+    "ItemID_5": 210316,
+    "Count_5": 1
+  },
+  "11031101": {
+    "RewardID": 11031101,
+    "Hcoin": 110,
+    "ItemID_1": 22,
+    "Count_1": 900,
+    "ItemID_2": 2,
+    "Count_2": 120000,
+    "ItemID_3": 213,
+    "Count_3": 10,
+    "ItemID_4": 233,
+    "Count_4": 10,
+    "ItemID_5": 120003,
+    "Count_5": 500,
+    "ItemID_6": 210317,
+    "Count_6": 1
+  },
+  "11031301": {
+    "RewardID": 11031301,
+    "Hcoin": 80,
+    "ItemID_1": 22,
+    "Count_1": 600,
+    "ItemID_2": 2,
+    "Count_2": 80000,
+    "ItemID_3": 213,
+    "Count_3": 5,
+    "ItemID_4": 223,
+    "Count_4": 5,
+    "ItemID_5": 120003,
+    "Count_5": 300,
+    "ItemID_6": 210318,
+    "Count_6": 1
+  },
+  "11031401": {
+    "RewardID": 11031401,
+    "Hcoin": 80,
+    "ItemID_1": 22,
+    "Count_1": 600,
+    "ItemID_2": 2,
+    "Count_2": 90000,
+    "ItemID_3": 213,
+    "Count_3": 6,
+    "ItemID_4": 233,
+    "Count_4": 6,
+    "ItemID_5": 120003,
+    "Count_5": 300,
+    "ItemID_6": 210319,
+    "Count_6": 1
+  },
+  "11031501": {
+    "RewardID": 11031501,
+    "Hcoin": 80,
+    "ItemID_1": 22,
+    "Count_1": 600,
+    "ItemID_2": 2,
+    "Count_2": 80000,
+    "ItemID_3": 213,
+    "Count_3": 5,
+    "ItemID_4": 223,
+    "Count_4": 5,
+    "ItemID_5": 120003,
+    "Count_5": 300,
+    "ItemID_6": 210320,
+    "Count_6": 1
+  },
+  "11031601": {
+    "RewardID": 11031601,
+    "Hcoin": 50,
+    "ItemID_1": 22,
+    "Count_1": 400,
+    "ItemID_2": 2,
+    "Count_2": 50000,
+    "ItemID_3": 213,
+    "Count_3": 5,
+    "ItemID_4": 233,
+    "Count_4": 5,
+    "ItemID_5": 120003,
+    "Count_5": 300,
+    "ItemID_6": 210321,
+    "Count_6": 1
+  },
+  "11031701": {
+    "RewardID": 11031701,
+    "Hcoin": 150,
+    "ItemID_1": 22,
+    "Count_1": 1200,
+    "ItemID_2": 2,
+    "Count_2": 220000,
+    "ItemID_3": 213,
+    "Count_3": 18,
+    "ItemID_4": 120003,
+    "Count_4": 800,
+    "ItemID_5": 210322,
+    "Count_5": 1
+  },
+  "11032101": {
+    "RewardID": 11032101,
+    "Hcoin": 110,
+    "ItemID_1": 22,
+    "Count_1": 900,
+    "ItemID_2": 2,
+    "Count_2": 200000,
+    "ItemID_3": 213,
+    "Count_3": 16,
+    "ItemID_4": 202014,
+    "Count_4": 1,
+    "ItemID_5": 210323,
+    "Count_5": 1,
+    "ItemID_6": 21038,
     "Count_6": 1,
     "Level_6": 1,
     "Rank_6": 1
@@ -2985,6 +3294,11 @@
     "ItemID_2": 408401,
     "Count_2": 15
   },
+  "18000000": {
+    "RewardID": 18000000,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
   "18003280": {
     "RewardID": 18003280,
     "ItemID_1": 2,
@@ -3137,6 +3451,103 @@
     "ItemID_1": 2,
     "Count_1": 5000
   },
+  "18021201": {
+    "RewardID": 18021201,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "18021100": {
+    "RewardID": 18021100,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "18021101": {
+    "RewardID": 18021101,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 20000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 2
+  },
+  "18021102": {
+    "RewardID": 18021102,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 150,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4,
+    "ItemID_4": 233,
+    "Count_4": 3
+  },
+  "18021103": {
+    "RewardID": 18021103,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 150,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4,
+    "ItemID_4": 233,
+    "Count_4": 3
+  },
+  "18021104": {
+    "RewardID": 18021104,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 150,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4,
+    "ItemID_4": 233,
+    "Count_4": 3
+  },
+  "18021105": {
+    "RewardID": 18021105,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 150,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4,
+    "ItemID_4": 233,
+    "Count_4": 3
+  },
+  "18021106": {
+    "RewardID": 18021106,
+    "Hcoin": 30,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 6,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "18021402": {
+    "RewardID": 18021402,
+    "ItemID_1": 2,
+    "Count_1": 7000
+  },
+  "18021301": {
+    "RewardID": 18021301,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "18021302": {
+    "RewardID": 18021302,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
   "14040302": {
     "RewardID": 14040302,
     "ItemID_1": 2,
@@ -3144,6 +3555,11 @@
   },
   "14040306": {
     "RewardID": 14040306,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "14040334": {
+    "RewardID": 14040334,
     "ItemID_1": 2,
     "Count_1": 5000
   },
@@ -3865,6 +4281,34 @@
     "ItemID_2": 233,
     "Count_2": 2
   },
+  "14340109": {
+    "RewardID": 14340109,
+    "ItemID_1": 2,
+    "Count_1": 3000,
+    "ItemID_2": 222,
+    "Count_2": 2
+  },
+  "14340110": {
+    "RewardID": 14340110,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 233,
+    "Count_2": 2
+  },
+  "14340111": {
+    "RewardID": 14340111,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 212,
+    "Count_2": 3,
+    "ItemID_3": 222,
+    "Count_3": 2
+  },
+  "14340112": {
+    "RewardID": 14340112,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
   "14340150": {
     "RewardID": 14340150,
     "Hcoin": 20,
@@ -3909,6 +4353,30 @@
   },
   "14340157": {
     "RewardID": 14340157,
+    "Hcoin": 20,
+    "ItemID_1": 120003,
+    "Count_1": 120
+  },
+  "14340158": {
+    "RewardID": 14340158,
+    "Hcoin": 20,
+    "ItemID_1": 120003,
+    "Count_1": 120
+  },
+  "14340159": {
+    "RewardID": 14340159,
+    "Hcoin": 20,
+    "ItemID_1": 120003,
+    "Count_1": 120
+  },
+  "14340160": {
+    "RewardID": 14340160,
+    "Hcoin": 20,
+    "ItemID_1": 120003,
+    "Count_1": 120
+  },
+  "14340161": {
+    "RewardID": 14340161,
     "Hcoin": 20,
     "ItemID_1": 120003,
     "Count_1": 120
@@ -4071,6 +4539,44 @@
   },
   "14240316": {
     "RewardID": 14240316,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 20000,
+    "ItemID_3": 223,
+    "Count_3": 3,
+    "ItemID_4": 120003,
+    "Count_4": 180
+  },
+  "14240320": {
+    "RewardID": 14240320,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 20000,
+    "ItemID_3": 233,
+    "Count_3": 3,
+    "ItemID_4": 120003,
+    "Count_4": 180
+  },
+  "14240321": {
+    "RewardID": 14240321,
+    "Hcoin": 10,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 20000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 120003,
+    "Count_4": 180,
+    "ItemID_5": 140430,
+    "Count_5": 1
+  },
+  "14240322": {
+    "RewardID": 14240322,
     "Hcoin": 10,
     "ItemID_1": 22,
     "Count_1": 100,
@@ -6416,6 +6922,46 @@
     "ItemID_2": 63125,
     "Count_2": 1,
     "ItemID_3": 63126,
+    "Count_3": 1
+  },
+  "105109": {
+    "RewardID": 105109,
+    "Hcoin": 120,
+    "ItemID_1": 22,
+    "Count_1": 600,
+    "ItemID_2": 503,
+    "Count_2": 2,
+    "ItemID_3": 1013,
+    "Count_3": 1
+  },
+  "105209": {
+    "RewardID": 105209,
+    "Hcoin": 60,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 63135,
+    "Count_2": 1,
+    "ItemID_3": 63136,
+    "Count_3": 1
+  },
+  "105309": {
+    "RewardID": 105309,
+    "Hcoin": 60,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 63145,
+    "Count_2": 1,
+    "ItemID_3": 63146,
+    "Count_3": 1
+  },
+  "105409": {
+    "RewardID": 105409,
+    "Hcoin": 60,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 63135,
+    "Count_2": 1,
+    "ItemID_3": 63136,
     "Count_3": 1
   },
   "106001": {
@@ -10113,6 +10659,170 @@
     "ItemID_3": 221004,
     "Count_3": 1
   },
+  "119021": {
+    "RewardID": 119021,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3
+  },
+  "119022": {
+    "RewardID": 119022,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119023": {
+    "RewardID": 119023,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 223,
+    "Count_4": 4
+  },
+  "119024": {
+    "RewardID": 119024,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119025": {
+    "RewardID": 119025,
+    "IsSpecial": true,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 101,
+    "Count_2": 1,
+    "ItemID_3": 213,
+    "Count_3": 3
+  },
+  "119026": {
+    "RewardID": 119026,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3
+  },
+  "119027": {
+    "RewardID": 119027,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119028": {
+    "RewardID": 119028,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 223,
+    "Count_4": 4
+  },
+  "119029": {
+    "RewardID": 119029,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119030": {
+    "RewardID": 119030,
+    "IsSpecial": true,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 213,
+    "Count_2": 3,
+    "ItemID_3": 21036,
+    "Count_3": 1,
+    "Level_3": 1,
+    "Rank_3": 1
+  },
+  "119031": {
+    "RewardID": 119031,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3
+  },
+  "119032": {
+    "RewardID": 119032,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119033": {
+    "RewardID": 119033,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 223,
+    "Count_4": 4
+  },
+  "119034": {
+    "RewardID": 119034,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 2,
+    "Count_2": 40000,
+    "ItemID_3": 213,
+    "Count_3": 3,
+    "ItemID_4": 233,
+    "Count_4": 4
+  },
+  "119035": {
+    "RewardID": 119035,
+    "IsSpecial": true,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 200,
+    "ItemID_2": 241,
+    "Count_2": 1,
+    "ItemID_3": 236,
+    "Count_3": 1
+  },
   "120001": {
     "RewardID": 120001,
     "ItemID_1": 212,
@@ -10816,6 +11526,18 @@
     "ItemID_1": 200117,
     "Count_1": 1,
     "ItemID_2": 200118,
+    "Count_2": 1,
+    "ItemID_3": 52,
+    "Count_3": 8000,
+    "ItemID_4": 201,
+    "Count_4": 5
+  },
+  "120407": {
+    "RewardID": 120407,
+    "Hcoin": 200,
+    "ItemID_1": 200119,
+    "Count_1": 1,
+    "ItemID_2": 200120,
     "Count_2": 1,
     "ItemID_3": 52,
     "Count_3": 8000,
@@ -12138,8 +12860,95 @@
     "Level_1": 1,
     "Rank_1": 1
   },
+  "182001": {
+    "RewardID": 182001,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 402025,
+    "Count_2": 1
+  },
+  "182002": {
+    "RewardID": 182002,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 402027,
+    "Count_2": 1
+  },
+  "182003": {
+    "RewardID": 182003,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408609,
+    "Count_2": 1
+  },
+  "182004": {
+    "RewardID": 182004,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408610,
+    "Count_2": 1
+  },
+  "182005": {
+    "RewardID": 182005,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408611,
+    "Count_2": 1
+  },
+  "182006": {
+    "RewardID": 182006,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408612,
+    "Count_2": 1
+  },
+  "182007": {
+    "RewardID": 182007,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408613,
+    "Count_2": 1
+  },
+  "182008": {
+    "RewardID": 182008,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408617,
+    "Count_2": 1
+  },
+  "182009": {
+    "RewardID": 182009,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408618,
+    "Count_2": 1
+  },
+  "182010": {
+    "RewardID": 182010,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 408619,
+    "Count_2": 1
+  },
+  "182101": {
+    "RewardID": 182101,
+    "Hcoin": 30,
+    "ItemID_1": 120003,
+    "Count_1": 180
+  },
+  "182102": {
+    "RewardID": 182102,
+    "ItemID_1": 21037,
+    "Count_1": 1,
+    "Level_1": 1,
+    "Rank_1": 1
+  },
   "190101": {
     "RewardID": 190101,
+    "Hcoin": 20
+  },
+  "190102": {
+    "RewardID": 190102,
     "Hcoin": 20
   },
   "190201": {
@@ -12168,6 +12977,14 @@
   },
   "190207": {
     "RewardID": 190207,
+    "Hcoin": 30
+  },
+  "190208": {
+    "RewardID": 190208,
+    "Hcoin": 30
+  },
+  "190209": {
+    "RewardID": 190209,
     "Hcoin": 30
   },
   "201000": {
@@ -12331,6 +13148,221 @@
     "RewardID": 201210,
     "ItemID_1": 408003,
     "Count_1": 1
+  },
+  "210001": {
+    "RewardID": 210001,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4
+  },
+  "210002": {
+    "RewardID": 210002,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 213,
+    "Count_2": 4,
+    "ItemID_3": 233,
+    "Count_3": 4
+  },
+  "210003": {
+    "RewardID": 210003,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "210004": {
+    "RewardID": 210004,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4
+  },
+  "210005": {
+    "RewardID": 210005,
+    "IsSpecial": true,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 241,
+    "Count_3": 1
+  },
+  "210006": {
+    "RewardID": 210006,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 223,
+    "Count_2": 3,
+    "ItemID_3": 233,
+    "Count_3": 4
+  },
+  "210007": {
+    "RewardID": 210007,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 213,
+    "Count_3": 4
+  },
+  "210008": {
+    "RewardID": 210008,
+    "Hcoin": 40,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 213,
+    "Count_2": 4
+  },
+  "210009": {
+    "RewardID": 210009,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 223,
+    "Count_2": 3,
+    "ItemID_3": 233,
+    "Count_3": 4
+  },
+  "210010": {
+    "RewardID": 210010,
+    "IsSpecial": true,
+    "ItemID_1": 22,
+    "Count_1": 100,
+    "ItemID_2": 2,
+    "Count_2": 30000,
+    "ItemID_3": 220004,
+    "Count_3": 1
+  },
+  "210101": {
+    "RewardID": 210101,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 212,
+    "Count_2": 6
+  },
+  "210102": {
+    "RewardID": 210102,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 222,
+    "Count_2": 4
+  },
+  "210103": {
+    "RewardID": 210103,
+    "Hcoin": 10,
+    "ItemID_1": 222,
+    "Count_1": 4,
+    "ItemID_2": 232,
+    "Count_2": 4
+  },
+  "210104": {
+    "RewardID": 210104,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 212,
+    "Count_2": 6
+  },
+  "210105": {
+    "RewardID": 210105,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 222,
+    "Count_2": 4
+  },
+  "210106": {
+    "RewardID": 210106,
+    "Hcoin": 10,
+    "ItemID_1": 222,
+    "Count_1": 4,
+    "ItemID_2": 232,
+    "Count_2": 4
+  },
+  "210107": {
+    "RewardID": 210107,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 212,
+    "Count_2": 6
+  },
+  "210108": {
+    "RewardID": 210108,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 222,
+    "Count_2": 4
+  },
+  "210109": {
+    "RewardID": 210109,
+    "Hcoin": 10,
+    "ItemID_1": 222,
+    "Count_1": 4,
+    "ItemID_2": 232,
+    "Count_2": 4
+  },
+  "210110": {
+    "RewardID": 210110,
+    "ItemID_1": 150034,
+    "Count_1": 1
+  },
+  "210111": {
+    "RewardID": 210111,
+    "Hcoin": 20
+  },
+  "210112": {
+    "RewardID": 210112,
+    "Hcoin": 20
+  },
+  "210113": {
+    "RewardID": 210113,
+    "Hcoin": 20
+  },
+  "210114": {
+    "RewardID": 210114,
+    "Hcoin": 20
+  },
+  "210115": {
+    "RewardID": 210115,
+    "Hcoin": 20
+  },
+  "210116": {
+    "RewardID": 210116,
+    "Hcoin": 20
+  },
+  "210121": {
+    "RewardID": 210121,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 212,
+    "Count_2": 6
+  },
+  "210122": {
+    "RewardID": 210122,
+    "Hcoin": 10,
+    "ItemID_1": 2,
+    "Count_1": 15000,
+    "ItemID_2": 222,
+    "Count_2": 4
+  },
+  "210123": {
+    "RewardID": 210123,
+    "Hcoin": 10,
+    "ItemID_1": 222,
+    "Count_1": 4,
+    "ItemID_2": 232,
+    "Count_2": 4
   },
   "2000000": {
     "RewardID": 2000000,
@@ -16590,6 +17622,51 @@
     "ItemID_1": 223434,
     "Count_1": 1
   },
+  "2000909": {
+    "RewardID": 2000909,
+    "ItemID_1": 140451,
+    "Count_1": 1
+  },
+  "2000910": {
+    "RewardID": 2000910,
+    "ItemID_1": 140453,
+    "Count_1": 1
+  },
+  "2000911": {
+    "RewardID": 2000911,
+    "ItemID_1": 140452,
+    "Count_1": 1
+  },
+  "2000912": {
+    "RewardID": 2000912,
+    "ItemID_1": 140454,
+    "Count_1": 1
+  },
+  "2000913": {
+    "RewardID": 2000913,
+    "ItemID_1": 140456,
+    "Count_1": 1
+  },
+  "2000914": {
+    "RewardID": 2000914,
+    "ItemID_1": 140455,
+    "Count_1": 1
+  },
+  "2000915": {
+    "RewardID": 2000915,
+    "ItemID_1": 140457,
+    "Count_1": 1
+  },
+  "2000916": {
+    "RewardID": 2000916,
+    "ItemID_1": 140459,
+    "Count_1": 1
+  },
+  "2000917": {
+    "RewardID": 2000917,
+    "ItemID_1": 140458,
+    "Count_1": 1
+  },
   "2000918": {
     "RewardID": 2000918,
     "ItemID_1": 401025,
@@ -16643,6 +17720,16 @@
   "2000928": {
     "RewardID": 2000928,
     "ItemID_1": 190585,
+    "Count_1": 1
+  },
+  "2000929": {
+    "RewardID": 2000929,
+    "ItemID_1": 150014,
+    "Count_1": 1
+  },
+  "2000930": {
+    "RewardID": 2000930,
+    "ItemID_1": 150015,
     "Count_1": 1
   },
   "2000931": {
@@ -16924,6 +18011,755 @@
     "RewardID": 2000986,
     "ItemID_1": 140469,
     "Count_1": 1
+  },
+  "2000987": {
+    "RewardID": 2000987,
+    "ItemID_1": 2,
+    "Count_1": 50000
+  },
+  "2000988": {
+    "RewardID": 2000988,
+    "ItemID_1": 2,
+    "Count_1": 200000
+  },
+  "2000989": {
+    "RewardID": 2000989,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2000990": {
+    "RewardID": 2000990,
+    "ItemID_1": 140409,
+    "Count_1": 1
+  },
+  "2000991": {
+    "RewardID": 2000991,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2000992": {
+    "RewardID": 2000992,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2000993": {
+    "RewardID": 2000993,
+    "ItemID_1": 150025,
+    "Count_1": 1
+  },
+  "2000994": {
+    "RewardID": 2000994,
+    "ItemID_1": 140451,
+    "Count_1": 1
+  },
+  "2000995": {
+    "RewardID": 2000995,
+    "ItemID_1": 150016,
+    "Count_1": 1
+  },
+  "2000996": {
+    "RewardID": 2000996,
+    "ItemID_1": 150027,
+    "Count_1": 1
+  },
+  "2000997": {
+    "RewardID": 2000997,
+    "ItemID_1": 140453,
+    "Count_1": 1
+  },
+  "2000998": {
+    "RewardID": 2000998,
+    "ItemID_1": 150018,
+    "Count_1": 1
+  },
+  "2000999": {
+    "RewardID": 2000999,
+    "ItemID_1": 150026,
+    "Count_1": 1
+  },
+  "2001000": {
+    "RewardID": 2001000,
+    "ItemID_1": 140452,
+    "Count_1": 1
+  },
+  "2001001": {
+    "RewardID": 2001001,
+    "ItemID_1": 150017,
+    "Count_1": 1
+  },
+  "2001002": {
+    "RewardID": 2001002,
+    "ItemID_1": 150028,
+    "Count_1": 1
+  },
+  "2001003": {
+    "RewardID": 2001003,
+    "ItemID_1": 140454,
+    "Count_1": 1
+  },
+  "2001004": {
+    "RewardID": 2001004,
+    "ItemID_1": 150019,
+    "Count_1": 1
+  },
+  "2001005": {
+    "RewardID": 2001005,
+    "ItemID_1": 150030,
+    "Count_1": 1
+  },
+  "2001006": {
+    "RewardID": 2001006,
+    "ItemID_1": 140456,
+    "Count_1": 1
+  },
+  "2001007": {
+    "RewardID": 2001007,
+    "ItemID_1": 150021,
+    "Count_1": 1
+  },
+  "2001008": {
+    "RewardID": 2001008,
+    "ItemID_1": 150029,
+    "Count_1": 1
+  },
+  "2001009": {
+    "RewardID": 2001009,
+    "ItemID_1": 140455,
+    "Count_1": 1
+  },
+  "2001010": {
+    "RewardID": 2001010,
+    "ItemID_1": 150020,
+    "Count_1": 1
+  },
+  "2001011": {
+    "RewardID": 2001011,
+    "ItemID_1": 150031,
+    "Count_1": 1
+  },
+  "2001012": {
+    "RewardID": 2001012,
+    "ItemID_1": 140457,
+    "Count_1": 1
+  },
+  "2001013": {
+    "RewardID": 2001013,
+    "ItemID_1": 150022,
+    "Count_1": 1
+  },
+  "2001014": {
+    "RewardID": 2001014,
+    "ItemID_1": 150033,
+    "Count_1": 1
+  },
+  "2001015": {
+    "RewardID": 2001015,
+    "ItemID_1": 140459,
+    "Count_1": 1
+  },
+  "2001016": {
+    "RewardID": 2001016,
+    "ItemID_1": 150024,
+    "Count_1": 1
+  },
+  "2001017": {
+    "RewardID": 2001017,
+    "ItemID_1": 150032,
+    "Count_1": 1
+  },
+  "2001018": {
+    "RewardID": 2001018,
+    "ItemID_1": 140458,
+    "Count_1": 1
+  },
+  "2001019": {
+    "RewardID": 2001019,
+    "ItemID_1": 150023,
+    "Count_1": 1
+  },
+  "2001020": {
+    "RewardID": 2001020,
+    "ItemID_1": 122000,
+    "Count_1": 5
+  },
+  "2001021": {
+    "RewardID": 2001021,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "2001022": {
+    "RewardID": 2001022,
+    "ItemID_1": 2,
+    "Count_1": 5000
+  },
+  "2001023": {
+    "RewardID": 2001023,
+    "ItemID_1": 180011,
+    "Count_1": 3
+  },
+  "2001024": {
+    "RewardID": 2001024,
+    "ItemID_1": 402026,
+    "Count_1": 1
+  },
+  "2001025": {
+    "RewardID": 2001025,
+    "ItemID_1": 122000,
+    "Count_1": 3
+  },
+  "2001026": {
+    "RewardID": 2001026,
+    "ItemID_1": 402027,
+    "Count_1": 1
+  },
+  "2001027": {
+    "RewardID": 2001027,
+    "ItemID_1": 181014,
+    "Count_1": 3
+  },
+  "2001028": {
+    "RewardID": 2001028,
+    "ItemID_1": 182009,
+    "Count_1": 1
+  },
+  "2001029": {
+    "RewardID": 2001029,
+    "ItemID_1": 183005,
+    "Count_1": 1
+  },
+  "2001030": {
+    "RewardID": 2001030,
+    "ItemID_1": 403010,
+    "Count_1": 1
+  },
+  "2001031": {
+    "RewardID": 2001031,
+    "ItemID_1": 408616,
+    "Count_1": 1
+  },
+  "2001032": {
+    "RewardID": 2001032,
+    "ItemID_1": 180011,
+    "Count_1": 1
+  },
+  "2001033": {
+    "RewardID": 2001033,
+    "ItemID_1": 402028,
+    "Count_1": 1
+  },
+  "2001034": {
+    "RewardID": 2001034,
+    "ItemID_1": 408418,
+    "Count_1": 1
+  },
+  "2001035": {
+    "RewardID": 2001035,
+    "ItemID_1": 401025,
+    "Count_1": 1
+  },
+  "2001036": {
+    "RewardID": 2001036,
+    "ItemID_1": 408623,
+    "Count_1": 1
+  },
+  "2001037": {
+    "RewardID": 2001037,
+    "ItemID_1": 180011,
+    "Count_1": 3
+  },
+  "2001038": {
+    "RewardID": 2001038,
+    "ItemID_1": 401025,
+    "Count_1": 1
+  },
+  "2001039": {
+    "RewardID": 2001039,
+    "ItemID_1": 408611,
+    "Count_1": 1
+  },
+  "2001040": {
+    "RewardID": 2001040,
+    "ItemID_1": 408801,
+    "Count_1": 1
+  },
+  "2001041": {
+    "RewardID": 2001041,
+    "ItemID_1": 401026,
+    "Count_1": 1
+  },
+  "2001042": {
+    "RewardID": 2001042,
+    "ItemID_1": 140407,
+    "Count_1": 1
+  },
+  "2001043": {
+    "RewardID": 2001043,
+    "ItemID_1": 140407,
+    "Count_1": 1
+  },
+  "2001044": {
+    "RewardID": 2001044,
+    "ItemID_1": 140407,
+    "Count_1": 1
+  },
+  "2001045": {
+    "RewardID": 2001045,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2001046": {
+    "RewardID": 2001046,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2001047": {
+    "RewardID": 2001047,
+    "ItemID_1": 140408,
+    "Count_1": 1
+  },
+  "2001048": {
+    "RewardID": 2001048,
+    "ItemID_1": 140409,
+    "Count_1": 1
+  },
+  "2001049": {
+    "RewardID": 2001049,
+    "ItemID_1": 140409,
+    "Count_1": 1
+  },
+  "2001050": {
+    "RewardID": 2001050,
+    "ItemID_1": 2,
+    "Count_1": 5000,
+    "ItemID_2": 233,
+    "Count_2": 2
+  },
+  "2001051": {
+    "RewardID": 2001051,
+    "ItemID_1": 2,
+    "Count_1": 3000,
+    "ItemID_2": 222,
+    "Count_2": 2
+  },
+  "2001052": {
+    "RewardID": 2001052,
+    "ItemID_1": 2,
+    "Count_1": 40000
+  },
+  "2001053": {
+    "RewardID": 2001053,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "2001054": {
+    "RewardID": 2001054,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "2001055": {
+    "RewardID": 2001055,
+    "ItemID_1": 2,
+    "Count_1": 10000
+  },
+  "2001056": {
+    "RewardID": 2001056,
+    "ItemID_1": 190593,
+    "Count_1": 1
+  },
+  "2001057": {
+    "RewardID": 2001057,
+    "ItemID_1": 190594,
+    "Count_1": 1
+  },
+  "2001058": {
+    "RewardID": 2001058,
+    "ItemID_1": 190595,
+    "Count_1": 1
+  },
+  "2001059": {
+    "RewardID": 2001059,
+    "ItemID_1": 190596,
+    "Count_1": 1
+  },
+  "2001060": {
+    "RewardID": 2001060,
+    "ItemID_1": 190597,
+    "Count_1": 1
+  },
+  "2001061": {
+    "RewardID": 2001061,
+    "ItemID_1": 190598,
+    "Count_1": 1
+  },
+  "2001062": {
+    "RewardID": 2001062,
+    "ItemID_1": 190599,
+    "Count_1": 1
+  },
+  "2001063": {
+    "RewardID": 2001063,
+    "ItemID_1": 190603,
+    "Count_1": 1
+  },
+  "2001064": {
+    "RewardID": 2001064,
+    "ItemID_1": 190604,
+    "Count_1": 1
+  },
+  "2001065": {
+    "RewardID": 2001065,
+    "ItemID_1": 190605,
+    "Count_1": 1
+  },
+  "2001066": {
+    "RewardID": 2001066,
+    "ItemID_1": 190606,
+    "Count_1": 1
+  },
+  "2001067": {
+    "RewardID": 2001067,
+    "ItemID_1": 190608,
+    "Count_1": 1
+  },
+  "2001068": {
+    "RewardID": 2001068,
+    "ItemID_1": 190609,
+    "Count_1": 1
+  },
+  "2001069": {
+    "RewardID": 2001069,
+    "ItemID_1": 190610,
+    "Count_1": 1
+  },
+  "2001070": {
+    "RewardID": 2001070,
+    "ItemID_1": 190611,
+    "Count_1": 1
+  },
+  "2001071": {
+    "RewardID": 2001071,
+    "ItemID_1": 190612,
+    "Count_1": 1
+  },
+  "2001072": {
+    "RewardID": 2001072,
+    "ItemID_1": 190613,
+    "Count_1": 1
+  },
+  "2001073": {
+    "RewardID": 2001073,
+    "ItemID_1": 190614,
+    "Count_1": 1
+  },
+  "2001074": {
+    "RewardID": 2001074,
+    "ItemID_1": 190615,
+    "Count_1": 1
+  },
+  "2001075": {
+    "RewardID": 2001075,
+    "ItemID_1": 190616,
+    "Count_1": 1
+  },
+  "2001076": {
+    "RewardID": 2001076,
+    "ItemID_1": 190617,
+    "Count_1": 1
+  },
+  "2001077": {
+    "RewardID": 2001077,
+    "ItemID_1": 190618,
+    "Count_1": 1
+  },
+  "2001078": {
+    "RewardID": 2001078,
+    "ItemID_1": 190111,
+    "Count_1": 1
+  },
+  "2001079": {
+    "RewardID": 2001079,
+    "ItemID_1": 190112,
+    "Count_1": 1
+  },
+  "2001080": {
+    "RewardID": 2001080,
+    "ItemID_1": 190113,
+    "Count_1": 1
+  },
+  "2001081": {
+    "RewardID": 2001081,
+    "ItemID_1": 190114,
+    "Count_1": 1
+  },
+  "2001082": {
+    "RewardID": 2001082,
+    "ItemID_1": 190115,
+    "Count_1": 1
+  },
+  "2001083": {
+    "RewardID": 2001083,
+    "ItemID_1": 190116,
+    "Count_1": 1
+  },
+  "2001084": {
+    "RewardID": 2001084,
+    "ItemID_1": 190135,
+    "Count_1": 1
+  },
+  "2001085": {
+    "RewardID": 2001085,
+    "ItemID_1": 190577,
+    "Count_1": 1
+  },
+  "2001086": {
+    "RewardID": 2001086,
+    "ItemID_1": 190586,
+    "Count_1": 1
+  },
+  "2001087": {
+    "RewardID": 2001087,
+    "ItemID_1": 190587,
+    "Count_1": 1
+  },
+  "2001088": {
+    "RewardID": 2001088,
+    "ItemID_1": 140409,
+    "Count_1": 1
+  },
+  "2001090": {
+    "RewardID": 2001090,
+    "ItemID_1": 223501,
+    "Count_1": 1
+  },
+  "2001091": {
+    "RewardID": 2001091,
+    "ItemID_1": 223502,
+    "Count_1": 1
+  },
+  "2001092": {
+    "RewardID": 2001092,
+    "ItemID_1": 223504,
+    "Count_1": 1
+  },
+  "2001093": {
+    "RewardID": 2001093,
+    "ItemID_1": 223505,
+    "Count_1": 1
+  },
+  "2001094": {
+    "RewardID": 2001094,
+    "ItemID_1": 223506,
+    "Count_1": 1
+  },
+  "2001095": {
+    "RewardID": 2001095,
+    "ItemID_1": 223507,
+    "Count_1": 1
+  },
+  "2001096": {
+    "RewardID": 2001096,
+    "ItemID_1": 223508,
+    "Count_1": 1
+  },
+  "2001097": {
+    "RewardID": 2001097,
+    "ItemID_1": 223509,
+    "Count_1": 1
+  },
+  "2001098": {
+    "RewardID": 2001098,
+    "ItemID_1": 223531,
+    "Count_1": 1
+  },
+  "2001099": {
+    "RewardID": 2001099,
+    "ItemID_1": 223532,
+    "Count_1": 1
+  },
+  "2001100": {
+    "RewardID": 2001100,
+    "ItemID_1": 223533,
+    "Count_1": 1
+  },
+  "2001101": {
+    "RewardID": 2001101,
+    "ItemID_1": 223534,
+    "Count_1": 1
+  },
+  "2001102": {
+    "RewardID": 2001102,
+    "ItemID_1": 223601,
+    "Count_1": 1
+  },
+  "2001103": {
+    "RewardID": 2001103,
+    "ItemID_1": 223602,
+    "Count_1": 1
+  },
+  "2001104": {
+    "RewardID": 2001104,
+    "ItemID_1": 223603,
+    "Count_1": 1
+  },
+  "2001105": {
+    "RewardID": 2001105,
+    "ItemID_1": 223604,
+    "Count_1": 1
+  },
+  "2001106": {
+    "RewardID": 2001106,
+    "ItemID_1": 223605,
+    "Count_1": 1
+  },
+  "2001107": {
+    "RewardID": 2001107,
+    "ItemID_1": 223607,
+    "Count_1": 1
+  },
+  "2001108": {
+    "RewardID": 2001108,
+    "ItemID_1": 223631,
+    "Count_1": 1
+  },
+  "2001109": {
+    "RewardID": 2001109,
+    "ItemID_1": 223632,
+    "Count_1": 1
+  },
+  "2001110": {
+    "RewardID": 2001110,
+    "ItemID_1": 223633,
+    "Count_1": 1
+  },
+  "2001111": {
+    "RewardID": 2001111,
+    "ItemID_1": 223634,
+    "Count_1": 1
+  },
+  "2001112": {
+    "RewardID": 2001112,
+    "ItemID_1": 223705,
+    "Count_1": 1
+  },
+  "2001113": {
+    "RewardID": 2001113,
+    "ItemID_1": 223706,
+    "Count_1": 1
+  },
+  "2001114": {
+    "RewardID": 2001114,
+    "ItemID_1": 223708,
+    "Count_1": 1
+  },
+  "2001115": {
+    "RewardID": 2001115,
+    "ItemID_1": 223710,
+    "Count_1": 1
+  },
+  "2001116": {
+    "RewardID": 2001116,
+    "ItemID_1": 223712,
+    "Count_1": 1
+  },
+  "2001117": {
+    "RewardID": 2001117,
+    "ItemID_1": 223713,
+    "Count_1": 1
+  },
+  "2001118": {
+    "RewardID": 2001118,
+    "ItemID_1": 223714,
+    "Count_1": 1
+  },
+  "2001119": {
+    "RewardID": 2001119,
+    "ItemID_1": 223731,
+    "Count_1": 1
+  },
+  "2001120": {
+    "RewardID": 2001120,
+    "ItemID_1": 223732,
+    "Count_1": 1
+  },
+  "2001121": {
+    "RewardID": 2001121,
+    "ItemID_1": 223733,
+    "Count_1": 1
+  },
+  "2001122": {
+    "RewardID": 2001122,
+    "ItemID_1": 223734,
+    "Count_1": 1
+  },
+  "2001123": {
+    "RewardID": 2001123,
+    "ItemID_1": 223735,
+    "Count_1": 1
+  },
+  "2001124": {
+    "RewardID": 2001124,
+    "ItemID_1": 140465,
+    "Count_1": 1
+  },
+  "2001129": {
+    "RewardID": 2001129,
+    "ItemID_1": 408208,
+    "Count_1": 2
+  },
+  "2001130": {
+    "RewardID": 2001130,
+    "ItemID_1": 401022,
+    "Count_1": 1
+  },
+  "2001131": {
+    "RewardID": 2001131,
+    "ItemID_1": 401026,
+    "Count_1": 1
+  },
+  "2001132": {
+    "RewardID": 2001132,
+    "ItemID_1": 401025,
+    "Count_1": 1
+  },
+  "2001133": {
+    "RewardID": 2001133,
+    "ItemID_1": 401024,
+    "Count_1": 1
+  },
+  "2001134": {
+    "RewardID": 2001134,
+    "ItemID_1": 408417,
+    "Count_1": 1
+  },
+  "2001135": {
+    "RewardID": 2001135,
+    "ItemID_1": 408415,
+    "Count_1": 1
+  },
+  "2001136": {
+    "RewardID": 2001136,
+    "ItemID_1": 401028,
+    "Count_1": 1
+  },
+  "2001137": {
+    "RewardID": 2001137,
+    "ItemID_1": 181014,
+    "Count_1": 3
+  },
+  "2001138": {
+    "RewardID": 2001138,
+    "ItemID_1": 408418,
+    "Count_1": 1
+  },
+  "2001139": {
+    "RewardID": 2001139,
+    "ItemID_1": 401027,
+    "Count_1": 1
+  },
+  "2001140": {
+    "RewardID": 2001140,
+    "ItemID_1": 2,
+    "Count_1": 1800
   },
   "1000001": {
     "RewardID": 1000001,
@@ -17372,6 +19208,51 @@
     "ItemID_1": 1210,
     "Count_1": 1
   },
+  "1300021": {
+    "RewardID": 1300021,
+    "ItemID_1": 1312,
+    "Count_1": 1
+  },
+  "1300022": {
+    "RewardID": 1300022,
+    "ItemID_1": 1214,
+    "Count_1": 1
+  },
+  "1300023": {
+    "RewardID": 1300023,
+    "ItemID_1": 1215,
+    "Count_1": 1
+  },
+  "1300024": {
+    "RewardID": 1300024,
+    "ItemID_1": 1210,
+    "Count_1": 1
+  },
+  "1300025": {
+    "RewardID": 1300025,
+    "ItemID_1": 1111,
+    "Count_1": 1
+  },
+  "1300026": {
+    "RewardID": 1300026,
+    "ItemID_1": 1110,
+    "Count_1": 1
+  },
+  "1300027": {
+    "RewardID": 1300027,
+    "ItemID_1": 1207,
+    "Count_1": 1
+  },
+  "1300028": {
+    "RewardID": 1300028,
+    "ItemID_1": 1301,
+    "Count_1": 1
+  },
+  "1400000": {
+    "RewardID": 1400000,
+    "ItemID_1": 2,
+    "Count_1": 100000
+  },
   "3000000": {
     "RewardID": 3000000,
     "ItemID_1": 2,
@@ -17479,6 +19360,43 @@
     "RewardID": 3000301,
     "ItemID_1": 102,
     "Count_1": 10
+  },
+  "3000401": {
+    "RewardID": 3000401,
+    "ItemID_1": 102,
+    "Count_1": 2
+  },
+  "3000402": {
+    "RewardID": 3000402,
+    "ItemID_1": 102,
+    "Count_1": 2
+  },
+  "3000403": {
+    "RewardID": 3000403,
+    "IsSpecial": true,
+    "ItemID_1": 102,
+    "Count_1": 4
+  },
+  "3000404": {
+    "RewardID": 3000404,
+    "ItemID_1": 102,
+    "Count_1": 2
+  },
+  "3000405": {
+    "RewardID": 3000405,
+    "ItemID_1": 102,
+    "Count_1": 2
+  },
+  "3000406": {
+    "RewardID": 3000406,
+    "ItemID_1": 102,
+    "Count_1": 2
+  },
+  "3000407": {
+    "RewardID": 3000407,
+    "IsSpecial": true,
+    "ItemID_1": 102,
+    "Count_1": 6
   },
   "3001101": {
     "RewardID": 3001101,
@@ -17855,6 +19773,31 @@
   },
   "3011306": {
     "RewardID": 3011306,
+    "Hcoin": 20,
+    "ItemID_1": 212,
+    "Count_1": 3,
+    "ItemID_2": 114011,
+    "Count_2": 5
+  },
+  "3011308": {
+    "RewardID": 3011308,
+    "Hcoin": 20,
+    "ItemID_1": 212,
+    "Count_1": 3,
+    "ItemID_2": 114001,
+    "Count_2": 5
+  },
+  "3011301": {
+    "RewardID": 3011301,
+    "ItemID_1": 2,
+    "Count_1": 10000,
+    "ItemID_2": 212,
+    "Count_2": 2,
+    "ItemID_3": 114001,
+    "Count_3": 4
+  },
+  "3011304": {
+    "RewardID": 3011304,
     "Hcoin": 20,
     "ItemID_1": 212,
     "Count_1": 3,
@@ -21938,6 +23881,626 @@
     "ItemID_1": 241,
     "Count_1": 1
   },
+  "3110001": {
+    "RewardID": 3110001,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110002": {
+    "RewardID": 3110002,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 223,
+    "Count_2": 5,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110003": {
+    "RewardID": 3110003,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 233,
+    "Count_3": 6
+  },
+  "3110004": {
+    "RewardID": 3110004,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110005": {
+    "RewardID": 3110005,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 223,
+    "Count_2": 5,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110006": {
+    "RewardID": 3110006,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 233,
+    "Count_3": 6
+  },
+  "3110007": {
+    "RewardID": 3110007,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110008": {
+    "RewardID": 3110008,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 223,
+    "Count_2": 5,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110009": {
+    "RewardID": 3110009,
+    "Hcoin": 60,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 233,
+    "Count_2": 5
+  },
+  "3110010": {
+    "RewardID": 3110010,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 213,
+    "Count_2": 6,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110011": {
+    "RewardID": 3110011,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 223,
+    "Count_2": 5,
+    "ItemID_3": 110222,
+    "Count_3": 8
+  },
+  "3110012": {
+    "RewardID": 3110012,
+    "IsSpecial": true,
+    "Hcoin": 80,
+    "ItemID_1": 2,
+    "Count_1": 80000,
+    "ItemID_2": 233,
+    "Count_2": 6,
+    "ItemID_3": 241,
+    "Count_3": 1
+  },
+  "3110013": {
+    "RewardID": 3110013,
+    "ItemID_1": 236,
+    "Count_1": 1
+  },
+  "3110014": {
+    "RewardID": 3110014,
+    "Hcoin": 60,
+    "ItemID_1": 223,
+    "Count_1": 4,
+    "ItemID_2": 233,
+    "Count_2": 5
+  },
+  "3111001": {
+    "RewardID": 3111001,
+    "Hcoin": 40,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111002": {
+    "RewardID": 3111002,
+    "Hcoin": 40,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111003": {
+    "RewardID": 3111003,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111004": {
+    "RewardID": 3111004,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111011": {
+    "RewardID": 3111011,
+    "Hcoin": 40,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111012": {
+    "RewardID": 3111012,
+    "Hcoin": 40,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111013": {
+    "RewardID": 3111013,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111014": {
+    "RewardID": 3111014,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111021": {
+    "RewardID": 3111021,
+    "Hcoin": 40,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111022": {
+    "RewardID": 3111022,
+    "Hcoin": 40,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111023": {
+    "RewardID": 3111023,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111024": {
+    "RewardID": 3111024,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111031": {
+    "RewardID": 3111031,
+    "Hcoin": 40,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111032": {
+    "RewardID": 3111032,
+    "Hcoin": 40,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111033": {
+    "RewardID": 3111033,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111034": {
+    "RewardID": 3111034,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111041": {
+    "RewardID": 3111041,
+    "Hcoin": 40,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111042": {
+    "RewardID": 3111042,
+    "Hcoin": 40,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111043": {
+    "RewardID": 3111043,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111044": {
+    "RewardID": 3111044,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111051": {
+    "RewardID": 3111051,
+    "Hcoin": 50,
+    "ItemID_1": 213,
+    "Count_1": 3,
+    "ItemID_2": 223,
+    "Count_2": 3
+  },
+  "3111052": {
+    "RewardID": 3111052,
+    "Hcoin": 50,
+    "ItemID_1": 2,
+    "Count_1": 30000,
+    "ItemID_2": 213,
+    "Count_2": 3
+  },
+  "3111053": {
+    "RewardID": 3111053,
+    "ItemID_1": 233,
+    "Count_1": 3,
+    "ItemID_2": 235,
+    "Count_2": 20
+  },
+  "3111054": {
+    "RewardID": 3111054,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 235,
+    "Count_2": 10
+  },
+  "3111099": {
+    "RewardID": 3111099,
+    "ItemID_1": 241,
+    "Count_1": 1
+  },
+  "3112101": {
+    "RewardID": 3112101,
+    "ItemID_1": 2,
+    "Count_1": 60000,
+    "ItemID_2": 110222,
+    "Count_2": 5
+  },
+  "3112102": {
+    "RewardID": 3112102,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 110222,
+    "Count_2": 5
+  },
+  "3112103": {
+    "RewardID": 3112103,
+    "ItemID_1": 2,
+    "Count_1": 60000,
+    "ItemID_2": 110222,
+    "Count_2": 5
+  },
+  "3112104": {
+    "RewardID": 3112104,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 110222,
+    "Count_2": 5
+  },
+  "3112105": {
+    "RewardID": 3112105,
+    "ItemID_1": 110222,
+    "Count_1": 10
+  },
+  "3112201": {
+    "RewardID": 3112201,
+    "ItemID_1": 2,
+    "Count_1": 60000,
+    "ItemID_2": 213,
+    "Count_2": 5,
+    "ItemID_3": 110222,
+    "Count_3": 10
+  },
+  "3112202": {
+    "RewardID": 3112202,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 233,
+    "Count_2": 6
+  },
+  "3112203": {
+    "RewardID": 3112203,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 223,
+    "Count_2": 4
+  },
+  "3112204": {
+    "RewardID": 3112204,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 223,
+    "Count_2": 4
+  },
+  "3112301": {
+    "RewardID": 3112301,
+    "ItemID_1": 2,
+    "Count_1": 60000,
+    "ItemID_2": 233,
+    "Count_2": 6,
+    "ItemID_3": 110222,
+    "Count_3": 10
+  },
+  "3112302": {
+    "RewardID": 3112302,
+    "ItemID_1": 213,
+    "Count_1": 5,
+    "ItemID_2": 233,
+    "Count_2": 6
+  },
+  "3112303": {
+    "RewardID": 3112303,
+    "ItemID_1": 223,
+    "Count_1": 4,
+    "ItemID_2": 233,
+    "Count_2": 6
+  },
+  "3112304": {
+    "RewardID": 3112304,
+    "ItemID_1": 2,
+    "Count_1": 20000,
+    "ItemID_2": 223,
+    "Count_2": 4
+  },
+  "3112401": {
+    "RewardID": 3112401,
+    "ItemID_1": 2,
+    "Count_1": 100000,
+    "ItemID_2": 213,
+    "Count_2": 5
+  },
+  "3112402": {
+    "RewardID": 3112402,
+    "ItemID_1": 2,
+    "Count_1": 40000,
+    "ItemID_2": 213,
+    "Count_2": 2
+  },
+  "3112403": {
+    "RewardID": 3112403,
+    "ItemID_1": 2,
+    "Count_1": 40000,
+    "ItemID_2": 213,
+    "Count_2": 2
+  },
+  "3112404": {
+    "RewardID": 3112404,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "3112001": {
+    "RewardID": 3112001,
+    "Hcoin": 60
+  },
+  "3112002": {
+    "RewardID": 3112002,
+    "Hcoin": 60
+  },
+  "3112003": {
+    "RewardID": 3112003,
+    "Hcoin": 60
+  },
+  "3112004": {
+    "RewardID": 3112004,
+    "ItemID_1": 241,
+    "Count_1": 1
+  },
+  "3112005": {
+    "RewardID": 3112005,
+    "Hcoin": 60
+  },
+  "3112006": {
+    "RewardID": 3112006,
+    "ItemID_1": 236,
+    "Count_1": 1
+  },
+  "3112007": {
+    "RewardID": 3112007,
+    "Hcoin": 60
+  },
+  "3112008": {
+    "RewardID": 3112008,
+    "Hcoin": 60
+  },
+  "3112009": {
+    "RewardID": 3112009,
+    "Hcoin": 60
+  },
+  "3112010": {
+    "RewardID": 3112010,
+    "ItemID_1": 202016,
+    "Count_1": 1
+  },
+  "3112011": {
+    "RewardID": 3112011,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "3112012": {
+    "RewardID": 3112012,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "3112013": {
+    "RewardID": 3112013,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "3112014": {
+    "RewardID": 3112014,
+    "ItemID_1": 2,
+    "Count_1": 20000
+  },
+  "3112501": {
+    "RewardID": 3112501,
+    "Hcoin": 160
+  },
+  "3112502": {
+    "RewardID": 3112502,
+    "Hcoin": 160
+  },
+  "3112503": {
+    "RewardID": 3112503,
+    "Hcoin": 200
+  },
+  "3112504": {
+    "RewardID": 3112504,
+    "ItemID_1": 221005,
+    "Count_1": 1
+  },
+  "3112901": {
+    "RewardID": 3112901,
+    "Hcoin": 120
+  },
+  "3112902": {
+    "RewardID": 3112902,
+    "Hcoin": 80
+  },
+  "3112903": {
+    "RewardID": 3112903,
+    "Hcoin": 60
+  },
+  "3112904": {
+    "RewardID": 3112904,
+    "Hcoin": 120
+  },
+  "3112905": {
+    "RewardID": 3112905,
+    "Hcoin": 80
+  },
+  "3112906": {
+    "RewardID": 3112906,
+    "Hcoin": 60
+  },
+  "3112907": {
+    "RewardID": 3112907,
+    "Hcoin": 120
+  },
+  "3112908": {
+    "RewardID": 3112908,
+    "Hcoin": 80
+  },
+  "3112909": {
+    "RewardID": 3112909,
+    "Hcoin": 60
+  },
+  "3112910": {
+    "RewardID": 3112910,
+    "Hcoin": 144
+  },
+  "3112911": {
+    "RewardID": 3112911,
+    "Hcoin": 96
+  },
+  "3112912": {
+    "RewardID": 3112912,
+    "Hcoin": 72
+  },
+  "3112913": {
+    "RewardID": 3112913,
+    "Hcoin": 168
+  },
+  "3112914": {
+    "RewardID": 3112914,
+    "Hcoin": 112
+  },
+  "3112915": {
+    "RewardID": 3112915,
+    "Hcoin": 84
+  },
+  "3112916": {
+    "RewardID": 3112916,
+    "Hcoin": 192
+  },
+  "3112917": {
+    "RewardID": 3112917,
+    "Hcoin": 128
+  },
+  "3112918": {
+    "RewardID": 3112918,
+    "Hcoin": 96
+  },
+  "3112919": {
+    "RewardID": 3112919,
+    "Hcoin": 216
+  },
+  "3112920": {
+    "RewardID": 3112920,
+    "Hcoin": 144
+  },
+  "3112921": {
+    "RewardID": 3112921,
+    "Hcoin": 108
+  },
+  "3112922": {
+    "RewardID": 3112922,
+    "Hcoin": 240
+  },
+  "3112923": {
+    "RewardID": 3112923,
+    "Hcoin": 160
+  },
+  "3112924": {
+    "RewardID": 3112924,
+    "Hcoin": 120
+  },
+  "3112925": {
+    "RewardID": 3112925,
+    "Hcoin": 8
+  },
+  "3112801": {
+    "RewardID": 3112801,
+    "Hcoin": 60
+  },
   "3200000": {
     "RewardID": 3200000,
     "Hcoin": 10
@@ -22782,6 +25345,21 @@
   "8006028": {
     "RewardID": 8006028,
     "ItemID_1": 250570,
+    "Count_1": 1
+  },
+  "8007001": {
+    "RewardID": 8007001,
+    "ItemID_1": 281014,
+    "Count_1": 1
+  },
+  "8007002": {
+    "RewardID": 8007002,
+    "ItemID_1": 281016,
+    "Count_1": 1
+  },
+  "8007003": {
+    "RewardID": 8007003,
+    "ItemID_1": 281017,
     "Count_1": 1
   }
 }

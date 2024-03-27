@@ -10,48 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      38,
-      10,
-      41,
-      10,
-      42,
-      10,
-      43,
-      10,
-      38,
-      11,
-      42,
-      12
-    ],
-    "LowerUpperBounds": {
-      "x": -6,
-      "y": -5
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      38,
-      10,
-      41,
-      10,
-      42,
-      10,
-      43,
-      10,
-      38,
-      11,
-      42,
-      11,
-      42,
-      12
-    ],
-    "LowerUpperBounds": {
-      "x": -6,
-      "y": -5
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -67,7 +25,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -126,7 +83,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -164,7 +120,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -195,7 +150,6 @@
         "InstanceID": 400004,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312100000,
@@ -233,7 +187,6 @@
         "InstanceID": 400005,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 388784792
@@ -267,7 +220,6 @@
         "InstanceID": 400006,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 388784792
@@ -301,7 +253,6 @@
         "InstanceID": 400001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1077380517
@@ -335,7 +286,6 @@
         "InstanceID": 400002,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020222,
@@ -362,7 +312,6 @@
         "InstanceID": 400003,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
@@ -384,7 +333,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -408,7 +356,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -438,7 +385,6 @@
         "InstanceID": 400004,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 388784792

@@ -9,20 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      6,
-      -11
-    ],
-    "LowerUpperBounds": {
-      "x": 206,
-      "y": 207
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -31,16 +17,14 @@
       "PosY": 182.9205,
       "PosZ": -14.05,
       "Name": "Anchor5",
-      "RotY": 96.50529,
-      "MapLayerID": 2
+      "RotY": 96.50529
     },
     {
       "ID": 1,
       "PosX": 12.34,
       "PosY": 413.0818,
       "PosZ": -21.02,
-      "Name": "Anchor1",
-      "MapLayerID": 3
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -62,7 +46,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {

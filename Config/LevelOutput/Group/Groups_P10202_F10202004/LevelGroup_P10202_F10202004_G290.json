@@ -22,26 +22,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -28,
-      -32
-    ],
-    "LowerUpperBounds": {
-      "x": 19,
-      "y": 20
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -28,
-      -32
-    ],
-    "LowerUpperBounds": {
-      "x": 19,
-      "y": 20
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -57,7 +37,6 @@
       "NPCID": 1215,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

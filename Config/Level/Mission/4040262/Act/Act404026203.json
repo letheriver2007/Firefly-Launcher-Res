@@ -353,6 +353,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
           },
+          "IsAttachToTargetEntity": true,
           "Flags": [],
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_SuiyangSmall_01_Fire.prefab",
           "PositionOffset": {
@@ -506,6 +507,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvLocalPlayer"
           },
+          "IsAttachToTargetEntity": true,
           "Flags": [],
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_SuiyangSmall_01_Fire.prefab",
           "PositionOffset": {

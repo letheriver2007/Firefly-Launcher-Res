@@ -769,7 +769,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_Skill02_Hit01.prefab"
         },
         {
@@ -792,7 +791,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_Skill02_Hit02.prefab"
         },
@@ -2062,7 +2060,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DispelDebuff.prefab"
                 },
                 {

@@ -9,14 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -27,7 +19,6 @@
       "PosZ": 149.98,
       "Name": "Anchor1",
       "RotY": 276.2697,
-      "MapLayerID": 2,
       "Usage": "Actor"
     }
   ],

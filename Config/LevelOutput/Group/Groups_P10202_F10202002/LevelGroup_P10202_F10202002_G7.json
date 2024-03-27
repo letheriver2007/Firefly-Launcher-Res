@@ -30,8 +30,7 @@
       "PosY": 0.705312,
       "PosZ": -6.34,
       "Name": "Anchor1",
-      "RotY": 291.1,
-      "MapLayerID": 1
+      "RotY": 291.1
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": 0.667444,
       "PosZ": -12.071,
       "Name": "Anchor2",
-      "RotY": 169.15,
-      "MapLayerID": 1
+      "RotY": 169.15
     },
     {
       "ID": 3,
@@ -48,8 +46,7 @@
       "PosY": 0.667444,
       "PosZ": -10.852,
       "Name": "Anchor3",
-      "RotY": 151.17,
-      "MapLayerID": 1
+      "RotY": 151.17
     },
     {
       "ID": 4,
@@ -60,7 +57,6 @@
       "RotY": 286.9753,
       "RotX": 30.28745,
       "RotZ": -0.003629,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -72,7 +68,6 @@
       "RotY": 192.4374,
       "RotX": 20.91638,
       "RotZ": -0.004711,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -90,7 +85,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -107,7 +101,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,
@@ -123,7 +116,6 @@
       "NPCID": 12220,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,
@@ -139,7 +131,6 @@
       "NPCID": 12220,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,
@@ -156,7 +147,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -176,7 +166,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010216,
@@ -193,7 +182,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,

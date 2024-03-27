@@ -12,38 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      130,
-      -206,
-      60,
-      -169,
-      132,
-      -156,
-      -34,
-      -125,
-      -37,
-      -124,
-      36,
-      -122,
-      -64,
-      -17,
-      -63,
-      -17,
-      -64,
-      -16,
-      -63,
-      -16
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 17
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -52,8 +20,7 @@
       "PosX": -75.866,
       "PosY": 22.089,
       "PosZ": -243.993,
-      "Name": "Anchor3",
-      "MapLayerID": 3
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
@@ -61,8 +28,7 @@
       "PosY": -16.91823,
       "PosZ": -251.23,
       "Name": "Anchor4",
-      "RotY": 180.5162,
-      "MapLayerID": 1
+      "RotY": 180.5162
     },
     {
       "ID": 5,
@@ -70,8 +36,7 @@
       "PosY": -4.909987,
       "PosZ": -31.597,
       "Name": "Anchor5",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 6,
@@ -79,8 +44,7 @@
       "PosY": 21.06686,
       "PosZ": -31.78,
       "Name": "Anchor6",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     },
     {
       "ID": 7,
@@ -88,16 +52,14 @@
       "PosY": -16.9182,
       "PosZ": -251.21,
       "Name": "Anchor7",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 1,
       "PosX": 76.88,
       "PosY": 22.089,
       "PosZ": -243.993,
-      "Name": "Anchor1",
-      "MapLayerID": 3
+      "Name": "Anchor1"
     },
     {
       "ID": 3,
@@ -105,8 +67,7 @@
       "PosY": 32.41997,
       "PosZ": -312.5,
       "Name": "Elevator01A",
-      "RotY": 180.0,
-      "MapLayerID": 3
+      "RotY": 180.0
     },
     {
       "ID": 8,
@@ -114,8 +75,7 @@
       "PosY": 32.42,
       "PosZ": -335.1194,
       "Name": "Elevator01B",
-      "RotY": 359.6611,
-      "MapLayerID": 3
+      "RotY": 359.6611
     },
     {
       "ID": 9,
@@ -123,8 +83,7 @@
       "PosY": -16.9182,
       "PosZ": -251.365,
       "Name": "Anchor9",
-      "RotY": 217.3488,
-      "MapLayerID": 1
+      "RotY": 217.3488
     }
   ],
   "MonsterList": [],
@@ -154,7 +113,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -207,7 +165,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -266,7 +223,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -327,7 +283,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -381,7 +336,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -435,7 +389,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -489,7 +442,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -542,7 +494,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -596,7 +547,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -650,7 +600,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {

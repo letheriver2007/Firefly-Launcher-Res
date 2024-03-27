@@ -30,48 +30,6 @@
   "OwnerMainMissionID": 4072013,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -14,
-      18,
-      -11,
-      19,
-      -8,
-      23,
-      1,
-      27,
-      -9,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 2046,
-      "y": 2050
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -14,
-      18,
-      -11,
-      19,
-      -8,
-      23,
-      -12,
-      26,
-      1,
-      27,
-      3,
-      33,
-      -9,
-      37
-    ],
-    "LowerUpperBounds": {
-      "x": 2045,
-      "y": 2050
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -80,8 +38,7 @@
       "PosY": 2.170763,
       "PosZ": 42.3,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [
@@ -110,7 +67,6 @@
         "ID": 1
       },
       "EventID": 44201211,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -133,7 +89,6 @@
         "ID": 1
       },
       "EventID": 44201212,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -157,7 +112,6 @@
         "ID": 1
       },
       "EventID": 44201213,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -180,7 +134,6 @@
         "ID": 1
       },
       "EventID": 44201214,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -211,7 +164,6 @@
         "ID": 1
       },
       "EventID": 44201215,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -226,7 +178,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_ClientBuff.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -250,7 +201,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -274,7 +224,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_BlockLine_01.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -301,7 +250,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -1591,8 +1591,20 @@
               "Event": "OnAfterBeingAttacked",
               "CallbackConfig": [
                 {
-                  "$type": "RPG.GameCore.SetModifierValue",
-                  "ModifyFunction": "Add"
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetModifierValue",
+                      "ModifyFunction": "Add"
+                    }
+                  ]
                 }
               ]
             }
@@ -3943,7 +3955,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha04_01/Eff_Monster_W1_Mecha04_01_Skill01_01_Fire.prefab"
                     }
                   ]

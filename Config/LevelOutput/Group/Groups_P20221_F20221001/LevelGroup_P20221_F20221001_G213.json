@@ -9,40 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      1,
-      2
-    ],
-    "LowerUpperBounds": {
-      "x": 75,
-      "y": 76
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      1,
-      2,
-      0,
-      12,
-      2,
-      13,
-      4,
-      14,
-      4,
-      15,
-      -5,
-      16,
-      -4,
-      17,
-      1,
-      17
-    ],
-    "LowerUpperBounds": {
-      "x": 75,
-      "y": 81
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -64,7 +30,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -102,7 +67,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -140,7 +104,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -178,7 +141,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -216,7 +178,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -254,7 +215,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -292,7 +252,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "CustomTrigger01": {
@@ -326,7 +285,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 390020000,

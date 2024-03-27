@@ -80,36 +80,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      117,
-      -43
-    ],
-    "LowerUpperBounds": {
-      "x": 199,
-      "y": 200
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      114,
-      -52,
-      115,
-      -49,
-      116,
-      -46,
-      117,
-      -43,
-      8,
-      -9,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 177,
-      "y": 234
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -120,7 +90,6 @@
       "Name": "Anchor1",
       "RotY": 25.18,
       "RotX": 27.23704,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -154,7 +123,6 @@
         "ID": 1
       },
       "EventID": 43101000,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -192,7 +160,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -216,7 +183,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -254,7 +220,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -303,7 +268,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -320,7 +284,6 @@
       "InitLevelGraph": "Config/Level/AetherDivide/BoomRobot/BoomRobot_MissionWayPoint01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -338,7 +301,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

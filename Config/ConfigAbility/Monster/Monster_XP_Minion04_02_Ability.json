@@ -432,7 +432,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_RuinP_02.prefab"
             }
           ]
@@ -1061,7 +1060,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_RuinAttack.prefab"
         },
         {
@@ -3827,7 +3825,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_ShieldP_02.prefab"
             },
             {
@@ -3848,92 +3845,26 @@
           "Event": "OnAfterBeingHit",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "IsAttachToTargetEntity": false,
-              "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_ShieldP_Hit.prefab",
-              "MinMutexTime": 0.3
-            },
-            {
-              "$type": "RPG.GameCore.TriggerEnergyBarEffect"
-            },
-            {
-              "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
-              "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
-              "Multiplier": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 1
-                }
-              },
-              "DynamicKey": "MDF_Count"
-            },
-            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.ByCompareDynamicValue",
-                "DynamicKey": "MDF_Count",
-                "CompareType": "Less",
-                "CompareValue": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": 1.5
-                  }
+                "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
                 }
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetMonsterEnergyBarState",
-                  "Active": "True",
-                  "CenterStyle": 2,
-                  "OuterState": 0,
-                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/IconMonsterKnight.png",
-                  "MaxCount": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 1
-                    }
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
                   },
-                  "CurrentCount": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 0
-                    }
-                  }
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_ShieldP_Hit.prefab",
+                  "MinMutexTime": 0.3
                 },
                 {
                   "$type": "RPG.GameCore.TriggerEnergyBarEffect"
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllDarkTeam"
-                  },
-                  "ModifierName": "MMonster_XP_Minion04_02_Cunhu_EffectBreak"
-                },
-                {
-                  "$type": "RPG.GameCore.SetModifierValue",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllDarkTeam"
-                  },
-                  "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
-                  "ModifyFunction": "Add"
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.SetModifierValue",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllDarkTeam"
-                  },
-                  "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
-                  "ModifyFunction": "Add"
                 },
                 {
                   "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
@@ -3947,57 +3878,134 @@
                   "DynamicKey": "MDF_Count"
                 },
                 {
-                  "$type": "RPG.GameCore.TriggerEnergyBarEffect"
-                },
-                {
-                  "$type": "RPG.GameCore.SetMonsterEnergyBarState",
-                  "Active": "True",
-                  "CenterStyle": 3,
-                  "OuterState": 2,
-                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/IconMonsterKnight.png",
-                  "MaxCount": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 20
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "MDF_Count",
+                    "CompareType": "Less",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1.5
+                      }
                     }
                   },
-                  "CurrentCount": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -2027709849
-                      ]
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetMonsterEnergyBarState",
+                      "Active": "True",
+                      "CenterStyle": 2,
+                      "OuterState": 0,
+                      "IconPath": "SpriteOutput/BuffIcon/Inlevel/IconMonsterKnight.png",
+                      "MaxCount": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 1
+                        }
+                      },
+                      "CurrentCount": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    {
+                      "$type": "RPG.GameCore.TriggerEnergyBarEffect"
+                    },
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "AllDarkTeam"
+                      },
+                      "ModifierName": "MMonster_XP_Minion04_02_Cunhu_EffectBreak"
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetModifierValue",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "AllDarkTeam"
+                      },
+                      "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
+                      "ModifyFunction": "Add"
                     }
-                  }
-                }
-              ]
-            },
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.ByCompareModifierValue",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ModifierOwnerEntity"
+                  ],
+                  "FailedTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetModifierValue",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "AllDarkTeam"
+                      },
+                      "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
+                      "ModifyFunction": "Add"
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
+                      "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Buff",
+                      "Multiplier": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 1
+                        }
+                      },
+                      "DynamicKey": "MDF_Count"
+                    },
+                    {
+                      "$type": "RPG.GameCore.TriggerEnergyBarEffect"
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetMonsterEnergyBarState",
+                      "Active": "True",
+                      "CenterStyle": 3,
+                      "OuterState": 2,
+                      "IconPath": "SpriteOutput/BuffIcon/Inlevel/IconMonsterKnight.png",
+                      "MaxCount": {
+                        "IsDynamic": false,
+                        "FixedValue": {
+                          "Value": 20
+                        }
+                      },
+                      "CurrentCount": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQAK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            -2027709849
+                          ]
+                        }
+                      }
+                    }
+                  ]
                 },
-                "CompareType": "LessEqual",
-                "CompareValue": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": 0
-                  }
-                }
-              },
-              "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.RemoveModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "Caster"
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareModifierValue",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "CompareType": "LessEqual",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
+                    }
                   },
-                  "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Caster"
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "ModifierName": "MMonster_XP_Minion04_02_Cunhu_Caster"
+                    }
+                  ]
                 }
               ]
             }
@@ -4043,7 +4051,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Field",
                 "Resident"
@@ -4283,7 +4290,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_AbundanceP_Hit.prefab"
                     }
                   ],
@@ -4758,7 +4764,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Field",
                 "Resident"
@@ -4820,7 +4825,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_RuinP_02_02.prefab"
             }
           ]
@@ -4861,6 +4865,10 @@
                 "PredicateList": [
                   {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT",
                       "Insert",
@@ -5004,7 +5012,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier04_00/Eff_Monster_W1_Soldier04_00_Skill02_Loop02_Start.prefab"
             }
           ]
@@ -5037,7 +5044,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_00/Eff_Monster_XP_Minion04_00_Skill01_Loop.prefab"
             }
           ]
@@ -5101,7 +5107,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_00/Eff_Monster_XP_Minion04_00_Skill02_Loop.prefab"
             }
           ]

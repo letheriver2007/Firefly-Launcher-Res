@@ -35,9 +35,11 @@
   },
   "LoadSide": "Server",
   "OwnerMainMissionID": 2020601,
+  "ValueSource": {},
   "ConflictIDList": [
     2020602
   ],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [],
@@ -52,7 +54,6 @@
       "NPCID": 12260,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -76,6 +77,7 @@
         }
       },
       "RaidID": 40232002,
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

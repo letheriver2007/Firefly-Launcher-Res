@@ -290,7 +290,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Triger.prefab",
                   "AttachPoint": "SelectRoot"
                 },
@@ -345,7 +344,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wound_Add.prefab",
                   "AttachPoint": "SelectRoot"
                 }
@@ -452,7 +450,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Air_Attack.prefab",
           "PositionOffset": {
             "X": 0,
@@ -481,7 +478,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Ground_Attack.prefab"
         },
         {
@@ -622,7 +618,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab",
               "AudioSwitchGroup": "Battle_Buff",
               "AudioSwitchName": "QuXieShu"
@@ -789,7 +784,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab",
                   "AudioSwitchGroup": "Battle_Buff",
                   "AudioSwitchName": "QuXieShu"
@@ -900,7 +894,7 @@
           },
           "-142085853": {
             "ReadInfo": {
-              "Type": 8,
+              "Type": "FloorCustomData",
               "Str": "#BattleEvent"
             }
           },

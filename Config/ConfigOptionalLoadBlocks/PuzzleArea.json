@@ -23,6 +23,14 @@
         }
       ],
       "EnvProfilePath": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_Puzzle_MirrorBox_Night_01.enviroProfile.asset"
+    },
+    "DrinkerMakerPuzzleBG": {
+      "BLockDataList": [
+        {
+          "StagePath": "Stages/Outputs/Chapter03_DesignerBackup/Stages/Chap03_MAZ_P101_Bartender_Puzzle_StageData/Chap03_MAZ_P101_Bartender_Puzzle_StageData.stage"
+        }
+      ],
+      "EnvProfilePath": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_Puzzle_DrinkMaker_InDoor_01.enviroProfile.asset"
     }
   }
 }

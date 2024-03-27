@@ -9,14 +9,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -26,8 +18,7 @@
       "PosY": -8.612911,
       "PosZ": 146.72,
       "Name": "Anchor1",
-      "RotY": 182.0833,
-      "MapLayerID": 2
+      "RotY": 182.0833
     }
   ],
   "MonsterList": [],

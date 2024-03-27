@@ -64,6 +64,8 @@
     "OverrideVisionConfigs": {}
   },
   "AdvAIControllerConfig": {
-    "HasWalkStop": false
+    "HasWalkStop": false,
+    "TriggerTurnThresholdOnFacing": 0,
+    "TriggerTurnThresholdOnMove": 0
   }
 }

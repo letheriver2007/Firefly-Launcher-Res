@@ -40,8 +40,7 @@
       "PosY": 4.876643,
       "PosZ": -131.2,
       "Name": "Anchor1",
-      "RotY": 150.0,
-      "MapLayerID": 1
+      "RotY": 150.0
     },
     {
       "ID": 2,
@@ -51,7 +50,6 @@
       "Name": "Anchor2",
       "RotY": 180.5039,
       "RotX": 9.131128,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -63,8 +61,7 @@
       "PosY": 8.525934,
       "PosZ": -110.65,
       "Name": "Anchor3",
-      "RotY": 149.9999,
-      "MapLayerID": 1
+      "RotY": 149.9999
     },
     {
       "ID": 4,
@@ -72,8 +69,7 @@
       "PosY": 4.876643,
       "PosZ": -131.12,
       "Name": "Anchor4",
-      "RotY": 119.9999,
-      "MapLayerID": 1
+      "RotY": 119.9999
     },
     {
       "ID": 5,
@@ -84,7 +80,6 @@
       "RotY": 90.50393,
       "RotX": 7.4094,
       "RotZ": -2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -110,7 +105,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -137,7 +131,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -162,7 +155,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -187,7 +179,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -212,7 +203,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -230,7 +220,6 @@
       "PropID": 102082,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -248,7 +237,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -269,7 +257,6 @@
       "NPCID": 3009,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900030000,
@@ -298,7 +285,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8
@@ -320,7 +306,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -336,7 +321,6 @@
       "NPCID": 1992,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020000,
@@ -353,7 +337,6 @@
       "LevelGraph": "Config/Level/Mission/2020313/Mission_202031305_Yanqing_Effect.json",
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312090000,
@@ -370,7 +353,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -398,7 +380,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8

@@ -8,26 +8,6 @@
   "OwnerMainMissionID": 8014131,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      5,
-      36
-    ],
-    "LowerUpperBounds": {
-      "x": 126,
-      "y": 127
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      5,
-      36
-    ],
-    "LowerUpperBounds": {
-      "x": 126,
-      "y": 127
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -44,7 +24,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

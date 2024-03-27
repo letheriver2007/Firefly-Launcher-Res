@@ -179,6 +179,12 @@
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Avatar/NPC_Avatar_Lady_Acheron_00_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Avatar/NPC_Avatar_Acheron_00_PerformanceC_Config.json"
   },
+  "NPC_Avatar_Lady_Acheron_01": {
+    "StoryCharacterID": "NPC_Avatar_Lady_Acheron_01",
+    "SubType": "Avatar",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Avatar/NPC_Avatar_Lady_Acheron_01_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Avatar/NPC_Avatar_Acheron_01_PerformanceC_Config.json"
+  },
   "NPC_Avatar_Maid_Asta_00": {
     "StoryCharacterID": "NPC_Avatar_Maid_Asta_00",
     "SubType": "Avatar",
@@ -366,8 +372,7 @@
   "NPC_Full_W3_MuscleMan_Woolsey": {
     "StoryCharacterID": "NPC_Full_W3_MuscleMan_Woolsey",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W3_MuscleMan_Woolsey_Entity.json",
-    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_MuscleMan_Woolsey_Config.json",
-    "IsSupportBakedMouth": false
+    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_MuscleMan_Woolsey_Config.json"
   },
   "NPC_FullNPC_W1_Male_Fersman": {
     "StoryCharacterID": "NPC_FullNPC_W1_Male_Fersman",
@@ -394,6 +399,21 @@
     "StoryCharacterID": "NPC_FullNPC_W2_Male_GongShuLiang",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W2_Male_GongShuLiang_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W2_Male_GongShuLiang_Config.json"
+  },
+  "NPC_Full_W3_Child_ShaJinYoung": {
+    "StoryCharacterID": "NPC_Full_W3_Child_ShaJinYoung",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W3_Child_ShaJinYoung_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_Child_ShaJinYoung_Config.json"
+  },
+  "NPC_Full_W3_Lady_Siobhan": {
+    "StoryCharacterID": "NPC_Full_W3_Lady_Siobhan",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Full/NPC_Full_W3_Lady_Siobhan_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Full/NPC_W3_Lady_Siobhan_Config.json"
+  },
+  "NPC_Special_SundaysServant_00": {
+    "StoryCharacterID": "NPC_Special_SundaysServant_00",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_SundaysServant_00_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_SundaysServant_00_Config.json"
   },
   "NPC_Monster_AML_Elite01_00": {
     "StoryCharacterID": "NPC_Monster_AML_Elite01_00",
@@ -860,6 +880,13 @@
     "SubType": "Special",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_OrigamiBird_00_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_00_Config.json",
+    "IsSupportBakedMouth": false
+  },
+  "NPC_Special_OrigamiBird_SuperBig_00": {
+    "StoryCharacterID": "NPC_Special_OrigamiBird_SuperBig_00",
+    "SubType": "Special",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Special/NPC_Special_OrigamiBird_00_SuperBig_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Special/NPC_Special_OrigamiBird_00_01_SuperBig_Config.json",
     "IsSupportBakedMouth": false
   },
   "NPC_Special_Pam_00": {
@@ -2872,6 +2899,11 @@
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_37_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
   },
+  "NPC_W3_Lady_37_Small": {
+    "StoryCharacterID": "NPC_W3_Lady_37_Small",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_37_Small_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
+  },
   "NPC_W3_Lady_38": {
     "StoryCharacterID": "NPC_W3_Lady_38",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_38_Entity.json",
@@ -2895,6 +2927,11 @@
   "NPC_W3_Lady_42": {
     "StoryCharacterID": "NPC_W3_Lady_42",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_42_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
+  },
+  "NPC_W3_Lady_43": {
+    "StoryCharacterID": "NPC_W3_Lady_43",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Lady_43_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Lady_Config.json"
   },
   "NPC_W3_Lady_04": {
@@ -3092,6 +3129,11 @@
   "NPC_W3_Male_38": {
     "StoryCharacterID": "NPC_W3_Male_38",
     "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_38_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json"
+  },
+  "NPC_W3_Male_45": {
+    "StoryCharacterID": "NPC_W3_Male_45",
+    "ConfigEntityPath": "Config/ConfigEntity/NPC/Normal/NPC_W3_Male_45_Entity.json",
     "JsonPath": "Config/ConfigCharacter/NPC/Normal/NPC_W3_Male_Config.json"
   },
   "NPC_W3_Male_48": {

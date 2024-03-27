@@ -71,7 +71,8 @@
           "CharacterUniqueName": {
             "Value": "Robot_1"
           },
-          "AnimStateName": "Maze_Idle_01"
+          "AnimStateName": "Maze_Idle_01",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.PlaySimpleTalk",
@@ -98,7 +99,8 @@
           "CharacterUniqueName": {
             "Value": "Robot_1"
           },
-          "AnimStateName": "Maze_Idle_01"
+          "AnimStateName": "Maze_Idle_01",
+          "NormalizedTransitionDuration": 0.25
         },
         {
           "$type": "RPG.GameCore.WaitSecond",

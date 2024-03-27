@@ -31,8 +31,7 @@
       "PosY": 44.01012,
       "PosZ": -3.29,
       "Name": "Anchor1",
-      "RotY": 215.0,
-      "MapLayerID": 2
+      "RotY": 215.0
     },
     {
       "ID": 2,
@@ -41,7 +40,6 @@
       "PosZ": -2.286,
       "Name": "Anchor2",
       "RotY": 230.0,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     }
@@ -74,7 +72,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -104,7 +101,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],

@@ -14,30 +14,6 @@
   ],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -8,
-      83,
-      -10,
-      87
-    ],
-    "LowerUpperBounds": {
-      "x": -14,
-      "y": -13
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -8,
-      83,
-      -10,
-      87
-    ],
-    "LowerUpperBounds": {
-      "x": -14,
-      "y": -12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -62,7 +38,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -97,7 +72,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64,
@@ -127,7 +101,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64,

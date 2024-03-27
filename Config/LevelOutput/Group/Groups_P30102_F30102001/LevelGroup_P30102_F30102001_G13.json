@@ -21,8 +21,7 @@
       "PosY": 19.97695,
       "PosZ": -36.43,
       "Name": "Anchor1",
-      "RotY": 150.0,
-      "MapLayerID": 1
+      "RotY": 150.0
     }
   ],
   "MonsterList": [
@@ -45,7 +44,6 @@
         "ID": 1
       },
       "EventID": 99999011,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]

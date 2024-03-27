@@ -32,7 +32,6 @@
       "RotY": 225.7,
       "RotX": 15.94001,
       "RotZ": 1.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -59,7 +58,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -83,7 +81,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -105,7 +102,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110217,
@@ -125,7 +121,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 212514507
@@ -152,7 +147,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 212514507
@@ -177,7 +171,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110217,
@@ -195,7 +188,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 212514507
@@ -220,7 +212,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 212514507
@@ -245,7 +236,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 212514507
@@ -270,7 +260,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose02",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110215,

@@ -20,46 +20,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      60,
-      76,
-      74,
-      83,
-      75,
-      89,
-      62,
-      90,
-      74,
-      90,
-      75,
-      92,
-      76,
-      93,
-      77,
-      93,
-      77,
-      94,
-      63,
-      95,
-      66,
-      95,
-      68,
-      95,
-      63,
-      96
-    ],
-    "LowerUpperBounds": {
-      "x": -19,
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -68,8 +28,7 @@
       "PosX": 127.18,
       "PosY": -30.4823,
       "PosZ": 157.89,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 10,
@@ -79,7 +38,6 @@
       "Name": "TV1Cam",
       "RotY": 340.3672,
       "RotX": 8.110001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -93,7 +51,6 @@
       "Name": "TV2Cam",
       "RotY": 270.0,
       "RotX": 9.999994,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -107,7 +64,6 @@
       "Name": "TV3Cam",
       "RotY": 180.0,
       "RotX": 7.000012,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -119,8 +75,7 @@
       "PosY": -37.03782,
       "PosZ": 181.451,
       "Name": "Enter01",
-      "RotY": 45.0,
-      "MapLayerID": 1
+      "RotY": 45.0
     },
     {
       "ID": 3,
@@ -128,8 +83,7 @@
       "PosY": -30.46788,
       "PosZ": 153.927,
       "Name": "Exit01",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 4,
@@ -137,8 +91,7 @@
       "PosY": -37.03782,
       "PosZ": 190.9048,
       "Name": "MoveGate01",
-      "RotY": 135.0,
-      "MapLayerID": 1
+      "RotY": 135.0
     },
     {
       "ID": 5,
@@ -146,8 +99,7 @@
       "PosY": -34.349,
       "PosZ": 190.7178,
       "Name": "MoveGate02",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 6,
@@ -155,16 +107,14 @@
       "PosY": -37.03782,
       "PosZ": 179.2755,
       "Name": "MoveGate03",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 7,
       "PosX": 149.7154,
       "PosY": -33.89286,
       "PosZ": 182.2252,
-      "Name": "MoveGate04",
-      "MapLayerID": 1
+      "Name": "MoveGate04"
     },
     {
       "ID": 8,
@@ -172,8 +122,7 @@
       "PosY": -33.89132,
       "PosZ": 188.0352,
       "Name": "MoveGate05",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 9,
@@ -181,8 +130,7 @@
       "PosY": -37.03381,
       "PosZ": 186.3758,
       "Name": "MoveGate06",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 13,
@@ -193,7 +141,6 @@
       "RotY": 90.0,
       "RotX": 26.26404,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -208,7 +155,6 @@
       "RotY": 301.5183,
       "RotX": 32.80782,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -219,8 +165,7 @@
       "PosX": 148.3461,
       "PosY": -36.43649,
       "PosZ": 167.2329,
-      "Name": "BoxEnter01",
-      "MapLayerID": 1
+      "Name": "BoxEnter01"
     },
     {
       "ID": 16,
@@ -228,8 +173,7 @@
       "PosY": -37.03782,
       "PosZ": 167.1328,
       "Name": "BoxExit01",
-      "RotY": 271.1887,
-      "MapLayerID": 1
+      "RotY": 271.1887
     },
     {
       "ID": 17,
@@ -240,7 +184,6 @@
       "RotY": 0.715747,
       "RotX": 25.4663,
       "RotZ": 8.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -287,7 +230,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -328,7 +270,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -370,7 +311,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -411,7 +351,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -470,7 +409,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -530,7 +468,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -588,7 +525,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -647,7 +583,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -706,7 +641,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -768,7 +702,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -812,7 +745,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -856,7 +788,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -902,7 +833,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -936,7 +866,6 @@
           }
         ]
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -978,7 +907,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {

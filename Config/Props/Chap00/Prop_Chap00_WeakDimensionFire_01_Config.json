@@ -15,6 +15,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap00_Prop_WeakDimensionFire_01_Resident01_Lod0.prefab",
           "AttachPoint": "EffectRoot"
         }

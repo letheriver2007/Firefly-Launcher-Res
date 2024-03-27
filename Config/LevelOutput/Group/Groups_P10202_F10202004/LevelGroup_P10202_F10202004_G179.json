@@ -15,7 +15,6 @@
       "RotY": 34.51324,
       "RotX": 8.009725,
       "RotZ": -3.77E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -27,7 +26,6 @@
       "RotY": 132.8332,
       "RotX": 11.27558,
       "RotZ": -4.26E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -39,7 +37,6 @@
       "RotY": 116.4355,
       "RotX": 12.65054,
       "RotZ": -3.71E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -51,7 +48,6 @@
       "RotY": 129.8875,
       "RotX": 6.575089,
       "RotZ": 1.209758,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -63,7 +59,6 @@
       "RotY": 246.4503,
       "RotX": 15.229,
       "RotZ": -3.89E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -75,7 +70,6 @@
       "RotY": 215.1142,
       "RotX": 2.059327,
       "RotZ": 359.7299,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -87,7 +81,6 @@
       "RotY": 298.9031,
       "RotX": 11.09288,
       "RotZ": 357.9656,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -99,7 +92,6 @@
       "RotY": 38.05489,
       "RotX": 11.10336,
       "RotZ": -5.17E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -111,7 +103,6 @@
       "RotY": 127.2644,
       "RotX": 9.385098,
       "RotZ": -4.8E-4,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -123,7 +114,6 @@
       "RotY": 133.8429,
       "RotX": 24.64993,
       "RotZ": 359.7163,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -131,56 +121,49 @@
       "PosX": -37.94101,
       "PosY": 0.563963,
       "PosZ": -45.88,
-      "Name": "Anchor11",
-      "MapLayerID": 1
+      "Name": "Anchor11"
     },
     {
       "ID": 12,
       "PosX": -53.44423,
       "PosY": -0.850203,
       "PosZ": -6.065994,
-      "Name": "Anchor12",
-      "MapLayerID": 1
+      "Name": "Anchor12"
     },
     {
       "ID": 13,
       "PosX": -24.92,
       "PosY": 1.612011,
       "PosZ": -31.86625,
-      "Name": "Anchor13",
-      "MapLayerID": 1
+      "Name": "Anchor13"
     },
     {
       "ID": 14,
       "PosX": 35.99,
       "PosY": 5.040387,
       "PosZ": -10.85,
-      "Name": "Anchor14",
-      "MapLayerID": 1
+      "Name": "Anchor14"
     },
     {
       "ID": 15,
       "PosX": -38.666,
       "PosY": 1.160665,
       "PosZ": -25.601,
-      "Name": "Anchor15",
-      "MapLayerID": 1
+      "Name": "Anchor15"
     },
     {
       "ID": 16,
       "PosX": -1.451836,
       "PosY": 0.180895,
       "PosZ": -40.50343,
-      "Name": "Anchor16",
-      "MapLayerID": 1
+      "Name": "Anchor16"
     },
     {
       "ID": 17,
       "PosX": -29.69,
       "PosY": 1.537621,
       "PosZ": 5.08,
-      "Name": "Anchor17",
-      "MapLayerID": 1
+      "Name": "Anchor17"
     }
   ],
   "MonsterList": [],
@@ -196,7 +179,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -215,7 +197,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -234,7 +215,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -253,7 +233,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -272,7 +251,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -291,7 +269,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -310,7 +287,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -329,7 +305,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -349,7 +324,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
@@ -370,7 +344,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020231,
@@ -391,7 +364,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

@@ -2,6 +2,7 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Common_Chap00_Prop_Curio_01_Lod0.prefab",
       "AttachPoint": "EffectRoot",
       "PositionOffset": {

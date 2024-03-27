@@ -10,28 +10,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      -166
-    ],
-    "LowerUpperBounds": {
-      "x": 5,
-      "y": 6
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      -167,
-      -5,
-      -166
-    ],
-    "LowerUpperBounds": {
-      "x": 5,
-      "y": 7
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -42,7 +20,6 @@
       "PosZ": -331.23,
       "Name": "Anchor1",
       "RotY": 14.90833,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -52,7 +29,6 @@
       "PosZ": -332.244,
       "Name": "Anchor2",
       "RotY": 353.067,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -64,8 +40,7 @@
       "PosY": 11.418,
       "PosZ": -330.212,
       "Name": "Anchor3",
-      "RotY": 8.933473,
-      "MapLayerID": 2
+      "RotY": 8.933473
     }
   ],
   "MonsterList": [],
@@ -80,7 +55,6 @@
       "InitLevelGraph": "Config/Level/Common_LG/TriggerCameraLookat.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -108,7 +82,6 @@
       "PropID": 121,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -143,7 +116,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -179,7 +151,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64

@@ -13,8 +13,7 @@
       "PosY": 0.233776,
       "PosZ": 11.56,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -22,8 +21,7 @@
       "PosY": 5.021938,
       "PosZ": -133.79,
       "Name": "Anchor3",
-      "RotY": 330.0,
-      "MapLayerID": 2
+      "RotY": 330.0
     },
     {
       "ID": 1,
@@ -31,16 +29,14 @@
       "PosY": 0.233776,
       "PosZ": -68.52,
       "Name": "Anchor1",
-      "RotY": 315.0,
-      "MapLayerID": 2
+      "RotY": 315.0
     },
     {
       "ID": 4,
       "PosX": 37.88,
       "PosZ": -144.14,
       "Name": "Anchor4",
-      "RotY": 65.00001,
-      "MapLayerID": 2
+      "RotY": 65.00001
     },
     {
       "ID": 5,
@@ -48,16 +44,14 @@
       "PosY": 0.233772,
       "PosZ": -19.72,
       "Name": "Anchor5",
-      "RotY": 270.0,
-      "MapLayerID": 2
+      "RotY": 270.0
     },
     {
       "ID": 6,
       "PosX": -5.08,
       "PosY": -4.983074,
       "PosZ": 30.41,
-      "Name": "Anchor6",
-      "MapLayerID": 2
+      "Name": "Anchor6"
     },
     {
       "ID": 7,
@@ -65,8 +59,7 @@
       "PosY": -0.087217,
       "PosZ": -113.05,
       "Name": "Anchor7",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 8,
@@ -74,8 +67,7 @@
       "PosY": 0.02058,
       "PosZ": -145.301,
       "Name": "Anchor8",
-      "RotY": 64.0,
-      "MapLayerID": 2
+      "RotY": 64.0
     },
     {
       "ID": 9,
@@ -83,8 +75,7 @@
       "PosY": 0.009727,
       "PosZ": -125.34,
       "Name": "Anchor9",
-      "RotY": 90.0,
-      "MapLayerID": 2
+      "RotY": 90.0
     },
     {
       "ID": 10,
@@ -92,16 +83,14 @@
       "PosY": -0.092869,
       "PosZ": -159.77,
       "Name": "Anchor10",
-      "RotY": 334.0219,
-      "MapLayerID": 2
+      "RotY": 334.0219
     },
     {
       "ID": 11,
       "PosX": -3.909,
       "PosY": -21.99576,
       "PosZ": -27.334,
-      "Name": "Anchor11",
-      "MapLayerID": 1
+      "Name": "Anchor11"
     },
     {
       "ID": 12,
@@ -109,8 +98,7 @@
       "PosY": 1.187,
       "PosZ": -31.16,
       "Name": "Anchor12",
-      "RotY": 89.9999,
-      "MapLayerID": 2
+      "RotY": 89.9999
     },
     {
       "ID": 13,
@@ -118,8 +106,7 @@
       "PosY": 1.187,
       "PosZ": -48.92,
       "Name": "Anchor13",
-      "RotY": 89.9999,
-      "MapLayerID": 2
+      "RotY": 89.9999
     }
   ],
   "MonsterList": [],
@@ -158,7 +145,6 @@
         },
         "PointList": []
       },
-      "MapLayerID": 2,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -202,7 +188,6 @@
         },
         "PointList": []
       },
-      "MapLayerID": 2,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -250,7 +235,6 @@
         },
         "PointList": []
       },
-      "MapLayerID": 2,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -296,7 +280,6 @@
         "DimZ": 8.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -340,7 +323,6 @@
         "DimZ": 6.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Shape": "Box",
@@ -394,7 +376,6 @@
         "DimZ": 9.06,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -438,7 +419,6 @@
         "DimZ": 6.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Radius": 20.0,
@@ -491,7 +471,6 @@
         "DimZ": 4.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_OnEnter": {
           "Radius": 20.0,
@@ -524,7 +503,6 @@
         "DimZ": 30.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -548,7 +526,6 @@
         "DimZ": 20.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -571,7 +548,6 @@
         "DimZ": 5.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -595,7 +571,6 @@
         "DimZ": 80.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -618,7 +593,6 @@
         "DimZ": 90.0,
         "PointList": []
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

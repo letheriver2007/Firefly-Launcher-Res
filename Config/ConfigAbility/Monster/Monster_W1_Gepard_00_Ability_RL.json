@@ -1546,7 +1546,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Common_Shield_Weapon.prefab"
         },
         {
@@ -1584,7 +1583,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllDarkTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Common_Shield.prefab"
         },
         {
@@ -1607,7 +1605,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Common_Shield_Halo.prefab"
         },
         {
@@ -2234,7 +2231,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Immediate.prefab"
         },
         {
@@ -2243,7 +2239,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Skill04_02.prefab"
         },
         {
@@ -2477,7 +2472,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_CounterAttack_Trigger.prefab"
         },
         {
@@ -3026,7 +3020,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeammate"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_00/Eff_Monster_W1_Mecha03_00_Die_Explode.prefab"
             }
           ],
@@ -3807,7 +3800,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
             }
           ]
@@ -4293,7 +4285,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Gepard_00/Eff_Monster_W1_Gepard_00_Common_Shield_Trigger_03.prefab"
             },
             {

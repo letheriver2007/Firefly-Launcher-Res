@@ -24,8 +24,7 @@
       "PosY": -0.789958,
       "PosZ": -59.944,
       "Name": "Anchor1",
-      "RotY": 315.0,
-      "MapLayerID": 1
+      "RotY": 315.0
     },
     {
       "ID": 2,
@@ -33,8 +32,7 @@
       "PosY": -0.789962,
       "PosZ": -58.533,
       "Name": "Anchor2",
-      "RotY": 127.72,
-      "MapLayerID": 1
+      "RotY": 127.72
     }
   ],
   "MonsterList": [],
@@ -51,7 +49,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X2/Chapter02_X2_FantasticStory_OpenUI.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

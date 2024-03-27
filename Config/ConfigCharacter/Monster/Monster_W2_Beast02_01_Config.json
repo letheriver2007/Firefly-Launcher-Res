@@ -11,7 +11,6 @@
     "Y": 1.8,
     "Z": 0
   },
-  "HitBoxWidth": 2,
   "HitBoxHeight": 2.6,
   "Resilience": "A",
   "Location": {
@@ -169,7 +168,7 @@
       },
       "-1243456214": {
         "ReadInfo": {
-          "Type": 8,
+          "Type": "FloorCustomData",
           "Str": "Skill01"
         }
       },
@@ -199,7 +198,7 @@
       },
       "662578885": {
         "ReadInfo": {
-          "Type": 8,
+          "Type": "FloorCustomData",
           "Str": "Skill02"
         }
       },

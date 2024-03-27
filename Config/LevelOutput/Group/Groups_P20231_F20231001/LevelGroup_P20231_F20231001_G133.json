@@ -31,7 +31,9 @@
     "DelayToLevelReload": true
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -88,8 +90,8 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -100,7 +102,8 @@
           "IconID": 30,
           "Color": "#b74a4a"
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

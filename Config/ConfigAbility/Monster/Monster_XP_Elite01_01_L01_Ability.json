@@ -277,7 +277,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite01_01/Eff_XP_Elite01_00_01_Skill01_Attack_Ice_Loop.prefab",
           "UniqueEffectName": "Skill01",
           "AttachPoint": "Origin",

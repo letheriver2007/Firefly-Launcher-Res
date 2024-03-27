@@ -20,30 +20,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      118,
-      215,
-      138,
-      220,
-      138,
-      221,
-      139,
-      222,
-      110,
-      227,
-      110,
-      237
-    ],
-    "LowerUpperBounds": {
-      "x": 65,
-      "y": 88
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -56,7 +32,6 @@
       "RotY": 307.3904,
       "RotX": 42.41398,
       "RotZ": 2.906926,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -72,7 +47,6 @@
       "RotY": 307.3904,
       "RotX": 42.41398,
       "RotZ": 2.906926,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -85,16 +59,14 @@
       "PosY": 174.6,
       "PosZ": 436.7,
       "Name": "cam02_playerstart",
-      "RotY": 269.9999,
-      "MapLayerID": 1
+      "RotY": 269.9999
     },
     {
       "ID": 4,
       "PosX": 277.8,
       "PosY": 174.7,
       "PosZ": 437.96,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     },
     {
       "ID": 5,
@@ -105,7 +77,6 @@
       "RotY": 270.0,
       "RotX": 354.8336,
       "RotZ": -1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -121,7 +92,6 @@
       "RotY": 270.0,
       "RotX": 354.8336,
       "RotZ": -1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -134,7 +104,6 @@
       "PosY": -64.06649,
       "PosZ": 57.49366,
       "Name": "SwipeCam",
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -145,16 +114,14 @@
       "PosX": 250.7605,
       "PosY": 152.3059,
       "PosZ": 438.0371,
-      "Name": "Case2_StreamingSource1",
-      "MapLayerID": 1
+      "Name": "Case2_StreamingSource1"
     },
     {
       "ID": 9,
       "PosX": 220.761,
       "PosY": 130.97,
       "PosZ": 468.6472,
-      "Name": "Case2_StreamingSource2",
-      "MapLayerID": 1
+      "Name": "Case2_StreamingSource2"
     }
   ],
   "MonsterList": [],
@@ -203,7 +170,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -271,7 +237,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -296,7 +261,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -454,7 +418,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -480,7 +443,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -504,7 +466,6 @@
       "InitLevelGraph": "Config/Level/TestLevel/Isometric_Connector.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -528,7 +489,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_IsometricModuleEff_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

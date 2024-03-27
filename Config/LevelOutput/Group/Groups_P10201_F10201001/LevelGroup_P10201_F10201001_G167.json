@@ -30,8 +30,7 @@
       "PosY": -0.789958,
       "PosZ": -59.944,
       "Name": "Anchor1",
-      "RotY": 315.0,
-      "MapLayerID": 1
+      "RotY": 315.0
     },
     {
       "ID": 2,
@@ -40,7 +39,6 @@
       "PosZ": -60.922,
       "Name": "Anchor2",
       "RotY": 342.9406,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -49,8 +47,7 @@
       "PosY": -0.789958,
       "PosZ": -59.463,
       "Name": "Anchor3",
-      "RotY": 317.8209,
-      "MapLayerID": 1
+      "RotY": 317.8209
     }
   ],
   "MonsterList": [],
@@ -64,7 +61,6 @@
       "NPCID": 100,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "OverrideSeriesID": 1210201,

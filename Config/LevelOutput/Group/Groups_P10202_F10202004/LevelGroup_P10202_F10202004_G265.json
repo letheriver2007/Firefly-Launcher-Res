@@ -32,7 +32,6 @@
       "PosZ": -17.01,
       "Name": "Anchor1",
       "RotY": 67.44462,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -44,7 +43,6 @@
       "RotY": 15.68818,
       "RotX": 359.4741,
       "RotZ": 359.0216,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -66,7 +64,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -89,7 +86,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -110,7 +106,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         8,
@@ -139,7 +134,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         8,
@@ -168,7 +162,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01AddLook",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         8,
@@ -195,7 +188,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 2333,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

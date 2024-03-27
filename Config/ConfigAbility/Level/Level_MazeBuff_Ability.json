@@ -599,6 +599,74 @@
     },
     {
       "Modifiers": {
+        "StageAbility_3999052_Modifier": {
+          "_CallbackList": [
+            {
+              "Event": "OnListenCharacterCreate",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByTargetTeam",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
+                    "Team": "TeamDark"
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ParamEntity"
+                      },
+                      "ModifierName": "MCommon_SuperArmorController",
+                      "DynamicValues": {
+                        "MDF_SuperArmorDamageResistance": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 0
+                          }
+                        },
+                        "MDF_SuperArmorBreakDamageTakenRatio": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 0
+                          }
+                        },
+                        "MDF_SuperArmorBreakActionDelay": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 0
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "Name": "StageAbility_3999052",
+      "OnAdd": [
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "StageAbility_3999052_Modifier"
+        }
+      ],
+      "DynamicValues": {
+        "Values": {}
+      }
+    },
+    {
+      "Modifiers": {
         "StageAbility_3999027_Modifier": {
           "_CallbackList": [
             {
@@ -1611,7 +1679,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Debuff.prefab"
                 },
                 {
@@ -1711,7 +1778,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Props/DesignerBackup/BlizzardAndFurance/Eff_Weather_W2_Abomi01_00_buff.prefab"
                 }
               ]
@@ -1907,7 +1973,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Props/DesignerBackup/Contamination/Test_Eff_Whitebox_Heal_03.prefab",
                       "MinMutexTime": 3,
                       "MinMutexType": "Entity"
@@ -2054,7 +2119,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ParamEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Props/DesignerBackup/Contamination/Test_Eff_Whitebox_Heal_01.prefab",
                           "Scale": {
                             "X": 0.25,
@@ -2102,7 +2166,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Props/DesignerBackup/Contamination/Test_Eff_Whitebox_Heal_01.prefab",
                   "Scale": {
                     "X": 0.25,

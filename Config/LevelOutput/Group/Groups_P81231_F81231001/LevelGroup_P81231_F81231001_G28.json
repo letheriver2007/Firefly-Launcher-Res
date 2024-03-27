@@ -10,26 +10,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      37,
-      -2
-    ],
-    "LowerUpperBounds": {
-      "x": 208,
-      "y": 209
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      37,
-      -2
-    ],
-    "LowerUpperBounds": {
-      "x": 208,
-      "y": 209
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -47,7 +27,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

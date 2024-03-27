@@ -108,5 +108,12 @@
     "ConfigEntityPath": "Config/ConfigEntity/FakePlayer/FakePlayer_RaidCommon_W1_Soldier03_00_Entity.json",
     "JsonPath": "Config/ConfigCharacter/FakePlayer/FakePlayer_RaidCommon_W1_Soldier03_00_Config.json",
     "MazeSkillIdList": []
+  },
+  "21001": {
+    "ID": 21001,
+    "PrefabPath": "Characters/CharacterPrefabs/FakePlayer/W3_Lady_Siobhan/FakePlayer_RaidCommon_W3_Lady_Siobhan_Logic.prefab",
+    "ConfigEntityPath": "Config/ConfigEntity/FakePlayer/FakePlayer_RaidCommon_W3_Lady_Siobhan_Entity.json",
+    "JsonPath": "Config/ConfigCharacter/FakePlayer/FakePlayer_RaidCommon_W3_Lady_Siobhan_Config.json",
+    "MazeSkillIdList": []
   }
 }

@@ -13,8 +13,7 @@
       "PosY": 28.3764,
       "PosZ": -139.4168,
       "Name": "PlayerStart",
-      "RotY": 301.6211,
-      "MapLayerID": 1
+      "RotY": 301.6211
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": 28.5299,
       "PosZ": -134.6018,
       "Name": "Anchor2",
-      "RotY": 191.3,
-      "MapLayerID": 1
+      "RotY": 191.3
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": 46.34257,
       "PosZ": -69.03832,
       "Name": "Anchor3",
-      "RotY": 253.1,
-      "MapLayerID": 1
+      "RotY": 253.1
     },
     {
       "ID": 4,
@@ -40,8 +37,7 @@
       "PosY": 58.91933,
       "PosZ": -85.93,
       "Name": "Anchor4",
-      "RotY": 148.6,
-      "MapLayerID": 1
+      "RotY": 148.6
     },
     {
       "ID": 5,
@@ -49,8 +45,7 @@
       "PosY": 58.98462,
       "PosZ": -129.1276,
       "Name": "Anchor5",
-      "RotY": 60.42,
-      "MapLayerID": 1
+      "RotY": 60.42
     }
   ],
   "MonsterList": [],
@@ -71,7 +66,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -108,7 +102,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -145,7 +138,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -188,7 +180,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_02": {
           "Radius": 8.0,
@@ -251,7 +242,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

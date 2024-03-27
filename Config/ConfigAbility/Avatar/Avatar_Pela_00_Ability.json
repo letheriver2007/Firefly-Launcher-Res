@@ -299,7 +299,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillTargetEntityList"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Pela/Eff_Avatar_Pela_00_Skill02_Hit01.prefab",
           "AttachPoint": "Origin"
         },
@@ -1393,16 +1392,6 @@
                       },
                       "SuccessTaskList": [
                         {
-                          "$type": "RPG.GameCore.TriggerEffect",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ParamEntity"
-                          },
-                          "IsAttachToTargetEntity": false,
-                          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Pela/Eff_Avatar_Pela_00_Skill01_Hit01.prefab",
-                          "AttachPoint": "Origin"
-                        },
-                        {
                           "$type": "RPG.GameCore.DamageByAttackProperty",
                           "TargetType": {
                             "$type": "RPG.GameCore.TargetAlias",
@@ -1422,6 +1411,7 @@
                             },
                             "AttackType": "Pursued",
                             "HitAnimation": "Hit",
+                            "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Pela/Eff_Avatar_Pela_00_Skill01_Hit01.prefab",
                             "HitPosHeight": 0.8,
                             "HitAngleHorizontal": 35,
                             "HitAngleVertical": -60

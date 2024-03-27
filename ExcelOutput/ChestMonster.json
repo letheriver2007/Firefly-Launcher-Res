@@ -206,6 +206,24 @@
     "EventID": 20311169,
     "MonsterType": "Chest"
   },
+  "32": {
+    "ID": 32,
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "GroupID": 221,
+    "ConfigID": 200001,
+    "EventID": 20322170,
+    "MonsterType": "Chest"
+  },
+  "33": {
+    "ID": 33,
+    "PlaneID": 20321,
+    "FloorID": 20321001,
+    "GroupID": 179,
+    "ConfigID": 200001,
+    "EventID": 20321170,
+    "MonsterType": "Chest"
+  },
   "10001": {
     "ID": 10001,
     "PlaneID": 10301,
@@ -276,6 +294,42 @@
     "GroupID": 354,
     "ConfigID": 200001,
     "MainMissionID": 4340152,
+    "MonsterType": "Junk"
+  },
+  "10009": {
+    "ID": 10009,
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "GroupID": 222,
+    "ConfigID": 200001,
+    "MainMissionID": 4340159,
+    "MonsterType": "Junk"
+  },
+  "10010": {
+    "ID": 10010,
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "GroupID": 223,
+    "ConfigID": 200001,
+    "MainMissionID": 4340161,
+    "MonsterType": "Junk"
+  },
+  "10011": {
+    "ID": 10011,
+    "PlaneID": 20321,
+    "FloorID": 20321001,
+    "GroupID": 177,
+    "ConfigID": 200001,
+    "MainMissionID": 4340160,
+    "MonsterType": "Junk"
+  },
+  "10012": {
+    "ID": 10012,
+    "PlaneID": 20321,
+    "FloorID": 20321001,
+    "GroupID": 178,
+    "ConfigID": 200001,
+    "MainMissionID": 4340158,
     "MonsterType": "Junk"
   }
 }

@@ -9,26 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -25,
-      -224
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -25,
-      -224
-    ],
-    "LowerUpperBounds": {
-      "x": 3,
-      "y": 4
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -39,7 +19,6 @@
       "PosZ": -435.0,
       "Name": "Anchor1",
       "RotY": 38.34519,
-      "MapLayerID": 3,
       "Usage": "Actor"
     }
   ],
@@ -57,7 +36,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 3,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1790112036
@@ -69,6 +47,7 @@
         "LevelGraph": "Config/Level/NPCDialogue/P10302/F10302001_G25/DialogueMain_F10302001_G25_N400001.json",
         "PackList": []
       },
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

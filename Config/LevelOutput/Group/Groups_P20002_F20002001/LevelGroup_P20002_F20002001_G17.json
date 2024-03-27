@@ -33,8 +33,7 @@
       "PosY": 2.780217,
       "PosZ": -111.04,
       "Name": "Anchor1",
-      "RotY": 186.9239,
-      "MapLayerID": 2
+      "RotY": 186.9239
     }
   ],
   "MonsterList": [],
@@ -57,7 +56,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -83,7 +81,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -105,7 +102,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "StandBy",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -124,7 +120,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -143,7 +138,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

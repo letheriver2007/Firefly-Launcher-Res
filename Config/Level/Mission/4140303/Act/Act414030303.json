@@ -4,6 +4,16 @@
     {
       "TaskList": [
         {
+          "$type": "RPG.GameCore.CollectDataConditions",
+          "TaskIDList": [],
+          "MainMissionIDList": [],
+          "PerformanceIDList": [
+            414034101
+          ],
+          "PerformanceIDDsList": [],
+          "CustomValueMainMissionIDList": []
+        },
+        {
           "$type": "RPG.GameCore.LevelPerformanceInitialize",
           "PerformanceType": "E",
           "CreateCharacterList": [],
@@ -81,29 +91,67 @@
           }
         },
         {
-          "$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
-          "SimpleTalkList": [
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByComparePerformance",
+            "PerformanceID": 414034101
+          },
+          "SuccessTaskList": [
             {
-              "TalkSentenceID": 414030901,
-              "ProtectTime": 0.3
+              "$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+              "SimpleTalkList": [
+                {
+                  "TalkSentenceID": 414030901,
+                  "ProtectTime": 0.3
+                },
+                {
+                  "TalkSentenceID": 414030902,
+                  "ProtectTime": 0.3
+                },
+                {
+                  "TalkSentenceID": 414030904,
+                  "ProtectTime": 0.3
+                }
+              ]
             },
             {
-              "TalkSentenceID": 414030902,
-              "ProtectTime": 0.3
-            },
-            {
-              "TalkSentenceID": 414030904,
-              "ProtectTime": 0.3
+              "$type": "RPG.GameCore.PlayOptionTalk",
+              "OptionList": [
+                {
+                  "TalkSentenceID": 414030905,
+                  "OptionIconType": "ChatContinueIcon",
+                  "TriggerCustomString": "TalkSentence_414030906"
+                }
+              ]
             }
-          ]
-        },
-        {
-          "$type": "RPG.GameCore.PlayOptionTalk",
-          "OptionList": [
+          ],
+          "FailedTaskList": [
             {
-              "TalkSentenceID": 414030905,
-              "OptionIconType": "ChatContinueIcon",
-              "TriggerCustomString": "TalkSentence_414030906"
+              "$type": "RPG.GameCore.PlayAndWaitSimpleTalk",
+              "SimpleTalkList": [
+                {
+                  "TalkSentenceID": 414031009,
+                  "ProtectTime": 0.3
+                },
+                {
+                  "TalkSentenceID": 414031010,
+                  "ProtectTime": 0.3
+                },
+                {
+                  "TalkSentenceID": 414031011,
+                  "ProtectTime": 0.3
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.PlayOptionTalk",
+              "OptionList": [
+                {
+                  "TalkSentenceID": 414030905,
+                  "OptionIconType": "ChatContinueIcon",
+                  "TriggerCustomString": "TalkSentence_414030906"
+                }
+              ]
             }
           ]
         }

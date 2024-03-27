@@ -459,6 +459,16 @@
     "LightHit": 100,
     "StandBy": 100
   },
+  "acheron": {
+    "VOTag": "acheron",
+    "ActionBegin": 100,
+    "ActionBeginAdvantage": 100,
+    "ActionBeginHighThreat": 100,
+    "ReceiveHealing": 100,
+    "Revived": 100,
+    "LightHit": 100,
+    "StandBy": 100
+  },
   "hanya": {
     "VOTag": "hanya",
     "ActionBegin": 100,
@@ -508,6 +518,28 @@
   },
   "misha": {
     "VOTag": "misha",
+    "ActionBegin": 100,
+    "ActionBeginAdvantage": 100,
+    "ActionBeginHighThreat": 100,
+    "ReceiveHealing": 100,
+    "Revived": 100,
+    "UltraReady": 100,
+    "LightHit": 100,
+    "StandBy": 100
+  },
+  "aventurine": {
+    "VOTag": "aventurine",
+    "ActionBegin": 100,
+    "ActionBeginAdvantage": 100,
+    "ActionBeginHighThreat": 100,
+    "ReceiveHealing": 100,
+    "Revived": 100,
+    "UltraReady": 100,
+    "LightHit": 100,
+    "StandBy": 100
+  },
+  "gallagher": {
+    "VOTag": "gallagher",
     "ActionBegin": 100,
     "ActionBeginAdvantage": 100,
     "ActionBeginHighThreat": 100,

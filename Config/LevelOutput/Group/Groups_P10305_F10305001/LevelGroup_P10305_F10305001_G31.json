@@ -2,6 +2,9 @@
   "GroupGUID": "3d26306d-ba06-43ed-9496-81c99430eb6c",
   "GroupName": "Anchor",
   "AreaAnchorName": "LevelArea_P10305_F10305001_G31",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
@@ -12,22 +15,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -2,
-      -190,
-      2,
-      -150
-    ],
-    "LowerUpperBounds": {
-      "x": -9,
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -37,8 +24,7 @@
       "PosY": 1.54696,
       "PosZ": -380.008,
       "Name": "CheckPoint01",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 2,
@@ -46,8 +32,7 @@
       "PosY": -16.85767,
       "PosZ": -296.0,
       "Name": "CheckPoint02",
-      "RotY": -2.0E-6,
-      "MapLayerID": 1
+      "RotY": -2.0E-6
     }
   ],
   "MonsterList": [],
@@ -64,7 +49,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 10.0,
@@ -85,6 +69,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }
@@ -101,7 +86,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 12.0,
@@ -124,6 +108,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

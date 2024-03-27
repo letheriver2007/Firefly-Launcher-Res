@@ -30,8 +30,7 @@
       "PosY": 7.637717,
       "PosZ": 71.02,
       "Name": "Anchor1",
-      "RotY": 100.3905,
-      "MapLayerID": 2
+      "RotY": 100.3905
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": 7.648261,
       "PosZ": 71.55,
       "Name": "Anchor2",
-      "RotY": 131.2624,
-      "MapLayerID": 2
+      "RotY": 131.2624
     }
   ],
   "MonsterList": [],
@@ -57,7 +55,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,

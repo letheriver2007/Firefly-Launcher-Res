@@ -1,56 +1,33 @@
 {
   "ChildrenNodeList": [
     {
-      "Tag": "Entity",
-      "TagHash": -2114280601,
+      "Tag": "GameModule",
+      "TagHash": -2083374016,
+      "Side": "Client",
       "ChildrenNodeList": [
         {
-          "Tag": "NPC",
-          "TagHash": 1370663532
-        },
-        {
-          "Tag": "NPCEnemy",
-          "TagHash": -1823925424
-        },
-        {
-          "Tag": "Prop",
-          "TagHash": 1002098464
-        }
-      ]
-    },
-    {
-      "Tag": "GraphEditor",
-      "TagHash": -781021667,
-      "Side": "EditorOnly",
-      "ChildrenNodeList": [
-        {
-          "Tag": "Level",
-          "TagHash": 1222313649,
-          "Side": "EditorOnly",
+          "Tag": "EraFlip",
+          "TagHash": 301852023,
+          "Side": "Client",
           "ChildrenNodeList": [
             {
-              "Tag": "TaskCategroy",
-              "TagHash": -1561639380,
-              "Side": "EditorOnly",
+              "Tag": "State",
+              "TagHash": -955070356,
+              "Side": "Client",
               "ChildrenNodeList": [
                 {
-                  "Tag": "FlowControl",
-                  "TagHash": 720827565,
-                  "Side": "EditorOnly"
+                  "Tag": "Day",
+                  "TagHash": 1090843668,
+                  "Side": "Client"
                 },
                 {
-                  "Tag": "Prop",
-                  "TagHash": 1595591937,
-                  "Side": "EditorOnly"
+                  "Tag": "Night",
+                  "TagHash": -1222453484,
+                  "Side": "Client"
                 }
               ]
             }
           ]
-        },
-        {
-          "Tag": "Mission",
-          "TagHash": -991759285,
-          "Side": "EditorOnly"
         }
       ]
     },
@@ -62,24 +39,6 @@
           "Tag": "Block",
           "TagHash": -1552573977,
           "ChildrenNodeList": [
-            {
-              "Tag": "BattleArea",
-              "TagHash": 379817804,
-              "ChildrenNodeList": [
-                {
-                  "Tag": "A",
-                  "TagHash": -229954869
-                },
-                {
-                  "Tag": "B",
-                  "TagHash": -633239396
-                },
-                {
-                  "Tag": "C",
-                  "TagHash": 932844545
-                }
-              ]
-            },
             {
               "Tag": "CustomState",
               "TagHash": -1223807931,
@@ -118,20 +77,92 @@
                   "TagHash": 1945658907
                 }
               ]
+            }
+          ]
+        },
+        {
+          "Tag": "Region",
+          "TagHash": -202770614,
+          "ChildrenNodeList": [
+            {
+              "Tag": "01",
+              "TagHash": -1382070679
             },
             {
-              "Tag": "DayTime",
-              "TagHash": 1474109194,
-              "ChildrenNodeList": [
-                {
-                  "Tag": "Day",
-                  "TagHash": 2045149662
-                },
-                {
-                  "Tag": "Night",
-                  "TagHash": 1600116382
-                }
-              ]
+              "Tag": "02",
+              "TagHash": -1382070682
+            },
+            {
+              "Tag": "03",
+              "TagHash": -1382070681
+            },
+            {
+              "Tag": "04",
+              "TagHash": -1382070684
+            },
+            {
+              "Tag": "05",
+              "TagHash": -1382070683
+            },
+            {
+              "Tag": "06",
+              "TagHash": -1382070686
+            },
+            {
+              "Tag": "07",
+              "TagHash": -1382070685
+            },
+            {
+              "Tag": "08",
+              "TagHash": -1382070672
+            },
+            {
+              "Tag": "09",
+              "TagHash": -1382070671
+            },
+            {
+              "Tag": "10",
+              "TagHash": 184013261
+            },
+            {
+              "Tag": "11",
+              "TagHash": 184013262
+            },
+            {
+              "Tag": "12",
+              "TagHash": 184013259
+            },
+            {
+              "Tag": "13",
+              "TagHash": 184013260
+            },
+            {
+              "Tag": "14",
+              "TagHash": 184013257
+            },
+            {
+              "Tag": "15",
+              "TagHash": 184013258
+            },
+            {
+              "Tag": "16",
+              "TagHash": 184013255
+            },
+            {
+              "Tag": "17",
+              "TagHash": 184013256
+            },
+            {
+              "Tag": "18",
+              "TagHash": 184013269
+            },
+            {
+              "Tag": "19",
+              "TagHash": 184013270
+            },
+            {
+              "Tag": "20",
+              "TagHash": -219271266
             }
           ]
         }

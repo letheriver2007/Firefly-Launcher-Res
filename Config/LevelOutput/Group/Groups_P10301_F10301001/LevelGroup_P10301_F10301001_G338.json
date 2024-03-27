@@ -9,34 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      59,
-      29,
-      60,
-      29
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      59,
-      29,
-      60,
-      29,
-      61,
-      29,
-      62,
-      31
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -51,7 +23,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -79,7 +50,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -117,7 +87,6 @@
         "InstanceID": 400003,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -148,7 +117,6 @@
         "InstanceID": 400003,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],
@@ -173,7 +141,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

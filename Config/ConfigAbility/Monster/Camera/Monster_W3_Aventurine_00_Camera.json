@@ -206,6 +206,12 @@
                 "Alias": "Caster"
               },
               "Override": true
+            },
+            "ShowEntityConfig": {
+              "ShowTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "CasterWithAllEnemy"
+              }
             }
           }
         }
@@ -412,7 +418,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "AnimStateName": "Skill04",
+          "AnimStateName": "Skill05",
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
@@ -478,7 +484,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "AnimStateName": "Skill04",
+          "AnimStateName": "Skill05",
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
@@ -730,7 +736,7 @@
           "WaitTime": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.55
+              "Value": 0.65
             }
           }
         },
@@ -1064,7 +1070,7 @@
             "ShowEntityConfig": {
               "ShowTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllDarkTeam"
+                "Alias": "Monster_W3_Aventurine_00_WithAllDarkTeam"
               }
             }
           }
@@ -1183,8 +1189,8 @@
             "AdditiveNormalConfig": {
               "AnchorOffset": {
                 "X": 1,
-                "Y": 0.5,
-                "Z": -1.7
+                "Y": 1.1,
+                "Z": -3
               },
               "AimTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -1192,7 +1198,7 @@
               },
               "AimOffset": {
                 "X": 0,
-                "Y": 0.9,
+                "Y": 1.4,
                 "Z": 0
               },
               "ResetToDefault": false
@@ -1219,7 +1225,7 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 0.6
+              "Value": 0.01
             }
           }
         },
@@ -1249,8 +1255,8 @@
             "AdditiveNormalConfig": {
               "AnchorOffset": {
                 "X": 1,
-                "Y": 0.5,
-                "Z": -2.5
+                "Y": 0.1,
+                "Z": -1.7
               },
               "AimTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -1258,14 +1264,14 @@
               },
               "AimOffset": {
                 "X": 0,
-                "Y": 0.9,
+                "Y": 0.7,
                 "Z": 0
               },
               "ResetToDefault": false
             },
             "BlendConfig": {
               "BlendType": "EaseInOut",
-              "BlendTime": 1.2
+              "BlendTime": 2.2
             },
             "ShowEntityConfig": {
               "ShowTargetType": {

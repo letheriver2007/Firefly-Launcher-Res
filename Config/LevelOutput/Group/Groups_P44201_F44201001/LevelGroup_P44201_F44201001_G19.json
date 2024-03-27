@@ -43,7 +43,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 44201011,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -67,7 +66,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 44201012,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -91,7 +89,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 44201013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -114,7 +111,6 @@
         "ID": 1
       },
       "EventID": 44201014,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -136,7 +132,6 @@
         "ID": 1
       },
       "EventID": 44201021,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -160,7 +155,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 44201022,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -183,7 +177,6 @@
         "ID": 1
       },
       "EventID": 44201023,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -197,7 +190,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_ClientBuff.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -27,8 +27,7 @@
       "PosX": -170.95,
       "PosY": 15.70887,
       "PosZ": 4.21591,
-      "Name": "Waypoint1",
-      "MapLayerID": 1
+      "Name": "Waypoint1"
     }
   ],
   "MonsterList": [
@@ -51,7 +50,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 44201001,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -75,7 +73,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 44201002,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -98,7 +95,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 44201003,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -128,7 +124,6 @@
         "ID": 1
       },
       "EventID": 44201004,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -142,7 +137,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_ClientBuff.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -35,7 +35,6 @@
       "PosZ": -147.273,
       "Name": "cam1",
       "RotY": 120.0,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -52,8 +51,7 @@
       "PosY": -29.485,
       "PosZ": -154.23,
       "Name": "ShipPoseTargetPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -63,7 +61,6 @@
       "Name": "Cam2",
       "RotY": 180.0,
       "RotX": 355.0,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -72,16 +69,14 @@
       "PosY": -30.5,
       "PosZ": -147.87,
       "Name": "ChestPos",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 6,
       "PosX": 148.79,
       "PosY": -28.03868,
       "PosZ": -154.292,
-      "Name": "MonsterTargetPos",
-      "MapLayerID": 1
+      "Name": "MonsterTargetPos"
     },
     {
       "ID": 7,
@@ -89,16 +84,14 @@
       "PosY": -28.12694,
       "PosZ": -148.16,
       "Name": "PlayerAnchorAfterBattle",
-      "RotY": 195.0,
-      "MapLayerID": 1
+      "RotY": 195.0
     },
     {
       "ID": 8,
       "PosX": 152.6,
       "PosY": -25.9,
       "PosZ": -148.09,
-      "Name": "Anchor8",
-      "MapLayerID": 1
+      "Name": "Anchor8"
     }
   ],
   "MonsterList": [
@@ -121,7 +114,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20220203,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -176,7 +168,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -206,7 +197,6 @@
       },
       "CampID": 4,
       "State": "ChestLocked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -235,7 +225,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -313,7 +302,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -337,7 +325,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -364,7 +351,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,

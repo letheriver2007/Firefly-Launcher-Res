@@ -11,24 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      12,
-      -8,
-      14,
-      -8,
-      -8,
-      25
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 89
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -44,7 +26,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F30102004/LG_Prop_F30102004_G8_300001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -67,7 +48,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter00/N4/Chapter00_N401_CapturePolymer_Splinter_Normal.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -89,7 +69,6 @@
       "PropID": 100092,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

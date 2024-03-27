@@ -32,7 +32,6 @@
       "PosZ": 1.78,
       "Name": "Anchor1",
       "RotY": 58.83118,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -43,7 +42,6 @@
       "Name": "Anchor2",
       "RotY": 39.98156,
       "RotX": 9.008644,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -57,7 +55,6 @@
       "PosZ": -3.87,
       "Name": "Anchor3",
       "RotY": 98.06396,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -69,7 +66,6 @@
       "RotY": 90.27557,
       "RotX": 352.4728,
       "RotZ": 5.56E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -83,7 +79,6 @@
       "Name": "Anchor5",
       "RotY": 38.37522,
       "RotX": 6.557271,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -98,7 +93,6 @@
       "Name": "Anchor6",
       "RotY": 42.44576,
       "RotX": 3.869199,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -120,7 +114,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 313020246,
@@ -143,7 +136,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "BoneEmotionName": "Trouble02",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -165,7 +157,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310030900,
@@ -187,7 +178,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310020000,
@@ -209,7 +199,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310040000,
@@ -236,7 +225,6 @@
         "GroupID": 8,
         "InstanceID": 3
       },
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 990101001,

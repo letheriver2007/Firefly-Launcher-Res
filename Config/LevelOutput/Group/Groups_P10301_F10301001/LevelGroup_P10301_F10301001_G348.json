@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -65,
-      116,
-      -65,
-      117
-    ],
-    "LowerUpperBounds": {
-      "x": -7,
-      "y": -6
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -65,
-      116,
-      -65,
-      117
-    ],
-    "LowerUpperBounds": {
-      "x": -7,
-      "y": -6
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -43,7 +19,6 @@
       "PosZ": 233.52,
       "Name": "Anchor1",
       "RotY": 279.1574,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -54,7 +29,6 @@
       "Name": "Anchor2",
       "RotY": 316.0323,
       "RotX": 8.070002,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -66,7 +40,6 @@
       "PosY": -13.81198,
       "PosZ": 233.873,
       "Name": "Anchor3",
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -78,7 +51,6 @@
       "RotY": 340.1794,
       "RotX": 8.647922,
       "RotZ": 359.2132,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -97,7 +69,6 @@
       "InitLevelGraph": "Config/Level/Common_LG/TriggerCameraLookat.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -130,7 +101,6 @@
         "InstanceID": 400002,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64
@@ -161,7 +131,6 @@
         "InstanceID": 400001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         64

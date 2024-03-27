@@ -29,8 +29,7 @@
       "PosX": 39.8,
       "PosY": 6.043837,
       "PosZ": -28.1,
-      "Name": "调查点指引",
-      "MapLayerID": 1
+      "Name": "调查点指引"
     }
   ],
   "MonsterList": [],
@@ -51,7 +50,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -78,7 +76,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

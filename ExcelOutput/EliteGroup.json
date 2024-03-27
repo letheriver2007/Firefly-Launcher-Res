@@ -1961,6 +1961,24 @@
       "Value": 1
     }
   },
+  "131": {
+    "EliteGroup": 131,
+    "AttackRatio": {
+      "Value": 1.15
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 8
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
   "201": {
     "EliteGroup": 201,
     "AttackRatio": {
@@ -2277,6 +2295,42 @@
     },
     "HPRatio": {
       "Value": 0.929
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "223": {
+    "EliteGroup": 223,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1.1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "224": {
+    "EliteGroup": 224,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1.2
     },
     "SpeedRatio": {
       "Value": 1
@@ -3869,6 +3923,276 @@
       "Value": 1
     }
   },
+  "602": {
+    "EliteGroup": 602,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "603": {
+    "EliteGroup": 603,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "604": {
+    "EliteGroup": 604,
+    "AttackRatio": {
+      "Value": 0.65
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1.3
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "605": {
+    "EliteGroup": 605,
+    "AttackRatio": {
+      "Value": 0.7
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2.1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "606": {
+    "EliteGroup": 606,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2.1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "607": {
+    "EliteGroup": 607,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "608": {
+    "EliteGroup": 608,
+    "AttackRatio": {
+      "Value": 0.75
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 2
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "609": {
+    "EliteGroup": 609,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 3
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1600": {
+    "EliteGroup": 1600,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 0.8
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1601": {
+    "EliteGroup": 1601,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 0.8
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1602": {
+    "EliteGroup": 1602,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 0.85
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1603": {
+    "EliteGroup": 1603,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 0.9
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1604": {
+    "EliteGroup": 1604,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1605": {
+    "EliteGroup": 1605,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "1606": {
+    "EliteGroup": 1606,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
   "2000": {
     "EliteGroup": 2000,
     "AttackRatio": {
@@ -4105,6 +4429,132 @@
   },
   "2016": {
     "EliteGroup": 2016,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2100": {
+    "EliteGroup": 2100,
+    "AttackRatio": {
+      "Value": 0.6
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.8
+    },
+    "SpeedRatio": {
+      "Value": 0.9
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2101": {
+    "EliteGroup": 2101,
+    "AttackRatio": {
+      "Value": 0.6
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.8
+    },
+    "SpeedRatio": {
+      "Value": 0.9
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2102": {
+    "EliteGroup": 2102,
+    "AttackRatio": {
+      "Value": 0.68
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.85
+    },
+    "SpeedRatio": {
+      "Value": 0.92
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2103": {
+    "EliteGroup": 2103,
+    "AttackRatio": {
+      "Value": 0.76
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.9
+    },
+    "SpeedRatio": {
+      "Value": 0.94
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2104": {
+    "EliteGroup": 2104,
+    "AttackRatio": {
+      "Value": 0.8
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.9
+    },
+    "SpeedRatio": {
+      "Value": 0.96
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2105": {
+    "EliteGroup": 2105,
+    "AttackRatio": {
+      "Value": 0.88
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 0.95
+    },
+    "SpeedRatio": {
+      "Value": 0.98
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "2106": {
+    "EliteGroup": 2106,
     "AttackRatio": {
       "Value": 1
     },
@@ -9333,6 +9783,24 @@
     },
     "HPRatio": {
       "Value": 1
+    },
+    "SpeedRatio": {
+      "Value": 1
+    },
+    "StanceRatio": {
+      "Value": 1
+    }
+  },
+  "40998": {
+    "EliteGroup": 40998,
+    "AttackRatio": {
+      "Value": 1
+    },
+    "DefenceRatio": {
+      "Value": 1
+    },
+    "HPRatio": {
+      "Value": 9
     },
     "SpeedRatio": {
       "Value": 1

@@ -1535,6 +1535,14 @@
     "BasePoint": "",
     "SkillIDList": []
   },
+  "30126": {
+    "BattleEventID": 30126,
+    "Config": "",
+    "Prefab": "",
+    "LevelAreaPrefab": "",
+    "BasePoint": "",
+    "SkillIDList": []
+  },
   "61013": {
     "BattleEventID": 61013,
     "Config": "Config/ConfigCharacter/BattleEvent/Common_NoActionDelay_Config.json",
@@ -1544,5 +1552,13 @@
     "SkillIDList": [
       6100901
     ]
+  },
+  "96085": {
+    "BattleEventID": 96085,
+    "Config": "",
+    "Prefab": "",
+    "LevelAreaPrefab": "",
+    "BasePoint": "",
+    "SkillIDList": []
   }
 }

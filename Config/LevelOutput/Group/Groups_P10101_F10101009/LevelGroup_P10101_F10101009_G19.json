@@ -12,8 +12,7 @@
       "PosY": 0.670049,
       "PosZ": -22.779,
       "Name": "Anchor1",
-      "RotY": 110.0,
-      "MapLayerID": 1
+      "RotY": 110.0
     }
   ],
   "MonsterList": [],
@@ -29,7 +28,6 @@
       "NPCID": 11410,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -87,7 +85,6 @@
       "NPCID": 1992,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380020000,

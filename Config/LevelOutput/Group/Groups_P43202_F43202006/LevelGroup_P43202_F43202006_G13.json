@@ -39,7 +39,6 @@
       "RotY": 269.4566,
       "RotX": 3.380002,
       "RotZ": 0.040494,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -57,7 +56,6 @@
       "InitLevelGraph": "Config/Level/Maze/MazeExtra/Chap02_GameplayGraph/SequenceLight/MazeProp_Gameplay_SequenceLight_BrokenBridge.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

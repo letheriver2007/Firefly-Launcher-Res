@@ -28,7 +28,6 @@
       "RotY": 135.6001,
       "RotX": 51.24666,
       "RotZ": -1.9E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab",
       "CustomParameter": {
@@ -44,7 +43,6 @@
       "RotY": 135.6001,
       "RotX": 47.72104,
       "RotZ": 3.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -84,7 +82,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

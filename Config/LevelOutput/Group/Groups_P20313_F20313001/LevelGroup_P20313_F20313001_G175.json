@@ -17,46 +17,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      77,
-      210,
-      90,
-      217,
-      91,
-      218,
-      93,
-      218,
-      85,
-      228,
-      92,
-      231
-    ],
-    "LowerUpperBounds": {
-      "x": 69,
-      "y": 72
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      77,
-      210,
-      90,
-      217,
-      91,
-      218,
-      93,
-      218,
-      85,
-      228,
-      92,
-      231
-    ],
-    "LowerUpperBounds": {
-      "x": 69,
-      "y": 72
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -79,7 +39,6 @@
         "ID": 1
       },
       "EventID": 20313121,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -105,7 +64,6 @@
         "ID": 1
       },
       "EventID": 20313123,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -142,7 +100,6 @@
         "ID": 1
       },
       "EventID": 20313122,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -172,7 +129,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20313134,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -202,7 +158,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20313135,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -238,7 +193,6 @@
         "ID": 1
       },
       "EventID": 20313136,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

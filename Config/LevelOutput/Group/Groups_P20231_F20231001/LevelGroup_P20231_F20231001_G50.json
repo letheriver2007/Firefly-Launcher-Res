@@ -30,7 +30,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231234,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -60,7 +59,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231235,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -100,14 +98,14 @@
       },
       "CampID": 4,
       "State": "ChestLocked",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "ChestID": 20231632,
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -125,13 +123,13 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -153,7 +151,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -165,7 +162,8 @@
         {
           "IconID": 87
         }
-      ]
+      ],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

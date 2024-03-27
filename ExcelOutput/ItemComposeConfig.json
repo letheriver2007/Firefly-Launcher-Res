@@ -359,6 +359,30 @@
     "LimitType": "NotLimit",
     "FuncType": "Compose"
   },
+  "224": {
+    "ID": 224,
+    "FormulaType": "Normal",
+    "RelicList": [],
+    "SpecialMaterialCost": [],
+    "ItemID": 110212,
+    "MaterialCost": [
+      {
+        "ItemID": 110211,
+        "ItemNum": 3
+      }
+    ],
+    "CoinCost": 20,
+    "Type": 12,
+    "Order": 22,
+    "WorldLevelRequire": 2,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
   "225": {
     "ID": 225,
     "FormulaType": "Normal",
@@ -407,6 +431,30 @@
     "LimitType": "NotLimit",
     "FuncType": "Compose"
   },
+  "227": {
+    "ID": 227,
+    "FormulaType": "Normal",
+    "RelicList": [],
+    "SpecialMaterialCost": [],
+    "ItemID": 110242,
+    "MaterialCost": [
+      {
+        "ItemID": 110241,
+        "ItemNum": 3
+      }
+    ],
+    "CoinCost": 20,
+    "Type": 12,
+    "Order": 28,
+    "WorldLevelRequire": 2,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
   "231": {
     "ID": 231,
     "FormulaType": "Normal",
@@ -422,6 +470,30 @@
     "CoinCost": 20,
     "Type": 12,
     "Order": 15,
+    "WorldLevelRequire": 4,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
+  "234": {
+    "ID": 234,
+    "FormulaType": "Normal",
+    "RelicList": [],
+    "SpecialMaterialCost": [],
+    "ItemID": 110213,
+    "MaterialCost": [
+      {
+        "ItemID": 110212,
+        "ItemNum": 3
+      }
+    ],
+    "CoinCost": 20,
+    "Type": 12,
+    "Order": 21,
     "WorldLevelRequire": 4,
     "MaxCount": 9999,
     "IsShowHoldNumber": true,
@@ -470,6 +542,30 @@
     "CoinCost": 20,
     "Type": 12,
     "Order": 25,
+    "WorldLevelRequire": 4,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
+  "237": {
+    "ID": 237,
+    "FormulaType": "Normal",
+    "RelicList": [],
+    "SpecialMaterialCost": [],
+    "ItemID": 110243,
+    "MaterialCost": [
+      {
+        "ItemID": 110242,
+        "ItemNum": 3
+      }
+    ],
+    "CoinCost": 20,
+    "Type": 12,
+    "Order": 27,
     "WorldLevelRequire": 4,
     "MaxCount": 9999,
     "IsShowHoldNumber": true,
@@ -1522,7 +1618,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110401,
@@ -1558,7 +1655,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110402,
@@ -1594,7 +1692,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110403,
@@ -1630,7 +1729,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110404,
@@ -1666,7 +1766,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110405,
@@ -1702,7 +1803,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110406,
@@ -1738,7 +1840,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110407,
@@ -1774,7 +1877,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110413,
@@ -1810,7 +1914,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110414,
@@ -1846,7 +1951,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110415,
@@ -1882,7 +1988,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110416,
@@ -1918,7 +2025,8 @@
       110412,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110417,
@@ -1954,7 +2062,8 @@
       110417,
       110411,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110412,
@@ -1990,7 +2099,8 @@
       110417,
       110412,
       110423,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110411,
@@ -2026,7 +2136,8 @@
       110417,
       110412,
       110411,
-      110426
+      110426,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110423,
@@ -2062,10 +2173,48 @@
       110417,
       110412,
       110411,
-      110423
+      110423,
+      110422
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110426,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 300,
+    "WorldLevelRequire": 2,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      31
+    ],
+    "LimitType": "Weekly",
+    "LimitValue": 20,
+    "FuncType": "Replace"
+  },
+  "817": {
+    "ID": 817,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110401,
+      110402,
+      110403,
+      110404,
+      110405,
+      110406,
+      110407,
+      110413,
+      110414,
+      110415,
+      110416,
+      110417,
+      110412,
+      110411,
+      110423,
+      110426
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110422,
     "MaterialCost": [],
     "Type": 31,
     "Order": 300,
@@ -2091,8 +2240,10 @@
       110161,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110111,
@@ -2119,8 +2270,10 @@
       110162,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110112,
@@ -2148,8 +2301,10 @@
       110163,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110113,
@@ -2177,8 +2332,10 @@
       110161,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110121,
@@ -2205,8 +2362,10 @@
       110162,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110122,
@@ -2234,8 +2393,10 @@
       110163,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110123,
@@ -2263,8 +2424,10 @@
       110161,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110131,
@@ -2291,8 +2454,10 @@
       110162,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110132,
@@ -2320,8 +2485,10 @@
       110163,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110133,
@@ -2349,8 +2516,10 @@
       110161,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110141,
@@ -2377,8 +2546,10 @@
       110162,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110142,
@@ -2406,8 +2577,10 @@
       110163,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110143,
@@ -2435,8 +2608,10 @@
       110161,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110151,
@@ -2463,8 +2638,10 @@
       110162,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110152,
@@ -2492,8 +2669,10 @@
       110163,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110153,
@@ -2521,8 +2700,10 @@
       110151,
       110171,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110161,
@@ -2549,8 +2730,10 @@
       110152,
       110172,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110162,
@@ -2578,8 +2761,10 @@
       110153,
       110173,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110163,
@@ -2607,8 +2792,10 @@
       110151,
       110161,
       110181,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110171,
@@ -2635,8 +2822,10 @@
       110152,
       110162,
       110182,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110172,
@@ -2664,8 +2853,10 @@
       110153,
       110163,
       110183,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110173,
@@ -2693,8 +2884,10 @@
       110151,
       110161,
       110171,
+      110211,
       110221,
-      110231
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110181,
@@ -2721,8 +2914,10 @@
       110152,
       110162,
       110172,
+      110212,
       110222,
-      110232
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110182,
@@ -2750,14 +2945,108 @@
       110153,
       110163,
       110173,
+      110213,
       110223,
-      110233
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110183,
     "MaterialCost": [],
     "Type": 31,
     "Order": 122,
+    "WorldLevelRequire": 4,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "931": {
+    "ID": 931,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110111,
+      110121,
+      110131,
+      110141,
+      110151,
+      110161,
+      110171,
+      110181,
+      110221,
+      110231,
+      110241
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110211,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 133,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "932": {
+    "ID": 932,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110112,
+      110122,
+      110132,
+      110142,
+      110152,
+      110162,
+      110172,
+      110182,
+      110222,
+      110232,
+      110242
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110212,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 132,
+    "WorldLevelRequire": 2,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "933": {
+    "ID": 933,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110113,
+      110123,
+      110133,
+      110143,
+      110153,
+      110163,
+      110173,
+      110183,
+      110223,
+      110233,
+      110243
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110213,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 131,
     "WorldLevelRequire": 4,
     "MaxCount": 9999,
     "IsShowHoldNumber": true,
@@ -2780,7 +3069,9 @@
       110161,
       110171,
       110181,
-      110231
+      110211,
+      110231,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110221,
@@ -2808,7 +3099,9 @@
       110162,
       110172,
       110182,
-      110232
+      110212,
+      110232,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110222,
@@ -2837,7 +3130,9 @@
       110163,
       110173,
       110183,
-      110233
+      110213,
+      110233,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110223,
@@ -2866,7 +3161,9 @@
       110161,
       110171,
       110181,
-      110221
+      110211,
+      110221,
+      110241
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110231,
@@ -2894,7 +3191,9 @@
       110162,
       110172,
       110182,
-      110222
+      110212,
+      110222,
+      110242
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110232,
@@ -2923,13 +3222,107 @@
       110163,
       110173,
       110183,
-      110223
+      110213,
+      110223,
+      110243
     ],
     "SpecialMaterialCostNumber": 2,
     "ItemID": 110233,
     "MaterialCost": [],
     "Type": 31,
     "Order": 137,
+    "WorldLevelRequire": 4,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "940": {
+    "ID": 940,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110111,
+      110121,
+      110131,
+      110141,
+      110151,
+      110161,
+      110171,
+      110181,
+      110211,
+      110221,
+      110231
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110241,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 142,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "941": {
+    "ID": 941,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110112,
+      110122,
+      110132,
+      110142,
+      110152,
+      110162,
+      110172,
+      110182,
+      110212,
+      110222,
+      110232
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110242,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 141,
+    "WorldLevelRequire": 2,
+    "MaxCount": 9999,
+    "IsShowHoldNumber": true,
+    "ItemComposeTag": [
+      11
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Replace"
+  },
+  "942": {
+    "ID": 942,
+    "FormulaType": "Sepcial",
+    "RelicList": [],
+    "SpecialMaterialCost": [
+      110113,
+      110123,
+      110133,
+      110143,
+      110153,
+      110163,
+      110173,
+      110183,
+      110213,
+      110223,
+      110233
+    ],
+    "SpecialMaterialCostNumber": 2,
+    "ItemID": 110243,
+    "MaterialCost": [],
+    "Type": 31,
+    "Order": 140,
     "WorldLevelRequire": 4,
     "MaxCount": 9999,
     "IsShowHoldNumber": true,
@@ -5893,6 +6286,64 @@
     "CoinCost": 1000,
     "Type": 22,
     "Order": 30,
+    "WorldLevelRequire": 3,
+    "MaxCount": 20,
+    "ItemComposeTag": [
+      20
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
+  "9305": {
+    "ID": 9305,
+    "FormulaType": "SelectedRelic",
+    "RelicList": [
+      63135,
+      63136
+    ],
+    "SpecialMaterialCost": [
+      236
+    ],
+    "SpecialMaterialCostNumber": 1,
+    "ItemID": 83134,
+    "MaterialCost": [
+      {
+        "ItemID": 235,
+        "ItemNum": 100
+      }
+    ],
+    "CoinCost": 1000,
+    "Type": 22,
+    "Order": 31,
+    "WorldLevelRequire": 3,
+    "MaxCount": 20,
+    "ItemComposeTag": [
+      20
+    ],
+    "LimitType": "NotLimit",
+    "FuncType": "Compose"
+  },
+  "9306": {
+    "ID": 9306,
+    "FormulaType": "SelectedRelic",
+    "RelicList": [
+      63145,
+      63146
+    ],
+    "SpecialMaterialCost": [
+      236
+    ],
+    "SpecialMaterialCostNumber": 1,
+    "ItemID": 83144,
+    "MaterialCost": [
+      {
+        "ItemID": 235,
+        "ItemNum": 100
+      }
+    ],
+    "CoinCost": 1000,
+    "Type": 22,
+    "Order": 32,
     "WorldLevelRequire": 3,
     "MaxCount": 20,
     "ItemComposeTag": [

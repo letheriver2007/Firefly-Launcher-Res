@@ -3342,7 +3342,9 @@
       "Hash": 371857150
     },
     "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
-    "BoardShowList": [],
+    "BoardShowList": [
+      4
+    ],
     "ConfigEntityPath": "Config/ConfigEntity/Props/Chap00/Prop_Chap00_Bubble_01_Entity.json",
     "DamageTypeList": [],
     "MiniMapStateIcons": [],
@@ -12560,7 +12562,8 @@
       "CustomState05",
       "CustomState06",
       "CustomState07",
-      "CustomState08"
+      "CustomState08",
+      "CustomState09"
     ],
     "PerformanceType": "B",
     "HasRendererComponent": true,
@@ -12731,7 +12734,7 @@
     "MiniMapStateIcons": [
       {
         "IconID": 178,
-        "Color": "#ffc795"
+        "Color": "#b74a4a"
       },
       {
         "State": "Open",
@@ -13002,7 +13005,8 @@
     "PropStateList": [
       "Closed",
       "Open",
-      "Locked"
+      "Locked",
+      "Hidden"
     ],
     "PerformanceType": "B",
     "HasRendererComponent": true,
@@ -13299,6 +13303,29 @@
     "HasRendererComponent": true,
     "LodPriority": 3
   },
+  "103055": {
+    "ID": 103055,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_CartoonExplosives_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_CartoonExplosives_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
   "103056": {
     "ID": 103056,
     "PropType": "PROP_ORDINARY",
@@ -13585,7 +13612,8 @@
     "JsonPath": "Config/Props/Chap03/Prop_Chap03_CartoonGun_01_Config.json",
     "PropStateList": [
       "Closed",
-      "Open"
+      "Open",
+      "Locked"
     ],
     "PerformanceType": "B",
     "HasRendererComponent": true,
@@ -13697,7 +13725,7 @@
     "MiniMapStateIcons": [
       {
         "IconID": 196,
-        "Color": "#ffc795"
+        "Color": "#b74a4a"
       },
       {
         "State": "Open",
@@ -14064,8 +14092,7 @@
     "JsonPath": "Config/Props/Chap03/Prop_Chap03_SolidaBottle_01_Config.json",
     "PropStateList": [
       "Closed",
-      "Open",
-      "Locked"
+      "Open"
     ],
     "PerformanceType": "B",
     "HasRendererComponent": true,
@@ -14588,6 +14615,126 @@
     "HasRendererComponent": true,
     "LodPriority": 3
   },
+  "103110": {
+    "ID": 103110,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_TopazStone_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_TopazStone_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103111": {
+    "ID": 103111,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_AventurineStone_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_AventurineStone_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103112": {
+    "ID": 103112,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_JadeStone_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_JadeStone_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103113": {
+    "ID": 103113,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_AventurineBox_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_AventurineBox_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103114": {
+    "ID": 103114,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_Cloth_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_Cloth_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
   "103115": {
     "ID": 103115,
     "PropType": "PROP_ORDINARY",
@@ -14611,6 +14758,101 @@
     ],
     "PerformanceType": "C",
     "LodPriority": 3
+  },
+  "103116": {
+    "ID": 103116,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_AveFootPrint_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_AveFootPrint_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "D",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103117": {
+    "ID": 103117,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_DRFootPrint_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_DRFootPrint_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "D",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103118": {
+    "ID": 103118,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_PBStationModel_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_PBStationModel_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 3
+  },
+  "103119": {
+    "ID": 103119,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_DrRatio_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_DrRatio_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "S",
+    "HasRendererComponent": true
   },
   "103120": {
     "ID": 103120,
@@ -14978,6 +15220,31 @@
     "HasRendererComponent": true,
     "LodPriority": 1
   },
+  "103141": {
+    "ID": 103141,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_Curtain_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_Curtain_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open",
+      "CustomState01"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
   "103142": {
     "ID": 103142,
     "PropType": "PROP_ORDINARY",
@@ -14999,6 +15266,231 @@
       "Open"
     ],
     "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103143": {
+    "ID": 103143,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_AventurineBag_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_AventurineBag_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103144": {
+    "ID": 103144,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_PBStationModel_02_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_PBStationModel_02_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103145": {
+    "ID": 103145,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_RailingStand_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_RailingStand_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103146": {
+    "ID": 103146,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_SpotLight_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_SpotLight_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103151": {
+    "ID": 103151,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_RavenStatue_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "CustomState01",
+      "CustomState02",
+      "CustomState03",
+      "CustomState04",
+      "CustomState05",
+      "CustomState06",
+      "CustomState07",
+      "CustomState08"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 2
+  },
+  "103152": {
+    "ID": 103152,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_JadeStone_02_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_JadeStone_02_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103153": {
+    "ID": 103153,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_TopazStone_02_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_TopazStone_02_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103154": {
+    "ID": 103154,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_SandBoardGate_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_SandBoardGate_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open",
+      "Locked",
+      "Hidden"
+    ],
+    "PerformanceType": "B",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103155": {
+    "ID": 103155,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_SandBoardGate_02_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_SandBoardGate_02_Config.json",
+    "PropStateList": [
+      "Locked",
+      "EventClose",
+      "EventOpen"
+    ],
+    "PerformanceType": "B",
     "HasRendererComponent": true,
     "LodPriority": 2
   },
@@ -15026,6 +15518,98 @@
     "HasRendererComponent": true,
     "LodPriority": 2
   },
+  "103185": {
+    "ID": 103185,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_CinemaMaze_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open",
+      "Locked"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 1
+  },
+  "103186": {
+    "ID": 103186,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_CinemaScreen_01_Config.json",
+    "PropStateList": [
+      "CustomState01",
+      "CustomState02",
+      "CustomState03",
+      "CustomState04",
+      "CustomState05"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 1
+  },
+  "103187": {
+    "ID": 103187,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_MansionWall_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 1
+  },
+  "103188": {
+    "ID": 103188,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_MansionDoorFrame_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 1
+  },
   "103189": {
     "ID": 103189,
     "PropType": "PROP_LIGHT",
@@ -15047,6 +15631,98 @@
       "Closed",
       "Open",
       "Locked"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103200": {
+    "ID": 103200,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_SolidaBottle_02_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_SolidaBottle_02_Config.json",
+    "PropStateList": [
+      "Closed"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 1
+  },
+  "103201": {
+    "ID": 103201,
+    "PropType": "PROP_ORDINARY",
+    "IsMapContent": true,
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_Popcorn_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_Popcorn_01_Config.json",
+    "PropStateList": [
+      "Closed"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 1
+  },
+  "103203": {
+    "ID": 103203,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_Glass_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_Glass_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
+  },
+  "103204": {
+    "ID": 103204,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_Bottle_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_Bottle_01_Config.json",
+    "PropStateList": [
+      "Closed",
+      "Open"
     ],
     "PerformanceType": "C",
     "HasRendererComponent": true,
@@ -15079,6 +15755,54 @@
     "PerformanceType": "C",
     "HasRendererComponent": true,
     "LodPriority": 3
+  },
+  "103214": {
+    "ID": 103214,
+    "PropType": "PROP_ORDINARY",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Common/Prop_Common_EmptyProp_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_CinemaFilmWheel_01_Config.json",
+    "PropStateList": [
+      "CustomState01",
+      "CustomState02"
+    ],
+    "PerformanceType": "D",
+    "LodPriority": 1
+  },
+  "103229": {
+    "ID": 103229,
+    "PropType": "PROP_LIGHT",
+    "PropName": {
+      "Hash": 1354018532
+    },
+    "PropTitle": {
+      "Hash": 371857150
+    },
+    "PropIconPath": "SpriteOutput/TalkIcon/ChatIcon.png",
+    "BoardShowList": [],
+    "ConfigEntityPath": "Config/ConfigEntity/Props/Chap03/Prop_Chap03_OrigamiBird_01_Entity.json",
+    "DamageTypeList": [],
+    "MiniMapStateIcons": [],
+    "JsonPath": "Config/Props/Chap03/Prop_Chap03_OrigamiBird_01_Config.json",
+    "PropStateList": [
+      "EventClose",
+      "EventOpen",
+      "Closed",
+      "Open",
+      "Locked"
+    ],
+    "PerformanceType": "C",
+    "HasRendererComponent": true,
+    "LodPriority": 2
   },
   "300000": {
     "ID": 300000,

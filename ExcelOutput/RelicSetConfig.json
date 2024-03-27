@@ -415,8 +415,34 @@
     "SetName": {
       "Hash": 1865261144
     },
-    "DisplayItemID": 83121,
+    "DisplayItemID": 83124,
     "Release": true,
+    "IsPlanarSuit": true
+  },
+  "313": {
+    "SetID": 313,
+    "SetSkillList": [
+      2
+    ],
+    "SetIconPath": "SpriteOutput/ItemIcon/71030.png",
+    "SetIconFigurePath": "SpriteOutput/ItemFigures/71030.png",
+    "SetName": {
+      "Hash": -863622211
+    },
+    "DisplayItemID": 83134,
+    "IsPlanarSuit": true
+  },
+  "314": {
+    "SetID": 314,
+    "SetSkillList": [
+      2
+    ],
+    "SetIconPath": "SpriteOutput/ItemIcon/71031.png",
+    "SetIconFigurePath": "SpriteOutput/ItemFigures/71031.png",
+    "SetName": {
+      "Hash": 702461730
+    },
+    "DisplayItemID": 83144,
     "IsPlanarSuit": true
   }
 }

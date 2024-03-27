@@ -299,6 +299,146 @@
     "Duration": 25,
     "SoundEvent": "Ev_vo_ambient_w3_greeting_xinwen_101_near"
   },
+  "127": {
+    "ID": 127,
+    "ProgramGroupID": 5,
+    "Order": 1,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "128": {
+    "ID": 128,
+    "ProgramGroupID": 5,
+    "Order": 2,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_02.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_01_l"
+  },
+  "129": {
+    "ID": 129,
+    "ProgramGroupID": 5,
+    "Order": 3,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "130": {
+    "ID": 130,
+    "ProgramGroupID": 5,
+    "Order": 4,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_03.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_03_l"
+  },
+  "131": {
+    "ID": 131,
+    "ProgramGroupID": 5,
+    "Order": 5,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "132": {
+    "ID": 132,
+    "ProgramGroupID": 5,
+    "Order": 6,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_04.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_02_l"
+  },
+  "133": {
+    "ID": 133,
+    "ProgramGroupID": 6,
+    "Order": 1,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "134": {
+    "ID": 134,
+    "ProgramGroupID": 6,
+    "Order": 2,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_02.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_01_m"
+  },
+  "135": {
+    "ID": 135,
+    "ProgramGroupID": 6,
+    "Order": 3,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "136": {
+    "ID": 136,
+    "ProgramGroupID": 6,
+    "Order": 4,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_03.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_03_m"
+  },
+  "137": {
+    "ID": 137,
+    "ProgramGroupID": 6,
+    "Order": 5,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "138": {
+    "ID": 138,
+    "ProgramGroupID": 6,
+    "Order": 6,
+    "PlayType": 2,
+    "Asset": "Chap03_TV_Video_04.usm",
+    "IfAnAsset": "",
+    "Duration": 21,
+    "SoundEvent": "Ev_clockboyse_gamever_02_m"
+  },
+  "139": {
+    "ID": 139,
+    "ProgramGroupID": 7,
+    "Order": 1,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_03.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
+  "140": {
+    "ID": 140,
+    "ProgramGroupID": 8,
+    "Order": 1,
+    "PlayType": 1,
+    "Asset": "Stages/OriginalResPos/Chapter03/_dependencies/Texture/EffectTexture/TVContensTexture/Chap03_Eff_TV_Content_P201_02.tga",
+    "IfAnAsset": "",
+    "Duration": 1,
+    "SoundEvent": ""
+  },
   "301": {
     "ID": 301,
     "ProgramGroupID": 301,

@@ -26,32 +26,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      190,
-      280
-    ],
-    "LowerUpperBounds": {
-      "x": 59,
-      "y": 60
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      190,
-      280,
-      190,
-      292,
-      197,
-      296,
-      190,
-      306
-    ],
-    "LowerUpperBounds": {
-      "x": 59,
-      "y": 62
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -73,7 +47,6 @@
       "CampID": 1,
       "BattleArea": {},
       "EventID": 10301299,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -110,7 +83,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -151,7 +123,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -189,7 +160,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -228,7 +198,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -273,7 +242,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -314,7 +282,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

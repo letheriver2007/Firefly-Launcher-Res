@@ -6721,5 +6721,14 @@
       ],
       "defaultVolatileGrade": 1
     }
+  },
+  "tempFixDevice": {
+    "TempFixDeviceModelList": [
+      {
+        "GraphicDeviceName": "AMD",
+        "GraphicsDeviceType": -1,
+        "DisableType": 1
+      }
+    ]
   }
 }

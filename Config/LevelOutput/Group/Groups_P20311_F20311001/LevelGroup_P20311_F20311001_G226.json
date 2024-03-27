@@ -20,55 +20,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      178,
-      -155,
-      184,
-      -155,
-      187,
-      -155,
-      184,
-      -153,
-      184,
-      -152,
-      177,
-      -151,
-      184,
-      -151,
-      187,
-      -151,
-      181,
-      -150,
-      176,
-      -148,
-      177,
-      -147,
-      184,
-      -147,
-      178,
-      -145,
-      176,
-      -139,
-      194,
-      -138,
-      185,
-      -137,
-      180,
-      -136,
-      194,
-      -136,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "y": 11
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -1053,7 +1004,6 @@
           }
         ]
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

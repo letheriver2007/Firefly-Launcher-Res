@@ -13,8 +13,7 @@
       "PosY": 28.9,
       "PosZ": -125.26,
       "Name": "PlayerStart",
-      "RotY": 60.0,
-      "MapLayerID": 1
+      "RotY": 60.0
     }
   ],
   "MonsterList": [],
@@ -28,7 +27,6 @@
       "RotY": 328.4481,
       "PropID": 301004,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -52,7 +50,6 @@
         "PointList": []
       },
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -68,7 +65,6 @@
       "Name": "Prop35",
       "PropID": 301005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

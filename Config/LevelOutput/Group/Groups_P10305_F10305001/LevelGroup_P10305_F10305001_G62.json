@@ -20,22 +20,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -5,
-      -215,
-      -5,
-      -214
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -60,7 +44,6 @@
       },
       "CampID": 4,
       "State": "CustomState02",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -85,7 +68,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F10305001/LG_Prop_F10305001_G62_300002.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideSoundRange": 8.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},

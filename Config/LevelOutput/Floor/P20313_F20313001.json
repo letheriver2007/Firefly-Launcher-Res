@@ -181,8 +181,11 @@
       "GroupGUID": "9b7bb19d-729f-4309-8f08-14909f35e4e0",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G169.json",
       "DimensionFilter": {
-        "List": []
-      }
+        "Type": "All",
+        "List": [],
+        "FilterType": "All"
+      },
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 186,
@@ -965,6 +968,13 @@
       }
     },
     {
+      "ID": 159,
+      "Name": "MainMission1031201_0",
+      "GroupGUID": "788ccb16-a5a2-4970-9c6e-4eb8a394c894",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G159.json",
+      "DimensionFilter": {}
+    },
+    {
       "ID": 160,
       "Name": "ShrinkGameplay01_Manager",
       "GroupGUID": "1b9395e2-1cd7-44dc-a3bf-b5463e02927e",
@@ -1283,8 +1293,11 @@
       "GroupGUID": "db4c76a2-4fbb-451b-9011-f68d4641c209",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G229.json",
       "DimensionFilter": {
-        "List": []
-      }
+        "Type": "All",
+        "List": [],
+        "FilterType": "All"
+      },
+      "IsOverrideDimensionFilter": true
     },
     {
       "ID": 230,
@@ -1423,6 +1436,34 @@
       "Name": "Book",
       "GroupGUID": "86d0d955-98fe-45cf-aa6e-6b54ca655116",
       "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G248.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 249,
+      "Name": "MainMission1031201_2",
+      "GroupGUID": "ebbed1a5-f15e-4eff-962c-c77e3818b303",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G249.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 253,
+      "Name": "Book",
+      "GroupGUID": "1a67b777-662b-4b7f-b464-5d0b40e84217",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G253.json",
+      "DimensionFilter": {
+        "List": []
+      },
+      "IsOverrideDimensionFilter": true
+    },
+    {
+      "ID": 257,
+      "Name": "MainMission1031201_257",
+      "GroupGUID": "229cd5cc-7bf2-4823-8e71-4f7e4207a5d5",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20313_F20313001/LevelGroup_P20313_F20313001_G257.json",
       "DimensionFilter": {
         "List": []
       }

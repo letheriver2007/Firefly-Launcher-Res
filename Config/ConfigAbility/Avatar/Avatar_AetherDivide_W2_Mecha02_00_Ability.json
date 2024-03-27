@@ -858,7 +858,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "ModifierOwnerEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_W2_Mecha02_00/Eff_AetherDivide_W2_Mecha02_00_ReadyFail.prefab",
           "MinMutexTime": -1
         },
@@ -1170,7 +1169,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamMember"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_03/Eff_Monster_W1_Soldier01_03_Skill03_01.prefab",
                   "MinMutexTime": -1
                 },
@@ -1230,7 +1228,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeammate"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Mecha02_00/Eff_Monster_W2_Mecha02_00_Die_Hit.prefab"
                 },
                 {
@@ -1325,7 +1322,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_W2_Mecha02_00/Eff_AetherDivide_W2_Mecha02_00_ReadyFail.prefab",
               "MinMutexTime": -1
             }

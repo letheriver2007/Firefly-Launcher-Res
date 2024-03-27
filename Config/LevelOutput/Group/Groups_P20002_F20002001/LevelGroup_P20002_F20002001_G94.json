@@ -58,8 +58,7 @@
       "PosY": 3.44376,
       "PosZ": -32.365,
       "Name": "Anchor1",
-      "RotY": 100.7867,
-      "MapLayerID": 2
+      "RotY": 100.7867
     }
   ],
   "MonsterList": [],
@@ -80,7 +79,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [
@@ -101,7 +99,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_Wubwub_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

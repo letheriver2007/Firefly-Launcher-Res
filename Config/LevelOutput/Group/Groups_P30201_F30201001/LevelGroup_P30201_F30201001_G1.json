@@ -12,8 +12,7 @@
       "PosY": 3.35,
       "PosZ": -109.65,
       "Name": "Anchor1",
-      "RotY": 287.9535,
-      "MapLayerID": 2
+      "RotY": 287.9535
     }
   ],
   "MonsterList": [],
@@ -29,7 +28,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_AutoDoor_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -48,7 +46,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_AutoDoor_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

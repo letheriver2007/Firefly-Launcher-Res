@@ -557,5 +557,22 @@
     "TabPicSelectPath": "SpriteOutput/UI/Abyss/Process/TypeIcon/AbyssSwitchLoop_On.png",
     "ChallengeGroupType": "Memory",
     "ThemePicPath": "SpriteOutput/DailyMission/Banner/ChallengeAbyssBanner2.png"
+  },
+  "1013": {
+    "GroupID": 1013,
+    "GroupName": {
+      "Hash": 775671
+    },
+    "RewardLineGroupID": 2,
+    "PreMissionID": 4010134,
+    "ScheduleDataID": 201013,
+    "MazeBuffID": 3030126,
+    "MapEntranceID": 1010201,
+    "MappingInfoID": 1220,
+    "BackGroundPath": "UI/UI3D/Abyss/World/Texture/AbyssSenceBgl_Red_03_03.png",
+    "TabPicPath": "SpriteOutput/UI/Abyss/Process/TypeIcon/AbyssSwitchLoop_Off.png",
+    "TabPicSelectPath": "SpriteOutput/UI/Abyss/Process/TypeIcon/AbyssSwitchLoop_On.png",
+    "ChallengeGroupType": "Memory",
+    "ThemePicPath": "SpriteOutput/DailyMission/Banner/ChallengeAbyssBanner2.png"
   }
 }

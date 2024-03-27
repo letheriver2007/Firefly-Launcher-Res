@@ -28,24 +28,21 @@
       "PosY": 18.61003,
       "PosZ": -96.113,
       "Name": "Anchor1",
-      "RotY": 15.0,
-      "MapLayerID": 3
+      "RotY": 15.0
     },
     {
       "ID": 2,
       "PosX": -137.8,
       "PosY": 2.761695,
       "PosZ": -104.37,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": 4.721,
       "PosY": 2.843766,
       "PosZ": -43.42,
-      "Name": "Anchor3",
-      "MapLayerID": 2
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
@@ -53,8 +50,7 @@
       "PosY": 2.895139,
       "PosZ": -45.95,
       "Name": "Anchor4",
-      "RotY": 216.4513,
-      "MapLayerID": 2
+      "RotY": 216.4513
     },
     {
       "ID": 5,
@@ -62,8 +58,7 @@
       "PosY": 18.61063,
       "PosZ": -33.36,
       "Name": "Anchor5",
-      "RotY": 342.3285,
-      "MapLayerID": 3
+      "RotY": 342.3285
     },
     {
       "ID": 6,
@@ -71,8 +66,7 @@
       "PosY": 18.91,
       "PosZ": -33.93,
       "Name": "Anchor6",
-      "RotY": 342.3285,
-      "MapLayerID": 3
+      "RotY": 342.3285
     },
     {
       "ID": 7,
@@ -80,8 +74,7 @@
       "PosY": 18.61072,
       "PosZ": -34.04,
       "Name": "Anchor7",
-      "RotY": 70.64148,
-      "MapLayerID": 3
+      "RotY": 70.64148
     }
   ],
   "MonsterList": [],
@@ -102,7 +95,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -125,7 +117,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -148,7 +139,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -171,7 +161,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -194,7 +183,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -218,7 +206,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -242,7 +229,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -267,7 +253,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -292,7 +277,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -315,7 +299,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -345,7 +328,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -369,7 +351,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -392,7 +373,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Distress01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [
         1,
         4,
@@ -418,7 +398,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [
         1,
         4,
@@ -442,7 +421,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -468,7 +446,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -493,7 +470,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Praying01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,
@@ -519,7 +495,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469546
@@ -540,7 +515,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469546
@@ -572,7 +546,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Praying01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [
         1,
         4,
@@ -597,7 +570,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [
         1,
         4,
@@ -632,7 +604,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Distress01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1690540168

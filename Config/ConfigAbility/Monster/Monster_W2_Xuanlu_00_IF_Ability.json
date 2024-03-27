@@ -273,7 +273,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LevelEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_X202_JianMu_03.prefab"
         },
         {
@@ -1439,7 +1438,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DefenceUp.prefab"
             },
             {

@@ -26,8 +26,7 @@
       "PosY": -0.347876,
       "PosZ": -19.612,
       "Name": "Anchor1",
-      "RotY": 83.2153,
-      "MapLayerID": 1
+      "RotY": 83.2153
     }
   ],
   "MonsterList": [],
@@ -43,7 +42,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "AnchorGroupID": 99,

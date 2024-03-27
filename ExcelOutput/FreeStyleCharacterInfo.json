@@ -134,6 +134,11 @@
     "AvatarFlagID": 2,
     "AvatarBodyID": 22
   },
+  "NPC_Monster_W2_Beast02_01": {
+    "FreeStyleCharacterID": "NPC_Monster_W2_Beast02_01",
+    "AvatarFlagID": 2,
+    "AvatarBodyID": 45
+  },
   "NPC_Monster_W2_Knight01_00": {
     "FreeStyleCharacterID": "NPC_Monster_W2_Knight01_00",
     "AvatarFlagID": 2,
@@ -504,6 +509,11 @@
     "AvatarFlagID": 3,
     "AvatarBodyID": 1312
   },
+  "NPC_Avatar_Lady_Acheron_01": {
+    "FreeStyleCharacterID": "NPC_Avatar_Lady_Acheron_01",
+    "AvatarFlagID": 3,
+    "AvatarBodyID": 9004
+  },
   "NPC_Special_Pam_00": {
     "FreeStyleCharacterID": "NPC_Special_Pam_00",
     "AvatarFlagID": 9,
@@ -598,5 +608,10 @@
     "FreeStyleCharacterID": "NPC_Special_RobUmbrella_00",
     "AvatarFlagID": 9,
     "AvatarBodyID": 19
+  },
+  "NPC_Special_SundaysServant_00": {
+    "FreeStyleCharacterID": "NPC_Special_SundaysServant_00",
+    "AvatarFlagID": 9,
+    "AvatarBodyID": 20
   }
 }

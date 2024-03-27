@@ -162,6 +162,26 @@
           "UniqueEffectName": "Eff_Common_MAZ_FireDebuff"
         }
       ],
+      "OnOwnerBeKilled": [
+        {
+          "$type": "RPG.GameCore.UpdateTreasureChallengeProgress",
+          "RaidTargetID": 401320131,
+          "IsIncrease": true,
+          "DeltaValue": 1
+        },
+        {
+          "$type": "RPG.GameCore.UpdateTreasureChallengeProgress",
+          "RaidTargetID": 401320132,
+          "IsIncrease": true,
+          "DeltaValue": 1
+        },
+        {
+          "$type": "RPG.GameCore.UpdateTreasureChallengeProgress",
+          "RaidTargetID": 401320123,
+          "IsIncrease": true,
+          "DeltaValue": 1
+        }
+      ],
       "Count": 1,
       "Stacking": "Merge"
     },

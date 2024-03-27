@@ -142,6 +142,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_02/Eff_Monster_W1_Soldier01_02_Common_Chest_M.prefab"
         },
         {
@@ -150,6 +151,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_02/Eff_Monster_W1_Soldier01_02_Common_Ice_Axe_All_JNT.prefab"
         },
         {
@@ -158,6 +160,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_02/Eff_Monster_W1_Soldier01_02_Common_Knee_R.prefab"
         }
       ]
@@ -174,6 +177,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_01/Eff_Monster_W1_Soldier01_01_Common_Chest_M.prefab"
         },
         {
@@ -182,6 +186,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_01/Eff_Monster_W1_Soldier01_01_Common_Head_M.prefab"
         },
         {
@@ -190,6 +195,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier01_01/Eff_Monster_W1_Soldier01_01_Common_Knee_R.prefab"
         }
       ]

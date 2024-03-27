@@ -15,6 +15,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap03_Prop_GashaponBall_03_RollingDown_Lod0.prefab",
           "AttachPoint": "EffRoot"
         },
@@ -23,6 +24,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Scene_Static/Eff_Chap03_BDS_Gashapon_Horn_01_Lod0.prefab",
           "AttachPoint": "HornRoot"
         }

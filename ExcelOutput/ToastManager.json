@@ -357,5 +357,10 @@
     "FuncName": "PasterRewardHint",
     "Duration": 5,
     "Priority": 50
+  },
+  "DrinkMakerGuestFinishHint": {
+    "FuncName": "DrinkMakerGuestFinishHint",
+    "Duration": 4,
+    "Priority": 30
   }
 }

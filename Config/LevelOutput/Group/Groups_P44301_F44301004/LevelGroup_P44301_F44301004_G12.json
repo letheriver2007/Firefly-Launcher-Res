@@ -12,32 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -77,
-      -79,
-      -65,
-      -77
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -78,
-      -80,
-      -77,
-      -79,
-      -65,
-      -77
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -68,7 +42,6 @@
         "PointList": []
       },
       "EventID": 10301299,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -108,7 +81,6 @@
         "PointList": []
       },
       "EventID": 10301299,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -131,7 +103,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_ShowGroupMonsterVision_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

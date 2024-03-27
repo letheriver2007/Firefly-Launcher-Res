@@ -488,7 +488,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_Skill02_03.prefab"
         },
         {
@@ -629,7 +628,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_Skill02_Buff.prefab"
                 }
               ]
@@ -1078,6 +1076,10 @@
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_Skill03_Hit_03.prefab"
             }
           ]
+        },
+        {
+          "$type": "RPG.GameCore.TriggerSound",
+          "SoundName": "Ev_sfx_avatar_ultra_skill_hit_luocha_multi"
         },
         {
           "$type": "RPG.GameCore.WaitAnimState",
@@ -2186,7 +2188,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_PassiveSkill_disappear.prefab"
                 }
               ]
@@ -2599,7 +2600,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_PassiveSkill_disappear.prefab"
                 }
               ]
@@ -2629,7 +2629,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                 },
                 {
@@ -2722,7 +2721,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                 },
                 {
@@ -3011,7 +3009,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Field"
           ],

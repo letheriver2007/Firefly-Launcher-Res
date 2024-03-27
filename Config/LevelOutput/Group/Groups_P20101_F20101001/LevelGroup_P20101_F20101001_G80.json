@@ -34,7 +34,6 @@
       "RotY": 243.1,
       "RotX": 10.34876,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -46,16 +45,14 @@
       "PosY": 15.78569,
       "PosZ": -0.004,
       "Name": "Anchor2",
-      "RotY": 6.6,
-      "MapLayerID": 1
+      "RotY": 6.6
     },
     {
       "ID": 3,
       "PosX": -83.65,
       "PosY": 15.81563,
       "PosZ": -1.18,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
@@ -66,7 +63,6 @@
       "RotY": 225.5167,
       "RotX": 5.79,
       "RotZ": -0.001881,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -81,7 +77,6 @@
       "RotY": 177.2,
       "RotX": 16.36469,
       "RotZ": 2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -96,7 +91,6 @@
       "RotY": 211.4231,
       "RotX": 2.9,
       "RotZ": -3.2E-5,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -108,8 +102,7 @@
       "PosY": 16.01292,
       "PosZ": -1.540001,
       "Name": "Anchor7",
-      "RotY": 103.3,
-      "MapLayerID": 1
+      "RotY": 103.3
     },
     {
       "ID": 8,
@@ -120,7 +113,6 @@
       "RotY": 115.1,
       "RotX": 0.12,
       "RotZ": -0.002197,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -135,7 +127,6 @@
       "RotY": 250.7848,
       "RotX": 7.942251,
       "RotZ": -0.005049,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -150,7 +141,6 @@
       "RotY": 225.35,
       "RotX": 60.71178,
       "RotZ": -0.004094,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -165,7 +155,6 @@
       "RotY": 66.35037,
       "RotX": 11.03624,
       "RotZ": 0.00162,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -185,7 +174,6 @@
       "NPCID": 1112,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311120000,
@@ -205,7 +193,6 @@
       "NPCID": 3021,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900050000,
@@ -225,7 +212,6 @@
       "NPCID": 3021,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],

@@ -28,8 +28,7 @@
       "PosX": -2.71,
       "PosY": -4.94384,
       "PosZ": 11.67,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -46,7 +45,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "OverrideTriggerSound": true,
       "BoardShowList": [
         1,
@@ -99,7 +97,6 @@
         "InstanceID": 400001,
         "LookAtAttachPoint": "Head"
       },
-      "MapLayerID": 1,
       "OverrideTriggerSound": true,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],

@@ -25,30 +25,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -67,
-      -39,
-      -65,
-      -27
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -67,
-      -39,
-      -65,
-      -27
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -57,8 +33,7 @@
       "PosY": -0.101087,
       "PosZ": -70.482,
       "Name": "CheckPoint_1",
-      "RotY": 234.1567,
-      "MapLayerID": 2
+      "RotY": 234.1567
     }
   ],
   "MonsterList": [
@@ -88,7 +63,6 @@
         "ID": 1
       },
       "EventID": 40002046,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -123,7 +97,6 @@
         "ID": 1
       },
       "EventID": 40002046,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

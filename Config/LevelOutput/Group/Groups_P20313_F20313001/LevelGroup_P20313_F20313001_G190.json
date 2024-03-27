@@ -12,44 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      192,
-      294,
-      193,
-      301,
-      195,
-      301
-    ],
-    "LowerUpperBounds": {
-      "x": 59,
-      "y": 60
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      187,
-      293,
-      188,
-      293,
-      192,
-      294,
-      192,
-      297,
-      193,
-      301,
-      195,
-      301,
-      180,
-      308,
-      181,
-      308
-    ],
-    "LowerUpperBounds": {
-      "x": 59,
-      "y": 60
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -71,7 +33,6 @@
       "CampID": 3,
       "BattleArea": {},
       "EventID": 10301299,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -100,7 +61,6 @@
       "BattleArea": {},
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 10301299,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -137,7 +97,6 @@
       "CampID": 3,
       "BattleArea": {},
       "EventID": 10301299,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -161,7 +120,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_ShowGroupMonsterVision_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -200,7 +158,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -228,7 +185,6 @@
       "PropID": 102,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -256,7 +212,6 @@
       "PropID": 102,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -295,7 +250,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -334,7 +288,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

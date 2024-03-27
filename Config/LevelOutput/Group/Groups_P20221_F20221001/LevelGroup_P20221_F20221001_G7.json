@@ -10,8 +10,7 @@
       "PosY": -0.86,
       "PosZ": 53.46,
       "Name": "Anchor01_A",
-      "RotY": 89.9991,
-      "MapLayerID": 1
+      "RotY": 89.9991
     },
     {
       "ID": 2,
@@ -19,8 +18,7 @@
       "PosY": 6.08,
       "PosZ": 53.65,
       "Name": "Anchor01_B",
-      "RotY": 269.9998,
-      "MapLayerID": 2
+      "RotY": 269.9998
     },
     {
       "ID": 3,
@@ -28,8 +26,7 @@
       "PosY": -2.61,
       "PosZ": -15.18,
       "Name": "Anchor02_A",
-      "RotY": 270.0006,
-      "MapLayerID": 1
+      "RotY": 270.0006
     },
     {
       "ID": 4,
@@ -37,8 +34,7 @@
       "PosY": -2.61,
       "PosZ": 1.18,
       "Name": "Anchor02_B",
-      "RotY": 45.00036,
-      "MapLayerID": 1
+      "RotY": 45.00036
     },
     {
       "ID": 5,
@@ -46,8 +42,7 @@
       "PosY": -2.6,
       "PosZ": 121.96,
       "Name": "Anchor03_A",
-      "RotY": 269.9999,
-      "MapLayerID": 1
+      "RotY": 269.9999
     },
     {
       "ID": 6,
@@ -55,8 +50,7 @@
       "PosY": -2.61,
       "PosZ": 105.46,
       "Name": "Anchor03_B",
-      "RotY": 135.0001,
-      "MapLayerID": 1
+      "RotY": 135.0001
     },
     {
       "ID": 11,
@@ -64,8 +58,7 @@
       "PosY": -0.86,
       "PosZ": 15.65,
       "Name": "Anchor06_A",
-      "RotY": 225.0011,
-      "MapLayerID": 1
+      "RotY": 225.0011
     },
     {
       "ID": 12,
@@ -73,8 +66,7 @@
       "PosY": 6.08,
       "PosZ": 34.24,
       "Name": "Anchor06_B",
-      "RotY": 40.00118,
-      "MapLayerID": 2
+      "RotY": 40.00118
     },
     {
       "ID": 13,
@@ -82,8 +74,7 @@
       "PosY": -0.86,
       "PosZ": 90.17,
       "Name": "Anchor07_A",
-      "RotY": 315.001,
-      "MapLayerID": 1
+      "RotY": 315.001
     },
     {
       "ID": 14,
@@ -91,8 +82,7 @@
       "PosY": 6.08,
       "PosZ": 72.53,
       "Name": "Anchor07_B",
-      "RotY": 135.001,
-      "MapLayerID": 2
+      "RotY": 135.001
     }
   ],
   "MonsterList": [],
@@ -136,7 +126,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -182,7 +171,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -229,7 +217,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -276,7 +263,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -325,7 +311,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -372,7 +357,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -419,7 +403,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -466,7 +449,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -513,7 +495,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -560,7 +541,6 @@
         "DimZ": 1.0
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

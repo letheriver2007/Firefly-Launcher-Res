@@ -42,7 +42,6 @@
         "ID": 1
       },
       "EventID": 44201071,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -65,7 +64,6 @@
         "ID": 1
       },
       "EventID": 44201072,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -89,7 +87,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 44201073,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -113,7 +110,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 44201074,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -143,7 +139,6 @@
         "ID": 1
       },
       "EventID": 44201075,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -165,7 +160,6 @@
         "ID": 1
       },
       "EventID": 44201081,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -188,7 +182,6 @@
         "ID": 1
       },
       "EventID": 44201082,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -211,7 +204,6 @@
         "ID": 1
       },
       "EventID": 44201083,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -234,7 +226,6 @@
         "ID": 1
       },
       "EventID": 44201084,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -257,7 +248,6 @@
         "ID": 1
       },
       "EventID": 44201085,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -280,7 +270,6 @@
         "ID": 1
       },
       "EventID": 44201086,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -303,7 +292,6 @@
         "ID": 1
       },
       "EventID": 44201087,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -317,7 +305,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/44201_Raid/Maze_InvisibleMonster_ClientBuffWithButtonInitial.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

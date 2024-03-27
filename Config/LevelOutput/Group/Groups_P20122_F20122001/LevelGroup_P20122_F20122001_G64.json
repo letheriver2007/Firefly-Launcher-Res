@@ -34,8 +34,7 @@
   "AnchorList": [
     {
       "ID": 1,
-      "Name": "Default",
-      "MapLayerID": 1
+      "Name": "Default"
     },
     {
       "ID": 2,
@@ -43,8 +42,7 @@
       "PosY": 13.47,
       "PosZ": 158.26,
       "Name": "Mission_201070512",
-      "RotY": 221.9,
-      "MapLayerID": 2
+      "RotY": 221.9
     }
   ],
   "MonsterList": [],
@@ -121,7 +119,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

@@ -30,8 +30,7 @@
       "PosY": 2.843766,
       "PosZ": -112.25,
       "Name": "Anchor1",
-      "RotY": 155.0,
-      "MapLayerID": 2
+      "RotY": 155.0
     }
   ],
   "MonsterList": [
@@ -54,7 +53,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20003218,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -72,7 +70,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_Wubwub_01.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -95,7 +92,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -115,7 +111,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200050000,

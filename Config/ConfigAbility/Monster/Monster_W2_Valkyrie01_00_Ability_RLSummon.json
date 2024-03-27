@@ -124,6 +124,14 @@
                     -223156200
                   ]
                 }
+              },
+              "DynamicValues": {
+                "MDF_Shake_ActionDelayRatio": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 0.7
+                  }
+                }
               }
             }
           ]

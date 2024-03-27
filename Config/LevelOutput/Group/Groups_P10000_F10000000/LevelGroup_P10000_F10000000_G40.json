@@ -62,32 +62,28 @@
       "PosX": -4.292,
       "PosZ": -1.711,
       "Name": "Anchor1",
-      "RotY": 39.30272,
-      "MapLayerID": 1
+      "RotY": 39.30272
     },
     {
       "ID": 2,
       "PosX": 3.589,
       "PosZ": 3.007,
       "Name": "Himeko_01",
-      "RotY": 240.1102,
-      "MapLayerID": 1
+      "RotY": 240.1102
     },
     {
       "ID": 3,
       "PosX": -3.088,
       "PosZ": 1.399999,
       "Name": "Himeko_02",
-      "RotY": 219.4153,
-      "MapLayerID": 1
+      "RotY": 219.4153
     },
     {
       "ID": 4,
       "PosX": 4.25,
       "PosZ": 14.4,
       "Name": "Himeko_03",
-      "RotY": 252.4891,
-      "MapLayerID": 1
+      "RotY": 252.4891
     },
     {
       "ID": 5,
@@ -95,24 +91,21 @@
       "PosY": 0.021,
       "PosZ": -1.101,
       "Name": "Welt_01",
-      "RotY": 69.62791,
-      "MapLayerID": 1
+      "RotY": 69.62791
     },
     {
       "ID": 6,
       "PosX": -4.215,
       "PosZ": 13.4,
       "Name": "Welt_02",
-      "RotY": 168.9749,
-      "MapLayerID": 1
+      "RotY": 168.9749
     },
     {
       "ID": 7,
       "PosX": 2.67,
       "PosY": 2.004447,
       "PosZ": -21.81,
-      "Name": "Welt_03",
-      "MapLayerID": 1
+      "Name": "Welt_03"
     }
   ],
   "MonsterList": [],
@@ -133,7 +126,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sit01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -185,7 +177,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Sit01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -230,7 +221,6 @@
       "NPCID": 1003,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310030000,

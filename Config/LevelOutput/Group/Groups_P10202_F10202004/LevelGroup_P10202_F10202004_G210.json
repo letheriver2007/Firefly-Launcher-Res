@@ -11,8 +11,7 @@
       "PosY": 1.536784,
       "PosZ": -3.13,
       "Name": "Anchor1",
-      "RotY": 90.0001,
-      "MapLayerID": 1
+      "RotY": 90.0001
     },
     {
       "ID": 2,
@@ -20,8 +19,7 @@
       "PosY": -0.395682,
       "PosZ": -9.052,
       "Name": "Anchor2",
-      "RotY": 270.0001,
-      "MapLayerID": 1
+      "RotY": 270.0001
     },
     {
       "ID": 3,
@@ -29,8 +27,7 @@
       "PosY": 0.031746,
       "PosZ": -43.84,
       "Name": "Anchor3",
-      "RotY": 270.0001,
-      "MapLayerID": 1
+      "RotY": 270.0001
     },
     {
       "ID": 4,
@@ -38,8 +35,7 @@
       "PosY": 0.482009,
       "PosZ": -40.34,
       "Name": "Anchor4",
-      "RotY": 270.0001,
-      "MapLayerID": 1
+      "RotY": 270.0001
     },
     {
       "ID": 5,
@@ -50,7 +46,6 @@
       "RotY": 131.8022,
       "RotX": 20.19312,
       "RotZ": 3.416844,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -62,7 +57,6 @@
       "RotY": 139.2337,
       "RotX": 20.19312,
       "RotZ": 3.416846,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -74,7 +68,6 @@
       "RotY": 196.7726,
       "RotX": 23.64235,
       "RotZ": 359.1325,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -86,7 +79,6 @@
       "RotY": 244.3588,
       "RotX": 11.63328,
       "RotZ": 358.8071,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -98,7 +90,6 @@
       "RotY": 301.2802,
       "RotX": 18.76284,
       "RotZ": 0.622106,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -110,7 +101,6 @@
       "RotY": 7.894974,
       "RotX": 9.2708,
       "RotZ": 359.1954,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -122,7 +112,6 @@
       "RotY": 42.50443,
       "RotX": 23.53242,
       "RotZ": 359.1362,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -134,7 +123,6 @@
       "RotY": 42.50443,
       "RotX": 23.53242,
       "RotZ": 359.1362,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -146,7 +134,6 @@
       "RotY": 333.7168,
       "RotX": 4.802053,
       "RotZ": 359.1635,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -202,7 +189,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -247,7 +233,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],

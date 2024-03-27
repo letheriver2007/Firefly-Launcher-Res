@@ -243,6 +243,81 @@
             "UniqueEffectName": "Eff_Common_MazeCameraTransition_Universe3_1"
           }
         ]
+      },
+      {
+        "PostureType": "Block",
+        "TasksConfig": [
+          {
+            "$type": "RPG.GameCore.LockPlayerControl"
+          },
+          {
+            "$type": "RPG.GameCore.EnableFreelookCameraBattleTransitionMode",
+            "Enable": true,
+            "IgnoreAttackerDistance": 2
+          },
+          {
+            "$type": "RPG.GameCore.WaitSecond",
+            "WaitTime": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 0.03
+              }
+            }
+          },
+          {
+            "$type": "RPG.GameCore.TriggerSound",
+            "SoundName": "Ev_sfx_ui_maze_attack_combat_start_BS",
+            "EmitterType": "DefaultEmitter"
+          },
+          {
+            "$type": "RPG.GameCore.GlobalTimeSlow",
+            "TimeScale": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 0.1
+              }
+            },
+            "UnscaledDuration": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 10
+              }
+            }
+          },
+          {
+            "$type": "RPG.GameCore.RadialBlurCurveEffect",
+            "BlurRadius": 1,
+            "Iteration": 4,
+            "BlurStart": 0.002,
+            "BlurFeather": 0.001,
+            "Duration": 1.5,
+            "CurveName": "BattleTransitionBlurCurve"
+          },
+          {
+            "$type": "RPG.GameCore.LensDistortionCurveEffect",
+            "XMultiplier": 2,
+            "YMultiplier": 2,
+            "Intensity": 2,
+            "XCurvePath": "Camera/BlendCurve/Blend_SlowToFast.asset",
+            "YCurvePath": "Camera/BlendCurve/Blend_SlowToFast.asset",
+            "IntensityCurvePath": "Camera/BlendCurve/Blend_SlowToFast.asset",
+            "Duration": 1.5
+          },
+          {
+            "$type": "RPG.GameCore.WaitSecond",
+            "WaitTime": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 0.5
+              }
+            }
+          },
+          {
+            "$type": "RPG.GameCore.TriggerEffect",
+            "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ScreenCrackUITransition_Before_UI_1.prefab",
+            "UniqueEffectName": "Eff_Common_MazeCameraTransition_Universe3_1"
+          }
+        ]
       }
     ],
     "OnLoopFadeOutBeforeBattle": [
@@ -339,6 +414,33 @@
             }
           }
         ]
+      },
+      {
+        "PostureType": "Block",
+        "TasksConfig": [
+          {
+            "$type": "RPG.GameCore.ShowMazeUI"
+          },
+          {
+            "$type": "RPG.GameCore.TriggerEffect",
+            "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ScreenCrackUITransition_UI_2.prefab",
+            "UniqueEffectName": "Eff_Common_MazeCameraTransition_Universe3_2"
+          },
+          {
+            "$type": "RPG.GameCore.TriggerSound",
+            "SoundName": "Ev_sfx_ui_maze_attack_combat_start_BS_line",
+            "EmitterType": "DefaultEmitter"
+          },
+          {
+            "$type": "RPG.GameCore.WaitSecond",
+            "WaitTime": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 0.5
+              }
+            }
+          }
+        ]
       }
     ],
     "OnAfterTriggerBattle": [
@@ -387,6 +489,28 @@
       },
       {
         "PostureType": "Excellent",
+        "TasksConfig": [
+          {
+            "$type": "RPG.GameCore.TriggerSound",
+            "SoundName": "Ev_sfx_ui_maze_attack_combat_start_AS",
+            "EmitterType": "DefaultEmitter"
+          },
+          {
+            "$type": "RPG.GameCore.RemoveEffect",
+            "UniqueEffectName": "Eff_Common_MazeCameraTransition_Universe3_2"
+          },
+          {
+            "$type": "RPG.GameCore.RemoveEffect",
+            "UniqueEffectName": "Eff_Common_MazeCameraTransition_Universe3_1"
+          },
+          {
+            "$type": "RPG.GameCore.TriggerEffect",
+            "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MazeCameraTransition_Universe3_3.prefab"
+          }
+        ]
+      },
+      {
+        "PostureType": "Block",
         "TasksConfig": [
           {
             "$type": "RPG.GameCore.TriggerSound",
@@ -1562,8 +1686,8 @@
   "SpecialVisionStencilRefList": [
     224,
     226,
-    228,
-    230,
+    234,
+    240,
     232
   ],
   "SpecialVisionAutoCloseInterval": 7,

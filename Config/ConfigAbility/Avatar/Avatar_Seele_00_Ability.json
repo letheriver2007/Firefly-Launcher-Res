@@ -426,26 +426,6 @@
                           ]
                         }
                       }
-                    },
-                    {
-                      "$type": "RPG.GameCore.AddModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "Caster"
-                      },
-                      "ModifierName": "Skill01PreShowModifier_AppliedRatio",
-                      "DynamicValues": {
-                        "MDF_Skill01_Delay": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              2078981293
-                            ]
-                          }
-                        }
-                      }
                     }
                   ]
                 }

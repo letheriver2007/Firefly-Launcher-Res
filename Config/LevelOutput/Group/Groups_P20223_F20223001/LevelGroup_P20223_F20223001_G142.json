@@ -17,44 +17,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -46,
-      25,
-      -47,
-      26,
-      -38,
-      28,
-      -53,
-      32,
-      -52,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 408
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -46,
-      25,
-      -47,
-      26,
-      -38,
-      28,
-      -53,
-      32,
-      -52,
-      32
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 414
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -78,7 +40,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20223101,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -103,7 +64,6 @@
         "ID": 1
       },
       "EventID": 20223102,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -135,7 +95,6 @@
         "ID": 1
       },
       "EventID": 20223103,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -161,7 +120,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20223105,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -187,7 +145,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20223106,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -203,7 +160,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_MonsterEffect_SuiyangWithBuff.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

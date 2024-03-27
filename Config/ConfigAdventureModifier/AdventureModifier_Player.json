@@ -76,7 +76,7 @@
       "Count": 1,
       "Stacking": "Merge"
     },
-    "ADV_StageAbility_Maze_Silwolf_MazeSkillMark": {
+    "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark": {
       "OnUnstage": [
         {
           "$type": "RPG.GameCore.RemoveSelfModifier"
@@ -332,6 +332,168 @@
       "Count": 1,
       "Stacking": "Merge"
     },
+    "ADV_StageAbility_Maze_Topaz": {
+      "OnAfterBattle": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByIsLastBattleWin",
+            "TaskEnabled": true
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerMazeSkillDrop",
+              "TaskEnabled": true
+            }
+          ]
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_Modifier_Maze_Topaz_SummonUnit": {
+      "OnCreate": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByIsTeamLeader",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.CreateSummonUnit",
+              "Summoner": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "SummonUnitID": 11121,
+              "PosTarget": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "OffsetX": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 1
+                }
+              },
+              "PosAdaption": {
+                "Option": "CharacterDefault",
+                "AvoidanceRadius": 0.3
+              }
+            },
+            {
+              "$type": "RPG.GameCore.EnableAdvEntityDitherWithPlayer",
+              "SourceType": {
+                "$type": "RPG.GameCore.TargetFetchSummonUnit",
+                "Summoner": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "SummonUnitID": 11121
+              }
+            }
+          ]
+        }
+      ],
+      "OnDestroy": [
+        {
+          "$type": "RPG.GameCore.DestroySummonUnit",
+          "SummonUnit": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            },
+            "SummonUnitID": 11121
+          }
+        }
+      ],
+      "OnAfterBattle": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByAnd",
+            "PredicateList": [
+              {
+                "$type": "RPG.GameCore.ByIsTeamLeader",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                }
+              },
+              {
+                "$type": "RPG.GameCore.ByCheckLastBattleSkillDrop"
+              }
+            ]
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetFetchSummonUnit",
+                "Summoner": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "SummonUnitID": 11121
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Skill01_WinCoin.prefab",
+              "AttachPoint": "Spine"
+            }
+          ]
+        }
+      ],
+      "OnStage": [
+        {
+          "$type": "RPG.GameCore.CreateSummonUnit",
+          "Summoner": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "SummonUnitID": 11121,
+          "PosTarget": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "OffsetX": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 1
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.EnableAdvEntityDitherWithPlayer",
+          "SourceType": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            },
+            "SummonUnitID": 11121
+          }
+        }
+      ],
+      "OnUnstage": [
+        {
+          "$type": "RPG.GameCore.DestroySummonUnit",
+          "SummonUnit": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            },
+            "SummonUnitID": 11121
+          }
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Refresh"
+    },
     "ADV_StageAbility_Maze_Qingque": {
       "Count": 1,
       "Stacking": "Merge"
@@ -355,36 +517,6 @@
     "ADV_StageAbility_Maze_Yukong": {
       "Count": 1,
       "Stacking": "Merge"
-    },
-    "ADV_StageAbility_Maze_Gallagher": {
-      "Count": 1,
-      "Stacking": "Merge"
-    },
-    "ADV_StageAbility_Maze_RuanMei": {
-      "Count": 1,
-      "Stacking": "Merge"
-    },
-    "ADV_StageAbility_Maze_RuanMei_RogueIgnoreWeakness": {
-      "BehaviorFlagList": [
-        "EnterBattleAdvantage"
-      ],
-      "Count": 1,
-      "Stacking": "Merge"
-    },
-    "ADV_StageAbility_Maze_RuanMei_RogueExtraEffect": {
-      "OnBeforeBattle": [
-        {
-          "$type": "RPG.GameCore.SetDynamicValueByRogueBuffNum",
-          "TaskEnabled": true
-        }
-      ],
-      "Count": 1,
-      "Stacking": "Merge",
-      "DynamicValues": {
-        "Values": {
-          "-648181786": {}
-        }
-      }
     },
     "ADV_Modifier_Maze_Yukong": {
       "OnCreate": [
@@ -580,64 +712,32 @@
       ],
       "OnStack": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareTarget",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AdvLocalPlayer"
-            },
-            "CompareType": {
-              "$type": "RPG.GameCore.TargetFetchAdvFakeAvatar"
-            },
-            "Inverse": true
+          "$type": "RPG.GameCore.ModifierDetachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AdvLocalPlayer"
           },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.ModifierDetachEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AdvLocalPlayer"
-              },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab"
-            },
-            {
-              "$type": "RPG.GameCore.ModifierAttachEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AdvLocalPlayer"
-              },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab",
-              "ColliderHeightRatio": 0.8
-            }
-          ]
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AdvLocalPlayer"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab",
+          "ColliderHeightRatio": 0.8
         }
       ],
       "OnTeamLeaderChange": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareTarget",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AdvLocalPlayer"
-            },
-            "CompareType": {
-              "$type": "RPG.GameCore.TargetFetchAdvFakeAvatar"
-            },
-            "Inverse": true
+          "$type": "RPG.GameCore.ModifierReattachEffect",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ParamEntity"
           },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.ModifierReattachEffect",
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_FuXuan/Eff_Avatar_FuXuan_00_MazeSkill01_02.prefab",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ParamEntity"
-              },
-              "ColliderHeightRatio": 0.8
-            }
-          ]
+          "ColliderHeightRatio": 0.8
         }
       ],
       "Count": 1,
@@ -697,6 +797,23 @@
           },
           "SuccessTaskList": [
             {
+              "$type": "RPG.GameCore.SetAttachmentScale",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "AttachPoints": [
+                {
+                  "Name": "EyeMask"
+                }
+              ],
+              "Scale": {
+                "X": 0,
+                "Y": 0,
+                "Z": 0
+              }
+            },
+            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
                 "$type": "RPG.GameCore.ByIsContainAdventureModifier",
@@ -740,6 +857,14 @@
         }
       ],
       "OnDestroy": [
+        {
+          "$type": "RPG.GameCore.RemoveAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "ModifierName": "ADV_Modifier_Maze_JingliuMask2"
+        },
         {
           "$type": "RPG.GameCore.PredicateTaskList",
           "Predicate": {
@@ -1036,71 +1161,122 @@
       "Count": 1,
       "Stacking": "Merge"
     },
-    "ADV_StageAbility_Maze_Topaz": {
-      "OnAfterBattle": [
+    "ADV_StageAbility_Maze_Jiaoqiu": {
+      "BehaviorFlagList": [
+        "Debuff"
+      ],
+      "OnCreate": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByIsLastBattleWin",
-            "TaskEnabled": true
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
           },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.TriggerMazeSkillDrop",
-              "TaskEnabled": true
-            }
-          ]
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jiaoqiu/Eff_Avatar_Jiaoqiu_00_MazeSkill01_Debuff.prefab"
         }
       ],
       "Count": 1,
       "Stacking": "Merge"
     },
-    "ADV_Modifier_Maze_Topaz_SummonUnit": {
-      "OnCreate": [
+    "ADV_StageAbility_Maze_Feixiao": {
+      "BehaviorFlagList": [
+        "HolyShield"
+      ],
+      "TickInterval": 0.3,
+      "OnInterval": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByIsTeamLeader",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "ModifierOwnerEntity"
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 2.5,
+            "AttachOffset": {
+              "X": 1.6,
+              "Y": 0,
+              "Z": 3
+            },
+            "FlyEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Trigger.prefab"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 0.1,
+            "AttachOffset": {
+              "X": 1.6,
+              "Y": 0,
+              "Z": 3
             }
           },
-          "SuccessTaskList": [
+          "OnProjectileLifetimeFinish": [
             {
-              "$type": "RPG.GameCore.CreateSummonUnit",
-              "Summoner": {
+              "$type": "RPG.GameCore.AdventureTriggerAttack",
+              "AttackTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
+                "Alias": "AllEnemy"
               },
-              "SummonUnitID": 11121,
-              "PosTarget": {
+              "AttackRootTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
+                "Alias": "ProjectileHitEntity"
               },
-              "OffsetX": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 1
+              "TriggerBattleDelay": 0.1,
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 2,
+                "FanAngle": 360,
+                "Hight": 2,
+                "Offset": {
+                  "X": 0,
+                  "Y": -0.8,
+                  "Z": 0
                 }
               },
-              "PosAdaption": {
-                "Option": "CharacterDefault",
-                "AvoidanceRadius": 0.3
-              }
-            },
-            {
-              "$type": "RPG.GameCore.EnableAdvEntityDitherWithPlayer",
-              "SourceType": {
-                "$type": "RPG.GameCore.TargetFetchSummonUnit",
-                "Summoner": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ModifierOwnerEntity"
-                },
-                "SummonUnitID": 11121
-              }
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Hit01.prefab"
+              },
+              "OnAttack": [
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ID": 130201,
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        1820618355
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
+        }
+      ],
+      "OnCreate": [
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_01_Loop.prefab"
         }
       ],
       "OnDestroy": [
@@ -1112,91 +1288,363 @@
               "$type": "RPG.GameCore.TargetAlias",
               "Alias": "ModifierOwnerEntity"
             },
-            "SummonUnitID": 11121
+            "SummonUnitID": 91371
           }
+        },
+        {
+          "$type": "RPG.GameCore.RemoveAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_StageAbility_Maze_Feixiao_Effect1"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_StageAbility_Maze_Feixiao_Effect2"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveAdventureModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "ModifierName": "ADV_StageAbility_Maze_Feixiao_Effect3"
         }
       ],
-      "OnAfterBattle": [
+      "Count": 1,
+      "Stacking": "Refresh",
+      "DynamicValues": {
+        "Values": {
+          "1820618355": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Feixiao_Effect1": {
+      "TickInterval": 0.32,
+      "OnInterval": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByAnd",
-            "PredicateList": [
-              {
-                "$type": "RPG.GameCore.ByIsTeamLeader",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ModifierOwnerEntity"
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 2.5,
+            "AttachOffset": {
+              "X": 1.8,
+              "Y": 0,
+              "Z": 1
+            },
+            "FlyEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Trigger.prefab"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 0.1,
+            "AttachOffset": {
+              "X": 1.8,
+              "Y": 0,
+              "Z": 1
+            }
+          },
+          "OnProjectileLifetimeFinish": [
+            {
+              "$type": "RPG.GameCore.AdventureTriggerAttack",
+              "AttackTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllEnemy"
+              },
+              "AttackRootTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ProjectileHitEntity"
+              },
+              "TriggerBattleDelay": 0.1,
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 2,
+                "FanAngle": 360,
+                "Hight": 2,
+                "Offset": {
+                  "X": 0,
+                  "Y": -0.8,
+                  "Z": 0
                 }
               },
-              {
-                "$type": "RPG.GameCore.ByCheckLastBattleSkillDrop"
-              }
-            ]
-          },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetFetchSummonUnit",
-                "Summoner": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ModifierOwnerEntity"
-                },
-                "SummonUnitID": 11121
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Hit01.prefab"
               },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Topaz/Eff_Avatar_Topaz_00_Skill01_WinCoin.prefab",
-              "AttachPoint": "Spine"
+              "OnAttack": [
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ID": 130201,
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        1820618355
+                      ]
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
       ],
-      "OnStage": [
+      "Stacking": "Refresh",
+      "DynamicValues": {
+        "Values": {
+          "1820618355": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Feixiao_Effect2": {
+      "TickInterval": 0.36,
+      "OnInterval": [
         {
-          "$type": "RPG.GameCore.CreateSummonUnit",
-          "Summoner": {
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
             "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "ModifierOwnerEntity"
+            "Alias": "None"
           },
-          "SummonUnitID": 11121,
-          "PosTarget": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "ModifierOwnerEntity"
-          },
-          "OffsetX": {
-            "IsDynamic": false,
-            "FixedValue": {
-              "Value": 1
-            }
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 2.5,
+            "AttachOffset": {
+              "X": -1.3,
+              "Y": 0,
+              "Z": 3
+            },
+            "FlyEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Trigger.prefab"
           }
         },
         {
-          "$type": "RPG.GameCore.EnableAdvEntityDitherWithPlayer",
-          "SourceType": {
-            "$type": "RPG.GameCore.TargetFetchSummonUnit",
-            "Summoner": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "ModifierOwnerEntity"
-            },
-            "SummonUnitID": 11121
-          }
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 0.1,
+            "AttachOffset": {
+              "X": -1.3,
+              "Y": 0,
+              "Z": 3
+            }
+          },
+          "OnProjectileLifetimeFinish": [
+            {
+              "$type": "RPG.GameCore.AdventureTriggerAttack",
+              "AttackTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllEnemy"
+              },
+              "AttackRootTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ProjectileHitEntity"
+              },
+              "TriggerBattleDelay": 0.1,
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 2,
+                "FanAngle": 360,
+                "Hight": 2,
+                "Offset": {
+                  "X": 0,
+                  "Y": -0.8,
+                  "Z": 0
+                }
+              },
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Hit01.prefab"
+              },
+              "OnAttack": [
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ID": 130201,
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        1820618355
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
-      "OnUnstage": [
+      "Stacking": "Refresh",
+      "DynamicValues": {
+        "Values": {
+          "1820618355": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Feixiao_Effect3": {
+      "TickInterval": 0.4,
+      "OnInterval": [
         {
-          "$type": "RPG.GameCore.DestroySummonUnit",
-          "SummonUnit": {
-            "$type": "RPG.GameCore.TargetFetchSummonUnit",
-            "Summoner": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "ModifierOwnerEntity"
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 2.5,
+            "AttachOffset": {
+              "X": -1.8,
+              "Y": 0,
+              "Z": 2
             },
-            "SummonUnitID": 11121
+            "FlyEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Trigger.prefab"
           }
+        },
+        {
+          "$type": "RPG.GameCore.AdventureFireProjectile",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "None"
+          },
+          "Projectile": {
+            "Behavior": "Static",
+            "EnableRayCast": true,
+            "MaxLifeTime": 0.1,
+            "AttachOffset": {
+              "X": -1.8,
+              "Y": 0,
+              "Z": 2
+            }
+          },
+          "OnProjectileLifetimeFinish": [
+            {
+              "$type": "RPG.GameCore.AdventureTriggerAttack",
+              "AttackTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllEnemy"
+              },
+              "AttackRootTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ProjectileHitEntity"
+              },
+              "TriggerBattleDelay": 0.1,
+              "AttackDetectConfig": {
+                "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
+                "MaxRadius": 2,
+                "FanAngle": 360,
+                "Hight": 2,
+                "Offset": {
+                  "X": 0,
+                  "Y": -0.8,
+                  "Z": 0
+                }
+              },
+              "HitConfig": {
+                "HitAnimation": "Hit",
+                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Argenti_00/Eff_Monster_W2_ArgentiTotem_00_Skill01Hit01.prefab"
+              },
+              "OnAttack": [
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ID": 130201,
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        1820618355
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "Stacking": "Refresh",
+      "DynamicValues": {
+        "Values": {
+          "1820618355": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Yunli": {
+      "BehaviorFlagList": [
+        "EnterBattleBlockPosture"
+      ],
+      "OnBeAttack": [
+        {
+          "$type": "RPG.GameCore.SetAttachmentScale",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "AttachPoints": [
+            {
+              "Name": "Weapon"
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.AdventureTriggerAnimStateWithMove",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AdvLocalPlayer"
+          },
+          "AnimLogicState": "OnHit",
+          "AnimStateName": "Block",
+          "TransitionDuration": 0,
+          "StopWhenHitOthers": false,
+          "MovingRangeList": []
         }
       ],
       "Count": 1,
-      "Stacking": "Refresh"
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Gallagher": {
+      "Count": 1,
+      "Stacking": "Merge"
     },
     "ADV_StageAbility_Maze_Argenti": {
       "BehaviorFlagList": [
@@ -1216,6 +1664,130 @@
         }
       ],
       "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Mar_7th_10_Energy": {
+      "OnAfterLocalPlayerUseSkill": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByAnd",
+            "PredicateList": [
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
+              },
+              {
+                "$type": "RPG.GameCore.ByCompareTarget",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "CompareType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "Inverse": true
+              }
+            ]
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "#ADF_1",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQABAQECAAACCQIK",
+                  "FixedValues": [
+                    {
+                      "Value": 1
+                    }
+                  ],
+                  "DynamicHashes": [
+                    339799074,
+                    59671469,
+                    462955996
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Merge",
+      "DynamicValues": {
+        "Values": {
+          "462955996": {},
+          "59671469": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Mar_7th_10": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Mar_7th_10_Listener": {
+      "OnAfterLocalPlayerUseSkill": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByAnd",
+            "PredicateList": [
+              {
+                "$type": "RPG.GameCore.AdventureByPlayerCurrentSkillType",
+                "SkillType": "MazeSkill"
+              },
+              {
+                "$type": "RPG.GameCore.ByCompareTarget",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "CompareType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "Inverse": true
+              },
+              {
+                "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "BuffID": 122401,
+                "Inverse": true
+              }
+            ]
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ID": 122401,
+              "Count": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 1
+                }
+              },
+              "DynamicValues": {
+                "#ADF_1": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
       "Stacking": "Merge"
     },
     "ADV_StageAbility_Maze_WolfBro": {
@@ -1243,6 +1815,32 @@
       "Count": 1,
       "Stacking": "Merge"
     },
+    "ADV_StageAbility_Maze_RuanMei": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_RuanMei_RogueIgnoreWeakness": {
+      "BehaviorFlagList": [
+        "EnterBattleAdvantage"
+      ],
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_RuanMei_RogueExtraEffect": {
+      "OnBeforeBattle": [
+        {
+          "$type": "RPG.GameCore.SetDynamicValueByRogueBuffNum",
+          "TaskEnabled": true
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Merge",
+      "DynamicValues": {
+        "Values": {
+          "-648181786": {}
+        }
+      }
+    },
     "ADV_StageAbility_Maze_Aventurine_R": {
       "Count": 1,
       "Stacking": "Merge"
@@ -1252,6 +1850,18 @@
       "Stacking": "Merge"
     },
     "ADV_StageAbility_Maze_Aventurine_SSR": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Aventurine_R_2": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Aventurine_SR_2": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Aventurine_SSR_2": {
       "Count": 1,
       "Stacking": "Merge"
     },
@@ -1391,54 +2001,22 @@
       "OnDestroy": [],
       "OnStack": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareTarget",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AdvLocalPlayer"
-            },
-            "CompareType": {
-              "$type": "RPG.GameCore.TargetFetchAdvFakeAvatar"
-            },
-            "Inverse": true
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AdvLocalPlayer"
           },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.ModifierAttachEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AdvLocalPlayer"
-              },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_MazeSkill01_Mask.prefab"
-            }
-          ]
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_MazeSkill01_Mask.prefab"
         }
       ],
       "OnTeamLeaderChange": [
         {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareTarget",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AdvLocalPlayer"
-            },
-            "CompareType": {
-              "$type": "RPG.GameCore.TargetFetchAdvFakeAvatar"
-            },
-            "Inverse": true
-          },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.ModifierReattachEffect",
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_MazeSkill01_Mask.prefab",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ParamEntity"
-              }
-            }
-          ]
+          "$type": "RPG.GameCore.ModifierReattachEffect",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_MazeSkill01_Mask.prefab",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ParamEntity"
+          }
         }
       ],
       "Count": 1,
@@ -1729,9 +2307,257 @@
       ],
       "Stacking": "Merge"
     },
+    "ADV_StageAbility_Maze_Jade_TiggerExit": {
+      "OnCreate": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByIsTeamLeader",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.CreateSummonUnit",
+              "SummonUnitID": 13141,
+              "AttachTarget": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "PosTarget": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              }
+            }
+          ]
+        }
+      ],
+      "OnDestroy": [
+        {
+          "$type": "RPG.GameCore.DestroySummonUnit",
+          "SummonUnit": {
+            "$type": "RPG.GameCore.TargetFetchSummonUnit",
+            "Summoner": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "Caster"
+            },
+            "SummonUnitID": 13141
+          }
+        }
+      ],
+      "OnStage": [
+        {
+          "$type": "RPG.GameCore.CreateSummonUnit",
+          "SummonUnitID": 13141,
+          "AttachTarget": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "PosTarget": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          }
+        }
+      ],
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Jade_Flag": {
+      "Count": 1,
+      "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Jade": {
+      "BehaviorFlagList": [
+        "Blind"
+      ],
+      "OnDestroy": [
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jade/Eff_Avatar_Jade_00_MazeSkill01_DeBuff_01.prefab"
+        }
+      ],
+      "OnStack": [
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jade/Eff_Avatar_Jade_00_MazeSkill01_DeBuff_01.prefab",
+          "MinMutexTime": -1,
+          "MutexType": "Entity"
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Replace"
+    },
     "ADV_StageAbility_Maze_Boothill": {
       "Count": 1,
       "Stacking": "Merge"
+    },
+    "ADV_StageAbility_Maze_Boothill_EnhanceStack": {
+      "OnCreate": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareDynamicValue",
+            "DynamicKey": "#ADF_1",
+            "CompareType": "GreaterEqual",
+            "CompareValue": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 1
+              }
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Boothill/Eff_Avatar_Boothill_00_Passive_Badge_01.prefab",
+              "AttachPoint": "ButtonR_A"
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareDynamicValue",
+            "DynamicKey": "#ADF_1",
+            "CompareType": "GreaterEqual",
+            "CompareValue": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 2
+              }
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Boothill/Eff_Avatar_Boothill_00_Passive_Badge_01.prefab",
+              "AttachPoint": "ButtonR_B"
+            }
+          ]
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareDynamicValue",
+            "DynamicKey": "#ADF_1",
+            "CompareType": "GreaterEqual",
+            "CompareValue": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 3
+              }
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Boothill/Eff_Avatar_Boothill_00_Passive_Badge_01.prefab",
+              "AttachPoint": "ButtonR_C"
+            }
+          ]
+        }
+      ],
+      "OnBeforeBattle": [
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "ModifierOwnerEntity"
+            },
+            "BuffID": 131501,
+            "Inverse": true
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "#ADF_1",
+              "Value": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "Stacking": "Replace",
+      "DynamicValues": {
+        "Values": {
+          "462955996": {}
+        }
+      }
+    },
+    "ADV_StageAbility_Maze_Boothill_AfterBattle": {
+      "OnAfterBattle": [
+        {
+          "$type": "RPG.GameCore.SetDynamicValueByStatisticCustomValue",
+          "TaskEnabled": true
+        },
+        {
+          "$type": "RPG.GameCore.RemoveMazeBuff",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "ID": 131502
+        },
+        {
+          "$type": "RPG.GameCore.AddMazeBuff",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "ModifierOwnerEntity"
+          },
+          "ID": 131502,
+          "Count": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": -1
+            }
+          },
+          "DynamicValues": {
+            "#ADF_1": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  -1045739345
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "Stacking": "Merge",
+      "DynamicValues": {
+        "Values": {
+          "-1045739345": {}
+        }
+      }
     },
     "ADV_StageAbility_Maze_W_Boothill": {
       "Count": 1,
@@ -2122,6 +2948,231 @@
       "Count": 1,
       "Stacking": "Refresh"
     },
+    "ADV_StageAbility_Maze_W_Feixiao": {
+      "BehaviorFlagList": [
+        "HolyShield"
+      ],
+      "OnCreate": [
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_AfterImageFastRun.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_AfterImageRun.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.ModifierAttachEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_Loop.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.ModifyAdventureCharacterRunSpeedRatio",
+          "UniqueKey": "ADV_Modifier_Maze_Yukong",
+          "TransitionDuration": 0.3,
+          "SpeedRatioMultiplier": {
+            "IsDynamic": true,
+            "PostfixExpr": {
+              "OpCodes": "AAABAAIK",
+              "FixedValues": [
+                {
+                  "Value": 1
+                }
+              ],
+              "DynamicHashes": [
+                709923127
+              ]
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.GlobalTimeSlow",
+          "TimeScale": {
+            "IsDynamic": true,
+            "PostfixExpr": {
+              "OpCodes": "AQAK",
+              "FixedValues": [],
+              "DynamicHashes": [
+                -1750863065
+              ]
+            }
+          },
+          "Infinite": true,
+          "SlowKey": "Feixiao_GlobalSlow",
+          "IgnoreTargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AdvLocalPlayer"
+          }
+        },
+        {
+          "$type": "RPG.GameCore.RPGColorGradingCurveEffect",
+          "CustomLUT": "CustomRP/Textures/Acheron_Ultra_LUT.exr",
+          "TransitionDuration": 0.4,
+          "CustomLUTIntensityBegin": 1,
+          "CustomLUTIntensityEnd": 1,
+          "StartRadiusBegin": 0.2,
+          "StartRadiusEnd": 1,
+          "BlendRadiusBegin": -0.48,
+          "BlendRadiusEnd": -0.48,
+          "CurveName": "ColorGradingCurveHQ"
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByAnimatorParam",
+            "ParamType": "Int",
+            "ParamName": "MotionFlag",
+            "ParamCompareType": "Equal",
+            "IntegerValue": 3
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_FootL.prefab"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_FootR.prefab"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_ShoulderL.prefab"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_ShoulderR.prefab"
+            },
+            {
+              "$type": "RPG.GameCore.TriggerEffect",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_Root.prefab"
+            }
+          ]
+        }
+      ],
+      "OnDestroy": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_End.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveGlobalTimeSlow",
+          "SlowKey": "Feixiao_GlobalSlow",
+          "FadeOut": false
+        },
+        {
+          "$type": "RPG.GameCore.ModifyAdventureCharacterRunSpeedRatio",
+          "UniqueKey": "ADV_Modifier_Maze_Yukong",
+          "ModifyEnabled": false,
+          "TransitionDuration": 0.3,
+          "SpeedRatioMultiplier": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 1
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.RPGColorGradingCurveEffect",
+          "Active": false,
+          "CustomLUT": "CustomRP/Textures/Acheron_Ultra_LUT.exr",
+          "TransitionDuration": 0.5,
+          "CustomLUTIntensityBegin": 1,
+          "CustomLUTIntensityEnd": 1,
+          "StartRadiusBegin": 1,
+          "BlendRadiusBegin": -0.48,
+          "BlendRadiusEnd": -0.48,
+          "CurveName": "ColorGradingCurveHQ"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_FootL.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_FootR.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_ShoulderL.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_ShoulderR.prefab"
+        },
+        {
+          "$type": "RPG.GameCore.RemoveEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Yukong/Eff_Avatar_Yukong_00_MazeSkill_Root.prefab"
+        }
+      ],
+      "OnUnstage": [
+        {
+          "$type": "RPG.GameCore.RemoveSelfModifier"
+        }
+      ],
+      "Count": 1,
+      "Stacking": "Refresh",
+      "DynamicValues": {
+        "Values": {
+          "709923127": {},
+          "-1750863065": {}
+        }
+      }
+    },
     "ADV_Modifier_ZhangZhang_FindTrotter": {
       "OnCreate": [
         {
@@ -2176,7 +3227,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "ModifierOwnerEntity"
           },
-          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sampo/Eff_Avatar_Sampo_00_MazeSkill_HitLoop.prefab",
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Jade/Eff_Avatar_Jade_00_MazeSkill01_DeBuff_01.prefab",
           "MinMutexTime": -1,
           "MutexType": "Entity"
         }

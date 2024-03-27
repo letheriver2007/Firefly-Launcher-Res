@@ -4,33 +4,16 @@
   "Category": "Custom",
   "LevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/RogueDLCModule_RestRoom.json",
   "AreaAnchorName": "LevelArea_P80202_F80202001_G20",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      90,
-      79
-    ],
-    "LowerUpperBounds": {
-      "x": 300,
-      "y": 301
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      87,
-      76,
-      90,
-      79
-    ],
-    "LowerUpperBounds": {
-      "x": 300,
-      "y": 301
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -46,7 +29,6 @@
       "InitLevelGraph": "Config/Level/Props/Rogue/InitLevelGraph_Prop_RogueLobby_ReviveMachine_01.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -54,22 +36,23 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [
         14
-      ]
+      ],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": [
     {
       "ID": 400001,
-      "PosX": 180.2964,
+      "PosX": 180.27,
       "PosY": 82.82224,
-      "PosZ": 159.6169,
+      "PosZ": 159.616,
       "Name": "NPC1",
       "RotY": 242.5312,
       "NPCID": 1013,
+      "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -82,10 +65,13 @@
         "LevelGraph": "Config/Level/RogueDialogue/RogueDialogueEvent/Act/Rogue130/Act0110003.json",
         "PackList": []
       },
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
-      }
+      },
+      "TriggerValidGuest": {}
     }
   ]
 }

@@ -929,7 +929,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Start_Gamera_03.prefab"
         },
         {
@@ -1379,7 +1378,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Body_Appear.prefab",
               "AttachPoint": "Root"
             },
@@ -1389,7 +1387,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Body_Appear_02.prefab",
               "AttachPoint": "Root"
             },
@@ -1399,7 +1396,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Elbow_R.prefab",
               "AttachPoint": "Eff_Elbow_R"
             },
@@ -1409,7 +1405,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Knee_L.prefab",
               "AttachPoint": "Eff_Knee_L"
             },
@@ -1419,7 +1414,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Knee_R.prefab",
               "AttachPoint": "Eff_Knee_R"
             },
@@ -1429,7 +1423,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_pauldron_L_00_JNT.prefab",
               "AttachPoint": "Eff_pauldron_L_00_JNT"
             },
@@ -1439,7 +1432,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_pauldron_R_00_JNT.prefab",
               "AttachPoint": "Eff_pauldron_R_00_JNT"
             },
@@ -1449,7 +1441,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_WeaponA_04_JNT.prefab",
               "AttachPoint": "Eff_WeaponA_04_JNT"
             },
@@ -1459,7 +1450,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_armorBR_00_JNT.prefab",
               "AttachPoint": "Eff_armorBR_00_JNT"
             },
@@ -1469,7 +1459,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_armorFL_00_JNT.prefab",
               "AttachPoint": "Eff_armorFL_00_JNT"
             },
@@ -1479,7 +1468,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_armorFR_00_JNT.prefab",
               "AttachPoint": "Eff_armorFR_00_JNT"
             },
@@ -1489,7 +1477,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Chestscale_M_JNT.prefab",
               "AttachPoint": "Eff_Chestscale_M_JNT"
             },
@@ -1499,7 +1486,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Elbow_L.prefab",
               "AttachPoint": "Eff_Elbow_L"
             }
@@ -1639,7 +1625,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Argenti/Eff_Avatar_Argenti_00_Skill03_Start_Gamera_03.prefab"
         },
         {

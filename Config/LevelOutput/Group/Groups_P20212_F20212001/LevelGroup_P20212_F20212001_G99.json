@@ -28,8 +28,7 @@
       "PosY": -34.2413,
       "PosZ": -108.045,
       "Name": "Anchor1",
-      "RotY": 210.6691,
-      "MapLayerID": 1
+      "RotY": 210.6691
     },
     {
       "ID": 2,
@@ -37,8 +36,7 @@
       "PosY": -34.2413,
       "PosZ": -108.12,
       "Name": "Anchor2",
-      "RotY": 123.3998,
-      "MapLayerID": 1
+      "RotY": 123.3998
     }
   ],
   "MonsterList": [],
@@ -60,7 +58,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -79,7 +76,6 @@
       "NPCID": 3011,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -108,7 +104,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -125,7 +120,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -144,7 +138,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Resting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",

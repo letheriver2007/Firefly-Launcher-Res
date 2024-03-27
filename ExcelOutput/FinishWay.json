@@ -870,6 +870,36 @@
     "ParamItemList": [],
     "Progress": 100
   },
+  "1003009": {
+    "ID": 1003009,
+    "FinishType": "TravelBrochureProgrss",
+    "ParamType": "Equal",
+    "ParamInt1": 10,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 100
+  },
+  "1003010": {
+    "ID": 1003010,
+    "FinishType": "TravelBrochureProgrss",
+    "ParamType": "Equal",
+    "ParamInt1": 11,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 100
+  },
+  "1003011": {
+    "ID": 1003011,
+    "FinishType": "TravelBrochureProgrss",
+    "ParamType": "Equal",
+    "ParamInt1": 12,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 100
+  },
   "1003100": {
     "ID": 1003100,
     "FinishType": "TravelBrochurePasterCollectProgrss",
@@ -932,6 +962,24 @@
     "ParamIntList": [],
     "ParamItemList": [],
     "Progress": 130
+  },
+  "1003107": {
+    "ID": 1003107,
+    "FinishType": "TravelBrochurePasterCollectProgrss",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 150
+  },
+  "1003108": {
+    "ID": 1003108,
+    "FinishType": "TravelBrochurePasterCollectProgrss",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 170
   },
   "2000001": {
     "ID": 2000001,
@@ -2001,6 +2049,120 @@
     "ParamItemList": [],
     "Progress": 1
   },
+  "2000268": {
+    "ID": 2000268,
+    "FinishType": "ChallengeStarsRepeatable",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1
+    ],
+    "ParamItemList": [],
+    "Progress": 15
+  },
+  "2000269": {
+    "ID": 2000269,
+    "FinishType": "ChallengeStarsRepeatable",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      2
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
+  "2000270": {
+    "ID": 2000270,
+    "FinishType": "Gacha",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 40
+  },
+  "2000271": {
+    "ID": 2000271,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1032101
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2000272": {
+    "ID": 2000272,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802110206,
+      802110204,
+      802110501,
+      802110304,
+      802110407,
+      802110406
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
+  "2000273": {
+    "ID": 2000273,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 9
+  },
+  "2000274": {
+    "ID": 2000274,
+    "FinishType": "MonopolyMoveRollCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 60
+  },
+  "2000275": {
+    "ID": 2000275,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 6200000
+  },
+  "2000276": {
+    "ID": 2000276,
+    "FinishType": "FinishQuest",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      6019101,
+      6019104,
+      6019107,
+      6019110,
+      6019113,
+      6019116
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
   "2100000": {
     "ID": 2100000,
     "FinishType": "AutoFinish",
@@ -2756,6 +2918,350 @@
     ],
     "ParamItemList": [],
     "Progress": 60
+  },
+  "2200110": {
+    "ID": 2200110,
+    "MazePlaneID": 20322,
+    "MazeFloorID": 20322001,
+    "FinishType": "PropStateChangeWithSpecificPropId",
+    "ParamType": "ListContain",
+    "ParamInt1": 19,
+    "ParamStr1": "",
+    "ParamIntList": [
+      103023
+    ],
+    "ParamItemList": [],
+    "Progress": 10
+  },
+  "2200111": {
+    "ID": 2200111,
+    "MazePlaneID": 20321,
+    "MazeFloorID": 20321001,
+    "FinishType": "PropStateChangeWithSpecificPropId",
+    "ParamType": "ListContain",
+    "ParamInt1": 19,
+    "ParamStr1": "",
+    "ParamIntList": [
+      103027
+    ],
+    "ParamItemList": [],
+    "Progress": 10
+  },
+  "2200112": {
+    "ID": 2200112,
+    "MazePlaneID": 20321,
+    "MazeFloorID": 20321001,
+    "FinishType": "PropStateChangeWithSpecificPropId",
+    "ParamType": "ListContain",
+    "ParamInt1": 19,
+    "ParamStr1": "",
+    "ParamIntList": [
+      103027
+    ],
+    "ParamItemList": [],
+    "Progress": 20
+  },
+  "2200017": {
+    "ID": 2200017,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 1000,
+    "ParamInt2": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200018": {
+    "ID": 2200018,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2000,
+    "ParamInt2": 2,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200019": {
+    "ID": 2200019,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2000,
+    "ParamInt2": 3,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200020": {
+    "ID": 2200020,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2500,
+    "ParamInt2": 4,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200021": {
+    "ID": 2200021,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3500,
+    "ParamInt2": 5,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200022": {
+    "ID": 2200022,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2500,
+    "ParamInt2": 6,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200023": {
+    "ID": 2200023,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3000,
+    "ParamInt2": 7,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200024": {
+    "ID": 2200024,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3000,
+    "ParamInt2": 8,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200025": {
+    "ID": 2200025,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3500,
+    "ParamInt2": 9,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200026": {
+    "ID": 2200026,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3500,
+    "ParamInt2": 10,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200037": {
+    "ID": 2200037,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2500,
+    "ParamInt2": 1,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200038": {
+    "ID": 2200038,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2500,
+    "ParamInt2": 2,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200039": {
+    "ID": 2200039,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3000,
+    "ParamInt2": 3,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200040": {
+    "ID": 2200040,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 4000,
+    "ParamInt2": 4,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200041": {
+    "ID": 2200041,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 4500,
+    "ParamInt2": 5,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200042": {
+    "ID": 2200042,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3000,
+    "ParamInt2": 6,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200043": {
+    "ID": 2200043,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3500,
+    "ParamInt2": 7,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200044": {
+    "ID": 2200044,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 4000,
+    "ParamInt2": 8,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200045": {
+    "ID": 2200045,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 4500,
+    "ParamInt2": 9,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200046": {
+    "ID": 2200046,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 5000,
+    "ParamInt2": 10,
+    "ParamInt3": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200057": {
+    "ID": 2200057,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 5000,
+    "ParamInt2": 1,
+    "ParamInt3": 2,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200058": {
+    "ID": 2200058,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 10000,
+    "ParamInt2": 1,
+    "ParamInt3": 2,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200059": {
+    "ID": 2200059,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 15000,
+    "ParamInt2": 1,
+    "ParamInt3": 2,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200067": {
+    "ID": 2200067,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 6000,
+    "ParamInt2": 1,
+    "ParamInt3": 3,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200068": {
+    "ID": 2200068,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 12000,
+    "ParamInt2": 1,
+    "ParamInt3": 3,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "2200069": {
+    "ID": 2200069,
+    "FinishType": "FinishMovieGame",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 18000,
+    "ParamInt2": 1,
+    "ParamInt3": 3,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
   },
   "3000001": {
     "ID": 3000001,
@@ -10641,7 +11147,8 @@
     "ParamStr1": "",
     "ParamIntList": [],
     "ParamItemList": [],
-    "Progress": 60
+    "Progress": 60,
+    "IsBackTrack": true
   },
   "4092928": {
     "ID": 4092928,
@@ -10650,7 +11157,8 @@
     "ParamStr1": "",
     "ParamIntList": [],
     "ParamItemList": [],
-    "Progress": 12
+    "Progress": 12,
+    "IsBackTrack": true
   },
   "4092929": {
     "ID": 4092929,
@@ -11922,6 +12430,535 @@
     "ParamItemList": [],
     "Progress": 1
   },
+  "4033007": {
+    "ID": 4033007,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1031701
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4033009": {
+    "ID": 4033009,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      103150118
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4033010": {
+    "ID": 4033010,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1032201
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4033011": {
+    "ID": 4033011,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      103140101
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043022": {
+    "ID": 4043022,
+    "FinishType": "WolfBroKillMonster",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 3,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043023": {
+    "ID": 4043023,
+    "MazePlaneID": 20321,
+    "MazeFloorID": 20321001,
+    "FinishType": "PropDestruct",
+    "ParamType": "Equal",
+    "ParamInt1": 180,
+    "ParamInt2": 300001,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043024": {
+    "ID": 4043024,
+    "MazePlaneID": 20322,
+    "MazeFloorID": 20322001,
+    "FinishType": "PropDestruct",
+    "ParamType": "Equal",
+    "ParamInt1": 226,
+    "ParamInt2": 300001,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043025": {
+    "ID": 4043025,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "NoPara",
+    "ParamInt3": 4043025,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043026": {
+    "ID": 4043026,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 10,
+    "ParamInt3": 4043026,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043027": {
+    "ID": 4043027,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "NoPara",
+    "ParamInt3": 4043027,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043028": {
+    "ID": 4043028,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 10,
+    "ParamInt3": 4043028,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043029": {
+    "ID": 4043029,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "NoPara",
+    "ParamInt3": 4043029,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043030": {
+    "ID": 4043030,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "NoPara",
+    "ParamInt3": 4043030,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043031": {
+    "ID": 4043031,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      8021402
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043032": {
+    "ID": 4043032,
+    "FinishType": "WolfBroKillMonster",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043033": {
+    "ID": 4043033,
+    "FinishType": "GetItemWithList",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      190619,
+      190620,
+      190621,
+      190622
+    ],
+    "ParamItemList": [],
+    "Progress": 4
+  },
+  "4043034": {
+    "ID": 4043034,
+    "FinishType": "WolfBroBulletCntReachMax",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043035": {
+    "ID": 4043035,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "NoPara",
+    "ParamInt3": 4043035,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053054": {
+    "ID": 4053054,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      4040332
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053055": {
+    "ID": 4053055,
+    "FinishType": "FinishFirstTalkPerformance",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      503050007
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053056": {
+    "ID": 4053056,
+    "FinishType": "GetItemListOnce",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      408620,
+      408621,
+      408622,
+      408623
+    ],
+    "ParamItemList": [],
+    "Progress": 4
+  },
+  "4053057": {
+    "ID": 4053057,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      4340109
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053058": {
+    "ID": 4053058,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      404033301,
+      404033302,
+      404033303,
+      404033304
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053059": {
+    "ID": 4053059,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      4340111
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053060": {
+    "ID": 4053060,
+    "FinishType": "FinishFirstTalkPerformance",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      503050009
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053061": {
+    "ID": 4053061,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      424032208
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053062": {
+    "ID": 4053062,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      424032212
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053063": {
+    "ID": 4053063,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      424032211
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053064": {
+    "ID": 4053064,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      8021106
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053065": {
+    "ID": 4053065,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802110206,
+      802110204,
+      802110505,
+      802110304,
+      802110407,
+      802110406
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
+  "4053066": {
+    "ID": 4053066,
+    "FinishType": "DrinkMakerRequestSuccCount",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 10
+  },
+  "4053067": {
+    "ID": 4053067,
+    "FinishType": "DrinkMakerRequestFailCount",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 5
+  },
+  "4053068": {
+    "ID": 4053068,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 12
+  },
+  "4053069": {
+    "ID": 4053069,
+    "FinishType": "DrinkMakerMakeDrinkByFormulaCount",
+    "ParamType": "Equal",
+    "ParamInt1": 12,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073011": {
+    "ID": 4073011,
+    "FinishType": "BattleChallenge",
+    "ParamType": "Equal",
+    "ParamInt1": 30106,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30106
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073012": {
+    "ID": 4073012,
+    "FinishType": "BattleChallenge",
+    "ParamType": "Equal",
+    "ParamInt1": 30107,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30107
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073013": {
+    "ID": 4073013,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 40038,
+    "ParamStr1": "",
+    "ParamIntList": [
+      40038
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073014": {
+    "ID": 4073014,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 40039,
+    "ParamStr1": "",
+    "ParamIntList": [
+      40039
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073015": {
+    "ID": 4073015,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30115,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30115
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073016": {
+    "ID": 4073016,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30116,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30116
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4073017": {
+    "ID": 4073017,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30117,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30117
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4083009": {
+    "ID": 4083009,
+    "FinishType": "FinishQuestByClient",
+    "ParamType": "Equal",
+    "ParamInt3": 4083009,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4083010": {
+    "ID": 4083010,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      4340110
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053070": {
+    "ID": 4053070,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      434011310
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4053071": {
+    "ID": 4053071,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      434011311
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "4043036": {
+    "ID": 4043036,
+    "MazePlaneID": 20321,
+    "MazeFloorID": 20321001,
+    "FinishType": "GroupPropDestruct",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      273
+    ],
+    "ParamItemList": [],
+    "Progress": 22
+  },
   "6000001": {
     "ID": 6000001,
     "FinishType": "PunkLordSummonMonsterCnt",
@@ -12052,7 +13089,14 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000010,
+      6000011,
+      6000012,
+      6000013,
+      6000014,
+      6000015,
+      6000016,
+      6000017
     ],
     "ParamItemList": [],
     "Progress": 8
@@ -12168,7 +13212,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000019,
+      6000020,
+      6000021
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12179,7 +13225,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000022,
+      6000023,
+      6000024
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12190,7 +13238,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000025,
+      6000026,
+      6000027
     ],
     "ParamItemList": [],
     "Progress": 2
@@ -12303,7 +13353,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000031,
+      6000032,
+      6000033
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12314,7 +13366,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000034,
+      6000035,
+      6000036
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12325,7 +13379,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000037,
+      6000038,
+      6000039
     ],
     "ParamItemList": [],
     "Progress": 1
@@ -12438,7 +13494,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000043,
+      6000044,
+      6000045
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12449,7 +13507,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000046,
+      6000047,
+      6000048
     ],
     "ParamItemList": [],
     "Progress": 3
@@ -12460,7 +13520,9 @@
     "ParamType": "ListContain",
     "ParamStr1": "",
     "ParamIntList": [
-      29
+      6000049,
+      6000050,
+      6000051
     ],
     "ParamItemList": [],
     "Progress": 1
@@ -14664,6 +15726,15 @@
   "7000021": {
     "ID": 7000021,
     "FinishType": "RogueFinishCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "7000022": {
+    "ID": 7000022,
+    "FinishType": "AutoFinish",
     "ParamType": "NoPara",
     "ParamStr1": "",
     "ParamIntList": [],
@@ -20879,6 +21950,363 @@
     "ParamItemList": [],
     "Progress": 22
   },
+  "6018101": {
+    "ID": 6018101,
+    "FinishType": "DrinkMakerFinishSequenceCount",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 13
+  },
+  "6018102": {
+    "ID": 6018102,
+    "FinishType": "FinishQuest",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      6018103,
+      6018104,
+      6018105,
+      6018106,
+      6018107,
+      6018108,
+      6018109,
+      6018110,
+      6018111,
+      6018112,
+      6018113,
+      6018114,
+      6018121
+    ],
+    "ParamItemList": [],
+    "Progress": 13
+  },
+  "6018103": {
+    "ID": 6018103,
+    "FinishType": "OfferingLevel",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2,
+    "ParamInt2": 4,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018104": {
+    "ID": 6018104,
+    "FinishType": "OfferingLevel",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2,
+    "ParamInt2": 7,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018105": {
+    "ID": 6018105,
+    "FinishType": "OfferingLevel",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2,
+    "ParamInt2": 10,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018106": {
+    "ID": 6018106,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      8021102
+    ],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018107": {
+    "ID": 6018107,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      8021104
+    ],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018108": {
+    "ID": 6018108,
+    "FinishType": "FinishMission",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      8021106
+    ],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018109": {
+    "ID": 6018109,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 3,
+    "IsBackTrack": true
+  },
+  "6018110": {
+    "ID": 6018110,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 6,
+    "IsBackTrack": true
+  },
+  "6018111": {
+    "ID": 6018111,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 9,
+    "IsBackTrack": true
+  },
+  "6018112": {
+    "ID": 6018112,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802110206,
+      802110204,
+      802110501,
+      802110304,
+      802110407,
+      802110406
+    ],
+    "ParamItemList": [],
+    "Progress": 2
+  },
+  "6018113": {
+    "ID": 6018113,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802110206,
+      802110204,
+      802110501,
+      802110304,
+      802110407,
+      802110406
+    ],
+    "ParamItemList": [],
+    "Progress": 4
+  },
+  "6018114": {
+    "ID": 6018114,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802110206,
+      802110204,
+      802110501,
+      802110304,
+      802110407,
+      802110406
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
+  "6018115": {
+    "ID": 6018115,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802112103
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018116": {
+    "ID": 6018116,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802112203
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018117": {
+    "ID": 6018117,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802113113
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018118": {
+    "ID": 6018118,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802113005
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018119": {
+    "ID": 6018119,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802112401
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018120": {
+    "ID": 6018120,
+    "FinishType": "SubMissionFinishCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      802112303
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6018121": {
+    "ID": 6018121,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 12,
+    "IsBackTrack": true
+  },
+  "6018122": {
+    "ID": 6018122,
+    "FinishType": "FinishQuest",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      6018123,
+      6018124
+    ],
+    "ParamItemList": [],
+    "Progress": 2
+  },
+  "6018123": {
+    "ID": 6018123,
+    "FinishType": "OfferingLevel",
+    "ParamType": "GreaterEqual",
+    "ParamInt1": 2,
+    "ParamInt2": 10,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1,
+    "IsBackTrack": true
+  },
+  "6018124": {
+    "ID": 6018124,
+    "FinishType": "DrinkMakerGivenChallengeCount",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "ParamItemList": [],
+    "Progress": 12,
+    "IsBackTrack": true
+  },
   "6000500": {
     "ID": 6000500,
     "FinishType": "ActivityStrongChallengeEndScore",
@@ -21695,5 +23123,929 @@
     "ParamIntList": [],
     "ParamItemList": [],
     "Progress": 7
+  },
+  "6019101": {
+    "ID": 6019101,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30085,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30085
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019102": {
+    "ID": 6019102,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30086,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30086
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019103": {
+    "ID": 6019103,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30087,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30087
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019104": {
+    "ID": 6019104,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30088,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30088
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019105": {
+    "ID": 6019105,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30089,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30089
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019106": {
+    "ID": 6019106,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30090,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30090
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019107": {
+    "ID": 6019107,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30091,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30091
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019108": {
+    "ID": 6019108,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30092,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30092
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019109": {
+    "ID": 6019109,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30093,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30093
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019110": {
+    "ID": 6019110,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30094,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30094
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019111": {
+    "ID": 6019111,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30095,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30095
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019112": {
+    "ID": 6019112,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30096,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30096
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019113": {
+    "ID": 6019113,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30097,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30097
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019114": {
+    "ID": 6019114,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30098,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30098
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019115": {
+    "ID": 6019115,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30099,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30099
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019116": {
+    "ID": 6019116,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30100,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30100
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019117": {
+    "ID": 6019117,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30101,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30101
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019118": {
+    "ID": 6019118,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30102,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30102
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019122": {
+    "ID": 6019122,
+    "FinishType": "FinishQuest",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      6019101,
+      6019104,
+      6019107,
+      6019110,
+      6019113,
+      6019116
+    ],
+    "ParamItemList": [],
+    "Progress": 6
+  },
+  "6019123": {
+    "ID": 6019123,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30108,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30108
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019124": {
+    "ID": 6019124,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30109,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30109
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019125": {
+    "ID": 6019125,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30110,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30110
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019126": {
+    "ID": 6019126,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30111,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30111
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019127": {
+    "ID": 6019127,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30112,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30112
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019128": {
+    "ID": 6019128,
+    "FinishType": "BattleChallenge",
+    "ParamType": "ListContain",
+    "ParamInt1": 30113,
+    "ParamStr1": "",
+    "ParamIntList": [
+      30113
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6019130": {
+    "ID": 6019130,
+    "FinishType": "ActivityFeverTimeFinish",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021101": {
+    "ID": 6021101,
+    "FinishType": "MonopolyPassCellCnt",
+    "ParamType": "Equal",
+    "ParamInt1": 1,
+    "ParamInt2": 51,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021102": {
+    "ID": 6021102,
+    "FinishType": "MonopolyPassCellCnt",
+    "ParamType": "Equal",
+    "ParamInt1": 2,
+    "ParamInt2": 50,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021103": {
+    "ID": 6021103,
+    "FinishType": "MonopolyPassCellCnt",
+    "ParamType": "Equal",
+    "ParamInt1": 3,
+    "ParamInt2": 50,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021104": {
+    "ID": 6021104,
+    "FinishType": "MonopolyPassCellCnt",
+    "ParamType": "Equal",
+    "ParamInt1": 4,
+    "ParamInt2": 50,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021105": {
+    "ID": 6021105,
+    "FinishType": "MonopolyAssetUpgrade",
+    "ParamType": "Equal",
+    "ParamInt1": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 4
+  },
+  "6021106": {
+    "ID": 6021106,
+    "FinishType": "MonopolyAssetUpgrade",
+    "ParamType": "Equal",
+    "ParamInt1": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 8
+  },
+  "6021107": {
+    "ID": 6021107,
+    "FinishType": "MonopolyAssetUpgrade",
+    "ParamType": "Equal",
+    "ParamInt1": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 12
+  },
+  "6021108": {
+    "ID": 6021108,
+    "FinishType": "MonopolyAssetUpgrade",
+    "ParamType": "Equal",
+    "ParamInt1": 1,
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 16
+  },
+  "6021109": {
+    "ID": 6021109,
+    "FinishType": "MonopolyFinishEventCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      5101,
+      5102,
+      5103,
+      5104,
+      5105,
+      5106,
+      5107,
+      5108,
+      5109,
+      5110,
+      5111,
+      5112,
+      5113,
+      5114,
+      5115,
+      5201,
+      5202,
+      5203,
+      5204,
+      5205,
+      5206,
+      5207,
+      5208,
+      5209,
+      5210,
+      5211,
+      5212,
+      5213,
+      5214,
+      5215,
+      5301,
+      5302,
+      5303,
+      5304,
+      5305,
+      5306,
+      5307,
+      5308,
+      5309,
+      5310,
+      5311,
+      5312,
+      5313,
+      5314,
+      5315,
+      5401,
+      5402,
+      5403,
+      5404,
+      5405,
+      5406,
+      5407,
+      5408,
+      5409,
+      5410,
+      5411,
+      5412,
+      5413,
+      5414,
+      5415
+    ],
+    "ParamItemList": [],
+    "Progress": 5
+  },
+  "6021110": {
+    "ID": 6021110,
+    "FinishType": "MonopolyFinishEventCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      5101,
+      5102,
+      5103,
+      5104,
+      5105,
+      5106,
+      5107,
+      5108,
+      5109,
+      5110,
+      5111,
+      5112,
+      5113,
+      5114,
+      5115,
+      5201,
+      5202,
+      5203,
+      5204,
+      5205,
+      5206,
+      5207,
+      5208,
+      5209,
+      5210,
+      5211,
+      5212,
+      5213,
+      5214,
+      5215,
+      5301,
+      5302,
+      5303,
+      5304,
+      5305,
+      5306,
+      5307,
+      5308,
+      5309,
+      5310,
+      5311,
+      5312,
+      5313,
+      5314,
+      5315,
+      5401,
+      5402,
+      5403,
+      5404,
+      5405,
+      5406,
+      5407,
+      5408,
+      5409,
+      5410,
+      5411,
+      5412,
+      5413,
+      5414,
+      5415
+    ],
+    "ParamItemList": [],
+    "Progress": 10
+  },
+  "6021111": {
+    "ID": 6021111,
+    "FinishType": "MonopolyFinishEventCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      5101,
+      5102,
+      5103,
+      5104,
+      5105,
+      5106,
+      5107,
+      5108,
+      5109,
+      5110,
+      5111,
+      5112,
+      5113,
+      5114,
+      5115,
+      5201,
+      5202,
+      5203,
+      5204,
+      5205,
+      5206,
+      5207,
+      5208,
+      5209,
+      5210,
+      5211,
+      5212,
+      5213,
+      5214,
+      5215,
+      5301,
+      5302,
+      5303,
+      5304,
+      5305,
+      5306,
+      5307,
+      5308,
+      5309,
+      5310,
+      5311,
+      5312,
+      5313,
+      5314,
+      5315,
+      5401,
+      5402,
+      5403,
+      5404,
+      5405,
+      5406,
+      5407,
+      5408,
+      5409,
+      5410,
+      5411,
+      5412,
+      5413,
+      5414,
+      5415
+    ],
+    "ParamItemList": [],
+    "Progress": 15
+  },
+  "6021112": {
+    "ID": 6021112,
+    "FinishType": "MonopolyFinishEventCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      5101,
+      5102,
+      5103,
+      5104,
+      5105,
+      5106,
+      5107,
+      5108,
+      5109,
+      5110,
+      5111,
+      5112,
+      5113,
+      5114,
+      5115,
+      5201,
+      5202,
+      5203,
+      5204,
+      5205,
+      5206,
+      5207,
+      5208,
+      5209,
+      5210,
+      5211,
+      5212,
+      5213,
+      5214,
+      5215,
+      5301,
+      5302,
+      5303,
+      5304,
+      5305,
+      5306,
+      5307,
+      5308,
+      5309,
+      5310,
+      5311,
+      5312,
+      5313,
+      5314,
+      5315,
+      5401,
+      5402,
+      5403,
+      5404,
+      5405,
+      5406,
+      5407,
+      5408,
+      5409,
+      5410,
+      5411,
+      5412,
+      5413,
+      5414,
+      5415
+    ],
+    "ParamItemList": [],
+    "Progress": 20
+  },
+  "6021113": {
+    "ID": 6021113,
+    "FinishType": "MonopolyMoveRollCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 20
+  },
+  "6021114": {
+    "ID": 6021114,
+    "FinishType": "MonopolyMoveRollCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 40
+  },
+  "6021115": {
+    "ID": 6021115,
+    "FinishType": "MonopolyMoveRollCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 60
+  },
+  "6021116": {
+    "ID": 6021116,
+    "FinishType": "MonopolyMoveRollCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 100
+  },
+  "6021117": {
+    "ID": 6021117,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 100000
+  },
+  "6021118": {
+    "ID": 6021118,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 400000
+  },
+  "6021119": {
+    "ID": 6021119,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1000000
+  },
+  "6021120": {
+    "ID": 6021120,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1600000
+  },
+  "6021121": {
+    "ID": 6021121,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 2200000
+  },
+  "6021122": {
+    "ID": 6021122,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 3000000
+  },
+  "6021123": {
+    "ID": 6021123,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 3800000
+  },
+  "6021124": {
+    "ID": 6021124,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 4600000
+  },
+  "6021125": {
+    "ID": 6021125,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 5400000
+  },
+  "6021126": {
+    "ID": 6021126,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 6200000
+  },
+  "6021127": {
+    "ID": 6021127,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 7000000
+  },
+  "6021128": {
+    "ID": 6021128,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 8000000
+  },
+  "6021129": {
+    "ID": 6021129,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 9000000
+  },
+  "6021130": {
+    "ID": 6021130,
+    "FinishType": "MonopolyTotalDonateCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 10000000
+  },
+  "6021131": {
+    "ID": 6021131,
+    "FinishType": "MonopolyTakePhaseRewardCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 4
+  },
+  "6021132": {
+    "ID": 6021132,
+    "FinishType": "MonopolyTakeMbtiRewardCnt",
+    "ParamType": "NoPara",
+    "ParamStr1": "",
+    "ParamIntList": [],
+    "ParamItemList": [],
+    "Progress": 1
+  },
+  "6021133": {
+    "ID": 6021133,
+    "FinishType": "MonopolyFinishEventCnt",
+    "ParamType": "ListContain",
+    "ParamStr1": "",
+    "ParamIntList": [
+      6101,
+      6102,
+      6103,
+      6104,
+      6105,
+      6106,
+      6107,
+      6108,
+      6109,
+      6110,
+      6111,
+      6112,
+      6113,
+      6201,
+      6202,
+      6203,
+      6204,
+      6205,
+      6206,
+      6207,
+      6208,
+      6209,
+      6210,
+      6211,
+      6212,
+      6301,
+      6302,
+      6303,
+      6304,
+      6305,
+      6306,
+      6307,
+      6308,
+      6309,
+      6310,
+      6311,
+      6312,
+      6313,
+      6401,
+      6402,
+      6403,
+      6404,
+      6405,
+      6406,
+      6407,
+      6408,
+      6409,
+      6410,
+      6411,
+      6412
+    ],
+    "ParamItemList": [],
+    "Progress": 50
   }
 }

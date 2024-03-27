@@ -356,6 +356,12 @@
               "BlendType": "Custom",
               "CustomCurveName": "BlendCut_00to1",
               "BlendTime": 0.281333
+            },
+            "ShowEntityConfig": {
+              "ShowTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              }
             }
           }
         },
@@ -402,6 +408,12 @@
               "BlendType": "Custom",
               "CustomCurveName": "BlendCut_00to1",
               "BlendTime": 1.683993
+            },
+            "ShowEntityConfig": {
+              "ShowTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              }
             }
           }
         }

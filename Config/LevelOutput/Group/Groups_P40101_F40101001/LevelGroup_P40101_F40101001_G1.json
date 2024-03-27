@@ -14,8 +14,7 @@
       "PosY": 1.906851,
       "PosZ": 93.2,
       "Name": "Born",
-      "RotY": 268.7898,
-      "MapLayerID": 1
+      "RotY": 268.7898
     },
     {
       "ID": 2,
@@ -23,8 +22,7 @@
       "PosY": -5.025842,
       "PosZ": 293.63,
       "Name": "Anchor2",
-      "RotY": 17.53996,
-      "MapLayerID": 1
+      "RotY": 17.53996
     },
     {
       "ID": 3,
@@ -32,16 +30,14 @@
       "PosY": 1.94,
       "PosZ": 90.97,
       "Name": "Anchor3",
-      "RotY": 292.1705,
-      "MapLayerID": 1
+      "RotY": 292.1705
     },
     {
       "ID": 4,
       "PosX": 114.5025,
       "PosY": -5.030587,
       "PosZ": 311.6188,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -66,7 +62,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -110,7 +105,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,

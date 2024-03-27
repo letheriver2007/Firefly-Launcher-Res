@@ -8,26 +8,6 @@
   "OwnerMainMissionID": 8003263,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      12,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": 23,
-      "y": 24
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      12,
-      1
-    ],
-    "LowerUpperBounds": {
-      "x": 23,
-      "y": 24
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -37,7 +17,6 @@
       "PosZ": 1.924,
       "Name": "Anchor1",
       "RotY": 32.98185,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -55,7 +34,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 2329,
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

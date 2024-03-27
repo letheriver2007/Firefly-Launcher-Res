@@ -13,8 +13,7 @@
       "PosY": 49.94958,
       "PosZ": -63.45647,
       "Name": "PlayerStart",
-      "RotY": 179.5867,
-      "MapLayerID": 1
+      "RotY": 179.5867
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": 45.91,
       "PosZ": -26.7,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -31,16 +29,14 @@
       "PosY": 49.97,
       "PosZ": -66.12,
       "Name": "Anchor3",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 4,
       "PosX": -46.41,
       "PosY": 49.93,
       "PosZ": 25.06,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -64,7 +60,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -109,7 +104,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -154,7 +148,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,

@@ -9,28 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -1,
-      -141
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -1,
-      -141,
-      0,
-      -135
-    ],
-    "LowerUpperBounds": {
-      "x": -8,
-      "y": -7
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -40,7 +18,6 @@
       "PosY": -15.9156,
       "PosZ": -281.7629,
       "Name": "Anchor1",
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -50,7 +27,6 @@
       "PosZ": -276.3243,
       "Name": "Anchor2",
       "RotY": 180.0,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -67,7 +43,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F20311001/LG_Prop_F20311001_G222_300001.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -103,7 +78,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 313080231,

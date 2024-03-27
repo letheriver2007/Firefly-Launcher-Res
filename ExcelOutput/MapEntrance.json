@@ -633,6 +633,19 @@
     ],
     "FinishSubMissionList": []
   },
+  "2000302": {
+    "ID": 2000302,
+    "EntranceType": "Mission",
+    "PlaneID": 20003,
+    "FloorID": 20003001,
+    "StartGroupID": 149,
+    "StartAnchorID": 1,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1000401
+    ],
+    "FinishSubMissionList": []
+  },
   "2000401": {
     "ID": 2000401,
     "EntranceType": "Mission",
@@ -1464,6 +1477,17 @@
       103040110
     ]
   },
+  "1030105": {
+    "ID": 1030105,
+    "EntranceType": "Town",
+    "PlaneID": 10301,
+    "FloorID": 10301001,
+    "StartGroupID": 15,
+    "StartAnchorID": 9,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
   "1030106": {
     "ID": 1030106,
     "EntranceType": "Town",
@@ -1612,6 +1636,39 @@
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
   },
+  "2032101": {
+    "ID": 2032101,
+    "EntranceType": "Mission",
+    "PlaneID": 20321,
+    "FloorID": 20321001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1031501
+    ],
+    "FinishSubMissionList": [
+      103150120
+    ]
+  },
+  "2032201": {
+    "ID": 2032201,
+    "EntranceType": "Mission",
+    "PlaneID": 20322,
+    "FloorID": 20322001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [
+      1031101
+    ],
+    "FinishSubMissionList": []
+  },
+  "2032301": {
+    "ID": 2032301,
+    "EntranceType": "Mission",
+    "PlaneID": 20323,
+    "FloorID": 20323001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
   "3000101": {
     "ID": 3000101,
     "EntranceType": "Explore",
@@ -1727,6 +1784,26 @@
     "EntranceType": "Explore",
     "PlaneID": 30121,
     "FloorID": 30121002,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "3012201": {
+    "ID": 3012201,
+    "EntranceType": "Explore",
+    "PlaneID": 30122,
+    "FloorID": 30122001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "3012202": {
+    "ID": 3012202,
+    "EntranceType": "Explore",
+    "PlaneID": 30122,
+    "FloorID": 30122001,
+    "StartGroupID": 1,
+    "StartAnchorID": 2,
     "BeginMainMissionList": [],
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
@@ -1925,6 +2002,15 @@
     "EntranceType": "Explore",
     "PlaneID": 30502,
     "FloorID": 30502001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "30521001": {
+    "ID": 30521001,
+    "EntranceType": "Explore",
+    "PlaneID": 30521,
+    "FloorID": 30521001,
     "BeginMainMissionList": [],
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
@@ -3004,6 +3090,24 @@
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
   },
+  "43306001": {
+    "ID": 43306001,
+    "EntranceType": "Explore",
+    "PlaneID": 43306,
+    "FloorID": 43306001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "43306002": {
+    "ID": 43306002,
+    "EntranceType": "Explore",
+    "PlaneID": 43306,
+    "FloorID": 43306002,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
   "43307001": {
     "ID": 43307001,
     "EntranceType": "Explore",
@@ -3373,6 +3477,69 @@
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
   },
+  "44302001": {
+    "ID": 44302001,
+    "EntranceType": "Explore",
+    "PlaneID": 44302,
+    "FloorID": 44302001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44302002": {
+    "ID": 44302002,
+    "EntranceType": "Explore",
+    "PlaneID": 44302,
+    "FloorID": 44302002,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44302003": {
+    "ID": 44302003,
+    "EntranceType": "Explore",
+    "PlaneID": 44302,
+    "FloorID": 44302003,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44302004": {
+    "ID": 44302004,
+    "EntranceType": "Explore",
+    "PlaneID": 44302,
+    "FloorID": 44302004,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44303001": {
+    "ID": 44303001,
+    "EntranceType": "Explore",
+    "PlaneID": 44303,
+    "FloorID": 44303001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44303002": {
+    "ID": 44303002,
+    "EntranceType": "Explore",
+    "PlaneID": 44303,
+    "FloorID": 44303002,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "44303003": {
+    "ID": 44303003,
+    "EntranceType": "Explore",
+    "PlaneID": 44303,
+    "FloorID": 44303003,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
   "8000001": {
     "ID": 8000001,
     "EntranceType": "Explore",
@@ -3434,6 +3601,15 @@
     "EntranceType": "Explore",
     "PlaneID": 81003,
     "FloorID": 81003001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "8100401": {
+    "ID": 8100401,
+    "EntranceType": "Explore",
+    "PlaneID": 81004,
+    "FloorID": 81004001,
     "BeginMainMissionList": [],
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
@@ -3528,6 +3704,15 @@
     "FinishMainMissionList": [],
     "FinishSubMissionList": []
   },
+  "8122301": {
+    "ID": 8122301,
+    "EntranceType": "Explore",
+    "PlaneID": 81223,
+    "FloorID": 81223001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
   "8123101": {
     "ID": 8123101,
     "EntranceType": "Explore",
@@ -3542,6 +3727,33 @@
     "EntranceType": "Explore",
     "PlaneID": 81232,
     "FloorID": 81232001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "8131101": {
+    "ID": 8131101,
+    "EntranceType": "Explore",
+    "PlaneID": 81311,
+    "FloorID": 81311001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "8131201": {
+    "ID": 8131201,
+    "EntranceType": "Explore",
+    "PlaneID": 81312,
+    "FloorID": 81312001,
+    "BeginMainMissionList": [],
+    "FinishMainMissionList": [],
+    "FinishSubMissionList": []
+  },
+  "8131301": {
+    "ID": 8131301,
+    "EntranceType": "Explore",
+    "PlaneID": 81313,
+    "FloorID": 81313001,
     "BeginMainMissionList": [],
     "FinishMainMissionList": [],
     "FinishSubMissionList": []

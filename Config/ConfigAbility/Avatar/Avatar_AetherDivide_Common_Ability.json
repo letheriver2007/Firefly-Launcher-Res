@@ -89,7 +89,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_Buff.prefab",
                   "PositionOffset": {
                     "X": 0,
@@ -1031,6 +1030,7 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
+                      "IsAttachToTargetEntity": true,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_AetherDivide_Common/Eff_Avatar_AetherDivide_Common_Skill03_Ready_Blue.prefab",
                       "PositionOffset": {
                         "X": 0.563,
@@ -1128,7 +1128,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Taunt_Add.prefab"
             },
             {

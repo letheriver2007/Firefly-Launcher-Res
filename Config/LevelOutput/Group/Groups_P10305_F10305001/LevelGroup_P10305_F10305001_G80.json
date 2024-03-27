@@ -9,24 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      3,
-      -187
-    ],
-    "LowerUpperBounds": {
-      "y": 1
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      3,
-      -187
-    ],
-    "LowerUpperBounds": {
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -37,7 +19,6 @@
       "PosZ": -374.453,
       "Name": "Anchor1",
       "RotY": 283.6154,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -45,16 +26,14 @@
       "PosX": 6.625,
       "PosY": 2.506,
       "PosZ": -373.448,
-      "Name": "Anchor2",
-      "MapLayerID": 2
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
       "PosX": 6.682,
       "PosY": 2.06,
       "PosZ": -373.53,
-      "Name": "Anchor3",
-      "MapLayerID": 2
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],
@@ -74,7 +53,6 @@
       "PropID": 103082,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -96,7 +74,6 @@
       "PropID": 120,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -125,7 +102,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,

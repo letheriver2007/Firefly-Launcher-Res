@@ -13,6 +13,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "Flags": [
                     "Resident"
                   ],
@@ -25,6 +26,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion03_00/Eff_Monster_XP_Minion03_00_StandBy_Loop_02.prefab",
                   "AttachPoint": "Body"
                 }
@@ -99,6 +101,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "IsAttachToTargetEntity": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion03_00/Eff_Monster_XP_Minion03_00_StandBy_Loop_02.prefab",
                   "AttachPoint": "Body"
                 }
@@ -844,7 +847,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllEnemy"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
         },
@@ -891,7 +893,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise_Trigger.prefab"
             }
           ]

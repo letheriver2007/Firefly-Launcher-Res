@@ -30,39 +30,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -31,
-      -19,
-      -35,
-      -1,
-      -32,
-      1,
-      -28,
-      13
-    ],
-    "LowerUpperBounds": {
-      "x": 91,
-      "y": 92
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -31,
-      -19,
-      -35,
-      -1,
-      0,
-      0,
-      -32,
-      1,
-      -28,
-      13
-    ],
-    "LowerUpperBounds": {
-      "y": 92
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -85,7 +52,6 @@
         "ID": 1
       },
       "EventID": 20004001,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -110,7 +76,6 @@
         "ID": 1
       },
       "EventID": 20004002,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -136,7 +101,6 @@
         "ID": 1
       },
       "EventID": 20004003,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -162,7 +126,6 @@
         "ID": 1
       },
       "EventID": 20004015,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

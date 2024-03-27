@@ -999,6 +999,31 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "201301": {
+    "ID": 201301,
+    "ItemMainType": "Usable",
+    "ItemSubType": "HeadIcon",
+    "InventoryDisplayTag": 1,
+    "Rarity": "VeryRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 600782516
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/AvatarRoundIcon/1301.png",
+    "ItemFigureIconPath": "",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "201302": {
     "ID": 201302,
     "ItemMainType": "Usable",
@@ -1074,6 +1099,31 @@
     "CustomDataList": [],
     "ReturnItemIDList": []
   },
+  "201304": {
+    "ID": 201304,
+    "ItemMainType": "Usable",
+    "ItemSubType": "HeadIcon",
+    "InventoryDisplayTag": 1,
+    "Rarity": "SuperRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 600782511
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/AvatarRoundIcon/1304.png",
+    "ItemFigureIconPath": "",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
   "201305": {
     "ID": 201305,
     "ItemMainType": "Usable",
@@ -1116,6 +1166,31 @@
       "Hash": 371857150
     },
     "ItemIconPath": "SpriteOutput/AvatarRoundIcon/1307.png",
+    "ItemFigureIconPath": "",
+    "ItemCurrencyIconPath": "",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 1,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "201308": {
+    "ID": 201308,
+    "ItemMainType": "Usable",
+    "ItemSubType": "HeadIcon",
+    "InventoryDisplayTag": 1,
+    "Rarity": "SuperRare",
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 600782523
+    },
+    "ItemDesc": {
+      "Hash": 371857150
+    },
+    "ItemBGDesc": {
+      "Hash": 371857150
+    },
+    "ItemIconPath": "SpriteOutput/AvatarRoundIcon/1308.png",
     "ItemFigureIconPath": "",
     "ItemCurrencyIconPath": "",
     "ItemAvatarIconPath": "",

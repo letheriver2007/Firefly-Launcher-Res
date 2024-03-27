@@ -8,26 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      45,
-      69
-    ],
-    "LowerUpperBounds": {
-      "x": 39,
-      "y": 40
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      45,
-      69
-    ],
-    "LowerUpperBounds": {
-      "x": 39,
-      "y": 40
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -50,7 +30,6 @@
         "ID": 1
       },
       "EventID": 40002046,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],

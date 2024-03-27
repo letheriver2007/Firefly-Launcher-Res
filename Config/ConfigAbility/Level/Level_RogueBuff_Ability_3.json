@@ -75,7 +75,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "DarkTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_01/Eff_Monster_W1_Mecha03_01_Skill06_02.prefab"
                 },
                 {
@@ -1207,7 +1206,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha03_01/Eff_Monster_W1_Mecha03_01_Skill06_02.prefab"
                 },
                 {
@@ -2545,7 +2543,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start01.prefab"
                 },
                 {
@@ -2568,7 +2565,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start03.prefab"
                 },
                 {
@@ -2586,7 +2582,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start02.prefab"
                 },
                 {
@@ -2972,7 +2967,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "LightTeamCenter"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Camera.prefab"
                 },
                 {
@@ -2981,7 +2975,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllLightTeam"
                   },
-                  "IsAttachToTargetEntity": false,
                   "AliveOnly": true,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Heal_Hit.prefab"
                 },

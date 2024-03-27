@@ -959,7 +959,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp_02.prefab"
         },
         {
@@ -1201,7 +1200,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Resident"
           ],
@@ -1226,7 +1224,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Resident"
           ],
@@ -1251,7 +1248,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Resident"
           ],
@@ -1783,7 +1779,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_AttackUp.prefab"
             }
           ]
@@ -1818,7 +1813,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_End.prefab"
             }
           ]
@@ -1832,7 +1826,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_Hit.prefab"
             }
           ]
@@ -1846,7 +1839,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_Start.prefab"
             },
             {
@@ -1858,8 +1850,20 @@
           "Event": "OnAfterBeingAttacked",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.SetModifierValue",
-              "ModifyFunction": "Add"
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetModifierValue",
+                  "ModifyFunction": "Add"
+                }
+              ]
             }
           ]
         }
@@ -1886,7 +1890,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Skill04_03.prefab"
             }
           ]
@@ -1981,6 +1984,9 @@
       }
     },
     "Monster_W2_Beast02_00_Edict": {
+      "BehaviorFlagList": [
+        "RemoveWhenCasterDead"
+      ],
       "_CallbackList": [
         {
           "Event": "OnCreate",
@@ -2032,6 +2038,7 @@
           ]
         }
       ],
+      "Stacking": "ReplaceByCaster",
       "DynamicValues": {
         "Values": {}
       }

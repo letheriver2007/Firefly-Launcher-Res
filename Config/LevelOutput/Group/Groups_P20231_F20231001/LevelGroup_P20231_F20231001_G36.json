@@ -23,7 +23,9 @@
     "DelayToLevelReload": true
   },
   "OwnerMainMissionID": 2020601,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -32,7 +34,6 @@
       "PosZ": -11.894,
       "Name": "Anchor1",
       "RotY": 333.0148,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -44,8 +45,10 @@
       "RotY": 249.2148,
       "RotX": 12.30716,
       "RotZ": 359.9622,
-      "MapLayerID": 1,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -61,7 +64,6 @@
       "NPCID": 1205,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312040000,
@@ -70,6 +72,7 @@
         "LevelGraph": "Config/Level/NPCDialogue/P20231/F20231001_G36/DialogueMain_F20231001_G36_N400001.json",
         "PackList": []
       },
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0
@@ -86,11 +89,11 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312130000,
       "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

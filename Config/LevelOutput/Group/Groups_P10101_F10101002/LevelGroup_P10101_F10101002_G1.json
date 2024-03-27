@@ -11,8 +11,7 @@
       "PosY": -0.503376,
       "PosZ": 25.773,
       "Name": "Anchor1",
-      "RotY": 165.0,
-      "MapLayerID": 1
+      "RotY": 165.0
     }
   ],
   "MonsterList": [],
@@ -47,7 +46,6 @@
         "DimZ": 2.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],

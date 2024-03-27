@@ -35,8 +35,7 @@
       "PosY": 18.03094,
       "PosZ": 55.57,
       "Name": "Anchor1",
-      "RotY": 120.7369,
-      "MapLayerID": 1
+      "RotY": 120.7369
     },
     {
       "ID": 2,
@@ -45,7 +44,6 @@
       "PosZ": 54.5,
       "Name": "Anchor2",
       "RotY": 81.555,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -62,7 +60,6 @@
       "NPCID": 12102,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,

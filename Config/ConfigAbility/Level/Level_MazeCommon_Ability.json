@@ -109,6 +109,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_IgnoreWeakness_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -221,7 +224,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Physical.prefab"
                                 },
                                 {
@@ -239,7 +241,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab"
                                 },
                                 {
@@ -319,7 +320,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Physical.prefab"
                                 },
                                 {
@@ -337,7 +337,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab"
                                 },
                                 {
@@ -444,7 +443,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Fire.prefab"
                                 },
                                 {
@@ -462,7 +460,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Fire.prefab"
                                 },
                                 {
@@ -542,7 +539,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Fire.prefab"
                                 },
                                 {
@@ -560,7 +556,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Fire.prefab"
                                 },
                                 {
@@ -662,7 +657,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Ice.prefab"
                                 },
                                 {
@@ -680,7 +674,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Ice.prefab"
                                 },
                                 {
@@ -760,7 +753,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Ice.prefab"
                                 },
                                 {
@@ -778,7 +770,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Ice.prefab"
                                 },
                                 {
@@ -885,7 +876,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Thunder.prefab"
                                 },
                                 {
@@ -903,7 +893,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Thunder.prefab"
                                 },
                                 {
@@ -983,7 +972,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Thunder.prefab"
                                 },
                                 {
@@ -1001,7 +989,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Thunder.prefab"
                                 },
                                 {
@@ -1108,7 +1095,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Wind.prefab"
                                 },
                                 {
@@ -1135,7 +1121,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind.prefab"
                                 },
                                 {
@@ -1215,7 +1200,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Wind.prefab"
                                 },
                                 {
@@ -1242,7 +1226,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind.prefab"
                                 },
                                 {
@@ -1349,7 +1332,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ModifierOwnerEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum.prefab"
                                 },
                                 {
@@ -1367,7 +1349,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Quantum.prefab"
                                 },
                                 {
@@ -1447,7 +1428,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ModifierOwnerEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum.prefab"
                                 },
                                 {
@@ -1465,7 +1445,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Quantum.prefab"
                                 },
                                 {
@@ -1572,7 +1551,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ModifierOwnerEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Imaginary.prefab"
                                 },
                                 {
@@ -1590,7 +1568,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Imaginary.prefab"
                                 },
                                 {
@@ -1670,7 +1647,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ModifierOwnerEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Imaginary.prefab"
                                 },
                                 {
@@ -1688,7 +1664,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Imaginary.prefab"
                                 },
                                 {
@@ -1748,6 +1723,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Physical_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -1866,7 +1844,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Physical.prefab"
                             },
                             {
@@ -1884,7 +1861,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab"
                             },
                             {
@@ -1966,7 +1942,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Physical.prefab"
                             },
                             {
@@ -1984,7 +1959,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Physical.prefab"
                             },
                             {
@@ -2043,6 +2017,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Fire_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -2161,7 +2138,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Fire.prefab"
                             },
                             {
@@ -2179,7 +2155,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Fire.prefab"
                             },
                             {
@@ -2261,7 +2236,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Fire.prefab"
                             },
                             {
@@ -2279,7 +2253,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Fire.prefab"
                             },
                             {
@@ -2338,6 +2311,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Ice_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -2451,7 +2427,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Ice.prefab"
                             },
                             {
@@ -2469,7 +2444,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Ice.prefab"
                             },
                             {
@@ -2551,7 +2525,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Ice.prefab"
                             },
                             {
@@ -2569,7 +2542,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Ice.prefab"
                             },
                             {
@@ -2628,6 +2600,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Thunder_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -2746,7 +2721,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Thunder.prefab"
                             },
                             {
@@ -2764,7 +2738,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Thunder.prefab"
                             },
                             {
@@ -2846,7 +2819,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Thunder.prefab"
                             },
                             {
@@ -2864,7 +2836,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Thunder.prefab"
                             },
                             {
@@ -2923,6 +2894,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Wind_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -3041,7 +3015,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Wind.prefab"
                             },
                             {
@@ -3068,7 +3041,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind.prefab"
                             },
                             {
@@ -3150,7 +3122,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Wind.prefab"
                             },
                             {
@@ -3177,7 +3148,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Wind.prefab"
                             },
                             {
@@ -3236,6 +3206,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Quantum_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -3354,7 +3327,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum.prefab"
                             },
                             {
@@ -3372,7 +3344,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Quantum.prefab"
                             },
                             {
@@ -3454,7 +3425,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Quantum.prefab"
                             },
                             {
@@ -3472,7 +3442,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Quantum.prefab"
                             },
                             {
@@ -3531,6 +3500,9 @@
     {
       "Modifiers": {
         "StageAbility_MazeCommon_EnterBattle_Imaginary_Modifier": {
+          "BehaviorFlagList": [
+            "MazeUseSkillTrigger"
+          ],
           "_CallbackList": [
             {
               "Event": "OnEnterBattle",
@@ -3649,7 +3621,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Imaginary.prefab"
                             },
                             {
@@ -3667,7 +3638,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Imaginary.prefab"
                             },
                             {
@@ -3749,7 +3719,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ModifierOwnerEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_StanceBreak_Common_Imaginary.prefab"
                             },
                             {
@@ -3767,7 +3736,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Hit_Common_Imaginary.prefab"
                             },
                             {

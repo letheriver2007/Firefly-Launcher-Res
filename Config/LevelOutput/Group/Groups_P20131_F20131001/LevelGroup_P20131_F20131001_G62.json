@@ -40,8 +40,7 @@
       "PosY": -0.98485,
       "PosZ": -166.18,
       "Name": "Anchor1",
-      "RotY": 52.24,
-      "MapLayerID": 1
+      "RotY": 52.24
     }
   ],
   "MonsterList": [],
@@ -63,7 +62,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -83,7 +81,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1663025036
@@ -103,7 +100,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1663025036

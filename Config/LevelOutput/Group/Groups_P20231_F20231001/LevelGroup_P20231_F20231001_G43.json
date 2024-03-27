@@ -12,7 +12,9 @@
     "DelayToLevelReload": true
   },
   "LoadSide": "Server",
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -33,10 +35,10 @@
         "ID": 1
       },
       "EventID": 20231130,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [],

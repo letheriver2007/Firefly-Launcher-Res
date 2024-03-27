@@ -14,15 +14,13 @@
       "PosY": 2.0E-6,
       "PosZ": 0.13,
       "Name": "PlayerStartPoint",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
       "PosZ": -2.0,
       "Name": "Anchor2",
-      "RotY": 345.0,
-      "MapLayerID": 1
+      "RotY": 345.0
     }
   ],
   "MonsterList": [],
@@ -42,7 +40,6 @@
         "DimZ": 10.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -65,7 +62,6 @@
         "PointList": []
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

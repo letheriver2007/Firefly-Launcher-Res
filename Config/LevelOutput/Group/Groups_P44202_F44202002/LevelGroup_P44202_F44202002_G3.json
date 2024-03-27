@@ -12,29 +12,8 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      31,
-      -28
-    ],
-    "LowerUpperBounds": {
-      "x": 414,
-      "y": 415
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      31,
-      -28,
-      0,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 413,
-      "y": 415
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -50,6 +29,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -57,11 +37,16 @@
         "ID": 1
       },
       "EventID": 44202011,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
-      "TagList": []
+      "TagList": [
+        "ResistInstantKill"
+      ],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [
@@ -73,14 +58,14 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_ChallengeRaid_BuffRaid2.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -90,14 +75,14 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_MonsterEffect_Suiyang.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
-      "TriggerValidGuest": {}
+      "TriggerValidGuest": {},
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

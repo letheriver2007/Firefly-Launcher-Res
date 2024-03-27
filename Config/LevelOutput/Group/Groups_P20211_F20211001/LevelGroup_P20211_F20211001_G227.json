@@ -1,20 +1,12 @@
 {
   "GroupGUID": "eee4b3cf-95e7-474c-bf07-fcb7d21bf9c4",
   "GroupName": "MainMission9020401_MainMissionMonster",
-  "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G227",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 902040101
-      }
-    ]
-  },
   "LoadSide": "Server",
-  "OwnerMainMissionID": 9020401,
+  "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -36,7 +28,6 @@
         "ID": 1
       },
       "EventID": 20211031,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

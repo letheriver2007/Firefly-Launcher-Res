@@ -115,6 +115,18 @@
     "AssistWayPoint": {
       "MaxLength": 20,
       "ValueType": "System.Collections.Generic.List`1[System.UInt32]"
+    },
+    "SeenBattlePassIDServer": {
+      "MaxLength": 4,
+      "ValueType": "System.UInt32"
+    },
+    "GiftCoinSeenVersion": {
+      "MaxLength": 4,
+      "ValueType": "System.UInt32"
+    },
+    "ActivityPanelGotoBtnLastClickTimeStamp": {
+      "MaxLength": 284,
+      "ValueType": "System.Collections.Generic.Dictionary`2[System.UInt32, System.UInt32]"
     }
   }
 }

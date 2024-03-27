@@ -13,8 +13,7 @@
       "PosY": 28.9,
       "PosZ": -125.26,
       "Name": "300005_1F",
-      "RotY": 330.0,
-      "MapLayerID": 1
+      "RotY": 330.0
     },
     {
       "ID": 4,
@@ -22,8 +21,7 @@
       "PosY": 59.00788,
       "PosZ": -125.26,
       "Name": "300005_2F",
-      "RotY": 330.0,
-      "MapLayerID": 1
+      "RotY": 330.0
     }
   ],
   "MonsterList": [],
@@ -37,7 +35,6 @@
       "RotY": 328.4481,
       "PropID": 301004,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -72,7 +69,6 @@
         "PointList": []
       },
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -106,7 +102,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -166,7 +161,6 @@
         "PointList": []
       },
       "State": "Locked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -182,7 +176,6 @@
       "Name": "Prop35",
       "PropID": 301005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

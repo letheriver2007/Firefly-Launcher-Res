@@ -44,7 +44,7 @@
     "CurrencyCostList": [
       140
     ],
-    "GoodsSortID": 3,
+    "GoodsSortID": 4,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -64,7 +64,7 @@
     "CurrencyCostList": [
       140
     ],
-    "GoodsSortID": 4,
+    "GoodsSortID": 5,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -85,7 +85,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 5,
+    "GoodsSortID": 6,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -106,7 +106,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 6,
+    "GoodsSortID": 7,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -127,7 +127,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 7,
+    "GoodsSortID": 8,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -148,7 +148,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 8,
+    "GoodsSortID": 9,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -169,7 +169,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 9,
+    "GoodsSortID": 10,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -190,7 +190,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 10,
+    "GoodsSortID": 11,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -211,7 +211,7 @@
     "CurrencyCostList": [
       600
     ],
-    "GoodsSortID": 11,
+    "GoodsSortID": 12,
     "LimitValue1List": [],
     "LimitValue2List": [],
     "OnShelfValue1List": [],
@@ -219,6 +219,26 @@
     "RefreshType": "MONTH",
     "ShopID": 101,
     "ScheduleDataID": 10101018
+  },
+  "101019": {
+    "GoodsID": 101019,
+    "ItemID": 241,
+    "ItemCount": 1,
+    "CurrencyList": [
+      252
+    ],
+    "CurrencyCostList": [
+      50
+    ],
+    "GoodsSortID": 3,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      40
+    ],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "ShopID": 101,
+    "ScheduleDataID": 10101019
   },
   "102001": {
     "GoodsID": 102001,
@@ -809,6 +829,28 @@
     "ShopID": 102,
     "ScheduleDataID": 10102028
   },
+  "102031": {
+    "GoodsID": 102031,
+    "ItemID": 110211,
+    "ItemCount": 2,
+    "CurrencyList": [
+      251
+    ],
+    "CurrencyCostList": [
+      12
+    ],
+    "GoodsSortID": 6,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      20
+    ],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 20,
+    "RefreshType": "MONTH",
+    "ShopID": 102,
+    "ScheduleDataID": 10102031
+  },
   "102032": {
     "GoodsID": 102032,
     "ItemID": 110221,
@@ -853,6 +895,28 @@
     "ShopID": 102,
     "ScheduleDataID": 10102033
   },
+  "102034": {
+    "GoodsID": 102034,
+    "ItemID": 110241,
+    "ItemCount": 2,
+    "CurrencyList": [
+      251
+    ],
+    "CurrencyCostList": [
+      12
+    ],
+    "GoodsSortID": 6,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      20
+    ],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 20,
+    "RefreshType": "MONTH",
+    "ShopID": 102,
+    "ScheduleDataID": 10102034
+  },
   "102035": {
     "GoodsID": 102035,
     "ItemID": 110182,
@@ -874,6 +938,28 @@
     "RefreshType": "MONTH",
     "ShopID": 102,
     "ScheduleDataID": 10102035
+  },
+  "102038": {
+    "GoodsID": 102038,
+    "ItemID": 110212,
+    "ItemCount": 1,
+    "CurrencyList": [
+      251
+    ],
+    "CurrencyCostList": [
+      18
+    ],
+    "GoodsSortID": 5,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      30
+    ],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 30,
+    "RefreshType": "MONTH",
+    "ShopID": 102,
+    "ScheduleDataID": 10102038
   },
   "102039": {
     "GoodsID": 102039,
@@ -918,6 +1004,28 @@
     "RefreshType": "MONTH",
     "ShopID": 102,
     "ScheduleDataID": 10102040
+  },
+  "102041": {
+    "GoodsID": 102041,
+    "ItemID": 110242,
+    "ItemCount": 1,
+    "CurrencyList": [
+      251
+    ],
+    "CurrencyCostList": [
+      18
+    ],
+    "GoodsSortID": 5,
+    "LimitType1": "Level",
+    "LimitValue1List": [
+      30
+    ],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 30,
+    "RefreshType": "MONTH",
+    "ShopID": 102,
+    "ScheduleDataID": 10102041
   },
   "102042": {
     "GoodsID": 102042,
@@ -1127,8 +1235,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202008,
-    "IsNew": true
+    "ScheduleDataID": 10202008
   },
   "202009": {
     "GoodsID": 202009,
@@ -1147,8 +1254,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202009,
-    "IsNew": true
+    "ScheduleDataID": 10202009
   },
   "202010": {
     "GoodsID": 202010,
@@ -1167,8 +1273,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202010,
-    "IsNew": true
+    "ScheduleDataID": 10202010
   },
   "202011": {
     "GoodsID": 202011,
@@ -1187,8 +1292,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202011,
-    "IsNew": true
+    "ScheduleDataID": 10202011
   },
   "202012": {
     "GoodsID": 202012,
@@ -1207,8 +1311,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202012,
-    "IsNew": true
+    "ScheduleDataID": 10202012
   },
   "202013": {
     "GoodsID": 202013,
@@ -1227,8 +1330,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202013,
-    "IsNew": true
+    "ScheduleDataID": 10202013
   },
   "202014": {
     "GoodsID": 202014,
@@ -1247,8 +1349,7 @@
     "LimitValue2List": [],
     "OnShelfValue1List": [],
     "ShopID": 202,
-    "ScheduleDataID": 10202014,
-    "IsNew": true
+    "ScheduleDataID": 10202014
   },
   "203001": {
     "GoodsID": 203001,
@@ -4507,9 +4608,9 @@
     "GoodsSortID": 2,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 1,
     "RefreshType": "DAILY",
@@ -4529,9 +4630,9 @@
     "GoodsSortID": 3,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 1,
     "RefreshType": "DAILY",
@@ -4551,9 +4652,9 @@
     "GoodsSortID": 4,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 1,
     "RefreshType": "DAILY",
@@ -4573,9 +4674,9 @@
     "GoodsSortID": 5,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4595,9 +4696,9 @@
     "GoodsSortID": 6,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4617,9 +4718,9 @@
     "GoodsSortID": 7,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4639,9 +4740,9 @@
     "GoodsSortID": 8,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4661,9 +4762,9 @@
     "GoodsSortID": 9,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4683,9 +4784,9 @@
     "GoodsSortID": 10,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 3,
     "RefreshType": "DAILY",
@@ -4705,9 +4806,9 @@
     "GoodsSortID": 11,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 5,
     "RefreshType": "DAILY",
@@ -4727,9 +4828,9 @@
     "GoodsSortID": 12,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 5,
     "RefreshType": "DAILY",
@@ -4749,9 +4850,9 @@
     "GoodsSortID": 13,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 5,
     "RefreshType": "DAILY",
@@ -4771,9 +4872,9 @@
     "GoodsSortID": 14,
     "LimitValue1List": [],
     "LimitValue2List": [],
-    "OnShelfType1": "MainMission",
+    "OnShelfType1": "SubMission",
     "OnShelfValue1List": [
-      4040325
+      404032501
     ],
     "LimitTimes": 5,
     "RefreshType": "DAILY",
@@ -5889,6 +5990,348 @@
     "LimitTimes": 1,
     "ShopID": 338,
     "ScheduleDataID": 10338004
+  },
+  "339001": {
+    "GoodsID": 339001,
+    "ItemID": 408801,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      7500
+    ],
+    "GoodsSortID": 1,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 1,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339001
+  },
+  "339002": {
+    "GoodsID": 339002,
+    "ItemID": 408612,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      5400
+    ],
+    "GoodsSortID": 2,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339002
+  },
+  "339003": {
+    "GoodsID": 339003,
+    "ItemID": 408609,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      5400
+    ],
+    "GoodsSortID": 3,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339003
+  },
+  "339004": {
+    "GoodsID": 339004,
+    "ItemID": 402025,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      5400
+    ],
+    "GoodsSortID": 4,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339004
+  },
+  "339005": {
+    "GoodsID": 339005,
+    "ItemID": 408611,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      5400
+    ],
+    "GoodsSortID": 5,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339005
+  },
+  "339006": {
+    "GoodsID": 339006,
+    "ItemID": 401021,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 6,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339006
+  },
+  "339007": {
+    "GoodsID": 339007,
+    "ItemID": 401024,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 7,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339007
+  },
+  "339008": {
+    "GoodsID": 339008,
+    "ItemID": 401023,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 8,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339008
+  },
+  "339009": {
+    "GoodsID": 339009,
+    "ItemID": 401022,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 9,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339009
+  },
+  "339010": {
+    "GoodsID": 339010,
+    "ItemID": 401025,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 10,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339010
+  },
+  "339011": {
+    "GoodsID": 339011,
+    "ItemID": 401026,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 11,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339011
+  },
+  "339012": {
+    "GoodsID": 339012,
+    "ItemID": 401027,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 12,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339012
+  },
+  "339013": {
+    "GoodsID": 339013,
+    "ItemID": 408418,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 13,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339013
+  },
+  "339014": {
+    "GoodsID": 339014,
+    "ItemID": 408415,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      2700
+    ],
+    "GoodsSortID": 14,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "RefreshType": "DAILY",
+    "ShopID": 339,
+    "ScheduleDataID": 10339014
+  },
+  "340001": {
+    "GoodsID": 340001,
+    "ItemID": 408620,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      3600
+    ],
+    "GoodsSortID": 1,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 340,
+    "ScheduleDataID": 10340001
+  },
+  "340002": {
+    "GoodsID": 340002,
+    "ItemID": 408622,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      3600
+    ],
+    "GoodsSortID": 2,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 340,
+    "ScheduleDataID": 10340002
+  },
+  "340003": {
+    "GoodsID": 340003,
+    "ItemID": 408623,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      3600
+    ],
+    "GoodsSortID": 3,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 340,
+    "ScheduleDataID": 10340003
+  },
+  "340004": {
+    "GoodsID": 340004,
+    "ItemID": 408621,
+    "ItemCount": 1,
+    "CurrencyList": [
+      2
+    ],
+    "CurrencyCostList": [
+      3600
+    ],
+    "GoodsSortID": 4,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 3,
+    "RefreshType": "DAILY",
+    "ShopID": 340,
+    "ScheduleDataID": 10340004
   },
   "401001": {
     "GoodsID": 401001,
@@ -7730,6 +8173,44 @@
     "IsLimitedTimePurchase": true,
     "ShopID": 900,
     "ScheduleDataID": 10900023
+  },
+  "900024": {
+    "GoodsID": 900024,
+    "ItemID": 310011,
+    "ItemCount": 1,
+    "CurrencyList": [
+      3
+    ],
+    "CurrencyCostList": [
+      330
+    ],
+    "GoodsSortID": 11,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 8,
+    "IsLimitedTimePurchase": true,
+    "ShopID": 900,
+    "ScheduleDataID": 10900024
+  },
+  "900025": {
+    "GoodsID": 900025,
+    "ItemID": 310010,
+    "ItemCount": 1,
+    "CurrencyList": [
+      3
+    ],
+    "CurrencyCostList": [
+      660
+    ],
+    "GoodsSortID": 12,
+    "LimitValue1List": [],
+    "LimitValue2List": [],
+    "OnShelfValue1List": [],
+    "LimitTimes": 5,
+    "IsLimitedTimePurchase": true,
+    "ShopID": 900,
+    "ScheduleDataID": 10900025
   },
   "999001": {
     "GoodsID": 999001,

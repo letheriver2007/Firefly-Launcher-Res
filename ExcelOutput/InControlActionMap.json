@@ -2176,6 +2176,55 @@
     ],
     "FuncGotoIDList": []
   },
+  "Menu_Flip": {
+    "actionName": "Menu_Flip",
+    "actionTextmapID": {
+      "Hash": 1479041634
+    },
+    "actionTypeList": [
+      1
+    ],
+    "defaultKey": "Space",
+    "defaultMouseType": "",
+    "defaultInControlTypes": [
+      "LeftBumper"
+    ],
+    "FuncGotoIDList": []
+  },
+  "Menu_Shoot": {
+    "actionName": "Menu_Shoot",
+    "actionTextmapID": {
+      "Hash": -111074804
+    },
+    "actionTypeList": [
+      1
+    ],
+    "defaultKey": "",
+    "defaultMouseType": "LeftButton",
+    "defaultInControlTypes": [
+      "Action3"
+    ],
+    "FuncGotoIDList": []
+  },
+  "Menu_Pause": {
+    "actionName": "Menu_Pause",
+    "actionTextmapID": {
+      "Hash": -1806058441
+    },
+    "actionTypeList": [
+      1
+    ],
+    "defaultKey": "Escape",
+    "defaultMouseType": "",
+    "defaultInControlTypes": [
+      "Options",
+      "Menu",
+      "Start",
+      "Home",
+      "Plus"
+    ],
+    "FuncGotoIDList": []
+  },
   "Menu_PinBallFire": {
     "actionName": "Menu_PinBallFire",
     "actionTextmapID": {

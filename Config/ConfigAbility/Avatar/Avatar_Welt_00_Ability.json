@@ -53,9 +53,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "SkillPointEntity"
           },
-          "IsAttachToTargetEntity": false,
-          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill01_Start_Hit.prefab",
-          "AttachPoint": "SelectRoot"
+          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill01_Start_Hit.prefab"
         },
         {
           "$type": "RPG.GameCore.WaitAnimState",
@@ -220,7 +218,6 @@
             },
             "HitAnimation": "Hit",
             "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill01_Hit.prefab",
-            "HitEffectHeight": 1.4,
             "HitPosHeight": 1.4
           },
           "SpecialHitSoundEvent": "Ev_sfx_avatar_atk_cast_hit_welt",
@@ -472,7 +469,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill02_Hit01.prefab",
           "PositionOffset": {
             "X": 0,
@@ -657,7 +653,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill02_Hit02.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -779,7 +774,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill02_Hit03.prefab",
               "PositionOffset": {
                 "X": 0,
@@ -916,7 +910,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Welt/Eff_Avatar_Welt_00_Skill02_Hit01.prefab",
                   "PositionOffset": {
                     "X": 0,

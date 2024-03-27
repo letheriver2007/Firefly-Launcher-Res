@@ -15,7 +15,6 @@
       "RotY": 276.774,
       "RotX": 358.27,
       "RotZ": -2.0E-6,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -27,7 +26,6 @@
       "RotY": 270.0002,
       "RotX": 14.99993,
       "RotZ": 1.43E-4,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -39,7 +37,6 @@
       "RotY": 74.99998,
       "RotX": 25.77,
       "RotZ": -2.1E-5,
-      "MapLayerID": 2,
       "Usage": "Camera"
     }
   ],
@@ -63,7 +60,6 @@
         "ID": 1
       },
       "EventID": 20232211,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -87,7 +83,6 @@
         "ID": 1
       },
       "EventID": 20232211,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -111,7 +106,6 @@
         "ID": 1
       },
       "EventID": 20232211,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -185,7 +179,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -208,7 +201,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -235,7 +227,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -262,7 +253,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -289,7 +279,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -325,7 +314,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -358,7 +346,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -375,7 +362,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -407,7 +393,6 @@
       },
       "CampID": 4,
       "State": "Hidden",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -435,7 +420,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -458,7 +442,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -484,7 +467,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -498,7 +480,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/MazeRaid/Raid_43206/Riad_43204_GroupEvent.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

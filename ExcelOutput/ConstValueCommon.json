@@ -584,14 +584,21 @@
     "ConstValueName": "Relic_Max_Count",
     "Value": {
       "Type": "INT",
-      "IntValue": 1500
+      "IntValue": 2000
+    }
+  },
+  "Relic_Max_Count_Hard_Hint": {
+    "ConstValueName": "Relic_Max_Count_Hard_Hint",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 2500
     }
   },
   "Relic_Max_Count_Hard": {
     "ConstValueName": "Relic_Max_Count_Hard",
     "Value": {
       "Type": "INT",
-      "IntValue": 2000
+      "IntValue": 3000
     }
   },
   "Relic_Exp_ConversionRate": {
@@ -1434,7 +1441,7 @@
     "ConstValueName": "VersionFinalMainMissionID",
     "Value": {
       "Type": "INT",
-      "IntValue": 1030801
+      "IntValue": 1032101
     }
   },
   "Wolf_Bro_Close_State": {
@@ -1456,6 +1463,55 @@
     "Value": {
       "Type": "INT",
       "IntValue": 2
+    }
+  },
+  "Wolf_Bro_Max_Bullet_Cnt": {
+    "ConstValueName": "Wolf_Bro_Max_Bullet_Cnt",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 5
+    }
+  },
+  "Activity_Fever_Time_Round_Limit": {
+    "ConstValueName": "Activity_Fever_Time_Round_Limit",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 5
+    }
+  },
+  "Activity_Fever_Time_Rank_SS_Round": {
+    "ConstValueName": "Activity_Fever_Time_Rank_SS_Round",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 2
+    }
+  },
+  "Activity_Fever_Time_Delay_Warning": {
+    "ConstValueName": "Activity_Fever_Time_Delay_Warning",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 30
+    }
+  },
+  "Activity_Fever_Time_Biggest_Reward": {
+    "ConstValueName": "Activity_Fever_Time_Biggest_Reward",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 6019122
+    }
+  },
+  "Activity_Fever_Time_First_MainMissionID": {
+    "ConstValueName": "Activity_Fever_Time_First_MainMissionID",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 8021201
+    }
+  },
+  "Activity_Fever_Time_Fever_4_TutorialGroupID": {
+    "ConstValueName": "Activity_Fever_Time_Fever_4_TutorialGroupID",
+    "Value": {
+      "Type": "INT",
+      "IntValue": 8113
     }
   }
 }

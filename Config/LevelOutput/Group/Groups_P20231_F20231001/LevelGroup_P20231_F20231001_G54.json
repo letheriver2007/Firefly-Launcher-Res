@@ -5,7 +5,9 @@
   "AreaAnchorName": "LevelArea_P20231_F20231001_G54",
   "LoadSide": "Server",
   "LoadOnInitial": true,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -14,7 +16,6 @@
       "PosZ": 63.78,
       "Name": "Anchor1",
       "RotY": 17.66214,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam02.prefab"
     }
@@ -40,8 +41,8 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -49,7 +50,8 @@
       "StageObjectCapture": {
         "BlockAlias": "F",
         "PrefabAlias": "Censer0"
-      }
+      },
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -69,8 +71,8 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -78,7 +80,8 @@
       "StageObjectCapture": {
         "BlockAlias": "F",
         "PrefabAlias": "Censer1"
-      }
+      },
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300003,
@@ -98,8 +101,8 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -107,7 +110,8 @@
       "StageObjectCapture": {
         "BlockAlias": "F",
         "PrefabAlias": "Censer2"
-      }
+      },
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300004,
@@ -120,8 +124,8 @@
       "InitLevelGraph": "Config/Level/Props/Chap02/InitLevelGraph_Prop_Chap02_X301_CenserVolumeFog_0.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -129,7 +133,8 @@
       "StageObjectCapture": {
         "BlockAlias": "Chap02_F_Polymer",
         "PrefabAlias": "Chap02_X301_FOG0"
-      }
+      },
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

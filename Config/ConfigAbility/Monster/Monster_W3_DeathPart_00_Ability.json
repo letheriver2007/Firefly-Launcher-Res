@@ -2,7 +2,91 @@
   "AbilityList": [
     {
       "Modifiers": {
-        "Monster_W3_DeathPart_00_PreShow": {
+        "Monster_W3_DeathPart_00_PreShow_Attack": {
+          "BehaviorFlagList": [
+            "RemoveWhenCasterDead"
+          ],
+          "_CallbackList": [
+            {
+              "Event": "OnListenAimAtTargetsRefresh_CL",
+              "CallbackConfig": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByCompareTarget",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "CurrentTurnActionEntity"
+                        },
+                        "CompareType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        }
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByTargetListIntersects",
+                        "FirstTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "CurrentAimAtTarget"
+                        },
+                        "SecondTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "Caster"
+                        }
+                      }
+                    ]
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValueByPropertyClientOnly",
+                      "DynamicKey": "MDF_MaxHP",
+                      "ReadTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "Value": "MaxHP"
+                    },
+                    {
+                      "$type": "RPG.GameCore.ToggleSkillPreShow",
+                      "Enable": true,
+                      "AllowSkillType": [
+                        "Normal",
+                        "Skill",
+                        "Ultra"
+                      ],
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "ChangeValue": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQABAQUK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            -1610876898,
+                            -295141034
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Stacking": "ReplaceByCaster",
+          "DynamicValues": {
+            "Values": {
+              "-1610876898": {},
+              "-295141034": {}
+            }
+          }
+        },
+        "Monster_W3_DeathPart_00_PreShow_Break": {
           "BehaviorFlagList": [
             "RemoveWhenCasterDead"
           ],
@@ -78,58 +162,31 @@
                           "ChangeValue": {
                             "IsDynamic": true,
                             "PostfixExpr": {
-                              "OpCodes": "AQAAAAQK",
-                              "FixedValues": [
-                                {
-                                  "Value": 0.4
-                                }
-                              ],
+                              "OpCodes": "AQABAQUK",
+                              "FixedValues": [],
                               "DynamicHashes": [
-                                -1610876898
+                                -1610876898,
+                                -295141034
                               ]
                             }
                           }
                         }
                       ],
-                      "FailedTaskList": [
-                        {
-                          "$type": "RPG.GameCore.ToggleSkillPreShow",
-                          "Enable": true,
-                          "AllowSkillType": [
-                            "Normal",
-                            "Skill",
-                            "Ultra"
-                          ],
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "Caster"
-                          },
-                          "ChangeValue": {
-                            "IsDynamic": true,
-                            "PostfixExpr": {
-                              "OpCodes": "AQAAAAQK",
-                              "FixedValues": [
-                                {
-                                  "Value": 0.2
-                                }
-                              ],
-                              "DynamicHashes": [
-                                -1610876898
-                              ]
-                            }
-                          }
-                        }
-                      ]
+                      "FailedTaskList": []
                     }
                   ]
                 }
               ]
             }
           ],
+          "AdditionConfig": {
+            "FilterMask": "InAttackPhase"
+          },
           "Stacking": "ReplaceByCaster",
           "DynamicValues": {
             "Values": {
-              "-1610876898": {}
+              "-1610876898": {},
+              "-295141034": {}
             }
           }
         }
@@ -159,6 +216,32 @@
               ]
             }
           }
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByCompareMonsterID",
+            "TargetType": {
+              "$type": "RPG.GameCore.TargetAlias",
+              "Alias": "CasterSummoner"
+            },
+            "TargetMonsterID": {
+              "IsDynamic": false,
+              "FixedValue": {
+                "Value": 3014022
+              }
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifierName": "Monster_W3_DeathPart_00_RLBoss_SetMaxHP"
+            }
+          ]
         },
         {
           "$type": "RPG.GameCore.CharacterChangePhase",
@@ -267,7 +350,39 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeamWithAllUnselectableLightTeam"
           },
-          "ModifierName": "Monster_W3_DeathPart_00_PreShow"
+          "ModifierName": "Monster_W3_DeathPart_00_PreShow_Attack",
+          "DynamicValues": {
+            "MDF_ShowValue": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  235146001
+                ]
+              }
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AllLightTeamWithAllUnselectableLightTeam"
+          },
+          "ModifierName": "Monster_W3_DeathPart_00_PreShow_Break",
+          "DynamicValues": {
+            "MDF_ShowValue": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  235146001
+                ]
+              }
+            }
+          }
         }
       ]
     },
@@ -345,7 +460,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_StandBy.prefab"
         },
         {
@@ -354,7 +468,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear_Dissolve_Fast.prefab"
         },
         {
@@ -380,7 +493,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear.prefab"
         },
         {
@@ -441,7 +553,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_ModelCapture.prefab",
               "AttachPoint": "Eff_Ghost",
               "ParamEntityUsage": "ModelCapture",
@@ -529,7 +640,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Die_Rim.prefab"
         },
         {
@@ -546,7 +656,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Die.prefab"
         },
         {
@@ -572,7 +681,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_SoulOut.prefab"
         },
         {
@@ -590,7 +698,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Die_Model.prefab"
         },
         {
@@ -608,7 +715,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Monster_Death_01_Unselectable"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_SoulBack.prefab"
         },
         {
@@ -626,7 +732,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Monster_Death_01_Unselectable"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_SoulBack_Buff.prefab"
         },
         {
@@ -635,7 +740,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Monster_Death_01_Unselectable"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Death_00/Eff_Monster_W3_Death_00_Highlight.prefab"
         },
         {
@@ -836,7 +940,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear_00.prefab"
         },
         {
@@ -845,7 +948,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_StandBy.prefab"
         },
         {
@@ -854,7 +956,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear_Dissolve.prefab"
         },
         {
@@ -937,7 +1038,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Resident"
               ],
@@ -966,7 +1066,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear.prefab"
         },
         {
@@ -992,7 +1091,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_StandBy.prefab"
         },
         {
@@ -1001,7 +1099,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear_Dissolve_Fast.prefab"
         },
         {
@@ -1027,7 +1124,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_Common_Appear.prefab"
         },
         {
@@ -1097,7 +1193,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_DeathPart_00/Eff_Monster_W3_DeathPart_00_ModelCapture.prefab",
               "AttachPoint": "Eff_Ghost",
               "ParamEntityUsage": "ModelCapture",
@@ -1248,7 +1343,7 @@
                       "DynamicHashes": [
                         -514975797,
                         -1610876898,
-                        235146001
+                        -295141034
                       ]
                     }
                   }
@@ -1286,6 +1381,10 @@
                 "PredicateList": [
                   {
                     "$type": "RPG.GameCore.ByAttackType",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
                     "AttackTypes": [
                       "DOT",
                       "ElementDamage"
@@ -1413,7 +1512,7 @@
                       "DynamicHashes": [
                         -514975797,
                         -1610876898,
-                        235146001
+                        -295141034
                       ]
                     }
                   }
@@ -1493,7 +1592,7 @@
                       "DynamicHashes": [
                         -514975797,
                         -1610876898,
-                        235146001
+                        -295141034
                       ]
                     }
                   }

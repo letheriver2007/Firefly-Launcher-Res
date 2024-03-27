@@ -21,7 +21,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_Start.prefab"
         },
         {
@@ -30,7 +29,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_Ground01.prefab"
         },
         {
@@ -48,7 +46,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_Start_Fall.prefab"
         },
         {
@@ -57,7 +54,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_Ground02.prefab"
         }
       ]
@@ -388,7 +384,12 @@
                                     "UIMessageHeight": 1.1,
                                     "Scale": 1.5
                                   },
-                                  "PerformanceDelay": 0.5,
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  },
                                   "IsHitAnimPerformanceDelay": true
                                 }
                               ],
@@ -422,7 +423,12 @@
                                     "UIMessageHeight": 1.1,
                                     "Scale": 1.5
                                   },
-                                  "PerformanceDelay": 0.5,
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  },
                                   "IsHitAnimPerformanceDelay": true
                                 }
                               ]
@@ -593,7 +599,12 @@
                                     "UIMessageHeight": 1.1,
                                     "Scale": 1.5
                                   },
-                                  "PerformanceDelay": 0.5,
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  },
                                   "IsHitAnimPerformanceDelay": true
                                 }
                               ],
@@ -627,7 +638,12 @@
                                     "UIMessageHeight": 1.1,
                                     "Scale": 1.5
                                   },
-                                  "PerformanceDelay": 0.5,
+                                  "PerformanceDelay": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 0.5
+                                    }
+                                  },
                                   "IsHitAnimPerformanceDelay": true
                                 }
                               ]
@@ -849,7 +865,12 @@
                                         "UIMessageHeight": 1.1,
                                         "Scale": 1.5
                                       },
-                                      "PerformanceDelay": 0.3,
+                                      "PerformanceDelay": {
+                                        "IsDynamic": false,
+                                        "FixedValue": {
+                                          "Value": 0.3
+                                        }
+                                      },
                                       "IsHitAnimPerformanceDelay": true
                                     }
                                   ],
@@ -882,7 +903,12 @@
                                         "UIMessageHeight": 1.1,
                                         "Scale": 1.5
                                       },
-                                      "PerformanceDelay": 0.3,
+                                      "PerformanceDelay": {
+                                        "IsDynamic": false,
+                                        "FixedValue": {
+                                          "Value": 0.3
+                                        }
+                                      },
                                       "IsHitAnimPerformanceDelay": true
                                     }
                                   ]
@@ -893,7 +919,6 @@
                                     "$type": "RPG.GameCore.TargetAlias",
                                     "Alias": "ParamEntity"
                                   },
-                                  "IsAttachToTargetEntity": false,
                                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_DeBuff_01.prefab",
                                   "MinMutexTime": -1,
                                   "MinMutexType": "Entity"
@@ -936,7 +961,12 @@
                                 "UIMessageHeight": 1.1,
                                 "Scale": 1.5
                               },
-                              "PerformanceDelay": 0.3,
+                              "PerformanceDelay": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 0.3
+                                }
+                              },
                               "IsHitAnimPerformanceDelay": true
                             },
                             {
@@ -945,7 +975,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "ParamEntity"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Erudition/Eff_BattleEvent_Rogue_Erudition_DeBuff_01.prefab",
                               "MinMutexTime": -1,
                               "MinMutexType": "Entity"

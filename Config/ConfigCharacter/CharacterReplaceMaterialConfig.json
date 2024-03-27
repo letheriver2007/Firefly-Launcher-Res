@@ -29,6 +29,57 @@
       ],
       "OriginProperty": "StoryHoloGram_Common"
     },
+    "ShaJinYoung_Story01": {
+      "RenderList": [
+        {
+          "RenderName": "Body",
+          "MaterialPathList": [
+            "Characters/NPC/Full/W3/ShaJinYoung/Materials/NPC_Full_W3_Child_ShaJinYoung_Story01_Body_Mat.mat"
+          ]
+        },
+        {
+          "RenderName": "Face",
+          "MaterialPathList": [
+            "Characters/NPC/Full/W3/ShaJinYoung/Materials/NPC_Full_W3_Child_ShaJinYoung_Story01_Face_Mat.mat"
+          ]
+        },
+        {
+          "RenderName": "Hair",
+          "MaterialPathList": [
+            "Characters/NPC/Full/W3/ShaJinYoung/Materials/NPC_Full_W3_Child_ShaJinYoung_Story01_Hair_Mat.mat"
+          ]
+        }
+      ]
+    },
+    "Aventurine_00_Phantom": {
+      "RenderList": [
+        {
+          "RenderName": "Body",
+          "MaterialPathList": [
+            "Characters/Avatar/Aventurine/Avatar_00/Materials/Aventurine_00_Mat_Phantom_Body.mat",
+            "Characters/Avatar/Aventurine/Avatar_00/Materials/Aventurine_00_Mat_Phantom_Body.mat"
+          ]
+        },
+        {
+          "RenderName": "Face",
+          "MaterialPathList": [
+            "Characters/Avatar/Aventurine/Avatar_00/Materials/Aventurine_00_Mat_Phantom_Face.mat"
+          ]
+        },
+        {
+          "RenderName": "Face_Mask",
+          "MaterialPathList": [
+            "Characters/Avatar/Aventurine/Avatar_00/Materials/Aventurine_00_Mat_Phantom_Face.mat"
+          ]
+        },
+        {
+          "RenderName": "Hair",
+          "MaterialPathList": [
+            "Characters/Avatar/Aventurine/Avatar_00/Materials/Aventurine_00_Mat_Phantom_Hair.mat"
+          ]
+        }
+      ]
+    },
     "NPC_W0_Male_20_Projection": {
       "RenderList": [
         {

@@ -12,7 +12,9 @@
   },
   "LoadSide": "Server",
   "GroupRefreshID": 1001,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -34,10 +36,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231101,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200002,
@@ -64,10 +66,10 @@
         "ID": 1
       },
       "EventID": 20231102,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200016,
@@ -87,10 +89,10 @@
         "ID": 1
       },
       "EventID": 20231104,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200003,
@@ -117,10 +119,10 @@
         "ID": 1
       },
       "EventID": 20231106,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200004,
@@ -147,10 +149,10 @@
         "ID": 1
       },
       "EventID": 20231107,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200005,
@@ -171,10 +173,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231108,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200006,
@@ -195,10 +197,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231109,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200017,
@@ -219,10 +221,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231110,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200007,
@@ -243,10 +245,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231111,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200018,
@@ -273,10 +275,10 @@
         "ID": 1
       },
       "EventID": 20231112,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200008,
@@ -297,10 +299,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231113,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200009,
@@ -328,10 +330,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231114,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200010,
@@ -352,10 +354,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231115,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200011,
@@ -383,10 +385,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231116,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200019,
@@ -407,10 +409,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231117,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200020,
@@ -431,10 +433,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231118,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200021,
@@ -461,10 +463,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231119,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200012,
@@ -490,10 +492,10 @@
         "ID": 1
       },
       "EventID": 20231124,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200013,
@@ -514,10 +516,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231125,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200014,
@@ -538,10 +540,10 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20231126,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     },
     {
       "ID": 200015,
@@ -562,10 +564,10 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20231127,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
-      ]
+      ],
+      "TagList": []
     }
   ],
   "PropList": [],

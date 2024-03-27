@@ -430,7 +430,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Xueyi/Eff_Avatar_Xueyi_00_Skill02_01.prefab",
           "AttachPoint": "SelectRoot"
         },
@@ -473,7 +472,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Xueyi/Eff_Avatar_Xueyi_00_Skill02_02.prefab",
           "AttachPoint": "SelectRoot"
         },
@@ -571,7 +569,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Xueyi/Eff_Avatar_Xueyi_00_Skill02_Weapon.prefab",
           "AttachPoint": "Origin"
         },
@@ -1572,6 +1569,7 @@
                               "InsertAbilityPriority": "AvatarInsertAttackSelf",
                               "ShowInActionBar": true,
                               "PreCheck": {
+                                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                 "Type": "AbilityOwnerInsertUnusedCount",
                                 "Count": {
                                   "IsDynamic": false,
@@ -1706,6 +1704,7 @@
                               "InsertAbilityPriority": "AvatarInsertAttackSelf",
                               "ShowInActionBar": true,
                               "PreCheck": {
+                                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                 "Type": "AbilityOwnerInsertUnusedCount",
                                 "Count": {
                                   "IsDynamic": false,
@@ -1796,6 +1795,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertUnusedCount",
                         "Count": {
                           "IsDynamic": false,
@@ -1940,6 +1940,7 @@
                               "InsertAbilityPriority": "AvatarInsertAttackSelf",
                               "ShowInActionBar": true,
                               "PreCheck": {
+                                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                 "Type": "AbilityOwnerInsertUnusedCount",
                                 "Count": {
                                   "IsDynamic": false,
@@ -2063,6 +2064,7 @@
                               "InsertAbilityPriority": "AvatarInsertAttackSelf",
                               "ShowInActionBar": true,
                               "PreCheck": {
+                                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                                 "Type": "AbilityOwnerInsertUnusedCount",
                                 "Count": {
                                   "IsDynamic": false,
@@ -3299,9 +3301,6 @@
                           }
                         },
                         {
-                          "$type": "RPG.GameCore.DamagePerformFinish"
-                        },
-                        {
                           "$type": "RPG.GameCore.AddModifier",
                           "TargetType": {
                             "$type": "RPG.GameCore.TargetAlias",
@@ -3310,6 +3309,9 @@
                           "ModifierName": "MAvatar_Xueyi_00_Passive_AddCount"
                         }
                       ]
+                    },
+                    {
+                      "$type": "RPG.GameCore.DamagePerformFinish"
                     },
                     {
                       "$type": "RPG.GameCore.VCameraConfigChange",
@@ -4816,6 +4818,7 @@
                   "InsertAbilityPriority": "AvatarInsertAttackSelf",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": false,
@@ -4867,6 +4870,7 @@
               "InsertAbilityPriority": "AvatarInsertAttackSelf",
               "ShowInActionBar": true,
               "PreCheck": {
+                "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                 "Type": "AbilityOwnerInsertUnusedCount",
                 "Count": {
                   "IsDynamic": false,

@@ -25,28 +25,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -77,
-      -83
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -77,
-      -83,
-      -77,
-      -82
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -56,8 +34,7 @@
       "PosY": 16.28415,
       "PosZ": -164.4044,
       "Name": "Anchor1",
-      "RotY": 123.6982,
-      "MapLayerID": 2
+      "RotY": 123.6982
     },
     {
       "ID": 2,
@@ -68,7 +45,6 @@
       "RotY": 157.0743,
       "RotX": 4.288992,
       "RotZ": 359.7327,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -113,7 +89,6 @@
       },
       "CampID": 4,
       "State": "EventClose",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -170,7 +145,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -226,7 +200,6 @@
       },
       "CampID": 4,
       "EventID": 20311716,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -262,7 +235,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -301,7 +273,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         2,
         4,

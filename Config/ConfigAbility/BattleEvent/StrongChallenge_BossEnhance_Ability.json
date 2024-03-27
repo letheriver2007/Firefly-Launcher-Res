@@ -1752,7 +1752,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeamCenter"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_BattleEvent_ShenYuan_DeBuff.prefab",
               "PositionOffset": {
                 "X": 0,

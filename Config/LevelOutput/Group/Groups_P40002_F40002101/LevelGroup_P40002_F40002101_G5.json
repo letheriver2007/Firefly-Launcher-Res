@@ -11,8 +11,7 @@
       "PosY": -1.4353,
       "PosZ": -73.20801,
       "Name": "Elevator_1F",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 2,
@@ -20,8 +19,7 @@
       "PosY": 20.5647,
       "PosZ": -73.20801,
       "Name": "Elevator_2F",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 3,
@@ -29,8 +27,7 @@
       "PosY": -3.195,
       "PosZ": -73.20801,
       "Name": "Elevator_1F_PlayerPoint",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 4,
@@ -38,8 +35,7 @@
       "PosY": 18.6637,
       "PosZ": -73.20801,
       "Name": "Elevator_2F_PlayerPoint",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -79,7 +75,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -131,7 +126,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -168,7 +162,6 @@
       },
       "CampID": 4,
       "State": "Elevator1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

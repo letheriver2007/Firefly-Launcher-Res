@@ -20,38 +20,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      60,
-      73,
-      60,
-      77,
-      77,
-      86,
-      77,
-      88,
-      75,
-      89,
-      74,
-      90,
-      77,
-      90,
-      62,
-      91,
-      77,
-      91
-    ],
-    "LowerUpperBounds": {
-      "x": -19,
-      "y": 1
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -60,8 +28,7 @@
       "PosX": 127.18,
       "PosY": -30.4823,
       "PosZ": 157.89,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -69,8 +36,7 @@
       "PosY": -37.03782,
       "PosZ": 187.223,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -78,8 +44,7 @@
       "PosY": -37.03782,
       "PosZ": 182.6273,
       "Name": "Anchor3",
-      "RotY": 20.0,
-      "MapLayerID": 1
+      "RotY": 20.0
     },
     {
       "ID": 4,
@@ -87,8 +52,7 @@
       "PosY": -30.48229,
       "PosZ": 154.096,
       "Name": "Anchor4",
-      "RotY": 90.00002,
-      "MapLayerID": 1
+      "RotY": 90.00002
     },
     {
       "ID": 5,
@@ -96,8 +60,7 @@
       "PosY": -37.03782,
       "PosZ": 168.135,
       "Name": "Anchor5",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 6,
@@ -105,8 +68,7 @@
       "PosY": -37.03783,
       "PosZ": 182.447,
       "Name": "Anchor6",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 7,
@@ -114,8 +76,7 @@
       "PosY": -37.03782,
       "PosZ": 174.089,
       "Name": "Anchor7",
-      "RotY": 300.0,
-      "MapLayerID": 1
+      "RotY": 300.0
     },
     {
       "ID": 8,
@@ -123,16 +84,14 @@
       "PosY": -37.03782,
       "PosZ": 179.183,
       "Name": "Anchor8",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 9,
       "PosX": 149.687,
       "PosY": -33.89286,
       "PosZ": 182.786,
-      "Name": "Anchor9",
-      "MapLayerID": 1
+      "Name": "Anchor9"
     },
     {
       "ID": 10,
@@ -142,7 +101,6 @@
       "Name": "TV1Cam",
       "RotY": 340.3672,
       "RotX": 8.110001,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -156,7 +114,6 @@
       "Name": "TV2Cam",
       "RotY": 270.0,
       "RotX": 9.999994,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -170,7 +127,6 @@
       "Name": "TV3Cam",
       "RotY": 180.0,
       "RotX": 7.000011,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -207,7 +163,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -257,7 +212,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -310,7 +264,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -368,7 +321,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -426,7 +378,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -483,7 +434,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -534,7 +484,6 @@
           }
         ]
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -573,7 +522,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -607,7 +555,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "MissionTrigger": {
@@ -654,7 +601,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {
@@ -712,7 +658,6 @@
       },
       "CampID": 4,
       "State": "TeleportGate0",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger_01": {

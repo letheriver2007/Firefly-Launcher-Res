@@ -23,6 +23,16 @@
       ]
     },
     {
+      "PrefabName": "ShopPage",
+      "UIOperations": [
+        {
+          "Path": "Root/Contents/ActivityPanel/PanelContainer/MonthCardPanel(Clone)",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        }
+      ]
+    },
+    {
       "PrefabName": "QuestOverviewDialog",
       "UIOperations": [
         {
@@ -81,7 +91,22 @@
           "ScaleY": 1.2
         },
         {
+          "Path": "Root/Contents/QuestResidentPanel/Root/Contents/PanelContainer/QuestDrinkMakerPanel(Clone)/PictureBg/MonsterPanelPCScaler",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        },
+        {
           "Path": "Root/Contents/QuestLimitedTimePanel/Root/Contents/PanelContainer/QuestSpaceZooPanel(Clone)/PictureBg",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        },
+        {
+          "Path": "Root/Contents/QuestLimitedTimePanel/Root/Contents/PanelContainer/PlayerReturnRecallPanel(Clone)/PictureBg",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        },
+        {
+          "Path": "Root/Contents/QuestLimitedTimePanel/Root/Contents/PanelContainer/QuestFeverTimeChallengePanel(Clone)/Content/CenterImgPanel",
           "ScaleX": 1.2,
           "ScaleY": 1.2
         }
@@ -94,6 +119,36 @@
           "Path": "Root/Main",
           "ScaleX": 1.2,
           "ScaleY": 1.2
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyMiniGameLuckyCookiesAPage",
+      "UIOperations": [
+        {
+          "Path": "Root/PanelContent/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyMiniGameLuckyCookiesBPage",
+      "UIOperations": [
+        {
+          "Path": "Root/PanelContent/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyMiniGameLuckyCookiesCPage",
+      "UIOperations": [
+        {
+          "Path": "Root/PanelContent/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
         }
       ]
     },
@@ -312,14 +367,19 @@
       "PrefabName": "MaterialSynthesisMainPage",
       "UIOperations": [
         {
-          "Path": "Root/Contents/SynthesisRelicSelectedPanel/RightPanel",
+          "Path": "Root/Contents/SynthesisRelicSelectedPanel/RightPanel/Synthesis/MaterialDes/LeftItemPanel",
           "ScaleX": 1.2,
           "ScaleY": 1.2
         },
         {
-          "Path": "Root/Contents/SynthesisPanel",
-          "ScaleX": 1.2,
-          "ScaleY": 1.2
+          "Path": "Root/Contents/SynthesisPanel/NormalPanel/Synthesis/Material0",
+          "ScaleX": 1,
+          "ScaleY": 1
+        },
+        {
+          "Path": "Root/Contents/SynthesisPanel/NormalPanel/SynthesisWithDes/Material0",
+          "ScaleX": 1,
+          "ScaleY": 1
         },
         {
           "Path": "Root/Contents",
@@ -662,6 +722,86 @@
       ]
     },
     {
+      "PrefabName": "MonopolyMiniGameQAMainPage",
+      "UIOperations": [
+        {
+          "Path": "Bg/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        },
+        {
+          "Path": "Root/FrontCover/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        },
+        {
+          "Path": "Root/SendPanel/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyMiniGameQASendPage",
+      "UIOperations": [
+        {
+          "Path": "Bg/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        },
+        {
+          "Path": "Root/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyGetDiceDialog",
+      "UIOperations": [
+        {
+          "Path": "Bg/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        },
+        {
+          "Path": "Root/FrontCover/PCScaler",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyMainEntrancePage",
+      "UIOperations": [
+        {
+          "Path": "Root/PanelContent/PCScaler",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyDailyTransferDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/ServerProgress/PCScaler",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        }
+      ]
+    },
+    {
+      "PrefabName": "MonopolyEventRollDialog",
+      "UIOperations": [
+        {
+          "Path": "Bg/Mask/PictureBg",
+          "ScaleX": 1.25,
+          "ScaleY": 1.25
+        }
+      ]
+    },
+    {
       "PrefabName": "TutorialDialog",
       "AdjustIndentBySafeArea": false,
       "AdjustIndentByScreenAspect": false
@@ -751,12 +891,92 @@
       ]
     },
     {
+      "PrefabName": "DrinkMakerHandBookDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/BookRoot",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerReplyImgDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/BookRoot",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerChallengeDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/BookRoot",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerChallengeHintDailog",
+      "UIOperations": [
+        {
+          "Path": "Root/InfoPanel/Root",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerChallengeResultDailog",
+      "UIOperations": [
+        {
+          "Path": "Root/InfoPanel",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerMenuSelectPage",
+      "UIOperations": [
+        {
+          "Path": "Root/Contents/EntryList",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "DrinkMakerWorkBookDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/BookRoot",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
+      "PrefabName": "ChallengeResultDailog",
+      "UIOperations": [
+        {
+          "Path": "Root/InfoPanel",
+          "ScaleX": 1.12,
+          "ScaleY": 1.12
+        }
+      ]
+    },
+    {
       "PrefabName": "BoxingClubResonanceSelectBuffDialog",
       "UIOperations": [
         {
           "Path": "Root/PanelContent/BuffContent",
-          "ScaleX": 1.15,
-          "ScaleY": 1.15
+          "ScaleX": 1.1,
+          "ScaleY": 1.1
         }
       ]
     },
@@ -857,6 +1077,46 @@
           "Path": "Root/Content",
           "ScaleX": 1.23,
           "ScaleY": 1.23
+        }
+      ]
+    },
+    {
+      "PrefabName": "MakeFilmResultFailDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/Frame/FrameBg",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        },
+        {
+          "Path": "Root/Frame/ClapBoard",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        }
+      ]
+    },
+    {
+      "PrefabName": "MakeFilmResultSuccessDialog",
+      "UIOperations": [
+        {
+          "Path": "Root/Frame/FrameBg",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        },
+        {
+          "Path": "Root/Frame/ClapBoard",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
+        }
+      ]
+    },
+    {
+      "PrefabName": "MakeFilmMainEntrancePage",
+      "UIOperations": [
+        {
+          "Path": "Root/Contents/RightPanel",
+          "ScaleX": 1.2,
+          "ScaleY": 1.2
         }
       ]
     }

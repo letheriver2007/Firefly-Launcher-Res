@@ -5367,6 +5367,507 @@
       "DisplayItemList": []
     }
   },
+  "1020": {
+    "0": {
+      "ID": 1020,
+      "WorldLevel": 0,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954805
+      },
+      "Desc": {
+        "Hash": 106048415
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        }
+      ]
+    },
+    "1": {
+      "ID": 1020,
+      "WorldLevel": 1,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954804
+      },
+      "Desc": {
+        "Hash": 106048414
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        }
+      ]
+    },
+    "2": {
+      "ID": 1020,
+      "WorldLevel": 2,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954803
+      },
+      "Desc": {
+        "Hash": 106048413
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        },
+        {
+          "ItemID": 110212
+        }
+      ]
+    },
+    "3": {
+      "ID": 1020,
+      "WorldLevel": 3,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954802
+      },
+      "Desc": {
+        "Hash": 106048412
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        },
+        {
+          "ItemID": 110212
+        }
+      ]
+    },
+    "4": {
+      "ID": 1020,
+      "WorldLevel": 4,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954809
+      },
+      "Desc": {
+        "Hash": 106048411
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        },
+        {
+          "ItemID": 110212
+        },
+        {
+          "ItemID": 110213
+        }
+      ]
+    },
+    "5": {
+      "ID": 1020,
+      "WorldLevel": 5,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954808
+      },
+      "Desc": {
+        "Hash": 106048410
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110211
+        },
+        {
+          "ItemID": 110212
+        },
+        {
+          "ItemID": 110213
+        }
+      ]
+    },
+    "6": {
+      "ID": 1020,
+      "WorldLevel": 6,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 169,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954807
+      },
+      "Desc": {
+        "Hash": 106048409
+      },
+      "ShowMonsterList": [
+        3002040,
+        3002010,
+        3002030
+      ],
+      "DisplayItemList": []
+    }
+  },
+  "1021": {
+    "0": {
+      "ID": 1021,
+      "WorldLevel": 0,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954836
+      },
+      "Desc": {
+        "Hash": 106048446
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        }
+      ]
+    },
+    "1": {
+      "ID": 1021,
+      "WorldLevel": 1,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954837
+      },
+      "Desc": {
+        "Hash": 106048447
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        }
+      ]
+    },
+    "2": {
+      "ID": 1021,
+      "WorldLevel": 2,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954834
+      },
+      "Desc": {
+        "Hash": 106048444
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        },
+        {
+          "ItemID": 110242
+        }
+      ]
+    },
+    "3": {
+      "ID": 1021,
+      "WorldLevel": 3,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954835
+      },
+      "Desc": {
+        "Hash": 106048445
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        },
+        {
+          "ItemID": 110242
+        }
+      ]
+    },
+    "4": {
+      "ID": 1021,
+      "WorldLevel": 4,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954840
+      },
+      "Desc": {
+        "Hash": 106048442
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        },
+        {
+          "ItemID": 110242
+        },
+        {
+          "ItemID": 110243
+        }
+      ]
+    },
+    "5": {
+      "ID": 1021,
+      "WorldLevel": 5,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954841
+      },
+      "Desc": {
+        "Hash": 106048443
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 50
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110241
+        },
+        {
+          "ItemID": 110242
+        },
+        {
+          "ItemID": 110243
+        }
+      ]
+    },
+    "6": {
+      "ID": 1021,
+      "WorldLevel": 6,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "COCOON",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20223,
+      "FloorID": 20223001,
+      "GroupID": 273,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": 1039954838
+      },
+      "Desc": {
+        "Hash": 106048440
+      },
+      "ShowMonsterList": [
+        2002030,
+        2002010
+      ],
+      "DisplayItemList": []
+    }
+  },
   "1101": {
     "0": {
       "ID": 1101,
@@ -8725,6 +9226,213 @@
       "ShowMonsterList": [
         3003010,
         3002010
+      ],
+      "DisplayItemList": []
+    }
+  },
+  "1117": {
+    "0": {
+      "ID": 1117,
+      "WorldLevel": 0,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049390
+      },
+      "Desc": {
+        "Hash": 489130888
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": []
+    },
+    "1": {
+      "ID": 1117,
+      "WorldLevel": 1,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049391
+      },
+      "Desc": {
+        "Hash": 489130887
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": []
+    },
+    "2": {
+      "ID": 1117,
+      "WorldLevel": 2,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049388
+      },
+      "Desc": {
+        "Hash": 489130890
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 150
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110422
+        }
+      ]
+    },
+    "3": {
+      "ID": 1117,
+      "WorldLevel": 3,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049389
+      },
+      "Desc": {
+        "Hash": 489130889
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 150
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110422
+        }
+      ]
+    },
+    "4": {
+      "ID": 1117,
+      "WorldLevel": 4,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049394
+      },
+      "Desc": {
+        "Hash": 489130892
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 150
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110422
+        }
+      ]
+    },
+    "5": {
+      "ID": 1117,
+      "WorldLevel": 5,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049395
+      },
+      "Desc": {
+        "Hash": 489130891
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
+      ],
+      "DisplayItemList": [
+        {
+          "ItemID": 22,
+          "ItemNum": 150
+        },
+        {
+          "ItemID": 2
+        },
+        {
+          "ItemID": 110422
+        }
+      ]
+    },
+    "6": {
+      "ID": 1117,
+      "WorldLevel": 6,
+      "Type": "FARM_ENTRANCE",
+      "FarmType": "ELEMENT",
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 206,
+      "ConfigID": 300001,
+      "Name": {
+        "Hash": -1951049392
+      },
+      "Desc": {
+        "Hash": 489130894
+      },
+      "ShowMonsterList": [
+        3013010,
+        3011010
       ],
       "DisplayItemList": []
     }
@@ -16504,6 +17212,38 @@
       "DisplayItemList": []
     }
   },
+  "2363": {
+    "0": {
+      "ID": 2363,
+      "WorldLevel": 0,
+      "Type": "REWARD_COLLECTION",
+      "InitialEnable": true,
+      "Name": {
+        "Hash": 311871684
+      },
+      "Desc": {
+        "Hash": -653984126
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2364": {
+    "0": {
+      "ID": 2364,
+      "WorldLevel": 0,
+      "Type": "REWARD_COLLECTION",
+      "InitialEnable": true,
+      "Name": {
+        "Hash": 311871653
+      },
+      "Desc": {
+        "Hash": -653984421
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
   "10055": {
     "0": {
       "ID": 10055,
@@ -16746,6 +17486,9 @@
           "ItemID": 22
         },
         {
+          "ItemID": 236
+        },
+        {
           "ItemID": 241
         },
         {
@@ -16756,6 +17499,9 @@
         },
         {
           "ItemID": 21035
+        },
+        {
+          "ItemID": 21036
         },
         {
           "ItemID": 213
@@ -16959,6 +17705,86 @@
       },
       "Desc": {
         "Hash": 932302496
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2395": {
+    "0": {
+      "ID": 2395,
+      "WorldLevel": 0,
+      "Type": "ACTIVITY_ENTRANCE",
+      "Name": {
+        "Hash": -508252065
+      },
+      "Desc": {
+        "Hash": 932302593
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": [],
+      "EntranceID": 2000302
+    }
+  },
+  "2397": {
+    "0": {
+      "ID": 2397,
+      "WorldLevel": 0,
+      "Type": "ACTIVITY_ENTRANCE",
+      "IsTeleport": true,
+      "PlaneID": 20311,
+      "FloorID": 20311001,
+      "GroupID": 409,
+      "ConfigID": 300001,
+      "InitialEnable": true,
+      "Name": {
+        "Hash": -508251999
+      },
+      "Desc": {
+        "Hash": 932302659
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2398": {
+    "0": {
+      "ID": 2398,
+      "WorldLevel": 0,
+      "Name": {
+        "Hash": -508252558
+      },
+      "Desc": {
+        "Hash": 932302364
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2399": {
+    "0": {
+      "ID": 2399,
+      "WorldLevel": 0,
+      "Name": {
+        "Hash": -508252461
+      },
+      "Desc": {
+        "Hash": 932302461
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2400": {
+    "0": {
+      "ID": 2400,
+      "WorldLevel": 0,
+      "Type": "ACTIVITY_ENTRANCE",
+      "Name": {
+        "Hash": 29552030
+      },
+      "Desc": {
+        "Hash": 1470098240
       },
       "ShowMonsterList": [],
       "DisplayItemList": []
@@ -20258,6 +21084,20 @@
       "DisplayItemList": []
     }
   },
+  "10065": {
+    "0": {
+      "ID": 10065,
+      "WorldLevel": 0,
+      "Name": {
+        "Hash": -603427676
+      },
+      "Desc": {
+        "Hash": 1932469006
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
   "10066": {
     "0": {
       "ID": 10066,
@@ -20267,6 +21107,20 @@
       },
       "Desc": {
         "Hash": -493886371
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "10067": {
+    "0": {
+      "ID": 10067,
+      "WorldLevel": 0,
+      "Name": {
+        "Hash": -885752678
+      },
+      "Desc": {
+        "Hash": -2080173288
       },
       "ShowMonsterList": [],
       "DisplayItemList": []
@@ -22519,6 +23373,163 @@
       },
       "Desc": {
         "Hash": -1156119693
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032100": {
+    "0": {
+      "ID": 2032100,
+      "WorldLevel": 0,
+      "IsShowInFog": true,
+      "Name": {
+        "Hash": -781668740
+      },
+      "Desc": {
+        "Hash": -1318263362
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032101": {
+    "0": {
+      "ID": 2032101,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 7,
+      "ConfigID": 300001,
+      "InitialEnable": true,
+      "Name": {
+        "Hash": 804618177
+      },
+      "Desc": {
+        "Hash": 268023555
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032102": {
+    "0": {
+      "ID": 2032102,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 7,
+      "ConfigID": 300002,
+      "Name": {
+        "Hash": -1063993742
+      },
+      "Desc": {
+        "Hash": -1035938360
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032103": {
+    "0": {
+      "ID": 2032103,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 7,
+      "ConfigID": 300003,
+      "Name": {
+        "Hash": 522293175
+      },
+      "Desc": {
+        "Hash": 550348557
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032104": {
+    "0": {
+      "ID": 2032104,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20321,
+      "FloorID": 20321001,
+      "GroupID": 7,
+      "ConfigID": 300004,
+      "Name": {
+        "Hash": -1346318744
+      },
+      "Desc": {
+        "Hash": -1882913366
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032201": {
+    "0": {
+      "ID": 2032201,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 37,
+      "ConfigID": 300001,
+      "InitialEnable": true,
+      "Name": {
+        "Hash": -285567534
+      },
+      "Desc": {
+        "Hash": 631418792
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032202": {
+    "0": {
+      "ID": 2032202,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 37,
+      "ConfigID": 300002,
+      "Name": {
+        "Hash": -1307204447
+      },
+      "Desc": {
+        "Hash": -954868125
+      },
+      "ShowMonsterList": [],
+      "DisplayItemList": []
+    }
+  },
+  "2032203": {
+    "0": {
+      "ID": 2032203,
+      "WorldLevel": 0,
+      "IsTeleport": true,
+      "IsShowInFog": true,
+      "PlaneID": 20322,
+      "FloorID": 20322001,
+      "GroupID": 37,
+      "ConfigID": 300003,
+      "Name": {
+        "Hash": -3242532
+      },
+      "Desc": {
+        "Hash": 349093790
       },
       "ShowMonsterList": [],
       "DisplayItemList": []

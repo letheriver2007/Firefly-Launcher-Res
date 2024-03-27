@@ -1940,7 +1940,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]
@@ -2776,7 +2775,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_JingYuan/Eff_Avatar_JingYuan_00_Common_BattleEventHit01.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -3034,7 +3032,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_JingYuan/Eff_Avatar_JingYuan_00_Common_BattleEventHit02.prefab",
                   "AttachPoint": "Origin"
                 },

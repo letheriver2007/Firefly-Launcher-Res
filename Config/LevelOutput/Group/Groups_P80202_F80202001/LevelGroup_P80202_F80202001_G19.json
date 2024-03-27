@@ -7,22 +7,6 @@
   "LoadOnInitial": true,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      89,
-      76,
-      94,
-      79
-    ],
-    "LowerUpperBounds": {
-      "x": 300,
-      "y": 301
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -31,8 +15,7 @@
       "PosY": 82.82224,
       "PosZ": 156.19,
       "Name": "Anchor1",
-      "RotY": 90.00001,
-      "MapLayerID": 2
+      "RotY": 90.00001
     }
   ],
   "MonsterList": [],
@@ -59,7 +42,6 @@
       },
       "CampID": 4,
       "State": "CustomState01",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -81,7 +63,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -100,7 +81,6 @@
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
       "EventID": 80210001,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

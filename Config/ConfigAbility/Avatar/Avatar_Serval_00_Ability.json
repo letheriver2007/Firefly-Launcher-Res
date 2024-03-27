@@ -143,7 +143,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Serval/Eff_Avatar_Serval_00_Skill01_Hit01.prefab",
           "AttachPoint": "Origin"
         },
@@ -234,7 +233,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Serval/Eff_Avatar_Serval_00_Skill01_Hit01.prefab",
                   "AttachPoint": "Origin"
                 },
@@ -478,7 +476,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Serval/Eff_Avatar_Serval_00_Skill02_Hit01.prefab",
           "AttachPoint": "Origin"
         },
@@ -1169,7 +1166,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Serval/Eff_Avatar_Serval_00_Passive01_Start.prefab"
                     },
                     {
@@ -1315,7 +1311,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
                     }
                   ]

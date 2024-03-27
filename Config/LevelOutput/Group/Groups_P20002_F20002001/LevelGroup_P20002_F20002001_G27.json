@@ -45,7 +45,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20002231,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -75,7 +74,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20002233,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ],
@@ -108,7 +106,6 @@
       },
       "CampID": 4,
       "State": "ChestLocked",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -133,7 +130,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -161,7 +157,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

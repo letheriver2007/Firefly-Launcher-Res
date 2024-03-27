@@ -9,32 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      64,
-      -95,
-      64,
-      -94
-    ],
-    "LowerUpperBounds": {
-      "x": 10,
-      "y": 12
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      64,
-      -95,
-      64,
-      -94,
-      65,
-      -94
-    ],
-    "LowerUpperBounds": {
-      "x": 10,
-      "y": 12
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -47,7 +21,6 @@
       "RotY": 238.0,
       "RotX": 4.658795,
       "RotZ": 358.7705,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -71,7 +44,6 @@
       "RotY": 245.3,
       "RotX": 45.7,
       "RotZ": 4.6E-5,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -97,7 +69,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -126,7 +97,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultBlendShapeConfigName": "Close01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 3,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010297,

@@ -8,26 +8,6 @@
   "OwnerMainMissionID": 4140103,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      43,
-      -29
-    ],
-    "LowerUpperBounds": {
-      "x": -17232,
-      "y": -17231
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      43,
-      -29
-    ],
-    "LowerUpperBounds": {
-      "x": -17232,
-      "y": -17231
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -43,7 +23,6 @@
       "NPCID": 1106,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311060231,

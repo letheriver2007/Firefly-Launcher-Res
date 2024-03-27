@@ -23,30 +23,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -8,
-      42
-    ],
-    "LowerUpperBounds": {
-      "x": 123,
-      "y": 124
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      1,
-      39,
-      -8,
-      42,
-      1,
-      46
-    ],
-    "LowerUpperBounds": {
-      "x": 123,
-      "y": 127
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -55,8 +31,7 @@
       "PosY": 5.433091,
       "PosZ": 83.311,
       "Name": "Anchor1",
-      "RotY": 350.549,
-      "MapLayerID": 2
+      "RotY": 350.549
     },
     {
       "ID": 2,
@@ -64,8 +39,7 @@
       "PosY": 5.52344,
       "PosZ": 78.96944,
       "Name": "Anchor2",
-      "RotY": 88.39572,
-      "MapLayerID": 2
+      "RotY": 88.39572
     }
   ],
   "MonsterList": [],
@@ -88,7 +62,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -106,7 +79,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -133,7 +105,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -154,7 +125,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,

@@ -1657,7 +1657,7 @@
           "Value": 0.5
         }
       ],
-      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffDamageResistanceIce.png",
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconImmuneFrozen.png",
       "BuffName": {
         "Hash": 948795107
       },
@@ -13152,35 +13152,6 @@
       "IsDisplayEnvInLevel": true
     }
   },
-  "999901": {
-    "1": {
-      "ID": 999901,
-      "BuffSeries": 1,
-      "BuffRarity": 1,
-      "Lv": 1,
-      "LvMax": 1,
-      "ModifierName": "ADV_StageAbility_999901",
-      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
-      "InBattleBindingKey": "FantasticStory_Environment_Ability_0001",
-      "ParamList": [],
-      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
-      "BuffName": {
-        "Hash": 1354018532
-      },
-      "BuffDesc": {
-        "Hash": 1354018532
-      },
-      "BuffSimpleDesc": {
-        "Hash": 371857150
-      },
-      "BuffDescBattle": {
-        "Hash": 1354018532
-      },
-      "BuffEffect": "",
-      "MazeBuffType": "Character",
-      "MazeBuffIconType": "Buff"
-    }
-  },
   "31002001": {
     "1": {
       "ID": 31002001,
@@ -16166,7 +16137,7 @@
           "Value": 0.3
         }
       ],
-      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffDamageResistanceIce.png",
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconImmuneFrozen.png",
       "BuffName": {
         "Hash": -334963831
       },
@@ -31957,7 +31928,7 @@
       "InBattleBindingKey": "LevelAbility_ActivityTelevision_Dinosaur",
       "ParamList": [
         {
-          "Value": 8
+          "Value": 9
         },
         {
           "Value": 0.5
@@ -32004,7 +31975,7 @@
       "InBattleBindingKey": "LevelAbility_ActivityTelevision_Beast",
       "ParamList": [
         {
-          "Value": 8
+          "Value": 30
         },
         {
           "Value": 0.1
@@ -32048,7 +32019,7 @@
       "InBattleBindingKey": "LevelAbility_ActivityTelevision_TV",
       "ParamList": [
         {
-          "Value": 8
+          "Value": 21
         },
         {
           "Value": 0.04
@@ -33027,7 +32998,7 @@
           "Value": 4
         }
       ],
-      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffDamageResistanceFire.png",
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconImmuneBurn.png",
       "BuffName": {
         "Hash": -1954750090
       },
@@ -33363,6 +33334,48 @@
       "MazeBuffIconType": "Other"
     }
   },
+  "3030126": {
+    "1": {
+      "ID": 3030126,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_MazeCommon_Empty",
+      "InBattleBindingKey": "",
+      "ParamList": [
+        {
+          "Value": 6
+        },
+        {
+          "Value": 0.05
+        },
+        {
+          "Value": 0.6
+        },
+        {
+          "Value": 0.15
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
+      "BuffName": {
+        "Hash": -1233619475
+      },
+      "BuffDesc": {
+        "Hash": -1753371413
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1753371413
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true
+    }
+  },
   "650299": {
     "1": {
       "ID": 650299,
@@ -33409,6 +33422,228 @@
       "IsDisplayEnvInLevel": true
     }
   },
+  "3031310": {
+    "1": {
+      "ID": 3031310,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031310",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0014",
+      "ParamList": [
+        {
+          "Value": 0.8
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff123.png",
+      "BuffName": {
+        "Hash": -709375325
+      },
+      "BuffDesc": {
+        "Hash": 1661121569
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 1661121569
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3031311": {
+    "1": {
+      "ID": 3031311,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031311",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0015",
+      "ParamList": [
+        {
+          "Value": 0.1
+        },
+        {
+          "Value": 3
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff124.png",
+      "BuffName": {
+        "Hash": 2019508030
+      },
+      "BuffDesc": {
+        "Hash": 95037628
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 95037628
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3031312": {
+    "1": {
+      "ID": 3031312,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031312",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0016",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.25
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff125.png",
+      "BuffName": {
+        "Hash": -1872174739
+      },
+      "BuffDesc": {
+        "Hash": -1471046313
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1471046313
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3031313": {
+    "1": {
+      "ID": 3031313,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031313",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0034",
+      "ParamList": [
+        {
+          "Value": 3
+        },
+        {
+          "Value": 0.6
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff126.png",
+      "BuffName": {
+        "Hash": 856708616
+      },
+      "BuffDesc": {
+        "Hash": 1257837042
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 1257837042
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3031314": {
+    "1": {
+      "ID": 3031314,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031314",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0035",
+      "ParamList": [
+        {
+          "Value": 0.35
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff127.png",
+      "BuffName": {
+        "Hash": 1616223503
+      },
+      "BuffDesc": {
+        "Hash": -308246899
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -308246899
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3031315": {
+    "1": {
+      "ID": 3031315,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3031315",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "FantasticStory_PlusAbility_0036",
+      "ParamList": [
+        {
+          "Value": 0.18
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff128.png",
+      "BuffName": {
+        "Hash": 50139562
+      },
+      "BuffDesc": {
+        "Hash": -1874330840
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1874330840
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
   "2031102": {
     "1": {
       "ID": 2031102,
@@ -33443,6 +33678,1523 @@
       "BuffEffect": "",
       "MazeBuffType": "Level",
       "MazeBuffIconType": "Other"
+    }
+  },
+  "3107001": {
+    "1": {
+      "ID": 3107001,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107001",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107001",
+      "ParamList": [
+        {
+          "Value": 30
+        },
+        {
+          "Value": 90
+        },
+        {
+          "Value": 240
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 20
+        },
+        {
+          "Value": 100
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 1.2
+        },
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 2000
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_01.png",
+      "BuffName": {
+        "Hash": -92315616
+      },
+      "BuffDesc": {
+        "Hash": -1127855338
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064325300
+      },
+      "BuffDescBattle": {
+        "Hash": -1127855338
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107002": {
+    "1": {
+      "ID": 3107002,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107002",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107002",
+      "ParamList": [
+        {
+          "Value": 2.4
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 0.5
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_07.png",
+      "BuffName": {
+        "Hash": 310968911
+      },
+      "BuffDesc": {
+        "Hash": 1601028017
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064325271
+      },
+      "BuffDescBattle": {
+        "Hash": 1601028017
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107003": {
+    "1": {
+      "ID": 3107003,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107003",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107003",
+      "ParamList": [
+        {
+          "Value": 2.2
+        },
+        {
+          "Value": 2.8
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_08.png",
+      "BuffName": {
+        "Hash": -1255115030
+      },
+      "BuffDesc": {
+        "Hash": 34944076
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064325366
+      },
+      "BuffDescBattle": {
+        "Hash": 34944076
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107004": {
+    "1": {
+      "ID": 3107004,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107004",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107004",
+      "ParamList": [
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpUltra.png",
+      "BuffName": {
+        "Hash": -495600143
+      },
+      "BuffDesc": {
+        "Hash": -1531139865
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064325073
+      },
+      "BuffDescBattle": {
+        "Hash": -1531139865
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107005": {
+    "1": {
+      "ID": 3107005,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107005",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107005",
+      "ParamList": [
+        {
+          "Value": 1.5
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffExAttack.png",
+      "BuffName": {
+        "Hash": -2061684084
+      },
+      "BuffDesc": {
+        "Hash": 1197743490
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064325168
+      },
+      "BuffDescBattle": {
+        "Hash": 1197743490
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107101": {
+    "1": {
+      "ID": 3107101,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107101",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107101",
+      "ParamList": [
+        {
+          "Value": 20
+        },
+        {
+          "Value": 120
+        },
+        {
+          "Value": 280
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 0
+        },
+        {
+          "Value": 100
+        },
+        {
+          "Value": 0.8
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 2
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_02.png",
+      "BuffName": {
+        "Hash": 48846885
+      },
+      "BuffDesc": {
+        "Hash": -986692837
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064328437
+      },
+      "BuffDescBattle": {
+        "Hash": -986692837
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107102": {
+    "1": {
+      "ID": 3107102,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107102",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107102",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 12
+        }
+      ],
+      "BuffIcon": "SpriteOutput/Rogue/Buff/IconRogueBuffSpeed.png",
+      "BuffName": {
+        "Hash": 1614930826
+      },
+      "BuffDesc": {
+        "Hash": -1389977364
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064328470
+      },
+      "BuffDescBattle": {
+        "Hash": -1389977364
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107103": {
+    "1": {
+      "ID": 3107103,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107103",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107103",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 6
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 4
+        },
+        {
+          "Value": 6
+        },
+        {
+          "Value": 8
+        },
+        {
+          "Value": 10
+        },
+        {
+          "Value": 12
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/ActivityFantasticStoryBuff/ActivityBattleBuff122.png",
+      "BuffName": {
+        "Hash": -1113952529
+      },
+      "BuffDesc": {
+        "Hash": 176106577
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064328503
+      },
+      "BuffDescBattle": {
+        "Hash": 176106577
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107104": {
+    "1": {
+      "ID": 3107104,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107104",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107104",
+      "ParamList": [
+        {
+          "Value": 0.03
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 4
+        },
+        {
+          "Value": 6
+        },
+        {
+          "Value": 8
+        },
+        {
+          "Value": 10
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpInsert.png",
+      "BuffName": {
+        "Hash": 808361772
+      },
+      "BuffDesc": {
+        "Hash": -227177950
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064328272
+      },
+      "BuffDescBattle": {
+        "Hash": -227177950
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107105": {
+    "1": {
+      "ID": 3107105,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107105",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107105",
+      "ParamList": [
+        {
+          "Value": 0.01
+        },
+        {
+          "Value": 0.1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffBomb.png",
+      "BuffName": {
+        "Hash": -1920521583
+      },
+      "BuffDesc": {
+        "Hash": 1338905991
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064328305
+      },
+      "BuffDescBattle": {
+        "Hash": 1338905991
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "408620": {
+    "1": {
+      "ID": 408620,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_ItemAbility_408620",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "ItemAbility_408620",
+      "ParamList": [
+        {
+          "Value": 0.36
+        },
+        {
+          "Value": 0.18
+        },
+        {
+          "Value": 0.36
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
+      "BuffName": {
+        "Hash": 1936932676
+      },
+      "BuffDesc": {
+        "Hash": -1322572806
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1322572806
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Team",
+      "MazeBuffIconType": "Buff",
+      "MazeBuffPool": 11,
+      "IsDisplay": true
+    }
+  },
+  "408621": {
+    "1": {
+      "ID": 408621,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_ItemAbility_408621",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "ItemAbility_408621",
+      "ParamList": [
+        {
+          "Value": 0.36
+        },
+        {
+          "Value": 0.3
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffDefenceUp.png",
+      "BuffName": {
+        "Hash": 1936932677
+      },
+      "BuffDesc": {
+        "Hash": -1322572805
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1322572805
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Team",
+      "MazeBuffIconType": "Buff",
+      "MazeBuffPool": 12,
+      "IsDisplay": true
+    }
+  },
+  "408622": {
+    "1": {
+      "ID": 408622,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_ItemAbility_408622",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "ItemAbility_408622",
+      "ParamList": [
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 0.05
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffSpeedUp.png",
+      "BuffName": {
+        "Hash": 1936932678
+      },
+      "BuffDesc": {
+        "Hash": -1322572804
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1322572804
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Team",
+      "MazeBuffIconType": "Buff",
+      "MazeBuffPool": 11,
+      "IsDisplay": true
+    }
+  },
+  "408623": {
+    "1": {
+      "ID": 408623,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_ItemAbility_408623",
+      "InBattleBindingType": "StageAbilityAfterCharacterBorn",
+      "InBattleBindingKey": "ItemAbility_408623",
+      "ParamList": [
+        {
+          "Value": 0.36
+        },
+        {
+          "Value": 0.1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpElement.png",
+      "BuffName": {
+        "Hash": 1936932679
+      },
+      "BuffDesc": {
+        "Hash": -1322572803
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": -1322572803
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Team",
+      "MazeBuffIconType": "Buff",
+      "MazeBuffPool": 11,
+      "IsDisplay": true
+    }
+  },
+  "3107201": {
+    "1": {
+      "ID": 3107201,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107201",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107201",
+      "ParamList": [
+        {
+          "Value": 60
+        },
+        {
+          "Value": 120
+        },
+        {
+          "Value": 250
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 80
+        },
+        {
+          "Value": 100
+        },
+        {
+          "Value": 3
+        },
+        {
+          "Value": 0.4
+        },
+        {
+          "Value": 6
+        },
+        {
+          "Value": 0.8
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_03.png",
+      "BuffName": {
+        "Hash": 190009386
+      },
+      "BuffDesc": {
+        "Hash": -1410180340
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064327478
+      },
+      "BuffDescBattle": {
+        "Hash": -1410180340
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107202": {
+    "1": {
+      "ID": 3107202,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107202",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107202",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.3
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconDeBuffDamageTakenRatio.png",
+      "BuffName": {
+        "Hash": -1376074555
+      },
+      "BuffDesc": {
+        "Hash": -1006895813
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064327317
+      },
+      "BuffDescBattle": {
+        "Hash": -1006895813
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107203": {
+    "1": {
+      "ID": 3107203,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107203",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107203",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.5
+        },
+        {
+          "Value": 0.06
+        },
+        {
+          "Value": 0
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffDotDamageAddedRatio.png",
+      "BuffName": {
+        "Hash": 1352808800
+      },
+      "BuffDesc": {
+        "Hash": 1721987542
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064327412
+      },
+      "BuffDescBattle": {
+        "Hash": 1721987542
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107204": {
+    "1": {
+      "ID": 3107204,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107204",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107204",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpUltra.png",
+      "BuffName": {
+        "Hash": -213275141
+      },
+      "BuffDesc": {
+        "Hash": -1813464867
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064327251
+      },
+      "BuffDescBattle": {
+        "Hash": -1813464867
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107205": {
+    "1": {
+      "ID": 3107205,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107205",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107205",
+      "ParamList": [
+        {
+          "Value": 0.5
+        },
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 5
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconDeBuffDotDeepen.png",
+      "BuffName": {
+        "Hash": -1779359082
+      },
+      "BuffDesc": {
+        "Hash": 915418488
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064327346
+      },
+      "BuffDescBattle": {
+        "Hash": 915418488
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107301": {
+    "1": {
+      "ID": 3107301,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107301",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107301",
+      "ParamList": [
+        {
+          "Value": 30
+        },
+        {
+          "Value": 90
+        },
+        {
+          "Value": 270
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 30
+        },
+        {
+          "Value": 90
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 1.5
+        },
+        {
+          "Value": 0.05
+        },
+        {
+          "Value": 2
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_04.png",
+      "BuffName": {
+        "Hash": 331171887
+      },
+      "BuffDesc": {
+        "Hash": -1269017839
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064330615
+      },
+      "BuffDescBattle": {
+        "Hash": -1269017839
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107302": {
+    "1": {
+      "ID": 3107302,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107302",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107302",
+      "ParamList": [
+        {
+          "Value": 1.2
+        },
+        {
+          "Value": 90
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconMonsterSuperArmorBreak.png",
+      "BuffName": {
+        "Hash": -72112640
+      },
+      "BuffDesc": {
+        "Hash": 297066102
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064330516
+      },
+      "BuffDescBattle": {
+        "Hash": 297066102
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107303": {
+    "1": {
+      "ID": 3107303,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107303",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107303",
+      "ParamList": [
+        {
+          "Value": 0.5
+        },
+        {
+          "Value": 0.7
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffStanceBreakAddedRatio.png",
+      "BuffName": {
+        "Hash": 1493971301
+      },
+      "BuffDesc": {
+        "Hash": 1863150043
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064330549
+      },
+      "BuffDescBattle": {
+        "Hash": 1863150043
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107304": {
+    "1": {
+      "ID": 3107304,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107304",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107304",
+      "ParamList": [
+        {
+          "Value": 0.3
+        },
+        {
+          "Value": 3
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffBreakDamage.png",
+      "BuffName": {
+        "Hash": 1090686774
+      },
+      "BuffDesc": {
+        "Hash": -509502952
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064330450
+      },
+      "BuffDescBattle": {
+        "Hash": -509502952
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107305": {
+    "1": {
+      "ID": 3107305,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107305",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107305",
+      "ParamList": [
+        {
+          "Value": 0.8
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconDeBuffDamageTakenRatio.png",
+      "BuffName": {
+        "Hash": -1638196581
+      },
+      "BuffDesc": {
+        "Hash": 1056580989
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064330483
+      },
+      "BuffDescBattle": {
+        "Hash": 1056580989
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107401": {
+    "1": {
+      "ID": 3107401,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107401",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107401",
+      "ParamList": [
+        {
+          "Value": 30
+        },
+        {
+          "Value": 120
+        },
+        {
+          "Value": 200
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 20
+        },
+        {
+          "Value": 1500
+        },
+        {
+          "Value": 0.7
+        },
+        {
+          "Value": 0.25
+        },
+        {
+          "Value": 0.05
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_05.png",
+      "BuffName": {
+        "Hash": -656965620
+      },
+      "BuffDesc": {
+        "Hash": -1692505342
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064320944
+      },
+      "BuffDescBattle": {
+        "Hash": -1692505342
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107402": {
+    "1": {
+      "ID": 3107402,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107402",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107402",
+      "ParamList": [
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 0.02
+        },
+        {
+          "Value": 0.1
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.6
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffCriticalDamage.png",
+      "BuffName": {
+        "Hash": -253681093
+      },
+      "BuffDesc": {
+        "Hash": 1036378013
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064320915
+      },
+      "BuffDescBattle": {
+        "Hash": 1036378013
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107403": {
+    "1": {
+      "ID": 3107403,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107403",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107403",
+      "ParamList": [
+        {
+          "Value": 0.2
+        },
+        {
+          "Value": 0.6
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 0.02
+        },
+        {
+          "Value": 0.1
+        },
+        {
+          "Value": 2
+        },
+        {
+          "Value": 10
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffCritical.png",
+      "BuffName": {
+        "Hash": -1819765034
+      },
+      "BuffDesc": {
+        "Hash": -529705928
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064321010
+      },
+      "BuffDescBattle": {
+        "Hash": -529705928
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107404": {
+    "1": {
+      "ID": 3107404,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107404",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107404",
+      "ParamList": [
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
+      "BuffName": {
+        "Hash": -1416480507
+      },
+      "BuffDesc": {
+        "Hash": 1842947067
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064320981
+      },
+      "BuffDescBattle": {
+        "Hash": 1842947067
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107405": {
+    "1": {
+      "ID": 3107405,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107405",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107405",
+      "ParamList": [
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpUltra.png",
+      "BuffName": {
+        "Hash": 1312402848
+      },
+      "BuffDesc": {
+        "Hash": 276863126
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064321076
+      },
+      "BuffDescBattle": {
+        "Hash": 276863126
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107501": {
+    "1": {
+      "ID": 3107501,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107501",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107501",
+      "ParamList": [
+        {
+          "Value": 60
+        },
+        {
+          "Value": 100
+        },
+        {
+          "Value": 240
+        },
+        {
+          "Value": 5
+        },
+        {
+          "Value": 60
+        },
+        {
+          "Value": 100
+        },
+        {
+          "Value": 3
+        },
+        {
+          "Value": 1
+        },
+        {
+          "Value": 3
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffFeverTime_06.png",
+      "BuffName": {
+        "Hash": -515803119
+      },
+      "BuffDesc": {
+        "Hash": -1551342841
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064324081
+      },
+      "BuffDescBattle": {
+        "Hash": -1551342841
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107503": {
+    "1": {
+      "ID": 3107503,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107503",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107503",
+      "ParamList": [
+        {
+          "Value": 0.33
+        },
+        {
+          "Value": 0.3
+        },
+        {
+          "Value": 0.5
+        },
+        {
+          "Value": 3
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconDeBuffSPRatioDown.png",
+      "BuffName": {
+        "Hash": -1678602533
+      },
+      "BuffDesc": {
+        "Hash": -388543427
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064324147
+      },
+      "BuffDescBattle": {
+        "Hash": -388543427
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107504": {
+    "1": {
+      "ID": 3107504,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107504",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107504",
+      "ParamList": [
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
+      "BuffName": {
+        "Hash": -112518592
+      },
+      "BuffDesc": {
+        "Hash": -1148058314
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064324180
+      },
+      "BuffDescBattle": {
+        "Hash": -1148058314
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107505": {
+    "1": {
+      "ID": 3107505,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107505",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107505",
+      "ParamList": [
+        {
+          "Value": 0.25
+        },
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUpUltra.png",
+      "BuffName": {
+        "Hash": 1453565349
+      },
+      "BuffDesc": {
+        "Hash": 418025627
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064324213
+      },
+      "BuffDescBattle": {
+        "Hash": 418025627
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
+    }
+  },
+  "3107502": {
+    "1": {
+      "ID": 3107502,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_3107502",
+      "InBattleBindingType": "StageAbilityBeforeCharacterBorn",
+      "InBattleBindingKey": "StageAbility_3107502",
+      "ParamList": [
+        {
+          "Value": 1
+        },
+        {
+          "Value": 1
+        }
+      ],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffMaxSP.png",
+      "BuffName": {
+        "Hash": 1050280822
+      },
+      "BuffDesc": {
+        "Hash": -1954627368
+      },
+      "BuffSimpleDesc": {
+        "Hash": -1064324114
+      },
+      "BuffDescBattle": {
+        "Hash": -1954627368
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Level",
+      "MazeBuffIconType": "Buff",
+      "IsDisplay": true,
+      "IsDisplayEnvInLevel": true
     }
   }
 }

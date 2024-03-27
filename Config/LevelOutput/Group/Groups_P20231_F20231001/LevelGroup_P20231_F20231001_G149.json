@@ -22,7 +22,9 @@
     ]
   },
   "OwnerMainMissionID": 4040249,
+  "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [
     {
       "ID": 1,
@@ -31,7 +33,6 @@
       "PosZ": -12.30599,
       "Name": "Anchor1",
       "RotY": 162.8192,
-      "MapLayerID": 2,
       "Usage": "Actor"
     },
     {
@@ -41,10 +42,12 @@
       "PosZ": -11.79521,
       "Name": "Anchor2",
       "RotY": 238.09,
-      "RotX": 8.582782,
+      "RotX": 8.582784,
       "RotZ": 358.9326,
-      "MapLayerID": 2,
-      "Usage": "Camera"
+      "Usage": "Camera",
+      "CustomParameter": {
+        "$type": "LevelAnchorCameraParameter"
+      }
     }
   ],
   "MonsterList": [],
@@ -59,11 +62,11 @@
       "NPCID": 12160,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100010000,
       "InitialHiddenNodeList": [],
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {},
         "CaptureDistanceTolerance": 10.0

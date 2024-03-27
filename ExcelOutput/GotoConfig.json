@@ -557,6 +557,41 @@
     "ParamStringList": [],
     "UnlockID": 9920
   },
+  "6000": {
+    "ID": 6000,
+    "GotoType": 60,
+    "ParamIntList": [],
+    "ParamStringList": []
+  },
+  "6100": {
+    "ID": 6100,
+    "GotoType": 61,
+    "ParamIntList": [],
+    "ParamStringList": []
+  },
+  "6200": {
+    "ID": 6200,
+    "GotoType": 62,
+    "ParamIntList": [
+      8021100,
+      8021101,
+      8021102,
+      8021103,
+      8021104,
+      8021105,
+      8021106
+    ],
+    "ParamStringList": [],
+    "UnlockID": 104001
+  },
+  "6203": {
+    "ID": 6203,
+    "GotoType": 40,
+    "ParamIntList": [
+      13064
+    ],
+    "ParamStringList": []
+  },
   "201": {
     "ID": 201,
     "GotoType": 2,
@@ -1133,6 +1168,16 @@
     "ParamStringList": [],
     "UnlockID": 613
   },
+  "614": {
+    "ID": 614,
+    "GotoType": 6,
+    "ParamIntList": [
+      1,
+      101
+    ],
+    "ParamStringList": [],
+    "UnlockID": 614
+  },
   "701": {
     "ID": 701,
     "GotoType": 7,
@@ -1475,6 +1520,42 @@
     "ParamStringList": [],
     "UnlockID": 3627
   },
+  "831": {
+    "ID": 831,
+    "GotoType": 8,
+    "ParamIntList": [
+      50009
+    ],
+    "ParamStringList": [],
+    "UnlockID": 3628
+  },
+  "832": {
+    "ID": 832,
+    "GotoType": 8,
+    "ParamIntList": [
+      150009
+    ],
+    "ParamStringList": [],
+    "UnlockID": 3629
+  },
+  "833": {
+    "ID": 833,
+    "GotoType": 8,
+    "ParamIntList": [
+      50008
+    ],
+    "ParamStringList": [],
+    "UnlockID": 3630
+  },
+  "834": {
+    "ID": 834,
+    "GotoType": 8,
+    "ParamIntList": [
+      50010
+    ],
+    "ParamStringList": [],
+    "UnlockID": 3631
+  },
   "1101": {
     "ID": 1101,
     "GotoType": 11,
@@ -1626,6 +1707,39 @@
       5
     ],
     "ParamStringList": []
+  },
+  "1512": {
+    "ID": 1512,
+    "GotoType": 15,
+    "ParamIntList": [
+      3,
+      1001,
+      201
+    ],
+    "ParamStringList": [],
+    "UnlockID": 1512
+  },
+  "1513": {
+    "ID": 1513,
+    "GotoType": 15,
+    "ParamIntList": [
+      3,
+      1001,
+      301
+    ],
+    "ParamStringList": [],
+    "UnlockID": 1513
+  },
+  "1514": {
+    "ID": 1514,
+    "GotoType": 15,
+    "ParamIntList": [
+      3,
+      1001,
+      401
+    ],
+    "ParamStringList": [],
+    "UnlockID": 1514
   },
   "3201": {
     "ID": 3201,
@@ -2314,6 +2428,16 @@
     "ParamStringList": [],
     "UnlockID": 23416
   },
+  "23417": {
+    "ID": 23417,
+    "GotoType": 2,
+    "ParamIntList": [
+      2032201,
+      1117
+    ],
+    "ParamStringList": [],
+    "UnlockID": 23417
+  },
   "23511": {
     "ID": 23511,
     "GotoType": 2,
@@ -2403,6 +2527,26 @@
     ],
     "ParamStringList": [],
     "UnlockID": 23519
+  },
+  "23520": {
+    "ID": 23520,
+    "GotoType": 2,
+    "ParamIntList": [
+      2032101,
+      1020
+    ],
+    "ParamStringList": [],
+    "UnlockID": 23520
+  },
+  "23521": {
+    "ID": 23521,
+    "GotoType": 2,
+    "ParamIntList": [
+      2022301,
+      1021
+    ],
+    "ParamStringList": [],
+    "UnlockID": 23521
   },
   "24001": {
     "ID": 24001,
@@ -2798,6 +2942,16 @@
     "ParamStringList": [],
     "UnlockID": 200
   },
+  "25036": {
+    "ID": 25036,
+    "GotoType": 2,
+    "ParamIntList": [
+      2032101,
+      2399
+    ],
+    "ParamStringList": [],
+    "UnlockID": 200
+  },
   "40001": {
     "ID": 40001,
     "GotoType": 40,
@@ -2915,5 +3069,15 @@
     ],
     "ParamStringList": [],
     "UnlockID": 3626
+  },
+  "27001": {
+    "ID": 27001,
+    "GotoType": 2,
+    "ParamIntList": [
+      2031101,
+      2397
+    ],
+    "ParamStringList": [],
+    "UnlockID": 104001
   }
 }

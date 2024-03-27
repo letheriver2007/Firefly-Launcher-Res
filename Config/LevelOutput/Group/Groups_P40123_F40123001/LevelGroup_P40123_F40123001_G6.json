@@ -13,16 +13,14 @@
       "PosX": -11.07,
       "PosY": 20.0,
       "PosZ": 8.88,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": -11.07,
       "PosY": 12.0,
       "PosZ": 8.88,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -30,8 +28,7 @@
       "PosY": 13.97903,
       "PosZ": 18.45,
       "Name": "Anchor3",
-      "RotY": 237.5651,
-      "MapLayerID": 1
+      "RotY": 237.5651
     },
     {
       "ID": 4,
@@ -39,8 +36,7 @@
       "PosY": 11.99665,
       "PosZ": 32.358,
       "Name": "Anchor4",
-      "RotY": 56.72889,
-      "MapLayerID": 1
+      "RotY": 56.72889
     },
     {
       "ID": 5,
@@ -48,8 +44,7 @@
       "PosY": 12.34,
       "PosZ": 9.56,
       "Name": "300001_1F",
-      "RotY": 157.0,
-      "MapLayerID": 1
+      "RotY": 157.0
     },
     {
       "ID": 6,
@@ -57,24 +52,21 @@
       "PosY": 19.94,
       "PosZ": 9.56,
       "Name": "300001_2F",
-      "RotY": 157.0,
-      "MapLayerID": 2
+      "RotY": 157.0
     },
     {
       "ID": 7,
       "PosX": -82.215,
       "PosY": 11.98358,
       "PosZ": -2.868,
-      "Name": "Anchor7",
-      "MapLayerID": 1
+      "Name": "Anchor7"
     },
     {
       "ID": 8,
       "PosX": 58.38,
       "PosY": 16.087,
       "PosZ": -7.5,
-      "Name": "Anchor8",
-      "MapLayerID": 1
+      "Name": "Anchor8"
     }
   ],
   "MonsterList": [],
@@ -131,7 +123,6 @@
         "PointList": []
       },
       "State": "Elevator1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -147,7 +138,6 @@
       "RotY": 157.0,
       "PropID": 301004,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -173,7 +163,6 @@
           }
         ]
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -199,7 +188,6 @@
           }
         ]
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -215,7 +203,6 @@
       "RotY": 157.0,
       "PropID": 301005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -246,7 +233,6 @@
         ]
       },
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -282,7 +268,6 @@
         "PointList": []
       },
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -313,7 +298,6 @@
         ]
       },
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -339,7 +323,6 @@
         ]
       },
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -358,7 +341,6 @@
       "PropID": 301002,
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter01/Maze2_3/Maze_Chapter_01_M0203_PowerStation01.json",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -381,7 +363,6 @@
       "PropID": 301002,
       "IsOverrideInitLevelGraph": true,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -407,7 +388,6 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

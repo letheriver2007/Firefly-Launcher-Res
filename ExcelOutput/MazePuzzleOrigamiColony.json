@@ -46,5 +46,29 @@
     ],
     "TalkSentenceID": 414030592,
     "FinishQuestID": 2200015
+  },
+  "5": {
+    "OrigamiColonyID": 5,
+    "FloorID": 20322001,
+    "MaterialCost": [
+      {
+        "ItemID": 122000,
+        "ItemNum": 1
+      }
+    ],
+    "TalkSentenceID": 414030592,
+    "FinishQuestID": 2200110
+  },
+  "6": {
+    "OrigamiColonyID": 6,
+    "FloorID": 20321001,
+    "MaterialCost": [
+      {
+        "ItemID": 122000,
+        "ItemNum": 1
+      }
+    ],
+    "TalkSentenceID": 414030590,
+    "FinishQuestID": 2200112
   }
 }

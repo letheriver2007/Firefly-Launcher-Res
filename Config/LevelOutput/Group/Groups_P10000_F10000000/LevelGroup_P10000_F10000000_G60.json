@@ -167,8 +167,7 @@
       "PosY": -9.0E-6,
       "PosZ": 15.34,
       "Name": "Anchor1",
-      "RotY": 210.0001,
-      "MapLayerID": 1
+      "RotY": 210.0001
     },
     {
       "ID": 2,
@@ -176,8 +175,7 @@
       "PosY": -9.0E-6,
       "PosZ": 9.995,
       "Name": "Anchor2",
-      "RotY": 59.99998,
-      "MapLayerID": 1
+      "RotY": 59.99998
     },
     {
       "ID": 3,
@@ -185,8 +183,7 @@
       "PosY": -9.0E-6,
       "PosZ": 2.38,
       "Name": "Anchor3",
-      "RotY": 300.0,
-      "MapLayerID": 1
+      "RotY": 300.0
     },
     {
       "ID": 4,
@@ -194,8 +191,7 @@
       "PosY": -9.0E-6,
       "PosZ": 8.58,
       "Name": "Anchor4",
-      "RotY": 209.9999,
-      "MapLayerID": 1
+      "RotY": 209.9999
     },
     {
       "ID": 5,
@@ -203,8 +199,7 @@
       "PosY": -9.0E-6,
       "PosZ": 6.58,
       "Name": "Anchor5",
-      "RotY": 14.99997,
-      "MapLayerID": 1
+      "RotY": 14.99997
     },
     {
       "ID": 6,
@@ -212,8 +207,7 @@
       "PosY": 1.0E-6,
       "PosZ": 1.613,
       "Name": "Anchor6",
-      "RotY": 315.0001,
-      "MapLayerID": 1
+      "RotY": 315.0001
     },
     {
       "ID": 7,
@@ -221,8 +215,7 @@
       "PosY": 1.0E-6,
       "PosZ": -15.23,
       "Name": "Anchor7",
-      "RotY": 7.3E-5,
-      "MapLayerID": 1
+      "RotY": 7.3E-5
     },
     {
       "ID": 8,
@@ -230,8 +223,7 @@
       "PosY": 1.0E-6,
       "PosZ": 6.46,
       "Name": "Anchor8",
-      "RotY": 45.00004,
-      "MapLayerID": 1
+      "RotY": 45.00004
     }
   ],
   "MonsterList": [],
@@ -253,7 +245,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -276,7 +267,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -300,7 +290,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -324,7 +313,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -348,7 +336,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -372,7 +359,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -396,7 +382,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -420,7 +405,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -444,7 +428,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -468,7 +451,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -492,7 +474,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -516,7 +497,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],

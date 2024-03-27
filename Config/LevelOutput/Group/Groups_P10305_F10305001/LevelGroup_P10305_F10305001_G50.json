@@ -12,32 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      4,
-      -215,
-      4,
-      -214,
-      5,
-      -213
-    ],
-    "LowerUpperBounds": {
-      "y": 3
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      4,
-      -215,
-      4,
-      -214,
-      5,
-      -213
-    ],
-    "LowerUpperBounds": {
-      "y": 3
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -58,7 +32,6 @@
       },
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "OverrideNPCTitle": {
         "Hash": -1987642313
@@ -67,6 +40,7 @@
       "DefaultIdleFreeStyleMotionID": 100030000,
       "InitialHiddenNodeList": [],
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       },

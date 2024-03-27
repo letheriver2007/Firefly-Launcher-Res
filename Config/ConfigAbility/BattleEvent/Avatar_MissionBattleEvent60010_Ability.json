@@ -43,7 +43,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "IsAttachToTimeline": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_BlackSwan_00_BattleEvent_01/Eff_Character_BlackSwan_00_BattleEvent_01_MainWindow_01.prefab"
         },
@@ -53,7 +52,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "IsAttachToTimeline": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_BlackSwan_00_BattleEvent_01/Eff_Character_BlackSwan_00_BattleEvent_01_Hand_01.prefab"
         },
@@ -86,7 +84,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "IsAttachToTimeline": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_BlackSwan_00_BattleEvent_01/Eff_Character_BlackSwan_00_BattleEvent_01_MainWindow_Break_01.prefab"
         },

@@ -13,8 +13,7 @@
       "PosY": 2.97,
       "PosZ": -87.97,
       "Name": "PlayerStart",
-      "RotY": 90.0,
-      "MapLayerID": 2
+      "RotY": 90.0
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": -0.12,
       "PosZ": -73.19,
       "Name": "TP1_A",
-      "RotY": 91.17632,
-      "MapLayerID": 2
+      "RotY": 91.17632
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": 3.44,
       "PosZ": -33.87,
       "Name": "TP1_B",
-      "RotY": 74.55857,
-      "MapLayerID": 2
+      "RotY": 74.55857
     },
     {
       "ID": 4,
@@ -40,8 +37,7 @@
       "PosY": 2.843817,
       "PosZ": -99.68,
       "Name": "TP2_A",
-      "RotY": 107.0869,
-      "MapLayerID": 2
+      "RotY": 107.0869
     },
     {
       "ID": 5,
@@ -49,8 +45,7 @@
       "PosY": -1.11,
       "PosZ": -52.87,
       "Name": "TP2_B",
-      "RotY": 41.45181,
-      "MapLayerID": 2
+      "RotY": 41.45181
     },
     {
       "ID": 6,
@@ -60,7 +55,6 @@
       "Name": "C1",
       "RotY": 253.9127,
       "RotX": 2.609973,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -75,7 +69,6 @@
       "RotY": 341.2958,
       "RotX": 8.392465,
       "RotZ": 359.428,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -86,16 +79,14 @@
       "PosX": -139.75,
       "PosY": -0.115228,
       "PosZ": -73.53,
-      "Name": "Anchor8",
-      "MapLayerID": 2
+      "Name": "Anchor8"
     },
     {
       "ID": 9,
       "PosX": -82.09021,
       "PosY": -3.195002,
       "PosZ": -61.75088,
-      "Name": "TP3",
-      "MapLayerID": 2
+      "Name": "TP3"
     },
     {
       "ID": 10,
@@ -103,8 +94,7 @@
       "PosY": -1.122727,
       "PosZ": -92.01285,
       "Name": "TP4",
-      "RotY": 151.1181,
-      "MapLayerID": 2
+      "RotY": 151.1181
     },
     {
       "ID": 11,
@@ -112,16 +102,14 @@
       "PosY": -7.671682,
       "PosZ": -93.18523,
       "Name": "TP5",
-      "RotY": 184.9431,
-      "MapLayerID": 1
+      "RotY": 184.9431
     },
     {
       "ID": 12,
       "PosX": 13.60872,
       "PosY": 2.843766,
       "PosZ": -50.04068,
-      "Name": "TP6",
-      "MapLayerID": 2
+      "Name": "TP6"
     }
   ],
   "MonsterList": [],
@@ -136,7 +124,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -154,7 +141,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -171,7 +157,6 @@
       "PropID": 100070,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

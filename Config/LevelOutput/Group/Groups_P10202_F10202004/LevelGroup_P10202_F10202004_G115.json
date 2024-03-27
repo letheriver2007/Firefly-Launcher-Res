@@ -8,30 +8,6 @@
   "OwnerMainMissionID": 8003245,
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -29,
-      -5,
-      -28,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 20,
-      "y": 21
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -29,
-      -5,
-      -28,
-      -5
-    ],
-    "LowerUpperBounds": {
-      "x": 20,
-      "y": 21
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +16,7 @@
       "PosY": -0.850571,
       "PosZ": -10.2,
       "Name": "Anchor1",
-      "RotY": 338.45,
-      "MapLayerID": 1
+      "RotY": 338.45
     },
     {
       "ID": 2,
@@ -51,7 +26,6 @@
       "Name": "Anchor2",
       "RotY": 340.0,
       "RotX": 9.999994,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -71,7 +45,6 @@
       "NPCID": 12268,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -98,7 +71,6 @@
       "NPCID": 12270,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -118,7 +90,6 @@
       "NPCID": 1206,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312010000,

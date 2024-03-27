@@ -10,8 +10,7 @@
       "ID": 1,
       "PosZ": 2.89,
       "Name": "Anchor1",
-      "RotY": 165.0,
-      "MapLayerID": 1
+      "RotY": 165.0
     }
   ],
   "MonsterList": [],
@@ -45,7 +44,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

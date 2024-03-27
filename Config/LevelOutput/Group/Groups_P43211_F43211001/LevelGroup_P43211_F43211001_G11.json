@@ -8,32 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      41,
-      -4,
-      20,
-      14
-    ],
-    "LowerUpperBounds": {
-      "x": 409,
-      "y": 410
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      41,
-      -4,
-      0,
-      0,
-      20,
-      14
-    ],
-    "LowerUpperBounds": {
-      "x": 409,
-      "y": 414
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [
@@ -63,7 +37,6 @@
         "ID": 1
       },
       "EventID": 20223208,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -95,7 +68,6 @@
         "ID": 1
       },
       "EventID": 20223209,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -111,7 +83,6 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_MonsterEffect_SuiyangWithBuff.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

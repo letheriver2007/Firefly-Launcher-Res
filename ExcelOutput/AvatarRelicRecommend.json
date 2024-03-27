@@ -1455,5 +1455,98 @@
         "PropertyType": "AttackAddedRatio"
       }
     ]
+  },
+  "1301": {
+    "AvatarID": 1301,
+    "Set4IDList": [
+      101,
+      111,
+      102
+    ],
+    "Set2IDList": [
+      302,
+      307,
+      310
+    ],
+    "PropertyList": [
+      {
+        "RelicType": "BODY",
+        "PropertyType": "HealRatioBase"
+      },
+      {
+        "RelicType": "FOOT",
+        "PropertyType": "SpeedDelta"
+      },
+      {
+        "RelicType": "NECK",
+        "PropertyType": "HPAddedRatio"
+      },
+      {
+        "RelicType": "OBJECT",
+        "PropertyType": "BreakDamageAddedRatioBase"
+      }
+    ]
+  },
+  "1304": {
+    "AvatarID": 1304,
+    "Set4IDList": [
+      103,
+      112,
+      106
+    ],
+    "Set2IDList": [
+      306,
+      304,
+      310
+    ],
+    "PropertyList": [
+      {
+        "RelicType": "BODY",
+        "PropertyType": "CriticalDamageBase"
+      },
+      {
+        "RelicType": "FOOT",
+        "PropertyType": "DefenceAddedRatio"
+      },
+      {
+        "RelicType": "NECK",
+        "PropertyType": "DefenceAddedRatio"
+      },
+      {
+        "RelicType": "OBJECT",
+        "PropertyType": "DefenceAddedRatio"
+      }
+    ]
+  },
+  "1308": {
+    "AvatarID": 1308,
+    "Set4IDList": [
+      117,
+      109,
+      102
+    ],
+    "Set2IDList": [
+      314,
+      306,
+      301
+    ],
+    "PropertyList": [
+      {
+        "RelicType": "BODY",
+        "PropertyType": "CriticalChanceBase"
+      },
+      {
+        "RelicType": "FOOT",
+        "PropertyType": "AttackAddedRatio"
+      },
+      {
+        "RelicType": "NECK",
+        "PropertyType": "ThunderAddedRatio"
+      },
+      {
+        "RelicType": "OBJECT",
+        "PropertyType": "AttackAddedRatio"
+      }
+    ]
   }
 }

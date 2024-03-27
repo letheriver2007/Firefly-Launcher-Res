@@ -22,8 +22,7 @@
       "PosY": 414.02,
       "PosZ": -14.26,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 3
+      "RotY": 90.0
     },
     {
       "ID": 2,
@@ -31,8 +30,7 @@
       "PosY": 414.02,
       "PosZ": -14.26,
       "Name": "Anchor2",
-      "RotY": 90.0,
-      "MapLayerID": 3
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -57,7 +55,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -95,7 +92,6 @@
       },
       "CampID": 4,
       "State": "Elevator1",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

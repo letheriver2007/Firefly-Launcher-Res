@@ -13,8 +13,7 @@
       "PosY": -1.2,
       "PosZ": -56.85,
       "Name": "Anchor1",
-      "RotY": 76.56,
-      "MapLayerID": 2
+      "RotY": 76.56
     }
   ],
   "MonsterList": [],
@@ -32,7 +31,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,

@@ -1266,6 +1266,336 @@
     "NpcMonsterID": 8002070,
     "EventID": 80081023
   },
+  "90011": {
+    "RogueMonsterID": 90011,
+    "NpcMonsterID": 8011020,
+    "EventID": 80090011
+  },
+  "90012": {
+    "RogueMonsterID": 90012,
+    "NpcMonsterID": 8001050,
+    "EventID": 80090012
+  },
+  "90013": {
+    "RogueMonsterID": 90013,
+    "NpcMonsterID": 2022110,
+    "EventID": 80090013
+  },
+  "90014": {
+    "RogueMonsterID": 90014,
+    "NpcMonsterID": 3001010,
+    "EventID": 80090014
+  },
+  "90021": {
+    "RogueMonsterID": 90021,
+    "NpcMonsterID": 8001010,
+    "EventID": 80090021
+  },
+  "90022": {
+    "RogueMonsterID": 90022,
+    "NpcMonsterID": 2002010,
+    "EventID": 80090022
+  },
+  "90023": {
+    "RogueMonsterID": 90023,
+    "NpcMonsterID": 8032010,
+    "EventID": 80090023
+  },
+  "90024": {
+    "RogueMonsterID": 90024,
+    "NpcMonsterID": 3011010,
+    "EventID": 80090024
+  },
+  "90031": {
+    "RogueMonsterID": 90031,
+    "NpcMonsterID": 8012020,
+    "EventID": 80090031
+  },
+  "90032": {
+    "RogueMonsterID": 90032,
+    "NpcMonsterID": 8001040,
+    "EventID": 80090032
+  },
+  "90033": {
+    "RogueMonsterID": 90033,
+    "NpcMonsterID": 2022040,
+    "EventID": 80090033
+  },
+  "90034": {
+    "RogueMonsterID": 90034,
+    "NpcMonsterID": 3002030,
+    "EventID": 80090034
+  },
+  "90041": {
+    "RogueMonsterID": 90041,
+    "NpcMonsterID": 1012020,
+    "EventID": 80090041
+  },
+  "90042": {
+    "RogueMonsterID": 90042,
+    "NpcMonsterID": 2022010,
+    "EventID": 80090042
+  },
+  "90043": {
+    "RogueMonsterID": 90043,
+    "NpcMonsterID": 8032020,
+    "EventID": 80090043
+  },
+  "90044": {
+    "RogueMonsterID": 90044,
+    "NpcMonsterID": 3002010,
+    "EventID": 80090044
+  },
+  "90051": {
+    "RogueMonsterID": 90051,
+    "NpcMonsterID": 1022020,
+    "EventID": 80090051
+  },
+  "90052": {
+    "RogueMonsterID": 90052,
+    "NpcMonsterID": 8001030,
+    "EventID": 80090052
+  },
+  "90053": {
+    "RogueMonsterID": 90053,
+    "NpcMonsterID": 2022110,
+    "EventID": 80090053
+  },
+  "90054": {
+    "RogueMonsterID": 90054,
+    "NpcMonsterID": 3002010,
+    "EventID": 80090054
+  },
+  "90061": {
+    "RogueMonsterID": 90061,
+    "NpcMonsterID": 1012030,
+    "EventID": 80090061
+  },
+  "90062": {
+    "RogueMonsterID": 90062,
+    "NpcMonsterID": 2022010,
+    "EventID": 80090062
+  },
+  "90063": {
+    "RogueMonsterID": 90063,
+    "NpcMonsterID": 2022110,
+    "EventID": 80090063
+  },
+  "90064": {
+    "RogueMonsterID": 90064,
+    "NpcMonsterID": 3002040,
+    "EventID": 80090064
+  },
+  "90071": {
+    "RogueMonsterID": 90071,
+    "NpcMonsterID": 8001030,
+    "EventID": 80090071
+  },
+  "90072": {
+    "RogueMonsterID": 90072,
+    "NpcMonsterID": 2011020,
+    "EventID": 80090072
+  },
+  "90073": {
+    "RogueMonsterID": 90073,
+    "NpcMonsterID": 2002030,
+    "EventID": 80090073
+  },
+  "90074": {
+    "RogueMonsterID": 90074,
+    "NpcMonsterID": 3012020,
+    "EventID": 80090074
+  },
+  "90081": {
+    "RogueMonsterID": 90081,
+    "NpcMonsterID": 8012010,
+    "EventID": 80090081
+  },
+  "90082": {
+    "RogueMonsterID": 90082,
+    "NpcMonsterID": 2022020,
+    "EventID": 80090082
+  },
+  "90083": {
+    "RogueMonsterID": 90083,
+    "NpcMonsterID": 8032010,
+    "EventID": 80090083
+  },
+  "90084": {
+    "RogueMonsterID": 90084,
+    "NpcMonsterID": 3012010,
+    "EventID": 80090084
+  },
+  "90091": {
+    "RogueMonsterID": 90091,
+    "NpcMonsterID": 1002020,
+    "EventID": 80090091
+  },
+  "90092": {
+    "RogueMonsterID": 90092,
+    "NpcMonsterID": 2012010,
+    "EventID": 80090092
+  },
+  "90093": {
+    "RogueMonsterID": 90093,
+    "NpcMonsterID": 2022020,
+    "EventID": 80090093
+  },
+  "90094": {
+    "RogueMonsterID": 90094,
+    "NpcMonsterID": 3002010,
+    "EventID": 80090094
+  },
+  "90101": {
+    "RogueMonsterID": 90101,
+    "NpcMonsterID": 1002030,
+    "EventID": 80090101
+  },
+  "90102": {
+    "RogueMonsterID": 90102,
+    "NpcMonsterID": 8002010,
+    "EventID": 80090102
+  },
+  "90103": {
+    "RogueMonsterID": 90103,
+    "NpcMonsterID": 2022060,
+    "EventID": 80090103
+  },
+  "90104": {
+    "RogueMonsterID": 90104,
+    "NpcMonsterID": 3002030,
+    "EventID": 80090104
+  },
+  "90111": {
+    "RogueMonsterID": 90111,
+    "NpcMonsterID": 8001030,
+    "EventID": 80090111
+  },
+  "90112": {
+    "RogueMonsterID": 90112,
+    "NpcMonsterID": 8002010,
+    "EventID": 80090112
+  },
+  "90113": {
+    "RogueMonsterID": 90113,
+    "NpcMonsterID": 8001030,
+    "EventID": 80090113
+  },
+  "90114": {
+    "RogueMonsterID": 90114,
+    "NpcMonsterID": 3002030,
+    "EventID": 80090114
+  },
+  "90121": {
+    "RogueMonsterID": 90121,
+    "NpcMonsterID": 1002030,
+    "EventID": 80090121
+  },
+  "90122": {
+    "RogueMonsterID": 90122,
+    "NpcMonsterID": 2012010,
+    "EventID": 80090122
+  },
+  "90123": {
+    "RogueMonsterID": 90123,
+    "NpcMonsterID": 8032020,
+    "EventID": 80090123
+  },
+  "90124": {
+    "RogueMonsterID": 90124,
+    "NpcMonsterID": 3002040,
+    "EventID": 80090124
+  },
+  "90131": {
+    "RogueMonsterID": 90131,
+    "NpcMonsterID": 1002020,
+    "EventID": 80090131
+  },
+  "90132": {
+    "RogueMonsterID": 90132,
+    "NpcMonsterID": 2022020,
+    "EventID": 80090132
+  },
+  "90133": {
+    "RogueMonsterID": 90133,
+    "NpcMonsterID": 2022110,
+    "EventID": 80090133
+  },
+  "90134": {
+    "RogueMonsterID": 90134,
+    "NpcMonsterID": 3002010,
+    "EventID": 80090134
+  },
+  "90141": {
+    "RogueMonsterID": 90141,
+    "NpcMonsterID": 8012030,
+    "EventID": 80090141
+  },
+  "90142": {
+    "RogueMonsterID": 90142,
+    "NpcMonsterID": 2022010,
+    "EventID": 80090142
+  },
+  "90143": {
+    "RogueMonsterID": 90143,
+    "NpcMonsterID": 2002030,
+    "EventID": 80090143
+  },
+  "90144": {
+    "RogueMonsterID": 90144,
+    "NpcMonsterID": 3012010,
+    "EventID": 80090144
+  },
+  "90151": {
+    "RogueMonsterID": 90151,
+    "NpcMonsterID": 1022010,
+    "EventID": 80090151
+  },
+  "90152": {
+    "RogueMonsterID": 90152,
+    "NpcMonsterID": 8002010,
+    "EventID": 80090152
+  },
+  "90153": {
+    "RogueMonsterID": 90153,
+    "NpcMonsterID": 2022020,
+    "EventID": 80090153
+  },
+  "90154": {
+    "RogueMonsterID": 90154,
+    "NpcMonsterID": 3012020,
+    "EventID": 80090154
+  },
+  "91011": {
+    "RogueMonsterID": 91011,
+    "NpcMonsterID": 8002060,
+    "EventID": 80091011
+  },
+  "91012": {
+    "RogueMonsterID": 91012,
+    "NpcMonsterID": 8002080,
+    "EventID": 80091012
+  },
+  "91013": {
+    "RogueMonsterID": 91013,
+    "NpcMonsterID": 8002070,
+    "EventID": 80091013
+  },
+  "91021": {
+    "RogueMonsterID": 91021,
+    "NpcMonsterID": 8002060,
+    "EventID": 80091021
+  },
+  "91022": {
+    "RogueMonsterID": 91022,
+    "NpcMonsterID": 8002080,
+    "EventID": 80091022
+  },
+  "91023": {
+    "RogueMonsterID": 91023,
+    "NpcMonsterID": 8002070,
+    "EventID": 80091023
+  },
   "110011": {
     "RogueMonsterID": 110011,
     "NpcMonsterID": 8013010,
@@ -1792,6 +2122,60 @@
     "RogueMonsterID": 189011,
     "NpcMonsterID": 2004021,
     "EventID": 80189011,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190011": {
+    "RogueMonsterID": 190011,
+    "NpcMonsterID": 8003010,
+    "EventID": 80190011,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190012": {
+    "RogueMonsterID": 190012,
+    "NpcMonsterID": 3013010,
+    "EventID": 80190012,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190013": {
+    "RogueMonsterID": 190013,
+    "NpcMonsterID": 3003010,
+    "EventID": 80190013,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190014": {
+    "RogueMonsterID": 190014,
+    "NpcMonsterID": 3003020,
+    "EventID": 80190014,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190021": {
+    "RogueMonsterID": 190021,
+    "NpcMonsterID": 8033011,
+    "EventID": 80190021,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190022": {
+    "RogueMonsterID": 190022,
+    "NpcMonsterID": 2023022,
+    "EventID": 80190022,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190023": {
+    "RogueMonsterID": 190023,
+    "NpcMonsterID": 3003012,
+    "EventID": 80190023,
+    "MonsterDropType": "AreaDrop"
+  },
+  "190024": {
+    "RogueMonsterID": 190024,
+    "NpcMonsterID": 3003022,
+    "EventID": 80190024,
+    "MonsterDropType": "AreaDrop"
+  },
+  "199011": {
+    "RogueMonsterID": 199011,
+    "NpcMonsterID": 3014021,
+    "EventID": 80199011,
     "MonsterDropType": "AreaDrop"
   },
   "1000011": {

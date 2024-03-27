@@ -1,20 +1,12 @@
 {
   "GroupGUID": "db8c412a-f5ee-4efb-825f-70c667c65fe5",
   "GroupName": "MainMission9020401_04",
-  "Category": "Mission",
   "AreaAnchorName": "LevelArea_P20211_F20211001_G229",
   "SaveType": "Reset",
-  "LoadCondition": {
-    "Conditions": [
-      {
-        "Type": "SubMission",
-        "ID": 902040112
-      }
-    ]
-  },
-  "OwnerMainMissionID": 9020401,
+  "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [],
   "PropList": [
@@ -41,13 +33,13 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

@@ -118,7 +118,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Minion04_02_Rogue/Eff_Monster_XP_Minion04_02_Rogue_RuinAttack.prefab"
         },
         {
@@ -206,7 +205,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_RuinP_01.prefab",
           "PositionOffset": {
             "X": -0.66,
@@ -360,7 +358,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Green.prefab"
         },
         {
@@ -378,7 +375,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Heal.prefab"
         },
         {
@@ -556,7 +552,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Yellow.prefab"
         },
         {
@@ -574,7 +569,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Halo.prefab"
         },
         {
@@ -759,7 +753,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Attack.prefab"
         },
         {
@@ -931,7 +924,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "ModifierOwnerEntity"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Resident"
           ],
@@ -1441,7 +1433,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_XP_Minion04_00/Eff_AetherDivide_XP_Minion04_00_Appear.prefab",
           "MinMutexTime": -1
         },
@@ -1724,7 +1715,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Resident"
               ],

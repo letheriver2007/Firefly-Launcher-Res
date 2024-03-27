@@ -12,34 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      79,
-      211,
-      94,
-      213,
-      91,
-      215,
-      101,
-      215,
-      79,
-      218,
-      96,
-      220,
-      84,
-      223,
-      89,
-      228
-    ],
-    "LowerUpperBounds": {
-      "x": 71,
-      "y": 74
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -52,7 +24,6 @@
       "RotY": 359.8227,
       "RotX": 38.26198,
       "RotZ": -0.001992,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -65,16 +36,14 @@
       "PosY": 142.8,
       "PosZ": 437.1521,
       "Name": "Station_01",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 3,
       "PosX": 207.027,
       "PosY": 143.0071,
       "PosZ": 431.4253,
-      "Name": "Station_02",
-      "MapLayerID": 1
+      "Name": "Station_02"
     },
     {
       "ID": 4,
@@ -85,7 +54,6 @@
       "RotY": 102.4408,
       "RotX": 344.9967,
       "RotZ": -4.99E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -100,7 +68,6 @@
       "RotY": 307.372,
       "RotX": 344.9463,
       "RotZ": -0.002034,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -115,7 +82,6 @@
       "RotY": 193.884,
       "RotX": 31.21457,
       "RotZ": -0.001268,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/PinballPuzzleCam01.prefab"
     }
@@ -148,7 +114,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -183,7 +148,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -214,7 +178,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -240,7 +203,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "BridgeState1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -266,7 +228,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "BridgeState1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -292,7 +253,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "BridgeState1",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -322,7 +282,6 @@
       "PropID": 103007,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -351,7 +310,6 @@
       },
       "PropID": 103007,
       "ValueSource": {},
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

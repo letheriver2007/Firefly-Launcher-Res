@@ -1,7 +1,7 @@
 {
   "1001": {
     "ID": 1001,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_AVATAR_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -11,7 +11,7 @@
   },
   "1002": {
     "ID": 1002,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_EQUIPMENT_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -21,7 +21,7 @@
   },
   "1003": {
     "ID": 1003,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_COIN",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -33,9 +33,7 @@
     "ID": 1004,
     "FarmType": "COCOON3",
     "FarmGachaIDList": [
-      2018,
-      2017,
-      2022
+      2028
     ],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2000201,
@@ -58,9 +56,7 @@
   "1006": {
     "ID": 1006,
     "FarmType": "COCOON3",
-    "FarmGachaIDList": [
-      2019
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2010101,
     "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
@@ -71,7 +67,9 @@
   "1007": {
     "ID": 1007,
     "FarmType": "COCOON3",
-    "FarmGachaIDList": [],
+    "FarmGachaIDList": [
+      2026
+    ],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2011101,
     "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
@@ -95,9 +93,7 @@
   "1009": {
     "ID": 1009,
     "FarmType": "COCOON3",
-    "FarmGachaIDList": [
-      2017
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2012301,
     "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
@@ -108,9 +104,7 @@
   "1010": {
     "ID": 1010,
     "FarmType": "COCOON3",
-    "FarmGachaIDList": [
-      2020
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2012101,
     "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
@@ -120,7 +114,7 @@
   },
   "1011": {
     "ID": 1011,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_AVATAR_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -130,7 +124,7 @@
   },
   "1012": {
     "ID": 1012,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_EQUIPMENT_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -140,7 +134,7 @@
   },
   "1013": {
     "ID": 1013,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_COIN",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -150,7 +144,7 @@
   },
   "1014": {
     "ID": 1014,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_AVATAR_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -160,7 +154,7 @@
   },
   "1015": {
     "ID": 1015,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_EQUIPMENT_EXP",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -170,7 +164,7 @@
   },
   "1016": {
     "ID": 1016,
-    "FarmType": "COCOON",
+    "FarmType": "COCOON_COIN",
     "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 4,
     "UIEntranceMonsterPath": "",
@@ -182,7 +176,7 @@
     "ID": 1017,
     "FarmType": "COCOON3",
     "FarmGachaIDList": [
-      2021
+      2025
     ],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2023101,
@@ -194,9 +188,7 @@
   "1018": {
     "ID": 1018,
     "FarmType": "COCOON3",
-    "FarmGachaIDList": [
-      2021
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2023201,
     "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
@@ -216,6 +208,32 @@
     "UIEntranceMonsterConfig": "",
     "UIEntranceBgPath": "UI/UI3D/UI3DFarmStage/_dependencies/Materials/UI3DFarmStageBackground_1019.mat",
     "UIEnviromentConfig": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_ADV_INT_P101_night_01.enviroProfile.asset"
+  },
+  "1020": {
+    "ID": 1020,
+    "FarmType": "COCOON3",
+    "FarmGachaIDList": [
+      2027
+    ],
+    "UnlockWorldLevelEnd": 5,
+    "UIEnterBattleArea": 2032101,
+    "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
+    "UIEntranceMonsterConfig": "",
+    "UIEntranceBgPath": "UI/UI3D/UI3DFarmStage/_dependencies/Materials/UI3DFarmStageBackground_1020.mat",
+    "UIEnviromentConfig": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P201_Night_01.enviroProfile.asset"
+  },
+  "1021": {
+    "ID": 1021,
+    "FarmType": "COCOON3",
+    "FarmGachaIDList": [
+      2025
+    ],
+    "UnlockWorldLevelEnd": 5,
+    "UIEnterBattleArea": 2022301,
+    "UIEntranceMonsterPath": "Stages/OriginalResPos/InteractiveProp/Chapter01/Chap01_GameplayProp_Cocoon_01/Chap01_GameplayProp_Cocoon_01_Lod1.prefab",
+    "UIEntranceMonsterConfig": "",
+    "UIEntranceBgPath": "UI/UI3D/UI3DFarmStage/_dependencies/Materials/UI3DFarmStageBackground_1021.mat",
+    "UIEnviromentConfig": "Stages/Outputs/Chapter02/EnviroProfile/Chap02_CloseView_ADV_X02_Sanctum_SuiGarden_Night.enviroProfile.asset"
   },
   "1301": {
     "ID": 1301,
@@ -435,7 +453,9 @@
   "1107": {
     "ID": 1107,
     "FarmType": "ELEMENT",
-    "FarmGachaIDList": [],
+    "FarmGachaIDList": [
+      2026
+    ],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2011101,
@@ -448,7 +468,7 @@
     "ID": 1108,
     "FarmType": "ELEMENT",
     "FarmGachaIDList": [
-      2017
+      2028
     ],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
@@ -462,8 +482,8 @@
     "ID": 1109,
     "FarmType": "ELEMENT",
     "FarmGachaIDList": [
-      2020,
-      2024
+      2024,
+      2025
     ],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
@@ -477,8 +497,7 @@
     "ID": 1110,
     "FarmType": "ELEMENT",
     "FarmGachaIDList": [
-      2019,
-      2022
+      2027
     ],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
@@ -491,9 +510,7 @@
   "1111": {
     "ID": 1111,
     "FarmType": "ELEMENT",
-    "FarmGachaIDList": [
-      2017
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2023201,
@@ -517,10 +534,7 @@
   "1113": {
     "ID": 1113,
     "FarmType": "ELEMENT",
-    "FarmGachaIDList": [
-      2018,
-      2021
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2023101,
@@ -544,9 +558,7 @@
   "1115": {
     "ID": 1115,
     "FarmType": "ELEMENT",
-    "FarmGachaIDList": [
-      2021
-    ],
+    "FarmGachaIDList": [],
     "UnlockWorldLevelStart": 2,
     "UnlockWorldLevelEnd": 5,
     "UIEnterBattleArea": 2031101,
@@ -568,5 +580,19 @@
     "UIEntranceMonsterConfig": "Config/ConfigCharacter/NPCMonster/FarmElement_W3_Dinosaur_00_Config.json",
     "UIEntranceBgPath": "UI/UI3D/UI3DFarmStage/_dependencies/Materials/UI3DFarmStageBackground_1116.mat",
     "UIEnviromentConfig": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P103_DreamEdge_night_01.enviroProfile.asset"
+  },
+  "1117": {
+    "ID": 1117,
+    "FarmType": "ELEMENT",
+    "FarmGachaIDList": [
+      2025
+    ],
+    "UnlockWorldLevelStart": 2,
+    "UnlockWorldLevelEnd": 5,
+    "UIEnterBattleArea": 2032201,
+    "UIEntranceMonsterPath": "Config/ConfigEntity/NPCMonster/NPCMonster_W3_Dinosaur_01_Entity.json",
+    "UIEntranceMonsterConfig": "Config/ConfigCharacter/NPCMonster/FarmElement_W3_Dinosaur_01_Config.json",
+    "UIEntranceBgPath": "UI/UI3D/UI3DFarmStage/_dependencies/Materials/UI3DFarmStageBackground_1117.mat",
+    "UIEnviromentConfig": "Stages/Outputs/Chapter03/EnviroProfile/Chap03_CloseView_MAZ_P202_Night_01.enviroProfile.asset"
   }
 }

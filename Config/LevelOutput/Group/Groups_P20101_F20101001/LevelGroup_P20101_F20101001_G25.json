@@ -38,16 +38,14 @@
       "PosX": 14.6,
       "PosY": 13.23639,
       "PosZ": -36.7,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": 22.71,
       "PosY": -0.240829,
       "PosZ": -97.59,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -55,8 +53,7 @@
       "PosY": 0.521807,
       "PosZ": -77.36,
       "Name": "Anchor3",
-      "RotY": 180.2223,
-      "MapLayerID": 1
+      "RotY": 180.2223
     }
   ],
   "MonsterList": [],
@@ -80,7 +77,6 @@
       },
       "CampID": 4,
       "State": "Locked",
-      "MapLayerID": 1,
       "OverrideHintRange": 15.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],

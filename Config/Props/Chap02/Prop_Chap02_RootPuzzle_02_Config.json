@@ -3,6 +3,7 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_GameplayProp_DestroyRootPuzzle_Root_01_Contamination.prefab",
       "AttachPoint": "EffectRoot1",
       "Scale": {
@@ -13,6 +14,7 @@
     },
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_GameplayProp_DestroyRootPuzzle_Root_01_Contamination.prefab",
       "AttachPoint": "EffectRoot2",
       "Scale": {
@@ -23,6 +25,7 @@
     },
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_GameplayProp_DestroyRootPuzzle_Root_03_Contamination.prefab",
       "AttachPoint": "EffectRoot3",
       "Scale": {

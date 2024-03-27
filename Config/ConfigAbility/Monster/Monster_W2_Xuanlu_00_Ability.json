@@ -170,7 +170,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LevelEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_X202_JianMu_03.prefab"
         },
         {
@@ -1843,7 +1842,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_00/Eff_Monster_W2_Xuanlu_00_Skill01_Ready.prefab"
         },
         {
@@ -1866,7 +1864,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_00/Eff_Monster_W2_Xuanlu_00_Skill01_Attack.prefab"
         },
         {
@@ -2058,7 +2055,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_00/Eff_Monster_W2_Xuanlu_00_Skill02_Attack.prefab"
         },
         {
@@ -2305,7 +2301,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DefenceUp.prefab"
         },
         {
@@ -2389,6 +2384,11 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamMember"
           },
+          "CenterOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": -5
+          },
           "TargetFormation": {},
           "LeftSideFormations": [
             {
@@ -2437,7 +2437,7 @@
           "CenterOffset": {
             "X": -0.5,
             "Y": 0,
-            "Z": 15.5
+            "Z": 10.5
           },
           "IgnoreHitBoxRadius": true,
           "TargetFormation": {
@@ -3560,7 +3560,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LevelEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Chap02_X202_JianMu_03.prefab"
         },
         {

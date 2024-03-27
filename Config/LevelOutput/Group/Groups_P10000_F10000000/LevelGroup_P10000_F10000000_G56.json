@@ -292,16 +292,14 @@
       "PosX": -0.278,
       "PosY": -4.0E-6,
       "PosZ": 4.72,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
       "PosX": 0.02,
       "PosZ": 6.35,
       "Name": "Anchor2",
-      "RotY": 180.0001,
-      "MapLayerID": 1
+      "RotY": 180.0001
     },
     {
       "ID": 3,
@@ -309,8 +307,7 @@
       "PosY": -1.0E-5,
       "PosZ": 22.79,
       "Name": "Anchor3",
-      "RotY": 225.0001,
-      "MapLayerID": 1
+      "RotY": 225.0001
     },
     {
       "ID": 4,
@@ -318,8 +315,7 @@
       "PosY": -7.0E-6,
       "PosZ": 12.319,
       "Name": "Anchor4",
-      "RotY": 270.0002,
-      "MapLayerID": 1
+      "RotY": 270.0002
     },
     {
       "ID": 5,
@@ -327,8 +323,7 @@
       "PosY": -7.0E-6,
       "PosZ": 14.32,
       "Name": "Anchor5",
-      "RotY": 270.0002,
-      "MapLayerID": 1
+      "RotY": 270.0002
     },
     {
       "ID": 6,
@@ -336,8 +331,7 @@
       "PosY": -7.0E-6,
       "PosZ": 9.07,
       "Name": "Anchor6",
-      "RotY": 180.0002,
-      "MapLayerID": 1
+      "RotY": 180.0002
     },
     {
       "ID": 7,
@@ -345,8 +339,7 @@
       "PosY": -7.0E-6,
       "PosZ": 14.82,
       "Name": "Anchor7",
-      "RotY": 270.0002,
-      "MapLayerID": 1
+      "RotY": 270.0002
     },
     {
       "ID": 8,
@@ -354,8 +347,7 @@
       "PosY": -8.0E-6,
       "PosZ": 15.73,
       "Name": "Anchor8",
-      "RotY": 105.0003,
-      "MapLayerID": 1
+      "RotY": 105.0003
     },
     {
       "ID": 9,
@@ -363,8 +355,7 @@
       "PosY": -8.0E-6,
       "PosZ": 18.02,
       "Name": "Anchor9",
-      "RotY": 270.0002,
-      "MapLayerID": 1
+      "RotY": 270.0002
     },
     {
       "ID": 10,
@@ -372,8 +363,7 @@
       "PosY": -8.0E-6,
       "PosZ": 25.87,
       "Name": "Anchor10",
-      "RotY": 330.0002,
-      "MapLayerID": 1
+      "RotY": 330.0002
     },
     {
       "ID": 11,
@@ -381,8 +371,7 @@
       "PosY": -1.2E-5,
       "PosZ": 19.178,
       "Name": "Anchor11",
-      "RotY": 180.0002,
-      "MapLayerID": 1
+      "RotY": 180.0002
     },
     {
       "ID": 12,
@@ -390,8 +379,7 @@
       "PosY": -3.0E-6,
       "PosZ": 0.61,
       "Name": "Anchor12",
-      "RotY": 195.0004,
-      "MapLayerID": 1
+      "RotY": 195.0004
     },
     {
       "ID": 13,
@@ -399,8 +387,7 @@
       "PosY": -7.0E-6,
       "PosZ": 17.607,
       "Name": "Anchor13",
-      "RotY": 150.0003,
-      "MapLayerID": 1
+      "RotY": 150.0003
     },
     {
       "ID": 14,
@@ -408,8 +395,7 @@
       "PosY": -8.0E-6,
       "PosZ": 16.878,
       "Name": "Anchor14",
-      "RotY": 60.00023,
-      "MapLayerID": 1
+      "RotY": 60.00023
     },
     {
       "ID": 15,
@@ -417,8 +403,7 @@
       "PosY": -2.0E-6,
       "PosZ": -2.36,
       "Name": "Anchor15",
-      "RotY": 45.00036,
-      "MapLayerID": 1
+      "RotY": 45.00036
     },
     {
       "ID": 16,
@@ -426,8 +411,7 @@
       "PosY": -7.0E-6,
       "PosZ": 16.524,
       "Name": "Anchor16",
-      "RotY": 330.0003,
-      "MapLayerID": 1
+      "RotY": 330.0003
     }
   ],
   "MonsterList": [],
@@ -448,7 +432,6 @@
         3,
         4
       ],
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         8

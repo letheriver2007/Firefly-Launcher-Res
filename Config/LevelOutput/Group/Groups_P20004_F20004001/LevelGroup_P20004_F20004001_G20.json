@@ -9,32 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -12,
-      30
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -30,
-      24,
-      -29,
-      25,
-      9,
-      29,
-      -12,
-      30
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 89
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -46,7 +20,6 @@
       "RotY": 233.1075,
       "RotX": 9.047216,
       "RotZ": 1.169195,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -57,8 +30,7 @@
       "PosX": -58.10025,
       "PosY": 177.5541,
       "PosZ": 48.59425,
-      "Name": "TP1",
-      "MapLayerID": 2
+      "Name": "TP1"
     },
     {
       "ID": 3,
@@ -66,8 +38,7 @@
       "PosY": 172.2414,
       "PosZ": 62.88141,
       "Name": "TP2",
-      "RotY": 198.3816,
-      "MapLayerID": 2
+      "RotY": 198.3816
     }
   ],
   "MonsterList": [],
@@ -86,7 +57,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -116,7 +86,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -146,7 +115,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -169,7 +137,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrameN4_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -198,7 +165,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900130000,

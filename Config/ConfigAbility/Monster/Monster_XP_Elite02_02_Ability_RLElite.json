@@ -377,7 +377,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ParamEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Hit.prefab"
             },
             {
@@ -542,7 +541,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Hit.prefab"
                 },
                 {
@@ -706,7 +704,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill02_01.prefab",
           "TowardTarget": {
             "$type": "RPG.GameCore.TargetAlias",
@@ -750,7 +747,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill02.prefab"
         },
         {
@@ -1243,7 +1239,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Hit.prefab"
         },
         {
@@ -1838,7 +1833,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill04_Loop.prefab"
             }
           ]
@@ -1860,7 +1854,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill04_01.prefab"
             }
           ]
@@ -1893,7 +1886,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill04_01.prefab"
             }
           ]
@@ -2135,7 +2127,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Skill05_Hit.prefab"
             },
             {
@@ -2144,7 +2135,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_XP_Elite02_02/Eff_Monster_XP_Elite02_02_Buff_Common.prefab"
             },
             {

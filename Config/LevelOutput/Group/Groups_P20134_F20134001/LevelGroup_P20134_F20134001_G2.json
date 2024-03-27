@@ -12,8 +12,7 @@
       "PosY": -6.77243,
       "PosZ": -52.73,
       "Name": "Anchor1",
-      "RotY": 83.1,
-      "MapLayerID": 1
+      "RotY": 83.1
     },
     {
       "ID": 2,
@@ -21,8 +20,7 @@
       "PosY": 20.49,
       "PosZ": 10.67,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -45,7 +43,6 @@
       },
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -84,7 +81,6 @@
       },
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 10.0,

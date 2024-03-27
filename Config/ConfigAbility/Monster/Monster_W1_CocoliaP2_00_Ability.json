@@ -264,7 +264,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeammate"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die.prefab"
             },
             {
@@ -273,7 +272,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllTeammate"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die_Horizon.prefab"
             }
           ]
@@ -1342,7 +1340,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_ConfineOut.prefab"
                 }
               ]
@@ -1715,7 +1712,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_Skill08_Loop_Break.prefab"
                 }
               ]
@@ -1737,7 +1733,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_Skill08_Loop_Break.prefab"
                 },
                 {
@@ -2976,7 +2971,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_Skill11_CocoliaP1_Model.prefab",
           "UniqueEffectName": "Effect_CocoliaP1"
         },
@@ -3834,7 +3828,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_PassiveSkill_Weapon_Mat.prefab"
                 }
               ]
@@ -4114,7 +4107,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeammate"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die.prefab"
                     },
                     {
@@ -4123,7 +4115,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllTeammate"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_01_Common_Die_Horizon.prefab"
                     }
                   ]
@@ -4868,7 +4859,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_Skill10_Start02.prefab"
             }
           ]
@@ -5048,7 +5038,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_CocoliaP2_00/Eff_Monster_W1_CocoliaP2_00_Common_Scene01.prefab"
             }
           ]

@@ -2,30 +2,21 @@
   "GroupGUID": "aee2e60f-502e-419b-a42e-29690424f6da",
   "GroupName": "BlockLine02",
   "AreaAnchorName": "LevelArea_P10301_F10301001_G299",
-  "SaveType": "Reset",
   "SavedValueCondition": {
-    "Conditions": [],
+    "Conditions": [
+      {
+        "SavedValueName": "FSV_LoadEntrance03",
+        "Operation": "Equal"
+      }
+    ],
     "Operation": "And"
   },
+  "LoadSide": "Server",
   "LoadOnInitial": true,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      104,
-      73
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -54,7 +45,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "EnterTrigger": {
@@ -86,6 +76,7 @@
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
       "TagContainer": {},
+      "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
       }

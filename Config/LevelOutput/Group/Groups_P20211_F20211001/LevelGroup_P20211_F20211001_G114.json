@@ -34,7 +34,6 @@
       "RotY": 108.1826,
       "RotX": 19.12343,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -46,8 +45,7 @@
       "PosY": 4.876643,
       "PosZ": -130.9,
       "Name": "Anchor2",
-      "RotY": 44.99992,
-      "MapLayerID": 1
+      "RotY": 44.99992
     }
   ],
   "MonsterList": [],
@@ -63,7 +61,6 @@
       "NPCID": 1001,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010000,
@@ -79,7 +76,6 @@
       "NPCID": 3009,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900030000,

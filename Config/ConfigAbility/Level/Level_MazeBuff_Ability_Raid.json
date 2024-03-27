@@ -749,7 +749,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab"
                 },
                 {
@@ -952,7 +951,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                 },
                 {
@@ -1109,7 +1107,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Rogue_Hit_Big.prefab",
                   "MinMutexTime": 1,
                   "MinMutexType": "Entity"
@@ -1296,7 +1293,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllDarkTeam"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Common_MAZ_FireOrb_01_Impact.prefab"
                     }
                   ]
@@ -1480,7 +1476,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllDarkTeam"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/Interactive Object/Eff_Common_MAZ_FireOrb_01_Impact.prefab"
                     }
                   ]
@@ -1895,7 +1890,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Immediate.prefab"
                 }
               ]

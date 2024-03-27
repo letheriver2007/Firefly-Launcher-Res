@@ -3274,7 +3274,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Soldier03_00/Eff_W1_Soldier03_00_Skill07_Shield_Loop_FadeOut.prefab"
             }
           ]
@@ -4028,7 +4027,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "Flags": [
                 "Resident"
               ],

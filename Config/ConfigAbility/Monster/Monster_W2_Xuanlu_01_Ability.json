@@ -108,7 +108,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_01/Eff_Monster_W2_Xuanlu_01_Skill01_Attack.prefab"
         },
         {
@@ -259,7 +258,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_01/Eff_Monster_W2_Xuanlu_01_Skill01_Attack.prefab"
         },
         {

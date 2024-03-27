@@ -3,6 +3,9 @@
   "GroupName": "AirLock01_4",
   "LevelGraph": "Config/Level/GroupGraph/F20311001/Group_F20311001_G107.json",
   "AreaAnchorName": "LevelArea_P20311_F20311001_G107",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "SavedValueCondition": {
     "Conditions": [],
     "Operation": "And"
@@ -39,26 +42,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -58,
-      -22,
-      -63,
-      -21,
-      -60,
-      -21,
-      -57,
-      -21
-    ],
-    "LowerUpperBounds": {
-      "x": 14,
-      "y": 16
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -75,7 +58,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
           "Shape": "Box",
@@ -117,9 +99,33 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
-      "CustomTriggerMapV2": {},
+      "CustomTriggerMapV2": {
+        "CloseToTrigger": {
+          "Shape": "Box",
+          "Radius": 6.0,
+          "DimX": 6.5,
+          "DimY": 4.0,
+          "DimZ": 10.0,
+          "Offset": {
+            "x": 0.25,
+            "y": 2.0
+          },
+          "PointList": []
+        },
+        "ExitTrigger": {
+          "Shape": "Box",
+          "Radius": 7.0,
+          "DimX": 10.0,
+          "DimY": 4.0,
+          "DimZ": 14.0,
+          "Offset": {
+            "x": -1.5,
+            "y": 2.0
+          },
+          "PointList": []
+        }
+      },
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
@@ -152,7 +158,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -160,6 +165,7 @@
       "TalkDialogGroupIDList": [],
       "ServerInteractVerificationIDList": [],
       "TriggerValidGuest": {},
+      "TagContainer": {},
       "CameraCenterEntityList": [],
       "SpawnConfig": {
         "EntitySpawnConfig": {}
@@ -179,7 +185,6 @@
         "Values": []
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

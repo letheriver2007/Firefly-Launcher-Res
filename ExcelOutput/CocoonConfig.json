@@ -36,7 +36,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "1": {
       "ID": 1001,
@@ -78,7 +78,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "2": {
       "ID": 1001,
@@ -124,7 +124,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "3": {
       "ID": 1001,
@@ -173,7 +173,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "4": {
       "ID": 1001,
@@ -221,7 +221,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "5": {
       "ID": 1001,
@@ -248,7 +248,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "6": {
       "ID": 1001,
@@ -275,7 +275,7 @@
         "Fire",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     }
   },
   "1002": {
@@ -314,7 +314,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "1": {
       "ID": 1002,
@@ -355,7 +355,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "2": {
       "ID": 1002,
@@ -400,7 +400,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "3": {
       "ID": 1002,
@@ -448,7 +448,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "4": {
       "ID": 1002,
@@ -497,7 +497,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "5": {
       "ID": 1002,
@@ -523,7 +523,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "6": {
       "ID": 1002,
@@ -549,7 +549,7 @@
         "Wind",
         "Imaginary"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     }
   },
   "1003": {
@@ -586,7 +586,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "1": {
       "ID": 1003,
@@ -625,7 +625,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "2": {
       "ID": 1003,
@@ -668,7 +668,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "3": {
       "ID": 1003,
@@ -712,7 +712,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "4": {
       "ID": 1003,
@@ -757,7 +757,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "5": {
       "ID": 1003,
@@ -783,7 +783,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "6": {
       "ID": 1003,
@@ -809,7 +809,7 @@
         "Physical",
         "Wind"
       ],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     }
   },
   "1004": {
@@ -2426,7 +2426,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "1": {
       "ID": 1011,
@@ -2463,7 +2463,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "2": {
       "ID": 1011,
@@ -2504,7 +2504,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "3": {
       "ID": 1011,
@@ -2548,7 +2548,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "4": {
       "ID": 1011,
@@ -2591,7 +2591,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "5": {
       "ID": 1011,
@@ -2614,7 +2614,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "6": {
       "ID": 1011,
@@ -2637,7 +2637,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     }
   },
   "1012": {
@@ -2672,7 +2672,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "1": {
       "ID": 1012,
@@ -2709,7 +2709,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "2": {
       "ID": 1012,
@@ -2750,7 +2750,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "3": {
       "ID": 1012,
@@ -2794,7 +2794,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "4": {
       "ID": 1012,
@@ -2839,7 +2839,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "5": {
       "ID": 1012,
@@ -2862,7 +2862,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "6": {
       "ID": 1012,
@@ -2885,7 +2885,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     }
   },
   "1013": {
@@ -2918,7 +2918,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "1": {
       "ID": 1013,
@@ -2953,7 +2953,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "2": {
       "ID": 1013,
@@ -2992,7 +2992,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "3": {
       "ID": 1013,
@@ -3032,7 +3032,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "4": {
       "ID": 1013,
@@ -3073,7 +3073,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "5": {
       "ID": 1013,
@@ -3096,7 +3096,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "6": {
       "ID": 1013,
@@ -3119,7 +3119,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     }
   },
   "1014": {
@@ -3154,7 +3154,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "1": {
       "ID": 1014,
@@ -3191,7 +3191,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "2": {
       "ID": 1014,
@@ -3232,7 +3232,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "3": {
       "ID": 1014,
@@ -3276,7 +3276,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "4": {
       "ID": 1014,
@@ -3319,7 +3319,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "5": {
       "ID": 1014,
@@ -3342,7 +3342,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     },
     "6": {
       "ID": 1014,
@@ -3365,7 +3365,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_AVATAR_EXP"
     }
   },
   "1015": {
@@ -3400,7 +3400,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "1": {
       "ID": 1015,
@@ -3437,7 +3437,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "2": {
       "ID": 1015,
@@ -3478,7 +3478,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "3": {
       "ID": 1015,
@@ -3522,7 +3522,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "4": {
       "ID": 1015,
@@ -3567,7 +3567,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "5": {
       "ID": 1015,
@@ -3590,7 +3590,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     },
     "6": {
       "ID": 1015,
@@ -3613,7 +3613,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_EQUIPMENT_EXP"
     }
   },
   "1016": {
@@ -3646,7 +3646,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "1": {
       "ID": 1016,
@@ -3681,7 +3681,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "2": {
       "ID": 1016,
@@ -3720,7 +3720,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "3": {
       "ID": 1016,
@@ -3760,7 +3760,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "4": {
       "ID": 1016,
@@ -3801,7 +3801,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "5": {
       "ID": 1016,
@@ -3824,7 +3824,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     },
     "6": {
       "ID": 1016,
@@ -3847,7 +3847,7 @@
       "OpenDate": [],
       "AutoObtainDamageType": true,
       "DamageType": [],
-      "FarmType": "COCOON"
+      "FarmType": "COCOON_COIN"
     }
   },
   "1017": {
@@ -4433,6 +4433,404 @@
         1023816,
         1023826,
         1023836
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    }
+  },
+  "1020": {
+    "0": {
+      "ID": 1020,
+      "WorldLevel": 0,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023910,
+        1023920,
+        1023930
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000329,
+        1003300,
+        440221
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "1": {
+      "ID": 1020,
+      "WorldLevel": 1,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023911,
+        1023921,
+        1023931
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000339,
+        1003301,
+        440231
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "2": {
+      "ID": 1020,
+      "WorldLevel": 2,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023912,
+        1023922,
+        1023932
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000349,
+        1003301,
+        440241,
+        440242
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "3": {
+      "ID": 1020,
+      "WorldLevel": 3,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023913,
+        1023923,
+        1023933
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000369,
+        1003301,
+        440251,
+        440252
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "4": {
+      "ID": 1020,
+      "WorldLevel": 4,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023914,
+        1023924,
+        1023934
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000389,
+        1003300,
+        440261,
+        1003310,
+        440262
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "5": {
+      "ID": 1020,
+      "WorldLevel": 5,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023915,
+        1023925,
+        1023935
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000401,
+        1003300,
+        440271,
+        1003310,
+        440272
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "6": {
+      "ID": 1020,
+      "WorldLevel": 6,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1020,
+      "StageIDList": [
+        1023916,
+        1023926,
+        1023936
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    }
+  },
+  "1021": {
+    "0": {
+      "ID": 1021,
+      "WorldLevel": 0,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024010,
+        1024020,
+        1024030
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000329,
+        1003330,
+        440291
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "1": {
+      "ID": 1021,
+      "WorldLevel": 1,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024011,
+        1024021,
+        1024031
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000339,
+        1003331,
+        440301
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "2": {
+      "ID": 1021,
+      "WorldLevel": 2,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024012,
+        1024022,
+        1024032
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000349,
+        1003331,
+        440311,
+        440312
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "3": {
+      "ID": 1021,
+      "WorldLevel": 3,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024013,
+        1024023,
+        1024033
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000369,
+        1003331,
+        440321,
+        440322
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "4": {
+      "ID": 1021,
+      "WorldLevel": 4,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024014,
+        1024024,
+        1024034
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000389,
+        1003330,
+        440331,
+        1003340,
+        440332
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "5": {
+      "ID": 1021,
+      "WorldLevel": 5,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024015,
+        1024025,
+        1024035
+      ],
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "ParamList": [],
+      "DropList": [
+        1000849,
+        1000401,
+        1003330,
+        440341,
+        1003340,
+        440342
+      ],
+      "StaminaCost": 10,
+      "MaxWave": 6,
+      "OpenDate": [],
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "FarmType": "COCOON3"
+    },
+    "6": {
+      "ID": 1021,
+      "WorldLevel": 6,
+      "PropID": 801,
+      "CocoonType": "TYPE_NORMAL",
+      "MappingInfoID": 1021,
+      "StageIDList": [
+        1024016,
+        1024026,
+        1024036
       ],
       "BuffDesc": {
         "Hash": 371857150

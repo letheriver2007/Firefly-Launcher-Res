@@ -275,6 +275,16 @@
     "ChapterIconPath": "SpriteOutput/Mission/ChapterIcon/ChapterIconThirdworld.png",
     "ChapterFigureIconPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigThirdWorld.png"
   },
+  "103002": {
+    "ID": 103002,
+    "ChapterName": "MissionChapterConfig_ChapterName_103002",
+    "StageName": "MissionChapterConfig_StageName_103002",
+    "ChapterDesc": "MissionChapterConfig_ChapterDesc_103002",
+    "LinkChapterList": [],
+    "ChapterDisplayPriority": 1008,
+    "ChapterIconPath": "SpriteOutput/Mission/ChapterIcon/ChapterIconThirdworld.png",
+    "ChapterFigureIconPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigThirdWorld.png"
+  },
   "102004": {
     "ID": 102004,
     "ChapterName": "MissionChapterConfig_ChapterName_102004",
@@ -332,5 +342,18 @@
     "ChapterDisplayPriority": 10009,
     "ChapterIconPath": "SpriteOutput/Mission/ChapterIcon/ChapterIconThirdWorld_White.png",
     "ChapterFigureIconPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigThirdWorld.png"
+  },
+  "802111": {
+    "ID": 802111,
+    "ChapterName": "MissionChapterConfig_ChapterName_802111",
+    "StageName": "MissionChapterConfig_StageName_802111",
+    "ChapterDesc": "MissionChapterConfig_ChapterDesc_802111",
+    "ChapterType": "Activity",
+    "LinkChapterList": [],
+    "ChapterDisplayPriority": 802111,
+    "OriginMainMission": 8021101,
+    "FinalMainMission": 8021106,
+    "ChapterIconPath": "SpriteOutput/Mission/ChapterIcon/ChapterIconDrinkMaker.png",
+    "ChapterFigureIconPath": "SpriteOutput/Mission/ChapterIconBig/ChapterIconBigDrinkMaker.png"
   }
 }

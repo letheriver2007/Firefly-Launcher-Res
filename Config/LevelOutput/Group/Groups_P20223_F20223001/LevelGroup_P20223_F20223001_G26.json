@@ -9,36 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -35,
-      29
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 408
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -41,
-      18,
-      -32,
-      19,
-      -31,
-      19,
-      -43,
-      29,
-      -35,
-      29,
-      -43,
-      30
-    ],
-    "LowerUpperBounds": {
-      "x": 406,
-      "y": 408
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -47,8 +17,7 @@
       "PosY": -11.54831,
       "PosZ": 30.41,
       "Name": "Anchor1",
-      "RotY": 328.5023,
-      "MapLayerID": 1
+      "RotY": 328.5023
     },
     {
       "ID": 2,
@@ -56,16 +25,14 @@
       "PosY": -11.18631,
       "PosZ": 58.73,
       "Name": "Anchor2",
-      "RotY": 96.17477,
-      "MapLayerID": 1
+      "RotY": 96.17477
     },
     {
       "ID": 3,
       "PosX": -65.63,
       "PosY": -12.28003,
       "PosZ": 39.65,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     }
   ],
   "MonsterList": [],
@@ -89,7 +56,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -120,7 +86,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -151,7 +116,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -181,7 +145,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -211,7 +174,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -236,7 +198,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312170000,

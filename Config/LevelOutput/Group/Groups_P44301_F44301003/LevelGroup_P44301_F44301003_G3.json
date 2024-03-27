@@ -12,20 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      18,
-      -266
-    ],
-    "LowerUpperBounds": {
-      "x": -6,
-      "y": -5
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -35,8 +21,7 @@
       "PosY": -26.7985,
       "PosZ": -53.64,
       "Name": "Anchor1_teleport_des",
-      "RotY": 225.0,
-      "MapLayerID": 3
+      "RotY": 225.0
     },
     {
       "ID": 2,
@@ -62,7 +47,6 @@
       "RotY": 267.0778,
       "RotX": 25.88604,
       "RotZ": -1.57E-4,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -111,7 +95,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

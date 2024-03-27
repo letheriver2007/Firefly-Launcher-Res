@@ -3131,6 +3131,7 @@
         },
         {
           "$type": "RPG.GameCore.TriggerAnimState",
+          "AnimLogicState": "Idle",
           "AnimStateName": "StandBy",
           "NormalizedTimeEnd": {
             "IsDynamic": false,
@@ -3434,6 +3435,7 @@
         },
         {
           "$type": "RPG.GameCore.TriggerAnimState",
+          "AnimLogicState": "Idle",
           "AnimStateName": "StandBy",
           "NormalizedTimeEnd": {
             "IsDynamic": false,
@@ -3661,8 +3663,20 @@
           "Event": "OnAfterBeingAttacked",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.SetModifierValue",
-              "ModifyFunction": "Add"
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetModifierValue",
+                  "ModifyFunction": "Add"
+                }
+              ]
             }
           ]
         }

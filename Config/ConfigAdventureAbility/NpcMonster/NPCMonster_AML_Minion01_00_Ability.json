@@ -171,6 +171,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Minion01_00/Eff_Monster_AML_Minion01_00_MazeStandBy_Loop.prefab",
           "AttachPoint": "Root"
         },
@@ -180,6 +181,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AML_Minion01_00/Eff_Monster_AML_Minion01_00_MazeStandBy_Loop02.prefab",
           "AttachPoint": "Root"
         }

@@ -21,7 +21,6 @@
       "PosZ": -50.922,
       "Name": "C1",
       "RotY": 281.0893,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -30,8 +29,7 @@
       "PosY": 4.923056,
       "PosZ": -50.5,
       "Name": "Anchor2",
-      "RotY": 240.4726,
-      "MapLayerID": 1
+      "RotY": 240.4726
     }
   ],
   "MonsterList": [],
@@ -72,7 +70,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_01": {
           "Radius": 5.0,
@@ -128,7 +125,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -162,7 +158,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "MappingInfoID": 1411,
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,

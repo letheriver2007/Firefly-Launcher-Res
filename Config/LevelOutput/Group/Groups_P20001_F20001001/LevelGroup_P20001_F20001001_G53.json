@@ -22,7 +22,6 @@
       "RotY": 302.4662,
       "RotX": 6.565816,
       "RotZ": 359.7695,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -31,8 +30,7 @@
       "PosY": 0.147002,
       "PosZ": 130.949,
       "Name": "Anchor2",
-      "RotY": 257.3705,
-      "MapLayerID": 1
+      "RotY": 257.3705
     }
   ],
   "MonsterList": [],
@@ -53,7 +51,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Akimbo01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -93,7 +90,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,

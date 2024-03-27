@@ -32,7 +32,6 @@
       "Name": "Anchor1",
       "RotY": 45.0,
       "RotX": 12.0,
-      "MapLayerID": 2,
       "Usage": "Camera"
     }
   ],
@@ -58,7 +57,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -81,7 +79,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -100,7 +97,6 @@
       "NPCID": 12208,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         2,

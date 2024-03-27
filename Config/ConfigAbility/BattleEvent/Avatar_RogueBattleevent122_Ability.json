@@ -337,7 +337,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Start01.prefab"
         },
         {
@@ -375,7 +374,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Start02.prefab"
         },
         {
@@ -1010,7 +1008,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "DarkTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Sandworm/Eff_BattleEvent_Rogue_sandworm_Camera.prefab"
         },
         {

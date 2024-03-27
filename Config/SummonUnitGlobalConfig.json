@@ -62,7 +62,8 @@
     },
     "StaticUnit": {
       "PositionAdpationConfig": {
-        "Option": "CharacterDefault"
+        "Option": "CharacterDefault",
+        "GroundCheckDown": 5
       },
       "PositionCheckConfig": {
         "CheckMode": "NavMesh",

@@ -28,16 +28,14 @@
       "PosY": -1.074,
       "PosZ": -95.72,
       "Name": "Anchor1",
-      "RotY": 60.74701,
-      "MapLayerID": 1
+      "RotY": 60.74701
     },
     {
       "ID": 2,
       "PosX": 38.646,
       "PosY": -1.09,
       "PosZ": -92.508,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -45,16 +43,14 @@
       "PosY": -1.134003,
       "PosZ": -94.46,
       "Name": "Anchor3",
-      "RotY": 128.6,
-      "MapLayerID": 1
+      "RotY": 128.6
     },
     {
       "ID": 4,
       "PosX": 37.6,
       "PosY": -0.134003,
       "PosZ": -97.03,
-      "Name": "Anchor4",
-      "MapLayerID": 1
+      "Name": "Anchor4"
     }
   ],
   "MonsterList": [],
@@ -75,7 +71,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -100,7 +95,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -161,7 +155,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311080000,

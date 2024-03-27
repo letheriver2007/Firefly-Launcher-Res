@@ -469,7 +469,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Skill02_Buff_Fish.prefab",
           "PositionOffset": {
             "X": 0,
@@ -742,7 +741,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Skill02_Buff_Fish.prefab"
         },
         {
@@ -1098,7 +1096,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Skill03_Mask.prefab"
         },
         {
@@ -1247,7 +1244,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_RecoverBP.prefab",
           "AttachPoint": "Origin"
         },
@@ -1653,7 +1649,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Skill02_Buff_Fish.prefab",
           "PositionOffset": {
             "X": 0,
@@ -1931,47 +1926,6 @@
                       "$type": "RPG.GameCore.AddModifier",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ParamEntity"
-                      },
-                      "ModifierName": "Avatar_Sparkle_00_PassiveSkill_ReadyToAdd",
-                      "LifeTime": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 1
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "Event": "OnListenBeforeAttack",
-              "CallbackConfig": []
-            },
-            {
-              "Event": "OnListenBeforeSkillUse",
-              "CallbackConfig": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.ByAnd",
-                    "PredicateList": [
-                      {
-                        "$type": "RPG.GameCore.ByIsContainModifier",
-                        "TargetType": {
-                          "$type": "RPG.GameCore.TargetAlias",
-                          "Alias": "ParamEntity"
-                        },
-                        "ModifierName": "Avatar_Sparkle_00_PassiveSkill_ReadyToAdd"
-                      }
-                    ]
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.AddModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllLightTeam"
                       },
                       "ModifierName": "MAvatar_Sparkle_PassiveSkill_AllDamageAddedRatio02",
@@ -2038,6 +1992,7 @@
                         }
                       },
                       "IsShowUIMessageOnUpdate": false,
+                      "ShowUIMessageDelayTime": 0.2,
                       "UseFixedPosition": false
                     },
                     {
@@ -2046,21 +2001,16 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
-                      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Buff.prefab"
-                    },
-                    {
-                      "$type": "RPG.GameCore.RemoveModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ParamEntity"
-                      },
-                      "ModifierName": "Avatar_Sparkle_00_PassiveSkill_ReadyToAdd"
+                      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Buff.prefab",
+                      "Delay": 0.2
                     }
-                  ],
-                  "FailedTaskList": []
+                  ]
                 }
               ]
+            },
+            {
+              "Event": "OnListenBeforeAttack",
+              "CallbackConfig": []
             },
             {
               "Event": "OnEnterBattle",
@@ -2274,9 +2224,6 @@
               "-1369667111": {}
             }
           }
-        },
-        "Avatar_Sparkle_00_PassiveSkill_ReadyToAdd": {
-          "Stacking": "ReplaceByCaster"
         }
       },
       "Name": "Avatar_Sparkle_00_PassiveSkill_1",
@@ -2445,7 +2392,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Mask_Buff.prefab"
             },
             {
@@ -2454,7 +2400,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sparkle/Eff_Avatar_Sparkle_00_Skill03_Buff02.prefab",
               "AttachPoint": "Origin"
             }

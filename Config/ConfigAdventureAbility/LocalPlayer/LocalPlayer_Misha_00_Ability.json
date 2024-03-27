@@ -582,7 +582,12 @@
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
                     "MaxRadius": 1.5,
                     "FanAngle": 360,
-                    "Hight": 1.5
+                    "Hight": 2,
+                    "Offset": {
+                      "X": 0,
+                      "Y": -0.5,
+                      "Z": 0
+                    }
                   },
                   "HitConfig": {}
                 }
@@ -785,7 +790,12 @@
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
                     "MaxRadius": 1.5,
                     "FanAngle": 360,
-                    "Hight": 1.5
+                    "Hight": 2,
+                    "Offset": {
+                      "X": 0,
+                      "Y": -0.5,
+                      "Z": 0
+                    }
                   },
                   "HitConfig": {}
                 }

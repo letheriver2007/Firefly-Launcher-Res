@@ -13,8 +13,7 @@
       "PosX": 3.5E-4,
       "PosY": -2.7,
       "PosZ": -94.00024,
-      "Name": "North",
-      "MapLayerID": 1
+      "Name": "North"
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "East",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "South",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -40,8 +37,7 @@
       "PosY": -2.7,
       "PosZ": -94.00024,
       "Name": "West",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 5,
@@ -51,7 +47,6 @@
       "Name": "Anchor5",
       "RotY": 14.27026,
       "RotX": 5.198255,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -63,7 +58,6 @@
       "RotY": 143.2998,
       "RotX": 21.07346,
       "RotZ": 2.498371,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -74,7 +68,6 @@
       "Name": "Anchor7",
       "RotY": 80.73666,
       "RotX": 355.3834,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -86,7 +79,6 @@
       "RotY": 158.0758,
       "RotX": 359.1384,
       "RotZ": 0.0289,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -98,7 +90,6 @@
       "RotY": 64.48615,
       "RotX": 16.73147,
       "RotZ": 3.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -152,7 +143,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -227,7 +217,6 @@
       },
       "CampID": 4,
       "State": "BridgeState3",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [
         180,
@@ -266,7 +255,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -284,7 +272,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Maze/Chapter01/M301/Maze_Chapter_01_M301_Power_Core.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -319,7 +306,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -335,7 +321,6 @@
       "PropID": 301002,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -364,7 +349,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -396,7 +380,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -418,7 +401,6 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -436,7 +418,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap01/InitLevelGraph_Prop_Chap01_TreasureBox_01.json",
       "CampID": 4,
       "State": "ChestLocked",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -450,7 +431,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/M301_Raid01/Maze_Chap01_M301_Raid01_StageObjClose.json",
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -471,7 +451,6 @@
       "PropID": 105,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -491,7 +470,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Special_StandBy",
-      "MapLayerID": 1,
       "NPCLodType": "KeepAnimation",
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
@@ -509,7 +487,6 @@
       "NPCID": 2104,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "NPCLodType": "KeepAnimation",
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],

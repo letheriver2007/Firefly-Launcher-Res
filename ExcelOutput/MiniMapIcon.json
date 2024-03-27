@@ -1772,7 +1772,7 @@
   },
   "170": {
     "ID": 170,
-    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapGravityChargerEmpty.png",
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapGravityCharger.png",
     "IconName": "MazeText_Empty",
     "IsShowInBillboard": true,
     "BillboardIcon": 110,
@@ -2158,7 +2158,6 @@
     "IconName": "MazeText_Empty",
     "IsShowInBillboard": true,
     "MissionIconPath": "",
-    "isShowinMap": true,
     "IsCrossLayer": true,
     "IsShowCornerArrow": true,
     "Priority": 22
@@ -2172,6 +2171,28 @@
     "IsCrossLayer": true,
     "IsShowCornerArrow": true,
     "Priority": 22
+  },
+  "206": {
+    "ID": 206,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapMakeFilm.png",
+    "IconName": "",
+    "IsShowInBillboard": true,
+    "BillboardIcon": 113,
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsShowCornerArrow": true,
+    "Priority": 99
+  },
+  "207": {
+    "ID": 207,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconFeverTime.png",
+    "IconName": "",
+    "IsShowInBillboard": true,
+    "BillboardIcon": 114,
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsShowCornerArrow": true,
+    "Priority": 99
   },
   "209": {
     "ID": 209,
@@ -2196,6 +2217,50 @@
     "IsCrossLayer": true,
     "IsShowCornerArrow": true,
     "IsFollowMapScale": true,
+    "Priority": 99
+  },
+  "211": {
+    "ID": 211,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapMonopoly.png",
+    "IconName": "MazeText_Empty",
+    "IsShowInBillboard": true,
+    "BillboardIcon": 116,
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsCrossLayer": true,
+    "IsShowCornerArrow": true,
+    "Priority": 22
+  },
+  "212": {
+    "ID": 212,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapDrinkMaker.png",
+    "IconName": "MazeText_Empty",
+    "IsShowInBillboard": true,
+    "BillboardIcon": 117,
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsCrossLayer": true,
+    "IsShowCornerArrow": true,
+    "Priority": 22
+  },
+  "213": {
+    "ID": 213,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapP202Barrier.png",
+    "IconName": "MazeText_Empty",
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsFollowMapScale": true,
+    "IsFollowPropScale": true,
+    "Priority": 99
+  },
+  "214": {
+    "ID": 214,
+    "IconPath": "SpriteOutput/MapPics/NaviIcons/IconMapP202Road.png",
+    "IconName": "MazeText_Empty",
+    "MissionIconPath": "",
+    "isShowinMap": true,
+    "IsFollowMapScale": true,
+    "IsFollowPropScale": true,
     "Priority": 99
   }
 }

@@ -4,31 +4,14 @@
   "Category": "Mission",
   "LevelGraph": "Config/Level/GroupTemplateGraph/Puzzle/TrashBinMonster/TrashBinMonster.json",
   "AreaAnchorName": "LevelArea_P20312_F20312001_G214",
+  "SaveDimensionFilter": {
+    "List": []
+  },
   "LoadSide": "Server",
   "OwnerMainMissionID": 4340155,
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -47,
-      -40
-    ],
-    "LowerUpperBounds": {
-      "x": 7,
-      "y": 8
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -47,
-      -40
-    ],
-    "LowerUpperBounds": {
-      "x": 7,
-      "y": 8
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -37,8 +20,7 @@
       "PosX": -92.20571,
       "PosY": 14.54942,
       "PosZ": -80.15,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [
@@ -71,7 +53,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20312239,
-      "MapLayerID": 1,
       "BoardShowList": [
         4,
         16
@@ -113,7 +94,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

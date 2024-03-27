@@ -90,15 +90,6 @@
               "Value": 0.98
             }
           }
-        },
-        {
-          "$type": "RPG.GameCore.TriggerAnimState",
-          "AnimLogicState": "Idle",
-          "AnimStateName": "StandBy"
-        },
-        {
-          "$type": "RPG.GameCore.LookAt",
-          "TargetType": "TeamFormation"
         }
       ]
     },
@@ -128,6 +119,47 @@
               "Value": 0.425
             }
           }
+        },
+        {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByRankActivated",
+            "TriggerKey": {
+              "Hash": 523552506
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              },
+              "ModifierName": "MAvatar_Aventurine_Rank02_ResistanceDown",
+              "LifeTime": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    329378919
+                  ]
+                }
+              },
+              "DynamicValues": {
+                "MDF_PropertyValue": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -1968707556
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         },
         {
           "$type": "RPG.GameCore.DamageByAttackProperty",
@@ -367,6 +399,95 @@
           }
         },
         {
+          "$type": "RPG.GameCore.SetDynamicValueByProperty",
+          "DynamicKey": "MDF_CurrentDefence2",
+          "ReadTargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "Value": "Defence"
+        },
+        {
+          "$type": "RPG.GameCore.IncludeTaskListTemplate",
+          "Name": "Aventurine_RecordCurrentShield"
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AllLightTeam"
+          },
+          "ModifierName": "MAvatar_Aventurine_StackableShield",
+          "LifeTime": {
+            "IsDynamic": true,
+            "PostfixExpr": {
+              "OpCodes": "AQAK",
+              "FixedValues": [],
+              "DynamicHashes": [
+                -1019407308
+              ]
+            }
+          },
+          "DynamicValues": {
+            "MDF_InitShieldValue": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQABAQQBAgIK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  995479797,
+                  583785975,
+                  1089505780
+                ]
+              }
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.AddModifier",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AllLightTeam"
+          },
+          "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
+          "DynamicValues": {
+            "MDF_NewShield": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQABAQQBAgIK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  995479797,
+                  583785975,
+                  1089505780
+                ]
+              }
+            },
+            "MDF_ForceShield": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQABAQQBAgIK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  995479797,
+                  583785975,
+                  1089505780
+                ]
+              }
+            },
+            "MDF_MaxShieldRatio": {
+              "IsDynamic": true,
+              "PostfixExpr": {
+                "OpCodes": "AQAK",
+                "FixedValues": [],
+                "DynamicHashes": [
+                  -1317091266
+                ]
+              }
+            }
+          }
+        },
+        {
           "$type": "RPG.GameCore.LoopTargetList",
           "MaxLoopCount": {
             "IsDynamic": false,
@@ -381,17 +502,15 @@
             {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.ByAny",
-                "PredicateList": [
-                  {
-                    "$type": "RPG.GameCore.ByIsContainModifier",
-                    "TargetType": {
-                      "$type": "RPG.GameCore.TargetAlias",
-                      "Alias": "AbilityTargetEntity"
-                    },
-                    "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
-                  }
-                ]
+                "$type": "RPG.GameCore.ByTargetListIntersects",
+                "FirstTargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "SecondTargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "AbilityTargetEntity"
+                }
               },
               "SuccessTaskList": [
                 {
@@ -403,46 +522,6 @@
                       "Value": 1
                     }
                   }
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                  "DynamicValues": {
-                    "MDF_TeammateCount": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          -2137180374
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg1": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770054
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg2": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770057
-                        ]
-                      }
-                    }
-                  }
                 }
               ],
               "FailedTaskList": [
@@ -452,39 +531,23 @@
                     {
                       "IsDynamic": false,
                       "FixedValue": {
-                        "Value": 0.25
+                        "Value": 0.2
                       }
                     },
                     {
                       "IsDynamic": false,
                       "FixedValue": {
-                        "Value": 0.25
+                        "Value": 0.2
                       }
                     },
                     {
                       "IsDynamic": false,
                       "FixedValue": {
-                        "Value": 0.25
-                      }
-                    },
-                    {
-                      "IsDynamic": false,
-                      "FixedValue": {
-                        "Value": 0.25
+                        "Value": 0.2
                       }
                     }
                   ],
                   "TaskList": [
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_TeammateCount1",
-                      "Value": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 1
-                        }
-                      }
-                    },
                     {
                       "$type": "RPG.GameCore.SetDynamicValue",
                       "DynamicKey": "MDF_TeammateCount1",
@@ -516,119 +579,56 @@
                       }
                     }
                   ]
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AbilityTargetEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                  "DynamicValues": {
-                    "MDF_TeammateCount": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          -2137180374
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg1": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770054
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg2": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770057
-                        ]
-                      }
-                    }
-                  }
                 }
               ]
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              },
+              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+              "DynamicValues": {
+                "MDF_CanTriggerShieldEffect": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 1
+                  }
+                },
+                "MDF_ResistanceRatio": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -1814694839
+                    ]
+                  }
+                },
+                "MDF_TeammateCount": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -2137180374
+                    ]
+                  }
+                },
+                "MDF_CritDmg1": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      164770054
+                    ]
+                  }
+                }
+              }
             }
           ]
-        },
-        {
-          "$type": "RPG.GameCore.SetDynamicValueByProperty",
-          "DynamicKey": "MDF_CurrentDefence2",
-          "ReadTargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "Caster"
-          },
-          "Value": "Defence"
-        },
-        {
-          "$type": "RPG.GameCore.AddModifier",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllLightTeam"
-          },
-          "ModifierName": "MAvatar_Aventurine_StackableShield",
-          "LifeTime": {
-            "IsDynamic": true,
-            "PostfixExpr": {
-              "OpCodes": "AQAK",
-              "FixedValues": [],
-              "DynamicHashes": [
-                -1019407308
-              ]
-            }
-          }
-        },
-        {
-          "$type": "RPG.GameCore.AddModifier",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllLightTeam"
-          },
-          "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
-          "DynamicValues": {
-            "MDF_NewShield": {
-              "IsDynamic": true,
-              "PostfixExpr": {
-                "OpCodes": "AQABAQQBAgIK",
-                "FixedValues": [],
-                "DynamicHashes": [
-                  995479797,
-                  583785975,
-                  1089505780
-                ]
-              }
-            },
-            "MDF_MaxShieldRatio": {
-              "IsDynamic": true,
-              "PostfixExpr": {
-                "OpCodes": "AQAK",
-                "FixedValues": [],
-                "DynamicHashes": [
-                  -1317091266
-                ]
-              }
-            },
-            "MDF_MaxShieldValue": {
-              "IsDynamic": true,
-              "PostfixExpr": {
-                "OpCodes": "AQAK",
-                "FixedValues": [],
-                "DynamicHashes": [
-                  1594842097
-                ]
-              }
-            }
-          }
         },
         {
           "$type": "RPG.GameCore.ModifySPNew",
@@ -878,17 +878,35 @@
             "Alias": "AllDarkTeamWithAllDarkTeamUnselectable"
           },
           "Predicate": {
-            "$type": "RPG.GameCore.ByCompareMonsterID",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "ParamEntity"
-            },
-            "TargetMonsterID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 8015011
+            "$type": "RPG.GameCore.ByAny",
+            "PredicateList": [
+              {
+                "$type": "RPG.GameCore.ByCompareMonsterID",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "TargetMonsterID": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 8015010
+                  }
+                }
+              },
+              {
+                "$type": "RPG.GameCore.ByCompareMonsterID",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "TargetMonsterID": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 8015011
+                  }
+                }
               }
-            }
+            ]
           },
           "MaxNumber": {
             "IsDynamic": false,
@@ -898,110 +916,177 @@
           },
           "TaskList": [
             {
-              "$type": "RPG.GameCore.DebugLog",
-              "Level": "Warn",
-              "Message": "==============8015011======================"
-            },
-            {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ParamEntity"
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByIsContainModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "ModifierName": "MMonster_WMonster_W0_Boss_00_Unselectable",
+                "Inverse": true
               },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_AML.prefab"
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_AML.prefab",
+                  "PositionOffset": {
+                    "X": -1.5,
+                    "Y": 0,
+                    "Z": -6
+                  }
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_AML.prefab"
+                }
+              ]
             }
           ]
         },
         {
           "$type": "RPG.GameCore.PredicateTaskList",
           "Predicate": {
-            "$type": "RPG.GameCore.ByCompareMonsterID",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AbilityTargetEntity"
-            },
-            "TargetMonsterID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 8015021
+            "$type": "RPG.GameCore.ByAny",
+            "PredicateList": [
+              {
+                "$type": "RPG.GameCore.ByCompareMonsterID",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "AbilityTargetEntity"
+                },
+                "TargetMonsterID": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 8015021
+                  }
+                }
+              },
+              {
+                "$type": "RPG.GameCore.ByCompareMonsterID",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "AbilityTargetEntity"
+                },
+                "TargetMonsterID": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 8015020
+                  }
+                }
               }
-            }
+            ]
           },
           "SuccessTaskList": [
             {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AbilityTargetEntity"
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCompareMonsterPhase",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "AbilityTargetEntity"
+                },
+                "CompareType": "Equal",
+                "CompareValue": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 1
+                  }
+                }
               },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke.prefab",
-              "PositionOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": -3.5
-              }
-            }
-          ]
-        },
-        {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareMonsterID",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AbilityTargetEntity"
-            },
-            "TargetMonsterID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 9005020
-              }
-            }
-          },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AbilityTargetEntity"
-              },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_Phase2.prefab",
-              "PositionOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": -3.5
-              }
-            }
-          ]
-        },
-        {
-          "$type": "RPG.GameCore.PredicateTaskList",
-          "Predicate": {
-            "$type": "RPG.GameCore.ByCompareMonsterID",
-            "TargetType": {
-              "$type": "RPG.GameCore.TargetAlias",
-              "Alias": "AbilityTargetEntity"
-            },
-            "TargetMonsterID": {
-              "IsDynamic": false,
-              "FixedValue": {
-                "Value": 9005021
-              }
-            }
-          },
-          "SuccessTaskList": [
-            {
-              "$type": "RPG.GameCore.TriggerEffect",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AbilityTargetEntity"
-              },
-              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_Phase3.prefab",
-              "PositionOffset": {
-                "X": 0,
-                "Y": 0,
-                "Z": -3.5
-              }
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AbilityTargetEntity"
+                  },
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke.prefab",
+                  "PositionOffset": {
+                    "X": 0,
+                    "Y": 0,
+                    "Z": -3.5
+                  }
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareMonsterPhase",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "AbilityTargetEntity"
+                    },
+                    "CompareType": "Equal",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 2
+                      }
+                    }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.TriggerEffect",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "AbilityTargetEntity"
+                      },
+                      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_Phase2.prefab",
+                      "PositionOffset": {
+                        "X": 0,
+                        "Y": 0,
+                        "Z": -3.5
+                      }
+                    }
+                  ],
+                  "FailedTaskList": [
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByCompareMonsterPhase",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "AbilityTargetEntity"
+                        },
+                        "CompareType": "Equal",
+                        "CompareValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 3
+                          }
+                        }
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.TriggerEffect",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "AbilityTargetEntity"
+                          },
+                          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill03_BossSmoke_Phase3.prefab",
+                          "PositionOffset": {
+                            "X": -0.5,
+                            "Y": 0,
+                            "Z": -12
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1147,6 +1232,24 @@
           "NormalizedTimeEnd": {
             "IsDynamic": false,
             "FixedValue": {
+              "Value": 0.781
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.ShowBattleUI",
+          "IsShow": true
+        },
+        {
+          "$type": "RPG.GameCore.WaitAnimState",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "AnimStateName": "Skill03",
+          "NormalizedTimeEnd": {
+            "IsDynamic": false,
+            "FixedValue": {
               "Value": 0.788
             }
           }
@@ -1161,7 +1264,7 @@
           "CustomUIModelAttachPointName": "SelectRoot",
           "CustomOffset": {
             "X": 0,
-            "Y": 0.6,
+            "Y": 1.4,
             "Z": 0
           },
           "ForceVisible": true,
@@ -1174,16 +1277,6 @@
             "Alias": "AbilityTargetEntity"
           },
           "ModifierName": "MAvatar_Aventurine_00_Skill03_CritDmgIncrease",
-          "Chance": {
-            "IsDynamic": true,
-            "PostfixExpr": {
-              "OpCodes": "AQAK",
-              "FixedValues": [],
-              "DynamicHashes": [
-                -894137418
-              ]
-            }
-          },
           "LifeTime": {
             "IsDynamic": true,
             "PostfixExpr": {
@@ -1275,6 +1368,261 @@
           "UnscaledDuration": 2
         },
         {
+          "$type": "RPG.GameCore.PredicateTaskList",
+          "Predicate": {
+            "$type": "RPG.GameCore.ByRankActivated",
+            "TriggerKey": {
+              "Hash": 2089636447
+            }
+          },
+          "SuccessTaskList": [
+            {
+              "$type": "RPG.GameCore.IncludeTaskListTemplate",
+              "Name": "Aventurine_RecordCurrentShield"
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValueByProperty",
+              "DynamicKey": "MDF_CurrentDefence2",
+              "ReadTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "Value": "Defence"
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              },
+              "ModifierName": "MAvatar_Aventurine_StackableShield",
+              "LifeTime": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1118347224
+                  ]
+                }
+              },
+              "DynamicValues": {
+                "MDF_InitShieldValue": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQABAQECBAEDAgQK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -1230390406,
+                      995479797,
+                      583785975,
+                      1089505780
+                    ]
+                  }
+                }
+              },
+              "IsShowUIMessageFromModel": false
+            },
+            {
+              "$type": "RPG.GameCore.AddModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              },
+              "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
+              "DynamicValues": {
+                "MDF_NewShield": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQABAQECBAEDAgQK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -1230390406,
+                      995479797,
+                      583785975,
+                      1089505780
+                    ]
+                  }
+                },
+                "MDF_ForceShield": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQABAQQBAgIK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      995479797,
+                      583785975,
+                      1089505780
+                    ]
+                  }
+                },
+                "MDF_MaxShieldRatio": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQAK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      -1317091266
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.Retarget",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              },
+              "MaxNumber": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 4
+                }
+              },
+              "TaskList": [
+                {
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByIsContainModifier",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
+                    "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+                    "Inverse": true
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByTargetListIntersects",
+                        "FirstTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "Caster"
+                        },
+                        "SecondTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        }
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.SetDynamicValue",
+                          "DynamicKey": "MDF_TeammateCount1",
+                          "Value": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 1
+                            }
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.RandomConfig",
+                          "OddsList": [
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
+                            },
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
+                            },
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
+                            }
+                          ],
+                          "TaskList": [
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 2
+                                }
+                              }
+                            },
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 3
+                                }
+                              }
+                            },
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 4
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ParamEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+                      "DynamicValues": {
+                        "MDF_ResistanceRatio": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              -1814694839
+                            ]
+                          }
+                        },
+                        "MDF_TeammateCount": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              -2137180374
+                            ]
+                          }
+                        },
+                        "MDF_CritDmg1": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              164770054
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "$type": "RPG.GameCore.SkillPerformFinish"
         }
       ]
@@ -1305,11 +1653,11 @@
               "Value": 0
             }
           },
-          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1207Passive.png",
+          "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1304SkillTree3.png",
           "MaxCount": {
             "IsDynamic": false,
             "FixedValue": {
-              "Value": 6
+              "Value": 7
             }
           },
           "CurrentCount": {
@@ -1346,6 +1694,13 @@
         "TargetType": "InherentTargetEntity"
       },
       "OnStart": [
+        {
+          "$type": "RPG.GameCore.ShowBonusUIEffect",
+          "UIPrefabPath": "UI/Battle/SpecialAction/SpecialAction_1304.prefab",
+          "TitleTextID": {
+            "Hash": -1337410962
+          }
+        },
         {
           "$type": "RPG.GameCore.TriggerAbility",
           "TargetType": {
@@ -1434,6 +1789,11 @@
           "$type": "RPG.GameCore.SetTeamFormation",
           "Team": "TeamLight",
           "FormationType": "LightTeamNormal"
+        },
+        {
+          "$type": "RPG.GameCore.SetTeamFormation",
+          "Team": "TeamDark",
+          "FormationType": "DarkTeamNormal"
         }
       ]
     },
@@ -1448,7 +1808,7 @@
           "Predicate": {
             "$type": "RPG.GameCore.ByRankActivated",
             "TriggerKey": {
-              "Hash": 523552506
+              "Hash": 1686351920
             }
           },
           "SuccessTaskList": [
@@ -1465,9 +1825,15 @@
                   "OpCodes": "AQAK",
                   "FixedValues": [],
                   "DynamicHashes": [
-                    2131075020
+                    -304658486
                   ]
                 }
+              },
+              "CustomUIModelAttachPointName": "SelectRoot",
+              "CustomOffset": {
+                "X": -0.2,
+                "Y": 0.35,
+                "Z": 0
               }
             },
             {
@@ -1479,7 +1845,7 @@
                   "OpCodes": "AQAK",
                   "FixedValues": [],
                   "DynamicHashes": [
-                    584823979
+                    1819471213
                   ]
                 }
               }
@@ -1548,7 +1914,7 @@
               "OpCodes": "AQAAAAMK",
               "FixedValues": [
                 {
-                  "Value": 6
+                  "Value": 7
                 }
               ],
               "DynamicHashes": [
@@ -1558,6 +1924,30 @@
           }
         },
         {
+          "$type": "RPG.GameCore.DefineDynamicValue",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "DynamicKey": "MDF_AttackGap",
+          "ResetValue": {
+            "IsDynamic": true,
+            "PostfixExpr": {
+              "OpCodes": "AAABAAEBAgUK",
+              "FixedValues": [
+                {
+                  "Value": 1
+                }
+              ],
+              "DynamicHashes": [
+                -453237838,
+                -535229985
+              ]
+            }
+          },
+          "ContextScope": "ContextCater"
+        },
+        {
           "$type": "RPG.GameCore.LoopExecuteTaskList",
           "MaxLoopCount": {
             "IsDynamic": true,
@@ -1565,7 +1955,7 @@
               "OpCodes": "AQABAQIK",
               "FixedValues": [],
               "DynamicHashes": [
-                -1071247364,
+                -453237838,
                 -535229985
               ]
             }
@@ -1577,6 +1967,34 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AllEnemy"
               },
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAny",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByHaveEnemyAlive",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "Inverse": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCompareHP",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ParamEntity"
+                    },
+                    "CompareType": "Greater",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
+                    }
+                  }
+                ]
+              },
+              "IncludeLimbo": true,
               "MaxNumber": {
                 "IsDynamic": false,
                 "FixedValue": {
@@ -1595,9 +2013,13 @@
                 {
                   "$type": "RPG.GameCore.WaitSecond",
                   "WaitTime": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 0.15
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        847982004
+                      ]
                     }
                   }
                 },
@@ -1616,7 +2038,7 @@
                         "OpCodes": "AQAK",
                         "FixedValues": [],
                         "DynamicHashes": [
-                          -1613837273
+                          -1920622479
                         ]
                       }
                     },
@@ -1644,6 +2066,14 @@
                   "CanTriggerLastKill": true
                 },
                 {
+                  "$type": "RPG.GameCore.TriggerSound",
+                  "SoundName": "Ev_sfx_avatar_PassiveSkill_Hit_Aventurine",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  }
+                },
+                {
                   "$type": "RPG.GameCore.TargetTimeSlow",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
@@ -1651,62 +2081,6 @@
                   },
                   "TimeScale": 0.3,
                   "UnscaledDuration": 0.5
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ParamEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_00_Passive_ReduceStatusProbability",
-                  "Chance": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        1974949950
-                      ]
-                    }
-                  },
-                  "LifeTime": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -1156924325
-                      ]
-                    }
-                  },
-                  "MaxLayer": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -1901325140
-                      ]
-                    }
-                  },
-                  "LayerAddWhenStack": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 1
-                    }
-                  },
-                  "DynamicValues": {
-                    "MDF_PropertyValue2": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          908823740
-                        ]
-                      }
-                    }
-                  }
                 }
               ]
             }
@@ -1722,161 +2096,6 @@
             "Alias": "AllEnemy"
           },
           "TimeScale": 1
-        },
-        {
-          "$type": "RPG.GameCore.RemoveModifier",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllLightTeam"
-          },
-          "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
-        },
-        {
-          "$type": "RPG.GameCore.RemoveModifier",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllLightTeam"
-          },
-          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect"
-        },
-        {
-          "$type": "RPG.GameCore.Retarget",
-          "TargetType": {
-            "$type": "RPG.GameCore.TargetAlias",
-            "Alias": "AllLightTeam"
-          },
-          "MaxNumber": {
-            "IsDynamic": false,
-            "FixedValue": {
-              "Value": 4
-            }
-          },
-          "TaskList": [
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.ByIsContainModifier",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ParamEntity"
-                },
-                "ModifierName": "MAvatar_Aventurine_StackableShield"
-              },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.RandomConfig",
-                  "OddsList": [
-                    {
-                      "IsDynamic": false,
-                      "FixedValue": {
-                        "Value": 0.2
-                      }
-                    },
-                    {
-                      "IsDynamic": false,
-                      "FixedValue": {
-                        "Value": 0.2
-                      }
-                    },
-                    {
-                      "IsDynamic": false,
-                      "FixedValue": {
-                        "Value": 0.2
-                      }
-                    },
-                    {
-                      "IsDynamic": false,
-                      "FixedValue": {
-                        "Value": 0.2
-                      }
-                    }
-                  ],
-                  "TaskList": [
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_TeammateCount1",
-                      "Value": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 1
-                        }
-                      }
-                    },
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_TeammateCount1",
-                      "Value": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 2
-                        }
-                      }
-                    },
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_TeammateCount1",
-                      "Value": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 3
-                        }
-                      }
-                    },
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_TeammateCount1",
-                      "Value": {
-                        "IsDynamic": false,
-                        "FixedValue": {
-                          "Value": 4
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ParamEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                  "DynamicValues": {
-                    "MDF_TeammateCount": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          -2137180374
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg1": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770054
-                        ]
-                      }
-                    },
-                    "MDF_CritDmg2": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          164770057
-                        ]
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
         },
         {
           "$type": "RPG.GameCore.WaitAnimState",
@@ -1917,7 +2136,7 @@
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
+                    "Alias": "AllLightTeam"
                   },
                   "ModifierName": "MAvatar_Aventurine_00_Maze_Defence",
                   "LifeTime": {
@@ -1983,7 +2202,7 @@
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
+                    "Alias": "AllLightTeam"
                   },
                   "ModifierName": "MAvatar_Aventurine_00_Maze_Defence",
                   "LifeTime": {
@@ -2049,7 +2268,7 @@
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
+                    "Alias": "AllLightTeam"
                   },
                   "ModifierName": "MAvatar_Aventurine_00_Maze_Defence",
                   "LifeTime": {
@@ -2117,8 +2336,70 @@
     "MAvatar_Aventurine_Passive": {
       "_CallbackList": [
         {
+          "Event": "OnPhase1",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_InsertAttackCount",
+              "Value": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.BySkillPointActivated",
+                "PointTriggerKey": {
+                  "Hash": 1455742905
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_SkillTree03_Status",
+                  "DynamicValues": {
+                    "MDF_PropertyValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQMK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1473781472,
+                          -1675560504
+                        ]
+                      }
+                    }
+                  },
+                  "IsShowUIMessageOnUpdate": false
+                }
+              ]
+            }
+          ]
+        },
+        {
           "Event": "OnStack",
           "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_InsertAttackLimit",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1754844762
+                  ]
+                }
+              }
+            },
             {
               "$type": "RPG.GameCore.AddModifier",
               "TargetType": {
@@ -2138,25 +2419,6 @@
                   }
                 }
               }
-            },
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.ByRankActivated",
-                "TriggerKey": {
-                  "Hash": 1686351920
-                }
-              },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "Caster"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_Rank04"
-                }
-              ]
             },
             {
               "$type": "RPG.GameCore.PredicateTaskList",
@@ -2216,10 +2478,293 @@
               ]
             }
           ]
+        },
+        {
+          "Event": "OnEnterBattle",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.BySkillPointActivated",
+                    "PointTriggerKey": {
+                      "Hash": 1455742904
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCompareWaveCount",
+                    "CompareType": "Equal",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1
+                      }
+                    }
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetDynamicValueByProperty",
+                  "DynamicKey": "MDF_CurrentDefence2",
+                  "ReadTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "Value": "Defence"
+                },
+                {
+                  "$type": "RPG.GameCore.IncludeTaskListTemplate",
+                  "Name": "Aventurine_RecordCurrentShield"
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AllLightTeam"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        948615157
+                      ]
+                    }
+                  },
+                  "DynamicValues": {
+                    "MDF_InitShieldValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQECBAEDAgQK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          676674648,
+                          995479797,
+                          583785975,
+                          1089505780
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AllLightTeam"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
+                  "DynamicValues": {
+                    "MDF_ForceShield": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQQBAgIK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          995479797,
+                          583785975,
+                          1089505780
+                        ]
+                      }
+                    },
+                    "MDF_NewShield": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQECBAEDAgQK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          676674648,
+                          995479797,
+                          583785975,
+                          1089505780
+                        ]
+                      }
+                    },
+                    "MDF_MaxShieldRatio": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1317091266
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.Retarget",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AllLightTeam"
+                  },
+                  "MaxNumber": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 4
+                    }
+                  },
+                  "TaskList": [
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+                        "Inverse": true
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByTargetListIntersects",
+                            "FirstTargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "Caster"
+                            },
+                            "SecondTargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "ParamEntity"
+                            }
+                          },
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 1
+                                }
+                              }
+                            }
+                          ],
+                          "FailedTaskList": [
+                            {
+                              "$type": "RPG.GameCore.RandomConfig",
+                              "OddsList": [
+                                {
+                                  "IsDynamic": false,
+                                  "FixedValue": {
+                                    "Value": 0.2
+                                  }
+                                },
+                                {
+                                  "IsDynamic": false,
+                                  "FixedValue": {
+                                    "Value": 0.2
+                                  }
+                                },
+                                {
+                                  "IsDynamic": false,
+                                  "FixedValue": {
+                                    "Value": 0.2
+                                  }
+                                }
+                              ],
+                              "TaskList": [
+                                {
+                                  "$type": "RPG.GameCore.SetDynamicValue",
+                                  "DynamicKey": "MDF_TeammateCount1",
+                                  "Value": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 2
+                                    }
+                                  }
+                                },
+                                {
+                                  "$type": "RPG.GameCore.SetDynamicValue",
+                                  "DynamicKey": "MDF_TeammateCount1",
+                                  "Value": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 3
+                                    }
+                                  }
+                                },
+                                {
+                                  "$type": "RPG.GameCore.SetDynamicValue",
+                                  "DynamicKey": "MDF_TeammateCount1",
+                                  "Value": {
+                                    "IsDynamic": false,
+                                    "FixedValue": {
+                                      "Value": 4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$type": "RPG.GameCore.AddModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ParamEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+                          "DynamicValues": {
+                            "MDF_ResistanceRatio": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -1814694839
+                                ]
+                              }
+                            },
+                            "MDF_TeammateCount": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -2137180374
+                                ]
+                              }
+                            },
+                            "MDF_CritDmg1": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  164770054
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "_PriorityList": [
+        {
+          "PriorityName": "EnterBattlePriority",
+          "Key": "CharacterLateBuff"
         }
       ]
     },
     "MAvatar_Aventurine_Passive_OnAfterBeingAttacked": {
+      "BehaviorFlagList": [
+        "RemoveWhenCasterDead"
+      ],
       "_CallbackList": [
         {
           "Event": "OnAfterHitAll",
@@ -2230,10 +2775,10 @@
                 "$type": "RPG.GameCore.ByAnd",
                 "PredicateList": [
                   {
-                    "$type": "RPG.GameCore.ByAttackType",
-                    "AttackTypes": [
-                      "Insert"
-                    ]
+                    "$type": "RPG.GameCore.BySkillPointActivated",
+                    "PointTriggerKey": {
+                      "Hash": 1455742905
+                    }
                   },
                   {
                     "$type": "RPG.GameCore.ByIsContainModifier",
@@ -2247,16 +2792,63 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.SetDynamicValue",
-                  "DynamicKey": "MDF_IsInsert",
-                  "Value": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 1
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByAny",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "DynamicKey": "MDF_InsertAttackCount",
+                        "CompareType": "Less",
+                        "CompareValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              -1754844762
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByAttackType",
+                        "AttackTypes": [
+                          "Insert"
+                        ]
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.SetDynamicValue",
+                          "DynamicKey": "MDF_IsInsert",
+                          "Value": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 1
+                            }
+                          }
+                        }
+                      ]
                     }
-                  }
+                  ],
+                  "FailedTaskList": [
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_SkillTree03_Status"
+                    }
+                  ]
                 }
-              ]
+              ],
+              "FailedTaskList": []
             }
           ]
         },
@@ -2277,12 +2869,15 @@
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.ByIsContainModifier",
-                    "TargetType": {
+                    "$type": "RPG.GameCore.ByTargetListIntersects",
+                    "FirstTargetType": {
                       "$type": "RPG.GameCore.TargetAlias",
                       "Alias": "ModifierOwnerEntity"
                     },
-                    "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
+                    "SecondTargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    }
                   },
                   "SuccessTaskList": [
                     {
@@ -2295,8 +2890,12 @@
                       "LayerAddWhenStack": {
                         "IsDynamic": true,
                         "PostfixExpr": {
-                          "OpCodes": "AQAK",
-                          "FixedValues": [],
+                          "OpCodes": "AQAAAAIK",
+                          "FixedValues": [
+                            {
+                              "Value": 1
+                            }
+                          ],
                           "DynamicHashes": [
                             -1163967420
                           ]
@@ -2305,11 +2904,6 @@
                     }
                   ],
                   "FailedTaskList": [
-                    {
-                      "$type": "RPG.GameCore.DebugLog",
-                      "Level": "Warn",
-                      "Message": "=============11111=============="
-                    },
                     {
                       "$type": "RPG.GameCore.AddModifier",
                       "TargetType": {
@@ -2384,6 +2978,46 @@
               },
               "SuccessTaskList": [
                 {
+                  "$type": "RPG.GameCore.SetDynamicValue",
+                  "DynamicKey": "MDF_InsertAttackCount",
+                  "Value": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAAAAIK",
+                      "FixedValues": [
+                        {
+                          "Value": 1
+                        }
+                      ],
+                      "DynamicHashes": [
+                        -1675560504
+                      ]
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_SkillTree03_Status",
+                  "DynamicValues": {
+                    "MDF_PropertyValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQMK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1473781472,
+                          -1675560504
+                        ]
+                      }
+                    }
+                  },
+                  "IsShowUIMessageOnUpdate": false
+                },
+                {
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
@@ -2396,6 +3030,39 @@
                       "Value": 1
                     }
                   }
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "MDF_InsertAttackCount",
+                    "CompareType": "GreaterEqual",
+                    "CompareValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1754844762
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_SkillTree03_Status"
                 }
               ]
             }
@@ -2415,11 +3082,6 @@
                 "ModifierName": "MAvatar_Aventurine_Passive_AddEnergyMark"
               },
               "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.DebugLog",
-                  "Level": "Warn",
-                  "Message": "=======2MDF_Layer22{MDF_Layer2}============"
-                },
                 {
                   "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
                   "ReadTargetType": {
@@ -2442,6 +3104,7 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
+                  "AliveOnly": false,
                   "ModifierName": "MAvatar_Aventurine_Passive_ShieldEnergy",
                   "LayerAddWhenStack": {
                     "IsDynamic": true,
@@ -2478,6 +3141,9 @@
     "MAvatar_Aventurine_Passive_AddEnergyMark": {},
     "MAvatar_Aventurine_Passive_ShieldEnergy": {
       "MaxLayer": 10,
+      "BehaviorFlagList": [
+        "CustomEvent_InfiniteRefresh"
+      ],
       "_CallbackList": [
         {
           "Event": "OnStack",
@@ -2507,7 +3173,7 @@
                 "CompareValue": {
                   "IsDynamic": false,
                   "FixedValue": {
-                    "Value": 6
+                    "Value": 7
                   }
                 }
               },
@@ -2523,11 +3189,11 @@
                       "Value": 0
                     }
                   },
-                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1207Passive.png",
+                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1304SkillTree3.png",
                   "MaxCount": {
                     "IsDynamic": false,
                     "FixedValue": {
-                      "Value": 6
+                      "Value": 7
                     }
                   },
                   "CurrentCount": {
@@ -2559,6 +3225,7 @@
                   "InsertAbilityPriority": "AvatarInsertAttackSelf",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": false,
@@ -2581,11 +3248,11 @@
                       "Value": 0
                     }
                   },
-                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1207Passive.png",
+                  "IconPath": "SpriteOutput/BuffIcon/Inlevel/Icon1304SkillTree3.png",
                   "MaxCount": {
                     "IsDynamic": false,
                     "FixedValue": {
-                      "Value": 6
+                      "Value": 7
                     }
                   },
                   "CurrentCount": {
@@ -2604,7 +3271,7 @@
           ]
         },
         {
-          "Event": "OnWaveMonster",
+          "Event": "OnCustomEvent",
           "CallbackConfig": [
             {
               "$type": "RPG.GameCore.PredicateTaskList",
@@ -2619,7 +3286,7 @@
                     "CompareValue": {
                       "IsDynamic": false,
                       "FixedValue": {
-                        "Value": 6
+                        "Value": 7
                       }
                     }
                   },
@@ -2662,6 +3329,157 @@
                   "InsertAbilityPriority": "AvatarInsertAttackSelf",
                   "ShowInActionBar": true,
                   "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
+                    "Type": "AbilityOwnerInsertUnusedCount",
+                    "Count": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Event": "OnModifierRemove",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "MDF_Layer",
+                    "ContextScope": "ContextModifier",
+                    "CompareType": "GreaterEqual",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 7
+                      }
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCheckModifierCallBackBehaviorFlag",
+                    "Flag": "STAT_CTRL"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "Flag": "STAT_CTRL",
+                    "Inverse": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "Flag": "DisableAction",
+                    "Inverse": true
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.TurnInsertAbility",
+                  "AbilityName": "Avatar_Aventurine_00_PassiveSkill01_InsertAbility",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "AbilityTarget": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AllEnemy"
+                  },
+                  "AbortBehaviorFlags": [
+                    "DisableAction",
+                    "STAT_CTRL"
+                  ],
+                  "InsertAbilityPriority": "AvatarInsertAttackSelf",
+                  "ShowInActionBar": true,
+                  "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
+                    "Type": "AbilityOwnerInsertUnusedCount",
+                    "Count": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Event": "OnWaveMonster",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "MDF_Layer",
+                    "ContextScope": "ContextModifier",
+                    "CompareType": "GreaterEqual",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 7
+                      }
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "Flag": "STAT_CTRL",
+                    "Inverse": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "Flag": "DisableAction",
+                    "Inverse": true
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.TurnInsertAbility",
+                  "AbilityName": "Avatar_Aventurine_00_PassiveSkill01_InsertAbility",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "AbilityTarget": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "AllEnemy"
+                  },
+                  "AbortBehaviorFlags": [
+                    "DisableAction",
+                    "STAT_CTRL"
+                  ],
+                  "InsertAbilityPriority": "AvatarInsertAttackSelf",
+                  "ShowInActionBar": true,
+                  "PreCheck": {
+                    "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                     "Type": "AbilityOwnerInsertUnusedCount",
                     "Count": {
                       "IsDynamic": false,
@@ -2689,20 +3507,55 @@
           "Event": "OnStack",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
+              "$type": "RPG.GameCore.SetDynamicValueByCopying",
+              "FromTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "FromDynamicKey": "AventurineShieldValue",
+              "ToTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ToDynamicKey": "CurShield"
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValueByProperty",
+              "DynamicKey": "MDF_ShieldAddedRatio",
+              "ReadTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "Value": "ShieldAddedRatio"
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValueByProperty",
+              "DynamicKey": "MDF_ShieldTakenRatio",
               "ReadTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "ModifierName": "MAvatar_Aventurine_StackableShield",
-              "ValueType": "CurrentShield",
-              "Multiplier": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 1
+              "Value": "ShieldTakenRatio"
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_NewShield",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAAAAEBAgECAgQK",
+                  "FixedValues": [
+                    {
+                      "Value": 1
+                    }
+                  ],
+                  "DynamicHashes": [
+                    -1018056705,
+                    -166370685,
+                    1654319276
+                  ]
                 }
-              },
-              "DynamicKey": "CurShield"
+              }
             },
             {
               "$type": "RPG.GameCore.SetDynamicValue",
@@ -2734,27 +3587,23 @@
               }
             },
             {
-              "$type": "RPG.GameCore.SetDynamicValueByProperty",
-              "DynamicKey": "MDF_CurrentDefence",
-              "ReadTargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "Caster"
-              },
-              "Value": "Defence"
-            },
-            {
               "$type": "RPG.GameCore.SetDynamicValue",
               "DynamicKey": "MDF_ForceShieldValue",
               "ContextScope": "ContextCater",
               "Value": {
                 "IsDynamic": true,
                 "PostfixExpr": {
-                  "OpCodes": "AQABAQQBAgIK",
-                  "FixedValues": [],
+                  "OpCodes": "AQABAQQAAAECAgEDAgQK",
+                  "FixedValues": [
+                    {
+                      "Value": 1
+                    }
+                  ],
                   "DynamicHashes": [
-                    -106459293,
+                    1079898730,
                     -1177161350,
-                    -1598840556
+                    -166370685,
+                    1654319276
                   ]
                 }
               }
@@ -2799,77 +3648,69 @@
               ]
             },
             {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.ByCompareDynamicValue",
-                "DynamicKey": "MDF_ForceShieldValue",
-                "ContextScope": "ContextCater",
-                "CompareType": "Less",
-                "CompareValue": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQAK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      -905379045
-                    ]
-                  }
+              "$type": "RPG.GameCore.ModifyShieldMax",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ShieldModifiers": [
+                "MAvatar_Aventurine_StackableShield"
+              ],
+              "SpecifiedModifierCaster": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifyOp": "Set",
+              "FormulaValue": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1018056705
+                  ]
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_ShieldMax",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1018056705
+                  ]
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.ModifyShield",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ShieldModifiers": [
+                "MAvatar_Aventurine_StackableShield"
+              ],
+              "SpecifiedModifierCaster": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ModifyOp": "Set",
+              "FormulaValue": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1018056705
+                  ]
                 }
               },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.ModifyShieldMax",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "ShieldModifiers": [
-                    "MAvatar_Aventurine_StackableShield"
-                  ],
-                  "SpecifiedModifierCaster": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "Caster"
-                  },
-                  "ModifyOp": "Set",
-                  "FormulaValue": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -905379045
-                      ]
-                    }
-                  }
-                }
-              ],
-              "FailedTaskList": [
-                {
-                  "$type": "RPG.GameCore.ModifyShieldMax",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "ShieldModifiers": [
-                    "MAvatar_Aventurine_StackableShield"
-                  ],
-                  "SpecifiedModifierCaster": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "Caster"
-                  },
-                  "ModifyOp": "Set",
-                  "FormulaValue": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -1018056705
-                      ]
-                    }
-                  }
-                }
-              ]
+              "ShowText": false
             },
             {
               "$type": "RPG.GameCore.ModifyShield",
@@ -2896,6 +3737,30 @@
               }
             }
           ]
+        },
+        {
+          "Event": "OnModifierRemove",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCheckModifierCallBackName",
+                "ModifierName": "MAvatar_Aventurine_StackableShield"
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetDynamicValue",
+                  "DynamicKey": "MDF_ShieldMax",
+                  "Value": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 0
+                    }
+                  }
+                }
+              ]
+            }
+          ]
         }
       ],
       "Stacking": "ReplaceByCaster",
@@ -2904,7 +3769,11 @@
           "-106459293": {},
           "-905379045": {},
           "-1018056705": {},
-          "-876979594": {}
+          "2006709307": {},
+          "-876979594": {},
+          "1079898730": {},
+          "1654319276": {},
+          "-166370685": {}
         }
       }
     },
@@ -2934,30 +3803,80 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.TriggerEffect",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "DynamicKey": "MDF_CanTriggerShieldEffect",
+                    "CompareType": "Equal",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 1
+                      }
+                    }
                   },
-                  "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A01.prefab"
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.TriggerEffect",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A01.prefab"
+                    }
+                  ]
                 },
                 {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack",
-                  "LifeTime": {
+                  "$type": "RPG.GameCore.SetModifierDynamicValue",
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "DynamicKey": "MDF_PropertyValue",
+                  "NewValue": {
                     "IsDynamic": true,
                     "PostfixExpr": {
                       "OpCodes": "AQAK",
                       "FixedValues": [],
                       "DynamicHashes": [
-                        -1019407308
+                        109905808
                       ]
                     }
                   }
+                },
+                {
+                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                  "ModifierOwner": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_BlackJack"
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
                 },
                 {
                   "$type": "RPG.GameCore.ModifierOverrideOnHitEffect",
@@ -2991,12 +3910,31 @@
                       "PropertyValue": {
                         "IsDynamic": true,
                         "PostfixExpr": {
-                          "OpCodes": "AQABAQIK",
+                          "OpCodes": "AQAK",
                           "FixedValues": [],
                           "DynamicHashes": [
-                            130698171,
-                            533982698
+                            130698171
                           ]
+                        }
+                      }
+                    },
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_Rank01_Status",
+                      "DynamicValues": {
+                        "MDF_PropertyValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              130698171
+                            ]
+                          }
                         }
                       }
                     }
@@ -3030,6 +3968,26 @@
                           ]
                         }
                       }
+                    },
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_Rank01_Status",
+                      "DynamicValues": {
+                        "MDF_PropertyValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQAK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              130698171
+                            ]
+                          }
+                        }
+                      }
                     }
                   ]
                 },
@@ -3053,30 +4011,80 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.TriggerEffect",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ModifierOwnerEntity"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        },
+                        "DynamicKey": "MDF_CanTriggerShieldEffect",
+                        "CompareType": "Equal",
+                        "CompareValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 1
+                          }
+                        }
                       },
-                      "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A02.prefab"
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.TriggerEffect",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A02.prefab"
+                        }
+                      ]
                     },
                     {
-                      "$type": "RPG.GameCore.AddModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ModifierOwnerEntity"
-                      },
-                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2",
-                      "LifeTime": {
+                      "$type": "RPG.GameCore.SetModifierDynamicValue",
+                      "ModifierName": "MAvatar_Aventurine_StackableShield",
+                      "DynamicKey": "MDF_PropertyValue",
+                      "NewValue": {
                         "IsDynamic": true,
                         "PostfixExpr": {
                           "OpCodes": "AQAK",
                           "FixedValues": [],
                           "DynamicHashes": [
-                            -1019407308
+                            109905808
                           ]
                         }
                       }
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                      "ModifierOwner": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_StackableShield",
+                      "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
+                    },
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
+                    },
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
+                    },
+                    {
+                      "$type": "RPG.GameCore.RemoveModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
                     },
                     {
                       "$type": "RPG.GameCore.ModifierOverrideOnHitEffect",
@@ -3113,30 +4121,80 @@
                       },
                       "SuccessTaskList": [
                         {
-                          "$type": "RPG.GameCore.TriggerEffect",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByCompareDynamicValue",
+                            "TargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "ModifierOwnerEntity"
+                            },
+                            "DynamicKey": "MDF_CanTriggerShieldEffect",
+                            "CompareType": "Equal",
+                            "CompareValue": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           },
-                          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A03.prefab"
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.TriggerEffect",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A03.prefab"
+                            }
+                          ]
                         },
                         {
-                          "$type": "RPG.GameCore.AddModifier",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
-                          },
-                          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3",
-                          "LifeTime": {
+                          "$type": "RPG.GameCore.SetModifierDynamicValue",
+                          "ModifierName": "MAvatar_Aventurine_StackableShield",
+                          "DynamicKey": "MDF_PropertyValue",
+                          "NewValue": {
                             "IsDynamic": true,
                             "PostfixExpr": {
                               "OpCodes": "AQAK",
                               "FixedValues": [],
                               "DynamicHashes": [
-                                -1019407308
+                                109905808
                               ]
                             }
                           }
+                        },
+                        {
+                          "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                          "ModifierOwner": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_StackableShield",
+                          "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
+                        },
+                        {
+                          "$type": "RPG.GameCore.RemoveModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
+                        },
+                        {
+                          "$type": "RPG.GameCore.RemoveModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
+                        },
+                        {
+                          "$type": "RPG.GameCore.RemoveModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
                         },
                         {
                           "$type": "RPG.GameCore.ModifierOverrideOnHitEffect",
@@ -3154,30 +4212,56 @@
                       ],
                       "FailedTaskList": [
                         {
-                          "$type": "RPG.GameCore.TriggerEffect",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByCompareDynamicValue",
+                            "TargetType": {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "ModifierOwnerEntity"
+                            },
+                            "DynamicKey": "MDF_CanTriggerShieldEffect",
+                            "CompareType": "Equal",
+                            "CompareValue": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 1
+                              }
+                            }
                           },
-                          "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A04.prefab"
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.TriggerEffect",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_Skill02_Shield_A04.prefab"
+                            }
+                          ]
                         },
                         {
-                          "$type": "RPG.GameCore.AddModifier",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
-                          },
-                          "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4",
-                          "LifeTime": {
+                          "$type": "RPG.GameCore.SetModifierDynamicValue",
+                          "ModifierName": "MAvatar_Aventurine_StackableShield",
+                          "DynamicKey": "MDF_PropertyValue",
+                          "NewValue": {
                             "IsDynamic": true,
                             "PostfixExpr": {
                               "OpCodes": "AQAK",
                               "FixedValues": [],
                               "DynamicHashes": [
-                                -1019407308
+                                109905808
                               ]
                             }
                           }
+                        },
+                        {
+                          "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                          "ModifierOwner": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_StackableShield",
+                          "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
                         },
                         {
                           "$type": "RPG.GameCore.ModifierOverrideOnHitEffect",
@@ -3204,9 +4288,10 @@
       "Stacking": "ReplaceByCaster",
       "DynamicValues": {
         "Values": {
+          "109905808": {},
           "1176922207": {},
           "130698171": {},
-          "533982698": {}
+          "1267321074": {}
         }
       }
     },
@@ -3214,137 +4299,57 @@
       "_CallbackList": [
         {
           "Event": "OnStack",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
-            }
-          ]
+          "CallbackConfig": []
         }
       ],
-      "Stacking": "ReplaceByCaster"
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
     },
     "MAvatar_Aventurine_00_Skill02_ShieldEffect2": {
       "_CallbackList": [
         {
           "Event": "OnStack",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
-            }
-          ]
+          "CallbackConfig": []
         }
       ],
-      "Stacking": "ReplaceByCaster"
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
     },
     "MAvatar_Aventurine_00_Skill02_ShieldEffect3": {
       "_CallbackList": [
         {
           "Event": "OnStack",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect4"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
-            }
-          ]
+          "CallbackConfig": []
         }
       ],
-      "Stacking": "ReplaceByCaster"
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
     },
     "MAvatar_Aventurine_00_Skill02_ShieldEffect4": {
       "_CallbackList": [
         {
           "Event": "OnStack",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect3"
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
-            }
-          ]
+          "CallbackConfig": []
         }
       ],
-      "Stacking": "ReplaceByCaster"
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
     },
     "MAvatar_Aventurine_00_Skill03_CoinAdd": {
       "_CallbackList": [
@@ -3413,17 +4418,30 @@
           "Event": "OnBeforeBeingHitAll",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.ModifyDamageData",
-              "Attacker_CriticalDamage": {
-                "IsDynamic": true,
-                "PostfixExpr": {
-                  "OpCodes": "AQAK",
-                  "FixedValues": [],
-                  "DynamicHashes": [
-                    2128130574
-                  ]
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByTargetTeam",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "Team": "TeamLight"
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.ModifyDamageData",
+                  "Attacker_CriticalDamage": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        2128130574
+                      ]
+                    }
+                  }
                 }
-              }
+              ]
             }
           ]
         }
@@ -3432,72 +4450,6 @@
       "DynamicValues": {
         "Values": {
           "2128130574": {}
-        }
-      }
-    },
-    "MAvatar_Aventurine_00_Passive_ReduceStatusProbability": {
-      "MaxLayer": 3,
-      "_CallbackList": [
-        {
-          "Event": "OnStack",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
-              "ValueType": "Layer",
-              "Multiplier": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 1
-                }
-              },
-              "DynamicKey": "MDF_Layer"
-            },
-            {
-              "$type": "RPG.GameCore.SetDynamicValue",
-              "DynamicKey": "MDF_PropertyValue",
-              "Value": {
-                "IsDynamic": true,
-                "PostfixExpr": {
-                  "OpCodes": "AQABAQQK",
-                  "FixedValues": [],
-                  "DynamicHashes": [
-                    1662446059,
-                    -2125946860
-                  ]
-                }
-              }
-            },
-            {
-              "$type": "RPG.GameCore.StackProperty",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "Property": "StatusProbabilityBase",
-              "PropertyValue": {
-                "IsDynamic": true,
-                "PostfixExpr": {
-                  "OpCodes": "AAABAAMK",
-                  "FixedValues": [
-                    {
-                      "Value": 0
-                    }
-                  ],
-                  "DynamicHashes": [
-                    2128130574
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "Stacking": "ReplaceByCaster",
-      "DynamicValues": {
-        "Values": {
-          "1662446059": {},
-          "2128130574": {},
-          "-2125946860": {}
         }
       }
     },
@@ -3524,7 +4476,7 @@
                   "OpCodes": "AQAK",
                   "FixedValues": [],
                   "DynamicHashes": [
-                    -440159185
+                    1480797530
                   ]
                 }
               }
@@ -3542,7 +4494,7 @@
                   "OpCodes": "AQAK",
                   "FixedValues": [],
                   "DynamicHashes": [
-                    2141104216
+                    1480797530
                   ]
                 }
               }
@@ -3559,10 +4511,69 @@
       }
     },
     "MAvatar_Aventurine_SkillTree01": {
+      "OnAbilityPropertyChange": [
+        {
+          "Property": "DefenceAddedRatio",
+          "Ranges": [
+            {
+              "OnChange": [
+                {
+                  "$type": "RPG.GameCore.IncludeTaskListTemplate",
+                  "Name": "Aventurine_SkillTree01_Sub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Property": "DefenceDelta",
+          "Ranges": [
+            {
+              "OnChange": [
+                {
+                  "$type": "RPG.GameCore.IncludeTaskListTemplate",
+                  "Name": "Aventurine_SkillTree01_Sub"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Property": "DefenceConvert",
+          "Ranges": [
+            {
+              "OnChange": [
+                {
+                  "$type": "RPG.GameCore.IncludeTaskListTemplate",
+                  "Name": "Aventurine_SkillTree01_Sub"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "_CallbackList": [
         {
           "Event": "OnStack",
           "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.IncludeTaskListTemplate",
+              "Name": "Aventurine_SkillTree01_Sub"
+            }
+          ]
+        }
+      ],
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "-106459293": {},
+          "1441481562": {}
+        }
+      },
+      "TaskListTemplate": [
+        {
+          "Name": "Aventurine_SkillTree01_Sub",
+          "TaskList": [
             {
               "$type": "RPG.GameCore.SetDynamicValueByProperty",
               "DynamicKey": "MDF_CurrentDefence",
@@ -3605,8 +4616,12 @@
                 "CompareValue": {
                   "IsDynamic": true,
                   "PostfixExpr": {
-                    "OpCodes": "AQAK",
-                    "FixedValues": [],
+                    "OpCodes": "AQAAAAIK",
+                    "FixedValues": [
+                      {
+                        "Value": 100
+                      }
+                    ],
                     "DynamicHashes": [
                       -1353094930
                     ]
@@ -3615,37 +4630,78 @@
               },
               "SuccessTaskList": [
                 {
-                  "$type": "RPG.GameCore.AddModifier",
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByIsContainModifier",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "ModifierName": "MAvatar_Aventurine_SkillTree01_Sub"
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_SkillTree01_Sub",
+                      "DynamicValues": {
+                        "MDF_PropertyValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQABAQMK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              995479797,
+                              -1353094930
+                            ]
+                          }
+                        }
+                      },
+                      "IsShowUIMessageOnUpdate": false
+                    }
+                  ],
+                  "FailedTaskList": [
+                    {
+                      "$type": "RPG.GameCore.AddModifier",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "Caster"
+                      },
+                      "ModifierName": "MAvatar_Aventurine_SkillTree01_Sub",
+                      "DynamicValues": {
+                        "MDF_PropertyValue": {
+                          "IsDynamic": true,
+                          "PostfixExpr": {
+                            "OpCodes": "AQABAQMK",
+                            "FixedValues": [],
+                            "DynamicHashes": [
+                              995479797,
+                              -1353094930
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "ModifierName": "MAvatar_Aventurine_SkillTree01_Sub",
-                  "DynamicValues": {
-                    "MDF_PropertyValue": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          995479797
-                        ]
-                      }
-                    }
-                  }
+                  "ModifierName": "MAvatar_Aventurine_SkillTree01_Sub"
                 }
               ]
             }
           ]
         }
-      ],
-      "DynamicValues": {
-        "Values": {
-          "-106459293": {},
-          "1441481562": {},
-          "995479797": {}
-        }
-      }
+      ]
     },
     "MAvatar_Aventurine_SkillTree01_Sub": {
       "_CallbackList": [
@@ -3742,6 +4798,7 @@
           ]
         }
       ],
+      "Stacking": "ReplaceByCaster",
       "DynamicValues": {
         "Values": {
           "2128130574": {},
@@ -3750,7 +4807,7 @@
         }
       }
     },
-    "MAvatar_Aventurine_PointB2": {
+    "MAvatar_Aventurine_Rank02_ResistanceDown": {
       "_CallbackList": [
         {
           "Event": "OnStack",
@@ -3761,12 +4818,16 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "Property": "StatusResistanceBase",
+              "Property": "AllDamageTypeResistance",
               "PropertyValue": {
                 "IsDynamic": true,
                 "PostfixExpr": {
-                  "OpCodes": "AQAK",
-                  "FixedValues": [],
+                  "OpCodes": "AAABAAMK",
+                  "FixedValues": [
+                    {
+                      "Value": 0
+                    }
+                  ],
                   "DynamicHashes": [
                     2128130574
                   ]
@@ -3784,115 +4845,6 @@
       }
     },
     "MAvatar_Aventurine_Rank04": {
-      "_CallbackList": [
-        {
-          "Event": "OnAfterSkillUse",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.ByCurrentSkillType"
-              },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.SetDynamicValue",
-                  "DynamicKey": "MDF_CurrentShield",
-                  "Value": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 0
-                    }
-                  }
-                },
-                {
-                  "$type": "RPG.GameCore.Retarget",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllLightTeam"
-                  },
-                  "MaxNumber": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 4
-                    }
-                  },
-                  "TaskList": [
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
-                      "DynamicKey": "MDF_CurrentShield2",
-                      "ReadTargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ParamEntity"
-                      },
-                      "Value": "Shield"
-                    },
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_CurrentShield",
-                      "Value": {
-                        "IsDynamic": true,
-                        "PostfixExpr": {
-                          "OpCodes": "AQABAQIK",
-                          "FixedValues": [],
-                          "DynamicHashes": [
-                            -527113652,
-                            -321925978
-                          ]
-                        }
-                      }
-                    }
-                  ]
-                },
-                {
-                  "$type": "RPG.GameCore.DamageByAttackProperty",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AttackTargetList"
-                  },
-                  "AttackProperty": {
-                    "DamageType": "Imaginary",
-                    "DamageValue": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQABAQQK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          -527113652,
-                          1516182131
-                        ]
-                      }
-                    },
-                    "AttackType": "Pursued",
-                    "HitAnimation": "Hit"
-                  },
-                  "CanTriggerLastKill": true
-                },
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "Caster"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_Rank04_CountDown",
-                  "LifeTime": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -275799618
-                      ]
-                    }
-                  }
-                },
-                {
-                  "$type": "RPG.GameCore.RemoveSelfModifier"
-                }
-              ]
-            }
-          ]
-        }
-      ],
       "DynamicValues": {
         "Values": {
           "-527113652": {},
@@ -4018,25 +4970,86 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddModifier",
+                      "$type": "RPG.GameCore.DefineDynamicValue",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
-                      "DynamicValues": {
-                        "MDF_AttackAddRatio": {
+                      "DynamicKey": "_AttackAddedRatio",
+                      "ResetValue": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQABAQQK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            371978376,
+                            -1112163038
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "DynamicKey": "_AttackAddedRatio",
+                        "CompareType": "GreaterEqual",
+                        "CompareValue": {
                           "IsDynamic": true,
                           "PostfixExpr": {
-                            "OpCodes": "AQABAQQK",
+                            "OpCodes": "AQAK",
                             "FixedValues": [],
                             "DynamicHashes": [
-                              371978376,
-                              -1112163038
+                              -661386734
                             ]
                           }
                         }
-                      }
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
+                          "DynamicValues": {
+                            "MDF_AttackAddRatio": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -661386734
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
+                          "DynamicValues": {
+                            "MDF_AttackAddRatio": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQABAQQK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  371978376,
+                                  -1112163038
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4143,25 +5156,86 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.AddModifier",
+                      "$type": "RPG.GameCore.DefineDynamicValue",
                       "TargetType": {
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
-                      "DynamicValues": {
-                        "MDF_AttackAddRatio": {
+                      "DynamicKey": "_AttackAddedRatio",
+                      "ResetValue": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQABAQQK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            371978376,
+                            -1112163038
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "DynamicKey": "_AttackAddedRatio",
+                        "CompareType": "GreaterEqual",
+                        "CompareValue": {
                           "IsDynamic": true,
                           "PostfixExpr": {
-                            "OpCodes": "AQABAQQK",
+                            "OpCodes": "AQAK",
                             "FixedValues": [],
                             "DynamicHashes": [
-                              371978376,
-                              -1112163038
+                              -661386734
                             ]
                           }
                         }
-                      }
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
+                          "DynamicValues": {
+                            "MDF_AttackAddRatio": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQAK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  -661386734
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.AddModifier",
+                          "TargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "Caster"
+                          },
+                          "ModifierName": "MAvatar_Aventurine_Rank06_Sub",
+                          "DynamicValues": {
+                            "MDF_AttackAddRatio": {
+                              "IsDynamic": true,
+                              "PostfixExpr": {
+                                "OpCodes": "AQABAQQK",
+                                "FixedValues": [],
+                                "DynamicHashes": [
+                                  371978376,
+                                  -1112163038
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
                     }
                   ],
                   "FailedTaskList": [
@@ -4187,13 +5261,21 @@
       }
     },
     "MAvatar_Aventurine_Rank06_Sub": {
+      "BehaviorFlagList": [
+        "ModifyDotDamageData"
+      ],
       "_CallbackList": [
         {
-          "Event": "OnBeforeHitAll",
+          "Event": "OnStack",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.ModifyDamageData",
-              "Attacker_AllDamageTypeAddedRatio": {
+              "$type": "RPG.GameCore.StackProperty",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "Property": "AllDamageTypeAddedRatio",
+              "PropertyValue": {
                 "IsDynamic": true,
                 "PostfixExpr": {
                   "OpCodes": "AQAK",
@@ -4237,59 +5319,6 @@
       ],
       "_CallbackList": [
         {
-          "Event": "OnCreate",
-          "CallbackConfig": [
-            {
-              "$type": "RPG.GameCore.InitShield",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ShieldValue": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 0
-                }
-              },
-              "ShowText": false
-            },
-            {
-              "$type": "RPG.GameCore.SetResilience"
-            },
-            {
-              "$type": "RPG.GameCore.PredicateTaskList",
-              "Predicate": {
-                "$type": "RPG.GameCore.BySkillPointActivated",
-                "PointTriggerKey": {
-                  "Hash": 1455742904
-                }
-              },
-              "SuccessTaskList": [
-                {
-                  "$type": "RPG.GameCore.AddModifier",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "ModifierName": "MAvatar_Aventurine_PointB2",
-                  "DynamicValues": {
-                    "MDF_PropertyValue": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          516448486
-                        ]
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "Event": "OnDestroy",
           "CallbackConfig": [
             {
@@ -4313,7 +5342,7 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "ModifierName": "MAvatar_Aventurine_PointB2"
+              "ModifierName": "MAvatar_Aventurine_Rank01_Status"
             },
             {
               "$type": "RPG.GameCore.RemoveModifier",
@@ -4348,8 +5377,198 @@
               "ModifierName": "MAvatar_Aventurine_00_Skill02_BlackJack"
             },
             {
+              "$type": "RPG.GameCore.RemoveModifier",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ModifierName": "MAvatar_Aventurine_00_ResistCtrl"
+            },
+            {
               "$type": "RPG.GameCore.SetResilience",
               "DoReset": true
+            }
+          ]
+        },
+        {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.InitShield",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ShieldValue": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1200970748
+                  ]
+                }
+              },
+              "ShowText": false
+            },
+            {
+              "$type": "RPG.GameCore.SetResilience"
+            },
+            {
+              "$type": "RPG.GameCore.StackProperty",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "Property": "StatusResistanceBase",
+              "PropertyValue": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQAK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1814694839
+                  ]
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByTargetListIntersects",
+                    "FirstTargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "SecondTargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsContainModifier",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "ModifierName": "MAvatar_Aventurine_00_ResistCtrlCD",
+                    "Inverse": true
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_ResistCtrl"
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.SetDynamicValue",
+              "DynamicKey": "MDF_InsertLeftValue",
+              "Value": {
+                "IsDynamic": true,
+                "PostfixExpr": {
+                  "OpCodes": "AQABAQMK",
+                  "FixedValues": [],
+                  "DynamicHashes": [
+                    -1473781472,
+                    -1675560504
+                  ]
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.BySkillPointActivated",
+                    "PointTriggerKey": {
+                      "Hash": 1455742905
+                    }
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCompareDynamicValue",
+                    "DynamicKey": "MDF_InsertLeftValue",
+                    "CompareType": "Greater",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
+                    }
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_SkillTree03_Status",
+                  "DynamicValues": {
+                    "MDF_PropertyValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQMK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1473781472,
+                          -1675560504
+                        ]
+                      }
+                    }
+                  },
+                  "IsShowUIMessageOnUpdate": false
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByTargetListIntersects",
+                "FirstTargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "SecondTargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                  "ModifierOwner": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_BlackJack"
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+                  "ModifierOwner": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "ModifierNameForStatus": "MAvatar_Aventurine_00_Skill02_ShieldEffect2"
+                }
+              ]
             }
           ]
         }
@@ -4357,7 +5576,11 @@
       "Stacking": "ReplaceByCaster",
       "DynamicValues": {
         "Values": {
-          "2103744183": {}
+          "2128130574": {},
+          "1820617363": {},
+          "2103744183": {},
+          "1805305671": {},
+          "-1200970748": {}
         }
       }
     },
@@ -4374,6 +5597,106 @@
                 "Alias": "Caster"
               },
               "Value": "Defence"
+            },
+            {
+              "$type": "RPG.GameCore.Retarget",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AllLightTeam"
+              },
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAny",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "Flag": "Shield",
+                        "Inverse": true
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByIsPropertyValueMinOrMax",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "CompareTargetType": {
+                          "$type": "RPG.GameCore.TargetSequence",
+                          "Sequence": [
+                            {
+                              "$type": "RPG.GameCore.TargetAlias",
+                              "Alias": "AllLightTeam"
+                            },
+                            {
+                              "$type": "RPG.GameCore.TargetFilter",
+                              "Predicate": {
+                                "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                                "TargetType": {
+                                  "$type": "RPG.GameCore.TargetAlias",
+                                  "Alias": "ParamEntity"
+                                },
+                                "Flag": "Shield",
+                                "Inverse": true
+                              }
+                            }
+                          ]
+                        },
+                        "PropertyType": "CurrentHP"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByContainBehaviorFlag",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "Flag": "Shield"
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByIsPropertyValueMinOrMax",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
+                        },
+                        "CompareTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "AllLightTeam"
+                        },
+                        "PropertyType": "Shield"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "MaxNumber": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 1
+                }
+              },
+              "TaskList": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_PointB3_ShieldMark"
+                }
+              ]
+            },
+            {
+              "$type": "RPG.GameCore.IncludeTaskListTemplate",
+              "Name": "Aventurine_RecordCurrentShield"
             },
             {
               "$type": "RPG.GameCore.PredicateTaskList",
@@ -4402,6 +5725,20 @@
                         -1019407308
                       ]
                     }
+                  },
+                  "DynamicValues": {
+                    "MDF_InitShieldValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQQBAgIK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          995479797,
+                          1623238753,
+                          -1198431344
+                        ]
+                      }
+                    }
                   }
                 }
               ],
@@ -4414,23 +5751,28 @@
                   },
                   "ModifierName": "MAvatar_Aventurine_StackableShield",
                   "LifeTime": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQAK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -752602980
-                      ]
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 3
+                    }
+                  },
+                  "DynamicValues": {
+                    "MDF_InitShieldValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQQBAgIK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          995479797,
+                          1623238753,
+                          -1198431344
+                        ]
+                      }
                     }
                   }
                 }
               ]
-            }
-          ]
-        },
-        {
-          "Event": "OnInsertAbilityFinish",
-          "CallbackConfig": [
+            },
             {
               "$type": "RPG.GameCore.AddModifier",
               "TargetType": {
@@ -4439,6 +5781,18 @@
               },
               "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
               "DynamicValues": {
+                "MDF_ForceShield": {
+                  "IsDynamic": true,
+                  "PostfixExpr": {
+                    "OpCodes": "AQABAQQBAgIK",
+                    "FixedValues": [],
+                    "DynamicHashes": [
+                      995479797,
+                      583785975,
+                      1089505780
+                    ]
+                  }
+                },
                 "MDF_NewShield": {
                   "IsDynamic": true,
                   "PostfixExpr": {
@@ -4460,16 +5814,6 @@
                       -1317091266
                     ]
                   }
-                },
-                "MDF_MaxShieldValue": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQAK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      1594842097
-                    ]
-                  }
                 }
               }
             },
@@ -4480,16 +5824,12 @@
                 "Alias": "AllLightTeam"
               },
               "Predicate": {
-                "$type": "RPG.GameCore.ByIsPropertyValueMinOrMax",
+                "$type": "RPG.GameCore.ByIsContainModifier",
                 "TargetType": {
                   "$type": "RPG.GameCore.TargetAlias",
                   "Alias": "ParamEntity"
                 },
-                "CompareTargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "AllLightTeam"
-                },
-                "PropertyType": "Shield"
+                "ModifierName": "MAvatar_Aventurine_PointB3_ShieldMark"
               },
               "MaxNumber": {
                 "IsDynamic": false,
@@ -4499,6 +5839,38 @@
               },
               "TaskList": [
                 {
+                  "$type": "RPG.GameCore.IncludeTaskListTemplate",
+                  "Name": "Aventurine_RecordCurrentShield"
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "LifeTime": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 3
+                    }
+                  },
+                  "DynamicValues": {
+                    "MDF_InitShieldValue": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQQBAgIK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          995479797,
+                          126518748,
+                          880721815
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
@@ -4506,6 +5878,18 @@
                   },
                   "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
                   "DynamicValues": {
+                    "MDF_ForceShield": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQABAQQBAgIK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          995479797,
+                          583785975,
+                          1089505780
+                        ]
+                      }
+                    },
                     "MDF_NewShield": {
                       "IsDynamic": true,
                       "PostfixExpr": {
@@ -4527,16 +5911,6 @@
                           -1317091266
                         ]
                       }
-                    },
-                    "MDF_MaxShieldValue": {
-                      "IsDynamic": true,
-                      "PostfixExpr": {
-                        "OpCodes": "AQAK",
-                        "FixedValues": [],
-                        "DynamicHashes": [
-                          1594842097
-                        ]
-                      }
                     }
                   }
                 }
@@ -4556,6 +5930,22 @@
               },
               "TaskList": [
                 {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_PointB3_ShieldMark"
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect"
+                },
+                {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
                     "$type": "RPG.GameCore.ByIsContainModifier",
@@ -4568,34 +5958,19 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.RandomConfig",
-                      "OddsList": [
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByTargetListIntersects",
+                        "FirstTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "Caster"
                         },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
+                        "SecondTargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ParamEntity"
                         }
-                      ],
-                      "TaskList": [
+                      },
+                      "SuccessTaskList": [
                         {
                           "$type": "RPG.GameCore.SetDynamicValue",
                           "DynamicKey": "MDF_TeammateCount1",
@@ -4605,83 +5980,121 @@
                               "Value": 1
                             }
                           }
-                        },
+                        }
+                      ],
+                      "FailedTaskList": [
                         {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 2
+                          "$type": "RPG.GameCore.RandomConfig",
+                          "OddsList": [
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
+                            },
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
+                            },
+                            {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 0.2
+                              }
                             }
-                          }
-                        },
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 3
+                          ],
+                          "TaskList": [
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 2
+                                }
+                              }
+                            },
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 3
+                                }
+                              }
+                            },
+                            {
+                              "$type": "RPG.GameCore.SetDynamicValue",
+                              "DynamicKey": "MDF_TeammateCount1",
+                              "Value": {
+                                "IsDynamic": false,
+                                "FixedValue": {
+                                  "Value": 4
+                                }
+                              }
                             }
-                          }
-                        },
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 4
-                            }
-                          }
+                          ]
                         }
                       ]
-                    },
-                    {
-                      "$type": "RPG.GameCore.AddModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ParamEntity"
-                      },
-                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                      "DynamicValues": {
-                        "MDF_TeammateCount": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              -2137180374
-                            ]
-                          }
-                        },
-                        "MDF_CritDmg1": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              164770054
-                            ]
-                          }
-                        },
-                        "MDF_CritDmg2": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              164770057
-                            ]
-                          }
-                        }
-                      }
                     }
                   ]
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
+                  "DynamicValues": {
+                    "MDF_CanTriggerShieldEffect": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
+                    },
+                    "MDF_ResistanceRatio": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -1814694839
+                        ]
+                      }
+                    },
+                    "MDF_TeammateCount": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          -2137180374
+                        ]
+                      }
+                    },
+                    "MDF_CritDmg1": {
+                      "IsDynamic": true,
+                      "PostfixExpr": {
+                        "OpCodes": "AQAK",
+                        "FixedValues": [],
+                        "DynamicHashes": [
+                          164770054
+                        ]
+                      }
+                    }
+                  }
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "Event": "OnInsertAbilityFinish",
+          "CallbackConfig": [
             {
               "$type": "RPG.GameCore.RemoveSelfModifier"
             }
@@ -4709,6 +6122,142 @@
           "1761690181": {}
         }
       }
+    },
+    "MAvatar_Aventurine_SkillTree03_Status": {
+      "_CallbackList": [
+        {
+          "Event": "OnStack",
+          "CallbackConfig": []
+        }
+      ],
+      "Stacking": "ReplaceByCaster",
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
+    },
+    "MAvatar_Aventurine_Rank01_Status": {
+      "_CallbackList": [
+        {
+          "Event": "OnStack",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.SetModifierOverrideNameForStatus",
+              "ModifierOwner": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "ModifierOwnerEntity"
+              },
+              "ModifierName": "MAvatar_Aventurine_Rank01_Status",
+              "ModifierNameForStatus": "MCommon_CriticalDamageUp"
+            }
+          ]
+        }
+      ],
+      "DynamicValues": {
+        "Values": {
+          "2128130574": {}
+        }
+      }
+    },
+    "MAvatar_Aventurine_PointB3_ShieldMark": {
+      "Stacking": "ReplaceByCaster"
+    },
+    "MAvatar_Aventurine_00_ResistCtrl": {
+      "BehaviorFlagList": [
+        "Endurance"
+      ],
+      "_CallbackList": [
+        {
+          "Event": "OnResistDebuff",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCheckModifierCallBackBehaviorFlag",
+                    "Flag": "STAT_CTRL"
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByIsContainModifier",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "ModifierName": "MAvatar_Aventurine_00_ResistCtrlCD",
+                    "Inverse": true
+                  }
+                ]
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.TriggerEffect",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_DispelDebuff.prefab"
+                },
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "AliveOnly": false,
+                  "ModifierName": "MAvatar_Aventurine_00_ResistCtrlCD",
+                  "LifeTime": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        948913789
+                      ]
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveSelfModifier"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MAvatar_Aventurine_00_ResistCtrlCD": {
+      "LifeStepMoment": "ModifierPhase1End",
+      "_CallbackList": [
+        {
+          "Event": "OnDestroy",
+          "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByIsContainModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "Caster"
+                },
+                "ModifierName": "MAvatar_Aventurine_StackableShield"
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.AddModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_00_ResistCtrl"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     "MAvatar_Aventurine_00_Maze_Defence": {
       "_CallbackList": [
@@ -4741,206 +6290,6 @@
                 "Alias": "Caster"
               },
               "Value": "Defence"
-            },
-            {
-              "$type": "RPG.GameCore.AddModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllLightTeam"
-              },
-              "ModifierName": "MAvatar_Aventurine_StackableShield",
-              "LifeTime": {
-                "IsDynamic": true,
-                "PostfixExpr": {
-                  "OpCodes": "AQAK",
-                  "FixedValues": [],
-                  "DynamicHashes": [
-                    -1019407308
-                  ]
-                }
-              }
-            },
-            {
-              "$type": "RPG.GameCore.AddModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllLightTeam"
-              },
-              "ModifierName": "MAvatar_Aventurine_Skill02_StackPreload",
-              "DynamicValues": {
-                "MDF_NewShield": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQABAQQBAgIK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      995479797,
-                      55191968,
-                      -1852417329
-                    ]
-                  }
-                },
-                "MDF_MaxShieldRatio": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQAK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      -1317091266
-                    ]
-                  }
-                },
-                "MDF_MaxShieldValue": {
-                  "IsDynamic": true,
-                  "PostfixExpr": {
-                    "OpCodes": "AQAK",
-                    "FixedValues": [],
-                    "DynamicHashes": [
-                      1594842097
-                    ]
-                  }
-                }
-              }
-            },
-            {
-              "$type": "RPG.GameCore.Retarget",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllLightTeam"
-              },
-              "MaxNumber": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": 4
-                }
-              },
-              "TaskList": [
-                {
-                  "$type": "RPG.GameCore.PredicateTaskList",
-                  "Predicate": {
-                    "$type": "RPG.GameCore.ByIsContainModifier",
-                    "TargetType": {
-                      "$type": "RPG.GameCore.TargetAlias",
-                      "Alias": "ParamEntity"
-                    },
-                    "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                    "Inverse": true
-                  },
-                  "SuccessTaskList": [
-                    {
-                      "$type": "RPG.GameCore.RandomConfig",
-                      "OddsList": [
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        },
-                        {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 0.2
-                          }
-                        }
-                      ],
-                      "TaskList": [
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 1
-                            }
-                          }
-                        },
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 2
-                            }
-                          }
-                        },
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 3
-                            }
-                          }
-                        },
-                        {
-                          "$type": "RPG.GameCore.SetDynamicValue",
-                          "DynamicKey": "MDF_TeammateCount1",
-                          "Value": {
-                            "IsDynamic": false,
-                            "FixedValue": {
-                              "Value": 4
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "$type": "RPG.GameCore.AddModifier",
-                      "TargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ParamEntity"
-                      },
-                      "ModifierName": "MAvatar_Aventurine_00_Skill02_ShieldEffect",
-                      "DynamicValues": {
-                        "MDF_TeammateCount": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              -2137180374
-                            ]
-                          }
-                        },
-                        "MDF_CritDmg1": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              164770054
-                            ]
-                          }
-                        },
-                        "MDF_CritDmg2": {
-                          "IsDynamic": true,
-                          "PostfixExpr": {
-                            "OpCodes": "AQAK",
-                            "FixedValues": [],
-                            "DynamicHashes": [
-                              164770057
-                            ]
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              ]
             }
           ]
         }
@@ -4952,5 +6301,108 @@
         }
       }
     }
-  }
+  },
+  "GlobalTemplates": [
+    {
+      "Name": "Aventurine_RecordCurrentShield",
+      "TaskList": [
+        {
+          "$type": "RPG.GameCore.Retarget",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "AllLightTeam"
+          },
+          "MaxNumber": {
+            "IsDynamic": false,
+            "FixedValue": {
+              "Value": 4
+            }
+          },
+          "TaskList": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByIsContainModifier",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ParamEntity"
+                },
+                "ModifierName": "MAvatar_Aventurine_StackableShield"
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.DefineDynamicValue",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "DynamicKey": "tmp_currentshield",
+                  "ContextScope": "ContextTaskTemplate"
+                },
+                {
+                  "$type": "RPG.GameCore.SetDynamicValueByModifierValue",
+                  "ReadTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "ModifierName": "MAvatar_Aventurine_StackableShield",
+                  "ValueType": "CurrentShield",
+                  "Multiplier": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 1
+                    }
+                  },
+                  "DynamicKey": "tmp_currentshield",
+                  "ContextScope": "ContextTaskTemplate"
+                },
+                {
+                  "$type": "RPG.GameCore.DefineDynamicValue",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "DynamicKey": "AventurineShieldValue",
+                  "ResetValue": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AQAK",
+                      "FixedValues": [],
+                      "DynamicHashes": [
+                        -562841136
+                      ]
+                    }
+                  },
+                  "ContextScope": "TargetEntity"
+                }
+              ],
+              "FailedTaskList": [
+                {
+                  "$type": "RPG.GameCore.DefineDynamicValue",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ParamEntity"
+                  },
+                  "DynamicKey": "AventurineShieldValue",
+                  "ResetValue": {
+                    "IsDynamic": true,
+                    "PostfixExpr": {
+                      "OpCodes": "AAAK",
+                      "FixedValues": [
+                        {
+                          "Value": 0
+                        }
+                      ],
+                      "DynamicHashes": []
+                    }
+                  },
+                  "ContextScope": "TargetEntity"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -12,24 +12,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      18,
-      -266,
-      79,
-      -70,
-      74,
-      -66
-    ],
-    "LowerUpperBounds": {
-      "x": -6,
-      "y": 15
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -39,16 +21,14 @@
       "PosY": 28.08372,
       "PosZ": -131.7197,
       "Name": "PlayerStart",
-      "RotY": 279.8,
-      "MapLayerID": 3
+      "RotY": 279.8
     },
     {
       "ID": 2,
       "PosX": 72.52,
       "PosY": -19.50999,
       "PosZ": -564.3162,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -58,7 +38,6 @@
       "Name": "Anchor_Camera01_S",
       "RotY": 188.46,
       "RotX": 8.74,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -72,7 +51,6 @@
       "Name": "Anchor_Camera01_E",
       "RotY": 188.46,
       "RotX": 8.74,
-      "MapLayerID": 3,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -87,7 +65,6 @@
       "RotY": 270.9731,
       "RotX": 13.28694,
       "RotZ": 0.694271,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -102,7 +79,6 @@
       "RotY": 270.8404,
       "RotX": 8.740005,
       "RotZ": 2.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -130,7 +106,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -188,7 +163,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {
@@ -253,7 +227,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "InteractTrigger": {

@@ -4184,5 +4184,889 @@
     "UseMethod": "AutoConversionItem",
     "CustomDataList": [],
     "ReturnItemIDList": []
+  },
+  "190577": {
+    "ID": 190577,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1057851205
+    },
+    "ItemDesc": {
+      "Hash": -1632514717
+    },
+    "ItemBGDesc": {
+      "Hash": 241176200
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190586": {
+    "ID": 190586,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -508232729
+    },
+    "ItemDesc": {
+      "Hash": 1096368641
+    },
+    "ItemBGDesc": {
+      "Hash": -1324907728
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190587": {
+    "ID": 190587,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1057851212
+    },
+    "ItemDesc": {
+      "Hash": -1632514714
+    },
+    "ItemBGDesc": {
+      "Hash": 241176213
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190588": {
+    "ID": 190588,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1010797045
+    },
+    "ItemDesc": {
+      "Hash": -2035799241
+    },
+    "ItemBGDesc": {
+      "Hash": -2131476782
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190589": {
+    "ID": 190589,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1718086310
+    },
+    "ItemDesc": {
+      "Hash": -469715300
+    },
+    "ItemBGDesc": {
+      "Hash": -565392841
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190590": {
+    "ID": 190590,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 654566684
+    },
+    "ItemDesc": {
+      "Hash": 1902937694
+    },
+    "ItemBGDesc": {
+      "Hash": 1807260155
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190013.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190591": {
+    "ID": 190591,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -2074316671
+    },
+    "ItemDesc": {
+      "Hash": -825945661
+    },
+    "ItemBGDesc": {
+      "Hash": -921623200
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190013.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190592": {
+    "ID": 190592,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1817366098
+    },
+    "ItemDesc": {
+      "Hash": -1229230188
+    },
+    "ItemBGDesc": {
+      "Hash": 644460741
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190593": {
+    "ID": 190593,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -911517257
+    },
+    "ItemDesc": {
+      "Hash": 336853753
+    },
+    "ItemBGDesc": {
+      "Hash": -2084422614
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190594": {
+    "ID": 190594,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1671032144
+    },
+    "ItemDesc": {
+      "Hash": -66430774
+    },
+    "ItemBGDesc": {
+      "Hash": -162108313
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190595": {
+    "ID": 190595,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -104948203
+    },
+    "ItemDesc": {
+      "Hash": 1499653167
+    },
+    "ItemBGDesc": {
+      "Hash": 1403975628
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190014.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190596": {
+    "ID": 190596,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -508232730
+    },
+    "ItemDesc": {
+      "Hash": 1096368640
+    },
+    "ItemBGDesc": {
+      "Hash": -1324907727
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190014.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190597": {
+    "ID": 190597,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1057851211
+    },
+    "ItemDesc": {
+      "Hash": -1632514715
+    },
+    "ItemBGDesc": {
+      "Hash": 241176214
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190598": {
+    "ID": 190598,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1010797044
+    },
+    "ItemDesc": {
+      "Hash": -2035799242
+    },
+    "ItemBGDesc": {
+      "Hash": -2131476781
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190599": {
+    "ID": 190599,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1718086311
+    },
+    "ItemDesc": {
+      "Hash": -469715301
+    },
+    "ItemBGDesc": {
+      "Hash": -565392840
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190603": {
+    "ID": 190603,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -770354763
+    },
+    "ItemDesc": {
+      "Hash": 478016247
+    },
+    "ItemBGDesc": {
+      "Hash": -1022379758
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190604": {
+    "ID": 190604,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -367070236
+    },
+    "ItemDesc": {
+      "Hash": 1237531134
+    },
+    "ItemBGDesc": {
+      "Hash": 1706503597
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190605": {
+    "ID": 190605,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1933154177
+    },
+    "ItemDesc": {
+      "Hash": -328552807
+    },
+    "ItemBGDesc": {
+      "Hash": 140419656
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190606": {
+    "ID": 190606,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1529869650
+    },
+    "ItemDesc": {
+      "Hash": 74731720
+    },
+    "ItemBGDesc": {
+      "Hash": -1425664285
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190608": {
+    "ID": 190608,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1980208344
+    },
+    "ItemDesc": {
+      "Hash": -731837334
+    },
+    "ItemBGDesc": {
+      "Hash": -262864871
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190609": {
+    "ID": 190609,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 748675011
+    },
+    "ItemDesc": {
+      "Hash": 1997046021
+    },
+    "ItemBGDesc": {
+      "Hash": -1828948812
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190610": {
+    "ID": 190610,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1958528591
+    },
+    "ItemDesc": {
+      "Hash": -1088067695
+    },
+    "ItemBGDesc": {
+      "Hash": -619095230
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190611": {
+    "ID": 190611,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 392444650
+    },
+    "ItemDesc": {
+      "Hash": 1640815660
+    },
+    "ItemBGDesc": {
+      "Hash": 2109788125
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190013.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190612": {
+    "ID": 190612,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 795729177
+    },
+    "ItemDesc": {
+      "Hash": 2044100187
+    },
+    "ItemBGDesc": {
+      "Hash": 543704184
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190613": {
+    "ID": 190613,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -770354764
+    },
+    "ItemDesc": {
+      "Hash": 478016246
+    },
+    "ItemBGDesc": {
+      "Hash": -1022379757
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190614": {
+    "ID": 190614,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -367070237
+    },
+    "ItemDesc": {
+      "Hash": 1237531133
+    },
+    "ItemBGDesc": {
+      "Hash": 1706503598
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190015.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190015.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190615": {
+    "ID": 190615,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1933154178
+    },
+    "ItemDesc": {
+      "Hash": -328552808
+    },
+    "ItemBGDesc": {
+      "Hash": 140419657
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190014.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190616": {
+    "ID": 190616,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1529869651
+    },
+    "ItemDesc": {
+      "Hash": 74731719
+    },
+    "ItemBGDesc": {
+      "Hash": -1425664284
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190014.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190014.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190617": {
+    "ID": 190617,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1199013704
+    },
+    "ItemDesc": {
+      "Hash": -1491352222
+    },
+    "ItemBGDesc": {
+      "Hash": 1303219071
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190618": {
+    "ID": 190618,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": -1980208345
+    },
+    "ItemDesc": {
+      "Hash": -731837335
+    },
+    "ItemBGDesc": {
+      "Hash": -262864870
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190013.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190013.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190619": {
+    "ID": 190619,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 748675010
+    },
+    "ItemDesc": {
+      "Hash": 1997046020
+    },
+    "ItemBGDesc": {
+      "Hash": -1828948811
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190620": {
+    "ID": 190620,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 1958528590
+    },
+    "ItemDesc": {
+      "Hash": -1088067692
+    },
+    "ItemBGDesc": {
+      "Hash": -619095233
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190621": {
+    "ID": 190621,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 392444649
+    },
+    "ItemDesc": {
+      "Hash": 1640815663
+    },
+    "ItemBGDesc": {
+      "Hash": 2109788122
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
+  },
+  "190622": {
+    "ID": 190622,
+    "ItemMainType": "Usable",
+    "ItemSubType": "Book",
+    "InventoryDisplayTag": 1,
+    "Rarity": "Normal",
+    "PurposeType": 21,
+    "isVisible": true,
+    "ItemName": {
+      "Hash": 795729176
+    },
+    "ItemDesc": {
+      "Hash": 2044100190
+    },
+    "ItemBGDesc": {
+      "Hash": 543704181
+    },
+    "ItemIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemFigureIconPath": "SpriteOutput/ItemFigures/190016.png",
+    "ItemCurrencyIconPath": "SpriteOutput/ItemIcon/190016.png",
+    "ItemAvatarIconPath": "",
+    "PileLimit": 99999,
+    "UseMethod": "AutoConversionItem",
+    "CustomDataList": [],
+    "ReturnItemIDList": []
   }
 }

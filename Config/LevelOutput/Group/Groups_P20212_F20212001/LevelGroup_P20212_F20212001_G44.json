@@ -15,7 +15,6 @@
       "PosZ": -81.33,
       "Name": "Test_LookAtAnchor_01",
       "RotY": 32.11868,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab"
     },
@@ -26,7 +25,6 @@
       "PosZ": -91.98,
       "Name": "Test_LookAtAnchor_02",
       "RotY": 207.3,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab"
     },
@@ -37,7 +35,6 @@
       "PosZ": -88.13,
       "Name": "Test_LookAtAnchor_01_Reverse",
       "RotY": 217.4314,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab"
     },
@@ -48,7 +45,6 @@
       "PosZ": -86.26,
       "Name": "Test_LookAtAnchor_02_Reverse",
       "RotY": 64.37263,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam03.prefab"
     },
@@ -59,7 +55,6 @@
       "PosZ": -89.144,
       "Name": "Test_LookAtAnchor_01_Close",
       "RotY": 95.88996,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     },
@@ -70,7 +65,6 @@
       "PosZ": -101.78,
       "Name": "Test_LookAtAnchor_02_Close",
       "RotY": 272.442,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     },
@@ -81,7 +75,6 @@
       "PosZ": -80.22,
       "Name": "Test_LookAtAnchor_01_Reverse_Close",
       "RotY": 216.8046,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     },
@@ -92,7 +85,6 @@
       "PosZ": -82.21,
       "Name": "Test_LookAtAnchor_02_Reverse_Close",
       "RotY": 78.49793,
-      "MapLayerID": 1,
       "Usage": "LookAtCamera",
       "LookAtCameraTemplate": "Level/Common_Adventure/Camera_Module/UseGameplayCam01.prefab"
     }
@@ -153,7 +145,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -215,7 +206,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -241,7 +231,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -267,7 +256,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -293,7 +281,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -319,7 +306,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

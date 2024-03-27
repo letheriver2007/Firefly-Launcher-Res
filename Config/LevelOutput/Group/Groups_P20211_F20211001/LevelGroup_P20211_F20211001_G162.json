@@ -30,8 +30,7 @@
       "PosX": -70.98,
       "PosY": 0.820669,
       "PosZ": 44.87,
-      "Name": "NPCAnchor01",
-      "MapLayerID": 1
+      "Name": "NPCAnchor01"
     },
     {
       "ID": 2,
@@ -39,24 +38,21 @@
       "PosY": 0.820669,
       "PosZ": 44.87,
       "Name": "NPCAnchor02",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
       "PosX": -70.892,
       "PosY": 0.820669,
       "PosZ": 43.741,
-      "Name": "PlayerAnchor01",
-      "MapLayerID": 1
+      "Name": "PlayerAnchor01"
     },
     {
       "ID": 4,
       "PosX": -74.053,
       "PosY": 0.820669,
       "PosZ": 46.742,
-      "Name": "NPCAnchor03",
-      "MapLayerID": 1
+      "Name": "NPCAnchor03"
     }
   ],
   "MonsterList": [],
@@ -81,7 +77,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -105,7 +100,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -124,7 +118,6 @@
       "NPCID": 12117,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

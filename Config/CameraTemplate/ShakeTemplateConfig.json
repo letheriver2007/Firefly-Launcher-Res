@@ -3454,6 +3454,41 @@
       }
     },
     {
+      "TemplateName": "Avatar_Jade_PassiveSkill_Hit",
+      "ShakeConfig": {
+        "ShakeRange": 0.1,
+        "ShakeTime": 0.5,
+        "ShakeDir": {
+          "X": -0.1,
+          "Y": 0.1,
+          "Z": 0.8
+        },
+        "BaseCycle": 0.08,
+        "CycleDamping": 0.08,
+        "PerlinNoiseAmplitude": {
+          "X": 0,
+          "Y": -0.02,
+          "Z": 0
+        },
+        "PerlinNoiseFreq": {
+          "X": 0,
+          "Y": 1,
+          "Z": 0
+        },
+        "RotationalAmplitude": {
+          "X": -2,
+          "Y": 0,
+          "Z": 0
+        },
+        "RotationalFreq": 1,
+        "RotationFreqV3": {
+          "X": 1,
+          "Y": 0,
+          "Z": 0
+        }
+      }
+    },
+    {
       "TemplateName": "Avatar_Boothill_Skill11_SingleShot",
       "ShakeConfig": {
         "ShakeRange": 0.1,

@@ -21,8 +21,7 @@
       "PosY": -0.101087,
       "PosZ": -68.20211,
       "Name": "Anchor1",
-      "RotY": 330.0001,
-      "MapLayerID": 2
+      "RotY": 330.0001
     }
   ],
   "MonsterList": [],
@@ -63,7 +62,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -87,7 +85,6 @@
       "DefaultIdleStateName": "Akimbo02Loop",
       "DefaultLookAtMode": "Closed",
       "MappingInfoID": 1407,
-      "MapLayerID": 2,
       "BoardShowList": [
         4,
         1,

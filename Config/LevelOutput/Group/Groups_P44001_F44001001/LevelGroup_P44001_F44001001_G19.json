@@ -9,56 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      8,
-      -54,
-      3,
-      -53,
-      3,
-      -52,
-      -10,
-      -49,
-      -9,
-      -49,
-      -10,
-      -48,
-      -9,
-      -48
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 3
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      8,
-      -54,
-      3,
-      -53,
-      3,
-      -52,
-      -2,
-      -51,
-      -6,
-      -50,
-      -3,
-      -50,
-      -10,
-      -49,
-      -9,
-      -49,
-      -10,
-      -48,
-      -9,
-      -48
-    ],
-    "LowerUpperBounds": {
-      "x": -1,
-      "y": 3
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -87,7 +37,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -120,7 +69,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -144,7 +92,6 @@
       "InitLevelGraph": "Config/Level/Props/Chap00/InitLevelGraph_Prop_Chap00_DoorFrame_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -175,7 +122,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         8
       ],

@@ -15,98 +15,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      82,
-      184,
-      100,
-      194,
-      28,
-      207,
-      77,
-      210,
-      20,
-      220,
-      19,
-      222,
-      85,
-      228,
-      92,
-      231,
-      21,
-      238,
-      45,
-      240,
-      45,
-      242,
-      151,
-      274,
-      137,
-      275,
-      139,
-      279,
-      144,
-      282,
-      148,
-      282,
-      146,
-      311,
-      81,
-      339,
-      70,
-      340
-    ],
-    "LowerUpperBounds": {
-      "x": 55,
-      "y": 97
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      82,
-      184,
-      100,
-      194,
-      28,
-      207,
-      77,
-      210,
-      20,
-      220,
-      19,
-      222,
-      85,
-      228,
-      92,
-      231,
-      21,
-      238,
-      45,
-      240,
-      45,
-      242,
-      151,
-      274,
-      137,
-      275,
-      139,
-      279,
-      144,
-      282,
-      148,
-      282,
-      146,
-      311,
-      81,
-      339,
-      70,
-      340
-    ],
-    "LowerUpperBounds": {
-      "x": 55,
-      "y": 97
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -130,7 +38,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313010,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -162,7 +69,6 @@
         "ID": 1
       },
       "EventID": 20313011,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -187,7 +93,6 @@
         "ID": 1
       },
       "EventID": 20313013,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -212,7 +117,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313016,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -237,7 +141,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313017,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -267,7 +170,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20313018,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -297,7 +199,6 @@
         "ID": 1
       },
       "EventID": 20313020,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -328,7 +229,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313019,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -356,7 +256,6 @@
         "ID": 1
       },
       "EventID": 20313021,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -382,7 +281,6 @@
         "ID": 1
       },
       "EventID": 20313023,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -419,7 +317,6 @@
         "ID": 1
       },
       "EventID": 20313022,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -455,7 +352,6 @@
         "ID": 1
       },
       "EventID": 20313027,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -480,7 +376,6 @@
         "ID": 1
       },
       "EventID": 20313028,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -505,7 +400,6 @@
         "ID": 1
       },
       "EventID": 20313029,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -531,7 +425,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313044,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -567,7 +460,6 @@
         "ID": 1
       },
       "EventID": 20313043,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -596,7 +488,6 @@
         "ID": 1
       },
       "EventID": 20313045,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -622,7 +513,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 20313046,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -648,7 +538,6 @@
       },
       "InitialAnimState": "SpecialStandBy2",
       "EventID": 20313047,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

@@ -14,7 +14,6 @@
       "PosZ": 102.8,
       "Name": "PlayerPointInPhase01",
       "RotY": 133.3136,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -23,8 +22,7 @@
       "PosY": -2.573592,
       "PosZ": 132.14,
       "Name": "PlayerPointInPhase02",
-      "RotY": 30.0,
-      "MapLayerID": 1
+      "RotY": 30.0
     },
     {
       "ID": 3,
@@ -32,8 +30,7 @@
       "PosY": -2.632177,
       "PosZ": 102.8,
       "Name": "PlayerPointInPhase03",
-      "RotY": 133.3136,
-      "MapLayerID": 1
+      "RotY": 133.3136
     }
   ],
   "MonsterList": [],

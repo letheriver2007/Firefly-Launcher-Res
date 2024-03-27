@@ -710,6 +710,35 @@
       "IsDisplay": true
     }
   },
+  "130101": {
+    "1": {
+      "ID": 130101,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Gallagher",
+      "InBattleBindingType": "CharacterSkill",
+      "InBattleBindingKey": "SkillMaze",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/IconBuffAttackUp.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 1354018532
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 1354018532
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other"
+    }
+  },
   "130201": {
     "1": {
       "ID": 130201,
@@ -834,6 +863,102 @@
       "MazeBuffIconType": "Other"
     }
   },
+  "130401": {
+    "1": {
+      "ID": 130401,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_R",
+      "InBattleBindingType": "CharacterAbility",
+      "InBattleBindingKey": "Avatar_Aventurine_00_SkillMazeInLevel_00",
+      "ParamList": [],
+      "BuffDescParamByAvatarSkillID": 130407,
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze01.png",
+      "BuffName": {
+        "Hash": 1017340831
+      },
+      "BuffDesc": {
+        "Hash": 83434177
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434177
+      },
+      "BuffEffect": "MazeBuffEffect_130401",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3,
+      "IsDisplay": true
+    }
+  },
+  "130402": {
+    "1": {
+      "ID": 130402,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_SR",
+      "InBattleBindingType": "CharacterAbility",
+      "InBattleBindingKey": "Avatar_Aventurine_00_SkillMazeInLevel_01",
+      "ParamList": [],
+      "BuffDescParamByAvatarSkillID": 130407,
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze02.png",
+      "BuffName": {
+        "Hash": 1017340834
+      },
+      "BuffDesc": {
+        "Hash": 83434180
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434180
+      },
+      "BuffEffect": "MazeBuffEffect_130402",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3,
+      "IsDisplay": true
+    }
+  },
+  "130403": {
+    "1": {
+      "ID": 130403,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_SSR",
+      "InBattleBindingType": "CharacterAbility",
+      "InBattleBindingKey": "Avatar_Aventurine_00_SkillMazeInLevel_02",
+      "ParamList": [],
+      "BuffDescParamByAvatarSkillID": 130407,
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze03.png",
+      "BuffName": {
+        "Hash": 1017340833
+      },
+      "BuffDesc": {
+        "Hash": 83434179
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434179
+      },
+      "BuffEffect": "MazeBuffEffect_130403",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3,
+      "IsDisplay": true
+    }
+  },
   "130501": {
     "1": {
       "ID": 130501,
@@ -956,6 +1081,98 @@
       "MazeBuffIconType": "Other",
       "MazeBuffPool": 3,
       "IsDisplay": true
+    }
+  },
+  "130801": {
+    "1": {
+      "ID": 130801,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Acheron_Realm",
+      "InBattleBindingType": "CharacterSkill",
+      "InBattleBindingKey": "",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1212Maze.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 1354018532
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 1354018532
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3
+    }
+  },
+  "130802": {
+    "1": {
+      "ID": 130802,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Acheron_killFlag",
+      "InBattleBindingType": "CharacterSkill",
+      "InBattleBindingKey": "",
+      "ParamList": [],
+      "BuffDescParamByAvatarSkillID": 130807,
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1308Maze.png",
+      "BuffName": {
+        "Hash": 1017340438
+      },
+      "BuffDesc": {
+        "Hash": 83434048
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434048
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3,
+      "IsDisplay": true
+    }
+  },
+  "130803": {
+    "1": {
+      "ID": 130803,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Acheron_Attack",
+      "InBattleBindingType": "CharacterSkill",
+      "InBattleBindingKey": "SkillMaze",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1212Maze.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 1354018532
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 1354018532
+      },
+      "BuffEffect": "",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "MazeBuffPool": 3
     }
   },
   "131201": {
@@ -1671,6 +1888,93 @@
       "UseType": "AddBattleBuff",
       "MazeBuffIconType": "Other",
       "MazeBuffPool": 3,
+      "IsDisplay": true
+    }
+  },
+  "130404": {
+    "1": {
+      "ID": 130404,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_R_2",
+      "InBattleBindingKey": "",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze01.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 83434182
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434182
+      },
+      "BuffEffect": "MazeBuffEffect_130404",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "IsDisplay": true
+    }
+  },
+  "130405": {
+    "1": {
+      "ID": 130405,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_SR_2",
+      "InBattleBindingKey": "",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze02.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 83434181
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434181
+      },
+      "BuffEffect": "MazeBuffEffect_130405",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
+      "IsDisplay": true
+    }
+  },
+  "130406": {
+    "1": {
+      "ID": 130406,
+      "BuffSeries": 1,
+      "BuffRarity": 1,
+      "Lv": 1,
+      "LvMax": 1,
+      "ModifierName": "ADV_StageAbility_Maze_Aventurine_SSR_2",
+      "InBattleBindingKey": "",
+      "ParamList": [],
+      "BuffIcon": "SpriteOutput/BuffIcon/Inlevel/Icon1304Maze03.png",
+      "BuffName": {
+        "Hash": 1354018532
+      },
+      "BuffDesc": {
+        "Hash": 83434184
+      },
+      "BuffSimpleDesc": {
+        "Hash": 371857150
+      },
+      "BuffDescBattle": {
+        "Hash": 83434184
+      },
+      "BuffEffect": "MazeBuffEffect_130406",
+      "MazeBuffType": "Character",
+      "MazeBuffIconType": "Other",
       "IsDisplay": true
     }
   }

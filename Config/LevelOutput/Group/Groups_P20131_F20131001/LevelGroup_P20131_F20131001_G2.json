@@ -13,8 +13,7 @@
       "PosY": 2.007029,
       "PosZ": -93.33,
       "Name": "StartPoint",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -22,8 +21,7 @@
       "PosY": -0.984844,
       "PosZ": -233.388,
       "Name": "Checkpoint2",
-      "RotY": 45.0,
-      "MapLayerID": 1
+      "RotY": 45.0
     },
     {
       "ID": 4,
@@ -31,24 +29,21 @@
       "PosY": -0.110988,
       "PosZ": -94.0,
       "Name": "Checkpoint3",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
       "PosX": -47.43,
       "PosY": -0.984844,
       "PosZ": -195.95,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 5,
       "PosX": -17.99,
       "PosY": -0.98,
       "PosZ": -207.99,
-      "Name": "Anchor5",
-      "MapLayerID": 1
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
@@ -56,8 +51,7 @@
       "PosY": 1.986,
       "PosZ": -18.089,
       "Name": "Anchor6",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     }
   ],
   "MonsterList": [],
@@ -79,7 +73,6 @@
         "PointList": []
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -116,7 +109,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,
@@ -155,7 +147,6 @@
         "PointList": []
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 6.0,

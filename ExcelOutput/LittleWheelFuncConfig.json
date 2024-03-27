@@ -38,5 +38,10 @@
   "RogueDLCDimension": {
     "LittleWheelFuncID": "RogueDLCDimension",
     "IconPath": "SpriteOutput/Rogue/Tab/MissionTreeOverIcon.png"
+  },
+  "StoryLine": {
+    "LittleWheelFuncID": "StoryLine",
+    "IconPath": "SpriteOutput/UI/StoryLine/BtnStoryLineOutline.png",
+    "Type": "StoryLine"
   }
 }

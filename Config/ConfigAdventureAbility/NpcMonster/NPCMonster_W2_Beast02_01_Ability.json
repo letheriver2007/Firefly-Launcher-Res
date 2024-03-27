@@ -185,6 +185,28 @@
           }
         }
       ]
+    },
+    {
+      "Name": "MazeMonster_W2_Best02_01_EnhanceEffect",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Rogue_EliteEnhance.prefab",
+          "AttachPoint": "Effect_RL",
+          "PositionOffset": {
+            "X": 0,
+            "Y": -0.2,
+            "Z": 0.2
+          }
+        }
+      ]
     }
   ]
 }

@@ -132,7 +132,7 @@
       "SkillType": "Skill",
       "UseType": "SelectEntity",
       "AlwaysDoAutoLock": true,
-      "LockType": "HighWP_DamageCarry",
+      "LockType": "HighWP_DamageNeedCrit",
       "TargetInfo": {
         "TargetType": "FriendSelect"
       },

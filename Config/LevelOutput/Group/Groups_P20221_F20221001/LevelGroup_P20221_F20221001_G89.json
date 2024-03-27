@@ -81,7 +81,6 @@
       "Name": "Anchor1",
       "RotY": 6.799139,
       "RotX": 12.99612,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -90,8 +89,7 @@
       "PosY": 7.659502,
       "PosZ": 42.6,
       "Name": "Anchor2",
-      "RotY": 44.9999,
-      "MapLayerID": 2
+      "RotY": 44.9999
     },
     {
       "ID": 3,
@@ -101,7 +99,6 @@
       "Name": "Anchor3",
       "RotY": 244.8822,
       "RotX": 352.2567,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -110,8 +107,7 @@
       "PosY": 7.643464,
       "PosZ": 71.496,
       "Name": "Anchor4",
-      "RotY": 269.9999,
-      "MapLayerID": 2
+      "RotY": 269.9999
     },
     {
       "ID": 5,
@@ -119,8 +115,7 @@
       "PosY": 3.65584,
       "PosZ": 116.546,
       "Name": "Anchor5",
-      "RotY": 344.9999,
-      "MapLayerID": 1
+      "RotY": 344.9999
     },
     {
       "ID": 6,
@@ -128,8 +123,7 @@
       "PosY": 3.680033,
       "PosZ": 54.229,
       "Name": "Anchor6",
-      "RotY": 120.0,
-      "MapLayerID": 1
+      "RotY": 120.0
     },
     {
       "ID": 7,
@@ -137,8 +131,7 @@
       "PosY": 3.655835,
       "PosZ": -11.623,
       "Name": "Anchor7",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 8,
@@ -148,7 +141,6 @@
       "Name": "Anchor8",
       "RotY": 351.3745,
       "RotX": 7.915557,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -159,7 +151,6 @@
       "Name": "Anchor9",
       "RotY": 351.3745,
       "RotX": 347.82,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -168,8 +159,7 @@
       "PosY": 8.584353,
       "PosZ": 48.56,
       "Name": "Anchor10",
-      "RotY": 14.99999,
-      "MapLayerID": 2
+      "RotY": 14.99999
     }
   ],
   "MonsterList": [],

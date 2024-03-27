@@ -9,36 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      41,
-      24,
-      41,
-      25,
-      40,
-      26
-    ],
-    "LowerUpperBounds": {
-      "x": 7,
-      "y": 8
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      41,
-      24,
-      40,
-      25,
-      41,
-      25,
-      40,
-      26
-    ],
-    "LowerUpperBounds": {
-      "x": 7,
-      "y": 8
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -54,7 +24,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F43215001/LG_Prop_F43215001_G18_300001.json",
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {
         "Trigger": {
@@ -83,7 +52,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 390020000,
@@ -104,7 +72,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,
@@ -125,7 +92,6 @@
       "NPCID": 12305,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,
@@ -145,7 +111,6 @@
       "NPCID": 12304,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100040000,

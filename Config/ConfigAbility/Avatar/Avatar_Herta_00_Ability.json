@@ -289,7 +289,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AbilityTargetEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Herta/Eff_Avatar_Herta_00_Skill02_DeBuff_Hit.prefab"
                 },
                 {
@@ -2636,7 +2635,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Bronya/Eff_Avatar_Bronya_00_Skill03_Buff_Self.prefab"
             },
             {
@@ -2764,6 +2762,7 @@
                       "InsertAbilityPriority": "AvatarInsertAttackSelf",
                       "ShowInActionBar": true,
                       "PreCheck": {
+                        "$type": "RPG.GameCore.TurnInsertAbilityCondition",
                         "Type": "AbilityOwnerInsertUnusedCount",
                         "Count": {
                           "IsDynamic": false,

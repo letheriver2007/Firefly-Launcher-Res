@@ -11,24 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      37,
-      -13,
-      -19,
-      -6,
-      33,
-      10
-    ],
-    "LowerUpperBounds": {
-      "x": 407,
-      "y": 413
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -36,8 +18,7 @@
       "PosX": 68.68257,
       "PosY": -1.609939,
       "PosZ": -24.19901,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -45,8 +26,7 @@
       "PosY": -10.5399,
       "PosZ": 28.62289,
       "Name": "Anchor2",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 3,
@@ -54,8 +34,7 @@
       "PosY": -10.30971,
       "PosZ": -7.269999,
       "Name": "Anchor3",
-      "RotY": 130.0,
-      "MapLayerID": 1
+      "RotY": 130.0
     }
   ],
   "MonsterList": [],
@@ -72,7 +51,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -108,7 +86,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,
@@ -144,7 +121,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 11.0,

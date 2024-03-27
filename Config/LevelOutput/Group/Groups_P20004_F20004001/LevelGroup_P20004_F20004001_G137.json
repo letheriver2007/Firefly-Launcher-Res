@@ -8,26 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -7,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 73
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -7,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 73
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -37,7 +17,6 @@
       "PosZ": 55.383,
       "Name": "Anchor1",
       "RotY": 78.70708,
-      "MapLayerID": 2,
       "Usage": "Actor"
     }
   ],
@@ -55,7 +34,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -31810989

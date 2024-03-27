@@ -29,8 +29,7 @@
       "PosY": 11.962,
       "PosZ": -20.754,
       "Name": "Anchor1",
-      "RotY": 222.6403,
-      "MapLayerID": 1
+      "RotY": 222.6403
     }
   ],
   "MonsterList": [],
@@ -55,7 +54,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,
@@ -90,7 +88,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

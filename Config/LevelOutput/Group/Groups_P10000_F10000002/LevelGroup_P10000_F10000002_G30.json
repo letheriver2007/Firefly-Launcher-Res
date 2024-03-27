@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      1,
-      4
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -2,
-      2,
-      1,
-      2,
-      1,
-      4
-    ],
-    "LowerUpperBounds": {
-      "x": 1,
-      "y": 2
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -40,8 +16,7 @@
       "PosX": -1.407048,
       "PosY": 1.358842,
       "PosZ": 3.392403,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -49,7 +24,6 @@
       "PosZ": 7.405,
       "Name": "Anchor2",
       "RotY": 0.719062,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -59,7 +33,6 @@
       "IsDelete": true,
       "Name": "Anchor3",
       "RotY": 15.3421,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -72,7 +45,6 @@
       "RotY": 7.718384,
       "RotX": 9.453626,
       "RotZ": 0.073659,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -87,7 +59,6 @@
       "RotY": 7.718384,
       "RotX": 9.453626,
       "RotZ": 0.073659,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -99,7 +70,6 @@
       "PosZ": 8.159,
       "Name": "Anchor6",
       "RotY": 37.5,
-      "MapLayerID": 1,
       "Usage": "Actor"
     }
   ],
@@ -122,7 +92,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -148,7 +117,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -173,7 +141,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -194,7 +161,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 310010245,

@@ -31,8 +31,7 @@
       "PosY": -0.236796,
       "PosZ": 4.089,
       "Name": "Anchor1",
-      "RotY": 157.1859,
-      "MapLayerID": 1
+      "RotY": 157.1859
     }
   ],
   "MonsterList": [],
@@ -49,7 +48,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         64
@@ -72,7 +70,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -89,7 +86,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Talk03",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020000,

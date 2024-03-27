@@ -197,6 +197,24 @@
     "Order": 10,
     "IconPath": "SpriteOutput/UI/Avatar/Icon/IconEnergyLimit.png"
   },
+  "SpecialMaxSP": {
+    "PropertyType": "SpecialMaxSP",
+    "PropertyName": {
+      "Hash": -1112402245
+    },
+    "PropertyNameSkillTree": {
+      "Hash": -1112402245
+    },
+    "PropertyNameRelic": {
+      "Hash": -1112402245
+    },
+    "PropertyNameFilter": {
+      "Hash": -1112402245
+    },
+    "PropertyClassify": 1,
+    "Order": 10,
+    "IconPath": "SpriteOutput/UI/Avatar/Icon/IconEnergy_1308.png"
+  },
   "SPRatio": {
     "PropertyType": "SPRatio",
     "PropertyName": {

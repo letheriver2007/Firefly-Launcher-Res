@@ -12,14 +12,6 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -28,8 +20,7 @@
       "PosX": -14.42,
       "PosY": -0.093124,
       "PosZ": -10.39,
-      "Name": "PlayerStart",
-      "MapLayerID": 2
+      "Name": "PlayerStart"
     }
   ],
   "MonsterList": [],

@@ -15,6 +15,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiyangSmall_02_Idle01_Lod0.prefab",
           "AttachPoint": "EffectRoot",
           "Scale": {
@@ -28,6 +29,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiyangSmall_02_Appear01_Lod0.prefab",
           "AttachPoint": "EffectRoot",
           "Scale": {

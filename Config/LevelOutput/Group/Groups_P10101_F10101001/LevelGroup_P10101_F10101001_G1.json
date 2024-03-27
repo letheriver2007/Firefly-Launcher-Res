@@ -13,8 +13,7 @@
       "PosY": -5.400732,
       "PosZ": 70.01997,
       "Name": "Anchor1",
-      "RotY": 137.55,
-      "MapLayerID": 2
+      "RotY": 137.55
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": -0.093124,
       "PosZ": -37.96,
       "Name": "Anchor2",
-      "RotY": 90.0,
-      "MapLayerID": 2
+      "RotY": 90.0
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": 0.009865,
       "PosZ": -144.792,
       "Name": "Anchor3",
-      "RotY": 300.0,
-      "MapLayerID": 2
+      "RotY": 300.0
     },
     {
       "ID": 4,
@@ -40,8 +37,7 @@
       "PosY": 0.009586,
       "PosZ": 78.898,
       "Name": "Anchor4",
-      "RotY": 186.0784,
-      "MapLayerID": 2
+      "RotY": 186.0784
     }
   ],
   "MonsterList": [],
@@ -79,7 +75,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -131,7 +126,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -182,7 +176,6 @@
         "Server": true
       },
       "State": "CheckPointEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,
@@ -216,7 +209,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -238,7 +230,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -260,7 +251,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -285,7 +275,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -306,7 +295,6 @@
       "PropID": 102,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

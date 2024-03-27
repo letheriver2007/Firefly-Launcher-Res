@@ -30,8 +30,7 @@
       "PosY": 1.9E-5,
       "PosZ": -4.966,
       "Name": "Anchor1",
-      "RotY": 146.03,
-      "MapLayerID": 1
+      "RotY": 146.03
     },
     {
       "ID": 2,
@@ -42,7 +41,6 @@
       "RotY": 129.47,
       "RotX": 32.40001,
       "RotZ": 0.111987,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -63,7 +61,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -85,7 +82,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Maze_StandBy_01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -109,7 +105,6 @@
       "NPCID": 1105,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 311050000,

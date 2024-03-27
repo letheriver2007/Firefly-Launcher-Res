@@ -246,7 +246,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "Caster"
                           },
-                          "IsAttachToTargetEntity": false,
                           "Flags": [
                             "Resident"
                           ],
@@ -258,7 +257,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "Caster"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Normal_Flower_LeftGlow.prefab"
                         },
                         {
@@ -297,7 +295,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "Caster"
                               },
-                              "IsAttachToTargetEntity": false,
                               "Flags": [
                                 "Resident"
                               ],
@@ -309,7 +306,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "Caster"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Normal_Flower_MidGlow.prefab"
                             },
                             {
@@ -333,7 +329,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "Caster"
                               },
-                              "IsAttachToTargetEntity": false,
                               "Flags": [
                                 "Resident"
                               ],
@@ -345,7 +340,6 @@
                                 "$type": "RPG.GameCore.TargetAlias",
                                 "Alias": "Caster"
                               },
-                              "IsAttachToTargetEntity": false,
                               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Normal_Flower_RightGlow.prefab"
                             },
                             {
@@ -1286,7 +1280,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Normal_BackEffect.prefab"
         },
         {
@@ -2156,7 +2149,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Beast02_00/Eff_Monster_W2_Beast02_00_Skill04_03.prefab"
             }
           ]

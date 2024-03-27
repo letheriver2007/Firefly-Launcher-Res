@@ -4214,6 +4214,118 @@
           ]
         },
         {
+          "Name": "Monster_W3_Dinosaur_01_Viewmode_Camera",
+          "TaskList": [
+            {
+              "$type": "RPG.GameCore.VCameraConfigChange",
+              "CameraConfig": {
+                "NormalConfig": {
+                  "CameraState": "UseSkillPerform",
+                  "AnchorTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsLocalOffset": true,
+                  "AnchorOffset": {
+                    "X": -1.8,
+                    "Y": -0.3,
+                    "Z": -0.8
+                  },
+                  "AimTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "AimOffset": {
+                    "X": -1.01,
+                    "Y": 0.14,
+                    "Z": 0.01
+                  },
+                  "FollowPoleAngle": 80,
+                  "FollowRadius": 6.8,
+                  "ForbidChangeOffset": true
+                },
+                "BlendConfig": {
+                  "BlendType": "Cut"
+                },
+                "ShowEntityConfig": {
+                  "ShowTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsAliveOnly": false
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.WaitSecond",
+              "WaitTime": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0.1
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.VCameraConfigChange",
+              "CameraConfig": {
+                "NormalConfig": {
+                  "CameraState": "UseSkillPerform",
+                  "AnchorTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsLocalOffset": true,
+                  "AnchorOffset": {
+                    "X": -1.8,
+                    "Y": -0.3,
+                    "Z": -0.8
+                  },
+                  "AimTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "AimOffset": {
+                    "X": -1.01,
+                    "Y": 0.14,
+                    "Z": 0.01
+                  },
+                  "FollowPoleAngle": 80,
+                  "FollowRadius": 6.5,
+                  "FOV": 35,
+                  "ForbidChangeOffset": true
+                },
+                "BlendConfig": {
+                  "BlendType": "Custom",
+                  "CustomCurveName": "BlendCut_03to1",
+                  "BlendTime": 0.5
+                },
+                "ShowEntityConfig": {
+                  "ShowTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsAliveOnly": false
+                },
+                "DOFFocusConfig": {
+                  "CocMethodType": "RegionCoc",
+                  "FixedFocusDistance": 6,
+                  "NearTransitionRegion": 10,
+                  "FarTransitionRegion": 0.62
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.WaitSecond",
+              "WaitTime": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": 0.25
+                }
+              }
+            }
+          ]
+        },
+        {
           "Name": "Monster_SW_Boss_01_Viewmode_StandBy_Camera",
           "TaskList": [
             {
@@ -6629,6 +6741,60 @@
                   },
                   "AimOffset": {
                     "X": -1.39,
+                    "Y": 0.14,
+                    "Z": 0.01
+                  },
+                  "FollowPoleAngle": 80,
+                  "FollowRadius": 6.5,
+                  "FOV": 35,
+                  "ForbidChangeOffset": true
+                },
+                "BlendConfig": {
+                  "BlendType": "Custom",
+                  "CustomCurveName": "BlendCut_99to1",
+                  "BlendTime": 1
+                },
+                "ShowEntityConfig": {
+                  "ShowTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsAliveOnly": false
+                },
+                "DOFFocusConfig": {
+                  "CocMethodType": "RegionCoc",
+                  "FixedFocusDistance": 6,
+                  "NearTransitionRegion": 10,
+                  "FarTransitionRegion": 0.62
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Monster_W3_Dinosaur_01_Viewmode_Camera",
+          "TaskList": [
+            {
+              "$type": "RPG.GameCore.VCameraConfigChange",
+              "CameraConfig": {
+                "NormalConfig": {
+                  "CameraState": "UseSkillPerform",
+                  "AnchorTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "IsLocalOffset": true,
+                  "AnchorOffset": {
+                    "X": -1.8,
+                    "Y": -0.3,
+                    "Z": -0.8
+                  },
+                  "AimTargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "BattleDataViewUISelectEnter"
+                  },
+                  "AimOffset": {
+                    "X": -1.01,
                     "Y": 0.14,
                     "Z": 0.01
                   },

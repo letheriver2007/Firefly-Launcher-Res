@@ -174,7 +174,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill01_03.prefab"
             }
           ],
@@ -185,7 +184,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill01.prefab"
             }
           ]
@@ -636,7 +634,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill02_04.prefab"
             }
           ],
@@ -647,7 +644,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill02_02.prefab"
             }
           ]
@@ -966,7 +962,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill02_03.prefab",
               "PositionOffset": {
                 "X": -0.3,
@@ -1211,7 +1206,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill02_03.prefab",
               "PositionOffset": {
                 "X": -0.1,
@@ -1502,7 +1496,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Sushang/Eff_Avatar_Sushang_00_Skill02_03.prefab"
             },
             {

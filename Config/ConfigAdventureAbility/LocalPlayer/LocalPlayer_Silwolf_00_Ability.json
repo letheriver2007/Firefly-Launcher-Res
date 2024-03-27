@@ -12,7 +12,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "ModifierName": "ADV_StageAbility_Maze_Silwolf_MazeSkillMark"
+          "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
         },
         {
           "$type": "RPG.GameCore.VCameraConfigChange",
@@ -493,7 +493,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "ModifierName": "ADV_StageAbility_Maze_Silwolf_MazeSkillMark"
+          "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
         }
       ],
       "Name": "LocalPlayer_Silwolf_MazeSkill",
@@ -513,7 +513,7 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "ModifierName": "ADV_StageAbility_Maze_Silwolf_MazeSkillMark"
+              "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
             },
             {
               "$type": "RPG.GameCore.LookAt",
@@ -747,7 +747,7 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "Caster"
               },
-              "ModifierName": "ADV_StageAbility_Maze_Silwolf_MazeSkillMark"
+              "ModifierName": "ADV_StageAbility_Maze_IgnoreWeakness_MazeSkillMark"
             },
             {
               "$type": "RPG.GameCore.AdventureTriggerAnimStateWithMove",

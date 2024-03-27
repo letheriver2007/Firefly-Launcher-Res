@@ -26,34 +26,7 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -108,
-      -76
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      -77,
-      -85,
-      -108,
-      -76,
-      -71,
-      -76,
-      -67,
-      -76,
-      -67,
-      -75
-    ],
-    "LowerUpperBounds": {
-      "x": 8,
-      "y": 9
-    }
-  },
+  "StreamingTemplateType": "None",
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [],
@@ -109,7 +82,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -140,7 +112,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -181,7 +152,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -202,7 +172,6 @@
       "PosZ": -150.924,
       "Name": "StartTV",
       "PropID": 103042,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_CartoonTV_01.json",
       "ValueSource": {
         "Values": [
           {
@@ -225,7 +194,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -242,9 +210,9 @@
     },
     {
       "ID": 300005,
-      "PosX": -152.744,
+      "PosX": -147.47,
       "PosY": 16.077,
-      "PosZ": -168.778,
+      "PosZ": -166.639,
       "Name": "Prop5",
       "RotY": 270.0,
       "PropID": 100,
@@ -260,7 +228,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

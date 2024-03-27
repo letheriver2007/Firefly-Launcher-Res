@@ -9,20 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      6,
-      42
-    ],
-    "LowerUpperBounds": {
-      "x": 86,
-      "y": 87
-    }
-  },
   "ConflictWhiteList": [],
   "EnableGroupAI": true,
   "AnchorList": [
@@ -31,8 +17,7 @@
       "PosX": 14.89,
       "PosY": 172.2247,
       "PosZ": 96.28,
-      "Name": "Anchor1",
-      "MapLayerID": 2
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -43,7 +28,6 @@
       "RotY": 24.2626,
       "RotX": 21.67553,
       "RotZ": 1.857462,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -57,7 +41,6 @@
       "Name": "Anchor3",
       "RotY": 346.9903,
       "RotX": 13.78729,
-      "MapLayerID": 2,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -69,7 +52,6 @@
       "PosY": 172.2285,
       "PosZ": 94.13,
       "Name": "Anchor4",
-      "MapLayerID": 2,
       "Usage": "Actor"
     }
   ],
@@ -95,7 +77,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -118,7 +99,6 @@
       "InitLevelGraph": "Config/Level/LevelInstanceGraph/F44001003/LG_Prop_F44001003_G13_300002.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

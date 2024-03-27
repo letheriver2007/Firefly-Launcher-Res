@@ -74,7 +74,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_00_Skill01_Hit.prefab",
           "AttachPoint": "SelectRoot"
         },
@@ -384,7 +383,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_00_Skill02_hit.prefab"
         },
         {
@@ -403,7 +401,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_00_Skill02_Buff.prefab"
         },
         {
@@ -722,7 +719,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "Flags": [
             "Field"
           ],
@@ -1041,7 +1037,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeammate"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_00_Skill03_Buff02.prefab"
         },
         {
@@ -1050,7 +1045,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_00_Skill03_Buff02.prefab",
           "AttachPoint": "Flower"
         },
@@ -1453,7 +1447,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_Skill03_Imprint_Hit.prefab",
           "AttachPoint": "SelectRoot"
         },
@@ -2991,7 +2984,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_RuanMei/Eff_Avatar_RuanMei_Skill03_Imprint_Hit02.prefab",
               "AttachPoint": "SelectRoot"
             },

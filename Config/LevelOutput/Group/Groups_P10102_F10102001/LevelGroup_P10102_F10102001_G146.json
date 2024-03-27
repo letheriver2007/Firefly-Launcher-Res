@@ -38,8 +38,7 @@
       "PosZ": 20.71,
       "Name": "Anchor1",
       "RotY": 183.8791,
-      "RotX": 14.72486,
-      "MapLayerID": 1
+      "RotX": 14.72486
     },
     {
       "ID": 2,
@@ -47,8 +46,7 @@
       "PosY": 4.650187,
       "PosZ": 18.32,
       "Name": "Anchor2",
-      "RotY": 205.8647,
-      "MapLayerID": 1
+      "RotY": 205.8647
     },
     {
       "ID": 4,
@@ -58,7 +56,6 @@
       "Name": "Anchor4",
       "RotY": 183.8791,
       "RotX": 14.72486,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -69,7 +66,6 @@
       "Name": "Anchor3",
       "RotY": 183.8791,
       "RotX": 14.72486,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -78,8 +74,7 @@
       "PosY": 4.650187,
       "PosZ": 18.32,
       "Name": "Anchor5",
-      "RotY": 190.8647,
-      "MapLayerID": 1
+      "RotY": 190.8647
     },
     {
       "ID": 6,
@@ -87,8 +82,7 @@
       "PosY": 4.507839,
       "PosZ": 20.52,
       "Name": "Anchor6",
-      "RotY": 70.86476,
-      "MapLayerID": 1
+      "RotY": 70.86476
     }
   ],
   "MonsterList": [],
@@ -112,7 +106,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -137,7 +130,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -161,7 +153,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -184,7 +175,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -208,7 +198,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -232,7 +221,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -255,7 +243,6 @@
         "DimZ": 1.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -279,7 +266,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -303,7 +289,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 50.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -321,7 +306,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -338,7 +322,6 @@
       "PropID": 100,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -358,7 +341,6 @@
       "LevelGraph": "Config/Level/Mission/8000185/Mission_800018502_Puman_Effect.json",
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200370240,
@@ -375,7 +357,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -394,7 +375,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Cough01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -413,7 +393,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -434,7 +413,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Cough01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -453,7 +431,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -474,7 +451,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Cough01",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -493,7 +469,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

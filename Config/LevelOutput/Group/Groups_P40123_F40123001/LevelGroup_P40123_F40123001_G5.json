@@ -48,7 +48,6 @@
       "RotY": 11.16926,
       "RotX": 351.5804,
       "RotZ": 0.489234,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -56,8 +55,7 @@
       "PosX": -37.927,
       "PosY": 21.687,
       "PosZ": 77.696,
-      "Name": "LOOKAT",
-      "MapLayerID": 2
+      "Name": "LOOKAT"
     }
   ],
   "MonsterList": [],
@@ -128,7 +126,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -178,7 +175,6 @@
       },
       "CampID": 4,
       "State": "TriggerEnable",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -224,7 +220,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

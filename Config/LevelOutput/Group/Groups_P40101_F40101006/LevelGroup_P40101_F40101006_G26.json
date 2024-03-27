@@ -31,7 +31,6 @@
       "PosZ": -34.66,
       "Name": "Anchor1",
       "RotY": 290.5819,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -42,7 +41,6 @@
       "Name": "Anchor2",
       "RotY": 54.31601,
       "RotX": 14.9524,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -60,7 +58,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 1110000,
@@ -81,7 +78,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 8001000,

@@ -924,6 +924,31 @@
     "MPCost": 1,
     "SkillTriggerKey": "MazeSkill"
   },
+  "130101": {
+    "MazeSkillId": 130101,
+    "MazeSkillName": {
+      "Hash": 470004489
+    },
+    "MazeSkilltype": 1,
+    "MazeSkillDesc": {
+      "Hash": -1320443573
+    },
+    "RelatedAvatarSkill": 130106,
+    "SkillTriggerKey": "NormalAtk"
+  },
+  "130102": {
+    "MazeSkillId": 130102,
+    "MazeSkillName": {
+      "Hash": 2036088430
+    },
+    "MazeSkilltype": 2,
+    "MazeSkillDesc": {
+      "Hash": 245640368
+    },
+    "RelatedAvatarSkill": 130107,
+    "MPCost": 1,
+    "SkillTriggerKey": "MazeSkill"
+  },
   "130201": {
     "MazeSkillId": 130201,
     "MazeSkillName": {
@@ -974,6 +999,31 @@
     "MPCost": 1,
     "SkillTriggerKey": "MazeSkill"
   },
+  "130401": {
+    "MazeSkillId": 130401,
+    "MazeSkillName": {
+      "Hash": -1754837790
+    },
+    "MazeSkilltype": 1,
+    "MazeSkillDesc": {
+      "Hash": -1703525124
+    },
+    "RelatedAvatarSkill": 130406,
+    "SkillTriggerKey": "NormalAtk"
+  },
+  "130402": {
+    "MazeSkillId": 130402,
+    "MazeSkillName": {
+      "Hash": 974045565
+    },
+    "MazeSkilltype": 2,
+    "MazeSkillDesc": {
+      "Hash": 1025358231
+    },
+    "RelatedAvatarSkill": 130407,
+    "MPCost": 1,
+    "SkillTriggerKey": "MazeSkill"
+  },
   "130501": {
     "MazeSkillId": 130501,
     "MazeSkillName": {
@@ -1021,6 +1071,31 @@
       "Hash": -520522734
     },
     "RelatedAvatarSkill": 130707,
+    "MPCost": 1,
+    "SkillTriggerKey": "MazeSkill"
+  },
+  "130801": {
+    "MazeSkillId": 130801,
+    "MazeSkillName": {
+      "Hash": -1963257434
+    },
+    "MazeSkilltype": 1,
+    "MazeSkillDesc": {
+      "Hash": 541261800
+    },
+    "RelatedAvatarSkill": 130806,
+    "SkillTriggerKey": "NormalAtk"
+  },
+  "130802": {
+    "MazeSkillId": 130802,
+    "MazeSkillName": {
+      "Hash": 765625921
+    },
+    "MazeSkilltype": 2,
+    "MazeSkillDesc": {
+      "Hash": -1024822141
+    },
+    "RelatedAvatarSkill": 130807,
     "MPCost": 1,
     "SkillTriggerKey": "MazeSkill"
   },

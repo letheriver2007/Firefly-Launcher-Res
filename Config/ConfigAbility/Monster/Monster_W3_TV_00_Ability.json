@@ -105,7 +105,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "Caster"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_BeingHit01.prefab"
                 },
                 {
@@ -159,7 +158,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "Caster"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_BeingHit02.prefab"
                     }
                   ]
@@ -313,7 +311,6 @@
                             "$type": "RPG.GameCore.TargetAlias",
                             "Alias": "ModifierOwnerEntity"
                           },
-                          "IsAttachToTargetEntity": false,
                           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_Break_Occur_Blank.prefab"
                         }
                       ]
@@ -529,7 +526,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_TV_00/Eff_Monster_W3_TV_00_Skill01_Hit.prefab"
         },
@@ -572,7 +568,7 @@
           },
           "AliveOnly": true,
           "ContentID": {
-            "Hash": 424948877
+            "Hash": 516026617
           }
         },
         {
@@ -581,7 +577,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_MAZ_RecoverSP.prefab"
         },
@@ -833,7 +828,7 @@
           },
           "AliveOnly": true,
           "ContentID": {
-            "Hash": -161270413
+            "Hash": -1183819341
           }
         },
         {

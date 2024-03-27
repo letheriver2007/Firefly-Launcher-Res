@@ -34,7 +34,6 @@
       },
       "InitialAnimState": "SpecialStandBy1",
       "EventID": 40002015,
-      "MapLayerID": 2,
       "BoardShowList": [
         4
       ]
@@ -51,7 +50,6 @@
       "IsOverrideInitLevelGraph": true,
       "InitLevelGraph": "Config/Level/Raid/N2-Raid01/Maze_Chap00_N2_Raid01_CameraBuff.json",
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

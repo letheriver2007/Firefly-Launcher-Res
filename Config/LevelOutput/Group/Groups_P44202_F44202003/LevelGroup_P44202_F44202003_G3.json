@@ -12,29 +12,8 @@
   "ConflictIDList": [],
   "IsHoyoGroup": true,
   "HoYoGroupType": "Container",
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      -54,
-      20
-    ],
-    "LowerUpperBounds": {
-      "x": 408,
-      "y": 409
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      0,
-      0,
-      -54,
-      20
-    ],
-    "LowerUpperBounds": {
-      "x": 408,
-      "y": 414
-    }
-  },
   "ConflictWhiteList": [],
+  "TagContainer": {},
   "AnchorList": [],
   "MonsterList": [
     {
@@ -49,6 +28,7 @@
         "PathwayList": [],
         "SlaveConfigList": []
       },
+      "AIVariableSource": {},
       "ValueSource": {},
       "CampID": 3,
       "BattleArea": {
@@ -56,11 +36,16 @@
         "ID": 1
       },
       "EventID": 44202021,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
-      "TagList": []
+      "TagList": [
+        "ResistInstantKill"
+      ],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      },
+      "TagContainer": {}
     }
   ],
   "PropList": [
@@ -72,13 +57,13 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_ChallengeRaid_BuffRaid3.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     },
     {
       "ID": 300002,
@@ -88,13 +73,13 @@
       "InitLevelGraph": "Config/Level/Maze/Chapter02/X203/Chapter02_X203_MonsterEffect_Suiyang.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],
-      "ServerInteractVerificationIDList": []
+      "ServerInteractVerificationIDList": [],
+      "CameraCenterEntityList": []
     }
   ],
   "NPCList": []

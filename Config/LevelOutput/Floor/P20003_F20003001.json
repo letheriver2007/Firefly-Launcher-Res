@@ -606,6 +606,33 @@
       "DimensionFilter": {
         "List": []
       }
+    },
+    {
+      "ID": 149,
+      "Name": "MainMission8021202_ActivityFeverTime",
+      "GroupGUID": "9fd792f9-3587-418f-9932-f6dad9367d41",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G149.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 150,
+      "Name": "MainMission8021203_ActivityFeverTime",
+      "GroupGUID": "4f51c8cc-b434-4d3d-864d-1620282b5e59",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G150.json",
+      "DimensionFilter": {
+        "List": []
+      }
+    },
+    {
+      "ID": 151,
+      "Name": "MainMission8021201_Activity",
+      "GroupGUID": "540c8a7b-12ec-4df6-9b44-0286840fbe2c",
+      "GroupPath": "Config/LevelOutput/Group/Groups_P20003_F20003001/LevelGroup_P20003_F20003001_G151.json",
+      "DimensionFilter": {
+        "List": []
+      }
     }
   ]
 }

@@ -75,6 +75,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_00/Eff_Monster_W3_Dinosaur_00_Maze_Attack_01.prefab"
         },
         {
@@ -136,6 +137,7 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W3_Dinosaur_00/Eff_Monster_W3_Dinosaur_00_Maze_Attack_Ground.prefab"
         },
         {
@@ -180,6 +182,28 @@
           "Scale": {
             "X": 0,
             "Y": 0,
+            "Z": 0
+          }
+        }
+      ]
+    },
+    {
+      "Name": "MazeMonster_W3_Dinosaur_00_EnhanceEffect",
+      "TargetInfo": {
+        "TargetType": "Caster"
+      },
+      "OnStart": [
+        {
+          "$type": "RPG.GameCore.TriggerEffect",
+          "TargetType": {
+            "$type": "RPG.GameCore.TargetAlias",
+            "Alias": "Caster"
+          },
+          "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Rogue_EliteEnhance.prefab",
+          "AttachPoint": "Effect_RL",
+          "PositionOffset": {
+            "X": 0,
+            "Y": -0.3,
             "Z": 0
           }
         }

@@ -69,7 +69,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "FriendTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_03/Eff_Monster_W2_Xuanlu_03_Skill01_Start2.prefab"
         },
         {
@@ -87,7 +86,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamMember"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W2_Xuanlu_03/Eff_Monster_W2_Xuanlu_03_Skill01_Heal.prefab"
         },
         {

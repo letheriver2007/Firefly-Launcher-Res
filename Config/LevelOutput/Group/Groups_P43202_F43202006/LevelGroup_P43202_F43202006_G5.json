@@ -35,8 +35,7 @@
       "PosX": -173.538,
       "PosY": 15.70887,
       "PosZ": -3.393,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     },
     {
       "ID": 2,
@@ -45,7 +44,6 @@
       "PosZ": -0.474026,
       "Name": "Anchor2",
       "RotY": 54.21401,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -55,7 +53,6 @@
       "PosZ": -0.32,
       "Name": "Anchor3",
       "RotY": 80.04752,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -76,7 +73,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -260407072
@@ -103,7 +99,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312040000,
@@ -123,7 +118,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 312120000,

@@ -9,28 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      57,
-      288
-    ],
-    "LowerUpperBounds": {
-      "x": 100,
-      "y": 101
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      57,
-      286,
-      57,
-      288
-    ],
-    "LowerUpperBounds": {
-      "x": 100,
-      "y": 101
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -41,7 +19,6 @@
       "Name": "Anchor1",
       "RotY": 356.8,
       "RotX": 9.316818,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -67,7 +44,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -89,7 +65,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "BoneEmotionName": "Happy01",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "InitialHiddenNodeList": [],
@@ -109,7 +84,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200,

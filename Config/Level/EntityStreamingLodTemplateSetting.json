@@ -362,8 +362,8 @@
           "$type": "RPG.GameCore.EntityLodDetail",
           "Lod": 1,
           "Percent": 30,
-          "Quality": 31,
-          "QualityAdjustments": 18219008
+          "Quality": 63,
+          "QualityAdjustments": 555089920
         },
         {
           "$type": "RPG.GameCore.EntityLodDetail",
@@ -392,8 +392,8 @@
           "$type": "RPG.GameCore.EntityLodDetail",
           "Lod": 1,
           "Percent": 30,
-          "Quality": 31,
-          "QualityAdjustments": 18219008
+          "Quality": 63,
+          "QualityAdjustments": 555089920
         },
         {
           "$type": "RPG.GameCore.EntityLodDetail",
@@ -4250,6 +4250,67 @@
         }
       ],
       "Layer": "Entity"
+    },
+    "Prop_3Puzzle_H": {
+      "$type": "RPG.GameCore.PropLodTemplate",
+      "Name": "Prop_3Puzzle_H",
+      "Index": 1,
+      "Distance": 300,
+      "LodDetailList": [
+        {
+          "$type": "RPG.GameCore.EntityLodDetail",
+          "ArtNodeLodLevel": 0,
+          "Percent": 40,
+          "Quality": 7,
+          "QualityAdjustments": 9312
+        },
+        {
+          "$type": "RPG.GameCore.EntityLodDetail",
+          "ArtNodeLodLevel": 1,
+          "Lod": 1,
+          "Percent": 40,
+          "Quality": 56,
+          "QualityAdjustments": 758611968
+        },
+        {
+          "$type": "RPG.GameCore.EntityLodDetail",
+          "Shadow": false,
+          "Animation": false,
+          "ArtNodeLodLevel": 1,
+          "SoundEvent": false,
+          "Lod": 2,
+          "Percent": 80,
+          "Quality": 63,
+          "QualityAdjustments": 787747904
+        },
+        {
+          "$type": "RPG.GameCore.EntityLodDetail",
+          "Shadow": false,
+          "Animation": false,
+          "ParticleSystem": false,
+          "ArtNodeLodLevel": 1,
+          "Effect": false,
+          "SoundEvent": false,
+          "Lod": 3,
+          "Percent": 100,
+          "Quality": 15,
+          "QualityAdjustments": 301152
+        },
+        {
+          "$type": "RPG.GameCore.EntityLodDetail",
+          "Shadow": false,
+          "Animation": false,
+          "ParticleSystem": false,
+          "ArtNodeLodLevel": 2,
+          "Effect": false,
+          "SoundEvent": false,
+          "Lod": 4,
+          "Percent": 100,
+          "Quality": 48,
+          "QualityAdjustments": 311427072
+        }
+      ],
+      "Layer": "Entity"
     }
   },
   "LodMappingPropLod": {
@@ -4262,6 +4323,10 @@
     "NPC_Avatar": "Prop_Default",
     "NPC_Normal_KillShadow": "Prop_Default",
     "Tramcar": "Prop_Default",
-    "NPC_Normal_P01": "Prop_Default"
+    "NPC_Normal_P01": "Prop_Default",
+    "NPC_OrigamiBird": "Prop_Default",
+    "Prop_3SP_H": "Prop_Default",
+    "Prop_3_H": "Prop_Default",
+    "Prop_3Puzzle_H": "Prop_Default"
   }
 }

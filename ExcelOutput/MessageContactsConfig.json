@@ -443,6 +443,18 @@
     "ContactsType": 1,
     "ContactsCamp": 4
   },
+  "1301": {
+    "ID": 1301,
+    "Name": {
+      "Hash": -1004884226
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/1301.png",
+    "SignatureText": {
+      "Hash": 1569800050
+    },
+    "ContactsType": 1,
+    "ContactsCamp": 11
+  },
   "1302": {
     "ID": 1302,
     "Name": {
@@ -466,6 +478,18 @@
     },
     "ContactsType": 1,
     "ContactsCamp": 2
+  },
+  "1304": {
+    "ID": 1304,
+    "Name": {
+      "Hash": -1004884229
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/1304.png",
+    "SignatureText": {
+      "Hash": -1965652359
+    },
+    "ContactsType": 1,
+    "ContactsCamp": 6
   },
   "1305": {
     "ID": 1305,
@@ -502,6 +526,18 @@
     },
     "ContactsType": 1,
     "ContactsCamp": 10
+  },
+  "1308": {
+    "ID": 1308,
+    "Name": {
+      "Hash": -1004884217
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/1308.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 1,
+    "ContactsCamp": 13
   },
   "1310": {
     "ID": 1310,
@@ -1974,6 +2010,18 @@
     "ContactsType": 2,
     "ContactsCamp": 99
   },
+  "133": {
+    "ID": 133,
+    "Name": {
+      "Hash": 1053633770
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Sionbhan.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
   "134": {
     "ID": 134,
     "Name": {
@@ -1997,5 +2045,113 @@
     },
     "ContactsType": 2,
     "ContactsCamp": 99
+  },
+  "136": {
+    "ID": 136,
+    "Name": {
+      "Hash": 1456918297
+    },
+    "IconPath": "SpriteOutput/MonsterRoundIcon/Monster_3002030.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "137": {
+    "ID": 137,
+    "Name": {
+      "Hash": -1271965058
+    },
+    "IconPath": "SpriteOutput/MonsterRoundIcon/Monster_3001010.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "138": {
+    "ID": 138,
+    "Name": {
+      "Hash": -2031479945
+    },
+    "IconPath": "SpriteOutput/MonsterRoundIcon/Monster_3002010.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "139": {
+    "ID": 139,
+    "Name": {
+      "Hash": -465396004
+    },
+    "IconPath": "SpriteOutput/MonsterRoundIcon/Monster_3001020.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "140": {
+    "ID": 140,
+    "Name": {
+      "Hash": -1675249588
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Group_Default.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 3,
+    "ContactsCamp": 11
+  },
+  "141": {
+    "ID": 141,
+    "Name": {
+      "Hash": -109165647
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_AdvertBoard.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "142": {
+    "ID": 142,
+    "Name": {
+      "Hash": -512450174
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/1308.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 1,
+    "ContactsCamp": 12
+  },
+  "145": {
+    "ID": 145,
+    "Name": {
+      "Hash": 1860202821
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
+  },
+  "146": {
+    "ID": 146,
+    "Name": {
+      "Hash": 1456918294
+    },
+    "IconPath": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png",
+    "SignatureText": {
+      "Hash": 371857150
+    },
+    "ContactsType": 2,
+    "ContactsCamp": 11
   }
 }

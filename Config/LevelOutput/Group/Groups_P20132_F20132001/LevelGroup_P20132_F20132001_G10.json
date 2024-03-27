@@ -12,8 +12,7 @@
       "PosY": -5.009,
       "PosZ": 366.157,
       "Name": "Anchor1",
-      "RotY": 320.2368,
-      "MapLayerID": 1
+      "RotY": 320.2368
     }
   ],
   "MonsterList": [],
@@ -54,7 +53,6 @@
         "Server": true
       },
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 5.0,

@@ -13,8 +13,7 @@
       "PosY": 46.59276,
       "PosZ": -28.26,
       "Name": "PlayerStart",
-      "RotY": 204.4,
-      "MapLayerID": 1
+      "RotY": 204.4
     },
     {
       "ID": 2,
@@ -22,8 +21,7 @@
       "PosY": 46.35823,
       "PosZ": -66.26793,
       "Name": "Anchor2",
-      "RotY": 75.42,
-      "MapLayerID": 1
+      "RotY": 75.42
     },
     {
       "ID": 3,
@@ -31,8 +29,7 @@
       "PosY": 47.02342,
       "PosZ": -142.3622,
       "Name": "Anchor3",
-      "RotY": 173.1185,
-      "MapLayerID": 1
+      "RotY": 173.1185
     }
   ],
   "MonsterList": [],
@@ -57,7 +54,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -103,7 +99,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -149,7 +144,6 @@
       },
       "CampID": 4,
       "State": "CheckPointDisable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 7.0,
@@ -186,7 +180,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -214,7 +207,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -242,7 +234,6 @@
       "IsOverrideInitLevelGraph": true,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

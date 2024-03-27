@@ -177,7 +177,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start01.prefab"
         },
         {
@@ -206,7 +205,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start03.prefab"
         },
         {
@@ -224,7 +222,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Start02.prefab"
         },
         {
@@ -299,7 +296,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Heal_Hit.prefab"
         },
@@ -379,7 +375,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab",
                   "MinMutexTime": 0.85,
                   "MinMutexType": "Entity"
@@ -390,7 +385,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ParamEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Heal_Hit.prefab"
                 }
               ]
@@ -655,7 +649,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_BattleEvent/Eff_Rogue_Abundance/Eff_BattleEvent_Rogue_Abundance_Camera.prefab"
         },
         {
@@ -2227,7 +2220,7 @@
                   "$type": "RPG.GameCore.AutoUseUltraSkill",
                   "Target": {
                     "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "AllDarkTeam"
+                    "Alias": "AllLightTeam"
                   },
                   "WaitCutinFinished": false
                 }
@@ -2478,7 +2471,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
                 },
                 {

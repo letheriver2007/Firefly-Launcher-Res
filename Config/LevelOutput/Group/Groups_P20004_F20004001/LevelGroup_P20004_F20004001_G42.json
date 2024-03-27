@@ -95,28 +95,6 @@
     0
   ],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      14,
-      -9,
-      45,
-      -9,
-      14,
-      -8,
-      46,
-      -8,
-      48,
-      -8
-    ],
-    "LowerUpperBounds": {
-      "x": 72,
-      "y": 207
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -125,8 +103,7 @@
       "PosY": 143.51,
       "PosZ": -14.19,
       "Name": "1F_Boss",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 2,
@@ -134,8 +111,7 @@
       "PosY": 146.45,
       "PosZ": -14.19,
       "Name": "1F_TurnPoint2_Boss",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 3,
@@ -143,8 +119,7 @@
       "PosY": 168.1,
       "PosZ": -14.245,
       "Name": "1F_TurnPoint3_Boss",
-      "RotY": 180.0,
-      "MapLayerID": 2
+      "RotY": 180.0
     },
     {
       "ID": 4,
@@ -152,8 +127,7 @@
       "PosY": 411.39,
       "PosZ": -14.245,
       "Name": "2F_Boss",
-      "RotY": 180.0,
-      "MapLayerID": 3
+      "RotY": 180.0
     },
     {
       "ID": 5,
@@ -161,8 +135,7 @@
       "PosY": 146.45,
       "PosZ": -14.19,
       "Name": "1F_TurnPoint1_Boss",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -179,7 +152,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Console_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -203,7 +175,6 @@
       "InitLevelGraph": "Config/Level/Props/Common/InitLevelGraph_Prop_Common_Console_01.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -238,7 +209,6 @@
       },
       "CampID": 4,
       "State": "Open",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -260,7 +230,6 @@
       "PropID": 100092,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -290,7 +259,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 3,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

@@ -517,6 +517,20 @@
       121702
     ]
   },
+  "1301": {
+    "ID": 1301,
+    "AvatarID": 1301,
+    "PlayerName": {
+      "Hash": 1934967678
+    },
+    "PlayerPrefabPath": "Characters/CharacterPrefabs/Player/Gallagher_00/Player_Male_Gallagher_00.prefab",
+    "PlayerJsonPath": "Config/ConfigCharacter/LocalPlayer/LocalPlayer_Gallagher_00_Config.json",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1301.png",
+    "MazeSkillIdList": [
+      130101,
+      130102
+    ]
+  },
   "1302": {
     "ID": 1302,
     "AvatarID": 1302,
@@ -545,6 +559,20 @@
       130302
     ]
   },
+  "1304": {
+    "ID": 1304,
+    "AvatarID": 1304,
+    "PlayerName": {
+      "Hash": 1531683151
+    },
+    "PlayerPrefabPath": "Characters/CharacterPrefabs/Player/Aventurine_00/Player_Lad_Aventurine_00.prefab",
+    "PlayerJsonPath": "Config/ConfigCharacter/LocalPlayer/LocalPlayer_Aventurine_00_Config.json",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1304.png",
+    "MazeSkillIdList": [
+      130401,
+      130402
+    ]
+  },
   "1305": {
     "ID": 1305,
     "AvatarID": 1305,
@@ -571,6 +599,20 @@
     "MazeSkillIdList": [
       130701,
       130702
+    ]
+  },
+  "1308": {
+    "ID": 1308,
+    "AvatarID": 1308,
+    "PlayerName": {
+      "Hash": -1150146037
+    },
+    "PlayerPrefabPath": "Characters/CharacterPrefabs/Player/Acheron_00/Player_Lady_Acheron_00.prefab",
+    "PlayerJsonPath": "Config/ConfigCharacter/LocalPlayer/LocalPlayer_Acheron_00_Config.json",
+    "DefaultAvatarHeadIconPath": "SpriteOutput/AvatarIconTeam/1308.png",
+    "MazeSkillIdList": [
+      130801,
+      130802
     ]
   },
   "1312": {

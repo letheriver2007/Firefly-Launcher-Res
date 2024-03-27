@@ -1042,7 +1042,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Rogue_OtherRise_Trigger.prefab",
           "MinMutexTime": 0.85,
           "MinMutexType": "Entity"
@@ -2786,7 +2785,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_End.prefab"
                 }
               ]
@@ -2800,7 +2798,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_Hit.prefab"
                 }
               ]
@@ -2814,7 +2811,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Monster_Common_Large_HolyShield_Start.prefab"
                 },
                 {
@@ -2826,8 +2822,20 @@
               "Event": "OnAfterBeingAttacked",
               "CallbackConfig": [
                 {
-                  "$type": "RPG.GameCore.SetModifierValue",
-                  "ModifyFunction": "Add"
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetModifierValue",
+                      "ModifyFunction": "Add"
+                    }
+                  ]
                 }
               ]
             }
@@ -3262,7 +3270,7 @@
         "MAvatar_AetherDivide_Add_Perk_0024": {
           "_CallbackList": [
             {
-              "Event": "OnBeforeSkillUse",
+              "Event": "OnAfterSkillUse",
               "CallbackConfig": [
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",

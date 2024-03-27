@@ -14,7 +14,6 @@
       "PosZ": 29.86,
       "Name": "PlayerStart",
       "RotY": 180.0,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -23,8 +22,7 @@
       "PosY": 3.0E-6,
       "PosZ": -14.425,
       "Name": "Anchor2",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     }
   ],
   "MonsterList": [],
@@ -39,7 +37,6 @@
       "ValueSource": {},
       "CampID": 4,
       "State": "CheckPointEnable",
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_Spring": {
           "Radius": 8.0,

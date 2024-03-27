@@ -8787,5 +8787,1049 @@
         86
       ]
     }
+  },
+  "901": {
+    "1": {
+      "RogueMapID": 901,
+      "SiteID": 1,
+      "IsStart": true,
+      "PosX": 100,
+      "PosY": -360,
+      "NextSiteIDList": [
+        21,
+        22
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        57
+      ]
+    },
+    "21": {
+      "RogueMapID": 901,
+      "SiteID": 21,
+      "PosX": 250,
+      "PosY": -360,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        58
+      ]
+    },
+    "22": {
+      "RogueMapID": 901,
+      "SiteID": 22,
+      "PosX": 250,
+      "PosY": -480,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        58
+      ]
+    },
+    "31": {
+      "RogueMapID": 901,
+      "SiteID": 31,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        59
+      ]
+    },
+    "32": {
+      "RogueMapID": 901,
+      "SiteID": 32,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        59
+      ]
+    },
+    "4": {
+      "RogueMapID": 901,
+      "SiteID": 4,
+      "PosX": 550,
+      "PosY": -360,
+      "NextSiteIDList": [
+        5
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        60
+      ]
+    },
+    "5": {
+      "RogueMapID": 901,
+      "SiteID": 5,
+      "PosX": 700,
+      "PosY": -360,
+      "NextSiteIDList": [
+        6
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        60
+      ]
+    },
+    "6": {
+      "RogueMapID": 901,
+      "SiteID": 6,
+      "PosX": 850,
+      "PosY": -360,
+      "NextSiteIDList": [
+        71,
+        72
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        61
+      ]
+    },
+    "71": {
+      "RogueMapID": 901,
+      "SiteID": 71,
+      "PosX": 700,
+      "PosY": -480,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        62
+      ]
+    },
+    "72": {
+      "RogueMapID": 901,
+      "SiteID": 72,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        62
+      ]
+    },
+    "8": {
+      "RogueMapID": 901,
+      "SiteID": 8,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        9
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        63
+      ]
+    },
+    "9": {
+      "RogueMapID": 901,
+      "SiteID": 9,
+      "PosX": 1150,
+      "PosY": -360,
+      "NextSiteIDList": [
+        10
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        63
+      ]
+    },
+    "10": {
+      "RogueMapID": 901,
+      "SiteID": 10,
+      "PosX": 1300,
+      "PosY": -360,
+      "NextSiteIDList": [
+        111,
+        112
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        64
+      ]
+    },
+    "111": {
+      "RogueMapID": 901,
+      "SiteID": 111,
+      "PosX": 1450,
+      "PosY": -360,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        65
+      ]
+    },
+    "112": {
+      "RogueMapID": 901,
+      "SiteID": 112,
+      "PosX": 1150,
+      "PosY": -480,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        65
+      ]
+    },
+    "12": {
+      "RogueMapID": 901,
+      "SiteID": 12,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [
+        13
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        65
+      ]
+    },
+    "13": {
+      "RogueMapID": 901,
+      "SiteID": 13,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        66
+      ]
+    }
+  },
+  "902": {
+    "1": {
+      "RogueMapID": 902,
+      "SiteID": 1,
+      "IsStart": true,
+      "PosX": 100,
+      "PosY": -360,
+      "NextSiteIDList": [
+        21,
+        22
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        63
+      ]
+    },
+    "21": {
+      "RogueMapID": 902,
+      "SiteID": 21,
+      "PosX": 250,
+      "PosY": -360,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        64
+      ]
+    },
+    "22": {
+      "RogueMapID": 902,
+      "SiteID": 22,
+      "PosX": 250,
+      "PosY": -480,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        64
+      ]
+    },
+    "31": {
+      "RogueMapID": 902,
+      "SiteID": 31,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        65
+      ]
+    },
+    "32": {
+      "RogueMapID": 902,
+      "SiteID": 32,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        65
+      ]
+    },
+    "4": {
+      "RogueMapID": 902,
+      "SiteID": 4,
+      "PosX": 550,
+      "PosY": -360,
+      "NextSiteIDList": [
+        5
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        66
+      ]
+    },
+    "5": {
+      "RogueMapID": 902,
+      "SiteID": 5,
+      "PosX": 700,
+      "PosY": -360,
+      "NextSiteIDList": [
+        6
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        66
+      ]
+    },
+    "6": {
+      "RogueMapID": 902,
+      "SiteID": 6,
+      "PosX": 850,
+      "PosY": -360,
+      "NextSiteIDList": [
+        71,
+        72
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        67
+      ]
+    },
+    "71": {
+      "RogueMapID": 902,
+      "SiteID": 71,
+      "PosX": 700,
+      "PosY": -480,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        68
+      ]
+    },
+    "72": {
+      "RogueMapID": 902,
+      "SiteID": 72,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        68
+      ]
+    },
+    "8": {
+      "RogueMapID": 902,
+      "SiteID": 8,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        9
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        69
+      ]
+    },
+    "9": {
+      "RogueMapID": 902,
+      "SiteID": 9,
+      "PosX": 1150,
+      "PosY": -360,
+      "NextSiteIDList": [
+        10
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        69
+      ]
+    },
+    "10": {
+      "RogueMapID": 902,
+      "SiteID": 10,
+      "PosX": 1300,
+      "PosY": -360,
+      "NextSiteIDList": [
+        111,
+        112
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        70
+      ]
+    },
+    "111": {
+      "RogueMapID": 902,
+      "SiteID": 111,
+      "PosX": 1450,
+      "PosY": -360,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        71
+      ]
+    },
+    "112": {
+      "RogueMapID": 902,
+      "SiteID": 112,
+      "PosX": 1150,
+      "PosY": -480,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        71
+      ]
+    },
+    "12": {
+      "RogueMapID": 902,
+      "SiteID": 12,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [
+        13
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        71
+      ]
+    },
+    "13": {
+      "RogueMapID": 902,
+      "SiteID": 13,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        72
+      ]
+    }
+  },
+  "903": {
+    "1": {
+      "RogueMapID": 903,
+      "SiteID": 1,
+      "IsStart": true,
+      "PosX": 100,
+      "PosY": -360,
+      "NextSiteIDList": [
+        21,
+        22
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        72
+      ]
+    },
+    "21": {
+      "RogueMapID": 903,
+      "SiteID": 21,
+      "PosX": 250,
+      "PosY": -360,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        73
+      ]
+    },
+    "22": {
+      "RogueMapID": 903,
+      "SiteID": 22,
+      "PosX": 250,
+      "PosY": -480,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        73
+      ]
+    },
+    "31": {
+      "RogueMapID": 903,
+      "SiteID": 31,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        74
+      ]
+    },
+    "32": {
+      "RogueMapID": 903,
+      "SiteID": 32,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        74
+      ]
+    },
+    "4": {
+      "RogueMapID": 903,
+      "SiteID": 4,
+      "PosX": 550,
+      "PosY": -360,
+      "NextSiteIDList": [
+        5
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        75
+      ]
+    },
+    "5": {
+      "RogueMapID": 903,
+      "SiteID": 5,
+      "PosX": 700,
+      "PosY": -360,
+      "NextSiteIDList": [
+        6
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        75
+      ]
+    },
+    "6": {
+      "RogueMapID": 903,
+      "SiteID": 6,
+      "PosX": 850,
+      "PosY": -360,
+      "NextSiteIDList": [
+        71,
+        72
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        76
+      ]
+    },
+    "71": {
+      "RogueMapID": 903,
+      "SiteID": 71,
+      "PosX": 700,
+      "PosY": -480,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        77
+      ]
+    },
+    "72": {
+      "RogueMapID": 903,
+      "SiteID": 72,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        77
+      ]
+    },
+    "8": {
+      "RogueMapID": 903,
+      "SiteID": 8,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        9
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        78
+      ]
+    },
+    "9": {
+      "RogueMapID": 903,
+      "SiteID": 9,
+      "PosX": 1150,
+      "PosY": -360,
+      "NextSiteIDList": [
+        10
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        78
+      ]
+    },
+    "10": {
+      "RogueMapID": 903,
+      "SiteID": 10,
+      "PosX": 1300,
+      "PosY": -360,
+      "NextSiteIDList": [
+        111,
+        112
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        79
+      ]
+    },
+    "111": {
+      "RogueMapID": 903,
+      "SiteID": 111,
+      "PosX": 1450,
+      "PosY": -360,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        80
+      ]
+    },
+    "112": {
+      "RogueMapID": 903,
+      "SiteID": 112,
+      "PosX": 1150,
+      "PosY": -480,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        80
+      ]
+    },
+    "12": {
+      "RogueMapID": 903,
+      "SiteID": 12,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [
+        13
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        80
+      ]
+    },
+    "13": {
+      "RogueMapID": 903,
+      "SiteID": 13,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        81
+      ]
+    }
+  },
+  "904": {
+    "1": {
+      "RogueMapID": 904,
+      "SiteID": 1,
+      "IsStart": true,
+      "PosX": 100,
+      "PosY": -360,
+      "NextSiteIDList": [
+        21,
+        22
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        81
+      ]
+    },
+    "21": {
+      "RogueMapID": 904,
+      "SiteID": 21,
+      "PosX": 250,
+      "PosY": -360,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        82
+      ]
+    },
+    "22": {
+      "RogueMapID": 904,
+      "SiteID": 22,
+      "PosX": 250,
+      "PosY": -480,
+      "NextSiteIDList": [
+        31,
+        32
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        82
+      ]
+    },
+    "31": {
+      "RogueMapID": 904,
+      "SiteID": 31,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        83
+      ]
+    },
+    "32": {
+      "RogueMapID": 904,
+      "SiteID": 32,
+      "PosX": 400,
+      "PosY": -360,
+      "NextSiteIDList": [
+        4
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        83
+      ]
+    },
+    "4": {
+      "RogueMapID": 904,
+      "SiteID": 4,
+      "PosX": 550,
+      "PosY": -360,
+      "NextSiteIDList": [
+        5
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        84
+      ]
+    },
+    "5": {
+      "RogueMapID": 904,
+      "SiteID": 5,
+      "PosX": 700,
+      "PosY": -360,
+      "NextSiteIDList": [
+        6
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        84
+      ]
+    },
+    "6": {
+      "RogueMapID": 904,
+      "SiteID": 6,
+      "PosX": 850,
+      "PosY": -360,
+      "NextSiteIDList": [
+        71,
+        72
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        85
+      ]
+    },
+    "71": {
+      "RogueMapID": 904,
+      "SiteID": 71,
+      "PosX": 700,
+      "PosY": -480,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        86
+      ]
+    },
+    "72": {
+      "RogueMapID": 904,
+      "SiteID": 72,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        8
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        86
+      ]
+    },
+    "8": {
+      "RogueMapID": 904,
+      "SiteID": 8,
+      "PosX": 1000,
+      "PosY": -360,
+      "NextSiteIDList": [
+        9
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        87
+      ]
+    },
+    "9": {
+      "RogueMapID": 904,
+      "SiteID": 9,
+      "PosX": 1150,
+      "PosY": -360,
+      "NextSiteIDList": [
+        10
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        87
+      ]
+    },
+    "10": {
+      "RogueMapID": 904,
+      "SiteID": 10,
+      "PosX": 1300,
+      "PosY": -360,
+      "NextSiteIDList": [
+        111,
+        112
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        88
+      ]
+    },
+    "111": {
+      "RogueMapID": 904,
+      "SiteID": 111,
+      "PosX": 1450,
+      "PosY": -360,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        89
+      ]
+    },
+    "112": {
+      "RogueMapID": 904,
+      "SiteID": 112,
+      "PosX": 1150,
+      "PosY": -480,
+      "NextSiteIDList": [
+        12
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        89
+      ]
+    },
+    "12": {
+      "RogueMapID": 904,
+      "SiteID": 12,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [
+        13
+      ],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        89
+      ]
+    },
+    "13": {
+      "RogueMapID": 904,
+      "SiteID": 13,
+      "PosX": 100,
+      "PosY": -240,
+      "NextSiteIDList": [],
+      "HardLevelGroupList": [
+        1
+      ],
+      "LevelList": [
+        90
+      ]
+    }
   }
 }

@@ -10,12 +10,72 @@
           "$type": "RPG.GameCore.VCameraConfigChange",
           "CameraConfig": {
             "NormalConfig": {
-              "CameraState": "CastAnimation"
+              "CameraState": "UseSkillPerform",
+              "IsLocalOffset": true,
+              "AnchorOffset": {
+                "X": 0.01,
+                "Y": -0.25,
+                "Z": 0.01
+              },
+              "AimTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "AimOffset": {
+                "X": 0.01,
+                "Y": -0.25,
+                "Z": 0.01
+              },
+              "FollowPoleAngle": 95,
+              "FollowRadius": 5,
+              "ForbidChangeOffset": true,
+              "UseSkillPerformIgnoreDynamicOffset": false
+            },
+            "BlendConfig": {
+              "BlendType": "Cut"
             },
             "ShowEntityConfig": {
               "ShowTargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "AllTeamMember"
+                "Alias": "Caster"
+              }
+            }
+          }
+        },
+        {
+          "$type": "RPG.GameCore.VCameraConfigChange",
+          "CameraConfig": {
+            "NormalConfig": {
+              "CameraState": "UseSkillPerform",
+              "IsLocalOffset": true,
+              "AnchorOffset": {
+                "X": 0.01,
+                "Y": -0.25,
+                "Z": 0
+              },
+              "AimTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "AimOffset": {
+                "X": 0.01,
+                "Y": -0.25,
+                "Z": 0
+              },
+              "FollowPoleAngle": 100,
+              "FollowRadius": 5,
+              "FollowDamp": 10,
+              "ForbidChangeOffset": true,
+              "UseSkillPerformIgnoreDynamicOffset": false
+            },
+            "BlendConfig": {
+              "BlendType": "EaseInOut",
+              "BlendTime": 3.793333
+            },
+            "ShowEntityConfig": {
+              "ShowTargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
               }
             }
           }

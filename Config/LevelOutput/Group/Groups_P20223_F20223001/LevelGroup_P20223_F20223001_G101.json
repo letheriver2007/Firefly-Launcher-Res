@@ -8,30 +8,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      44,
-      -26,
-      45,
-      -26
-    ],
-    "LowerUpperBounds": {
-      "x": 429,
-      "y": 430
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      44,
-      -26,
-      45,
-      -26
-    ],
-    "LowerUpperBounds": {
-      "x": 429,
-      "y": 430
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -43,7 +19,6 @@
       "RotY": 271.4288,
       "RotX": 9.439859,
       "RotZ": 358.8553,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -67,7 +42,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 217922367
@@ -98,7 +72,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900,

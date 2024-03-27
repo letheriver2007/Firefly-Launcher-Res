@@ -30,8 +30,7 @@
       "PosY": -2.661856,
       "PosZ": 138.24,
       "Name": "Anchor1",
-      "RotY": 65.96,
-      "MapLayerID": 1
+      "RotY": 65.96
     },
     {
       "ID": 2,
@@ -39,16 +38,14 @@
       "PosY": -2.671819,
       "PosZ": 139.682,
       "Name": "Anchor2",
-      "RotY": 75.39999,
-      "MapLayerID": 1
+      "RotY": 75.39999
     },
     {
       "ID": 3,
       "PosX": -5.004673,
       "PosY": -2.588782,
       "PosZ": 148.3458,
-      "Name": "Anchor3",
-      "MapLayerID": 1
+      "Name": "Anchor3"
     },
     {
       "ID": 4,
@@ -56,8 +53,7 @@
       "PosY": -2.552462,
       "PosZ": 135.16,
       "Name": "Anchor4",
-      "RotY": 180.0,
-      "MapLayerID": 1
+      "RotY": 180.0
     },
     {
       "ID": 5,
@@ -65,8 +61,7 @@
       "PosY": -2.600576,
       "PosZ": 143.6412,
       "Name": "Anchor5",
-      "RotY": 99.3,
-      "MapLayerID": 1
+      "RotY": 99.3
     },
     {
       "ID": 6,
@@ -74,8 +69,7 @@
       "PosY": -2.524514,
       "PosZ": 152.79,
       "Name": "Anchor6",
-      "RotY": 21.42,
-      "MapLayerID": 1
+      "RotY": 21.42
     }
   ],
   "MonsterList": [],
@@ -92,7 +86,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

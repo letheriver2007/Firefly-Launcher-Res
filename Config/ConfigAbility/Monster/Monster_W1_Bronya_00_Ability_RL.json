@@ -327,7 +327,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Bronya_00/Eff_Monster_Bronya_00_Skill02_Buff.prefab",
           "PositionOffset": {
             "X": 0.2,
@@ -1015,7 +1014,6 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ModifierOwnerEntity"
                   },
-                  "IsAttachToTargetEntity": false,
                   "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Bronya_00/Eff_Monster_Bronya_00_Skill02_ReadyOut.prefab"
                 },
                 {

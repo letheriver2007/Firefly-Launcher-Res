@@ -360,7 +360,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Common_Heal.prefab"
         },
         {
@@ -998,7 +997,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Luocha/Eff_Avatar_Luocha_00_Skill02_03.prefab"
         },
         {
@@ -1070,7 +1068,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_W2_Mecha01_00/Eff_AetherDivide_W2_Mecha01_00_Buff.prefab",
               "MinMutexTime": -1
             }
@@ -1382,7 +1379,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ModifierOwnerEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Monster/Eff_AetherDivide_W2_Mecha01_00/Eff_AetherDivide_W2_Mecha01_00_Line.prefab"
                     },
                     {

@@ -674,7 +674,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "AbilityTargetEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Kafka/Eff_Avatar_Kafka_00_Skill02_DeBuff_Hit.prefab",
               "MinMutexTime": -1,
               "MinMutexType": "Entity"
@@ -1439,7 +1438,8 @@
         },
         "MAvatar_Kafka_Passive_DotSpecialMark": {
           "BehaviorFlagList": [
-            "ListenBattleEventSkill"
+            "ListenBattleEventSkill",
+            "RemoveWhenCasterDead"
           ],
           "UIConfig": {
             "UIEffectPath": "UI/Battle/Widget/SpecialSkilMarkEff/SpecialSkillMark_Kafka_DotHint.prefab"
@@ -1627,7 +1627,8 @@
         },
         "MAvatar_Kafka_Passive_DotSpecialMarkTrigger": {
           "BehaviorFlagList": [
-            "ListenBattleEventSkill"
+            "ListenBattleEventSkill",
+            "RemoveWhenCasterDead"
           ],
           "UIConfig": {
             "UIEffectPath": "UI/Battle/Widget/SpecialSkilMarkEff/SpecialSkillMark_Kafka.prefab"
@@ -3093,6 +3094,9 @@
           ]
         },
         "MAvatar_Kafka_Rank02_Sub": {
+          "BehaviorFlagList": [
+            "RemoveWhenCasterDead"
+          ],
           "_CallbackList": [
             {
               "Event": "OnStack",
@@ -3193,7 +3197,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "AllEnemy"
                       },
-                      "IsAttachToTargetEntity": false,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_Lightning_Add.prefab",
                       "AttachPoint": "SelectRoot"
                     },

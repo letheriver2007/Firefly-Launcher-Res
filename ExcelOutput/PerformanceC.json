@@ -3087,5 +3087,158 @@
     "EndBlack": "NoPre",
     "PlaneID": 90171,
     "FloorID": 90171006
+  },
+  "103180103": {
+    "PerformanceID": 103180103,
+    "PerformancePath": "Story/Mission/1031801/Story103180103.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 10301,
+    "FloorID": 10301001
+  },
+  "103170102": {
+    "PerformanceID": 103170102,
+    "PerformancePath": "Story/Mission/1031701/Story103170102.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "Full",
+    "PlaneID": 20321,
+    "FloorID": 20321001
+  },
+  "103170107": {
+    "PerformanceID": 103170107,
+    "PerformancePath": "Story/Mission/1031701/Story103170107.json",
+    "IsSkip": true,
+    "StartBlack": "Full",
+    "EndBlack": "Full",
+    "PlaneID": 20321,
+    "FloorID": 20321001
+  },
+  "103170114": {
+    "PerformanceID": 103170114,
+    "PerformancePath": "Story/Mission/1031701/Story103170114.json",
+    "IsSkip": true,
+    "StartBlack": "Full",
+    "EndBlack": "Full",
+    "PlaneID": 20321,
+    "FloorID": 20321001
+  },
+  "103170117": {
+    "PerformanceID": 103170117,
+    "PerformancePath": "Story/Mission/1031701/Story103170117.json",
+    "IsSkip": true,
+    "StartBlack": "Full",
+    "EndBlack": "NoPost",
+    "PlaneID": 20321,
+    "FloorID": 20321001
+  },
+  "103170119": {
+    "PerformanceID": 103170119,
+    "PerformancePath": "Story/Mission/1031701/Story103170119.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20321,
+    "FloorID": 20321001
+  },
+  "103190103": {
+    "PerformanceID": 103190103,
+    "PerformancePath": "Story/Mission/1031901/Story103190103.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20323,
+    "FloorID": 20323001
+  },
+  "103210101": {
+    "PerformanceID": 103210101,
+    "PerformancePath": "Story/Mission/1032101/Story103210101.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20322,
+    "FloorID": 20322001
+  },
+  "103090101": {
+    "PerformanceID": 103090101,
+    "PerformancePath": "Story/Mission/1030901/Story103090101.json",
+    "IsSkip": true,
+    "StartBlack": "Full",
+    "EndBlack": "NoPost",
+    "PlaneID": 20311,
+    "FloorID": 20311001
+  },
+  "103090128": {
+    "PerformanceID": 103090128,
+    "PerformancePath": "Story/Mission/1030901/Story103090128.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20311,
+    "FloorID": 20311001
+  },
+  "103100122": {
+    "PerformanceID": 103100122,
+    "PerformancePath": "Story/Mission/1031001/Story103100122.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 10301,
+    "FloorID": 10301001
+  },
+  "103100124": {
+    "PerformanceID": 103100124,
+    "PerformancePath": "Story/Mission/1031001/Story103100124.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 10305,
+    "FloorID": 10305001
+  },
+  "103110165": {
+    "PerformanceID": 103110165,
+    "PerformancePath": "Story/Mission/1031101/Story103110165.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20322,
+    "FloorID": 20322001
+  },
+  "103110167": {
+    "PerformanceID": 103110167,
+    "PerformancePath": "Story/Mission/1031101/Story103110167.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20322,
+    "FloorID": 20322001
+  },
+  "103110168": {
+    "PerformanceID": 103110168,
+    "PerformancePath": "Story/Mission/1031101/Story103110168.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 20322,
+    "FloorID": 20322001
+  },
+  "103130103": {
+    "PerformanceID": 103130103,
+    "PerformancePath": "Story/Mission/1031301/Story103130103.json",
+    "IsSkip": true,
+    "StartBlack": "NoPre",
+    "EndBlack": "NoPost",
+    "PlaneID": 10301,
+    "FloorID": 10301001
+  },
+  "103140111": {
+    "PerformanceID": 103140111,
+    "PerformancePath": "Story/Mission/1031401/Story103140111.json",
+    "IsSkip": true,
+    "StartBlack": "Full",
+    "EndBlack": "NoPost",
+    "PlaneID": 10301,
+    "FloorID": 10301001
   }
 }

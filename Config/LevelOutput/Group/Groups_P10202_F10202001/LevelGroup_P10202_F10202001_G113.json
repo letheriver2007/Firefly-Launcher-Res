@@ -46,8 +46,7 @@
       "PosY": -4.940926,
       "PosZ": 3.162,
       "Name": "Anchor1",
-      "RotY": 44.30422,
-      "MapLayerID": 1
+      "RotY": 44.30422
     },
     {
       "ID": 2,
@@ -57,7 +56,6 @@
       "Name": "Anchor2",
       "RotY": 20.84458,
       "RotX": 6.091362,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -69,7 +67,6 @@
       "RotY": 342.467,
       "RotX": 23.92782,
       "RotZ": -4.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -85,7 +82,6 @@
       "PropID": 102046,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -108,7 +104,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -132,7 +127,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -151,7 +145,6 @@
       "NPCID": 2205,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         8,
@@ -178,7 +171,6 @@
       "NPCID": 12247,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultAnimationType": "IdleState",
@@ -195,7 +187,6 @@
       "NPCID": 12115,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -213,7 +204,6 @@
       "NPCID": 12116,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -231,7 +221,6 @@
       "NPCID": 12112,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

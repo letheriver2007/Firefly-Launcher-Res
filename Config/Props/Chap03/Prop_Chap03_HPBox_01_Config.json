@@ -2,6 +2,7 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap03_Prop_HPBox_01_Idle01_Lod0.prefab",
       "AttachPoint": "EffRoot",
       "SyncPropState": true

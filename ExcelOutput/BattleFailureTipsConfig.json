@@ -2337,7 +2337,8 @@
     "MainMissionUnfinishForce": [],
     "MazebuffIDList": [],
     "MonsterTemplateIDList": [
-      3014020
+      3014020,
+      3014022
     ],
     "CustomStringList": [],
     "StageTypeForce": [],
@@ -2373,6 +2374,40 @@
     "MonsterTemplateIDList": [
       3024020,
       3024021
+    ],
+    "CustomStringList": [],
+    "StageTypeForce": [],
+    "Priority": 6,
+    "Type": "BattleEffect"
+  },
+  "1025": {
+    "BattleFailureTipID": 1025,
+    "TipContent": {
+      "Hash": 2036374958
+    },
+    "GameModeList": [
+      "Town",
+      "Maze",
+      "Challenge",
+      "RogueExplore",
+      "Raid",
+      "FarmRelic",
+      "Client",
+      "ChallengeActivity",
+      "ActivityPunkLord"
+    ],
+    "PlayerLevel": [
+      1,
+      99
+    ],
+    "WorldList": [],
+    "StageIDForce": [],
+    "MainMissionTakenForce": [],
+    "MainMissionFinishForce": [],
+    "MainMissionUnfinishForce": [],
+    "MazebuffIDList": [],
+    "MonsterTemplateIDList": [
+      8034010
     ],
     "CustomStringList": [],
     "StageTypeForce": [],

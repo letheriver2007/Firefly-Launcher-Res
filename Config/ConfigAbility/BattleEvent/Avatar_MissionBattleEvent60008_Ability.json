@@ -253,7 +253,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "Caster"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_Start01.prefab"
         },
         {
@@ -272,7 +271,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamMiddle"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_begin2.prefab"
         },
         {
@@ -329,7 +327,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "LightTeamMiddle"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_burst.prefab"
         },
         {
@@ -338,7 +335,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Huohuo/Eff_Avatar_Huohuo_00_Skill02_buff.prefab"
         },
         {

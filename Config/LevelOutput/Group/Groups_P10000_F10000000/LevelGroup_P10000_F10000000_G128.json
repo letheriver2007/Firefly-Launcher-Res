@@ -34,7 +34,6 @@
       "PosZ": 3.485,
       "Name": "Anchor1",
       "RotY": 225.259,
-      "MapLayerID": 1,
       "Usage": "Actor"
     },
     {
@@ -46,7 +45,6 @@
       "RotY": 209.6867,
       "RotX": 22.49999,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter",
@@ -74,7 +72,6 @@
         3,
         4
       ],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 900010214,
@@ -103,7 +100,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "OverrideSeriesID": 100401,
@@ -123,7 +119,6 @@
       "ValueSource": {},
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "OverrideSeriesID": 100301,

@@ -9,30 +9,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [
-      13,
-      0,
-      14,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -2
-    }
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      13,
-      0,
-      14,
-      0
-    ],
-    "LowerUpperBounds": {
-      "x": -3,
-      "y": -1
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [],
   "MonsterList": [],
@@ -55,7 +31,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -115,7 +90,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -174,7 +148,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -195,7 +168,6 @@
       "PropID": 100,
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -225,7 +197,6 @@
         "GroupID": 171,
         "InstanceID": 400004
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -253,7 +224,6 @@
         "GroupID": 171,
         "InstanceID": 400004
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -281,7 +251,6 @@
         "GroupID": 171,
         "InstanceID": 400004
       },
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],
@@ -314,7 +283,6 @@
       "StaticNPC": true,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         8
       ],

@@ -265,7 +265,6 @@
                         "$type": "RPG.GameCore.TargetAlias",
                         "Alias": "ParamEntity"
                       },
-                      "IsAttachToTargetEntity": false,
                       "AliveOnly": true,
                       "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_v2_Hit.prefab",
                       "AudioSwitchGroup": "Battle_Buff",
@@ -296,31 +295,43 @@
                     {
                       "$type": "RPG.GameCore.PredicateTaskList",
                       "Predicate": {
-                        "$type": "RPG.GameCore.ByCompareDynamicValue",
-                        "DynamicKey": "MDF_Count",
-                        "CompareType": "Less",
-                        "CompareValue": {
-                          "IsDynamic": false,
-                          "FixedValue": {
-                            "Value": 2
-                          }
+                        "$type": "RPG.GameCore.ByIsTriggeredBlockDamage",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
                         }
                       },
                       "SuccessTaskList": [
                         {
-                          "$type": "RPG.GameCore.RemoveModifier",
-                          "TargetType": {
-                            "$type": "RPG.GameCore.TargetAlias",
-                            "Alias": "ModifierOwnerEntity"
+                          "$type": "RPG.GameCore.PredicateTaskList",
+                          "Predicate": {
+                            "$type": "RPG.GameCore.ByCompareDynamicValue",
+                            "DynamicKey": "MDF_Count",
+                            "CompareType": "Less",
+                            "CompareValue": {
+                              "IsDynamic": false,
+                              "FixedValue": {
+                                "Value": 2
+                              }
+                            }
                           },
-                          "ModifierName": "Modifier_Avatar_HeliobusActionAbilityDamageReflect"
-                        }
-                      ],
-                      "FailedTaskList": [
-                        {
-                          "$type": "RPG.GameCore.SetModifierValue",
-                          "ModifierName": "Modifier_Avatar_HeliobusActionAbilityDamageReflect",
-                          "ModifyFunction": "Add"
+                          "SuccessTaskList": [
+                            {
+                              "$type": "RPG.GameCore.RemoveModifier",
+                              "TargetType": {
+                                "$type": "RPG.GameCore.TargetAlias",
+                                "Alias": "ModifierOwnerEntity"
+                              },
+                              "ModifierName": "Modifier_Avatar_HeliobusActionAbilityDamageReflect"
+                            }
+                          ],
+                          "FailedTaskList": [
+                            {
+                              "$type": "RPG.GameCore.SetModifierValue",
+                              "ModifierName": "Modifier_Avatar_HeliobusActionAbilityDamageReflect",
+                              "ModifyFunction": "Add"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -388,7 +399,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Air_Buff.prefab",
           "PositionOffset": {
             "X": 0,
@@ -417,7 +427,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllTeamCenter"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_ActionEvent_Ground_Buff.prefab"
         },
         {
@@ -476,7 +485,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AllLightTeam"
           },
-          "IsAttachToTargetEntity": false,
           "AliveOnly": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_Buff.prefab",
           "AudioSwitchGroup": "Battle_Buff",

@@ -107,11 +107,31 @@
                     "Hight": 2
                   },
                   "HitConfig": {
-                    "HitAnimation": "Hit",
-                    "HitEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_MazeAttack_Hit02.prefab"
+                    "HitAnimation": "Hit"
                   }
                 }
-              ]
+              ],
+              "WaitProjectileFinish": true
+            },
+            {
+              "$type": "RPG.GameCore.AdventureFireProjectile",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "AbilityTargetEntity"
+              },
+              "Projectile": {
+                "Behavior": "Static",
+                "EnableRayCast": true,
+                "MaxLifeTime": 1,
+                "AttachOffset": {
+                  "X": 0,
+                  "Y": 0,
+                  "Z": 5
+                },
+                "IgnoreTargetHitbox": true,
+                "FlyEffect": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_MazeAttack_Hit02.prefab",
+                "StaticExtraRadius": 0.4
+              }
             },
             {
               "$type": "RPG.GameCore.WaitAnimState",
@@ -142,9 +162,7 @@
                 "Alias": "AdvLocalPlayer"
               },
               "AnimLogicState": "NormalAtk",
-              "AnimStateName": "Attack_1",
-              "TransitionDuration": 0,
-              "MovingRangeList": []
+              "AnimStateName": "Attack_1"
             },
             {
               "$type": "RPG.GameCore.WaitAnimState",
@@ -192,7 +210,7 @@
                   "TriggerBattleDelay": 0.2,
                   "AttackDetectConfig": {
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                    "MaxRadius": 5,
+                    "MaxRadius": 2,
                     "FanAngle": 360,
                     "Hight": 2
                   },
@@ -472,6 +490,14 @@
               "UniqueEffectName": "AventurineMazeSkill"
             },
             {
+              "$type": "RPG.GameCore.TriggerSound",
+              "SoundName": "Ev_sfx_avatar_MazeSkill_Aventurine",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              }
+            },
+            {
               "$type": "RPG.GameCore.TriggerEffectList",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -497,7 +523,7 @@
                 "$type": "RPG.GameCore.ByCompareDynamicValue",
                 "DynamicKey": "_random",
                 "ContextScope": "ContextAbility",
-                "CompareType": "Greater",
+                "CompareType": "GreaterEqual",
                 "CompareValue": {
                   "IsDynamic": true,
                   "PostfixExpr": {
@@ -523,6 +549,14 @@
                   },
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_MazeSkill01_Succeed_V2.prefab",
                   "UniqueEffectName": "AventurineMazeSkill"
+                },
+                {
+                  "$type": "RPG.GameCore.TriggerSound",
+                  "SoundName": "Ev_sfx_avatar_MazeSkill_Bingo_Max_Aventurine",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  }
                 },
                 {
                   "$type": "RPG.GameCore.SetDynamicValue",
@@ -562,6 +596,14 @@
                   },
                   "EffectPath": "Effects/Eff_Prefab/Eff_Avatar/Eff_Aventurine/Eff_Avatar_Aventurine_00_MazeSkill01_Succeed.prefab",
                   "UniqueEffectName": "AventurineMazeSkill"
+                },
+                {
+                  "$type": "RPG.GameCore.TriggerSound",
+                  "SoundName": "Ev_sfx_avatar_MazeSkill_Bingo_Aventurine",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  }
                 },
                 {
                   "$type": "RPG.GameCore.SetDynamicValue",
@@ -829,6 +871,64 @@
                 "Alias": "Caster"
               },
               "ID": 130401,
+              "Condition": {
+                "$type": "RPG.GameCore.ByAnd",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "BuffID": 130402,
+                    "Inverse": true
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "BuffID": 130403,
+                    "Inverse": true
+                  }
+                ]
+              },
+              "LifeTime": {
+                "IsDynamic": false,
+                "FixedValue": {
+                  "Value": -1
+                }
+              }
+            },
+            {
+              "$type": "RPG.GameCore.AddMazeBuff",
+              "TargetType": {
+                "$type": "RPG.GameCore.TargetAlias",
+                "Alias": "Caster"
+              },
+              "ID": 130404,
+              "Condition": {
+                "$type": "RPG.GameCore.ByAny",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "BuffID": 130402
+                  },
+                  {
+                    "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "BuffID": 130403
+                  }
+                ]
+              },
               "LifeTime": {
                 "IsDynamic": false,
                 "FixedValue": {
@@ -872,6 +972,42 @@
                     "Alias": "Caster"
                   },
                   "ID": 130402,
+                  "Condition": {
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "Caster"
+                        },
+                        "BuffID": 130403,
+                        "Inverse": true
+                      }
+                    ]
+                  },
+                  "LifeTime": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": -1
+                    }
+                  }
+                },
+                {
+                  "$type": "RPG.GameCore.AddMazeBuff",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "Caster"
+                  },
+                  "ID": 130405,
+                  "Condition": {
+                    "$type": "RPG.GameCore.ByCompareCarryMazebuff",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "Caster"
+                    },
+                    "BuffID": 130403
+                  },
                   "LifeTime": {
                     "IsDynamic": false,
                     "FixedValue": {

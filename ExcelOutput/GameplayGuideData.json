@@ -294,6 +294,39 @@
     "OverrideShowCondition": [],
     "SubType": 6
   },
+  "1020": {
+    "ID": 1020,
+    "Name": {
+      "Hash": -753974198
+    },
+    "IconPath": "SpriteOutput/AvatarProfessionTattoo/Profession/BgPathsKnight.png",
+    "TabIconPath": "",
+    "MapEntranceID": 2032101,
+    "UnlockMission": [
+      4010123,
+      1031801
+    ],
+    "TabID": 1002,
+    "RelatedID": 1020,
+    "OverrideShowCondition": [],
+    "SubType": 2
+  },
+  "1021": {
+    "ID": 1021,
+    "Name": {
+      "Hash": -753974199
+    },
+    "IconPath": "SpriteOutput/AvatarProfessionTattoo/Profession/BgPathsPirest.png",
+    "TabIconPath": "",
+    "MapEntranceID": 2022301,
+    "UnlockMission": [
+      4010123
+    ],
+    "TabID": 1002,
+    "RelatedID": 1021,
+    "OverrideShowCondition": [],
+    "SubType": 4
+  },
   "1101": {
     "ID": 1101,
     "Name": {
@@ -535,6 +568,22 @@
     ],
     "TabID": 1003,
     "RelatedID": 1116,
+    "OverrideShowCondition": []
+  },
+  "1117": {
+    "ID": 1117,
+    "Name": {
+      "Hash": 812109653
+    },
+    "IconPath": "SpriteOutput/MosterIcon/Monster_3013010.png",
+    "TabIconPath": "SpriteOutput/UI/Nature/IconNatureColor/IconNatureColorFire.png",
+    "MapEntranceID": 2032201,
+    "UnlockMission": [
+      4010127,
+      1031101
+    ],
+    "TabID": 1003,
+    "RelatedID": 1117,
     "OverrideShowCondition": []
   },
   "1201": {
@@ -853,6 +902,22 @@
     ],
     "TabID": 1006,
     "RelatedID": 8,
+    "OverrideShowCondition": []
+  },
+  "190": {
+    "ID": 190,
+    "Name": {
+      "Hash": -1652503589
+    },
+    "IconPath": "SpriteOutput/DailyMission/AvatarRelicPackageReward/IconRelic7.png",
+    "TabIconPath": "",
+    "MapEntranceID": 100000104,
+    "UnlockMission": [
+      4030002,
+      1010403
+    ],
+    "TabID": 1006,
+    "RelatedID": 9,
     "OverrideShowCondition": []
   }
 }

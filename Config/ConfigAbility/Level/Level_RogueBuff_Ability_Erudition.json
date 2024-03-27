@@ -3243,28 +3243,60 @@
                       "Value": "CurrentSP"
                     },
                     {
-                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
-                      "DynamicKey": "_MaxSP",
-                      "ReadTargetType": {
-                        "$type": "RPG.GameCore.TargetAlias",
-                        "Alias": "ModifierOwnerEntity"
-                      },
-                      "Value": "MaxSP"
-                    },
-                    {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "_CurrentSpPercentage",
-                      "Value": {
-                        "IsDynamic": true,
-                        "PostfixExpr": {
-                          "OpCodes": "AQABAQUK",
-                          "FixedValues": [],
-                          "DynamicHashes": [
-                            -978103959,
-                            -1309867864
-                          ]
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByCompareDynamicValue",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        },
+                        "DynamicKey": "_CurrentSP",
+                        "CompareType": "Greater",
+                        "CompareValue": {
+                          "IsDynamic": false,
+                          "FixedValue": {
+                            "Value": 0
+                          }
                         }
-                      }
+                      },
+                      "SuccessTaskList": [
+                        {
+                          "$type": "RPG.GameCore.SetDynamicValueByProperty",
+                          "DynamicKey": "_MaxSP",
+                          "ReadTargetType": {
+                            "$type": "RPG.GameCore.TargetAlias",
+                            "Alias": "ModifierOwnerEntity"
+                          },
+                          "Value": "MaxSP"
+                        },
+                        {
+                          "$type": "RPG.GameCore.SetDynamicValue",
+                          "DynamicKey": "_CurrentSpPercentage",
+                          "Value": {
+                            "IsDynamic": true,
+                            "PostfixExpr": {
+                              "OpCodes": "AQABAQUK",
+                              "FixedValues": [],
+                              "DynamicHashes": [
+                                -978103959,
+                                -1309867864
+                              ]
+                            }
+                          }
+                        }
+                      ],
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.SetDynamicValue",
+                          "DynamicKey": "_CurrentSpPercentage",
+                          "Value": {
+                            "IsDynamic": false,
+                            "FixedValue": {
+                              "Value": 0
+                            }
+                          }
+                        }
+                      ]
                     },
                     {
                       "$type": "RPG.GameCore.TriggerAnimState",
@@ -3472,7 +3504,6 @@
             "$type": "RPG.GameCore.TargetAlias",
             "Alias": "AbilityTargetEntity"
           },
-          "IsAttachToTargetEntity": false,
           "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Buff_Common_OtherRise.prefab",
           "MinMutexTime": 0.85,
           "MinMutexType": "Entity"
@@ -3585,6 +3616,9 @@
   ],
   "GlobalModifiers": {
     "MLevel_Rogue_Knowledge": {
+      "BehaviorFlagList": [
+        "STAT_Knowledge"
+      ],
       "UIConfig": {
         "ModifierUIPriority": "Counter"
       },
@@ -3753,13 +3787,27 @@
                 {
                   "$type": "RPG.GameCore.PredicateTaskList",
                   "Predicate": {
-                    "$type": "RPG.GameCore.ByIsContainModifier",
-                    "TargetType": {
-                      "$type": "RPG.GameCore.TargetAlias",
-                      "Alias": "ModifierOwnerEntity"
-                    },
-                    "ModifierName": "MLevel_Rogue_Knowledge_FreeUltraMark",
-                    "Inverse": true
+                    "$type": "RPG.GameCore.ByAnd",
+                    "PredicateList": [
+                      {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        },
+                        "ModifierName": "MLevel_Rogue_Knowledge_FreeUltraMark",
+                        "Inverse": true
+                      },
+                      {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        },
+                        "ModifierName": "MLevel_Rogue_Knowledge_Clean",
+                        "Inverse": true
+                      }
+                    ]
                   },
                   "SuccessTaskList": [
                     {
@@ -4011,22 +4059,81 @@
                   "Value": "CurrentSP"
                 },
                 {
-                  "$type": "RPG.GameCore.ModifySPNew",
-                  "TargetType": {
-                    "$type": "RPG.GameCore.TargetAlias",
-                    "Alias": "ModifierOwnerEntity"
-                  },
-                  "FixedAddValue": {
-                    "IsDynamic": true,
-                    "PostfixExpr": {
-                      "OpCodes": "AQABAQMK",
-                      "FixedValues": [],
-                      "DynamicHashes": [
-                        -132747789,
-                        -1815493198
-                      ]
+                  "$type": "RPG.GameCore.PredicateTaskList",
+                  "Predicate": {
+                    "$type": "RPG.GameCore.ByCompareAbilityProperty",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "Property": "MaxSpecialSP",
+                    "CompareType": "Greater",
+                    "CompareValue": {
+                      "IsDynamic": false,
+                      "FixedValue": {
+                        "Value": 0
+                      }
                     }
-                  }
+                  },
+                  "SuccessTaskList": [
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
+                      "DynamicKey": "MDF_CurrentSpecialSP",
+                      "ReadTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "Value": "CurrentSpecialSP"
+                    },
+                    {
+                      "$type": "RPG.GameCore.SetDynamicValueByProperty",
+                      "DynamicKey": "MDF_SpecialSPMAX",
+                      "ReadTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "Value": "MaxSpecialSP"
+                    },
+                    {
+                      "$type": "RPG.GameCore.ModifySpecialSP",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "FixedAddValue": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQABAQMK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            -275467874,
+                            1732961203
+                          ]
+                        }
+                      },
+                      "IgnoreBlock": true
+                    }
+                  ],
+                  "FailedTaskList": [
+                    {
+                      "$type": "RPG.GameCore.ModifySPNew",
+                      "TargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "FixedAddValue": {
+                        "IsDynamic": true,
+                        "PostfixExpr": {
+                          "OpCodes": "AQABAQMK",
+                          "FixedValues": [],
+                          "DynamicHashes": [
+                            -132747789,
+                            -1815493198
+                          ]
+                        }
+                      }
+                    }
+                  ]
                 },
                 {
                   "$type": "RPG.GameCore.AddModifier",
@@ -4048,18 +4155,17 @@
                   },
                   "SuccessTaskList": [
                     {
-                      "$type": "RPG.GameCore.SetDynamicValue",
-                      "DynamicKey": "MDF_612840_CriticalDamage",
-                      "Value": {
-                        "IsDynamic": true,
-                        "PostfixExpr": {
-                          "OpCodes": "AQAK",
-                          "FixedValues": [],
-                          "DynamicHashes": [
-                            1957575730
-                          ]
-                        }
-                      }
+                      "$type": "RPG.GameCore.SetDynamicValueByCopying",
+                      "FromTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "LevelEntity"
+                      },
+                      "FromDynamicKey": "CustomValue_612840_ADF_1",
+                      "ToTargetType": {
+                        "$type": "RPG.GameCore.TargetAlias",
+                        "Alias": "ModifierOwnerEntity"
+                      },
+                      "ToDynamicKey": "MDF_612840_CriticalDamage"
                     },
                     {
                       "$type": "RPG.GameCore.AddModifier",
@@ -4150,7 +4256,9 @@
           "444296324": {},
           "-132772226": {},
           "-132747789": {},
+          "-275467874": {},
           "-1815493198": {},
+          "1732961203": {},
           "-2062890509": {},
           "121851822": {}
         }
@@ -4216,11 +4324,11 @@
                       }
                     }
                   }
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveSelfModifier"
                 }
               ]
-            },
-            {
-              "$type": "RPG.GameCore.RemoveSelfModifier"
             }
           ]
         }
@@ -4246,7 +4354,6 @@
                 "$type": "RPG.GameCore.TargetAlias",
                 "Alias": "ModifierOwnerEntity"
               },
-              "IsAttachToTargetEntity": false,
               "EffectPath": "Effects/Eff_Prefab/Eff_Common/Eff_Rogue_Shield_Buff.prefab"
             }
           ]
@@ -4303,6 +4410,11 @@
           "Event": "OnDestroy",
           "CallbackConfig": [
             {
+              "$type": "RPG.GameCore.DebugLog",
+              "Level": "Warn",
+              "Message": "==========OnDestroy===MLevel_Rogue_612840_CritDmgPre================="
+            },
+            {
               "$type": "RPG.GameCore.RemoveModifier",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -4343,19 +4455,18 @@
             {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
-                "$type": "RPG.GameCore.ByCompareDynamicValue",
-                "TargetType": {
-                  "$type": "RPG.GameCore.TargetAlias",
-                  "Alias": "ModifierOwnerEntity"
-                },
-                "DynamicKey": "MDF_IsFreeUltra",
-                "CompareType": "Equal",
-                "CompareValue": {
-                  "IsDynamic": false,
-                  "FixedValue": {
-                    "Value": 0
+                "$type": "RPG.GameCore.ByAny",
+                "PredicateList": [
+                  {
+                    "$type": "RPG.GameCore.ByIsContainModifier",
+                    "TargetType": {
+                      "$type": "RPG.GameCore.TargetAlias",
+                      "Alias": "ModifierOwnerEntity"
+                    },
+                    "ModifierName": "MLevel_Rogue_Knowledge_Clean",
+                    "Inverse": true
                   }
-                }
+                ]
               },
               "SuccessTaskList": [
                 {
@@ -4407,7 +4518,7 @@
                     "CompareValue": {
                       "IsDynamic": false,
                       "FixedValue": {
-                        "Value": 1
+                        "Value": 2
                       }
                     }
                   }
@@ -4437,6 +4548,11 @@
                 ]
               },
               "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.DebugLog",
+                  "Level": "Warn",
+                  "Message": "==========MLevel_Rogue_612840_CritDmg================"
+                },
                 {
                   "$type": "RPG.GameCore.AddModifier",
                   "TargetType": {
@@ -4471,7 +4587,20 @@
                   },
                   "FailedTaskList": [
                     {
-                      "$type": "RPG.GameCore.RemoveSelfModifier"
+                      "$type": "RPG.GameCore.PredicateTaskList",
+                      "Predicate": {
+                        "$type": "RPG.GameCore.ByIsContainModifier",
+                        "TargetType": {
+                          "$type": "RPG.GameCore.TargetAlias",
+                          "Alias": "ModifierOwnerEntity"
+                        },
+                        "ModifierName": "MLevel_Rogue_Knowledge_Clean"
+                      },
+                      "FailedTaskList": [
+                        {
+                          "$type": "RPG.GameCore.RemoveSelfModifier"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -4482,6 +4611,36 @@
         {
           "Event": "OnAfterSkillUse",
           "CallbackConfig": [
+            {
+              "$type": "RPG.GameCore.PredicateTaskList",
+              "Predicate": {
+                "$type": "RPG.GameCore.ByCompareDynamicValue",
+                "TargetType": {
+                  "$type": "RPG.GameCore.TargetAlias",
+                  "Alias": "ModifierOwnerEntity"
+                },
+                "DynamicKey": "MDF_IsFreeUltra",
+                "CompareType": "Equal",
+                "CompareValue": {
+                  "IsDynamic": false,
+                  "FixedValue": {
+                    "Value": 1
+                  }
+                }
+              },
+              "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.SetDynamicValue",
+                  "DynamicKey": "MDF_Count",
+                  "Value": {
+                    "IsDynamic": false,
+                    "FixedValue": {
+                      "Value": 1
+                    }
+                  }
+                }
+              ]
+            },
             {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
@@ -4579,33 +4738,20 @@
           "Event": "OnBeforeSkillUse",
           "CallbackConfig": [
             {
-              "$type": "RPG.GameCore.ModifySPNew",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "FixedAddMaxSPRatio": {
-                "IsDynamic": false,
-                "FixedValue": {
-                  "Value": -1
-                }
-              }
-            },
-            {
-              "$type": "RPG.GameCore.RemoveModifier",
-              "TargetType": {
-                "$type": "RPG.GameCore.TargetAlias",
-                "Alias": "ModifierOwnerEntity"
-              },
-              "ModifierName": "MLevel_Rogue_Knowledge_DoubleUltra2"
-            },
-            {
               "$type": "RPG.GameCore.PredicateTaskList",
               "Predicate": {
                 "$type": "RPG.GameCore.ByCurrentSkillType",
                 "SkillType": "Ultra"
               },
               "SuccessTaskList": [
+                {
+                  "$type": "RPG.GameCore.RemoveModifier",
+                  "TargetType": {
+                    "$type": "RPG.GameCore.TargetAlias",
+                    "Alias": "ModifierOwnerEntity"
+                  },
+                  "ModifierName": "MLevel_Rogue_Knowledge_DoubleUltra2"
+                },
                 {
                   "$type": "RPG.GameCore.RemoveModifier",
                   "TargetType": {
@@ -4653,6 +4799,9 @@
                     "Alias": "ModifierOwnerEntity"
                   },
                   "ModifierName": "MLevel_Rogue_Knowledge_FreeUltraMark"
+                },
+                {
+                  "$type": "RPG.GameCore.RemoveSelfModifier"
                 }
               ],
               "FailedTaskList": [
@@ -4674,9 +4823,6 @@
                   "IsShowUIMessageOnUpdate": false
                 }
               ]
-            },
-            {
-              "$type": "RPG.GameCore.RemoveSelfModifier"
             }
           ]
         }

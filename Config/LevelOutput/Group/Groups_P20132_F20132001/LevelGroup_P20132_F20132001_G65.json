@@ -13,8 +13,7 @@
       "PosY": -5.03,
       "PosZ": 311.8008,
       "Name": "Checkpoint1",
-      "RotY": 184.3722,
-      "MapLayerID": 1
+      "RotY": 184.3722
     },
     {
       "ID": 2,
@@ -25,7 +24,6 @@
       "RotY": 180.2089,
       "RotX": 14.19762,
       "RotZ": 0.013632,
-      "MapLayerID": 1,
       "Usage": "Camera"
     }
   ],
@@ -61,7 +59,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {
         "CustomTrigger_DoorClose": {
           "Radius": 12.0,

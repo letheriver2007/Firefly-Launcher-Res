@@ -256,20 +256,6 @@
       "Hash": 371857150
     }
   },
-  "3010": {
-    "InteractID": 3010,
-    "TargetState": "Open",
-    "InteractCostType": "CostItem",
-    "ItemCostList": [
-      {
-        "ItemID": 999,
-        "ItemNum": 1
-      }
-    ],
-    "InteractDesc": {
-      "Hash": -1897267716
-    }
-  },
   "3011": {
     "InteractID": 3011,
     "TargetState": "Open",
@@ -827,34 +813,6 @@
       "Hash": 1458444403
     }
   },
-  "125004": {
-    "InteractID": 125004,
-    "TargetState": "Open",
-    "InteractCostType": "CheckItem",
-    "ItemCostList": [
-      {
-        "ItemID": 999,
-        "ItemNum": 1
-      }
-    ],
-    "InteractDesc": {
-      "Hash": 1458444403
-    }
-  },
-  "125005": {
-    "InteractID": 125005,
-    "TargetState": "Open",
-    "InteractCostType": "CheckItem",
-    "ItemCostList": [
-      {
-        "ItemID": 999,
-        "ItemNum": 1
-      }
-    ],
-    "InteractDesc": {
-      "Hash": 1458444403
-    }
-  },
   "125006": {
     "InteractID": 125006,
     "TargetState": "Open",
@@ -1183,6 +1141,78 @@
       "Hash": 371857150
     }
   },
+  "101101": {
+    "InteractID": 101101,
+    "SrcState": "Open",
+    "TargetState": "CustomState01",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101102": {
+    "InteractID": 101102,
+    "SrcState": "Open",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101103": {
+    "InteractID": 101103,
+    "SrcState": "Open",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101104": {
+    "InteractID": 101104,
+    "SrcState": "Open",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101105": {
+    "InteractID": 101105,
+    "SrcState": "Open",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101106": {
+    "InteractID": 101106,
+    "SrcState": "Open",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101107": {
+    "InteractID": 101107,
+    "SrcState": "Open",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "101108": {
+    "InteractID": 101108,
+    "SrcState": "Open",
+    "TargetState": "CustomState08",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
   "1020101": {
     "InteractID": 1020101,
     "SrcState": "CustomState02",
@@ -1376,6 +1406,482 @@
     "InteractID": 1070108,
     "SrcState": "CustomState07",
     "TargetState": "CustomState08",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "2002": {
+    "InteractID": 2002,
+    "SrcState": "Hidden",
+    "TargetState": "Locked",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "2000": {
+    "InteractID": 2000,
+    "SrcState": "Hidden",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "2001": {
+    "InteractID": 2001,
+    "SrcState": "Hidden",
+    "TargetState": "Open",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010103": {
+    "InteractID": 1010103,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010104": {
+    "InteractID": 1010104,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010105": {
+    "InteractID": 1010105,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010106": {
+    "InteractID": 1010106,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010107": {
+    "InteractID": 1010107,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010109": {
+    "InteractID": 1010109,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1010102": {
+    "InteractID": 1010102,
+    "SrcState": "CustomState01",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020103": {
+    "InteractID": 1020103,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020104": {
+    "InteractID": 1020104,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020105": {
+    "InteractID": 1020105,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020106": {
+    "InteractID": 1020106,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020107": {
+    "InteractID": 1020107,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1020109": {
+    "InteractID": 1020109,
+    "SrcState": "CustomState02",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1030104": {
+    "InteractID": 1030104,
+    "SrcState": "CustomState03",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1030105": {
+    "InteractID": 1030105,
+    "SrcState": "CustomState03",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1030106": {
+    "InteractID": 1030106,
+    "SrcState": "CustomState03",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1030107": {
+    "InteractID": 1030107,
+    "SrcState": "CustomState03",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1030109": {
+    "InteractID": 1030109,
+    "SrcState": "CustomState03",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1040105": {
+    "InteractID": 1040105,
+    "SrcState": "CustomState04",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1040106": {
+    "InteractID": 1040106,
+    "SrcState": "CustomState04",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1040107": {
+    "InteractID": 1040107,
+    "SrcState": "CustomState04",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1040109": {
+    "InteractID": 1040109,
+    "SrcState": "CustomState04",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1050106": {
+    "InteractID": 1050106,
+    "SrcState": "CustomState05",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1050107": {
+    "InteractID": 1050107,
+    "SrcState": "CustomState05",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1050109": {
+    "InteractID": 1050109,
+    "SrcState": "CustomState05",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1060107": {
+    "InteractID": 1060107,
+    "SrcState": "CustomState06",
+    "TargetState": "CustomState07",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1060109": {
+    "InteractID": 1060109,
+    "SrcState": "CustomState06",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1070109": {
+    "InteractID": 1070109,
+    "SrcState": "CustomState07",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080109": {
+    "InteractID": 1080109,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState09",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1040102": {
+    "InteractID": 1040102,
+    "SrcState": "CustomState04",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1050102": {
+    "InteractID": 1050102,
+    "SrcState": "CustomState05",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1060102": {
+    "InteractID": 1060102,
+    "SrcState": "CustomState06",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1070102": {
+    "InteractID": 1070102,
+    "SrcState": "CustomState07",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080102": {
+    "InteractID": 1080102,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090102": {
+    "InteractID": 1090102,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState02",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1050103": {
+    "InteractID": 1050103,
+    "SrcState": "CustomState05",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1060103": {
+    "InteractID": 1060103,
+    "SrcState": "CustomState06",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1070103": {
+    "InteractID": 1070103,
+    "SrcState": "CustomState07",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080103": {
+    "InteractID": 1080103,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090103": {
+    "InteractID": 1090103,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState03",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1060104": {
+    "InteractID": 1060104,
+    "SrcState": "CustomState06",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1070104": {
+    "InteractID": 1070104,
+    "SrcState": "CustomState07",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080104": {
+    "InteractID": 1080104,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090104": {
+    "InteractID": 1090104,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState04",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1070105": {
+    "InteractID": 1070105,
+    "SrcState": "CustomState07",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080105": {
+    "InteractID": 1080105,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090105": {
+    "InteractID": 1090105,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState05",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1080106": {
+    "InteractID": 1080106,
+    "SrcState": "CustomState08",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090106": {
+    "InteractID": 1090106,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState06",
+    "ItemCostList": [],
+    "InteractDesc": {
+      "Hash": 371857150
+    }
+  },
+  "1090107": {
+    "InteractID": 1090107,
+    "SrcState": "CustomState09",
+    "TargetState": "CustomState07",
     "ItemCostList": [],
     "InteractDesc": {
       "Hash": 371857150

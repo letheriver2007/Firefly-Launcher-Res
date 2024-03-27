@@ -30,8 +30,7 @@
       "PosY": 19.44226,
       "PosZ": -2.577,
       "Name": "Anchor1",
-      "RotY": 82.0,
-      "MapLayerID": 1
+      "RotY": 82.0
     },
     {
       "ID": 2,
@@ -39,8 +38,7 @@
       "PosY": 19.45364,
       "PosZ": -2.58,
       "Name": "Anchor2",
-      "RotY": 96.4,
-      "MapLayerID": 1
+      "RotY": 96.4
     },
     {
       "ID": 3,
@@ -50,7 +48,6 @@
       "Name": "Anchor3",
       "RotY": 89.99998,
       "RotX": 7.500005,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -62,8 +59,7 @@
       "PosY": 19.42508,
       "PosZ": -4.5,
       "Name": "Anchor4",
-      "RotY": 39.17817,
-      "MapLayerID": 1
+      "RotY": 39.17817
     },
     {
       "ID": 5,
@@ -74,7 +70,6 @@
       "RotY": 84.52097,
       "RotX": 7.0,
       "RotZ": 6.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -86,8 +81,7 @@
       "PosY": 19.45078,
       "PosZ": -4.924,
       "Name": "Anchor6",
-      "RotY": 82.36082,
-      "MapLayerID": 1
+      "RotY": 82.36082
     }
   ],
   "MonsterList": [],
@@ -109,7 +103,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -127,7 +120,6 @@
       "PropID": 111,
       "IsOverrideInitLevelGraph": true,
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 10.0,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
@@ -149,7 +141,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -168,7 +159,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -190,7 +180,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -212,7 +201,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],
@@ -239,7 +227,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ],

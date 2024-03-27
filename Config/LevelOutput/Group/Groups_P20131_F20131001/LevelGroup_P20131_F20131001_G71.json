@@ -48,8 +48,7 @@
       "PosY": 1.999928,
       "PosZ": -93.77535,
       "Name": "PlayerAnchor_404010501",
-      "RotY": 269.9999,
-      "MapLayerID": 1
+      "RotY": 269.9999
     },
     {
       "ID": 2,
@@ -57,8 +56,7 @@
       "PosY": 1.99993,
       "PosZ": -93.72,
       "Name": "NPCAnchor_404010501",
-      "RotY": 89.99995,
-      "MapLayerID": 1
+      "RotY": 89.99995
     },
     {
       "ID": 3,
@@ -68,7 +66,6 @@
       "Name": "Anchor3",
       "RotY": 290.9249,
       "RotX": 10.36077,
-      "MapLayerID": 1,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -89,7 +86,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110000,
@@ -112,7 +108,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Pose04",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110217,
@@ -134,7 +129,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 200110201,

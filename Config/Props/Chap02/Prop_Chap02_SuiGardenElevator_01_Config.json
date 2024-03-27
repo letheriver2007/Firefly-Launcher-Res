@@ -3,6 +3,7 @@
   "ResidentEffects": [
     {
       "$type": "RPG.GameCore.TriggerEffect",
+      "IsAttachToTargetEntity": true,
       "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiGardenElevator_01_Resident01_Lod0.prefab",
       "AttachPoint": "EffRoot",
       "SyncPropState": true
@@ -24,6 +25,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiGardenElevator_01_LightWall01_Lod0.prefab",
           "AttachPoint": "EffRoot"
         },
@@ -99,6 +101,7 @@
           "TargetType": {
             "$type": "RPG.GameCore.TargetFetchAdvPropEx"
           },
+          "IsAttachToTargetEntity": true,
           "EffectPath": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_Chap02_Prop_SuiGardenElevator_01_Resident01_Lod0.prefab",
           "AttachPoint": "EffRoot",
           "SyncPropState": true

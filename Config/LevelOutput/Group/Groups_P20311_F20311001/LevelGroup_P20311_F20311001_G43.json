@@ -11,34 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      191,
-      -150,
-      195,
-      -150,
-      165,
-      -148,
-      185,
-      -145,
-      191,
-      -145,
-      175,
-      -143,
-      184,
-      -133,
-      171,
-      -132
-    ],
-    "LowerUpperBounds": {
-      "x": 7,
-      "y": 32
-    }
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -70,7 +42,7 @@
       "Name": "Go1_S",
       "RotY": 79.0901,
       "RotX": 14.65005,
-      "RotZ": -2.0E-6,
+      "RotZ": -3.0E-6,
       "Usage": "Camera",
       "CustomParameter": {
         "$type": "LevelAnchorCameraParameter"
@@ -139,7 +111,6 @@
       "Name": "GB_In_01",
       "RotY": 89.99998,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -165,7 +136,6 @@
       "RotX": 9.0E-5,
       "RotZ": 180.0,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -189,7 +159,6 @@
       "Name": "GB_In_03",
       "RotY": 270.0001,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -214,7 +183,6 @@
       "RotY": 179.9998,
       "RotX": 270.0,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -238,7 +206,6 @@
       "Name": "GB_In_05",
       "RotX": 270.0,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -262,7 +229,6 @@
       "Name": "GB_In_06",
       "RotX": 270.0,
       "PropID": 103003,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -286,7 +252,6 @@
       "Name": "GB_Out_01",
       "RotZ": 180.0,
       "PropID": 103004,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -310,7 +275,6 @@
       "Name": "GB_Out_02",
       "RotZ": 90.00002,
       "PropID": 103004,
-      "InitLevelGraph": "Config/Level/Props/Chap03/InitLevelGraph_Prop_Chap03_GravityRoom_Volume_In.json",
       "ValueSource": {},
       "CampID": 4,
       "CustomTriggerMap": {},
@@ -434,6 +398,28 @@
           "Server": true
         }
       },
+      "BridgeStateRotations": [],
+      "DialogueGroups": [],
+      "TalkDialogGroupIDList": [],
+      "ServerInteractVerificationIDList": [],
+      "TriggerValidGuest": {},
+      "TagContainer": {},
+      "CameraCenterEntityList": [],
+      "SpawnConfig": {
+        "EntitySpawnConfig": {}
+      }
+    },
+    {
+      "ID": 300002,
+      "PosX": 331.219,
+      "PosY": 23.07,
+      "PosZ": -295.11,
+      "Name": "Teleport_Billboard",
+      "PropID": 100,
+      "ValueSource": {},
+      "CampID": 4,
+      "CustomTriggerMap": {},
+      "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "TalkDialogGroupIDList": [],

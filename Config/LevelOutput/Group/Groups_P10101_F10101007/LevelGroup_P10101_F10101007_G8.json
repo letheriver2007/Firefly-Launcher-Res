@@ -17,8 +17,7 @@
       "PosY": -1.0E-6,
       "PosZ": 4.975,
       "Name": "Anchor1",
-      "RotY": 193.3,
-      "MapLayerID": 1
+      "RotY": 193.3
     },
     {
       "ID": 2,
@@ -26,8 +25,7 @@
       "PosY": -1.0E-6,
       "PosZ": -2.06,
       "Name": "Anchor2",
-      "RotY": 13.3,
-      "MapLayerID": 1
+      "RotY": 13.3
     }
   ],
   "MonsterList": [],
@@ -46,7 +44,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "BridgeStateRotations": [],
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": []

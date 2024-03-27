@@ -29,8 +29,7 @@
       "PosX": 6.69,
       "PosY": -2.29,
       "PosZ": -62.86,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [
@@ -57,7 +56,6 @@
         "ID": 1
       },
       "EventID": 20131201,
-      "MapLayerID": 1,
       "BoardShowList": [
         4
       ]
@@ -81,7 +79,6 @@
         "DimZ": 15.0,
         "PointList": []
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

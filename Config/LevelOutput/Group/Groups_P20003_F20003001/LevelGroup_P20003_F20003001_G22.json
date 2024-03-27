@@ -29,24 +29,21 @@
       "PosX": 177.74,
       "PosY": 82.82224,
       "PosZ": 143.97,
-      "Name": "PaperPlaneAnchor01",
-      "MapLayerID": 2
+      "Name": "PaperPlaneAnchor01"
     },
     {
       "ID": 2,
       "PosX": 177.95,
       "PosY": 82.82224,
       "PosZ": 152.349,
-      "Name": "PaperPlaneAnchor02",
-      "MapLayerID": 2
+      "Name": "PaperPlaneAnchor02"
     },
     {
       "ID": 3,
       "PosX": 183.78,
       "PosY": 82.82224,
       "PosZ": 153.691,
-      "Name": "PaperPlaneAnchor03",
-      "MapLayerID": 2
+      "Name": "PaperPlaneAnchor03"
     }
   ],
   "MonsterList": [],
@@ -67,7 +64,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -93,7 +89,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -117,7 +112,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "OverrideHintRange": 20.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -148,7 +142,6 @@
       ],
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 2,
       "BoardShowList": [
         1,
         4,

@@ -10,8 +10,7 @@
       "PosY": 0.7153,
       "PosZ": 0.068,
       "Name": "Anchor1",
-      "RotY": 90.0,
-      "MapLayerID": 1
+      "RotY": 90.0
     },
     {
       "ID": 2,
@@ -19,8 +18,7 @@
       "PosY": -5.0E-6,
       "PosZ": 5.1,
       "Name": "Anchor2",
-      "RotY": 120.0,
-      "MapLayerID": 1
+      "RotY": 120.0
     }
   ],
   "MonsterList": [],
@@ -38,7 +36,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469546
@@ -59,7 +56,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultLookAtMode": "Closed",
       "DefaultLookAtTargetInfo": {},
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -1836469546

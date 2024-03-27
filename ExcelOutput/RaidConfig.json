@@ -2492,6 +2492,49 @@
       "RaidTargetID": []
     }
   },
+  "43306": {
+    "0": {
+      "RaidID": 43306,
+      "HardLevel": 0,
+      "RaidTagList": [],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [
+        803401001
+      ],
+      "DisplayEventID": 20321050,
+      "RaidName": {
+        "Hash": 1167850126
+      },
+      "RaidDesc": {
+        "Hash": -1680401428
+      },
+      "FinishEntranceID": 2031101,
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "Player",
+      "TrialAvatarList": [],
+      "MainMissionIDList": [
+        1032201,
+        1031901
+      ],
+      "MainMissionIDBefore": 1031801,
+      "MainMissionIDAfter": 1031801,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "SpriteOutput/FarmCocoonPic/43306001.png",
+      "AutoObtainDamageType": true,
+      "DamageType": [],
+      "RaidTargetID": []
+    }
+  },
   "43310": {
     "0": {
       "RaidID": 43310,
@@ -2621,6 +2664,129 @@
       "AutoObtainDamageType": true,
       "DamageType": [],
       "RaidTargetID": []
+    }
+  },
+  "4430301": {
+    "0": {
+      "RaidID": 4430301,
+      "HardLevel": 0,
+      "RaidTagList": [],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133400261
+      },
+      "RaidDesc": {
+        "Hash": 265983009
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021130
+      ],
+      "MainMissionIDBefore": 8021103,
+      "MainMissionIDAfter": 8021103,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
+    }
+  },
+  "4430302": {
+    "0": {
+      "RaidID": 4430302,
+      "HardLevel": 0,
+      "RaidTagList": [],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133400164
+      },
+      "RaidDesc": {
+        "Hash": 265982974
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021131
+      ],
+      "MainMissionIDBefore": 8021105,
+      "MainMissionIDAfter": 8021105,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
+    }
+  },
+  "4430303": {
+    "0": {
+      "RaidID": 4430303,
+      "HardLevel": 0,
+      "RaidTagList": [],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133400195
+      },
+      "RaidDesc": {
+        "Hash": 265982943
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021132
+      ],
+      "MainMissionIDBefore": 8021105,
+      "MainMissionIDAfter": 8021106,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
     }
   },
   "4013101": {
@@ -4781,22 +4947,22 @@
       "RaidTargetID": []
     }
   },
-  "4031201": {
+  "4430201": {
     "0": {
-      "RaidID": 4031201,
+      "RaidID": 4430201,
       "HardLevel": 0,
       "RaidTagList": [
         "NormalRaid"
       ],
       "UnlockWorldLevel": [],
-      "Type": "ActivityRaidCollection",
+      "Type": "Mission",
       "MonsterList": [],
       "MonsterHideList": [],
       "RaidName": {
-        "Hash": 2000079603
+        "Hash": -133397126
       },
       "RaidDesc": {
-        "Hash": 264018353
+        "Hash": 265986144
       },
       "BuffDesc": {
         "Hash": 371857150
@@ -4807,12 +4973,150 @@
         "Unknown"
       ],
       "RewardList": [],
-      "TeamType": "Player",
-      "TrialAvatarList": [],
-      "MainMissionIDList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021121
+      ],
+      "MainMissionIDBefore": 8021102,
+      "MainMissionIDAfter": 8021102,
+      "SkipRewardOnFinish": true,
       "EntrancePageBGImagePath": "",
       "DamageType": [],
-      "RaidTargetID": []
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
+    }
+  },
+  "4430202": {
+    "0": {
+      "RaidID": 4430202,
+      "HardLevel": 0,
+      "RaidTagList": [
+        "NormalRaid"
+      ],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133396963
+      },
+      "RaidDesc": {
+        "Hash": 265986175
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021123
+      ],
+      "MainMissionIDBefore": 8021104,
+      "MainMissionIDAfter": 8021104,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
+    }
+  },
+  "4430203": {
+    "0": {
+      "RaidID": 4430203,
+      "HardLevel": 0,
+      "RaidTagList": [
+        "NormalRaid"
+      ],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133397060
+      },
+      "RaidDesc": {
+        "Hash": 265986078
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021122
+      ],
+      "MainMissionIDBefore": 8021102,
+      "MainMissionIDAfter": 8021102,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
+    }
+  },
+  "4430204": {
+    "0": {
+      "RaidID": 4430204,
+      "HardLevel": 0,
+      "RaidTagList": [
+        "NormalRaid"
+      ],
+      "UnlockWorldLevel": [],
+      "Type": "Mission",
+      "MonsterList": [],
+      "MonsterHideList": [],
+      "RaidName": {
+        "Hash": -133396897
+      },
+      "RaidDesc": {
+        "Hash": 265986373
+      },
+      "BuffDesc": {
+        "Hash": 371857150
+      },
+      "BuffParamList": [],
+      "LimitIDList": [],
+      "RecoverType": [
+        "Unknown"
+      ],
+      "RewardList": [],
+      "TeamType": "TrialOnly",
+      "TrialAvatarList": [
+        1068001,
+        1068002
+      ],
+      "MainMissionIDList": [
+        8021124
+      ],
+      "MainMissionIDBefore": 8021104,
+      "MainMissionIDAfter": 8021104,
+      "SkipRewardOnFinish": true,
+      "EntrancePageBGImagePath": "",
+      "DamageType": [],
+      "RaidTargetID": [],
+      "EnterType": "SkipUI"
     }
   },
   "7001": {

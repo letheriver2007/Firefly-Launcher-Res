@@ -11,14 +11,6 @@
   "ValueSource": {},
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
   "ConflictWhiteList": [],
   "TagContainer": {},
   "AnchorList": [
@@ -28,16 +20,14 @@
       "PosY": 11.54506,
       "PosZ": -189.95,
       "Name": "PlayerStart",
-      "RotY": 270.0,
-      "MapLayerID": 1
+      "RotY": 270.0
     },
     {
       "ID": 2,
       "PosX": -117.39,
       "PosY": 11.5173,
       "PosZ": 17.0,
-      "Name": "GhostMiniMap",
-      "MapLayerID": 1
+      "Name": "GhostMiniMap"
     }
   ],
   "MonsterList": [],

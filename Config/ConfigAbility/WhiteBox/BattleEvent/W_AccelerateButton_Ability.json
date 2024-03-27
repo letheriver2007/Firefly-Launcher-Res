@@ -986,18 +986,8 @@
       "Name": "W_SpecialBP_RecoverSP_Tutorial",
       "OnAdd": [
         {
-          "$type": "RPG.GameCore.SetSpecialBPConfig",
-          "EventList": [
-            {
-              "ModifierName": "W_SpecialBP_RecoverSPModifier",
-              "Probability": {
-                "Value": 1
-              },
-              "MaxGap": 1,
-              "DisplayText": "W_SpecialBP_RecoverSPText",
-              "DisplayStyle": "Red"
-            }
-          ]
+          "$type": "RPG.GameCore.Obsolete",
+          "Message": "SpecialBP 配置方式调整，需要修改配置"
         }
       ]
     },
@@ -1005,18 +995,8 @@
       "Name": "W_SpecialBP_AddDamage_Tutorial",
       "OnAdd": [
         {
-          "$type": "RPG.GameCore.SetSpecialBPConfig",
-          "EventList": [
-            {
-              "ModifierName": "W_SpecialBP_AddDamageModifier",
-              "Probability": {
-                "Value": 1
-              },
-              "MaxGap": 4,
-              "DisplayText": "W_SpecialBP_AddDamageText",
-              "DisplayStyle": "Red"
-            }
-          ]
+          "$type": "RPG.GameCore.Obsolete",
+          "Message": "SpecialBP 配置方式调整，需要修改配置"
         }
       ]
     },
@@ -1024,18 +1004,8 @@
       "Name": "W_SpecialBP_InsertTurn_Tutorial",
       "OnAdd": [
         {
-          "$type": "RPG.GameCore.SetSpecialBPConfig",
-          "EventList": [
-            {
-              "ModifierName": "W_SpecialBP_GetInsertTurn",
-              "Probability": {
-                "Value": 1
-              },
-              "MaxGap": 4,
-              "DisplayText": "W_SpecialBP_GetInsertTurn",
-              "DisplayStyle": "Red"
-            }
-          ]
+          "$type": "RPG.GameCore.Obsolete",
+          "Message": "SpecialBP 配置方式调整，需要修改配置"
         }
       ]
     },
@@ -1043,18 +1013,8 @@
       "Name": "W_SpecialBP_AddDamage",
       "OnAdd": [
         {
-          "$type": "RPG.GameCore.SetSpecialBPConfig",
-          "EventList": [
-            {
-              "ModifierName": "W_SpecialBP_AddDamageModifier",
-              "Probability": {
-                "Value": 0.35
-              },
-              "MaxGap": 4,
-              "DisplayText": "W_SpecialBP_AddDamageText",
-              "DisplayStyle": "Red"
-            }
-          ]
+          "$type": "RPG.GameCore.Obsolete",
+          "Message": "SpecialBP 配置方式调整，需要修改配置"
         }
       ]
     },
@@ -1062,18 +1022,8 @@
       "Name": "W_SpecialBP_InsertTurn",
       "OnAdd": [
         {
-          "$type": "RPG.GameCore.SetSpecialBPConfig",
-          "EventList": [
-            {
-              "ModifierName": "W_SpecialBP_GetInsertTurn",
-              "Probability": {
-                "Value": 0.35
-              },
-              "MaxGap": 4,
-              "DisplayText": "W_SpecialBP_GetInsertTurn",
-              "DisplayStyle": "Red"
-            }
-          ]
+          "$type": "RPG.GameCore.Obsolete",
+          "Message": "SpecialBP 配置方式调整，需要修改配置"
         }
       ]
     },
@@ -1106,24 +1056,8 @@
               "Event": "OnDeathrattle",
               "CallbackConfig": [
                 {
-                  "$type": "RPG.GameCore.ModifyTeamBoostPoint",
-                  "ModifyFunction": "Add",
-                  "ModifyValue": {
-                    "IsDynamic": false,
-                    "FixedValue": {
-                      "Value": 1
-                    }
-                  },
-                  "OverrideSpecialBpConfigEventList": [
-                    {
-                      "ModifierName": "W_SpecialBP_GetInsertTurn",
-                      "Probability": {
-                        "Value": 1
-                      },
-                      "DisplayText": "W_SpecialBP_GetInsertTurn",
-                      "DisplayStyle": "Red"
-                    }
-                  ]
+                  "$type": "RPG.GameCore.Obsolete",
+                  "Message": "SpecialBP 配置方式调整，需要修改配置"
                 }
               ]
             }

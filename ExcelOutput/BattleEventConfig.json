@@ -6422,35 +6422,6 @@
     ],
     "AssetPackName": ""
   },
-  "96082": {
-    "BattleEventID": 96082,
-    "Team": "TeamNeutral",
-    "EventSubType": "AssistEvent",
-    "BattleEventName": "BattleEventName_96082",
-    "HeadIcon": "",
-    "AbilityList": [
-      "BattleEventAbility_SummonMonsterInfinite"
-    ],
-    "OverrideProperty": [
-      {
-        "PropertyType": "BaseHP",
-        "Value": {
-          "Value": 90
-        }
-      }
-    ],
-    "Speed": {
-      "Value": 100
-    },
-    "HardLevel": true,
-    "DescrptionText": "BattleEventDesc_96082",
-    "ParamList": [
-      {
-        "Value": 0.5
-      }
-    ],
-    "AssetPackName": ""
-  },
   "96083": {
     "BattleEventID": 96083,
     "Team": "TeamLight",
@@ -6568,6 +6539,44 @@
     ],
     "AssetPackName": ""
   },
+  "30126": {
+    "BattleEventID": 30126,
+    "Team": "TeamNeutral",
+    "EventSubType": "ChallengerEvent",
+    "BattleEventName": "BattleEventName_30126",
+    "HeadIcon": "SpriteOutput/AvatarIconTeam/999.png",
+    "AbilityList": [
+      "BattleEventAbility_Challenge_Month_26"
+    ],
+    "OverrideProperty": [
+      {
+        "PropertyType": "BaseHP",
+        "Value": {
+          "Value": 90
+        }
+      }
+    ],
+    "Speed": {
+      "Value": 100
+    },
+    "HardLevel": true,
+    "DescrptionText": "BattleEventDesc_30126",
+    "ParamList": [
+      {
+        "Value": 6
+      },
+      {
+        "Value": 0.05
+      },
+      {
+        "Value": 0.6
+      },
+      {
+        "Value": 0.15
+      }
+    ],
+    "AssetPackName": ""
+  },
   "61013": {
     "BattleEventID": 61013,
     "Team": "TeamNeutral",
@@ -6595,6 +6604,55 @@
         "Value": 0.5
       }
     ],
+    "AssetPackName": ""
+  },
+  "96082": {
+    "BattleEventID": 96082,
+    "Team": "TeamNeutral",
+    "EventSubType": "AssistEvent",
+    "BattleEventName": "BattleEventName_96082",
+    "HeadIcon": "",
+    "AbilityList": [
+      "BattleEventAbility_SummonMonsterInfinite"
+    ],
+    "OverrideProperty": [
+      {
+        "PropertyType": "BaseHP",
+        "Value": {
+          "Value": 90
+        }
+      }
+    ],
+    "Speed": {
+      "Value": 100
+    },
+    "HardLevel": true,
+    "DescrptionText": "BattleEventDesc_96082",
+    "ParamList": [
+      {
+        "Value": 0.5
+      }
+    ],
+    "AssetPackName": ""
+  },
+  "96085": {
+    "BattleEventID": 96085,
+    "Team": "TeamLight",
+    "EventSubType": "AssistEvent",
+    "BattleEventName": "BattleEventName_96085",
+    "HeadIcon": "SpriteOutput/BattleEventIcon/BattleEvent_FeverTimeLastPhase.png",
+    "AbilityList": [],
+    "OverrideProperty": [
+      {
+        "PropertyType": "BaseHP",
+        "Value": {
+          "Value": 90
+        }
+      }
+    ],
+    "HardLevel": true,
+    "DescrptionText": "BattleEventDesc_96085",
+    "ParamList": [],
     "AssetPackName": ""
   }
 }

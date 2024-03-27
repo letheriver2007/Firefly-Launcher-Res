@@ -12,8 +12,7 @@
       "PosY": 18.39,
       "PosZ": -46.75,
       "Name": "ShipPos2",
-      "RotY": 89.99992,
-      "MapLayerID": 2
+      "RotY": 89.99992
     },
     {
       "ID": 2,
@@ -21,8 +20,7 @@
       "PosY": 18.39,
       "PosZ": -1.75,
       "Name": "ShipPos1",
-      "RotY": 89.99992,
-      "MapLayerID": 2
+      "RotY": 89.99992
     },
     {
       "ID": 3,
@@ -32,7 +30,6 @@
       "Name": "Cam1",
       "RotY": 329.9999,
       "RotX": 5.000002,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -43,7 +40,6 @@
       "Name": "Cam2",
       "RotY": 270.0,
       "RotX": 355.0,
-      "MapLayerID": 2,
       "Usage": "Camera"
     },
     {
@@ -52,8 +48,7 @@
       "PosY": 19.849,
       "PosZ": -50.04,
       "Name": "Anchor5",
-      "RotY": 270.0002,
-      "MapLayerID": 2
+      "RotY": 270.0002
     }
   ],
   "MonsterList": [],
@@ -91,7 +86,6 @@
         "Server": true
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -149,7 +143,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -180,7 +173,6 @@
       },
       "CampID": 4,
       "State": "ChestClosed",
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "ChestID": 20221653,
@@ -214,7 +206,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "MappingInfoID": 10046,
@@ -244,7 +235,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -270,7 +260,6 @@
           }
         ]
       },
-      "MapLayerID": 2,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -302,7 +291,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -365,7 +353,6 @@
         ]
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

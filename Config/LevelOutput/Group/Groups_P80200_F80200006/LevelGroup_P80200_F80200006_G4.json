@@ -16,34 +16,6 @@
   },
   "ConflictIDList": [],
   "IsHoyoGroup": true,
-  "ConflictSpatialInfo": {
-    "CompactGridList": [],
-    "LowerUpperBounds": {}
-  },
-  "StreamingSpatialInfo": {
-    "CompactGridList": [
-      68,
-      -64,
-      67,
-      -62,
-      69,
-      -62,
-      63,
-      -48,
-      64,
-      -48,
-      64,
-      -47,
-      66,
-      -47,
-      64,
-      -46
-    ],
-    "LowerUpperBounds": {
-      "x": 14,
-      "y": 20
-    }
-  },
   "ConflictWhiteList": [],
   "AnchorList": [
     {
@@ -52,8 +24,7 @@
       "PosY": 28.35859,
       "PosZ": -125.373,
       "Name": "Anchor1",
-      "RotY": 60.0,
-      "MapLayerID": 1
+      "RotY": 60.0
     }
   ],
   "MonsterList": [],
@@ -86,7 +57,6 @@
       },
       "CampID": 4,
       "State": "CustomState01",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -121,7 +91,6 @@
       "CampID": 4,
       "State": "Hidden",
       "EventID": 81311903,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -153,7 +122,6 @@
       "CampID": 4,
       "State": "Hidden",
       "EventID": 81311904,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -185,7 +153,6 @@
       "CampID": 4,
       "State": "Hidden",
       "EventID": 81311905,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -217,7 +184,6 @@
       },
       "CampID": 4,
       "EventID": 10000,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -243,7 +209,6 @@
       "InitLevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/Maze_RogueDLC_AdvAreaReady.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -267,7 +232,6 @@
       "InitLevelGraph": "Config/Level/Maze/MazeRogue/Rogue130/Maze_RogueDLC_AdvTransform.json",
       "ValueSource": {},
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],
@@ -299,7 +263,6 @@
       "CampID": 4,
       "State": "Hidden",
       "EventID": 81311904,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "CustomTriggerMapV2": {},
       "BridgeStateRotations": [],

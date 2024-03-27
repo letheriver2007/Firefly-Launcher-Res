@@ -10,8 +10,7 @@
       "ID": 1,
       "PosX": 0.03,
       "PosZ": 3.44,
-      "Name": "Anchor1",
-      "MapLayerID": 1
+      "Name": "Anchor1"
     }
   ],
   "MonsterList": [],
@@ -36,7 +35,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "OverrideHintRange": 3.0,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
@@ -57,7 +55,6 @@
       "DialogueTriggerAngle": 90,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -106,7 +103,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "SitReading01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "PossessionConfig": {
         "Name": "Possession_Book_A_02"
       },
@@ -153,7 +149,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Think01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,
@@ -215,7 +210,6 @@
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
       "DefaultLookAtMode": "Closed",
-      "MapLayerID": 1,
       "BoardShowList": [
         1,
         4,

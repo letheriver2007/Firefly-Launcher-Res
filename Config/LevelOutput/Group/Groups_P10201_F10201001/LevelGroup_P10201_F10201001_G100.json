@@ -23,8 +23,7 @@
       "PosY": -1.030875,
       "PosZ": -120.32,
       "Name": "Anchor1",
-      "RotY": 40.52686,
-      "MapLayerID": 1
+      "RotY": 40.52686
     },
     {
       "ID": 2,
@@ -32,8 +31,7 @@
       "PosY": -1.031706,
       "PosZ": -121.78,
       "Name": "Anchor2",
-      "RotY": 3.67986,
-      "MapLayerID": 1
+      "RotY": 3.67986
     },
     {
       "ID": 3,
@@ -41,8 +39,7 @@
       "PosY": -1.031459,
       "PosZ": -121.8,
       "Name": "Anchor3",
-      "RotY": 12.05835,
-      "MapLayerID": 1
+      "RotY": 12.05835
     },
     {
       "ID": 4,
@@ -50,8 +47,7 @@
       "PosY": -1.030875,
       "PosZ": -121.87,
       "Name": "Anchor4",
-      "RotY": 346.3457,
-      "MapLayerID": 1
+      "RotY": 346.3457
     }
   ],
   "MonsterList": [],
@@ -72,7 +68,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -92,7 +87,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Exciting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -755248198
@@ -125,7 +119,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1132205696
@@ -159,7 +152,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "ServiceStand01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 100020336,
@@ -181,7 +173,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,
@@ -199,7 +190,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "Exciting01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": -755248198
@@ -232,7 +222,6 @@
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
       "DefaultIdleStateName": "HoldArm01Loop",
-      "MapLayerID": 1,
       "BoardShowList": [],
       "OverrideNPCName": {
         "Hash": 1132205696
@@ -264,7 +253,6 @@
       "NPCID": 1991,
       "DialogueGroups": [],
       "ServerInteractVerificationIDList": [],
-      "MapLayerID": 1,
       "BoardShowList": [],
       "TalkDialogGroupIDList": [],
       "DefaultIdleFreeStyleMotionID": 380010000,

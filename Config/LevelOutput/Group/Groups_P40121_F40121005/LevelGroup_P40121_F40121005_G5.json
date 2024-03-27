@@ -10,16 +10,14 @@
       "PosX": 135.12,
       "PosY": 29.18,
       "PosZ": -125.26,
-      "Name": "300005_1F",
-      "MapLayerID": 1
+      "Name": "300005_1F"
     },
     {
       "ID": 4,
       "PosX": 135.12,
       "PosY": 59.00788,
       "PosZ": -125.26,
-      "Name": "300005_2F",
-      "MapLayerID": 1
+      "Name": "300005_2F"
     }
   ],
   "MonsterList": [],
@@ -64,7 +62,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -96,7 +93,6 @@
         "DimY": 1.0,
         "DimZ": 1.0
       },
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -153,7 +149,6 @@
         "DimZ": 2.0
       },
       "State": "Elevator2",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -168,7 +163,6 @@
       "Name": "Prop35",
       "PropID": 301005,
       "IsOverrideInitLevelGraph": true,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],
@@ -192,7 +186,6 @@
       },
       "CampID": 4,
       "State": "Hidden",
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

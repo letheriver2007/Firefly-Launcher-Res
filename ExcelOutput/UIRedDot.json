@@ -255,11 +255,28 @@
     "Type": 3,
     "Weight": []
   },
-  "HandbookGuideChallengeLatestUpdate": {
-    "RedDot": "HandbookGuideChallengeLatestUpdate",
+  "HandbookGuideChallengeLatestUpdateTabNew": {
+    "RedDot": "HandbookGuideChallengeLatestUpdateTabNew",
     "RedDotChildren": [],
     "Type": 3,
     "Weight": []
+  },
+  "HandbookGuideChallengeLatestUpdateTabShop": {
+    "RedDot": "HandbookGuideChallengeLatestUpdateTabShop",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "HandbookGuideChallengeLatestUpdate": {
+    "RedDot": "HandbookGuideChallengeLatestUpdate",
+    "RedDotChildren": [
+      "HandbookGuideChallengeLatestUpdateTabNew",
+      "HandbookGuideChallengeLatestUpdateTabShop"
+    ],
+    "Weight": [
+      3,
+      1
+    ]
   },
   "HandbookGuideChallengeSubTab": {
     "RedDot": "HandbookGuideChallengeSubTab",
@@ -270,11 +287,14 @@
   "HandbookGuideChallenge": {
     "RedDot": "HandbookGuideChallenge",
     "RedDotChildren": [
-      "HandbookGuideChallengeLatestUpdate",
+      "HandbookGuideChallengeLatestUpdateTabNew",
+      "HandbookGuideChallengeLatestUpdateTabShop",
       "HandbookGuideChallengeSubTab"
     ],
-    "Type": 1,
-    "Weight": []
+    "Weight": [
+      3,
+      1
+    ]
   },
   "HandbookGuideRogueNew": {
     "RedDot": "HandbookGuideRogueNew",
@@ -320,7 +340,8 @@
       "DailyMission",
       "AdventureBook",
       "HandbookGuideRogueReward",
-      "HandBookBattleCollegeReward"
+      "HandBookBattleCollegeReward",
+      "HandbookGuideChallengeLatestUpdateTabShop"
     ],
     "Type": 1,
     "Weight": [
@@ -1189,6 +1210,18 @@
     "Type": 3,
     "Weight": []
   },
+  "AvatarInfoTab": {
+    "RedDot": "AvatarInfoTab",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "AvatarCampNew": {
+    "RedDot": "AvatarCampNew",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
   "MonsterArchive": {
     "RedDot": "MonsterArchive",
     "RedDotChildren": [],
@@ -1199,6 +1232,12 @@
     "RedDot": "LightConeArchive",
     "RedDotChildren": [],
     "Type": 3,
+    "Weight": []
+  },
+  "ArchiveEntry": {
+    "RedDot": "ArchiveEntry",
+    "RedDotChildren": [],
+    "Type": 1,
     "Weight": []
   },
   "NounArchive": {
@@ -2821,8 +2860,48 @@
     "Type": 1,
     "Weight": []
   },
+  "HasNormalShopGoodTab": {
+    "RedDot": "HasNormalShopGoodTab",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ShopTab": {
+    "RedDot": "ShopTab",
+    "RedDotChildren": [
+      "HasNormalShopGoodTab",
+      "HasNewShopGoodTab"
+    ],
+    "Weight": [
+      1,
+      3
+    ]
+  },
   "NewShopGood": {
     "RedDot": "NewShopGood",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "NormalShopGood": {
+    "RedDot": "NormalShopGood",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ShopGood": {
+    "RedDot": "ShopGood",
+    "RedDotChildren": [
+      "NormalShopGood",
+      "NewShopGood"
+    ],
+    "Weight": [
+      1,
+      3
+    ]
+  },
+  "CoinGiftReset": {
+    "RedDot": "CoinGiftReset",
     "RedDotChildren": [],
     "Type": 3,
     "Weight": []
@@ -3411,6 +3490,266 @@
   "ActivityTelevisionQuestRewardTab": {
     "RedDot": "ActivityTelevisionQuestRewardTab",
     "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityDrinkMaker": {
+    "RedDot": "ActivityDrinkMaker",
+    "RedDotChildren": [
+      "DrinkMakerNewDrink",
+      "DrinkMakerNewCustomDrink",
+      "DrinkMakerNewIngredient",
+      "DrinkMakerHandBookEntrance",
+      "DrinkMakerNewChallenge",
+      "DrinkMakerChallengeEntrance",
+      "DrinkMakerGoToEveryDay",
+      "DrinkMakerActivityGoTo",
+      "DrinkMakerOfferSubmit",
+      "DrinkMakerOfferEntrance",
+      "DrinkMakerTimeLimitRewardNew",
+      "DrinkMakerTimeLimitRewardEntrance",
+      "DrinkMakerAvatarRewardTake",
+      "DrinkMakerAvatarRewardNew",
+      "DrinkMakerAvatarRewardEntrance",
+      "DrinkMakerGuestFinishReward",
+      "DrinkMakerResidentActivityGoTo",
+      "DrinkMakerWorkBookEntrance"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerGuestFinishReward": {
+    "RedDot": "DrinkMakerGuestFinishReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerResidentActivityGoTo": {
+    "RedDot": "DrinkMakerResidentActivityGoTo",
+    "RedDotChildren": [
+      "DrinkMakerNewChallenge",
+      "DrinkMakerGuestFinishReward"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerWorkBookEntrance": {
+    "RedDot": "DrinkMakerWorkBookEntrance",
+    "RedDotChildren": [
+      "DrinkMakerGuestFinishReward"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerNewDrink": {
+    "RedDot": "DrinkMakerNewDrink",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerNewCustomDrink": {
+    "RedDot": "DrinkMakerNewCustomDrink",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerNewIngredient": {
+    "RedDot": "DrinkMakerNewIngredient",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerHandBookEntrance": {
+    "RedDot": "DrinkMakerHandBookEntrance",
+    "RedDotChildren": [
+      "DrinkMakerNewDrink",
+      "DrinkMakerNewCustomDrink",
+      "DrinkMakerNewIngredient"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerNewChallenge": {
+    "RedDot": "DrinkMakerNewChallenge",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerChallengeEntrance": {
+    "RedDot": "DrinkMakerChallengeEntrance",
+    "RedDotChildren": [
+      "DrinkMakerNewChallenge"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerGoToEveryDay": {
+    "RedDot": "DrinkMakerGoToEveryDay",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerActivityGoTo": {
+    "RedDot": "DrinkMakerActivityGoTo",
+    "RedDotChildren": [
+      "DrinkMakerGoToEveryDay",
+      "DrinkMakerOfferEntrance",
+      "DrinkMakerGuestFinishReward"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerOfferSubmit": {
+    "RedDot": "DrinkMakerOfferSubmit",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerOfferEntrance": {
+    "RedDot": "DrinkMakerOfferEntrance",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerTimeLimitReward": {
+    "RedDot": "DrinkMakerTimeLimitReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerTimeLimitRewardTab": {
+    "RedDot": "DrinkMakerTimeLimitRewardTab",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerTimeLimitRewardNew": {
+    "RedDot": "DrinkMakerTimeLimitRewardNew",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerTimeLimitRewardEntrance": {
+    "RedDot": "DrinkMakerTimeLimitRewardEntrance",
+    "RedDotChildren": [
+      "DrinkMakerTimeLimitReward",
+      "DrinkMakerTimeLimitRewardNew"
+    ],
+    "Weight": [
+      2,
+      1
+    ]
+  },
+  "DrinkMakerAvatarRewardTake": {
+    "RedDot": "DrinkMakerAvatarRewardTake",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "DrinkMakerAvatarRewardNew": {
+    "RedDot": "DrinkMakerAvatarRewardNew",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "DrinkMakerAvatarRewardEntrance": {
+    "RedDot": "DrinkMakerAvatarRewardEntrance",
+    "RedDotChildren": [
+      "DrinkMakerAvatarRewardTake",
+      "DrinkMakerAvatarRewardNew"
+    ],
+    "Weight": [
+      2,
+      1
+    ]
+  },
+  "ActivityMonopolyBtnGoTo": {
+    "RedDot": "ActivityMonopolyBtnGoTo",
+    "RedDotChildren": [
+      "ActivityMonopolyQuestReward",
+      "ActivityMonopolyProgressReward",
+      "ActivityMonopolyTicketReward",
+      "ActivityMonopolyContributionReward",
+      "ActivityMonopolyMBTIReward",
+      "ActivityMonopolyBtnGoToEveryDay",
+      "ActivityMonopolyDailyRewardHint"
+    ],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyBtnGoToEveryDay": {
+    "RedDot": "ActivityMonopolyBtnGoToEveryDay",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyQuestReward": {
+    "RedDot": "ActivityMonopolyQuestReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyProgressReward": {
+    "RedDot": "ActivityMonopolyProgressReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyTicketReward": {
+    "RedDot": "ActivityMonopolyTicketReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyContributionReward": {
+    "RedDot": "ActivityMonopolyContributionReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyMBTIReward": {
+    "RedDot": "ActivityMonopolyMBTIReward",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyFriendLikeHint": {
+    "RedDot": "ActivityMonopolyFriendLikeHint",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityFeverTimeQuestRewardTab": {
+    "RedDot": "ActivityFeverTimeQuestRewardTab",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityFeverTimeLevelUnlock": {
+    "RedDot": "ActivityFeverTimeLevelUnlock",
+    "RedDotChildren": [],
+    "Type": 3,
+    "Weight": []
+  },
+  "ActivityFeverTimeGoToEveryDay": {
+    "RedDot": "ActivityFeverTimeGoToEveryDay",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyDailyRewardHint": {
+    "RedDot": "ActivityMonopolyDailyRewardHint",
+    "RedDotChildren": [],
+    "Type": 1,
+    "Weight": []
+  },
+  "ActivityMonopolyBtnEntrance": {
+    "RedDot": "ActivityMonopolyBtnEntrance",
+    "RedDotChildren": [
+      "ActivityMonopolyDailyRewardHint",
+      "ActivityMonopolyMBTIReward",
+      "ActivityMonopolyQuestReward"
+    ],
     "Type": 1,
     "Weight": []
   }

@@ -28,16 +28,14 @@
       "PosY": 15.72886,
       "PosZ": 5.537459,
       "Name": "Anchor1",
-      "RotY": 87.64112,
-      "MapLayerID": 1
+      "RotY": 87.64112
     },
     {
       "ID": 2,
       "PosX": -403.1075,
       "PosY": -34.55621,
       "PosZ": 17.42609,
-      "Name": "Anchor2",
-      "MapLayerID": 1
+      "Name": "Anchor2"
     },
     {
       "ID": 3,
@@ -45,8 +43,7 @@
       "PosY": 15.70887,
       "PosZ": 5.52,
       "Name": "Anchor3",
-      "RotY": 87.16022,
-      "MapLayerID": 1
+      "RotY": 87.16022
     },
     {
       "ID": 4,
@@ -57,7 +54,6 @@
       "RotY": 91.29964,
       "RotX": 339.9864,
       "RotZ": 1.0E-6,
-      "MapLayerID": 1,
       "Usage": "Camera"
     },
     {
@@ -65,8 +61,7 @@
       "PosX": -184.92,
       "PosY": 18.89,
       "PosZ": 4.32,
-      "Name": "Anchor5",
-      "MapLayerID": 1
+      "Name": "Anchor5"
     },
     {
       "ID": 6,
@@ -74,8 +69,7 @@
       "PosY": -34.55619,
       "PosZ": 4.346677,
       "Name": "Anchor6",
-      "RotY": 275.633,
-      "MapLayerID": 1
+      "RotY": 275.633
     }
   ],
   "MonsterList": [],
@@ -96,7 +90,6 @@
         "PointList": []
       },
       "CampID": 4,
-      "MapLayerID": 1,
       "CustomTriggerMap": {},
       "BridgeStateRotations": [],
       "DialogueGroups": [],

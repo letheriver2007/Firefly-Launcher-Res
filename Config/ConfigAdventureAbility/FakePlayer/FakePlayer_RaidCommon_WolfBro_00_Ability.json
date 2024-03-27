@@ -118,6 +118,9 @@
               }
             },
             {
+              "$type": "RPG.GameCore.WolfBroUseBullet"
+            },
+            {
               "$type": "RPG.GameCore.TriggerEffect",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -147,18 +150,19 @@
               "Projectile": {
                 "ColliderTemplate": "CapsuleZ_MiniHeroBullet",
                 "Behavior": "LinearWithHitDetect",
-                "FlySpeed": 9,
+                "FlySpeed": 15,
                 "EnableRayCast": true,
                 "Gravity": 0,
                 "MaxLifeTime": 5,
                 "AttachPoint": "Muzzle",
                 "TargetAttachPoint": "Root",
                 "FlyEffect": "Effects/Eff_Prefab/Eff_Common/Eff_FakePlayer_MiniHero_Bullet.prefab",
-                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha01_00/Eff_Monster_W1_Mecha01_00_Skill03_Explode.prefab"
+                "HitEffect": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_FakePlayer_Special_WolfBro_00_Explosive.prefab",
+                "AlignHitEffect": true
               },
               "OnProjectileHit": [
                 {
-                  "$type": "RPG.GameCore.AdventureTriggerAttack",
+                  "$type": "RPG.GameCore.WolfBroUseBulletHitTarget",
                   "AttackTargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllEnemy"
@@ -167,18 +171,15 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ProjectileHitEntity"
                   },
-                  "TriggerBattleDelay": 0.2,
                   "AttackDetectConfig": {
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                    "MaxRadius": 4,
+                    "MaxRadius": 3,
                     "FanAngle": 360,
-                    "Hight": 4
+                    "Hight": 3
                   },
                   "HitConfig": {
-                    "HitAnimation": "Hit",
-                    "HitSoundEvent": "Ev_sfx_avatar_atk_cast_hit_mar7th"
-                  },
-                  "EnterBattleSelectTargetType": "AllHitTarget"
+                    "HitAnimation": "Hit"
+                  }
                 },
                 {
                   "$type": "RPG.GameCore.VCameraConfigChange",
@@ -248,6 +249,9 @@
               "BlurFeather": 0.01
             },
             {
+              "$type": "RPG.GameCore.WolfBroUseBullet"
+            },
+            {
               "$type": "RPG.GameCore.AdventureFireProjectile",
               "TargetType": {
                 "$type": "RPG.GameCore.TargetAlias",
@@ -256,18 +260,18 @@
               "Projectile": {
                 "ColliderTemplate": "CapsuleZ_MiniHeroBullet",
                 "Behavior": "LinearWithHitDetect",
-                "FlySpeed": 9,
+                "FlySpeed": 15,
                 "EnableRayCast": true,
                 "Gravity": 0,
                 "MaxLifeTime": 5,
                 "AttachPoint": "Muzzle",
                 "TargetAttachPoint": "Root",
                 "FlyEffect": "Effects/Eff_Prefab/Eff_Common/Eff_FakePlayer_MiniHero_Bullet.prefab",
-                "HitEffect": "Effects/Eff_Prefab/Eff_Monster/Eff_W1_Mecha01_00/Eff_Monster_W1_Mecha01_00_Skill03_Explode.prefab"
+                "HitEffect": "Effects/Eff_Prefab/Eff_Scene/InteractiveProp/Eff_FakePlayer_Special_WolfBro_00_Explosive.prefab"
               },
               "OnProjectileHit": [
                 {
-                  "$type": "RPG.GameCore.AdventureTriggerAttack",
+                  "$type": "RPG.GameCore.WolfBroUseBulletHitTarget",
                   "AttackTargetType": {
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "AllEnemy"
@@ -276,18 +280,15 @@
                     "$type": "RPG.GameCore.TargetAlias",
                     "Alias": "ProjectileHitEntity"
                   },
-                  "TriggerBattleDelay": 0.2,
                   "AttackDetectConfig": {
                     "$type": "RPG.GameCore.AdventureAttackDetectCircleConfig",
-                    "MaxRadius": 4,
+                    "MaxRadius": 3,
                     "FanAngle": 360,
-                    "Hight": 4
+                    "Hight": 3
                   },
                   "HitConfig": {
-                    "HitAnimation": "Hit",
-                    "HitSoundEvent": "Ev_sfx_avatar_atk_cast_hit_mar7th"
-                  },
-                  "EnterBattleSelectTargetType": "AllHitTarget"
+                    "HitAnimation": "Hit"
+                  }
                 },
                 {
                   "$type": "RPG.GameCore.VCameraConfigChange",
